@@ -940,3 +940,73 @@ a {
 .newsletter-preview ul {
   padding-left: 20px;
 }
+
+.publication-list {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  gap: 18px;
+}
+
+.publication-card {
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--white);
+  box-shadow: var(--shadow-soft);
+}
+
+.publication-card h3 {
+  margin: 18px 0 10px;
+  font-size: clamp(1.35rem, 2.6vw, 2rem);
+}
+
+.publication-card p {
+  margin: 12px 0 0;
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+.publication-card .article-link {
+  margin-top: 18px;
+}
+
+.publication-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.publication-meta span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 0 10px;
+  border-radius: 999px;
+  background: var(--green-soft);
+  color: var(--green);
+  font-size: 0.78rem;
+  font-weight: 850;
+}
+
+.publication-citation {
+  font-size: 0.94rem;
+}
+
+.external-profile {
+  margin-top: 28px;
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: rgba(255, 253, 248, 0.76);
+}
+
+.external-profile strong {
+  display: block;
+  color: var(--ink);
+  font-size: 1.05rem;
+}
+
+.external-profile p {
+  margin: 10px 0 0;
+}
