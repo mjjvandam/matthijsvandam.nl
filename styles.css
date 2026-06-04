@@ -500,6 +500,28 @@ a {
     linear-gradient(90deg, var(--paper), var(--green-soft));
 }
 
+.about-heading {
+  align-self: start;
+}
+
+.bio-portrait {
+  max-width: 360px;
+  margin: 34px 0 0;
+  overflow: hidden;
+  border: 1px solid rgba(36, 76, 61, 0.14);
+  border-radius: 18px;
+  background: var(--white);
+  box-shadow: var(--shadow-soft);
+}
+
+.bio-portrait img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
+}
+
 .articles-band {
   background: var(--paper);
 }
