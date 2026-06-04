@@ -1104,6 +1104,14 @@ a {
   gap: 12px 18px;
 }
 
+.article-filter-actions {
+  margin: -14px auto 28px;
+}
+
+.section-actions-secondary {
+  margin-top: 26px;
+}
+
 .listing-page {
   min-height: 100vh;
   background: var(--paper);
