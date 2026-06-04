@@ -595,7 +595,8 @@ a {
 
 .article-card h3 {
   margin: 0 0 12px;
-  font-size: 1.38rem;
+  font-size: clamp(1.08rem, 1.8vw, 1.24rem);
+  line-height: 1.24;
 }
 
 .article-card p {
@@ -986,6 +987,7 @@ a {
 }
 
 .article-meta span,
+.article-meta a,
 .newsletter-preview strong {
   display: inline-flex;
   align-items: center;
@@ -996,6 +998,39 @@ a {
   color: var(--green);
   font-size: 0.82rem;
   font-weight: 850;
+}
+
+.article-meta a {
+  text-decoration: none;
+}
+
+.article-meta a:hover {
+  background: var(--green);
+  color: var(--white);
+}
+
+.patient-callout,
+.patient-disclaimer {
+  margin: 34px 0;
+  padding: 20px 22px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--clay);
+  border-radius: 14px;
+  background: rgba(255, 253, 248, 0.82);
+}
+
+.patient-callout strong,
+.patient-disclaimer strong {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--ink);
+}
+
+.patient-callout p,
+.patient-disclaimer p {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.65;
 }
 
 .article-page .source-note,
