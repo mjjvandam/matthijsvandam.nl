@@ -355,12 +355,7 @@
 
       <section class="section publication-band" id="publicaties" aria-labelledby="publication-title">
         <div class="section-heading">
-          <p class="section-kicker">Publicaties</p>
           <h2 id="publication-title">Publicaties en bijdragen</h2>
-          <p>
-            Een korte selectie van recente wetenschappelijke publicaties en professionele bijdragen.
-            Oudere publicaties staan op de aparte overzichtspagina.
-          </p>
         </div>
         <div class="publication-list publication-list-compact" aria-label="Recente publicaties en bijdragen">
           <article class="publication-card">
@@ -471,11 +466,11 @@
           <form class="contact-form" data-contact-form>
             <label>
               Naam
-              <input name="naam" type="text" autocomplete="name" required>
+              <input name="naam" type="text" autocomplete="name" maxlength="120" required>
             </label>
             <label>
               E-mailadres
-              <input name="email" type="email" autocomplete="email" required>
+              <input name="email" type="email" autocomplete="email" maxlength="180" required>
             </label>
             <label>
               Type vraag
@@ -491,11 +486,11 @@
             </label>
             <label>
               Onderwerp
-              <input name="onderwerp" type="text" autocomplete="off" required>
+              <input name="onderwerp" type="text" autocomplete="off" maxlength="160" required>
             </label>
             <label>
               Bericht
-              <textarea name="bericht" rows="6" required></textarea>
+              <textarea name="bericht" rows="6" maxlength="4000" required></textarea>
             </label>
             <label class="consent-row">
               <input name="geen_medische_gegevens" type="checkbox" required>

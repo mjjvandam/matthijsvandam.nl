@@ -23,18 +23,31 @@ Aanwezig:
 - social preview PNG
 - nieuwsbriefstructuur met twee doelgroepen
 - basis SEO en structured data
+- contactformulier via een Vercel Function en Resend
 
 ## Nog handmatig beslissen
 
 - Definitieve foto/portret of hero-beeld.
-- Definitieve contactroute en e-mailadres.
 - Nieuwsbriefdienst kiezen en pas daarna koppelen.
 - Medische/professionele claims inhoudelijk nalopen.
-- Hosting kiezen: Vercel, Netlify, Cloudflare Pages of gewone statische hosting.
+
+## Contactformulier via Vercel
+
+Het contactformulier verstuurt berichten via `/api/contact`. Voor live gebruik zijn in Vercel
+deze Environment Variables nodig:
+
+- `RESEND_API_KEY`: API-key uit Resend.
+- `CONTACT_TO_EMAIL`: het e-mailadres waarop berichten moeten binnenkomen.
+- `CONTACT_FROM_EMAIL`: de afzender die in Resend is toegestaan, bijvoorbeeld
+  `Matthijs van Dam <website@matthijsvandam.nl>`.
+
+In Resend moet het gebruikte domein of subdomein eerst zijn geverifieerd met de DNS-records
+die Resend opgeeft. Die records worden bij TransIP toegevoegd. Zonder deze instellingen toont
+het formulier een foutmelding en wordt er geen bericht verzonden.
 
 ## Simpele livegang
 
-Upload alle bestanden in deze map naar de webroot van `matthijsvandam.nl`.
+Publiceer via Vercel vanuit de GitHub-repository.
 Controleer daarna:
 
 - `https://matthijsvandam.nl/`

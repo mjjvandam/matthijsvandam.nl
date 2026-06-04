@@ -95,6 +95,6 @@ contactForm?.addEventListener("submit", async (event) => {
     contactStatus.textContent = "Dank je. Je bericht is verzonden.";
   } catch (error) {
     contactStatus.textContent =
-      "Verzenden lukt nu nog niet. De mailkoppeling wordt bij livegang geactiveerd.";
+      "Verzenden lukt nu niet. Probeer het later opnieuw of gebruik de officiele ETZ-kanalen voor patientenzorg.";
   }
 });
