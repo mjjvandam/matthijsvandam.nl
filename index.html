@@ -269,39 +269,39 @@
       <section class="section articles-band" id="artikelen" aria-labelledby="articles-title">
         <div class="section-heading">
           <p class="section-kicker">Artikelen</p>
-          <h2 id="articles-title">Ruimte voor verdieping</h2>
+          <h2 id="articles-title">Artikelen en updates</h2>
           <p>
-            Hier kunnen straks artikelen komen over orthopedie, herstel, leefstijl, innovatie,
-            onderzoek en onderwijs. De insteek: begrijpelijk, zorgvuldig en zonder medisch advies op maat.
+            Artikelen krijgen doelgroep-labels. Daardoor kunnen ze later automatisch worden meegenomen
+            in de juiste nieuwsbrief: voor patienten, voor zorgprofessionals of voor allebei.
           </p>
         </div>
-        <div class="article-grid">
-          <article class="article-card">
-            <p class="article-label">Patienten</p>
-            <h3>Artrose van de knie, gewicht en begripvolle zorg</h3>
+        <div class="article-grid" data-article-grid>
+          <article class="article-card" data-newsletter="patienten zorgprofessionals">
+            <p class="article-label">Onderzoek - Beide nieuwsbrieven</p>
+            <h3>Digitaal zorgpad voor artrose en obesitas</h3>
             <p>
-              Een toegankelijk artikel over artrose, belasting, leefstijl en obesitas zonder
-              beschuldiging of stigma.
+              Over de Leefstijlcoalitie-voucher om in het ETZ een digitaal zorgpad voor artrose en
+              obesitas uit te rollen met partners in ziekenhuis en regio.
             </p>
-            <span>Conceptartikel</span>
+            <a class="article-link" href="artikelen/digitaal-zorgpad-artrose-obesitas.html">Lees artikel</a>
           </article>
-          <article class="article-card">
-            <p class="article-label">Professionals</p>
-            <h3>Obesitas in de orthopedie zonder discriminatie</h3>
+          <article class="article-card" data-newsletter="zorgprofessionals">
+            <p class="article-label">Publicatie - Zorgprofessionals</p>
+            <h3>Artrosezorg in transitie: wat vraagt dit van professionals?</h3>
             <p>
-              Over taal, toegang tot zorg, behandelkeuzes en het verschil tussen medische relevantie
-              en stigmatiserende benadering.
+              Professionele duiding van het NTvG-artikel over educatie, oefentherapie, leefstijl,
+              netwerkzorg en digitale monitoring.
             </p>
-            <span>Conceptartikel</span>
+            <a class="article-link" href="artikelen/artrosezorg-transitie-professionals.html">Lees artikel</a>
           </article>
-          <article class="article-card">
-            <p class="article-label">Onderzoek</p>
-            <h3>Onderzoek dat de praktijk bereikt</h3>
+          <article class="article-card" data-newsletter="patienten">
+            <p class="article-label">Publicatie - Patienten</p>
+            <h3>Artrosezorg in transitie: wat betekent dit voor patienten?</h3>
             <p>
-              Over onderzoek, implementatie en de vraag hoe nieuwe inzichten zorgvuldig
-              een plek krijgen in de orthopedische praktijk.
+              Begrijpelijke uitleg over artrosezorg, bewegen, leefstijl en samenwerking tussen
+              zorgverleners, zonder medisch advies op maat.
             </p>
-            <span>Conceptartikel</span>
+            <a class="article-link" href="artikelen/artrosezorg-transitie-patienten.html">Lees artikel</a>
           </article>
         </div>
       </section>
@@ -332,9 +332,9 @@
             <p class="section-kicker">Nieuwsbrief</p>
             <h2 id="newsletter-title">Updates over orthopedie, leefstijl en zorgontwikkeling.</h2>
             <p>
-              Kies de nieuwsbrief die past bij jouw perspectief. De patientenupdate is begrijpelijk
-              en algemeen informatief. De professionele update gaat dieper in op zorgontwikkeling,
-              onderzoek, onderwijs en implementatie. Je ontvangt ongeveer 6 tot 12 updates per jaar.
+              Kies de nieuwsbrief die past bij jouw perspectief. Artikelen worden gelabeld voor patienten,
+              zorgprofessionals of beide doelgroepen, zodat ze later automatisch in de juiste nieuwsbrief
+              kunnen worden meegenomen. Je ontvangt ongeveer 6 tot 12 updates per jaar.
             </p>
           </div>
           <form class="newsletter-form" data-newsletter-form>
@@ -371,6 +371,10 @@
             <p class="form-note" aria-live="polite" data-newsletter-status>
               De nieuwsbriefkoppeling wordt bij livegang geactiveerd.
             </p>
+            <div class="newsletter-preview" data-newsletter-preview aria-live="polite">
+              <strong>Artikelen voor deze nieuwsbrief</strong>
+              <p>Kies hierboven een doelgroep om te zien welke artikelen daarin thuishoren.</p>
+            </div>
           </form>
         </div>
       </section>

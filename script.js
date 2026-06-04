@@ -4,6 +4,8 @@ const navToggle = document.querySelector("[data-nav-toggle]");
 const year = document.querySelector("[data-year]");
 const newsletterForm = document.querySelector("[data-newsletter-form]");
 const newsletterStatus = document.querySelector("[data-newsletter-status]");
+const newsletterPreview = document.querySelector("[data-newsletter-preview]");
+const articleCards = Array.from(document.querySelectorAll("[data-newsletter]"));
 
 if (year) {
   year.textContent = new Date().getFullYear();
@@ -30,6 +32,24 @@ nav?.addEventListener("click", (event) => {
   }
 });
 
+const syncNewsletterPreview = () => {
+  if (!newsletterPreview || !newsletterForm) return;
+  const data = new FormData(newsletterForm);
+  const type = data.get("type");
+  if (type !== "patienten" && type !== "zorgprofessionals") return;
+  const matchingArticles = articleCards.filter((card) => {
+    const audiences = card.getAttribute("data-newsletter")?.split(/\s+/) ?? [];
+    return audiences.includes(type);
+  });
+  const names = matchingArticles.map((card) => card.querySelector("h3")?.textContent?.trim()).filter(Boolean);
+  const list = names.length
+    ? '<ul>' + names.map((name) => '<li>' + name + '</li>').join('') + '</ul>'
+    : '<p>Er zijn nog geen artikelen voor deze doelgroep gelabeld.</p>';
+  newsletterPreview.innerHTML = '<strong>Artikelen voor deze nieuwsbrief</strong>' + list;
+};
+
+newsletterForm?.addEventListener("change", syncNewsletterPreview);
+
 newsletterForm?.addEventListener("submit", (event) => {
   event.preventDefault();
   if (newsletterStatus) {
@@ -38,4 +58,5 @@ newsletterForm?.addEventListener("submit", (event) => {
     newsletterStatus.textContent =
       `Dank je. Bij livegang koppelen we je aanmelding aan de nieuwsbrief voor ${type}.`;
   }
+  syncNewsletterPreview();
 });
