@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Matthijs van Dam social preview</title>
+  <desc id="desc">Social preview voor Matthijs van Dam, orthopedisch chirurg en zorgconsultant</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#173653"/>
+      <stop offset="0.52" stop-color="#244c3d"/>
+      <stop offset="1" stop-color="#5ba8a0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="78%" cy="22%" r="58%">
+      <stop offset="0" stop-color="#d9b45f" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#d9b45f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <path fill="none" stroke="#d9b45f" stroke-linecap="round" stroke-width="12" opacity="0.9" d="M856 462c66 58 154 80 238 44 79-33 124-109 109-189"/>
+  <g transform="translate(82 82)">
+    <rect width="104" height="104" rx="26" fill="#fffdf8" opacity="0.96"/>
+    <image href="logo-mvd-mark.svg" x="10" y="10" width="84" height="84"/>
+  </g>
+  <text x="82" y="253" fill="#fffdf8" font-family="Georgia, 'Times New Roman', serif" font-size="82" font-weight="700">Matthijs van Dam</text>
+  <text x="86" y="323" fill="#d9b45f" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="0">Orthopedisch chirurg en zorgconsultant</text>
+  <text x="86" y="397" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="500">Voet, enkel en sportletsel · Knieartrose · Leefstijl zonder stigma</text>
+  <text x="86" y="452" fill="#dce8df" font-family="Inter, Arial, sans-serif" font-size="26">Persoonlijke website over orthopedie, leefstijl, onderzoek en zorgontwikkeling.</text>
+</svg>

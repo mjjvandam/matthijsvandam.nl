@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">MvD logo</title>
+  <desc id="desc">Monogram logo voor Matthijs van Dam</desc>
+  <defs>
+    <linearGradient id="field" x1="52" y1="36" x2="264" y2="286" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#173653"/>
+      <stop offset="0.58" stop-color="#244c3d"/>
+      <stop offset="1" stop-color="#5ba8a0"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="88" y1="78" x2="240" y2="238" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d9b45f"/>
+      <stop offset="1" stop-color="#b6654a"/>
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="76" fill="#fffdf8"/>
+  <path
+    fill="url(#field)"
+    d="M160 28c70.7 0 128 57.3 128 128 0 70.2-56.5 127.2-126.5 128H54c-9.9 0-18-8.1-18-18V156C36 85.3 89.3 28 160 28Z"
+  />
+  <path
+    fill="none"
+    stroke="url(#accent)"
+    stroke-linecap="round"
+    stroke-width="14"
+    d="M83 221c25.7 25.5 59.4 37.5 95 33.9 48.7-5 85.6-46 85.6-95.2 0-51.8-42-93.8-93.8-93.8-31.6 0-59.6 15.6-76.6 39.5"
+  />
+  <g fill="#fffdf8">
+    <path d="M73 211V104h24l32 50.8L161 104h24v107h-26v-63.1l-24.9 39.4h-10.4L99 148v63H73Z"/>
+    <path d="M196.9 211 169 136h26.8l15.5 47.4 15.6-47.4h25.8L224.8 211h-27.9Z"/>
+    <path d="M236 211V104h38.5c16.9 0 30.9 5.1 42 15.2 11.1 10.1 16.6 23 16.6 38.5 0 15.6-5.5 28.4-16.6 38.5-11.1 9.9-25.1 14.8-42 14.8H236Zm26-23h11c9.9 0 17.8-2.8 23.8-8.5 6-5.8 9-13.1 9-21.9 0-8.9-3-16.2-9-21.8-6-5.8-13.9-8.6-23.8-8.6h-11V188Z" transform="translate(-34 0)"/>
+  </g>
+</svg>
