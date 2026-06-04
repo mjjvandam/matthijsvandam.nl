@@ -1087,11 +1087,32 @@ a {
   padding-top: 24px;
 }
 
+.filter-panel {
+  display: grid;
+  gap: 18px;
+  max-width: 940px;
+  margin-top: 32px;
+}
+
+.filter-group {
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(255, 253, 248, 0.76);
+  box-shadow: var(--shadow-soft);
+}
+
+.filter-group p {
+  margin: 0 0 12px;
+  color: var(--ink);
+  font-size: 0.94rem;
+  font-weight: 900;
+}
+
 .filter-bar {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-top: 28px;
 }
 
 .filter-button {
@@ -1116,6 +1137,17 @@ a {
   display: none;
 }
 
+.filter-empty {
+  max-width: 760px;
+  margin: 26px auto 0;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--white);
+  color: var(--muted);
+  line-height: 1.6;
+}
+
 .article-hero-image {
   width: 100%;
   margin: 0 0 34px;
@@ -1127,6 +1159,41 @@ a {
 
 .publication-list-compact .publication-card:nth-child(n+4) {
   display: none;
+}
+
+.related-section {
+  margin-top: 62px;
+  padding-top: 42px;
+  border-top: 1px solid var(--line);
+}
+
+.article-grid-related {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 22px;
+}
+
+.article-grid-related .article-card {
+  min-height: 0;
+}
+
+.article-grid-related .article-card-body {
+  padding: 20px;
+}
+
+.article-grid-related h3 {
+  font-size: 1.2rem;
+}
+
+.related-publications {
+  margin-top: 22px;
+}
+
+.related-publications .publication-card {
+  padding: 22px;
+}
+
+.related-publications .publication-card h3 {
+  font-size: clamp(1.15rem, 2vw, 1.45rem);
 }
 
 .about-copy h3 {
