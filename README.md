@@ -1,10 +1,10 @@
 # matthijsvandam.nl
 
-Statische conceptsite voor de persoonlijke professionele website van Matthijs van Dam.
+Statische conceptsite voor de professionele website van Matthijs van Dam.
 
 ## Inhoudelijke richting
 
-- Persoonlijke expert-hub, geen patientportaal.
+- Expert-hub, geen patientportaal.
 - Focus op voet, enkel en sportletsel; knieartrose; leefstijl en obesitas zonder stigma; onderzoek, onderwijs en zorgontwikkeling.
 - Geen medisch advies op maat.
 - Voor afspraken, patientenzorg en spoed verwijzen naar officiele zorgkanalen.
@@ -21,14 +21,12 @@ Aanwezig:
 - `sitemap.xml`
 - favicon/logo assets
 - social preview PNG
-- nieuwsbriefstructuur met twee doelgroepen
 - basis SEO en structured data
 - contactformulier via een Vercel Function en Resend
 
 ## Nog handmatig beslissen
 
 - Definitieve foto/portret of hero-beeld.
-- Nieuwsbriefdienst kiezen en pas daarna koppelen.
 - Medische/professionele claims inhoudelijk nalopen.
 
 ## Contactformulier via Vercel
