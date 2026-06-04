@@ -432,6 +432,37 @@ a {
   color: var(--green-soft);
 }
 
+.process .article-card p {
+  color: var(--muted);
+}
+
+.process .article-card h3 {
+  color: var(--ink);
+}
+
+.process .article-card .article-label {
+  color: var(--green);
+}
+
+.project-grid {
+  align-items: stretch;
+}
+
+.project-card-image {
+  background: var(--white);
+}
+
+.project-card-image-contain {
+  object-fit: contain;
+  padding: 24px;
+}
+
+.project-hero-contain {
+  background: var(--white);
+  object-fit: contain;
+  padding: clamp(24px, 6vw, 64px);
+}
+
 .steps {
   max-width: 1180px;
   margin: 0 auto;
