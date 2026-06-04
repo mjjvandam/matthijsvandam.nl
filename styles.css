@@ -1106,3 +1106,14 @@ a {
 .publication-list-compact .publication-card:nth-child(n+4) {
   display: none;
 }
+
+.about-copy h3 {
+  margin: 32px 0 10px;
+  color: var(--ink);
+  font-size: clamp(1.18rem, 1.8vw, 1.45rem);
+  line-height: 1.25;
+}
+
+.about-copy h3:first-child {
+  margin-top: 0;
+}
