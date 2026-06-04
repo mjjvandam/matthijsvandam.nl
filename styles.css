@@ -189,6 +189,11 @@ a {
   text-transform: uppercase;
 }
 
+.eyebrow {
+  font-size: clamp(0.95rem, 1.25vw, 1.12rem);
+  line-height: 1.25;
+}
+
 .hero h1 {
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
