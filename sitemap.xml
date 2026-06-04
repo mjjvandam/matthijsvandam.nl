@@ -21,6 +21,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://matthijsvandam.nl/artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://matthijsvandam.nl/artikelen/patient-specifieke-instrumentatie-voet-enkel-professionals.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://matthijsvandam.nl/artikelen/artrosezorg-transitie-professionals.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

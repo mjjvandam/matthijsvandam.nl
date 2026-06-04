@@ -732,6 +732,7 @@ a {
 
 .newsletter-form input,
 .contact-form input,
+.contact-form select,
 .contact-form textarea {
   width: 100%;
   border: 1px solid var(--line);
@@ -742,8 +743,20 @@ a {
   padding: 12px 13px;
 }
 
+.contact-form select {
+  min-height: 48px;
+}
+
 .contact-form textarea {
   resize: vertical;
+}
+
+.form-honeypot {
+  position: absolute;
+  left: -100vw;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
 }
 
 .form-note {
@@ -756,6 +769,7 @@ a {
 .newsletter-form input:focus,
 .newsletter-form textarea:focus,
 .contact-form input:focus,
+.contact-form select:focus,
 .contact-form textarea:focus {
   outline: 3px solid var(--green-soft);
   border-color: var(--green);

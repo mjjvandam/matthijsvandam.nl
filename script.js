@@ -6,6 +6,8 @@ const newsletterForm = document.querySelector("[data-newsletter-form]");
 const newsletterStatus = document.querySelector("[data-newsletter-status]");
 const newsletterPreview = document.querySelector("[data-newsletter-preview]");
 const articleCards = Array.from(document.querySelectorAll(".article-card[data-newsletter]"));
+const contactForm = document.querySelector("[data-contact-form]");
+const contactStatus = document.querySelector("[data-contact-status]");
 
 if (year) {
   year.textContent = new Date().getFullYear();
@@ -59,4 +61,40 @@ newsletterForm?.addEventListener("submit", (event) => {
       `Dank je. Bij livegang koppelen we je aanmelding aan de nieuwsbrief voor ${type}.`;
   }
   syncNewsletterPreview();
+});
+
+contactForm?.addEventListener("submit", async (event) => {
+  event.preventDefault();
+  if (!contactStatus) return;
+
+  const formData = new FormData(contactForm);
+  if (formData.get("website")) {
+    contactStatus.textContent = "Dank je. Je bericht is ontvangen.";
+    contactForm.reset();
+    return;
+  }
+
+  contactStatus.textContent = "Je bericht wordt verzonden...";
+
+  try {
+    const response = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(Object.fromEntries(formData.entries())),
+    });
+
+    const result = await response.json().catch(() => ({}));
+
+    if (!response.ok) {
+      throw new Error(result.message || "Het bericht kon niet worden verzonden.");
+    }
+
+    contactForm.reset();
+    contactStatus.textContent = "Dank je. Je bericht is verzonden.";
+  } catch (error) {
+    contactStatus.textContent =
+      "Verzenden lukt nu nog niet. De mailkoppeling wordt bij livegang geactiveerd.";
+  }
 });
