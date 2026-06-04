@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Artikelen | Matthijs van Dam</title>
+    <meta name="description" content="Overzicht van artikelen van Matthijs van Dam, filterbaar op patienten, zorgprofessionals, onderzoek en publicaties.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://matthijsvandam.nl/artikelen.html">
+    <link rel="icon" href="assets/logo-mvd-mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header legal-header">
+      <a class="brand" href="index.html#top" aria-label="Terug naar Matthijs van Dam home">
+        <img class="brand-logo" src="assets/logo-mvd-mark.svg" alt="" width="42" height="42">
+        <span>Matthijs van Dam</span>
+      </a>
+      <nav class="site-nav legal-nav" aria-label="Pagina navigatie">
+        <a href="index.html#over">Over</a>
+        <a href="artikelen.html">Artikelen</a>
+        <a href="publicaties.html">Publicaties</a>
+      </nav>
+    </header>
+    <main class="listing-page">
+      <section class="listing-hero" aria-labelledby="articles-overview-title">
+        <p class="section-kicker">Artikelen</p>
+        <h1 id="articles-overview-title">Alle artikelen</h1>
+        <p>
+          Filter op onderwerp of doelgroep. De filters zijn bedoeld om sneller passende stukken te vinden;
+          de nieuwsbriefindeling blijft achter de schermen geregeld.
+        </p>
+        <div class="filter-bar" aria-label="Artikel filters">
+          <button class="filter-button is-active" type="button" data-filter="alles">Alles</button>
+          <button class="filter-button" type="button" data-filter="patienten">Patienten</button>
+          <button class="filter-button" type="button" data-filter="zorgprofessionals">Zorgprofessionals</button>
+          <button class="filter-button" type="button" data-filter="onderzoek">Onderzoek</button>
+          <button class="filter-button" type="button" data-filter="publicaties">Publicaties</button>
+        </div>
+      </section>
+      <section class="section listing-section" aria-label="Artikeloverzicht">
+        <div class="article-grid article-grid-listing">
+          <article class="article-card" data-tags="onderzoek patienten zorgprofessionals" data-newsletter="patienten zorgprofessionals">
+            <img class="article-card-image" src="assets/article-digital-care-pathway.png" alt="" loading="lazy">
+            <div class="article-card-body">
+              <p class="article-label">Onderzoek</p>
+              <h3>Digitaal zorgpad voor artrose en obesitas</h3>
+              <p>Over de Leefstijlcoalitie-voucher om in het ETZ een digitaal zorgpad voor artrose en obesitas uit te rollen met partners in ziekenhuis en regio.</p>
+              <a class="article-link" href="artikelen/digitaal-zorgpad-artrose-obesitas.html">Lees artikel</a>
+            </div>
+          </article>
+          <article class="article-card" data-tags="zorgprofessionals publicaties" data-newsletter="zorgprofessionals">
+            <img class="article-card-image" src="assets/article-osteoarthritis-professionals.png" alt="" loading="lazy">
+            <div class="article-card-body">
+              <p class="article-label">Zorgprofessionals</p>
+              <h3>Artrosezorg in transitie: wat vraagt dit van professionals?</h3>
+              <p>Professionele duiding van het NTvG-artikel over educatie, oefentherapie, leefstijl, netwerkzorg en digitale monitoring.</p>
+              <a class="article-link" href="artikelen/artrosezorg-transitie-professionals.html">Lees artikel</a>
+            </div>
+          </article>
+          <article class="article-card" data-tags="patienten publicaties" data-newsletter="patienten">
+            <img class="article-card-image" src="assets/article-osteoarthritis-patients.png" alt="" loading="lazy">
+            <div class="article-card-body">
+              <p class="article-label">Patienten</p>
+              <h3>Artrosezorg in transitie: wat betekent dit voor patienten?</h3>
+              <p>Begrijpelijke uitleg over artrosezorg, bewegen, leefstijl en samenwerking tussen zorgverleners, zonder medisch advies op maat.</p>
+              <a class="article-link" href="artikelen/artrosezorg-transitie-patienten.html">Lees artikel</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <p>&copy; <span data-year></span> Matthijs van Dam</p>
+      <span class="footer-links" aria-label="Juridische links">
+        <a href="privacy.html">Privacy</a>
+        <a href="disclaimer.html">Disclaimer</a>
+      </span>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+      (() => {
+        const buttons = Array.from(document.querySelectorAll('[data-filter]'));
+        const cards = Array.from(document.querySelectorAll('[data-tags]'));
+        const params = new URLSearchParams(window.location.search);
+        const initial = params.get('label') || 'alles';
+        const apply = (label) => {
+          buttons.forEach((button) => button.classList.toggle('is-active', button.dataset.filter === label));
+          cards.forEach((card) => {
+            const tags = (card.dataset.tags || '').split(/\s+/);
+            card.hidden = label !== 'alles' && !tags.includes(label);
+          });
+        };
+        buttons.forEach((button) => button.addEventListener('click', () => {
+          const label = button.dataset.filter || 'alles';
+          const url = new URL(window.location.href);
+          if (label === 'alles') url.searchParams.delete('label');
+          else url.searchParams.set('label', label);
+          history.replaceState(null, '', url);
+          apply(label);
+        }));
+        apply(buttons.some((button) => button.dataset.filter === initial) ? initial : 'alles');
+      })();
+    </script>
+  </body>
+</html>

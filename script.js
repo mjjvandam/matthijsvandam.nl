@@ -5,7 +5,7 @@ const year = document.querySelector("[data-year]");
 const newsletterForm = document.querySelector("[data-newsletter-form]");
 const newsletterStatus = document.querySelector("[data-newsletter-status]");
 const newsletterPreview = document.querySelector("[data-newsletter-preview]");
-const articleCards = Array.from(document.querySelectorAll("[data-newsletter]"));
+const articleCards = Array.from(document.querySelectorAll(".article-card[data-newsletter]"));
 
 if (year) {
   year.textContent = new Date().getFullYear();
