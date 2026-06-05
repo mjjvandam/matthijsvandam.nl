@@ -4,16 +4,20 @@ Statische conceptsite voor de professionele website van Matthijs van Dam.
 
 ## Inhoudelijke richting
 
-- Expert-hub, geen patientportaal.
+- Expert-hub, geen patiëntportaal.
 - Focus op voet, enkel en sportletsel; knieartrose; leefstijl en obesitas zonder stigma; onderzoek, onderwijs en zorgontwikkeling.
 - Geen medisch advies op maat.
-- Voor afspraken, patientenzorg en spoed verwijzen naar officiele zorgkanalen.
+- Voor afspraken, patiëntenzorg en spoed verwijzen naar officiële zorgkanalen.
 
 ## Klaar voor livegang
 
 Aanwezig:
 
 - `index.html`
+- `expertise.html`
+- `artikelen.html`
+- `projecten.html`
+- `publicaties.html`
 - `privacy.html`
 - `disclaimer.html`
 - `404.html`
@@ -22,17 +26,18 @@ Aanwezig:
 - favicon/logo assets
 - social preview PNG
 - basis SEO en structured data
-- contactformulier via een Vercel Function en Resend
+- gevulde expertise-, artikel-, project- en publicatiepagina's
+- contactformulier technisch voorbereid, maar nog niet zichtbaar geactiveerd
 
 ## Nog handmatig beslissen
 
-- Definitieve foto/portret of hero-beeld.
 - Medische/professionele claims inhoudelijk nalopen.
+- Visuele klikronde doen op desktop en mobiel.
 
 ## Contactformulier via Vercel
 
-Het contactformulier verstuurt berichten via `/api/contact`. Voor live gebruik zijn in Vercel
-deze Environment Variables nodig:
+Het contactformulier is technisch voorbereid via `/api/contact`, maar staat voorlopig niet zichtbaar
+op de website. Voor live gebruik zijn in Vercel deze Environment Variables nodig:
 
 - `RESEND_API_KEY`: API-key uit Resend.
 - `CONTACT_TO_EMAIL`: het e-mailadres waarop berichten moeten binnenkomen.
@@ -46,9 +51,29 @@ het formulier een foutmelding en wordt er geen bericht verzonden.
 ## Simpele livegang
 
 Publiceer via Vercel vanuit de GitHub-repository.
-Controleer daarna:
+Controleer voor het pushen lokaal:
+
+- homepage: hero, biografie, expertise, projecten, artikelen, publicaties en contactroutes;
+- `expertise.html`: filters en 20 onderwerpen;
+- `artikelen.html`: filters en alle artikelkaarten;
+- `projecten.html`: alle projectkaarten;
+- `publicaties.html`: publicaties en bronlinks;
+- `privacy.html` en `disclaimer.html`: juridische en medische veiligheidsteksten.
+
+Committen via GitHub Desktop:
+
+1. Vul bij Summary een korte titel in, bijvoorbeeld `Website vullen voor lancering`.
+2. Klik op `Commit to main`.
+3. Klik daarna op `Push origin`.
+4. Controleer in Vercel of de deployment klaar is.
+
+Controleer daarna online:
 
 - `https://matthijsvandam.nl/`
+- `https://matthijsvandam.nl/expertise.html`
+- `https://matthijsvandam.nl/artikelen.html`
+- `https://matthijsvandam.nl/projecten.html`
+- `https://matthijsvandam.nl/publicaties.html`
 - `https://matthijsvandam.nl/privacy.html`
 - `https://matthijsvandam.nl/disclaimer.html`
 - `https://matthijsvandam.nl/robots.txt`

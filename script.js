@@ -30,6 +30,56 @@ nav?.addEventListener("click", (event) => {
   }
 });
 
+document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
+  const selector = panel.getAttribute("data-filter-target");
+  if (!selector) return;
+  const target = document.querySelector(selector);
+  if (!target) return;
+  const groups = Array.from(panel.querySelectorAll("[data-filter-group]"));
+  const cards = Array.from(target.querySelectorAll("[data-topic]"));
+  const empty = target.parentElement?.querySelector("[data-filter-empty]");
+  const state = {};
+
+  groups.forEach((group) => {
+    const groupName = group.getAttribute("data-filter-group");
+    if (!groupName) return;
+    const active = group.querySelector(".filter-button.is-active");
+    state[groupName] = active?.getAttribute("data-filter") || "alles";
+  });
+
+  const applyFilters = () => {
+    let visibleCount = 0;
+    cards.forEach((card) => {
+      const topicMatches =
+        !state.topic ||
+        state.topic === "alles" ||
+        (card.getAttribute("data-topic") || "").split(/\s+/).includes(state.topic);
+      const typeMatches =
+        !state.type ||
+        state.type === "alles" ||
+        (card.getAttribute("data-type") || "").split(/\s+/).includes(state.type);
+      card.hidden = !(topicMatches && typeMatches);
+      if (!card.hidden) visibleCount += 1;
+    });
+    if (empty) empty.hidden = visibleCount !== 0;
+  };
+
+  groups.forEach((group) => {
+    const groupName = group.getAttribute("data-filter-group");
+    group.querySelectorAll("[data-filter]").forEach((button) => {
+      button.addEventListener("click", () => {
+        state[groupName] = button.getAttribute("data-filter") || "alles";
+        group.querySelectorAll("[data-filter]").forEach((item) => {
+          item.classList.toggle("is-active", item === button);
+        });
+        applyFilters();
+      });
+    });
+  });
+
+  applyFilters();
+});
+
 contactForm?.addEventListener("submit", async (event) => {
   event.preventDefault();
   if (!contactStatus) return;
@@ -62,6 +112,6 @@ contactForm?.addEventListener("submit", async (event) => {
     contactStatus.textContent = "Dank je. Je bericht is verzonden.";
   } catch (error) {
     contactStatus.textContent =
-      "Verzenden lukt nu niet. Probeer het later opnieuw of gebruik de officiele ETZ-kanalen voor patientenzorg.";
+      "Verzenden lukt nu niet. Probeer het later opnieuw of gebruik de officiële ETZ-kanalen voor patiëntenzorg.";
   }
 });

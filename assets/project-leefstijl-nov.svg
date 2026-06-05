@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Leefstijl en orthopedie</title>
+  <desc id="desc">Abstracte illustratie van beweging, herstel en leefstijl in de orthopedie.</desc>
+  <rect width="1200" height="675" fill="#f7f4ed"/>
+  <path d="M0 520c142-82 277-103 405-64 115 35 210 117 340 115 141-2 269-102 455-91v195H0Z" fill="#dce8df"/>
+  <path d="M104 454c126-128 247-181 363-158 127 25 205 132 327 132 96 0 184-65 302-186" fill="none" stroke="#5ba8a0" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="271" cy="374" r="54" fill="#244c3d"/>
+  <circle cx="569" cy="408" r="54" fill="#b6654a"/>
+  <circle cx="898" cy="326" r="54" fill="#c49a46"/>
+  <path d="M291 373h198m101 35h211" fill="none" stroke="#173653" stroke-width="10" stroke-linecap="round" opacity=".72"/>
+  <g fill="#173653">
+    <path d="M248 256c38-70 96-113 174-130 8 74-12 137-60 189-42 45-88 62-137 50-10-35-2-72 23-109Z" opacity=".86"/>
+    <path d="M828 185c63 18 111 58 143 120-64 22-121 17-171-16-45-29-66-68-63-117 28-6 58-2 91 13Z" opacity=".82"/>
+  </g>
+  <text x="92" y="102" fill="#17201c" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800">Leefstijl en orthopedie</text>
+  <text x="94" y="154" fill="#5d675f" font-family="Inter, Arial, sans-serif" font-size="26">kansen voor herstel, voorbereiding en duurzame gezondheidswinst</text>
+</svg>

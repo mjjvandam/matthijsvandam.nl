@@ -11,10 +11,10 @@ voorlopig achterwege totdat Matthijs expliciet vraagt om die weer toe te voegen.
 ## Toon en inhoud
 
 - Deskundig, rustig, modern, menselijk en niet-stigmatiserend.
-- Geen patientportaal.
+- Geen patiëntportaal.
 - Geen medisch advies op maat.
 - Geen behandelclaims, garanties of funnelachtige druk naar afspraken.
-- Bij persoonlijke medische vragen, afspraken of spoed altijd verwijzen naar officiele zorgkanalen.
+- Bij persoonlijke medische vragen, afspraken of spoed altijd verwijzen naar officiële zorgkanalen.
 - Rond obesitas en knieartrose: begripvol formuleren, niet moraliserend, niet discriminerend.
 
 ## Techniek

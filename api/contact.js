@@ -96,7 +96,7 @@ module.exports = async (request, response) => {
     `Onderwerp: ${onderwerp}`,
     "Geen medische gegevens bevestigd: ja",
     "",
-    "Let op: dit formulier is niet bedoeld voor medische of patientgebonden informatie.",
+    "Let op: dit formulier is niet bedoeld voor medische of patiëntgebonden informatie.",
     "",
     bericht,
   ].join("\n");
@@ -108,7 +108,7 @@ module.exports = async (request, response) => {
     <p><strong>Type vraag:</strong> ${escapeHtml(type)}</p>
     <p><strong>Onderwerp:</strong> ${escapeHtml(onderwerp)}</p>
     <p><strong>Geen medische gegevens bevestigd:</strong> ja</p>
-    <p><strong>Let op:</strong> dit formulier is niet bedoeld voor medische of patientgebonden informatie.</p>
+    <p><strong>Let op:</strong> dit formulier is niet bedoeld voor medische of patiëntgebonden informatie.</p>
     <hr>
     <p>${escapeHtml(bericht).replaceAll("\n", "<br>")}</p>
   `;
