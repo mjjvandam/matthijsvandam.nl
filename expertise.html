@@ -3,157 +3,246 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Expertise | Matthijs van Dam</title>
-    <meta name="description" content="Filterbaar overzicht van orthopedische expertisegebieden: voet en enkel, voorvoet, knie, artrose, leefstijl, herstel en zorgontwikkeling.">
+    <title>Aandachtsgebieden | drs. Matthijs van Dam</title>
+    <meta name="description" content="Patiëntgerichte uitleg over orthopedische aandachtsgebieden van drs. Matthijs van Dam: voorvoet, enkel, achtervoet, sportletsel, knie, kraakbeenherstel, leefstijl en herstel.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://matthijsvandam.nl/expertise.html">
     <link rel="icon" href="assets/logo-mvd-mark.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=20260605">
   </head>
   <body>
+    <a class="skip-link" href="#expertise-content">Ga naar inhoud</a>
     <header class="site-header legal-header">
-      <a class="brand" href="index.html#top" aria-label="Terug naar Matthijs van Dam home">
+      <a class="brand" href="index.html#top" aria-label="Terug naar drs. Matthijs van Dam home">
         <img class="brand-logo" src="assets/logo-mvd-mark.svg" alt="" width="42" height="42">
-        <span>Matthijs van Dam</span>
+        <span>drs. Matthijs van Dam</span>
       </a>
       <nav class="site-nav legal-nav" aria-label="Pagina navigatie">
-        <a href="index.html#over">Over</a>
+        <a href="over-mij.html">Over</a>
         <a href="expertise.html">Expertise</a>
+        <a href="professionals.html">Professionals</a>
         <a href="projecten.html">Projecten</a>
         <a href="artikelen.html">Artikelen</a>
         <a href="publicaties.html">Publicaties</a>
       </nav>
     </header>
-    <main class="listing-page">
-      <section class="listing-hero" aria-labelledby="expertise-overview-title">
-        <p class="section-kicker">Expertise</p>
-        <h1 id="expertise-overview-title">Orthopedische onderwerpen in gewone taal</h1>
-        <p>
-          Filter op regio of thema. De blokken geven algemene uitleg en helpen om termen te plaatsen,
-          maar vervangen geen beoordeling door je eigen behandelaar.
-        </p>
-        <div class="filter-panel" data-card-filter-panel data-filter-target="#expertise-list" aria-label="Expertise filters">
+    <main class="listing-page expertise-page" id="expertise-content">
+      <section class="listing-hero expertise-hero" aria-labelledby="expertise-overview-title">
+        <div class="expertise-hero-copy">
+          <h1 id="expertise-overview-title">Aandachtsgebieden</h1>
+          <p>
+            drs. Matthijs van Dam werkt als orthopedisch chirurg in de tweede lijn. Zijn medische
+            aandachtsgebieden liggen bij voorvoet, enkel, achtervoet, sportletsel, knieartrose,
+            kraakbeenherstel en herstel in de brede zin van het woord.
+          </p>
+        </div>
+        <div class="filter-panel expertise-filter-panel" data-card-filter-panel data-filter-target="#expertise-list" data-allow-clear="true" aria-label="Expertise filters">
           <div class="filter-group" data-filter-group="topic">
-            <p>Regio of thema</p>
             <div class="filter-bar">
-              <button class="filter-button is-active" type="button" data-filter="alles">Alles</button>
               <button class="filter-button" type="button" data-filter="voorvoet">Voorvoet</button>
-              <button class="filter-button" type="button" data-filter="voet-en-enkel">Voet en enkel</button>
+              <button class="filter-button" type="button" data-filter="enkel">Enkel</button>
+              <button class="filter-button" type="button" data-filter="achtervoet">Achtervoet</button>
               <button class="filter-button" type="button" data-filter="knie">Knie</button>
+              <button class="filter-button" type="button" data-filter="sport">Sport</button>
               <button class="filter-button" type="button" data-filter="leefstijl">Leefstijl</button>
-              <button class="filter-button" type="button" data-filter="innovatie">Innovatie</button>
-            </div>
-          </div>
-          <div class="filter-group" data-filter-group="type">
-            <p>Soort informatie</p>
-            <div class="filter-bar">
-              <button class="filter-button is-active" type="button" data-filter="alles">Alles</button>
-              <button class="filter-button" type="button" data-filter="klacht">Klacht</button>
-              <button class="filter-button" type="button" data-filter="behandeling">Behandeling</button>
-              <button class="filter-button" type="button" data-filter="herstel">Herstel</button>
-              <button class="filter-button" type="button" data-filter="zorgontwikkeling">Zorgontwikkeling</button>
             </div>
           </div>
         </div>
       </section>
-      <section class="section listing-section" aria-label="Expertiseoverzicht">
+
+      <section class="section listing-section expertise-overview" aria-label="Orthopedische expertise">
         <div class="article-grid article-grid-listing expertise-grid" id="expertise-list">
           <article class="article-card expertise-card" data-topic="voorvoet" data-type="klacht behandeling">
-            <div class="article-card-body"><p class="article-label">Voorvoet</p><h3>Hallux valgus</h3><p>Een scheefstand van de grote teen kan pijn, drukplekken en schoenproblemen geven. Behandeling begint vaak met schoenadvies en uitleg; een operatie hangt af van klachten, stand en verwachtingen.</p></div>
+            <div class="article-card-body">
+              <img class="expertise-card-icon" src="assets/expertise-foot-anatomy.svg" alt="" loading="lazy">
+              <p class="article-label">Voorvoet</p>
+              <h3>Hallux valgus</h3>
+              <p>Een scheefstand van de grote teen kan pijn, drukplekken en schoenproblemen geven. De aanpak hangt af van klachten, stand, schoeisel en verwachtingen.</p>
+            </div>
           </article>
           <article class="article-card expertise-card" data-topic="voorvoet" data-type="klacht behandeling">
-            <div class="article-card-body"><p class="article-label">Voorvoet</p><h3>Hallux rigidus</h3><p>Slijtage van het grote-teengewricht kan afwikkelen pijnlijk maken. Soms helpt een stijvere zool of aanpassing; bij ernstige klachten kan een operatie worden besproken.</p></div>
+            <div class="article-card-body">
+              <img class="expertise-card-icon" src="assets/expertise-foot-anatomy.svg" alt="" loading="lazy">
+              <p class="article-label">Voorvoet</p>
+              <h3>Hallux rigidus</h3>
+              <p>Slijtage van het grote-teengewricht kan afwikkelen pijnlijk maken. Soms helpt schoenaanpassing; bij aanhoudende beperkingen kan operatie worden besproken.</p>
+            </div>
           </article>
           <article class="article-card expertise-card" data-topic="voorvoet" data-type="klacht behandeling">
-            <div class="article-card-body"><p class="article-label">Voorvoet</p><h3>Hamerteen en klauwteen</h3><p>Teenstandafwijkingen kunnen druk, eelt en wondjes geven. De keuze tussen conservatieve behandeling en operatie hangt af van soepelheid, pijn en huidproblemen.</p></div>
+            <div class="article-card-body">
+              <img class="expertise-card-icon" src="assets/expertise-foot-anatomy.svg" alt="" loading="lazy">
+              <p class="article-label">Voorvoet</p>
+              <h3>Hamerteen en klauwteen</h3>
+              <p>Teenstandafwijkingen kunnen druk, eelt en wondjes geven. De keuze tussen bescherming, schoenadvies en operatie hangt af van pijn, huid en soepelheid.</p>
+            </div>
           </article>
           <article class="article-card expertise-card" data-topic="voorvoet" data-type="klacht">
-            <div class="article-card-body"><p class="article-label">Voorvoet</p><h3>Metatarsalgie</h3><p>Pijn onder de bal van de voet ontstaat vaak door drukverdeling, stand of overbelasting. Goede analyse van schoenen, voetstand en activiteit is belangrijk.</p></div>
+            <div class="article-card-body">
+              <img class="expertise-card-icon" src="assets/expertise-foot-anatomy.svg" alt="" loading="lazy">
+              <p class="article-label">Voorvoet</p>
+              <h3>Metatarsalgie en Morton neuroom</h3>
+              <p>Pijn onder de bal van de voet of zenuwirritatie tussen de middenvoetsbeentjes vraagt om analyse van drukverdeling, voetstand, schoenen en belasting.</p>
+            </div>
           </article>
-          <article class="article-card expertise-card" data-topic="voorvoet" data-type="klacht behandeling">
-            <div class="article-card-body"><p class="article-label">Voorvoet</p><h3>Morton neuroom</h3><p>Een zenuwirritatie tussen de middenvoetsbeentjes kan branderige pijn of tintelingen geven. Ruimere schoenen, steunzolen of injectie kunnen helpen; soms is operatie een optie.</p></div>
+          <article class="article-card expertise-card" data-topic="enkel sport" data-type="klacht herstel">
+            <div class="article-card-body">
+              <img class="expertise-card-icon" src="assets/expertise-ankle-anatomy.svg" alt="" loading="lazy">
+              <p class="article-label">Enkel</p>
+              <h3>Enkelverzwikking</h3>
+              <p>Na een verzwikking is herstel van kracht, balans en vertrouwen minstens zo belangrijk als rust. Aanhoudende pijn of instabiliteit verdient beoordeling.</p>
+            </div>
           </article>
-          <article class="article-card expertise-card" data-topic="voet-en-enkel" data-type="klacht herstel">
-            <div class="article-card-body"><p class="article-label">Enkel</p><h3>Enkelverzwikking</h3><p>Na een verzwikking is herstel van kracht, balans en vertrouwen minstens zo belangrijk als rust. Aanhoudende pijn of instabiliteit verdient beoordeling.</p></div>
+          <article class="article-card expertise-card" data-topic="enkel sport" data-type="klacht behandeling herstel">
+            <div class="article-card-body">
+              <img class="expertise-card-icon" src="assets/expertise-ankle-anatomy.svg" alt="" loading="lazy">
+              <p class="article-label">Sport</p>
+              <h3>Chronische enkelinstabiliteit</h3>
+              <p>Blijvend doorzwikken kan ontstaan na bandletsel. Fysiotherapie helpt vaak; bij duidelijke mechanische instabiliteit kan herstel van de enkelbanden worden besproken.</p>
+            </div>
           </article>
-          <article class="article-card expertise-card" data-topic="voet-en-enkel" data-type="klacht behandeling">
-            <div class="article-card-body"><p class="article-label">Enkel</p><h3>Chronische enkelinstabiliteit</h3><p>Blijvend doorzwikken kan ontstaan na bandletsel. Fysiotherapie helpt vaak; bij duidelijke mechanische instabiliteit kan een hersteloperatie worden besproken.</p></div>
+          <article class="article-card expertise-card" data-topic="enkel" data-type="klacht behandeling">
+            <div class="article-card-body">
+              <img class="expertise-card-icon" src="assets/expertise-ankle-anatomy.svg" alt="" loading="lazy">
+              <p class="article-label">Enkel</p>
+              <h3>Artrose van de enkel</h3>
+              <p>Enkelartrose kan pijn, stijfheid en beperking geven. Behandeling loopt van schoenaanpassing en oefentherapie tot operatieve opties bij geselecteerde patiënten.</p>
+            </div>
           </article>
-          <article class="article-card expertise-card" data-topic="voet-en-enkel" data-type="klacht behandeling">
-            <div class="article-card-body"><p class="article-label">Enkel</p><h3>Artrose van de enkel</h3><p>Enkelartrose kan pijn, stijfheid en beperking geven. Behandeling loopt van schoenaanpassing en oefentherapie tot artrodese of enkelprothese bij geselecteerde patiënten.</p></div>
+          <article class="article-card expertise-card" data-topic="achtervoet" data-type="klacht behandeling">
+            <div class="article-card-body">
+              <img class="expertise-card-icon" src="assets/expertise-foot-anatomy.svg" alt="" loading="lazy">
+              <p class="article-label">Achtervoet</p>
+              <h3>Platvoet bij volwassenen</h3>
+              <p>Een veranderende voetstand kan pijn aan de binnenzijde van voet of enkel geven. Steunzolen, oefentherapie of soms correctiechirurgie kunnen passend zijn.</p>
+            </div>
           </article>
-          <article class="article-card expertise-card" data-topic="voet-en-enkel" data-type="klacht herstel">
-            <div class="article-card-body"><p class="article-label">Achillespees</p><h3>Achillespeesklachten</h3><p>Peesklachten vragen vaak om gedoseerde belasting en tijd. Snel forceren werkt zelden; een zorgvuldig opbouwschema is meestal de basis.</p></div>
+          <article class="article-card expertise-card" data-topic="achtervoet enkel" data-type="behandeling herstel">
+            <div class="article-card-body">
+              <img class="expertise-card-icon" src="assets/expertise-ankle-anatomy.svg" alt="" loading="lazy">
+              <p class="article-label">Achtervoet</p>
+              <h3>Revisie na artrodese</h3>
+              <p>Als een vastzetoperatie niet vastgroeit, is zorgvuldige analyse nodig van botkwaliteit, stand, belasting en eerdere implantaten.</p>
+            </div>
           </article>
-          <article class="article-card expertise-card" data-topic="voet-en-enkel" data-type="klacht behandeling">
-            <div class="article-card-body"><p class="article-label">Achtervoet</p><h3>Platvoet bij volwassenen</h3><p>Een doorgezakte voet kan pijn aan de binnenzijde van voet of enkel geven. Steunzolen, oefentherapie of soms correctiechirurgie kunnen passend zijn.</p></div>
+          <article class="article-card expertise-card" data-topic="knie" data-type="klacht behandeling herstel">
+            <div class="article-card-body">
+              <img class="expertise-card-icon" src="assets/expertise-knee-anatomy.svg" alt="" loading="lazy">
+              <p class="article-label">Knie</p>
+              <h3>Artrose van de knie</h3>
+              <p>Knieartrose is meer dan slijtage op een foto. Pijn, belastbaarheid, verwachtingen, oefentherapie, leefstijl en timing van een prothese tellen mee.</p>
+            </div>
           </article>
-          <article class="article-card expertise-card" data-topic="knie" data-type="klacht behandeling">
-            <div class="article-card-body"><p class="article-label">Knie</p><h3>Artrose van de knie</h3><p>Knieartrose is meer dan slijtage op een foto. Pijn, belastbaarheid, verwachtingen, oefentherapie, leefstijl en timing van een prothese tellen allemaal mee.</p></div>
+          <article class="article-card expertise-card" data-topic="knie sport" data-type="klacht behandeling">
+            <div class="article-card-body">
+              <img class="expertise-card-icon" src="assets/expertise-knee-anatomy.svg" alt="" loading="lazy">
+              <p class="article-label">Sport</p>
+              <h3>Meniscus- en sportknieklachten</h3>
+              <p>Niet elke meniscusscheur of sportknie vraagt om operatie. Klachtenpatroon, blokkeren, artrose, spierfunctie en sportdoelen bepalen de vervolgstap.</p>
+            </div>
           </article>
-          <article class="article-card expertise-card" data-topic="knie" data-type="klacht">
-            <div class="article-card-body"><p class="article-label">Knie</p><h3>Meniscusklachten</h3><p>Meniscusscheuren komen vaak voor, zeker bij ouder wordende knieën. Niet elke scheur vraagt om operatie; klachtenpatroon en kniecontext zijn leidend.</p></div>
-          </article>
-          <article class="article-card expertise-card" data-topic="knie" data-type="klacht behandeling">
-            <div class="article-card-body"><p class="article-label">Knie</p><h3>Kraakbeenletsels</h3><p>Kraakbeenschade kan pijn of zwelling geven, maar behandeling is maatwerk. Leeftijd, locatie, grootte van het letsel en activiteitenniveau zijn belangrijk.</p></div>
+          <article class="article-card expertise-card" data-topic="knie sport" data-type="behandeling herstel">
+            <div class="article-card-body">
+              <img class="expertise-card-icon" src="assets/expertise-cartilage-focus.svg" alt="" loading="lazy">
+              <p class="article-label">Kraakbeen</p>
+              <h3>Spherox/ACI-behandeling van de knie</h3>
+              <p>Als onderdeel van Mobility Clinic Tilburg houdt drs. van Dam zich ook bezig met autologe chondrocytenimplantatie bij geselecteerde kraakbeenletsels van de knie.</p>
+            </div>
           </article>
           <article class="article-card expertise-card" data-topic="knie" data-type="behandeling herstel">
-            <div class="article-card-body"><p class="article-label">Knie</p><h3>Knieprothese</h3><p>Een knieprothese kan veel betekenen bij ernstige artrose, maar vraagt goede voorbereiding en realistische verwachtingen over herstel, pijn en functie.</p></div>
+            <div class="article-card-body">
+              <img class="expertise-card-icon" src="assets/expertise-knee-anatomy.svg" alt="" loading="lazy">
+              <p class="article-label">Knie</p>
+              <h3>Knieprothese</h3>
+              <p>Een knieprothese kan worden besproken bij ernstige artrose, maar vraagt goede voorbereiding en realistische verwachtingen over herstel, pijn en functie.</p>
+            </div>
           </article>
-          <article class="article-card expertise-card" data-topic="knie" data-type="herstel">
-            <div class="article-card-body"><p class="article-label">Knie</p><h3>Sporten met knieklachten</h3><p>Bewegen is vaak juist belangrijk, maar dosering en keuze van sport maken verschil. Klachtenvrij belasten vraagt soms aanpassing, opbouw en begeleiding.</p></div>
+          <article class="article-card expertise-card" data-topic="leefstijl knie" data-type="herstel">
+            <div class="article-card-body">
+              <img class="expertise-card-icon" src="assets/expertise-care-pathway.svg" alt="" loading="lazy">
+              <p class="article-label">Leefstijl</p>
+              <h3>Bewegen bij artrose</h3>
+              <p>Bij artrose is bewegen meestal onderdeel van de behandeling. Het doel is haalbaar en regelmatig belasten, passend bij klachten en belastbaarheid.</p>
+            </div>
           </article>
-          <article class="article-card expertise-card" data-topic="leefstijl" data-type="herstel">
-            <div class="article-card-body"><p class="article-label">Leefstijl</p><h3>Bewegen bij artrose</h3><p>Bij artrose is bewegen meestal onderdeel van de behandeling. Het doel is niet perfect sporten, maar haalbaar en regelmatig belasten.</p></div>
-          </article>
-          <article class="article-card expertise-card" data-topic="leefstijl" data-type="klacht herstel">
-            <div class="article-card-body"><p class="article-label">Leefstijl</p><h3>Obesitas en gewrichtsklachten</h3><p>Gewicht kan invloed hebben op pijn, belasting en operatierisico's. Goede zorg bespreekt dit respectvol en zoekt naar haalbare ondersteuning.</p></div>
+          <article class="article-card expertise-card" data-topic="leefstijl knie" data-type="klacht herstel">
+            <div class="article-card-body">
+              <img class="expertise-card-icon" src="assets/expertise-care-pathway.svg" alt="" loading="lazy">
+              <p class="article-label">Leefstijl</p>
+              <h3>Obesitas en gewrichtsklachten</h3>
+              <p>Gewicht kan invloed hebben op pijn, belasting en operatierisico's. Goede zorg bespreekt dit respectvol en zoekt naar haalbare ondersteuning.</p>
+            </div>
           </article>
           <article class="article-card expertise-card" data-topic="leefstijl" data-type="herstel behandeling">
-            <div class="article-card-body"><p class="article-label">Herstel</p><h3>Voorbereiden op een operatie</h3><p>Conditie, voeding, roken, slaap en steun thuis kunnen invloed hebben op herstel. Voorbereiden is geen garantie, maar kan wel helpen.</p></div>
-          </article>
-          <article class="article-card expertise-card" data-topic="leefstijl" data-type="herstel">
-            <div class="article-card-body"><p class="article-label">Herstel</p><h3>Pijn en verwachtingen</h3><p>Pijnherstel verloopt zelden lineair. Duidelijke uitleg over verwachtingen kan helpen om onzekerheid te verminderen en passende stappen te zetten.</p></div>
-          </article>
-          <article class="article-card expertise-card" data-topic="innovatie" data-type="zorgontwikkeling behandeling">
-            <div class="article-card-body"><p class="article-label">Innovatie</p><h3>3D-planning en digitale zorgpaden</h3><p>Digitale toepassingen kunnen helpen bij voorbereiding, uitleg en uitvoering van zorg. De waarde zit in betere beslissingen en begrijpelijke communicatie.</p></div>
+            <div class="article-card-body">
+              <img class="expertise-card-icon" src="assets/expertise-walking-person.svg" alt="" loading="lazy">
+              <p class="article-label">Herstel</p>
+              <h3>Voorbereiden op herstel</h3>
+              <p>Conditie, spierkracht, voeding, roken, slaap en steun thuis kunnen invloed hebben op herstel. Voorbereiden is geen garantie, maar kan helpen.</p>
+            </div>
           </article>
         </div>
         <p class="filter-empty" data-filter-empty hidden>
           Er staan nog geen onderwerpen bij deze combinatie. Kies een ander filter of bekijk alles.
         </p>
-        <aside class="patient-disclaimer">
-          <strong>Algemene uitleg</strong>
+      </section>
+
+      <section class="section expertise-sources" aria-labelledby="expertise-sources-title">
+        <div class="section-heading">
+          <p class="section-kicker">Zorgroute</p>
+          <h2 id="expertise-sources-title">Tweede lijn en betrouwbare informatie</h2>
           <p>
-            Deze onderwerpen zijn bedoeld als algemene informatie. Ze vervangen geen consult, diagnose,
-            behandeladvies of beoordeling van jouw persoonlijke situatie.
+            drs. van Dam werkt als tweedelijns zorgverlener. Voor nieuwe of niet-acute klachten is de
+            huisarts meestal de eerste stap. Voor afspraken, verwijzingen, medische vragen of spoed
+            blijven de officiële zorgkanalen leidend.
           </p>
-        </aside>
-        <section class="related-section" aria-labelledby="expertise-sources-title">
-          <p class="section-kicker">Betrouwbare informatie</p>
-          <h2 id="expertise-sources-title">Verder lezen bij gevestigde bronnen</h2>
-          <p>
-            Voor algemene patiëntinformatie zijn onder andere Thuisarts, de NOV en de officiële ETZ-kanalen
-            goede vertrekpunten. Bij klachten of twijfel blijft je eigen behandelaar of huisarts leidend.
-          </p>
-          <div class="section-actions">
-            <a class="article-link" href="https://www.thuisarts.nl/artrose-in-knie" rel="noopener">Thuisarts: artrose in de knie</a>
-            <a class="article-link" href="https://www.thuisarts.nl/hallux-valgus/ik-heb-hallux-valgus" rel="noopener">Thuisarts: hallux valgus</a>
-            <a class="article-link" href="https://www.thuisarts.nl/verzwikte-enkel" rel="noopener">Thuisarts: verzwikte enkel</a>
-            <a class="article-link" href="https://www.orthopeden.org/kwaliteitsbeleid/richtlijnen/" rel="noopener">NOV-richtlijnen</a>
-            <a class="article-link" href="https://www.etz.nl/specialist/m-j-j-van-dam/" rel="noopener">ETZ-profiel</a>
-          </div>
-        </section>
+        </div>
+        <div class="resource-list resource-link-grid" aria-label="Betrouwbare zorginformatie">
+          <a class="resource-card" href="https://www.etz.nl/specialisme/orthopedie/" rel="noopener">
+            <span class="resource-mark resource-mark-etz">ETZ</span>
+            <span>
+              <strong>Orthopedisch Centrum ETZ</strong>
+              <small>Zorg, locaties en bereikbaarheid</small>
+            </span>
+          </a>
+          <a class="resource-card" href="https://www.etz.nl/specialist/m-j-j-van-dam/" rel="noopener">
+            <span class="resource-mark resource-mark-etz">ETZ</span>
+            <span>
+              <strong>ETZ-profiel</strong>
+              <small>Profiel op etz.nl</small>
+            </span>
+          </a>
+          <a class="resource-card" href="https://www.thuisarts.nl/artrose-in-knie" rel="noopener">
+            <span class="resource-mark resource-mark-thuisarts">T</span>
+            <span>
+              <strong>Thuisarts</strong>
+              <small>Artrose in de knie</small>
+            </span>
+          </a>
+          <a class="resource-card" href="https://www.zorgvoorbeweging.nl/" rel="noopener">
+            <span class="resource-mark resource-mark-nov">NOV</span>
+            <span>
+              <strong>Zorg voor Beweging</strong>
+              <small>Patiëntinformatie van orthopeden</small>
+            </span>
+          </a>
+          <a class="resource-card" href="professionals.html">
+            <span class="resource-mark resource-mark-mvd">M</span>
+            <span>
+              <strong>Voor professionals</strong>
+              <small>Zorgontwikkeling en samenwerking</small>
+            </span>
+          </a>
+        </div>
       </section>
     </main>
     <footer class="site-footer">
-      <p>&copy; <span data-year></span> Matthijs van Dam</p>
+      <p>&copy; <span data-year></span> drs. Matthijs van Dam</p>
       <span class="footer-links" aria-label="Footer links">
         <a href="index.html#contact">Contact</a>
         <a href="privacy.html">Privacy</a>
         <a href="disclaimer.html">Disclaimer</a>
       </span>
     </footer>
-    <script src="script.js"></script>
+    <script src="script.js?v=20260605"></script>
   </body>
 </html>

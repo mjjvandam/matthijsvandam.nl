@@ -38,6 +38,8 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
   const groups = Array.from(panel.querySelectorAll("[data-filter-group]"));
   const cards = Array.from(target.querySelectorAll("[data-topic]"));
   const empty = target.parentElement?.querySelector("[data-filter-empty]");
+  const visibleLimit = Number.parseInt(panel.getAttribute("data-visible-limit") || "", 10);
+  const allowClear = panel.getAttribute("data-allow-clear") === "true";
   const state = {};
 
   groups.forEach((group) => {
@@ -58,7 +60,8 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
         !state.type ||
         state.type === "alles" ||
         (card.getAttribute("data-type") || "").split(/\s+/).includes(state.type);
-      card.hidden = !(topicMatches && typeMatches);
+      const withinLimit = !Number.isFinite(visibleLimit) || visibleCount < visibleLimit;
+      card.hidden = !(topicMatches && typeMatches && withinLimit);
       if (!card.hidden) visibleCount += 1;
     });
     if (empty) empty.hidden = visibleCount !== 0;
@@ -68,9 +71,10 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
     const groupName = group.getAttribute("data-filter-group");
     group.querySelectorAll("[data-filter]").forEach((button) => {
       button.addEventListener("click", () => {
-        state[groupName] = button.getAttribute("data-filter") || "alles";
+        const isClearing = allowClear && button.classList.contains("is-active");
+        state[groupName] = isClearing ? "alles" : button.getAttribute("data-filter") || "alles";
         group.querySelectorAll("[data-filter]").forEach((item) => {
-          item.classList.toggle("is-active", item === button);
+          item.classList.toggle("is-active", !isClearing && item === button);
         });
         applyFilters();
       });

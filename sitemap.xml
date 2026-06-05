@@ -16,6 +16,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://matthijsvandam.nl/over-mij.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://matthijsvandam.nl/professionals.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://matthijsvandam.nl/publicaties.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -27,6 +37,21 @@
   </url>
   <url>
     <loc>https://matthijsvandam.nl/artikelen/digitaal-zorgpad-artrose-obesitas.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://matthijsvandam.nl/artikelen/vaillant-fonds-digitaal-zorgpad.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://matthijsvandam.nl/artikelen/footprint-quick-scan-medewerkers.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://matthijsvandam.nl/artikelen/we-walk-ar-campusroute-tilburg.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

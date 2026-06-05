@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-labelledby="title">
+  <title id="title">FOOTprint Quick Scan voetscreening</title>
+  <rect width="960" height="540" fill="#fffdf8"/>
+  <path d="M0 0h960v540H0z" fill="#f7f4ed"/>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M282 352c64 72 199 95 337 57 66-18 112-49 124-84 8-25-8-47-43-55-55-13-151 7-234-32-70-33-95-84-88-155 4-42-19-70-55-73-44-4-75 37-83 111-8 82-62 132-97 185-18 26 0 42 139 46Z" fill="#fffdf8" stroke="#244c3d" stroke-width="15"/>
+    <path d="M333 346c115 37 248 40 370-7" stroke="#5d675f" stroke-width="8"/>
+    <path d="M384 300c62 31 139 44 230 37M419 251c45 29 105 44 181 42" stroke="#5ba8a0" stroke-width="10"/>
+    <path d="M565 238l-24 134M620 252l-22 121M676 272l-18 98" stroke="#d8d5ca" stroke-width="8"/>
+    <path d="M491 220c-19 63-23 116-11 156" stroke="#d8d5ca" stroke-width="8"/>
+    <circle cx="727" cy="268" r="23" fill="#fffdf8" stroke="#244c3d" stroke-width="11"/>
+    <circle cx="662" cy="258" r="21" fill="#fffdf8" stroke="#244c3d" stroke-width="10"/>
+    <circle cx="598" cy="236" r="19" fill="#fffdf8" stroke="#244c3d" stroke-width="9"/>
+    <circle cx="536" cy="209" r="17" fill="#fffdf8" stroke="#244c3d" stroke-width="9"/>
+    <path d="M303 448c141 40 311 39 463-9" stroke="#c49a46" stroke-width="10"/>
+  </g>
+</svg>

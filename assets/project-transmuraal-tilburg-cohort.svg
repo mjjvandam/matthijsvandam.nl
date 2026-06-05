@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Transmuraal Tilburg Cohort</title>
+  <desc id="desc">Projectbeeldmerk voor een digitaal transmuraal zorgpad in de regio Tilburg.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8f6ef"/>
+      <stop offset="0.52" stop-color="#dce8df"/>
+      <stop offset="1" stop-color="#f5efe7"/>
+    </linearGradient>
+    <linearGradient id="route" x1="175" y1="454" x2="790" y2="160" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#244c3d"/>
+      <stop offset="0.5" stop-color="#0b6fa4"/>
+      <stop offset="1" stop-color="#a44b3e"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#244c3d" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" rx="0" fill="url(#bg)"/>
+  <path d="M0 550 C190 460 275 500 425 425 C590 342 680 180 860 206 C1010 228 1110 136 1200 98 L1200 675 L0 675 Z" fill="#ffffff" opacity="0.34"/>
+  <path d="M-40 176 C152 118 280 156 440 105 C618 49 771 62 950 124 C1052 160 1130 151 1240 108" fill="none" stroke="#ffffff" stroke-width="28" opacity="0.48"/>
+
+  <g filter="url(#shadow)">
+    <rect x="82" y="92" width="1036" height="492" rx="30" fill="#fffdf8" opacity="0.88"/>
+  </g>
+
+  <g transform="translate(132 130)">
+    <g aria-hidden="true">
+      <path d="M46 318 C142 247 195 202 276 218 C340 231 371 290 438 269 C498 250 521 176 586 143 C641 116 699 133 760 91" fill="none" stroke="#d8ded8" stroke-width="68" stroke-linecap="round"/>
+      <path d="M46 318 C142 247 195 202 276 218 C340 231 371 290 438 269 C498 250 521 176 586 143 C641 116 699 133 760 91" fill="none" stroke="url(#route)" stroke-width="18" stroke-linecap="round"/>
+      <path d="M236 102 C276 72 337 82 375 121 C413 160 418 219 382 258 C349 294 289 293 249 257 C210 222 197 132 236 102 Z" fill="#f8f6ef" stroke="#244c3d" stroke-width="10"/>
+      <path d="M300 92 C322 142 330 199 306 270" fill="none" stroke="#244c3d" stroke-width="8" stroke-linecap="round" opacity="0.68"/>
+      <path d="M383 220 C421 226 455 246 476 277" fill="none" stroke="#244c3d" stroke-width="8" stroke-linecap="round" opacity="0.68"/>
+
+      <g fill="#fffdf8" stroke-width="10">
+        <circle cx="46" cy="318" r="34" stroke="#244c3d"/>
+        <circle cx="276" cy="218" r="34" stroke="#0b6fa4"/>
+        <circle cx="438" cy="269" r="34" stroke="#244c3d"/>
+        <circle cx="586" cy="143" r="34" stroke="#a44b3e"/>
+        <circle cx="760" cy="91" r="34" stroke="#0b6fa4"/>
+      </g>
+      <g fill="#244c3d" font-family="Inter, Arial, sans-serif" font-weight="850" font-size="22" text-anchor="middle">
+        <text x="46" y="326">1e</text>
+        <text x="276" y="226" fill="#0b6fa4">ETZ</text>
+        <text x="438" y="277">DATA</text>
+        <text x="586" y="151" fill="#a44b3e">LST</text>
+        <text x="760" y="99" fill="#0b6fa4">REG</text>
+      </g>
+    </g>
+
+    <g transform="translate(0 392)">
+      <text x="0" y="0" fill="#173653" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">Transmuraal</text>
+      <text x="0" y="66" fill="#173653" font-family="Georgia, 'Times New Roman', serif" font-size="58" font-weight="700">Tilburg Cohort</text>
+      <rect x="4" y="92" width="288" height="5" rx="2.5" fill="#a44b3e"/>
+      <text x="320" y="100" fill="#5f6d63" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700">Artrose - leefstijl - regio</text>
+    </g>
+  </g>
+</svg>

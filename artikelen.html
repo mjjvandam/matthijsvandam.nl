@@ -3,22 +3,23 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Artikelen | Matthijs van Dam</title>
-    <meta name="description" content="Overzicht van artikelen van Matthijs van Dam, filterbaar op doelgroep en onderwerp.">
+    <title>Artikelen | drs. Matthijs van Dam</title>
+    <meta name="description" content="Overzicht van artikelen van drs. Matthijs van Dam, filterbaar op doelgroep en onderwerp.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://matthijsvandam.nl/artikelen.html">
     <link rel="icon" href="assets/logo-mvd-mark.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css?v=20260605">
   </head>
   <body>
     <header class="site-header legal-header">
-      <a class="brand" href="index.html#top" aria-label="Terug naar Matthijs van Dam home">
+      <a class="brand" href="index.html#top" aria-label="Terug naar drs. Matthijs van Dam home">
         <img class="brand-logo" src="assets/logo-mvd-mark.svg" alt="" width="42" height="42">
-        <span>Matthijs van Dam</span>
+        <span>drs. Matthijs van Dam</span>
       </a>
       <nav class="site-nav legal-nav" aria-label="Pagina navigatie">
-        <a href="index.html#over">Over</a>
+        <a href="over-mij.html">Over</a>
         <a href="expertise.html">Expertise</a>
+        <a href="professionals.html">Professionals</a>
         <a href="artikelen.html">Artikelen</a>
         <a href="publicaties.html">Publicaties</a>
         <a href="projecten.html">Projecten</a>
@@ -36,7 +37,6 @@
           <div class="filter-group" data-filter-group="audience">
             <p>Voor wie</p>
             <div class="filter-bar">
-              <button class="filter-button is-active" type="button" data-filter="alles">Iedereen</button>
               <button class="filter-button" type="button" data-filter="patienten">Patiënten</button>
               <button class="filter-button" type="button" data-filter="zorgprofessionals">Zorgprofessionals</button>
             </div>
@@ -44,7 +44,6 @@
           <div class="filter-group" data-filter-group="topic">
             <p>Onderwerp</p>
             <div class="filter-bar">
-              <button class="filter-button is-active" type="button" data-filter="alles">Alle onderwerpen</button>
               <button class="filter-button" type="button" data-filter="voet-en-enkel">Voet en enkel</button>
               <button class="filter-button" type="button" data-filter="artrose">Artrose</button>
               <button class="filter-button" type="button" data-filter="leefstijl">Leefstijl</button>
@@ -55,6 +54,15 @@
       </section>
       <section class="section listing-section" aria-label="Artikeloverzicht">
         <div class="article-grid article-grid-listing">
+          <article class="article-card" data-audience="zorgprofessionals" data-topics="voet-en-enkel">
+            <img class="article-card-image" src="assets/article-footprint-quick-scan.svg" alt="" loading="lazy">
+            <div class="article-card-body">
+              <p class="article-label">Medewerkers</p>
+              <h3>FOOTprint Quick Scan op 30 juni</h3>
+              <p>Een laagdrempelige voetscreening voor medewerkers die veel staan en lopen tijdens hun werk.</p>
+              <a class="article-link" href="artikelen/footprint-quick-scan-medewerkers.html">Lees artikel</a>
+            </div>
+          </article>
           <article class="article-card" data-audience="patienten" data-topics="leefstijl onderzoek">
             <img class="article-card-image" src="assets/project-leefstijl-nov.svg" alt="" loading="lazy">
             <div class="article-card-body">
@@ -64,12 +72,21 @@
               <a class="article-link" href="artikelen/patientpanel-leefstijl-orthopedie.html">Lees artikel</a>
             </div>
           </article>
+          <article class="article-card" data-audience="patienten zorgprofessionals" data-topics="leefstijl onderzoek">
+            <img class="article-card-image" src="assets/project-we-walk.svg" alt="" loading="lazy">
+            <div class="article-card-body">
+              <p class="article-label">Najaar 2025</p>
+              <h3>We Walk demo: wandelen door een AR-route op de campus</h3>
+              <p>Over een eerste smartphone-demo waarmee je een augmented reality-route over de campus van Tilburg University kunt lopen.</p>
+              <a class="article-link" href="artikelen/we-walk-ar-campusroute-tilburg.html">Lees artikel</a>
+            </div>
+          </article>
           <article class="article-card" data-audience="patienten zorgprofessionals" data-topics="artrose leefstijl onderzoek">
             <img class="article-card-image project-card-image project-card-image-contain" src="assets/project-heracleum-logo.jpg" alt="" loading="lazy">
             <div class="article-card-body">
               <p class="article-label">December 2025</p>
-              <h3>Heracleum Hulpfonds steunt onderzoek naar artrose, obesitas en transmurale zorg</h3>
-              <p>Over de subsidie voor het Transmuraal Tilburg Cohort en de wetenschappelijke opzet van een digitaal zorgpad.</p>
+              <h3>Heracleum Hulpfonds kent subsidie toe aan Transmuraal Tilburg Cohort</h3>
+              <p>Over de subsidie voor de onderzoeksopzet en dataverzameling binnen het digitale zorgpad.</p>
               <a class="article-link" href="artikelen/heracleum-hulpfonds-subsidie-transmuraal-tilburg-cohort.html">Lees artikel</a>
             </div>
           </article>
@@ -95,9 +112,18 @@
             <img class="article-card-image" src="assets/article-digital-care-pathway.png" alt="" loading="lazy">
             <div class="article-card-body">
               <p class="article-label">Onderzoek</p>
-              <h3>Digitaal zorgpad voor artrose en obesitas</h3>
-              <p>Over de Leefstijlcoalitie-voucher om in het ETZ een digitaal zorgpad voor artrose en obesitas uit te rollen met partners in ziekenhuis en regio.</p>
+              <h3>Leefstijlcoalitie-voucher voor digitale artrosezorg in Tilburg</h3>
+              <p>Over de implementatievoucher voor een digitale en persoonlijke aanpak rond artrose en obesitas.</p>
               <a class="article-link" href="artikelen/digitaal-zorgpad-artrose-obesitas.html">Lees artikel</a>
+            </div>
+          </article>
+          <article class="article-card" data-audience="patienten zorgprofessionals" data-topics="artrose leefstijl onderzoek">
+            <img class="article-card-image" src="assets/article-digital-care-pathway.png" alt="" loading="lazy">
+            <div class="article-card-body">
+              <p class="article-label">2025</p>
+              <h3>Vaillant Fonds ondersteunt verdere ontwikkeling digitaal zorgpad</h3>
+              <p>Over de bijdrage voor de verdere ontwikkeling van het digitale zorgpad binnen het Transmuraal Tilburg Cohort.</p>
+              <a class="article-link" href="artikelen/vaillant-fonds-digitaal-zorgpad.html">Lees artikel</a>
             </div>
           </article>
           <article class="article-card" data-audience="zorgprofessionals" data-topics="artrose leefstijl onderzoek">
@@ -125,14 +151,14 @@
       </section>
     </main>
     <footer class="site-footer">
-      <p>&copy; <span data-year></span> Matthijs van Dam</p>
+      <p>&copy; <span data-year></span> drs. Matthijs van Dam</p>
       <span class="footer-links" aria-label="Footer links">
         <a href="index.html#contact">Contact</a>
         <a href="privacy.html">Privacy</a>
         <a href="disclaimer.html">Disclaimer</a>
       </span>
     </footer>
-    <script src="script.js"></script>
+    <script src="script.js?v=20260605"></script>
     <script>
       (() => {
         const groups = Array.from(document.querySelectorAll('[data-filter-group]'));
@@ -187,7 +213,7 @@
         groups.forEach((group) => {
           const groupName = group.dataset.filterGroup;
           const allowed = Array.from(group.querySelectorAll('[data-filter]')).map((button) => button.dataset.filter);
-          if (!allowed.includes(state[groupName])) state[groupName] = 'alles';
+          if (state[groupName] !== 'alles' && !allowed.includes(state[groupName])) state[groupName] = 'alles';
         });
         apply();
       })();
