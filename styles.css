@@ -1198,7 +1198,7 @@ a {
   color: var(--white);
 }
 
-.article-grid-listing .article-card[hidden] {
+[hidden] {
   display: none;
 }
 
