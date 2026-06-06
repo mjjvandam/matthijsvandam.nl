@@ -613,15 +613,6 @@ a {
   flex-direction: column;
 }
 
-.route-number {
-  display: inline-flex;
-  width: max-content;
-  margin-bottom: 18px;
-  color: var(--clay);
-  font-size: 0.82rem;
-  font-weight: 950;
-}
-
 .audience-grid h3 {
   margin: 0 0 12px;
   font-size: 1.35rem;
@@ -2511,6 +2502,26 @@ a {
   box-shadow: var(--shadow-soft);
 }
 
+.professional-contact-card-link {
+  color: inherit;
+  text-decoration: none;
+  transition: border-color 180ms ease, box-shadow 180ms ease, transform 180ms ease;
+}
+
+.professional-contact-card-link:hover,
+.professional-contact-card-link:focus-visible {
+  border-color: rgba(0, 105, 255, 0.32);
+  box-shadow: 0 18px 40px rgba(23, 32, 28, 0.14);
+  transform: translateY(-2px);
+  outline: none;
+}
+
+.doctolib-connect-logo {
+  width: min(210px, 100%);
+  height: auto;
+  margin-bottom: 8px;
+}
+
 .professional-contact-card strong {
   color: var(--green);
   font-size: clamp(1.4rem, 3vw, 2rem);
@@ -2521,14 +2532,65 @@ a {
   line-height: 1.45;
 }
 
+.professional-contact-card small {
+  color: var(--blue);
+  font-size: 0.9rem;
+  font-weight: 850;
+}
+
 .professional-examples {
   background:
     linear-gradient(180deg, rgba(255, 253, 248, 0.96), rgba(220, 232, 223, 0.42)),
     var(--paper);
 }
 
-.expertise-sources {
+.expertise-sources,
+.professional-boundary {
   background: var(--white);
+}
+
+.professional-boundary {
+  padding-top: clamp(42px, 6vw, 70px);
+  padding-bottom: clamp(42px, 6vw, 70px);
+}
+
+.professional-boundary-panel {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: clamp(24px, 4vw, 34px);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(247, 244, 237, 0.72);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(240px, 0.42fr);
+  gap: clamp(22px, 5vw, 54px);
+  align-items: center;
+}
+
+.professional-boundary-panel h2 {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.6rem, 2.6vw, 2.35rem);
+  line-height: 1.05;
+}
+
+.professional-boundary-panel p {
+  margin-bottom: 0;
+}
+
+.professional-follow {
+  padding-left: clamp(0px, 3vw, 32px);
+  border-left: 1px solid rgba(36, 76, 61, 0.18);
+}
+
+.professional-follow p {
+  color: var(--muted);
+  font-size: 0.96rem;
+  line-height: 1.58;
+}
+
+.professional-follow .article-link {
+  margin-top: 14px;
 }
 
 @media (max-width: 840px) {
@@ -2542,6 +2604,17 @@ a {
 
   .professional-contact-panel {
     grid-template-columns: 1fr;
+  }
+
+  .professional-boundary-panel {
+    grid-template-columns: 1fr;
+  }
+
+  .professional-follow {
+    padding-left: 0;
+    padding-top: 18px;
+    border-left: 0;
+    border-top: 1px solid rgba(36, 76, 61, 0.18);
   }
 }
 

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 92" role="img" aria-labelledby="title desc">
+  <title id="title">Doctolib Connect</title>
+  <desc id="desc">Doctolib Connect logo</desc>
+  <rect width="92" height="92" rx="22" fill="#0069ff"/>
+  <path fill="#fff" d="M47 22c15 0 26 11 26 25S62 72 47 72H28V22h19Zm-1 35c6 0 10-4 10-10s-4-10-10-10h-2v20h2Z"/>
+  <path fill="#fff" d="M39 33h11v28H39z"/>
+  <text x="116" y="42" fill="#13223a" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">doctolib</text>
+  <text x="116" y="70" fill="#0069ff" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">connect</text>
+</svg>
