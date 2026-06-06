@@ -24,9 +24,10 @@
     <meta name="twitter:image" content="https://matthijsvandam.nl/assets/social-preview.png">
     <meta name="twitter:image:alt" content="drs. Matthijs van Dam, orthopedisch chirurg in Tilburg">
     <link rel="icon" href="assets/logo-mvd-mark.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css?v=20260605">
+    <link rel="stylesheet" href="styles.css?v=20260606">
   </head>
   <body>
+    <a class="skip-link" href="#articles-content">Ga naar inhoud</a>
     <header class="site-header legal-header">
       <a class="brand" href="index.html#top" aria-label="Terug naar drs. Matthijs van Dam home">
         <img class="brand-logo" src="assets/logo-mvd-mark.svg" alt="" width="42" height="42">
@@ -41,7 +42,7 @@
         <a href="projecten.html">Projecten</a>
       </nav>
     </header>
-    <main class="listing-page">
+    <main class="listing-page" id="articles-content">
       <section class="listing-hero" aria-labelledby="articles-overview-title">
         <p class="section-kicker">Artikelen</p>
         <h1 id="articles-overview-title">Lees verder over orthopedie, leefstijl en zorgontwikkeling</h1>
@@ -53,6 +54,7 @@
           <div class="filter-group" data-filter-group="audience">
             <p>Voor wie</p>
             <div class="filter-bar">
+              <button class="filter-button" type="button" data-filter="alles">Alles</button>
               <button class="filter-button" type="button" data-filter="patienten">Patiënten</button>
               <button class="filter-button" type="button" data-filter="zorgprofessionals">Zorgprofessionals</button>
             </div>
@@ -60,6 +62,7 @@
           <div class="filter-group" data-filter-group="topic">
             <p>Onderwerp</p>
             <div class="filter-bar">
+              <button class="filter-button" type="button" data-filter="alles">Alles</button>
               <button class="filter-button" type="button" data-filter="voet-en-enkel">Voet en enkel</button>
               <button class="filter-button" type="button" data-filter="artrose">Artrose</button>
               <button class="filter-button" type="button" data-filter="leefstijl">Leefstijl</button>
@@ -80,7 +83,7 @@
             </div>
           </article>
           <article class="article-card" data-audience="patienten" data-topics="leefstijl onderzoek">
-            <img class="article-card-image" src="assets/project-leefstijl-nov.svg" alt="Illustratie bij het NOV-project over leefstijl en orthopedie" loading="lazy">
+            <img class="article-card-image" src="assets/article-knee-osteoarthritis-support.jpg" alt="Respectvol gesprek over knieartrose, bewegen en herstel" loading="lazy">
             <div class="article-card-body">
               <p class="article-label">Patiënten gezocht</p>
               <h3>Online patiëntpanel over leefstijl en orthopedie</h3>
@@ -89,7 +92,7 @@
             </div>
           </article>
           <article class="article-card" data-audience="patienten zorgprofessionals" data-topics="leefstijl onderzoek">
-            <img class="article-card-image" src="assets/project-we-walk.svg" alt="Illustratie van het We Walk-project" loading="lazy">
+            <img class="article-card-image" src="assets/project-we-walk-editorial.jpg" alt="Smartphone met AR-wandelroute op een rustige campus" loading="lazy">
             <div class="article-card-body">
               <p class="article-label">Najaar 2025</p>
               <h3>We Walk demo: wandelen door een AR-route op de campus</h3>
@@ -107,7 +110,7 @@
             </div>
           </article>
           <article class="article-card" data-audience="patienten" data-topics="voet-en-enkel onderzoek">
-            <img class="article-card-image" src="assets/article-psi-foot-ankle-surgery.jpg" alt="Poster over patiënt-specifieke instrumentatie bij voet- en enkelchirurgie" loading="lazy">
+            <img class="article-card-image" src="assets/article-3d-planning-lab.jpg" alt="3D-geprint voetmodel en planning in een ziekenhuislab" loading="lazy">
             <div class="article-card-body">
               <p class="article-label">Patiënten</p>
               <h3>Niet vastgegroeide artrodese: wat betekent revisie-artrodese?</h3>
@@ -116,7 +119,7 @@
             </div>
           </article>
           <article class="article-card" data-audience="zorgprofessionals" data-topics="voet-en-enkel onderzoek">
-            <img class="article-card-image" src="assets/article-psi-foot-ankle-surgery.jpg" alt="Poster over patiënt-specifieke instrumentatie bij voet- en enkelchirurgie" loading="lazy">
+            <img class="article-card-image" src="assets/article-3d-planning-lab.jpg" alt="3D-geprint voetmodel en planning in een ziekenhuislab" loading="lazy">
             <div class="article-card-body">
               <p class="article-label">Zorgprofessionals</p>
               <h3>Patiënt-specifieke instrumentatie bij complexe voet- en enkelchirurgie</h3>
@@ -125,7 +128,7 @@
             </div>
           </article>
           <article class="article-card" data-audience="patienten zorgprofessionals" data-topics="artrose leefstijl onderzoek">
-            <img class="article-card-image" src="assets/article-digital-care-pathway.png" alt="Illustratie van een digitaal zorgpad voor artrosezorg" loading="lazy">
+            <img class="article-card-image" src="assets/article-digital-care-pathway-editorial.jpg" alt="Tablet met digitaal zorgpad en knie-anatomiemodel in een spreekkamer" loading="lazy">
             <div class="article-card-body">
               <p class="article-label">Onderzoek</p>
               <h3>Leefstijlcoalitie-voucher voor digitale artrosezorg in Tilburg</h3>
@@ -134,7 +137,7 @@
             </div>
           </article>
           <article class="article-card" data-audience="zorgprofessionals" data-topics="artrose leefstijl onderzoek">
-            <img class="article-card-image" src="assets/article-osteoarthritis-professionals.png" alt="Illustratie bij artrosezorg voor zorgprofessionals" loading="lazy">
+            <img class="article-card-image" src="assets/article-knee-osteoarthritis-support.jpg" alt="Respectvol gesprek over knieartrose, bewegen en herstel" loading="lazy">
             <div class="article-card-body">
               <p class="article-label">Zorgprofessionals</p>
               <h3>Leefstijlzorg in de tweede lijn: zorgvuldig signaleren en verbinden</h3>
@@ -143,7 +146,7 @@
             </div>
           </article>
           <article class="article-card" data-audience="patienten zorgprofessionals" data-topics="artrose leefstijl onderzoek">
-            <img class="article-card-image" src="assets/article-digital-care-pathway.png" alt="Illustratie van een digitaal zorgpad voor artrosezorg" loading="lazy">
+            <img class="article-card-image" src="assets/article-digital-care-pathway-editorial.jpg" alt="Tablet met digitaal zorgpad en knie-anatomiemodel in een spreekkamer" loading="lazy">
             <div class="article-card-body">
               <p class="article-label">2025</p>
               <h3>Vaillant Fonds ondersteunt verdere ontwikkeling digitaal zorgpad</h3>
@@ -152,7 +155,7 @@
             </div>
           </article>
           <article class="article-card" data-audience="zorgprofessionals" data-topics="artrose leefstijl onderzoek">
-            <img class="article-card-image" src="assets/article-osteoarthritis-professionals.png" alt="Illustratie bij artrosezorg voor zorgprofessionals" loading="lazy">
+            <img class="article-card-image" src="assets/article-knee-osteoarthritis-support.jpg" alt="Respectvol gesprek over knieartrose, bewegen en herstel" loading="lazy">
             <div class="article-card-body">
               <p class="article-label">Zorgprofessionals</p>
               <h3>Artrosezorg in transitie: wat vraagt dit van professionals?</h3>
@@ -161,7 +164,7 @@
             </div>
           </article>
           <article class="article-card" data-audience="patienten" data-topics="artrose leefstijl">
-            <img class="article-card-image" src="assets/article-osteoarthritis-patients.png" alt="Illustratie bij uitleg over artrosezorg voor patiënten" loading="lazy">
+            <img class="article-card-image" src="assets/article-knee-osteoarthritis-support.jpg" alt="Respectvol gesprek over knieartrose, bewegen en herstel" loading="lazy">
             <div class="article-card-body">
               <p class="article-label">Patiënten</p>
               <h3>Artrosezorg in transitie: wat betekent dit voor patiënten?</h3>
@@ -183,7 +186,7 @@
         <a href="disclaimer.html">Disclaimer</a>
       </span>
     </footer>
-    <script src="script.js?v=20260605"></script>
+    <script src="script.js?v=20260606"></script>
     <script>
       (() => {
         const groups = Array.from(document.querySelectorAll('[data-filter-group]'));
