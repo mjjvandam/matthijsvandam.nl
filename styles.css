@@ -1085,6 +1085,18 @@ a {
   color: var(--green);
 }
 
+.social-profile-link {
+  align-items: center;
+  gap: 8px;
+}
+
+.social-profile-link img {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+  border-radius: 4px;
+}
+
 .article-label {
   margin: 0 0 28px;
   color: var(--green);
