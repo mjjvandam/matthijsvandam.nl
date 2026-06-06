@@ -30,21 +30,29 @@ nav?.addEventListener("click", (event) => {
   }
 });
 
-const expertiseIconFor = (card, label) => {
+document.querySelectorAll("[data-professional-email]").forEach((link) => {
+  link.addEventListener("click", (event) => {
+    event.preventDefault();
+    const user = link.getAttribute("data-user")?.split("").reverse().join("");
+    const domain = link.getAttribute("data-domain")?.split("").reverse().join("");
+    if (!user || !domain) return;
+    window.location.href = `mailto:${user}@${domain}`;
+  });
+});
+
+const expertiseImageFor = (card, label) => {
   const topic = card.getAttribute("data-topic") || "";
   const normalizedLabel = label.toLowerCase();
   if (topic.includes("leefstijl") || normalizedLabel.includes("herstel")) {
-    return normalizedLabel.includes("bewegen") || normalizedLabel.includes("stappen")
-      ? "assets/expertise-walking-person.svg"
-      : "assets/expertise-care-pathway.svg";
+    return "assets/article-knee-osteoarthritis-support.jpg";
   }
   if (topic.includes("knie") || normalizedLabel.includes("knie") || normalizedLabel.includes("sport")) {
-    return "assets/expertise-knee-anatomy.svg";
+    return "assets/article-knee-osteoarthritis-support.jpg";
   }
   if (topic.includes("enkel") || normalizedLabel.includes("enkel")) {
-    return "assets/expertise-ankle-anatomy.svg";
+    return "assets/expertise-ankle-editorial.jpg";
   }
-  return "assets/expertise-foot-anatomy.svg";
+  return "assets/expertise-forefoot-editorial.jpg";
 };
 
 document.querySelectorAll(".expertise-card .article-card-body").forEach((body) => {
@@ -54,15 +62,11 @@ document.querySelectorAll(".expertise-card .article-card-body").forEach((body) =
   const label = body.querySelector(".article-label")?.textContent?.trim() || "Expertise";
   const title = body.querySelector("h3")?.textContent?.trim() || "";
   const description = body.querySelector("p:not(.article-label)")?.textContent?.trim() || "";
-  const existingIcon = body.querySelector(".expertise-card-icon");
-  const icon = existingIcon || document.createElement("img");
-
-  if (!existingIcon) {
-    icon.className = "expertise-card-icon";
-    icon.src = expertiseIconFor(card, label);
-    icon.alt = "";
-    icon.loading = "lazy";
-  }
+  const image = document.createElement("img");
+  image.className = "expertise-card-icon expertise-card-photo";
+  image.src = expertiseImageFor(card, label);
+  image.alt = "";
+  image.loading = "lazy";
 
   card.classList.add("is-flip-card");
   card.setAttribute("tabindex", "0");
@@ -82,7 +86,7 @@ document.querySelectorAll(".expertise-card .article-card-body").forEach((body) =
   const frontTitle = document.createElement("h3");
   frontTitle.textContent = title;
 
-  front.append(icon, frontLabel, frontTitle);
+  front.append(image, frontLabel, frontTitle);
 
   const back = document.createElement("div");
   back.className = "expertise-flip-face expertise-flip-back";
