@@ -1808,7 +1808,8 @@ a {
 .filter-button:focus-visible,
 .article-link:focus-visible,
 .site-nav a:focus-visible,
-.brand:focus-visible {
+.brand:focus-visible,
+.nav-toggle:focus-visible {
   outline: 3px solid var(--ochre);
   outline-offset: 3px;
 }
