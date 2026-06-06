@@ -590,15 +590,36 @@ a {
   max-width: 1180px;
   margin: 24px auto 0;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
 }
 
 .audience-grid article {
   padding: 30px;
   border: 1px solid rgba(36, 76, 61, 0.14);
-  border-radius: 18px;
+  border-radius: 8px;
   background: linear-gradient(135deg, rgba(220, 232, 223, 0.88), rgba(255, 253, 248, 0.7));
+}
+
+.visitor-route-band {
+  background:
+    linear-gradient(180deg, rgba(255, 253, 248, 0.96), rgba(220, 232, 223, 0.42)),
+    var(--paper);
+}
+
+.visitor-routes article {
+  display: flex;
+  min-height: 292px;
+  flex-direction: column;
+}
+
+.route-number {
+  display: inline-flex;
+  width: max-content;
+  margin-bottom: 18px;
+  color: var(--clay);
+  font-size: 0.82rem;
+  font-weight: 950;
 }
 
 .audience-grid h3 {
@@ -606,8 +627,16 @@ a {
   font-size: 1.35rem;
 }
 
+.visitor-routes p {
+  flex: 1;
+}
+
 .audience-grid p:last-child {
   margin-bottom: 0;
+}
+
+.visitor-routes .article-link {
+  margin-top: 16px;
 }
 
 .process {
@@ -739,6 +768,32 @@ a {
   color: var(--muted);
   font-size: 0.92rem;
   line-height: 1.45;
+}
+
+.project-context {
+  margin: 34px 0 38px;
+}
+
+.project-context-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.project-context article {
+  padding: 24px;
+  border: 1px solid rgba(36, 76, 61, 0.14);
+  border-radius: 8px;
+  background: rgba(255, 253, 248, 0.78);
+}
+
+.project-context h2 {
+  margin-top: 0;
+  font-size: clamp(1.25rem, 2.2vw, 1.7rem);
+}
+
+.project-context p:last-child {
+  margin-bottom: 0;
 }
 
 .steps {
@@ -2496,6 +2551,10 @@ a {
   }
 
   .project-supporters {
+    grid-template-columns: 1fr;
+  }
+
+  .project-context-grid {
     grid-template-columns: 1fr;
   }
 
