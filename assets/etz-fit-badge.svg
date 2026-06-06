@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 80" role="img" aria-labelledby="title desc">
+  <title id="title">ETZ Fit</title>
+  <desc id="desc">Badge voor het ETZ Fit-programma</desc>
+  <rect width="220" height="80" rx="18" fill="#0b67ad"/>
+  <path d="M151 18c15 0 27 12 27 27s-12 27-27 27-27-12-27-27 12-27 27-27Z" fill="#5ba8a0"/>
+  <path d="M151 31v14l10 7" fill="none" stroke="#fffdf8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="24" y="50" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="900">ETZ</text>
+  <text x="92" y="50" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800">Fit</text>
+</svg>

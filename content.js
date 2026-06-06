@@ -27,7 +27,7 @@
       title: "We Walk",
       label: "Digitale innovatie",
       summary:
-        "Een project met Tilburg University over digitale ondersteuning van bewegen bij patiënten en medewerkers.",
+        "Een project met Tilburg University over digitale ondersteuning van bewegen bij patiënten en ziekenhuismedewerkers.",
       image: "assets/project-we-walk-editorial.jpg",
       imageAlt: "Smartphone met AR-wandelroute op een rustige campus",
       url: "projecten/we-walk.html",
@@ -51,7 +51,7 @@
       id: "footprint-quick-scan-medewerkers",
       title: "FOOTprint Quick Scan op 30 juni",
       label: "Medewerkers",
-      summary: "Een laagdrempelige voetscreening voor medewerkers die veel staan en lopen tijdens hun werk.",
+      summary: "Een laagdrempelige voetscreening voor ETZ-medewerkers door drs. Matthijs van Dam en schoentechnicus Joep van Buchrnhornen. De 35 beschikbare plekken zijn inmiddels gevuld.",
       image: "assets/article-footprint-quick-scan-editorial.jpg",
       imageAlt: "Voetscreening met werkschoenen, inlegzolen en voetmodel",
       url: "artikelen/footprint-quick-scan-medewerkers.html",
@@ -197,6 +197,65 @@
   const sortByDateDesc = (items) =>
     [...items].sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
 
+  const filterLabels = {
+    patienten: "Patiënten",
+    zorgprofessionals: "Zorgprofessionals",
+    "voet-en-enkel": "Voet en enkel",
+    artrose: "Artrose",
+    leefstijl: "Leefstijl",
+    onderzoek: "Onderzoek",
+    "digitale-zorg": "Digitale zorg",
+    preventie: "Preventie",
+  };
+
+  const preferredFilterOrder = {
+    audience: ["patienten", "zorgprofessionals"],
+    topic: ["voet-en-enkel", "artrose", "leefstijl", "onderzoek", "digitale-zorg", "preventie"],
+  };
+
+  const labelForFilter = (value) =>
+    filterLabels[value] ||
+    value
+      .split("-")
+      .filter(Boolean)
+      .map((part, index) => (index === 0 ? part.charAt(0).toUpperCase() + part.slice(1) : part))
+      .join(" ");
+
+  const sortedFilterValues = (values, groupName) => {
+    const preferred = preferredFilterOrder[groupName] || [];
+    return [...values].sort((a, b) => {
+      const aIndex = preferred.indexOf(a);
+      const bIndex = preferred.indexOf(b);
+      if (aIndex !== -1 || bIndex !== -1) {
+        if (aIndex === -1) return 1;
+        if (bIndex === -1) return -1;
+        return aIndex - bIndex;
+      }
+      return labelForFilter(a).localeCompare(labelForFilter(b), "nl");
+    });
+  };
+
+  const renderArticleFilters = () => {
+    const filters = {
+      audience: new Set(),
+      topic: new Set(),
+    };
+    articles.forEach((article) => {
+      article.audience.forEach((audience) => filters.audience.add(audience));
+      article.topics.forEach((topic) => filters.topic.add(topic));
+    });
+    document.querySelectorAll("[data-filter-options]").forEach((container) => {
+      const groupName = container.getAttribute("data-filter-options");
+      const values = sortedFilterValues(filters[groupName] || [], groupName);
+      container.innerHTML = values
+        .map(
+          (value) =>
+            `<button class="filter-button" type="button" data-filter="${value}" aria-pressed="false">${labelForFilter(value)}</button>`
+        )
+        .join("");
+    });
+  };
+
   const prefixForCurrentPage = () => {
     const path = window.location.pathname;
     return path.includes("/artikelen/") || path.includes("/projecten/") ? "../" : "";
@@ -245,9 +304,15 @@
 
   renderList("[data-content='articles-list']", sortByDateDesc(articles), articleCard);
   renderList("[data-content='home-articles']", sortByDateDesc(articles), articleCard);
+  renderArticleFilters();
   renderList("[data-content='projects-list']", projects, projectCard);
   renderList("[data-content='home-projects']", projects.filter((project) => project.featured).slice(0, 3), projectCard);
   renderList("[data-content='professional-projects']", projects.filter((project) => project.featured).slice(0, 3), projectCard);
+  renderList(
+    "[data-content='professional-articles']",
+    sortByDateDesc(articles).filter((article) => article.audience.includes("zorgprofessionals")),
+    articleCard
+  );
 
   document.querySelectorAll("[data-content='project-news']").forEach((container) => {
     const projectId = container.getAttribute("data-project");

@@ -23,20 +23,25 @@
     <meta name="twitter:description" content="Overzicht van artikelen van drs. Matthijs van Dam, filterbaar op doelgroep en onderwerp.">
     <meta name="twitter:image" content="https://matthijsvandam.nl/assets/social-preview.png">
     <meta name="twitter:image:alt" content="drs. Matthijs van Dam, orthopedisch chirurg in Tilburg">
-    <link rel="icon" href="assets/logo-mvd-mark.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css?v=20260606c">
+    <link rel="icon" href="assets/logo-mvd-mark-v2.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css?v=20260606u">
   </head>
   <body>
     <a class="skip-link" href="#articles-content">Ga naar inhoud</a>
-    <header class="site-header legal-header">
+    <header class="site-header legal-header" data-header>
       <a class="brand" href="index.html#top" aria-label="Terug naar drs. Matthijs van Dam home">
-        <img class="brand-logo" src="assets/logo-mvd-mark.svg" alt="" width="42" height="42">
+        <img class="brand-logo" src="assets/logo-mvd-mark-v2.svg" alt="" width="42" height="42">
         <span>drs. Matthijs van Dam</span>
       </a>
-      <nav class="site-nav legal-nav" aria-label="Pagina navigatie">
+      <button class="nav-toggle" type="button" aria-label="Menu openen" aria-expanded="false" data-nav-toggle>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav legal-nav" aria-label="Pagina navigatie" data-nav>
         <a href="over-mij.html">Over</a>
-        <a href="expertise.html">Expertise</a>
+        <a href="behandelingen.html">Behandelingen</a>
         <a href="professionals.html">Professionals</a>
+        <a href="advies-consultancy.html">Advies</a>
         <a href="artikelen.html">Artikelen</a>
         <a href="publicaties.html">Publicaties</a>
         <a href="projecten.html">Projecten</a>
@@ -53,26 +58,18 @@
         <div class="filter-panel" aria-label="Artikel filters">
           <div class="filter-group" data-filter-group="audience">
             <p>Voor wie</p>
-            <div class="filter-bar">
-              <button class="filter-button" type="button" data-filter="patienten">Patiënten</button>
-              <button class="filter-button" type="button" data-filter="zorgprofessionals">Zorgprofessionals</button>
-            </div>
+            <div class="filter-bar" data-filter-options="audience"></div>
           </div>
           <div class="filter-group" data-filter-group="topic">
             <p>Onderwerp</p>
-            <div class="filter-bar">
-              <button class="filter-button" type="button" data-filter="voet-en-enkel">Voet en enkel</button>
-              <button class="filter-button" type="button" data-filter="artrose">Artrose</button>
-              <button class="filter-button" type="button" data-filter="leefstijl">Leefstijl</button>
-              <button class="filter-button" type="button" data-filter="onderzoek">Onderzoek</button>
-            </div>
+            <div class="filter-bar" data-filter-options="topic"></div>
           </div>
         </div>
       </section>
       <section class="section listing-section" aria-label="Artikeloverzicht">
         <div class="article-grid article-grid-listing" data-content="articles-list"></div>
         <p class="filter-empty" data-filter-empty hidden>
-          Er staan nog geen artikelen bij deze combinatie. Kies een ander onderwerp of bekijk alle artikelen.
+          Er staan nog geen artikelen bij deze combinatie. Zet een filter uit of kies een ander onderwerp.
         </p>
       </section>
     </main>
@@ -84,8 +81,8 @@
         <a href="disclaimer.html">Disclaimer</a>
       </span>
     </footer>
-    <script src="content.js?v=20260606e"></script>
-    <script src="script.js?v=20260606b"></script>
+    <script src="content.js?v=20260606i"></script>
+    <script src="script.js?v=20260606e"></script>
     <script>
       (() => {
         const groups = Array.from(document.querySelectorAll('[data-filter-group]'));
@@ -93,19 +90,19 @@
         const empty = document.querySelector('[data-filter-empty]');
         const params = new URLSearchParams(window.location.search);
         const state = {
-          audience: params.get('audience') || params.get('label') || 'alles',
-          topic: params.get('topic') || 'alles',
+          audience: params.get('audience') || params.get('label') || '',
+          topic: params.get('topic') || '',
         };
         const syncUrl = () => {
           const url = new URL(window.location.href);
-          if (state.audience === 'alles') {
+          if (!state.audience) {
             url.searchParams.delete('audience');
             url.searchParams.delete('label');
           } else {
             url.searchParams.set('audience', state.audience);
             url.searchParams.delete('label');
           }
-          if (state.topic === 'alles') url.searchParams.delete('topic');
+          if (!state.topic) url.searchParams.delete('topic');
           else url.searchParams.set('topic', state.topic);
           history.replaceState(null, '', url);
         };
@@ -113,15 +110,17 @@
           groups.forEach((group) => {
             const groupName = group.dataset.filterGroup;
             group.querySelectorAll('[data-filter]').forEach((button) => {
-              button.classList.toggle('is-active', button.dataset.filter === state[groupName]);
+              const isActive = button.dataset.filter === state[groupName];
+              button.classList.toggle('is-active', isActive);
+              button.setAttribute('aria-pressed', String(isActive));
             });
           });
           let visibleCount = 0;
           cards.forEach((card) => {
             const audiences = (card.dataset.audience || '').split(/\s+/);
             const topics = (card.dataset.topics || '').split(/\s+/);
-            const audienceMatches = state.audience === 'alles' || audiences.includes(state.audience);
-            const topicMatches = state.topic === 'alles' || topics.includes(state.topic);
+            const audienceMatches = !state.audience || audiences.includes(state.audience);
+            const topicMatches = !state.topic || topics.includes(state.topic);
             card.hidden = !(audienceMatches && topicMatches);
             if (!card.hidden) visibleCount += 1;
           });
@@ -131,7 +130,7 @@
           const groupName = group.dataset.filterGroup;
           group.querySelectorAll('[data-filter]').forEach((button) => {
             button.addEventListener('click', () => {
-              state[groupName] = button.dataset.filter || 'alles';
+              state[groupName] = state[groupName] === button.dataset.filter ? '' : button.dataset.filter || '';
               syncUrl();
               apply();
             });
@@ -140,7 +139,7 @@
         groups.forEach((group) => {
           const groupName = group.dataset.filterGroup;
           const allowed = Array.from(group.querySelectorAll('[data-filter]')).map((button) => button.dataset.filter);
-          if (state[groupName] !== 'alles' && !allowed.includes(state[groupName])) state[groupName] = 'alles';
+          if (state[groupName] && !allowed.includes(state[groupName])) state[groupName] = '';
         });
         apply();
       })();

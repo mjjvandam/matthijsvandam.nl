@@ -4,9 +4,54 @@ const navToggle = document.querySelector("[data-nav-toggle]");
 const year = document.querySelector("[data-year]");
 const contactForm = document.querySelector("[data-contact-form]");
 const contactStatus = document.querySelector("[data-contact-status]");
+const root = document.documentElement;
+const themeStorageKey = "mvd-theme";
 
 if (year) {
   year.textContent = new Date().getFullYear();
+}
+
+const preferredTheme = () =>
+  window.matchMedia?.("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+
+const currentTheme = () => root.getAttribute("data-theme") || preferredTheme();
+
+const setTheme = (theme, persist = true) => {
+  root.setAttribute("data-theme", theme);
+  if (persist) {
+    window.localStorage?.setItem(themeStorageKey, theme);
+  }
+  const themeToggle = document.querySelector("[data-theme-toggle]");
+  if (!themeToggle) return;
+  const isDark = theme === "dark";
+  themeToggle.setAttribute("aria-pressed", String(isDark));
+  themeToggle.setAttribute("aria-label", isDark ? "Lichte modus inschakelen" : "Donkere modus inschakelen");
+};
+
+const storedTheme = window.localStorage?.getItem(themeStorageKey);
+if (storedTheme === "dark" || storedTheme === "light") {
+  setTheme(storedTheme, false);
+}
+
+window.matchMedia?.("(prefers-color-scheme: dark)").addEventListener?.("change", () => {
+  const savedTheme = window.localStorage?.getItem(themeStorageKey);
+  if (savedTheme !== "dark" && savedTheme !== "light") {
+    setTheme(preferredTheme(), false);
+  }
+});
+
+if (header && navToggle) {
+  const themeToggle = document.createElement("button");
+  themeToggle.className = "theme-toggle";
+  themeToggle.type = "button";
+  themeToggle.setAttribute("data-theme-toggle", "");
+  themeToggle.innerHTML = '<span class="theme-toggle-icon" aria-hidden="true"></span>';
+  header.insertBefore(themeToggle, navToggle);
+  setTheme(currentTheme(), false);
+
+  themeToggle.addEventListener("click", () => {
+    setTheme(currentTheme() === "dark" ? "light" : "dark");
+  });
 }
 
 const syncHeader = () => {
@@ -79,21 +124,13 @@ document.querySelectorAll(".expertise-card .article-card-body").forEach((body) =
   front.className = "expertise-flip-face expertise-flip-front";
   front.setAttribute("aria-hidden", "true");
 
-  const frontLabel = document.createElement("p");
-  frontLabel.className = "article-label";
-  frontLabel.textContent = label;
-
   const frontTitle = document.createElement("h3");
   frontTitle.textContent = title;
 
-  front.append(image, frontLabel, frontTitle);
+  front.append(image, frontTitle);
 
   const back = document.createElement("div");
   back.className = "expertise-flip-face expertise-flip-back";
-
-  const backLabel = document.createElement("p");
-  backLabel.className = "article-label";
-  backLabel.textContent = label;
 
   const backTitle = document.createElement("h3");
   backTitle.textContent = title;
@@ -101,7 +138,7 @@ document.querySelectorAll(".expertise-card .article-card-body").forEach((body) =
   const backDescription = document.createElement("p");
   backDescription.textContent = description;
 
-  back.append(backLabel, backTitle, backDescription);
+  back.append(backTitle, backDescription);
   inner.append(front, back);
   body.replaceChildren(inner);
 });
@@ -114,9 +151,10 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
   const groups = Array.from(panel.querySelectorAll("[data-filter-group]"));
   const cards = Array.from(target.querySelectorAll("[data-topic]"));
   const empty = target.parentElement?.querySelector("[data-filter-empty]");
+  const search = panel.querySelector("[data-card-search]");
   const visibleLimit = Number.parseInt(panel.getAttribute("data-visible-limit") || "", 10);
   const allowClear = panel.getAttribute("data-allow-clear") === "true";
-  const state = {};
+  const state = { search: "" };
 
   groups.forEach((group) => {
     const groupName = group.getAttribute("data-filter-group");
@@ -127,7 +165,16 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
 
   const applyFilters = () => {
     let visibleCount = 0;
+    const searchTerm = state.search.trim().toLowerCase();
     cards.forEach((card) => {
+      const searchableText = [
+        card.getAttribute("data-topic") || "",
+        card.getAttribute("data-type") || "",
+        card.textContent || "",
+        card.getAttribute("aria-label") || "",
+      ]
+        .join(" ")
+        .toLowerCase();
       const topicMatches =
         !state.topic ||
         state.topic === "alles" ||
@@ -136,8 +183,9 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
         !state.type ||
         state.type === "alles" ||
         (card.getAttribute("data-type") || "").split(/\s+/).includes(state.type);
+      const searchMatches = !searchTerm || searchableText.includes(searchTerm);
       const withinLimit = !Number.isFinite(visibleLimit) || visibleCount < visibleLimit;
-      card.hidden = !(topicMatches && typeMatches && withinLimit);
+      card.hidden = !(topicMatches && typeMatches && searchMatches && withinLimit);
       if (!card.hidden) visibleCount += 1;
     });
     if (empty) empty.hidden = visibleCount !== 0;
@@ -155,6 +203,11 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
         applyFilters();
       });
     });
+  });
+
+  search?.addEventListener("input", () => {
+    state.search = search.value || "";
+    applyFilters();
   });
 
   applyFilters();
