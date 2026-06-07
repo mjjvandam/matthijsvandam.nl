@@ -7,7 +7,7 @@
   --line: #d8d5ca;
   --green: #244c3d;
   --green-soft: #dce8df;
-  --clay: #b6654a;
+  --clay: #a84f37;
   --ochre: #c49a46;
   --blue: #173653;
   --aqua: #5ba8a0;
@@ -68,6 +68,14 @@ body {
   color: var(--ink);
 }
 
+:root[data-theme="dark"] .hero,
+:root[data-theme="dark"] .hero h1,
+:root[data-theme="dark"] .hero-copy,
+:root[data-theme="dark"] .hero-copy a,
+:root[data-theme="dark"] .hero-disclaimer {
+  color: #fffdf8;
+}
+
 :root[data-theme="dark"] .hero-shade {
   background: linear-gradient(90deg, rgba(7, 13, 10, 0.9), rgba(7, 13, 10, 0.5));
 }
@@ -75,6 +83,14 @@ body {
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme]) .hero-shade {
     background: linear-gradient(90deg, rgba(7, 13, 10, 0.9), rgba(7, 13, 10, 0.5));
+  }
+
+  :root:not([data-theme]) .hero,
+  :root:not([data-theme]) .hero h1,
+  :root:not([data-theme]) .hero-copy,
+  :root:not([data-theme]) .hero-copy a,
+  :root:not([data-theme]) .hero-disclaimer {
+    color: #fffdf8;
   }
 }
 
@@ -119,10 +135,32 @@ body {
 :root[data-theme="dark"] .expertise-hero-card,
 :root[data-theme="dark"] .professional-boundary-panel,
 :root[data-theme="dark"] .professional-contact-panel,
-:root[data-theme="dark"] .advisor-points article {
+:root[data-theme="dark"] .advisor-points article,
+:root[data-theme="dark"] .project-context article,
+:root[data-theme="dark"] .professional-info-grid article,
+:root[data-theme="dark"] .patient-callout,
+:root[data-theme="dark"] .patient-disclaimer {
   border-color: var(--line);
   background: var(--white);
   box-shadow: var(--shadow-soft);
+}
+
+:root[data-theme="dark"] .professional-contact-card,
+:root[data-theme="dark"] .advisor-points article,
+:root[data-theme="dark"] .filter-group {
+  border-color: var(--line);
+  background: var(--white);
+}
+
+:root[data-theme="dark"] .professional-contact-card strong,
+:root[data-theme="dark"] .advisor-points strong {
+  color: var(--ink);
+}
+
+:root[data-theme="dark"] .professional-contact-card span,
+:root[data-theme="dark"] .professional-contact-card small,
+:root[data-theme="dark"] .advisor-points p {
+  color: var(--muted);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -143,10 +181,32 @@ body {
   :root:not([data-theme]) .expertise-hero-card,
   :root:not([data-theme]) .professional-boundary-panel,
   :root:not([data-theme]) .professional-contact-panel,
-  :root:not([data-theme]) .advisor-points article {
+  :root:not([data-theme]) .advisor-points article,
+  :root:not([data-theme]) .project-context article,
+  :root:not([data-theme]) .professional-info-grid article,
+  :root:not([data-theme]) .patient-callout,
+  :root:not([data-theme]) .patient-disclaimer {
     border-color: var(--line);
     background: var(--white);
     box-shadow: var(--shadow-soft);
+  }
+
+  :root:not([data-theme]) .professional-contact-card,
+  :root:not([data-theme]) .advisor-points article,
+  :root:not([data-theme]) .filter-group {
+    border-color: var(--line);
+    background: var(--white);
+  }
+
+  :root:not([data-theme]) .professional-contact-card strong,
+  :root:not([data-theme]) .advisor-points strong {
+    color: var(--ink);
+  }
+
+  :root:not([data-theme]) .professional-contact-card span,
+  :root:not([data-theme]) .professional-contact-card small,
+  :root:not([data-theme]) .advisor-points p {
+    color: var(--muted);
   }
 }
 
@@ -189,7 +249,7 @@ a {
   justify-content: space-between;
   gap: 24px;
   padding: 16px clamp(18px, 4vw, 56px);
-  color: var(--white);
+  color: #fffdf8;
   transition: background 180ms ease, color 180ms ease, box-shadow 180ms ease;
 }
 
@@ -264,7 +324,7 @@ a {
 }
 
 :root[data-theme="dark"] .site-header .site-nav a {
-  color: var(--ink);
+  color: inherit;
 }
 
 :root[data-theme="dark"] .site-header .site-nav a:hover {
@@ -274,7 +334,7 @@ a {
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme]) .site-header .site-nav a {
-    color: var(--ink);
+    color: inherit;
   }
 
   :root:not([data-theme]) .site-header .site-nav a:hover {
@@ -431,7 +491,7 @@ a {
 }
 
 :root[data-theme="dark"] .article-link {
-  color: #f2a17d;
+  color: #f0b08f;
 }
 
 :root[data-theme="dark"] .article-link:hover {
@@ -446,7 +506,7 @@ a {
   }
 
   :root:not([data-theme]) .article-link {
-    color: #f2a17d;
+    color: #f0b08f;
   }
 
   :root:not([data-theme]) .article-link:hover {
@@ -1300,10 +1360,21 @@ a {
   border: 1px solid rgba(164, 75, 62, 0.34);
   border-radius: 999px;
   background: rgba(255, 253, 248, 0.9);
+  color: var(--clay);
   font-size: 1.05rem;
   line-height: 1.2;
   text-align: center;
   box-shadow: 0 14px 30px rgba(36, 76, 61, 0.09);
+}
+
+:root[data-theme="dark"] .expertise-home-actions .article-link {
+  color: #244c3d;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .expertise-home-actions .article-link {
+    color: #244c3d;
+  }
 }
 
 .expertise-grid .article-card,
@@ -1369,8 +1440,8 @@ a {
 .expertise-flip-back {
   background:
     linear-gradient(135deg, rgba(36, 76, 61, 0.97), rgba(23, 54, 83, 0.95)),
-    var(--green);
-  color: var(--white);
+    #244c3d;
+  color: #fffdf8;
   opacity: 0;
   z-index: 2;
   transform: rotateY(-12deg) scale(0.98);
@@ -1403,7 +1474,7 @@ a {
 
 .expertise-flip-back .article-label,
 .expertise-flip-back p {
-  color: rgba(255, 253, 248, 0.82);
+  color: #fffdf8;
 }
 
 .expertise-flip-back p:last-child {
@@ -2164,6 +2235,16 @@ a {
   background: rgba(255, 253, 248, 0.76);
 }
 
+:root[data-theme="dark"] .external-profile {
+  background: var(--white);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .external-profile {
+    background: var(--white);
+  }
+}
+
 .external-profile strong {
   display: block;
   color: var(--ink);
@@ -2389,7 +2470,7 @@ a {
   min-height: 30px;
   padding: 0 10px;
   border-radius: 999px;
-  color: var(--white);
+  color: #fffdf8;
   font-size: 0.76rem;
   font-weight: 950;
   letter-spacing: 0;
@@ -2400,11 +2481,11 @@ a {
 }
 
 .resource-mark-thuisarts {
-  background: #1f8a70;
+  background: #176d59;
 }
 
 .resource-mark-nov {
-  background: var(--green);
+  background: #244c3d;
 }
 
 .resource-mark-mvd {
@@ -2446,6 +2527,7 @@ a {
 }
 
 .expertise-hero-layout {
+  width: 100%;
   max-width: 1180px;
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(280px, 0.36fr);
@@ -2994,6 +3076,42 @@ a {
   color: var(--white);
 }
 
+:root[data-theme="dark"] .advisor-section {
+  background:
+    linear-gradient(135deg, rgba(23, 54, 83, 0.96), rgba(36, 76, 61, 0.96)),
+    #173653;
+  color: #fffdf8;
+}
+
+:root[data-theme="dark"] .advisor-layout p,
+:root[data-theme="dark"] .advisor-section .professional-email-note,
+:root[data-theme="dark"] .advisor-section .section-kicker {
+  color: rgba(255, 253, 248, 0.86);
+}
+
+:root[data-theme="dark"] .advisor-section .professional-email-note a {
+  color: #fffdf8;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .advisor-section {
+    background:
+      linear-gradient(135deg, rgba(23, 54, 83, 0.96), rgba(36, 76, 61, 0.96)),
+      #173653;
+    color: #fffdf8;
+  }
+
+  :root:not([data-theme]) .advisor-layout p,
+  :root:not([data-theme]) .advisor-section .professional-email-note,
+  :root:not([data-theme]) .advisor-section .section-kicker {
+    color: rgba(255, 253, 248, 0.86);
+  }
+
+  :root:not([data-theme]) .advisor-section .professional-email-note a {
+    color: #fffdf8;
+  }
+}
+
 .advisor-layout {
   max-width: 1180px;
   margin: 0 auto;
@@ -3285,6 +3403,10 @@ a {
 }
 
 @media (max-width: 520px) {
+  .article-grid-related {
+    grid-template-columns: 1fr;
+  }
+
   .etz-fit-callout {
     grid-template-columns: 1fr;
   }
@@ -3353,6 +3475,17 @@ a {
 @media (max-width: 840px) {
   .listing-page .listing-hero {
     padding-top: 112px;
+  }
+
+  .expertise-hero-layout,
+  .expertise-filter-panel {
+    width: calc(100vw - (2 * clamp(20px, 6vw, 80px)));
+  }
+
+  .expertise-hero-copy,
+  .expertise-hero-card {
+    min-width: 0;
+    max-width: 100%;
   }
 
   .care-route-grid {

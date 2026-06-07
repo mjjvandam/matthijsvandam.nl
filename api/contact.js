@@ -14,6 +14,9 @@ const FIELD_LIMITS = {
   onderwerp: 160,
   bericht: 4000,
 };
+const RATE_LIMIT_WINDOW_MS = 10 * 60 * 1000;
+const RATE_LIMIT_MAX_REQUESTS = 5;
+const rateLimitStore = new Map();
 
 const escapeHtml = (value = "") =>
   String(value)
@@ -25,12 +28,39 @@ const escapeHtml = (value = "") =>
 
 const isEmail = (value = "") => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(value).trim());
 
+const clientKeyFor = (request) => {
+  const forwardedFor = request.headers["x-forwarded-for"];
+  const firstForwardedIp = Array.isArray(forwardedFor) ? forwardedFor[0] : forwardedFor;
+  return String(firstForwardedIp || request.socket?.remoteAddress || "unknown").split(",")[0].trim();
+};
+
+const isRateLimited = (key) => {
+  const now = Date.now();
+  const current = rateLimitStore.get(key) || { count: 0, resetAt: now + RATE_LIMIT_WINDOW_MS };
+  if (current.resetAt <= now) {
+    rateLimitStore.set(key, { count: 1, resetAt: now + RATE_LIMIT_WINDOW_MS });
+    return false;
+  }
+  current.count += 1;
+  rateLimitStore.set(key, current);
+
+  for (const [storedKey, value] of rateLimitStore.entries()) {
+    if (value.resetAt <= now) rateLimitStore.delete(storedKey);
+  }
+
+  return current.count > RATE_LIMIT_MAX_REQUESTS;
+};
+
 module.exports = async (request, response) => {
   response.setHeader("Cache-Control", "no-store");
 
   if (request.method !== "POST") {
     response.setHeader("Allow", "POST");
     return response.status(405).json({ message: "Alleen POST is toegestaan." });
+  }
+
+  if (isRateLimited(clientKeyFor(request))) {
+    return response.status(429).json({ message: "Er zijn te veel berichten kort na elkaar verzonden." });
   }
 
   const resendApiKey = process.env.RESEND_API_KEY;

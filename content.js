@@ -313,6 +313,15 @@
     sortByDateDesc(articles).filter((article) => article.audience.includes("zorgprofessionals")),
     articleCard
   );
+  renderList(
+    "[data-content='treatment-articles']",
+    sortByDateDesc(articles).filter(
+      (article) =>
+        article.audience.includes("patienten") &&
+        article.topics.some((topic) => ["voet-en-enkel", "artrose", "leefstijl", "preventie"].includes(topic))
+    ),
+    articleCard
+  );
 
   document.querySelectorAll("[data-content='project-news']").forEach((container) => {
     const projectId = container.getAttribute("data-project");
