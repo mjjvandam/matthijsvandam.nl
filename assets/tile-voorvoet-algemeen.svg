@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Schematische voorvoet</title>
+  <desc id="desc">Rustige schematische weergave van een voorvoet met vijf middenvoetsbeentjes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f7faf4"/>
+      <stop offset="1" stop-color="#e8f1ea"/>
+    </linearGradient>
+    <linearGradient id="bone" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff4dc"/>
+      <stop offset="1" stop-color="#e7d2ab"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#173d32" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <path d="M154 112c130 22 230-18 346 12 159 41 176 143 330 156 98 8 166 47 190 120 42 128-68 211-188 197-114-13-204-70-340-65-113 4-196 35-279-10-105-56-146-164-120-264 19-76 22-111 61-146Z" fill="#fffaf0" opacity=".72"/>
+  <g filter="url(#shadow)" stroke="#614f32" stroke-width="4" stroke-opacity=".2">
+    <g transform="translate(0 8)">
+      <path d="M284 455C382 366 459 271 536 153" fill="none" stroke="#d7b57c" stroke-width="68" stroke-linecap="round"/>
+      <ellipse cx="265" cy="471" rx="58" ry="42" fill="url(#bone)" transform="rotate(-28 265 471)"/>
+      <ellipse cx="548" cy="136" rx="48" ry="39" fill="url(#bone)" transform="rotate(-56 548 136)"/>
+      <circle cx="439" cy="282" r="30" fill="#fff6e4"/>
+    </g>
+    <g>
+      <path d="M388 488C464 387 529 287 598 177" fill="none" stroke="#d7b57c" stroke-width="54" stroke-linecap="round"/>
+      <ellipse cx="374" cy="507" rx="46" ry="34" fill="url(#bone)" transform="rotate(-26 374 507)"/>
+      <ellipse cx="609" cy="160" rx="38" ry="30" fill="url(#bone)" transform="rotate(-55 609 160)"/>
+      <circle cx="514" cy="306" r="24" fill="#fff6e4"/>
+    </g>
+    <g>
+      <path d="M507 514C559 407 611 305 665 197" fill="none" stroke="#d7b57c" stroke-width="48" stroke-linecap="round"/>
+      <ellipse cx="499" cy="533" rx="41" ry="31" fill="url(#bone)" transform="rotate(-18 499 533)"/>
+      <ellipse cx="674" cy="179" rx="33" ry="28" fill="url(#bone)" transform="rotate(-45 674 179)"/>
+      <circle cx="594" cy="325" r="22" fill="#fff6e4"/>
+    </g>
+    <g>
+      <path d="M624 518C652 410 688 311 727 215" fill="none" stroke="#d7b57c" stroke-width="43" stroke-linecap="round"/>
+      <ellipse cx="621" cy="537" rx="37" ry="28" fill="url(#bone)" transform="rotate(-9 621 537)"/>
+      <ellipse cx="735" cy="198" rx="30" ry="25" fill="url(#bone)" transform="rotate(-36 735 198)"/>
+      <circle cx="681" cy="337" r="20" fill="#fff6e4"/>
+    </g>
+    <g>
+      <path d="M738 498C748 402 779 316 812 236" fill="none" stroke="#d7b57c" stroke-width="38" stroke-linecap="round"/>
+      <ellipse cx="741" cy="516" rx="33" ry="25" fill="url(#bone)" transform="rotate(3 741 516)"/>
+      <ellipse cx="819" cy="219" rx="27" ry="23" fill="url(#bone)" transform="rotate(-25 819 219)"/>
+      <circle cx="778" cy="345" r="18" fill="#fff6e4"/>
+    </g>
+  </g>
+  <path d="M182 522c192 73 456 74 709 12" fill="none" stroke="#1f5a48" stroke-width="8" stroke-linecap="round" opacity=".18"/>
+</svg>

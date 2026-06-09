@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 788" role="img" aria-labelledby="title desc">
+  <title id="title">Schematische uitleg van kraakbeenceltransplantatie bij een kraakbeendefect in de knie</title>
+  <desc id="desc">Rustige medische illustratie in drie stappen: kraakbeendefect, kleine kraakbeenafname en terugplaatsen van opgekweekte kraakbeencellen.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#edf5ee"/>
+      <stop offset="0.52" stop-color="#fffdf8"/>
+      <stop offset="1" stop-color="#f7f4ed"/>
+    </linearGradient>
+    <linearGradient id="bone" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff7e9"/>
+      <stop offset="1" stop-color="#e8d8bd"/>
+    </linearGradient>
+    <linearGradient id="cartilage" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#dceef0"/>
+      <stop offset="1" stop-color="#a7cfd0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#244c3d" flood-opacity="0.14"/>
+    </filter>
+    <style>
+      .label{font:700 28px Inter,Arial,sans-serif;fill:#153f4c}
+      .small{font:650 22px Inter,Arial,sans-serif;fill:#5b6860}
+      .step{font:900 18px Inter,Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;fill:#b96a4d}
+      .line{fill:none;stroke:#0f5c6d;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
+      .soft-line{fill:none;stroke:#86ada0;stroke-width:3;stroke-linecap:round;stroke-dasharray:8 12}
+    </style>
+  </defs>
+  <rect width="1400" height="788" fill="url(#bg)"/>
+  <g opacity=".2" fill="none" stroke="#244c3d" stroke-width="2">
+    <path d="M42 690 C220 620 270 740 430 680"/>
+    <path d="M930 118 C1080 70 1160 130 1314 88"/>
+  </g>
+
+  <g transform="translate(78 76)">
+    <text class="step" x="0" y="0">Stap 1</text>
+    <text class="label" x="0" y="42">Kraakbeenafwijking</text>
+    <text class="small" x="0" y="78">Een lokaal defect in het gewrichtsoppervlak.</text>
+    <g transform="translate(18 122)" filter="url(#shadow)">
+      <path d="M114 42 C142 20 244 16 286 50 C310 72 306 132 286 170 C264 214 214 232 168 220 C112 206 74 158 74 104 C74 78 88 58 114 42Z" fill="url(#bone)" stroke="#d8c6a6" stroke-width="4"/>
+      <path d="M82 196 C126 180 252 180 302 204 C318 212 318 234 304 246 C252 292 120 292 70 244 C56 230 62 206 82 196Z" fill="url(#bone)" stroke="#d8c6a6" stroke-width="4"/>
+      <path d="M84 190 C138 166 244 168 300 194" class="line" stroke="url(#cartilage)" stroke-width="18"/>
+      <path d="M192 106 C212 94 238 102 248 120 C232 128 230 154 212 164 C194 174 172 160 176 138 C178 124 182 114 192 106Z" fill="#f1c36f" stroke="#b96a4d" stroke-width="4"/>
+      <circle cx="212" cy="134" r="6" fill="#0f5c6d"/>
+      <path d="M212 134 L360 92" class="line"/>
+    </g>
+    <text class="small" x="392" y="210">Kraakbeendefect</text>
+  </g>
+
+  <g transform="translate(518 76)">
+    <text class="step" x="0" y="0">Stap 2</text>
+    <text class="label" x="0" y="42">Cellen opkweken</text>
+    <text class="small" x="0" y="78">Kleine afname, daarna kweek in het laboratorium.</text>
+    <g transform="translate(20 132)" filter="url(#shadow)">
+      <rect x="48" y="156" width="260" height="96" rx="18" fill="#fffdf8" stroke="#d8cdbb" stroke-width="4"/>
+      <path d="M70 208 C120 180 238 180 286 208" class="soft-line"/>
+      <circle cx="120" cy="202" r="12" fill="#86ada0"/>
+      <circle cx="158" cy="190" r="10" fill="#b96a4d"/>
+      <circle cx="198" cy="204" r="13" fill="#86ada0"/>
+      <circle cx="238" cy="190" r="9" fill="#b96a4d"/>
+      <path d="M142 42 C170 22 248 24 274 54 C290 72 282 108 252 118 C216 130 160 114 138 88 C126 72 128 54 142 42Z" fill="url(#bone)" stroke="#d8c6a6" stroke-width="4"/>
+      <circle cx="224" cy="84" r="7" fill="#0f5c6d"/>
+      <path d="M224 84 C232 134 210 144 190 168" class="line"/>
+      <circle cx="190" cy="168" r="8" fill="#b96a4d"/>
+    </g>
+    <text class="small" x="64" y="432">Kraakbeenbiopt</text>
+    <text class="small" x="68" y="462">en laboratoriumkweek</text>
+  </g>
+
+  <g transform="translate(938 76)">
+    <text class="step" x="0" y="0">Stap 3</text>
+    <text class="label" x="0" y="42">Terugplaatsen</text>
+    <text class="small" x="0" y="78">Opgekweekte cellen worden in het defect aangebracht.</text>
+    <g transform="translate(8 122)" filter="url(#shadow)">
+      <path d="M114 42 C142 20 244 16 286 50 C310 72 306 132 286 170 C264 214 214 232 168 220 C112 206 74 158 74 104 C74 78 88 58 114 42Z" fill="url(#bone)" stroke="#d8c6a6" stroke-width="4"/>
+      <path d="M82 196 C126 180 252 180 302 204 C318 212 318 234 304 246 C252 292 120 292 70 244 C56 230 62 206 82 196Z" fill="url(#bone)" stroke="#d8c6a6" stroke-width="4"/>
+      <path d="M84 190 C138 166 244 168 300 194" class="line" stroke="url(#cartilage)" stroke-width="18"/>
+      <ellipse cx="214" cy="136" rx="32" ry="26" fill="#f2c66f" stroke="#b96a4d" stroke-width="4"/>
+      <circle cx="206" cy="130" r="5" fill="#86ada0"/>
+      <circle cx="220" cy="140" r="5" fill="#86ada0"/>
+      <circle cx="228" cy="128" r="4" fill="#86ada0"/>
+      <path d="M354 112 L264 132" class="line"/>
+      <rect x="340" y="92" width="126" height="34" rx="17" transform="rotate(-12 340 92)" fill="#b96a4d"/>
+      <rect x="456" y="78" width="38" height="62" rx="8" transform="rotate(-12 456 78)" fill="#f7dcb2" stroke="#b96a4d" stroke-width="3"/>
+    </g>
+    <text class="small" x="286" y="286">Opgekweekte</text>
+    <text class="small" x="286" y="316">kraakbeencellen</text>
+  </g>
+
+  <g transform="translate(1036 680)">
+    <image href="logo-mvd-full-transparent.png" x="0" y="0" width="250" height="86" opacity=".95"/>
+  </g>
+</svg>

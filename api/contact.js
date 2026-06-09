@@ -66,8 +66,9 @@ module.exports = async (request, response) => {
   const resendApiKey = process.env.RESEND_API_KEY;
   const contactTo = process.env.CONTACT_TO_EMAIL;
   const contactFrom = process.env.CONTACT_FROM_EMAIL;
+  const contactFormEnabled = process.env.CONTACT_FORM_ENABLED === "true";
 
-  if (!resendApiKey || !contactTo || !contactFrom) {
+  if (!contactFormEnabled || !resendApiKey || !contactTo || !contactFrom) {
     return response.status(503).json({ message: "De mailkoppeling is nog niet geconfigureerd." });
   }
 

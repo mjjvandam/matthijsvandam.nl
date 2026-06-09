@@ -6,8 +6,8 @@
       label: "NOV-project",
       summary:
         "Een project over teachable moments, patiëntperspectief en praktische handvatten om leefstijl zorgvuldig bespreekbaar te maken.",
-      image: "assets/article-knee-osteoarthritis-support.jpg",
-      imageAlt: "Respectvol gesprek over knieartrose, bewegen en herstel",
+      image: "assets/knee-anatomy-model-editorial.jpg",
+      imageAlt: "Anatomisch kniemodel in een rustige spreekkamer",
       url: "projecten/leefstijlgerichte-kansen-orthopedie.html",
       featured: true,
     },
@@ -50,33 +50,35 @@
     {
       id: "footprint-quick-scan-medewerkers",
       title: "FOOTprint Quick Scan op 30 juni",
-      label: "Medewerkers",
+      label: "Preventie",
       summary: "Een laagdrempelige voetscreening voor ETZ-medewerkers door drs. Matthijs van Dam en schoentechnicus Joep van Buchrnhornen. De 35 beschikbare plekken zijn inmiddels gevuld.",
       image: "assets/article-footprint-quick-scan-editorial.jpg",
       imageAlt: "Voetscreening met werkschoenen, inlegzolen en voetmodel",
       url: "artikelen/footprint-quick-scan-medewerkers.html",
       date: "2026-06-30",
-      audience: ["zorgprofessionals"],
+      audience: ["medewerkers"],
       topics: ["voet-en-enkel", "preventie"],
+      archive: true,
     },
     {
       id: "patientpanel-leefstijl-orthopedie",
       title: "Online patiëntpanel over leefstijl en orthopedie",
-      label: "Patiënten gezocht",
+      label: "Onderzoek",
       summary:
         "Voor maandag 29 juni 2026 zoeken we patiënten die online willen meedenken over duidelijke en respectvolle leefstijlinformatie.",
-      image: "assets/article-knee-osteoarthritis-support.jpg",
-      imageAlt: "Respectvol gesprek over knieartrose, bewegen en herstel",
+      image: "assets/knee-anatomy-model-editorial.jpg",
+      imageAlt: "Anatomisch kniemodel in een rustige spreekkamer",
       url: "artikelen/patientpanel-leefstijl-orthopedie.html",
       date: "2026-06-29",
       audience: ["patienten"],
       topics: ["leefstijl", "onderzoek"],
       project: "leefstijlgerichte-kansen-orthopedie",
+      archive: true,
     },
     {
       id: "heracleum-hulpfonds-subsidie-transmuraal-tilburg-cohort",
       title: "Heracleum Hulpfonds kent subsidie toe aan Transmuraal Tilburg Cohort",
-      label: "December 2025",
+      label: "Onderzoek",
       summary: "Over de subsidie voor de onderzoeksopzet en dataverzameling binnen het digitale zorgpad.",
       image: "assets/project-heracleum-logo.jpg",
       imageAlt: "Logo van het Heracleum Hulpfonds",
@@ -84,13 +86,14 @@
       url: "artikelen/heracleum-hulpfonds-subsidie-transmuraal-tilburg-cohort.html",
       date: "2025-12-01",
       audience: ["patienten", "zorgprofessionals"],
-      topics: ["artrose", "leefstijl", "onderzoek"],
+      topics: ["artrose", "leefstijl", "onderzoek", "digitale-zorg"],
       project: "transmuraal-tilburg-cohort",
+      archive: true,
     },
     {
       id: "we-walk-ar-campusroute-tilburg",
       title: "We Walk prototype: wandelen door een AR-route op de campus",
-      label: "Najaar 2025",
+      label: "Digitale zorg",
       summary: "Over een door een Digital Sciences-student ontwikkeld AR-prototype voor een mogelijke campusroute.",
       image: "assets/project-we-walk-editorial.jpg",
       imageAlt: "Smartphone met AR-wandelroute op een rustige campus",
@@ -99,37 +102,40 @@
       audience: ["patienten", "zorgprofessionals"],
       topics: ["leefstijl", "onderzoek", "digitale-zorg"],
       project: "we-walk",
+      archive: true,
     },
     {
       id: "digitaal-zorgpad-artrose-obesitas",
       title: "Leefstijlcoalitie-voucher voor digitale artrosezorg in Tilburg",
-      label: "Augustus 2025",
+      label: "Digitale zorg",
       summary: "Over de implementatievoucher voor een digitale en persoonlijke aanpak rond artrose en obesitas.",
       image: "assets/article-digital-care-pathway-editorial.jpg",
       imageAlt: "Tablet met digitaal zorgpad en knie-anatomiemodel in een spreekkamer",
       url: "artikelen/digitaal-zorgpad-artrose-obesitas.html",
       date: "2025-08-01",
       audience: ["patienten", "zorgprofessionals"],
-      topics: ["artrose", "leefstijl", "onderzoek"],
+      topics: ["artrose", "leefstijl", "onderzoek", "digitale-zorg"],
       project: "transmuraal-tilburg-cohort",
+      archive: true,
     },
     {
       id: "vaillant-fonds-digitaal-zorgpad",
       title: "Vaillant Fonds ondersteunt verdere ontwikkeling digitaal zorgpad",
-      label: "2025",
+      label: "Digitale zorg",
       summary: "Over de bijdrage voor de verdere ontwikkeling van het digitale zorgpad binnen het Transmuraal Tilburg Cohort.",
       image: "assets/article-digital-care-pathway-editorial.jpg",
       imageAlt: "Tablet met digitaal zorgpad en knie-anatomiemodel in een spreekkamer",
       url: "artikelen/vaillant-fonds-digitaal-zorgpad.html",
       date: "2025-07-01",
       audience: ["patienten", "zorgprofessionals"],
-      topics: ["artrose", "leefstijl", "onderzoek"],
+      topics: ["artrose", "leefstijl", "onderzoek", "digitale-zorg"],
       project: "transmuraal-tilburg-cohort",
+      archive: true,
     },
     {
       id: "revisie-artrodese-niet-vastgegroeid-patienten",
       title: "Niet vastgegroeide artrodese: wat betekent revisie-artrodese?",
-      label: "Patiënten",
+      label: "Voet en enkel",
       summary:
         "Uitleg over pseudoartrose, een niet-vastgegroeide artrodese en hoe 3D-planning kan helpen bij complexe revisiechirurgie van voet en enkel.",
       image: "assets/article-3d-planning-lab.jpg",
@@ -139,11 +145,12 @@
       audience: ["patienten"],
       topics: ["voet-en-enkel", "onderzoek"],
       project: "3d-planning-voet-enkel",
+      archive: false,
     },
     {
       id: "patient-specifieke-instrumentatie-voet-enkel-professionals",
       title: "Patiënt-specifieke instrumentatie bij complexe voet- en enkelchirurgie",
-      label: "Zorgprofessionals",
+      label: "Voet en enkel",
       summary:
         "Professionele duiding van 3D-planning, custom drill guides en schroefpositionering bij revisie-artrodese in gecompromitteerd bot.",
       image: "assets/article-3d-planning-lab.jpg",
@@ -153,64 +160,115 @@
       audience: ["zorgprofessionals"],
       topics: ["voet-en-enkel", "onderzoek"],
       project: "3d-planning-voet-enkel",
+      archive: false,
+    },
+    {
+      id: "aios-foot-education-munich",
+      title: "AIOS-onderwijs voet en enkel in München",
+      label: "Onderwijs",
+      summary:
+        "Persoonlijke terugblik op hands-on onderwijs voor orthopedie-aios over voet- en enkelchirurgie, techniek en klinisch redeneren.",
+      image: "assets/article-aios-foot-education-munich.jpg",
+      imageAlt: "Hands-on voet- en enkelonderwijs met anatomisch model in een skills lab",
+      url: "artikelen/aios-foot-education-munich.html",
+      date: "2025-09-19",
+      audience: ["zorgprofessionals"],
+      topics: ["voet-en-enkel", "onderwijs"],
+      archive: false,
     },
     {
       id: "leefstijlzorg-tweede-lijn-professionals",
       title: "Leefstijlzorg in de tweede lijn: zorgvuldig signaleren en verbinden",
-      label: "Zorgprofessionals",
+      label: "Leefstijl",
       summary: "Een genuanceerde beschouwing over signaleren, afbakenen en verwijzen binnen passende leefstijlzorg.",
-      image: "assets/article-knee-osteoarthritis-support.jpg",
-      imageAlt: "Respectvol gesprek over knieartrose, bewegen en herstel",
+      image: "assets/knee-anatomy-model-editorial.jpg",
+      imageAlt: "Anatomisch kniemodel in een rustige spreekkamer",
       url: "artikelen/leefstijlzorg-tweede-lijn-professionals.html",
       date: "2025-05-01",
       audience: ["zorgprofessionals"],
       topics: ["artrose", "leefstijl", "onderzoek"],
+      archive: false,
+    },
+    {
+      id: "mobility-clinic-tilburg-patienten",
+      title: "Mobility Clinic Tilburg: knie en kraakbeen",
+      label: "Knie en kraakbeen",
+      summary:
+        "Patiëntgerichte uitleg over Mobility Clinic Tilburg, complexe knieklachten, knie-kraakbeenletsel en triage van verwijzingen.",
+      image: "assets/article-mobility-knee-cartilage-mvd.jpg",
+      imageAlt: "Medische illustratie van kraakbeendefecten in de knie",
+      url: "artikelen/mobility-clinic-tilburg-patienten.html",
+      date: "2025-04-01",
+      audience: ["patienten"],
+      topics: ["knie-kraakbeen"],
+      archive: false,
+    },
+    {
+      id: "mobility-clinic-tilburg-professionals",
+      title: "Mobility Clinic Tilburg: knie-kraakbeenletsel en transplantatie",
+      label: "Knie en kraakbeen",
+      summary:
+        "Professionele achtergrond over Mobility Clinic Tilburg, knie-kraakbeenletsel, kraakbeenceltransplantatie en gespecialiseerde knie-kraakbeenzorg.",
+      image: "assets/article-mobility-knee-cartilage-mvd.jpg",
+      imageAlt: "Medische illustratie van kraakbeendefecten in de knie",
+      url: "artikelen/mobility-clinic-tilburg-professionals.html",
+      date: "2025-04-01",
+      audience: ["zorgprofessionals"],
+      topics: ["knie-kraakbeen"],
+      archive: false,
     },
     {
       id: "artrosezorg-transitie-professionals",
       title: "Artrosezorg in transitie: wat vraagt dit van professionals?",
-      label: "Zorgprofessionals",
+      label: "Artrose",
       summary:
         "Professionele duiding van het NTvG-artikel over educatie, oefentherapie, leefstijl, netwerkzorg en digitale monitoring.",
-      image: "assets/article-knee-osteoarthritis-support.jpg",
-      imageAlt: "Respectvol gesprek over knieartrose, bewegen en herstel",
+      image: "assets/knee-anatomy-model-editorial.jpg",
+      imageAlt: "Anatomisch kniemodel in een rustige spreekkamer",
       url: "artikelen/artrosezorg-transitie-professionals.html",
       date: "2026-01-01",
       audience: ["zorgprofessionals"],
       topics: ["artrose", "leefstijl", "onderzoek"],
+      archive: false,
     },
     {
       id: "artrosezorg-transitie-patienten",
       title: "Artrosezorg in transitie: wat betekent dit voor patiënten?",
-      label: "Patiënten",
+      label: "Artrose",
       summary:
         "Begrijpelijke uitleg over artrosezorg, bewegen, leefstijl en samenwerking tussen zorgverleners, zonder medisch advies op maat.",
-      image: "assets/article-knee-osteoarthritis-support.jpg",
-      imageAlt: "Respectvol gesprek over knieartrose, bewegen en herstel",
+      image: "assets/knee-anatomy-model-editorial.jpg",
+      imageAlt: "Anatomisch kniemodel in een rustige spreekkamer",
       url: "artikelen/artrosezorg-transitie-patienten.html",
       date: "2026-01-01",
       audience: ["patienten"],
       topics: ["artrose", "leefstijl"],
+      archive: false,
     },
   ];
 
   const sortByDateDesc = (items) =>
     [...items].sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
 
+  const archiveArticles = sortByDateDesc(articles).filter((article) => article.archive !== false);
+
   const filterLabels = {
     patienten: "Patiënten",
+    medewerkers: "Medewerkers",
     zorgprofessionals: "Zorgprofessionals",
     "voet-en-enkel": "Voet en enkel",
     artrose: "Artrose",
     leefstijl: "Leefstijl",
     onderzoek: "Onderzoek",
     "digitale-zorg": "Digitale zorg",
+    "knie-kraakbeen": "Knie en kraakbeen",
+    onderwijs: "Onderwijs",
     preventie: "Preventie",
   };
 
   const preferredFilterOrder = {
-    audience: ["patienten", "zorgprofessionals"],
-    topic: ["voet-en-enkel", "artrose", "leefstijl", "onderzoek", "digitale-zorg", "preventie"],
+    audience: ["patienten", "zorgprofessionals", "medewerkers"],
+    topic: ["voet-en-enkel", "knie-kraakbeen", "artrose", "leefstijl", "onderzoek", "digitale-zorg", "onderwijs", "preventie"],
   };
 
   const labelForFilter = (value) =>
@@ -235,12 +293,12 @@
     });
   };
 
-  const renderArticleFilters = () => {
+  const renderArticleFilters = (sourceArticles = articles) => {
     const filters = {
       audience: new Set(),
       topic: new Set(),
     };
-    articles.forEach((article) => {
+    sourceArticles.forEach((article) => {
       article.audience.forEach((audience) => filters.audience.add(audience));
       article.topics.forEach((topic) => filters.topic.add(topic));
     });
@@ -302,15 +360,29 @@
     });
   };
 
-  renderList("[data-content='articles-list']", sortByDateDesc(articles), articleCard);
-  renderList("[data-content='home-articles']", sortByDateDesc(articles), articleCard);
-  renderArticleFilters();
+  renderList("[data-content='articles-list']", archiveArticles, articleCard);
+  renderList("[data-content='home-articles']", archiveArticles, articleCard);
+  renderArticleFilters(archiveArticles);
   renderList("[data-content='projects-list']", projects, projectCard);
   renderList("[data-content='home-projects']", projects.filter((project) => project.featured).slice(0, 3), projectCard);
   renderList("[data-content='professional-projects']", projects.filter((project) => project.featured).slice(0, 3), projectCard);
   renderList(
     "[data-content='professional-articles']",
-    sortByDateDesc(articles).filter((article) => article.audience.includes("zorgprofessionals")),
+    sortByDateDesc(articles).filter(
+      (article) => article.audience.includes("zorgprofessionals") && article.archive === false
+    ),
+    articleCard
+  );
+  renderList(
+    "[data-content='advice-education']",
+    sortByDateDesc(articles).filter((article) => article.topics.includes("onderwijs")),
+    articleCard
+  );
+  renderList(
+    "[data-content='advice-insights']",
+    sortByDateDesc(articles).filter((article) =>
+      ["artrosezorg-transitie-professionals"].includes(article.id)
+    ),
     articleCard
   );
   renderList(
@@ -318,7 +390,8 @@
     sortByDateDesc(articles).filter(
       (article) =>
         article.audience.includes("patienten") &&
-        article.topics.some((topic) => ["voet-en-enkel", "artrose", "leefstijl", "preventie"].includes(topic))
+        article.archive === false &&
+        article.topics.some((topic) => ["voet-en-enkel", "knie-kraakbeen", "artrose", "leefstijl", "preventie"].includes(topic))
     ),
     articleCard
   );

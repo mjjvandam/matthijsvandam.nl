@@ -85,19 +85,77 @@ document.querySelectorAll("[data-professional-email]").forEach((link) => {
   });
 });
 
-const expertiseImageFor = (card, label) => {
+const expertiseImageFor = (card, label, title) => {
   const topic = card.getAttribute("data-topic") || "";
+  const searchable = `${label} ${title} ${card.getAttribute("data-search") || ""}`.toLowerCase();
   const normalizedLabel = label.toLowerCase();
+  if (searchable.includes("hallux") || searchable.includes("grote teen")) {
+    return "assets/tile-hallux-clinic-v2.jpg";
+  }
+  if (
+    searchable.includes("metatarsalgie") ||
+    searchable.includes("morton") ||
+    searchable.includes("hamerteen") ||
+    searchable.includes("klauwteen") ||
+    searchable.includes("tailor") ||
+    searchable.includes("bunionette") ||
+    searchable.includes("voorvoetpijn") ||
+    searchable.includes("bal voet")
+  ) {
+    return "assets/tile-voorvoet-pijn-v2.jpg";
+  }
+  if (topic.includes("knie") || normalizedLabel.includes("knie")) {
+    return "assets/knee-anatomy-model-editorial.jpg";
+  }
+  if (
+    searchable.includes("knieprothese") ||
+    searchable.includes("totale knie") ||
+    searchable.includes("artrose van de knie") ||
+    searchable.includes("knie artrose")
+  ) {
+    return "assets/knee-anatomy-model-editorial.jpg";
+  }
+  if (topic.includes("knie") && searchable.includes("kraakbeen")) {
+    return "assets/knee-anatomy-model-editorial.jpg";
+  }
+  if (
+    topic.includes("leefstijl") ||
+    searchable.includes("obesitas") ||
+    searchable.includes("gewicht") ||
+    normalizedLabel.includes("herstel")
+  ) {
+    return "assets/tile-leefstijl-artrose-v2.jpg";
+  }
+  if (
+    topic.includes("achtervoet") ||
+    searchable.includes("platvoet") ||
+    searchable.includes("holvoet") ||
+    searchable.includes("cavovarus") ||
+    normalizedLabel.includes("achtervoet")
+  ) {
+    return "assets/tile-achtervoet-standsafwijking.jpg";
+  }
+  if (
+    topic.includes("enkel") ||
+    searchable.includes("enkel") ||
+    searchable.includes("os trigonum") ||
+    searchable.includes("impingement")
+  ) {
+    return "assets/tile-enkel-artrose-kraakbeen.jpg";
+  }
   if (topic.includes("leefstijl") || normalizedLabel.includes("herstel")) {
-    return "assets/article-knee-osteoarthritis-support.jpg";
+    return "assets/tile-leefstijl-artrose-v2.jpg";
   }
   if (topic.includes("knie") || normalizedLabel.includes("knie") || normalizedLabel.includes("sport")) {
-    return "assets/article-knee-osteoarthritis-support.jpg";
+    return "assets/knee-anatomy-model-editorial.jpg";
   }
-  if (topic.includes("enkel") || normalizedLabel.includes("enkel")) {
-    return "assets/expertise-ankle-editorial.jpg";
+  if (topic.includes("enkel") || topic.includes("achtervoet") || normalizedLabel.includes("enkel") || normalizedLabel.includes("achtervoet")) {
+    return "assets/tile-enkel-artrose-kraakbeen.jpg";
   }
-  return "assets/expertise-forefoot-editorial.jpg";
+  if (topic.includes("voorvoet") || normalizedLabel.includes("voorvoet")) {
+    return "assets/tile-voorvoet-pijn-v2.jpg";
+  }
+  return "assets/tile-voorvoet-algemeen.svg";
 };
 
 document.querySelectorAll(".expertise-card .article-card-body").forEach((body) => {
@@ -107,9 +165,10 @@ document.querySelectorAll(".expertise-card .article-card-body").forEach((body) =
   const label = body.querySelector(".article-label")?.textContent?.trim() || "Expertise";
   const title = body.querySelector("h3")?.textContent?.trim() || "";
   const description = body.querySelector("p:not(.article-label)")?.textContent?.trim() || "";
+  const url = card.getAttribute("data-url");
   const image = document.createElement("img");
   image.className = "expertise-card-icon expertise-card-photo";
-  image.src = expertiseImageFor(card, label);
+  image.src = expertiseImageFor(card, label, title);
   image.alt = "";
   image.loading = "lazy";
 
@@ -139,6 +198,13 @@ document.querySelectorAll(".expertise-card .article-card-body").forEach((body) =
   backDescription.textContent = description;
 
   back.append(backTitle, backDescription);
+  if (url) {
+    const link = document.createElement("a");
+    link.className = "article-link expertise-card-link";
+    link.href = url;
+    link.textContent = "Lees meer";
+    back.append(link);
+  }
   inner.append(front, back);
   body.replaceChildren(inner);
 });
@@ -170,6 +236,7 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
       const searchableText = [
         card.getAttribute("data-topic") || "",
         card.getAttribute("data-type") || "",
+        card.getAttribute("data-search") || "",
         card.textContent || "",
         card.getAttribute("aria-label") || "",
       ]

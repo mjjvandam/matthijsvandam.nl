@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Artikelen | drs. Matthijs van Dam</title>
-    <meta name="description" content="Overzicht van artikelen van drs. Matthijs van Dam, filterbaar op doelgroep en onderwerp.">
+    <title>Artikelen en updates | drs. Matthijs van Dam</title>
+    <meta name="description" content="Nieuws, projectupdates en achtergrondartikelen van drs. Matthijs van Dam.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://matthijsvandam.nl/artikelen.html">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="nl_NL">
     <meta property="og:site_name" content="drs. Matthijs van Dam">
-    <meta property="og:title" content="Artikelen">
-    <meta property="og:description" content="Overzicht van artikelen van drs. Matthijs van Dam, filterbaar op doelgroep en onderwerp.">
+    <meta property="og:title" content="Artikelen en updates">
+    <meta property="og:description" content="Nieuws, projectupdates en achtergrondartikelen van drs. Matthijs van Dam.">
     <meta property="og:url" content="https://matthijsvandam.nl/artikelen.html">
     <meta property="og:image" content="https://matthijsvandam.nl/assets/social-preview.png">
     <meta property="og:image:type" content="image/png">
@@ -19,19 +19,38 @@
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="drs. Matthijs van Dam, orthopedisch chirurg in Tilburg">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Artikelen">
-    <meta name="twitter:description" content="Overzicht van artikelen van drs. Matthijs van Dam, filterbaar op doelgroep en onderwerp.">
+    <meta name="twitter:title" content="Artikelen en updates">
+    <meta name="twitter:description" content="Nieuws, projectupdates en achtergrondartikelen van drs. Matthijs van Dam.">
     <meta name="twitter:image" content="https://matthijsvandam.nl/assets/social-preview.png">
     <meta name="twitter:image:alt" content="drs. Matthijs van Dam, orthopedisch chirurg in Tilburg">
     <link rel="icon" href="assets/logo-mvd-mark-v2.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css?v=20260606v">
+    <link rel="stylesheet" href="styles.css?v=20260609mobility2">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Artikelen en updates",
+        "description": "Nieuws, projectupdates en achtergrondartikelen van drs. Matthijs van Dam.",
+        "url": "https://matthijsvandam.nl/artikelen.html",
+        "inLanguage": "nl-NL",
+        "isPartOf": {
+          "@type": "WebSite",
+          "name": "drs. Matthijs van Dam",
+          "url": "https://matthijsvandam.nl/"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "drs. Matthijs van Dam"
+        }
+      }
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#articles-content">Ga naar inhoud</a>
     <header class="site-header legal-header" data-header>
       <a class="brand" href="index.html#top" aria-label="Terug naar drs. Matthijs van Dam home">
-        <img class="brand-logo" src="assets/logo-mvd-mark-v2.svg" alt="" width="42" height="42">
-        <span>drs. Matthijs van Dam</span>
+        <img class="brand-logo brand-logo-tree" src="assets/logo-mvd-tree-mark.png" alt="" width="62" height="62">
+        <span class="brand-text">drs. Matthijs van Dam</span>
       </a>
       <button class="nav-toggle" type="button" aria-label="Menu openen" aria-expanded="false" data-nav-toggle>
         <span></span>
@@ -50,18 +69,10 @@
     <main class="listing-page" id="articles-content">
       <section class="listing-hero" aria-labelledby="articles-overview-title">
         <p class="section-kicker">Artikelen</p>
-        <h1 id="articles-overview-title">Artikelen over orthopedie, leefstijl en zorgontwikkeling</h1>
-        <p>
-          Verdieping voor patiënten, zorgprofessionals en samenwerkingspartners in de regio Tilburg,
-          met aandacht voor voet en enkel, artrose, leefstijl, onderzoek en digitale zorg.
-        </p>
+        <h1 id="articles-overview-title">Artikelen en updates</h1>
         <div class="filter-panel" aria-label="Artikel filters">
-          <div class="filter-group" data-filter-group="audience">
-            <p>Voor wie</p>
-            <div class="filter-bar" data-filter-options="audience"></div>
-          </div>
           <div class="filter-group" data-filter-group="topic">
-            <p>Onderwerp</p>
+            <p>Categorie</p>
             <div class="filter-bar" data-filter-options="topic"></div>
           </div>
         </div>
@@ -81,8 +92,8 @@
         <a href="disclaimer.html">Disclaimer</a>
       </span>
     </footer>
-    <script src="content.js?v=20260606j"></script>
-    <script src="script.js?v=20260606e"></script>
+    <script src="content.js?v=20260609mobility2"></script>
+    <script src="script.js?v=20260609forefoot"></script>
     <script>
       (() => {
         const groups = Array.from(document.querySelectorAll('[data-filter-group]'));
@@ -90,18 +101,12 @@
         const empty = document.querySelector('[data-filter-empty]');
         const params = new URLSearchParams(window.location.search);
         const state = {
-          audience: params.get('audience') || params.get('label') || '',
           topic: params.get('topic') || '',
         };
         const syncUrl = () => {
           const url = new URL(window.location.href);
-          if (!state.audience) {
-            url.searchParams.delete('audience');
-            url.searchParams.delete('label');
-          } else {
-            url.searchParams.set('audience', state.audience);
-            url.searchParams.delete('label');
-          }
+          url.searchParams.delete('audience');
+          url.searchParams.delete('label');
           if (!state.topic) url.searchParams.delete('topic');
           else url.searchParams.set('topic', state.topic);
           history.replaceState(null, '', url);
@@ -117,9 +122,8 @@
           });
           let visibleCount = 0;
           cards.forEach((card) => {
-            const audiences = (card.dataset.audience || '').split(/\s+/);
             const topics = (card.dataset.topics || '').split(/\s+/);
-            const audienceMatches = !state.audience || audiences.includes(state.audience);
+            const audienceMatches = true;
             const topicMatches = !state.topic || topics.includes(state.topic);
             card.hidden = !(audienceMatches && topicMatches);
             if (!card.hidden) visibleCount += 1;

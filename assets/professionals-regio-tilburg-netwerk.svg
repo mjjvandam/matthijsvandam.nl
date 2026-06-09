@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 820" role="img" aria-labelledby="title desc">
+  <title id="title">Netwerkzorg in de regio Tilburg</title>
+  <desc id="desc">Schematische kaart van Tilburg en omgeving met verbindingen tussen ziekenhuis, verwijzers, paramedici, sociaal domein en gemeente.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fffdf8"/>
+      <stop offset=".55" stop-color="#eef5ef"/>
+      <stop offset="1" stop-color="#dce8df"/>
+    </linearGradient>
+    <filter id="softShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#173d32" flood-opacity=".16"/>
+    </filter>
+    <style>
+      .land{fill:url(#bg)}
+      .route{fill:none;stroke:#244c3d;stroke-width:3;stroke-linecap:round;stroke-dasharray:10 12;opacity:.28}
+      .link{fill:none;stroke:#5ba8a0;stroke-width:5;stroke-linecap:round;opacity:.54}
+      .ring{fill:none;stroke:#244c3d;stroke-width:2;opacity:.14}
+      .node{fill:#fffdf8;stroke:#244c3d;stroke-width:3}
+      .node-soft{fill:#dce8df;stroke:#244c3d;stroke-width:3}
+      .node-clay{fill:#a84f37;stroke:#a84f37}
+      .node-blue{fill:#173653;stroke:#173653}
+      .node-aqua{fill:#5ba8a0;stroke:#5ba8a0}
+      .node-ochre{fill:#c49a46;stroke:#c49a46}
+      .label{font-family:Inter,Arial,sans-serif;font-size:30px;font-weight:850;fill:#17201c}
+      .small{font-family:Inter,Arial,sans-serif;font-size:21px;font-weight:750;fill:#5d675f}
+      .tiny{font-family:Inter,Arial,sans-serif;font-size:17px;font-weight:760;fill:#244c3d}
+      .white{fill:#fffdf8}
+    </style>
+  </defs>
+
+  <rect class="land" width="1200" height="820" rx="34"/>
+  <path d="M86 520C230 436 337 502 463 414c111-78 169-235 315-236 102-1 145 75 235 58 49-10 83-39 116-75" class="route"/>
+  <path d="M99 282c95 56 185 55 286 3 135-70 198-52 306 15 135 84 277 74 409-42" class="route"/>
+  <path d="M192 684c101-114 230-154 363-135 120 17 198 86 326 65 91-15 150-64 221-127" class="route"/>
+  <circle cx="615" cy="410" r="292" class="ring"/>
+  <circle cx="615" cy="410" r="210" class="ring"/>
+  <circle cx="615" cy="410" r="120" class="ring"/>
+
+  <g opacity=".86">
+    <path d="M614 410 438 258" class="link"/>
+    <path d="M614 410 785 253" class="link"/>
+    <path d="M614 410 870 430" class="link"/>
+    <path d="M614 410 787 590" class="link"/>
+    <path d="M614 410 450 590" class="link"/>
+    <path d="M614 410 315 430" class="link"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <circle cx="614" cy="410" r="94" fill="#244c3d"/>
+    <circle cx="614" cy="410" r="71" fill="#2e604e"/>
+    <path d="M579 429c22 20 51 20 72 0" fill="none" stroke="#c49a46" stroke-width="9" stroke-linecap="round"/>
+    <path d="M614 356v86" stroke="#fffdf8" stroke-width="13" stroke-linecap="round"/>
+    <path d="M582 394h64" stroke="#fffdf8" stroke-width="13" stroke-linecap="round"/>
+  </g>
+  <text x="614" y="535" text-anchor="middle" class="label">Tilburg</text>
+  <text x="614" y="565" text-anchor="middle" class="small">Orthopedisch Centrum ETZ</text>
+
+  <g>
+    <circle cx="438" cy="258" r="51" class="node-soft"/>
+    <text x="438" y="248" text-anchor="middle" class="tiny">Huisarts</text>
+    <text x="438" y="274" text-anchor="middle" class="tiny">verwijzing</text>
+  </g>
+  <g>
+    <circle cx="785" cy="253" r="51" class="node"/>
+    <text x="785" y="243" text-anchor="middle" class="tiny">Fysio</text>
+    <text x="785" y="269" text-anchor="middle" class="tiny">revalidatie</text>
+  </g>
+  <g>
+    <circle cx="870" cy="430" r="51" class="node"/>
+    <text x="870" y="420" text-anchor="middle" class="tiny">Podo</text>
+    <text x="870" y="446" text-anchor="middle" class="tiny">schoen</text>
+  </g>
+  <g>
+    <circle cx="787" cy="590" r="51" class="node-soft"/>
+    <text x="787" y="580" text-anchor="middle" class="tiny">Sociaal</text>
+    <text x="787" y="606" text-anchor="middle" class="tiny">domein</text>
+  </g>
+  <g>
+    <circle cx="450" cy="590" r="51" class="node"/>
+    <text x="450" y="580" text-anchor="middle" class="tiny">Leefstijl</text>
+    <text x="450" y="606" text-anchor="middle" class="tiny">zorg</text>
+  </g>
+  <g>
+    <circle cx="315" cy="430" r="51" class="node-soft"/>
+    <text x="315" y="420" text-anchor="middle" class="tiny">Gemeente</text>
+    <text x="315" y="446" text-anchor="middle" class="tiny">Tilburg</text>
+  </g>
+
+  <g opacity=".88">
+    <circle cx="245" cy="235" r="11" class="node-clay"/>
+    <text x="245" y="199" text-anchor="middle" class="small">Dongen</text>
+    <circle cx="948" cy="220" r="11" class="node-aqua"/>
+    <text x="948" y="184" text-anchor="middle" class="small">Oisterwijk</text>
+    <circle cx="220" cy="602" r="11" class="node-ochre"/>
+    <text x="220" y="646" text-anchor="middle" class="small">Goirle</text>
+    <circle cx="1018" cy="600" r="11" class="node-blue"/>
+    <text x="1018" y="644" text-anchor="middle" class="small">Hilvarenbeek</text>
+    <circle cx="574" cy="118" r="11" class="node-aqua"/>
+    <text x="574" y="82" text-anchor="middle" class="small">Waalwijk</text>
+  </g>
+
+  <g transform="translate(74 68)">
+    <rect x="0" y="0" width="256" height="88" rx="18" fill="#fffdf8" opacity=".82"/>
+    <text x="28" y="38" class="tiny">Regio Midden-Brabant</text>
+    <text x="28" y="66" class="small">korte lijnen in netwerkzorg</text>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Schematische grote teen</title>
+  <desc id="desc">Rustige schematische weergave van de grote teen en het MTP-1-gewricht met vijf stralen.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fbfaf4"/>
+      <stop offset="1" stop-color="#e6f1ea"/>
+    </linearGradient>
+    <linearGradient id="bone" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff5df"/>
+      <stop offset="1" stop-color="#e6cfaa"/>
+    </linearGradient>
+    <filter id="shadow" x="-12%" y="-12%" width="124%" height="128%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#173d32" flood-opacity=".14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="446" cy="371" r="132" fill="#b95e42" opacity=".12"/>
+  <circle cx="446" cy="371" r="88" fill="#1f5a48" opacity=".08"/>
+  <g filter="url(#shadow)" stroke="#614f32" stroke-width="4" stroke-opacity=".2">
+    <path d="M336 484C395 387 433 280 487 135" fill="none" stroke="#d9b87e" stroke-width="76" stroke-linecap="round"/>
+    <ellipse cx="318" cy="507" rx="62" ry="44" fill="url(#bone)" transform="rotate(-31 318 507)"/>
+    <ellipse cx="500" cy="116" rx="62" ry="47" fill="url(#bone)" transform="rotate(-67 500 116)"/>
+    <ellipse cx="423" cy="302" rx="48" ry="39" fill="#fff6e4" transform="rotate(-60 423 302)"/>
+    <path d="M407 351c24 24 61 24 84-1" fill="none" stroke="#1f5a48" stroke-width="12" stroke-linecap="round" opacity=".72"/>
+    <path d="M457 514C518 414 568 313 628 177" fill="none" stroke="#d7b57c" stroke-width="46" stroke-linecap="round"/>
+    <path d="M570 524C614 419 662 315 711 207" fill="none" stroke="#d7b57c" stroke-width="42" stroke-linecap="round"/>
+    <path d="M675 510C707 414 747 318 786 235" fill="none" stroke="#d7b57c" stroke-width="38" stroke-linecap="round"/>
+    <path d="M775 486C801 403 834 329 867 264" fill="none" stroke="#d7b57c" stroke-width="34" stroke-linecap="round"/>
+    <ellipse cx="630" cy="161" rx="34" ry="27" fill="url(#bone)" transform="rotate(-55 630 161)"/>
+    <ellipse cx="713" cy="192" rx="30" ry="24" fill="url(#bone)" transform="rotate(-47 713 192)"/>
+    <ellipse cx="789" cy="221" rx="27" ry="22" fill="url(#bone)" transform="rotate(-39 789 221)"/>
+    <ellipse cx="868" cy="251" rx="24" ry="20" fill="url(#bone)" transform="rotate(-31 868 251)"/>
+  </g>
+  <path d="M290 566c170 58 423 57 640-9" fill="none" stroke="#1f5a48" stroke-width="8" stroke-linecap="round" opacity=".18"/>
+</svg>
