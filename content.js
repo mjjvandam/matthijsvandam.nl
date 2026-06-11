@@ -27,7 +27,7 @@
       title: "We Walk",
       label: "Digitale innovatie",
       summary:
-        "Een project met Tilburg University over digitale ondersteuning van bewegen bij patiënten en ziekenhuismedewerkers.",
+        "Een project met Tilburg University over augmented reality, motivatie en bewegen voor patiënten met leefstijlgerelateerde artrose en ziekenhuismedewerkers.",
       image: "assets/project-we-walk-editorial.jpg",
       imageAlt: "Smartphone met AR-wandelroute op een rustige campus",
       url: "projecten/we-walk.html",
@@ -191,10 +191,10 @@
     },
     {
       id: "mobility-clinic-tilburg-patienten",
-      title: "Mobility Clinic Tilburg: knie en kraakbeen",
+      title: "Mobility Clinic Tilburg: knie-kraakbeenletsel",
       label: "Knie en kraakbeen",
       summary:
-        "Patiëntgerichte uitleg over Mobility Clinic Tilburg, complexe knieklachten, knie-kraakbeenletsel en triage van verwijzingen.",
+        "Patiëntgerichte uitleg over Mobility Clinic Tilburg, kraakbeenletsel van de knie en wanneer kraakbeenceltransplantatie kan worden besproken.",
       image: "assets/article-mobility-knee-cartilage-mvd.jpg",
       imageAlt: "Medische illustratie van kraakbeendefecten in de knie",
       url: "artikelen/mobility-clinic-tilburg-patienten.html",

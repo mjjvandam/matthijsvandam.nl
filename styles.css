@@ -281,6 +281,7 @@ a {
 .brand {
   display: inline-flex;
   align-items: center;
+  flex: 0 0 auto;
   gap: 0;
   font-weight: 700;
   text-decoration: none;
@@ -310,8 +311,10 @@ a {
 }
 
 .brand-logo-tree {
+  flex: 0 0 54px;
   width: 54px;
   height: 54px;
+  min-width: 54px;
   border-radius: 0;
   box-shadow: none;
   object-fit: contain;
@@ -1099,12 +1102,29 @@ a {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.project-team-grid article {
+.project-team-grid article,
+.project-team-card {
   min-height: 108px;
   padding: 18px;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--white);
+}
+
+.project-team-card {
+  display: block;
+  text-decoration: none;
+  transition:
+    border-color 180ms ease,
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.project-team-card:hover,
+.project-team-card:focus-visible {
+  border-color: rgba(185, 101, 72, 0.42);
+  box-shadow: 0 14px 28px rgba(23, 32, 28, 0.08);
+  transform: translateY(-1px);
 }
 
 .project-team-grid strong {
@@ -1982,8 +2002,10 @@ a {
 
 @media (max-width: 520px) {
   .brand-logo-tree {
+    flex-basis: 48px;
     width: 48px;
     height: 48px;
+    min-width: 48px;
   }
 
   .brand span:last-child {
@@ -2162,6 +2184,14 @@ a {
   margin: 0;
   font-size: 0.98rem;
   line-height: 1.65;
+}
+
+.project-contact-note {
+  border-left-color: var(--green);
+}
+
+.project-contact-note p + p {
+  margin-top: 12px;
 }
 
 .etz-fit-callout {
