@@ -23,6 +23,8 @@ Deze map is bedoeld als werkmateriaal voor nieuwe afbeeldingen, niet als publiek
 - Anatomie moet kloppen: bij voeten vijf tenen en plausibele middenvoetsbeentjes; bij knie correcte verhouding tussen femur, tibia, fibula en patella.
 - Geen ETZ-logo in eigen websitebeelden, behalve wanneer het bewust om ETZ-context gaat.
 - Bij medische uitlegbeelden liever het volledige Matthijs van Dam-logo klein rechtsonder.
+- Site-eigen artikel-, project- en aandoeningsbeelden krijgen voor publicatie ook bronmetadata
+  via `../tools/watermark_site_images.py`.
 - Kleurtoon: warm wit, diep groen, zacht salie, rustig teal en subtiel clay/ochre.
 - Geen abstracte medische symboliek als de bezoeker een herkenbare klacht of behandeling verwacht.
 - Geen behandelclaims, voor/na-beelden, operatiebeelden, bloed of dramatische pijnbeelden.

@@ -137,7 +137,7 @@
       title: "Niet vastgegroeide artrodese: wat betekent revisie-artrodese?",
       label: "Voet en enkel",
       summary:
-        "Uitleg over pseudoartrose, een niet-vastgegroeide artrodese en hoe 3D-planning kan helpen bij complexe revisiechirurgie van voet en enkel.",
+        "Uitleg over pseudoartrose, een niet-vastgegroeide artrodese en hoe 3D-planning mogelijk kan helpen bij complexe revisiechirurgie van voet en enkel.",
       image: "assets/article-3d-planning-lab.jpg",
       imageAlt: "3D-geprint voetmodel en planning in een ziekenhuislab",
       url: "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html",
@@ -172,6 +172,20 @@
       imageAlt: "Hands-on voet- en enkelonderwijs met anatomisch model in een skills lab",
       url: "artikelen/aios-foot-education-munich.html",
       date: "2025-09-19",
+      audience: ["zorgprofessionals"],
+      topics: ["voet-en-enkel", "onderwijs"],
+      archive: false,
+    },
+    {
+      id: "probleemgeorienteerd-denken-orthopedie-boekbijdrage",
+      title: "Probleemgeoriënteerd denken in de orthopedie: bijdragen over voet en enkel",
+      label: "Onderwijs",
+      summary:
+        "Korte toelichting op mijn bijdragen aan het leerboek over enkel- en voetanatomie en klinisch redeneren bij enkelklachten.",
+      image: "assets/article-probleemgeorienteerd-denken-orthopedie-cover.jpg",
+      imageAlt: "Cover van het leerboek Probleemgeoriënteerd denken in de orthopedie",
+      url: "artikelen/probleemgeorienteerd-denken-orthopedie-boekbijdrage.html",
+      date: "2026-06-12",
       audience: ["zorgprofessionals"],
       topics: ["voet-en-enkel", "onderwijs"],
       archive: false,
@@ -236,7 +250,7 @@
       title: "Artrosezorg in transitie: wat betekent dit voor patiënten?",
       label: "Artrose",
       summary:
-        "Begrijpelijke uitleg over artrosezorg, bewegen, leefstijl en samenwerking tussen zorgverleners, zonder medisch advies op maat.",
+        "Begrijpelijke uitleg over artrosezorg, bewegen, leefstijl en samenwerking tussen zorgverleners.",
       image: "assets/knee-anatomy-model-editorial.jpg",
       imageAlt: "Anatomisch kniemodel in een rustige spreekkamer",
       url: "artikelen/artrosezorg-transitie-patienten.html",

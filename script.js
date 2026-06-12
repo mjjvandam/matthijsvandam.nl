@@ -229,6 +229,41 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
     state[groupName] = active?.getAttribute("data-filter") || "alles";
   });
 
+  const syncGroupButtons = (group, activeValue) => {
+    group.querySelectorAll("[data-filter]").forEach((button) => {
+      button.classList.toggle("is-active", button.getAttribute("data-filter") === activeValue);
+    });
+  };
+
+  const inferFilterFromSearch = (group, searchTerm) => {
+    if (!searchTerm) return "";
+    const words = searchTerm.split(/[\s,/.-]+/).filter(Boolean);
+    const buttons = Array.from(group.querySelectorAll("[data-filter]"));
+    return (
+      buttons.find((button) => {
+        const value = (button.getAttribute("data-filter") || "").toLowerCase();
+        const label = (button.textContent || "").trim().toLowerCase();
+        return searchTerm === value || searchTerm === label || words.includes(value);
+      })?.getAttribute("data-filter") || ""
+    );
+  };
+
+  const syncFiltersFromSearch = () => {
+    const searchTerm = state.search.trim().toLowerCase();
+    groups.forEach((group) => {
+      const groupName = group.getAttribute("data-filter-group");
+      if (!groupName) return;
+      const inferred = inferFilterFromSearch(group, searchTerm);
+      if (inferred) {
+        state[groupName] = inferred;
+        syncGroupButtons(group, inferred);
+      } else if (searchTerm) {
+        state[groupName] = "alles";
+        syncGroupButtons(group, "alles");
+      }
+    });
+  };
+
   const applyFilters = () => {
     let visibleCount = 0;
     const searchTerm = state.search.trim().toLowerCase();
@@ -243,10 +278,12 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
         .join(" ")
         .toLowerCase();
       const topicMatches =
+        searchTerm ||
         !state.topic ||
         state.topic === "alles" ||
         (card.getAttribute("data-topic") || "").split(/\s+/).includes(state.topic);
       const typeMatches =
+        searchTerm ||
         !state.type ||
         state.type === "alles" ||
         (card.getAttribute("data-type") || "").split(/\s+/).includes(state.type);
@@ -264,9 +301,7 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
       button.addEventListener("click", () => {
         const isClearing = allowClear && button.classList.contains("is-active");
         state[groupName] = isClearing ? "alles" : button.getAttribute("data-filter") || "alles";
-        group.querySelectorAll("[data-filter]").forEach((item) => {
-          item.classList.toggle("is-active", !isClearing && item === button);
-        });
+        syncGroupButtons(group, isClearing ? "alles" : state[groupName]);
         applyFilters();
       });
     });
@@ -274,10 +309,55 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
 
   search?.addEventListener("input", () => {
     state.search = search.value || "";
+    syncFiltersFromSearch();
     applyFilters();
   });
 
   applyFilters();
+});
+
+document.querySelectorAll("[data-professional-article-filters]").forEach((panel) => {
+  const selector = panel.getAttribute("data-filter-target");
+  const target = selector ? document.querySelector(selector) : null;
+  if (!target) return;
+
+  const empty = target.parentElement?.querySelector("[data-professional-filter-empty]");
+  const buttons = Array.from(panel.querySelectorAll("[data-professional-filter]"));
+  const topicMatchers = {
+    artrose: (topics, text) => topics.includes("artrose") || text.includes("artrose"),
+    knie: (topics, text) => topics.includes("knie-kraakbeen") || text.includes("knie"),
+    "voet-enkel": (topics, text) =>
+      topics.includes("voet-en-enkel") || text.includes("voet") || text.includes("enkel"),
+    onderwijs: (topics, text) => topics.includes("onderwijs") || text.includes("onderwijs"),
+    samenwerken: (_topics, text) =>
+      ["samenwerking", "samenwerken", "netwerk", "transmuraal", "zorgpad", "verbinden", "regio"].some(
+        (term) => text.includes(term)
+      ),
+  };
+
+  const applyProfessionalFilter = (filter) => {
+    const cards = Array.from(target.querySelectorAll("[data-topics]"));
+    let visibleCount = 0;
+    cards.forEach((card) => {
+      const topics = (card.getAttribute("data-topics") || "").split(/\s+/).filter(Boolean);
+      const text = (card.textContent || "").toLowerCase();
+      const matches = filter === "alles" || topicMatchers[filter]?.(topics, text);
+      card.hidden = !matches;
+      if (matches) visibleCount += 1;
+    });
+    buttons.forEach((button) => {
+      button.classList.toggle("is-active", button.getAttribute("data-professional-filter") === filter);
+    });
+    if (empty) empty.hidden = visibleCount !== 0;
+  };
+
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      applyProfessionalFilter(button.getAttribute("data-professional-filter") || "alles");
+    });
+  });
+
+  applyProfessionalFilter("alles");
 });
 
 contactForm?.addEventListener("submit", async (event) => {
