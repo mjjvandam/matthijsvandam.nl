@@ -6,6 +6,57 @@ const contactForm = document.querySelector("[data-contact-form]");
 const contactStatus = document.querySelector("[data-contact-status]");
 const root = document.documentElement;
 const themeStorageKey = "mvd-theme";
+const analyticsHostnames = ["matthijsvandam.nl", "www.matthijsvandam.nl"];
+const shouldLoadVercelAnalytics =
+  analyticsHostnames.includes(window.location.hostname) || window.location.hostname.endsWith(".vercel.app");
+
+if (shouldLoadVercelAnalytics) {
+  window.va =
+    window.va ||
+    function () {
+      (window.vaq = window.vaq || []).push(arguments);
+    };
+
+  window.va("beforeSend", (event) => {
+    if (window.localStorage?.getItem("mvd-analytics-disable") === "true") {
+      return null;
+    }
+
+    if (!event?.url) {
+      return event;
+    }
+
+    try {
+      const url = new URL(event.url);
+      const allowedParams = new Set(["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"]);
+      Array.from(url.searchParams.keys()).forEach((key) => {
+        if (!allowedParams.has(key)) {
+          url.searchParams.delete(key);
+        }
+      });
+      url.hash = "";
+
+      return {
+        ...event,
+        url: url.toString(),
+      };
+    } catch {
+      return event;
+    }
+  });
+
+  if (!document.querySelector('script[src="/_vercel/insights/script.js"]')) {
+    const analyticsScript = document.createElement("script");
+    analyticsScript.defer = true;
+    analyticsScript.src = "/_vercel/insights/script.js";
+    document.head.append(analyticsScript);
+  }
+}
+
+const trackAnalyticsEvent = (name, data = {}) => {
+  if (!shouldLoadVercelAnalytics || typeof window.va !== "function") return;
+  window.va("event", { name, data });
+};
 
 if (year) {
   year.textContent = new Date().getFullYear();
@@ -75,8 +126,40 @@ nav?.addEventListener("click", (event) => {
   }
 });
 
+document.addEventListener("click", (event) => {
+  const link = event.target instanceof Element ? event.target.closest("a[href]") : null;
+  if (!link || link.hasAttribute("data-professional-email")) return;
+
+  const href = link.getAttribute("href") || "";
+  let url;
+  try {
+    url = new URL(href, window.location.href);
+  } catch {
+    return;
+  }
+
+  const hostname = url.hostname.replace(/^www\./, "");
+  if (hostname === "etz.nl" || hostname === "doctolib.com" || hostname.endsWith(".doctolib.com")) {
+    trackAnalyticsEvent("official_channel_click", {
+      target: hostname,
+      page: window.location.pathname,
+    });
+    return;
+  }
+
+  if (hostname === "linkedin.com" || hostname.endsWith(".linkedin.com")) {
+    trackAnalyticsEvent("external_profile_click", {
+      target: "linkedin",
+      page: window.location.pathname,
+    });
+  }
+});
+
 document.querySelectorAll("[data-professional-email]").forEach((link) => {
   link.addEventListener("click", (event) => {
+    trackAnalyticsEvent("professional_email_click", {
+      page: window.location.pathname,
+    });
     event.preventDefault();
     const user = link.getAttribute("data-user")?.split("").reverse().join("");
     const domain = link.getAttribute("data-domain")?.split("").reverse().join("");
