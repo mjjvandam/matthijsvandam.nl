@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+  <title id="title">Thuisarts</title>
+  <desc id="desc">Woordmerk voor Thuisarts</desc>
+  <rect width="320" height="180" rx="28" fill="#ffffff"/>
+  <path d="M74 90 124 50l50 40v52a8 8 0 0 1-8 8H82a8 8 0 0 1-8-8Z" fill="#176d59" opacity=".12"/>
+  <path d="M64 90 124 42l60 48" fill="none" stroke="#176d59" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M96 102h56M124 74v56" fill="none" stroke="#176d59" stroke-width="14" stroke-linecap="round"/>
+  <text x="160" y="158" text-anchor="middle" fill="#176d59" font-family="Arial, sans-serif" font-size="34" font-weight="800">Thuisarts</text>
+</svg>

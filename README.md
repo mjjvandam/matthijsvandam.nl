@@ -82,6 +82,7 @@ het formulier een foutmelding en wordt er geen bericht verzonden.
 Publiceer via Vercel vanuit de GitHub-repository.
 Controleer voor het pushen lokaal:
 
+- structurele sitecheck: `python3 tools/check_site_quality.py`;
 - homepage: hero, biografie, behandelingen, projecten, artikelen, publicaties en contactroutes;
 - `behandelingen.html`: filters, zoekfunctie en behandelingen/aandachtsgebieden;
 - `artikelen.html`: filters en alle artikelkaarten;

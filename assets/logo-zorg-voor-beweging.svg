@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180" role="img" aria-labelledby="title desc">
+  <title id="title">Zorg voor Beweging</title>
+  <desc id="desc">Woordmerk voor Zorg voor Beweging van de Nederlandse Orthopaedische Vereniging</desc>
+  <rect width="320" height="180" rx="28" fill="#ffffff"/>
+  <circle cx="86" cy="70" r="24" fill="#244c3d"/>
+  <path d="M86 98c-26 11-45 30-54 58M100 98c24 8 46 27 62 58M78 105l-14 42M98 105l18 42" fill="none" stroke="#5ba8a0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M146 58c24-20 55-26 92-18-10 34-33 55-69 63" fill="none" stroke="#c49a46" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="188" y="93" fill="#244c3d" font-family="Arial, sans-serif" font-size="28" font-weight="800">Zorg voor</text>
+  <text x="188" y="128" fill="#244c3d" font-family="Arial, sans-serif" font-size="28" font-weight="800">Beweging</text>
+  <text x="188" y="150" fill="#5d675f" font-family="Arial, sans-serif" font-size="14" font-weight="700">NOV</text>
+</svg>

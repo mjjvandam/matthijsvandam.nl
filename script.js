@@ -158,56 +158,77 @@ const expertiseImageFor = (card, label, title) => {
   return "assets/tile-voorvoet-algemeen.svg";
 };
 
-document.querySelectorAll(".expertise-card .article-card-body").forEach((body) => {
-  const card = body.closest(".expertise-card");
-  if (!card || body.querySelector(".expertise-flip")) return;
+const canUseHoverCards =
+  window.matchMedia?.("(hover: hover) and (pointer: fine)").matches &&
+  window.matchMedia?.("(min-width: 841px)").matches;
 
-  const label = body.querySelector(".article-label")?.textContent?.trim() || "Expertise";
-  const title = body.querySelector("h3")?.textContent?.trim() || "";
-  const description = body.querySelector("p:not(.article-label)")?.textContent?.trim() || "";
-  const url = card.getAttribute("data-url");
-  const image = document.createElement("img");
-  image.className = "expertise-card-icon expertise-card-photo";
-  image.src = expertiseImageFor(card, label, title);
-  image.alt = "";
-  image.loading = "lazy";
+if (canUseHoverCards) {
+  document.querySelectorAll(".expertise-card .article-card-body").forEach((body) => {
+    const card = body.closest(".expertise-card");
+    if (!card || body.querySelector(".expertise-flip")) return;
 
-  card.classList.add("is-flip-card");
-  card.setAttribute("tabindex", "0");
-  card.setAttribute("aria-label", `${title}. ${description}`);
+    const label = body.querySelector(".article-label")?.textContent?.trim() || "Expertise";
+    const title = body.querySelector("h3")?.textContent?.trim() || "";
+    const description = body.querySelector("p:not(.article-label)")?.textContent?.trim() || "";
+    const url = card.getAttribute("data-url");
+    const image = document.createElement("img");
+    image.className = "expertise-card-icon expertise-card-photo";
+    image.src = expertiseImageFor(card, label, title);
+    image.alt = "";
+    image.loading = "lazy";
 
-  const inner = document.createElement("div");
-  inner.className = "expertise-flip";
+    card.classList.add("is-flip-card");
+    card.setAttribute("tabindex", "0");
+    card.setAttribute("aria-label", `${title}. ${description}`);
 
-  const front = document.createElement("div");
-  front.className = "expertise-flip-face expertise-flip-front";
-  front.setAttribute("aria-hidden", "true");
+    const inner = document.createElement("div");
+    inner.className = "expertise-flip";
 
-  const frontTitle = document.createElement("h3");
-  frontTitle.textContent = title;
+    const front = document.createElement("div");
+    front.className = "expertise-flip-face expertise-flip-front";
+    front.setAttribute("aria-hidden", "true");
 
-  front.append(image, frontTitle);
+    const frontTitle = document.createElement("h3");
+    frontTitle.textContent = title;
 
-  const back = document.createElement("div");
-  back.className = "expertise-flip-face expertise-flip-back";
+    front.append(image, frontTitle);
 
-  const backTitle = document.createElement("h3");
-  backTitle.textContent = title;
+    const back = document.createElement("div");
+    back.className = "expertise-flip-face expertise-flip-back";
 
-  const backDescription = document.createElement("p");
-  backDescription.textContent = description;
+    const backTitle = document.createElement("h3");
+    backTitle.textContent = title;
 
-  back.append(backTitle, backDescription);
-  if (url) {
-    const link = document.createElement("a");
-    link.className = "article-link expertise-card-link";
-    link.href = url;
-    link.textContent = "Lees meer";
-    back.append(link);
-  }
-  inner.append(front, back);
-  body.replaceChildren(inner);
-});
+    const backDescription = document.createElement("p");
+    backDescription.textContent = description;
+
+    back.append(backTitle, backDescription);
+    if (url) {
+      const link = document.createElement("a");
+      link.className = "article-link expertise-card-link";
+      link.href = url;
+      link.textContent = "Lees meer";
+      back.append(link);
+    }
+    inner.append(front, back);
+    body.replaceChildren(inner);
+  });
+} else {
+  document.querySelectorAll(".expertise-card .article-card-body").forEach((body) => {
+    const card = body.closest(".expertise-card");
+    if (!card || body.querySelector("img")) return;
+
+    const label = body.querySelector(".article-label")?.textContent?.trim() || "Expertise";
+    const title = body.querySelector("h3")?.textContent?.trim() || "";
+    const image = document.createElement("img");
+    image.className = "expertise-card-icon expertise-card-photo";
+    image.src = expertiseImageFor(card, label, title);
+    image.alt = "";
+    image.loading = "lazy";
+
+    body.prepend(image);
+  });
+}
 
 document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
   const selector = panel.getAttribute("data-filter-target");
@@ -220,20 +241,43 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
   const search = panel.querySelector("[data-card-search]");
   const visibleLimit = Number.parseInt(panel.getAttribute("data-visible-limit") || "", 10);
   const allowClear = panel.getAttribute("data-allow-clear") === "true";
+  const summaryLink = panel.parentElement?.querySelector("[data-filter-summary-link]");
+  const summaryNote = panel.parentElement?.querySelector("[data-filter-summary-note]");
+  const summaryLabels = {
+    voorvoet: "voorvoetbehandelingen",
+    enkel: "enkelbehandelingen",
+    achtervoet: "achtervoetbehandelingen",
+    knie: "kniebehandelingen",
+    sport: "sport voet/enkel-onderwerpen",
+    leefstijl: "leefstijlonderwerpen",
+  };
+  const summaryTopicLabels = {
+    voorvoet: "voorvoetonderwerpen",
+    enkel: "enkelonderwerpen",
+    achtervoet: "achtervoetonderwerpen",
+    knie: "knieonderwerpen",
+    sport: "sport voet/enkel-onderwerpen",
+    leefstijl: "leefstijlonderwerpen",
+  };
   const state = { search: "" };
+
+  const syncGroupButtons = (group, activeValue) => {
+    group.querySelectorAll("[data-filter]").forEach((button) => {
+      const isActive = button.getAttribute("data-filter") === activeValue;
+      button.classList.toggle("is-active", isActive);
+      button.setAttribute("aria-pressed", String(isActive));
+    });
+  };
 
   groups.forEach((group) => {
     const groupName = group.getAttribute("data-filter-group");
     if (!groupName) return;
-    const active = group.querySelector(".filter-button.is-active");
+    const queryValue = new URLSearchParams(window.location.search).get(groupName);
+    const queryButton = queryValue ? group.querySelector(`[data-filter="${CSS.escape(queryValue)}"]`) : null;
+    const active = queryButton || group.querySelector(".filter-button.is-active");
     state[groupName] = active?.getAttribute("data-filter") || "alles";
+    syncGroupButtons(group, state[groupName]);
   });
-
-  const syncGroupButtons = (group, activeValue) => {
-    group.querySelectorAll("[data-filter]").forEach((button) => {
-      button.classList.toggle("is-active", button.getAttribute("data-filter") === activeValue);
-    });
-  };
 
   const inferFilterFromSearch = (group, searchTerm) => {
     if (!searchTerm) return "";
@@ -293,6 +337,23 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
       if (!card.hidden) visibleCount += 1;
     });
     if (empty) empty.hidden = visibleCount !== 0;
+    if (summaryLink) {
+      const topic = state.topic || "alles";
+      const baseHref = summaryLink.getAttribute("data-base-href") || summaryLink.getAttribute("href") || "";
+      const label = summaryLabels[topic] || "behandelingen";
+      const noteLabel = summaryTopicLabels[topic] || "onderwerpen";
+      summaryLink.textContent = `Bekijk alle ${label}`;
+      summaryLink.setAttribute("href", topic === "alles" ? baseHref : `${baseHref}?topic=${encodeURIComponent(topic)}`);
+      if (summaryNote && Number.isFinite(visibleLimit)) {
+        summaryNote.textContent = `Hier staan maximaal ${visibleLimit} ${noteLabel}.`;
+      }
+      if (Number.isFinite(visibleLimit)) {
+        summaryLink.setAttribute(
+          "aria-label",
+          `Op de homepage staan maximaal ${visibleLimit} onderwerpen per filter. Bekijk alle ${label}.`
+        );
+      }
+    }
   };
 
   groups.forEach((group) => {
@@ -346,7 +407,9 @@ document.querySelectorAll("[data-professional-article-filters]").forEach((panel)
       if (matches) visibleCount += 1;
     });
     buttons.forEach((button) => {
-      button.classList.toggle("is-active", button.getAttribute("data-professional-filter") === filter);
+      const isActive = button.getAttribute("data-professional-filter") === filter;
+      button.classList.toggle("is-active", isActive);
+      button.setAttribute("aria-pressed", String(isActive));
     });
     if (empty) empty.hidden = visibleCount !== 0;
   };

@@ -23,6 +23,13 @@ voorlopig achterwege totdat Matthijs expliciet vraagt om die weer toe te voegen.
 - Publiceer niets en koppel geen domein zonder expliciete toestemming.
 - Controleer na wijzigingen: layout, mobiele weergave, interne links, consolefouten en medische veiligheidsgrenzen.
 - Houd de site toegankelijk: goede headingstructuur, labels bij formulieren, duidelijke focus-states en zinvolle metadata.
+- Bewaar de bestaande rustige, premium, medisch-professionele vormtaal. Geen redesign, nieuwe kleurtaal of brede visuele koerswijziging zonder expliciete vraag.
+- Prioriteer mobiele leesbaarheid: controleer in elk geval smalle breedtes rond 360, 390 en 430 px bij wijzigingen aan hero's, kaarten, navigatie, filters, formulieren of tekstblokken.
+- Hergebruik bestaande componenten, CSS-variabelen, spacing, radius, kaartstijlen en typografie. Voeg alleen nieuwe CSS toe als een bestaand patroon niet volstaat.
+- Vermijd brede refactors. Houd wijzigingen klein, herleidbaar en passend bij de bestaande statische HTML/CSS/JS-opzet.
+- Let extra op contrast: geen lichte tekst op lichte achtergronden, tekst over beelden alleen met voldoende overlay/tint, en focus-states moeten zichtbaar blijven.
+- Controleer waar mogelijk na wijzigingen: interne links en anchors, ontbrekende afbeeldingen, consolefouten, metadata/canonical/robots, JSON-LD en sitemap-consistentie.
+- Als er een `package.json` aanwezig is, draai de beschikbare checks zoals lint, typecheck, tests en build. Als die ontbreekt, vermeld dat expliciet.
 
 ## Livegang-voorwerk
 

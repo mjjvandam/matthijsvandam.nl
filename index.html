@@ -40,7 +40,7 @@
     <link rel="icon" href="assets/logo-mvd-mark-v2.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="assets/logo-mvd-mark-v2.svg">
     <link rel="preload" href="assets/andry-tree-waiting-room-hero-optimized.jpg" as="image">
-    <link rel="stylesheet" href="styles.css?v=20260611blocks">
+    <link rel="stylesheet" href="styles.css?v=20260612quality4">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -166,17 +166,18 @@
         <div class="filter-panel expertise-home-panel" data-card-filter-panel data-filter-target="#expertise-home-grid" data-visible-limit="4" aria-label="Behandelingen filters">
           <div class="filter-group" data-filter-group="topic">
             <div class="filter-bar">
-              <button class="filter-button is-active" type="button" data-filter="voorvoet">Voorvoet</button>
-              <button class="filter-button" type="button" data-filter="enkel">Enkel</button>
-              <button class="filter-button" type="button" data-filter="achtervoet">Achtervoet</button>
-              <button class="filter-button" type="button" data-filter="knie">Knie</button>
-              <button class="filter-button" type="button" data-filter="sport">Sport voet/enkel</button>
-              <button class="filter-button" type="button" data-filter="leefstijl">Leefstijl</button>
+              <button class="filter-button is-active" type="button" aria-pressed="true" data-filter="voorvoet">Voorvoet</button>
+              <button class="filter-button" type="button" aria-pressed="false" data-filter="enkel">Enkel</button>
+              <button class="filter-button" type="button" aria-pressed="false" data-filter="achtervoet">Achtervoet</button>
+              <button class="filter-button" type="button" aria-pressed="false" data-filter="knie">Knie</button>
+              <button class="filter-button" type="button" aria-pressed="false" data-filter="sport">Sport voet/enkel</button>
+              <button class="filter-button" type="button" aria-pressed="false" data-filter="leefstijl">Leefstijl</button>
             </div>
           </div>
         </div>
         <div class="section-actions expertise-home-actions" aria-label="Meer behandelingen">
-          <a class="article-link" href="behandelingen.html">Bekijk alle behandelingen</a>
+          <p class="expertise-home-note" data-filter-summary-note>Hier staan maximaal vier voorvoetonderwerpen.</p>
+          <a class="article-link" href="behandelingen.html?topic=voorvoet" data-filter-summary-link data-base-href="behandelingen.html">Bekijk alle voorvoetbehandelingen</a>
         </div>
         <div class="article-grid expertise-home-grid" id="expertise-home-grid">
           <article class="article-card expertise-card" data-topic="voorvoet" data-type="klacht behandeling" data-search="scheve grote teen knobbel bunion pijn grote teen schoenprobleem hallux abducto valgus teen staat scheef">
@@ -566,6 +567,6 @@
     </footer>
 
     <script src="content.js?v=20260612book"></script>
-    <script src="script.js?v=20260611professionalfilters"></script>
+    <script src="script.js?v=20260612quality4"></script>
   </body>
 </html>
