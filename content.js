@@ -266,7 +266,7 @@
       id: "grote-teen-mtp1",
       label: "Grote teen / MTP-1",
       shortDescription: "Pijn rond het grote-teengewricht of bij het afwikkelen.",
-      relatedConditionIds: ["hallux-rigidus", "hallux-valgus", "voorvoetcorrectie"],
+      relatedConditionIds: ["hallux-rigidus", "hallux-valgus", "jicht-podagra", "sesamoidklachten", "voorvoetcorrectie"],
       views: {
         top: { shape: "M300 115 C390 80 455 140 460 280 C465 425 402 535 302 520 C245 410 230 205 300 115 Z" },
         sole: { shape: "M275 80 C390 35 465 110 455 250 C450 370 390 475 280 450 C220 335 215 165 275 80 Z" },
@@ -277,7 +277,7 @@
       id: "kleine-tenen",
       label: "Kleine tenen",
       shortDescription: "Pijn, drukplekken of standsproblemen rond de kleine tenen.",
-      relatedConditionIds: ["hamerteen-klauwteen", "tailors-bunion", "voorvoetcorrectie"],
+      relatedConditionIds: ["hamerteen-klauwteen", "morton-neuroom", "mtp-plantaire-plaatklachten", "tailors-bunion", "voorvoetcorrectie"],
       views: {
         top: { shape: "M455 110 C690 80 800 230 760 420 C650 395 530 350 455 290 Z" },
         sole: { shape: "M450 110 C665 85 790 215 780 405 C665 420 520 365 450 280 Z" },
@@ -288,29 +288,29 @@
       id: "voorvoet-bovenzijde",
       label: "Voorvoet bovenzijde",
       shortDescription: "Pijn bovenop de voorvoet of rond de middenvoetsbeentjes.",
-      relatedConditionIds: ["metatarsalgie-morton", "voorvoetcorrectie", "artrose-na-breuk"],
+      relatedConditionIds: ["metatarsalgie", "mtp-plantaire-plaatklachten", "voorvoetcorrectie"],
       views: {
         top: { shape: "M275 430 C410 350 690 380 770 540 C760 680 650 780 485 760 C340 750 260 630 275 430 Z" },
-        medial: { shape: "M880 540 C1090 495 1345 555 1495 670 C1310 750 1045 755 820 690 C790 630 810 570 880 540 Z" },
-        lateral: { shape: "M825 520 C1055 455 1360 520 1505 690 C1335 790 1035 795 725 725 C690 645 720 555 825 520 Z" },
+        medial: { shape: "M880 480 C1090 430 1345 485 1495 620 C1320 700 1045 700 820 635 C790 575 810 510 880 480 Z" },
+        lateral: { shape: "M825 460 C1055 410 1360 475 1505 620 C1335 700 1035 695 725 635 C690 565 720 495 825 460 Z" },
       },
     },
     {
       id: "middenvoet-bovenzijde",
       label: "Middenvoet bovenzijde",
       shortDescription: "Pijn bovenop de middenvoet, soms bij belasting of na eerder letsel.",
-      relatedConditionIds: ["artrose-na-breuk", "revisie-artrodese", "holvoet-cavovarus"],
+      relatedConditionIds: ["tarsal-boss", "ganglion-middenvoet", "artrose-na-breuk", "stressreactie-stressfractuur", "lisfranc-middenvoetletsel", "revisie-artrodese", "holvoet-cavovarus"],
       views: {
         top: { shape: "M315 720 C455 645 665 670 745 810 C760 1050 640 1195 480 1185 C340 1175 275 1000 315 720 Z" },
-        medial: { shape: "M520 520 C725 450 990 490 1125 640 C1010 750 665 780 410 710 C380 620 420 555 520 520 Z" },
-        lateral: { shape: "M465 500 C700 440 1010 480 1180 640 C1030 760 650 785 365 710 C345 615 380 540 465 500 Z" },
+        medial: { shape: "M520 455 C725 390 990 430 1125 580 C1010 690 665 710 410 640 C380 555 420 490 520 455 Z" },
+        lateral: { shape: "M465 430 C700 370 1010 420 1180 570 C1030 680 650 710 365 640 C345 545 380 470 465 430 Z" },
       },
     },
     {
       id: "wreef",
       label: "Wreef",
       shortDescription: "Pijn of druk op de wreef, bijvoorbeeld bij schoenen of hoge voetboog.",
-      relatedConditionIds: ["holvoet-cavovarus", "artrose-na-breuk"],
+      relatedConditionIds: ["tarsal-boss", "ganglion-middenvoet", "holvoet-cavovarus", "artrose-na-breuk"],
       views: {
         top: { shape: "M360 565 C465 515 645 525 720 650 C710 825 610 955 470 930 C350 905 305 720 360 565 Z" },
         medial: { shape: "M600 420 C815 360 1085 430 1250 595 C1040 690 690 670 485 570 C480 500 520 450 600 420 Z" },
@@ -321,10 +321,9 @@
       id: "voorvoet-onderzijde",
       label: "Voorvoet onderzijde",
       shortDescription: "Pijn onder de bal van de voet of bij druk onder de voorvoet.",
-      relatedConditionIds: ["metatarsalgie-morton", "hallux-rigidus", "voorvoetcorrectie"],
+      relatedConditionIds: ["metatarsalgie", "morton-neuroom", "mtp-plantaire-plaatklachten", "sesamoidklachten", "hallux-rigidus", "voorvoetcorrectie"],
       views: {
         sole: { shape: "M260 250 C410 95 720 160 775 420 C720 600 620 710 470 700 C330 690 240 535 260 250 Z" },
-        top: { shape: "M285 420 C420 350 680 385 755 530 C730 640 625 715 490 710 C355 705 270 590 285 420 Z" },
         medial: { shape: "M1030 650 C1210 600 1465 650 1580 790 C1435 875 1195 855 1010 765 C990 715 1000 675 1030 650 Z" },
         lateral: { shape: "M990 625 C1195 565 1475 625 1600 755 C1435 845 1175 830 965 735 C945 685 955 650 990 625 Z" },
       },
@@ -333,21 +332,20 @@
       id: "middenvoet-onderzijde",
       label: "Middenvoet onderzijde",
       shortDescription: "Pijn onder de middenvoet of aan de overgang naar de voetboog.",
-      relatedConditionIds: ["platvoet-volwassen", "holvoet-cavovarus", "artrose-na-breuk"],
+      relatedConditionIds: ["peesplaatklachten-hielspoor", "platvoet-volwassen", "holvoet-cavovarus", "stressreactie-stressfractuur", "lisfranc-middenvoetletsel", "artrose-na-breuk"],
       views: {
         sole: { shape: "M320 610 C470 520 690 570 745 735 C710 930 590 1045 430 1000 C305 965 250 760 320 610 Z" },
-        medial: { shape: "M430 660 C640 585 1010 600 1205 705 C1060 790 650 795 365 755 C345 720 375 685 430 660 Z" },
-        lateral: { shape: "M760 520 C1010 430 1370 520 1505 690 C1335 790 1035 795 725 725 C690 645 705 555 760 520 Z" },
+        medial: { shape: "M500 690 C705 640 990 645 1145 720 C1015 790 690 800 440 750 C410 720 445 700 500 690 Z" },
+        lateral: { shape: "M690 675 C900 625 1200 635 1375 720 C1225 790 900 800 650 750 C620 715 640 690 690 675 Z" },
       },
     },
     {
       id: "hiel-onderzijde",
       label: "Hiel onderzijde",
       shortDescription: "Pijn onder de hiel, vaak merkbaar bij staan of de eerste stappen.",
-      relatedConditionIds: ["hielpijn", "platvoet-volwassen"],
+      relatedConditionIds: ["peesplaatklachten-hielspoor", "hielpijn", "vetkussen-hielklachten", "platvoet-volwassen"],
       views: {
         sole: { shape: "M340 1085 C460 1000 655 1000 750 1115 C805 1320 680 1485 515 1480 C360 1475 260 1300 340 1085 Z" },
-        heel: { shape: "M660 720 C700 620 970 620 1025 725 C1025 850 945 910 835 900 C720 895 645 835 660 720 Z" },
         medial: { shape: "M130 720 C250 655 425 655 560 720 C470 835 260 845 115 775 C85 750 95 735 130 720 Z" },
         lateral: { shape: "M115 720 C250 655 440 655 575 720 C470 840 255 850 105 775 C75 750 85 735 115 720 Z" },
       },
@@ -356,9 +354,9 @@
       id: "binnenzijde-voetboog",
       label: "Binnenzijde voetboog",
       shortDescription: "Pijn langs de binnenboog of bij een doorzakkende voetstand.",
-      relatedConditionIds: ["platvoet-volwassen", "artrose-na-breuk"],
+      relatedConditionIds: ["tibialis-posterior-peesklachten", "peesplaatklachten-hielspoor", "platvoet-volwassen"],
       views: {
-        medial: { shape: "M430 660 C640 585 1010 600 1205 705 C1060 790 650 795 365 755 C345 720 375 685 430 660 Z" },
+        medial: { shape: "M350 700 C565 650 980 655 1210 720 C1055 805 650 815 360 765 C325 742 325 720 350 700 Z" },
         sole: { shape: "M250 610 C360 560 430 620 460 780 C475 1020 420 1180 315 1215 C235 1050 210 760 250 610 Z" },
       },
     },
@@ -366,7 +364,7 @@
       id: "binnenzijde-enkel",
       label: "Binnenzijde enkel",
       shortDescription: "Pijn rond de binnenenkel of de pezen aan de binnenzijde.",
-      relatedConditionIds: ["platvoet-volwassen", "enkelartrose", "artrose-na-breuk"],
+      relatedConditionIds: ["ganglion-enkel", "tibialis-posterior-peesklachten", "platvoet-volwassen", "enkelartrose", "kraakbeenletsel-enkel", "corpus-liberum-enkel", "artrose-na-breuk"],
       views: {
         medial: { shape: "M245 350 C330 215 560 220 655 385 C610 515 385 570 250 500 C205 455 210 395 245 350 Z" },
         heel: { shape: "M540 410 C630 345 760 365 810 455 C765 565 620 585 530 505 C500 470 505 435 540 410 Z" },
@@ -376,9 +374,9 @@
       id: "buitenzijde-voet",
       label: "Buitenzijde voet",
       shortDescription: "Pijn of druk aan de buitenrand van de voet.",
-      relatedConditionIds: ["tailors-bunion", "holvoet-cavovarus", "artrose-na-breuk"],
+      relatedConditionIds: ["peroneuspeesklachten", "sinus-tarsi-klachten", "tailors-bunion", "holvoet-cavovarus", "artrose-na-breuk"],
       views: {
-        lateral: { shape: "M760 520 C1010 430 1370 520 1505 690 C1335 790 1035 795 725 725 C690 645 705 555 760 520 Z" },
+        lateral: { shape: "M1190 545 C1355 555 1495 630 1545 735 C1430 805 1260 800 1130 735 C1115 650 1135 585 1190 545 Z" },
         sole: { shape: "M720 410 C815 430 855 545 815 645 C730 695 650 655 625 550 C645 470 680 425 720 410 Z" },
       },
     },
@@ -386,17 +384,39 @@
       id: "buitenzijde-enkel",
       label: "Buitenzijde enkel",
       shortDescription: "Pijn aan de buitenzijde van de enkel, soms na verzwikken.",
-      relatedConditionIds: ["enkelverzwikking", "chronische-enkelinstabiliteit", "kraakbeenletsel-enkel", "enkel-impingement"],
+      relatedConditionIds: ["enkelverzwikking", "chronische-enkelinstabiliteit", "ganglion-enkel", "peroneuspeesklachten", "sinus-tarsi-klachten", "kraakbeenletsel-enkel", "corpus-liberum-enkel", "anterieur-enkel-impingement", "enkelartrose", "artrose-na-breuk"],
       views: {
         lateral: { shape: "M245 350 C330 215 560 220 655 385 C610 515 385 570 250 500 C205 455 210 395 245 350 Z" },
         heel: { shape: "M875 410 C960 350 1105 365 1160 455 C1125 560 980 585 890 505 C855 470 855 435 875 410 Z" },
       },
     },
     {
+      id: "voorzijde-enkel",
+      label: "Voorzijde enkel",
+      shortDescription: "Pijn of inklemmingsgevoel aan de voorzijde van de enkel, bijvoorbeeld bij buigen of belasten.",
+      relatedConditionIds: ["anterieur-enkel-impingement", "kraakbeenletsel-enkel", "corpus-liberum-enkel", "enkelartrose"],
+      views: {
+        top: { shape: "M300 1185 C430 1125 620 1135 730 1215 C710 1365 595 1440 455 1415 C330 1390 270 1295 300 1185 Z" },
+        medial: { shape: "M455 340 C610 285 780 330 875 445 C830 535 635 560 470 500 C420 445 420 385 455 340 Z" },
+        lateral: { shape: "M455 335 C620 280 800 330 900 450 C850 545 645 565 470 500 C420 445 420 385 455 335 Z" },
+      },
+    },
+    {
+      id: "achterzijde-enkel",
+      label: "Achterzijde enkel",
+      shortDescription: "Pijn achter in de enkel, soms bij afzetten, sporten of diepe buiging.",
+      relatedConditionIds: ["posterieur-enkel-impingement", "os-trigonum", "achillespeesklachten"],
+      views: {
+        heel: { shape: "M705 545 C780 495 905 495 965 550 C985 650 935 730 835 750 C735 740 685 650 705 545 Z" },
+        medial: { shape: "M125 520 C250 455 445 480 560 585 C485 690 265 700 120 620 C90 585 95 550 125 520 Z" },
+        lateral: { shape: "M110 520 C245 455 455 480 575 585 C495 695 260 705 110 620 C80 585 85 550 110 520 Z" },
+      },
+    },
+    {
       id: "hiel-achterzijde",
       label: "Hiel achterzijde",
       shortDescription: "Pijn achter op de hiel of bij de aanhechting van de achillespees.",
-      relatedConditionIds: ["achillespeesklachten", "hielpijn", "os-trigonum"],
+      relatedConditionIds: ["achillespeesklachten", "posterieur-enkel-impingement", "haglund-retrocalcaneaire-klachten", "hielpijn", "os-trigonum"],
       views: {
         heel: { shape: "M650 710 C670 620 990 610 1035 720 C1030 850 945 910 835 900 C720 895 635 835 650 710 Z" },
         medial: { shape: "M120 650 C260 575 470 590 590 700 C485 790 260 815 125 755 C95 715 95 675 120 650 Z" },
@@ -407,29 +427,37 @@
       id: "achillespees",
       label: "Achillespees",
       shortDescription: "Pijn in de achillespees of bij belasting achter de enkel.",
-      relatedConditionIds: ["achillespeesklachten", "os-trigonum"],
+      relatedConditionIds: ["achillespeesklachten", "posterieur-enkel-impingement", "haglund-retrocalcaneaire-klachten", "os-trigonum"],
       views: {
         heel: { shape: "M675 0 C770 0 925 0 1010 0 C980 210 990 430 960 620 C910 690 760 690 705 620 C675 430 700 210 675 0 Z" },
-        medial: { shape: "M245 0 C330 0 520 0 610 20 C575 205 570 360 610 500 C515 550 360 545 270 495 C300 340 285 175 245 0 Z" },
-        lateral: { shape: "M235 0 C320 0 520 0 610 20 C570 200 570 360 610 500 C510 550 350 545 260 495 C290 340 275 175 235 0 Z" },
+        medial: { shape: "M245 0 C320 0 475 0 560 20 C525 205 525 360 555 485 C470 535 340 525 270 480 C300 330 285 170 245 0 Z" },
+        lateral: { shape: "M235 0 C315 0 475 0 560 20 C525 200 525 360 555 485 C465 535 330 525 260 480 C290 330 275 170 235 0 Z" },
       },
     },
     {
       id: "onduidelijke-meerdere-plekken",
       label: "Onduidelijke of meerdere plekken",
       shortDescription: "Klachten die niet duidelijk op één plek zitten of op meerdere plekken spelen.",
-      relatedConditionIds: ["artrose-na-breuk", "revisie-artrodese", "platvoet-volwassen", "holvoet-cavovarus"],
+      relatedConditionIds: ["algemene-voet-enkelinformatie", "corpus-liberum-enkel"],
       views: {
         top: { shape: "M270 470 C420 350 705 380 790 640 C785 990 655 1250 485 1240 C315 1230 240 930 270 470 Z" },
         sole: { shape: "M250 360 C405 180 750 250 820 580 C780 1050 680 1485 515 1480 C335 1470 220 1030 250 360 Z" },
         medial: { shape: "M360 360 C620 240 1280 430 1510 650 C1260 820 520 835 180 720 C95 540 160 410 360 360 Z" },
         lateral: { shape: "M350 360 C630 240 1290 430 1510 650 C1260 820 520 835 180 720 C95 540 150 410 350 360 Z" },
-        heel: { shape: "M540 410 C630 345 760 365 810 455 C765 565 620 585 530 505 C500 470 505 435 540 410 Z" },
+        heel: { shape: "M610 50 C750 15 925 15 1050 55 C1045 235 1080 430 1160 550 C1135 735 1040 880 865 908 C700 920 585 785 555 600 C625 445 620 235 610 50 Z" },
       },
     },
   ];
 
   const footPainConditions = [
+    {
+      id: "algemene-voet-enkelinformatie",
+      title: "Algemene voet- en enkelinformatie",
+      excerpt: "Bij klachten op meerdere plekken is een visuele gids vaak te beperkt. Algemene informatie kan helpen om onderwerpen te herkennen, maar persoonlijke beoordeling loopt via de officiële zorgkanalen.",
+      url: "behandelingen.html",
+      painRegionIds: ["onduidelijke-meerdere-plekken"],
+      tags: ["Algemeen", "Voet en enkel"],
+    },
     {
       id: "hallux-valgus",
       title: "Hallux valgus",
@@ -447,6 +475,14 @@
       tags: ["Voorvoet", "Artrose"],
     },
     {
+      id: "jicht-podagra",
+      title: "Jicht / podagra",
+      excerpt: "Aanvallen van pijn, roodheid en zwelling rond de grote teen kunnen onder meer bij jicht passen. Dit vraagt beoordeling in de juiste context.",
+      url: "behandelingen.html?topic=voorvoet",
+      painRegionIds: ["grote-teen-mtp1"],
+      tags: ["Grote teen", "Ontsteking"],
+    },
+    {
       id: "hamerteen-klauwteen",
       title: "Hamerteen en klauwteen",
       excerpt: "Teenstandafwijkingen kunnen drukplekken, eelt of schoenproblemen geven. De aanpak is afhankelijk van soepelheid, huid en belasting.",
@@ -455,20 +491,44 @@
       tags: ["Tenen", "Drukklachten"],
     },
     {
-      id: "metatarsalgie-morton",
-      title: "Metatarsalgie en Morton neuroom",
-      excerpt: "Pijn onder de bal van de voet of zenuwirritatie tussen de middenvoetsbeentjes vraagt analyse van druk, stand en belasting.",
+      id: "metatarsalgie",
+      title: "Metatarsalgie",
+      excerpt: "Pijn onder de bal van de voet kan samenhangen met drukverdeling, stand, schoenen of belasting. De oorzaak verschilt per persoon.",
       url: "behandelingen.html?topic=voorvoet",
       painRegionIds: ["voorvoet-onderzijde", "voorvoet-bovenzijde"],
-      tags: ["Voorvoet", "Zenuwirritatie"],
+      tags: ["Voorvoet", "Drukklachten"],
+    },
+    {
+      id: "morton-neuroom",
+      title: "Morton neuroom",
+      excerpt: "Een Morton neuroom kan pijn, tintelingen of uitstralende klachten richting tenen geven. Dit blijft een mogelijk leesonderwerp, geen diagnose.",
+      url: "behandelingen.html?topic=voorvoet",
+      painRegionIds: ["voorvoet-onderzijde", "kleine-tenen"],
+      tags: ["Voorvoet", "Tenen"],
+    },
+    {
+      id: "mtp-plantaire-plaatklachten",
+      title: "MTP- en plantaire plaatklachten",
+      excerpt: "Pijn rond de basis van de tenen kan passen bij irritatie of instabiliteit rond het MTP-gewricht, maar vraagt altijd context.",
+      url: "behandelingen.html?topic=voorvoet",
+      painRegionIds: ["kleine-tenen", "voorvoet-onderzijde", "voorvoet-bovenzijde"],
+      tags: ["Voorvoet", "Tenen"],
     },
     {
       id: "tailors-bunion",
       title: "Tailor's bunion",
-      excerpt: "Een pijnlijke knobbel aan de buitenzijde van de voorvoet kan passen bij druk rond het vijfde middenvoetsbeentje.",
+      excerpt: "Pijn of druk aan de buitenzijde van de voorvoet kan onder meer samenhangen met belasting rond het vijfde middenvoetsbeentje.",
       url: "behandelingen.html?topic=voorvoet",
       painRegionIds: ["kleine-tenen", "buitenzijde-voet"],
       tags: ["Voorvoet", "Buitenzijde"],
+    },
+    {
+      id: "sesamoidklachten",
+      title: "Sesamoidklachten",
+      excerpt: "Pijn onder het grote-teengewricht kan verschillende oorzaken hebben. Drukverdeling, afwikkeling en belasting zijn dan relevante aandachtspunten.",
+      url: "behandelingen.html?topic=voorvoet",
+      painRegionIds: ["grote-teen-mtp1", "voorvoet-onderzijde"],
+      tags: ["Voorvoet", "Grote teen"],
     },
     {
       id: "voorvoetcorrectie",
@@ -495,19 +555,51 @@
       tags: ["Enkel", "Instabiliteit"],
     },
     {
-      id: "enkel-impingement",
-      title: "Impingement van de enkel",
-      excerpt: "Inklemmingsklachten kunnen aan de voor-, buiten- of achterzijde van de enkel spelen en vragen gericht onderzoek.",
+      id: "anterieur-enkel-impingement",
+      title: "Anterieur enkelimpingement",
+      excerpt: "Pijn of inklemmingsgevoel aan de voorzijde van de enkel kan meerdere oorzaken hebben. Beweging, belasting en voorgeschiedenis geven richting.",
       url: "behandelingen.html?topic=enkel",
-      painRegionIds: ["buitenzijde-enkel", "binnenzijde-enkel"],
+      painRegionIds: ["voorzijde-enkel", "buitenzijde-enkel"],
       tags: ["Enkel", "Inklemming"],
+    },
+    {
+      id: "posterieur-enkel-impingement",
+      title: "Posterieur enkelimpingement",
+      excerpt: "Pijn achter in de enkel bij sport of diepe buiging kan passen bij achterste inklemmingsklachten, maar deze gids stelt geen diagnose.",
+      url: "behandelingen.html?topic=enkel",
+      painRegionIds: ["achterzijde-enkel", "hiel-achterzijde", "achillespees"],
+      tags: ["Enkel", "Achterzijde"],
+    },
+    {
+      id: "ganglion-enkel",
+      title: "Ganglion rond de enkel",
+      excerpt: "Een lokale zwelling rond de enkel kan soms passen bij een ganglion. De betekenis hangt af van plek, drukklachten en omliggende structuren.",
+      url: "behandelingen.html?topic=enkel",
+      painRegionIds: ["binnenzijde-enkel", "buitenzijde-enkel"],
+      tags: ["Enkel", "Zwelling"],
+    },
+    {
+      id: "peroneuspeesklachten",
+      title: "Peroneuspeesklachten",
+      excerpt: "Klachten aan de buitenzijde van voet of enkel kunnen soms met pezen rond de buitenenkel samenhangen. De context van belasting en enkelstand blijft belangrijk.",
+      url: "behandelingen.html?topic=enkel",
+      painRegionIds: ["buitenzijde-enkel", "buitenzijde-voet"],
+      tags: ["Enkel", "Pezen"],
+    },
+    {
+      id: "sinus-tarsi-klachten",
+      title: "Sinus tarsi-klachten",
+      excerpt: "Pijn aan de buitenzijde van de achtervoet kan meerdere verklaringen hebben. Eerder verzwikken, voetstand en belastbaarheid kunnen meewegen.",
+      url: "behandelingen.html?topic=achtervoet",
+      painRegionIds: ["buitenzijde-enkel", "buitenzijde-voet"],
+      tags: ["Achtervoet", "Buitenzijde"],
     },
     {
       id: "os-trigonum",
       title: "Os trigonum",
-      excerpt: "Pijn achter in de enkel kan bij sport of diepe buiging passen bij achterste enkelinklemming, maar dit moet worden beoordeeld.",
+      excerpt: "Pijn achter in de enkel kan bij sport of diepe buiging passen bij achterste enkelinklemming, maar dit vraagt beoordeling in de juiste context.",
       url: "behandelingen.html?topic=enkel",
-      painRegionIds: ["hiel-achterzijde", "achillespees"],
+      painRegionIds: ["achterzijde-enkel", "hiel-achterzijde", "achillespees"],
       tags: ["Enkel", "Achterzijde"],
     },
     {
@@ -515,7 +607,7 @@
       title: "Artrose van de enkel",
       excerpt: "Artrose van de enkel kan pijn en stijfheid geven. Behandeling hangt af van ernst, stand, functie en eerdere behandeling.",
       url: "behandelingen.html?topic=enkel",
-      painRegionIds: ["binnenzijde-enkel", "buitenzijde-enkel"],
+      painRegionIds: ["voorzijde-enkel", "binnenzijde-enkel", "buitenzijde-enkel"],
       tags: ["Enkel", "Artrose"],
     },
     {
@@ -523,8 +615,16 @@
       title: "Kraakbeenletsel van de enkel",
       excerpt: "Kraakbeen-botletsel kan pijn, zwelling of blokkeren geven. De betekenis verschilt per grootte, plek en belasting.",
       url: "behandelingen.html?topic=enkel",
-      painRegionIds: ["buitenzijde-enkel", "binnenzijde-enkel"],
+      painRegionIds: ["voorzijde-enkel", "buitenzijde-enkel", "binnenzijde-enkel"],
       tags: ["Enkel", "Kraakbeen"],
+    },
+    {
+      id: "corpus-liberum-enkel",
+      title: "Corpus liberum in de enkel",
+      excerpt: "Een los fragment in het enkelgewricht kan soms mechanische klachten geven, zoals blokkeren of een slotgevoel. Dit vraagt beoordeling met onderzoek en zo nodig beeldvorming.",
+      url: "behandelingen.html?topic=enkel",
+      painRegionIds: ["voorzijde-enkel", "binnenzijde-enkel", "buitenzijde-enkel", "onduidelijke-meerdere-plekken"],
+      tags: ["Enkel", "Mechanische klachten"],
     },
     {
       id: "platvoet-volwassen",
@@ -533,6 +633,14 @@
       url: "behandelingen.html?topic=achtervoet",
       painRegionIds: ["binnenzijde-voetboog", "binnenzijde-enkel", "middenvoet-onderzijde", "hiel-onderzijde"],
       tags: ["Achtervoet", "Voetstand"],
+    },
+    {
+      id: "tibialis-posterior-peesklachten",
+      title: "Tibialis posterior-peesklachten",
+      excerpt: "Pijn aan de binnenzijde van voet of enkel kan soms met de binnenste peesstructuren en voetstand samenhangen. Dit vraagt zorgvuldige beoordeling.",
+      url: "behandelingen.html?topic=achtervoet",
+      painRegionIds: ["binnenzijde-voetboog", "binnenzijde-enkel"],
+      tags: ["Achtervoet", "Pezen"],
     },
     {
       id: "holvoet-cavovarus",
@@ -547,7 +655,7 @@
       title: "Achillespeesklachten",
       excerpt: "Pijn in of rond de achillespees kan verschillende oorzaken hebben. Belasting, locatie en duur van klachten sturen de beoordeling.",
       url: "behandelingen.html?topic=sport",
-      painRegionIds: ["achillespees", "hiel-achterzijde"],
+      painRegionIds: ["achterzijde-enkel", "achillespees", "hiel-achterzijde"],
       tags: ["Achillespees", "Sport"],
     },
     {
@@ -559,20 +667,97 @@
       tags: ["Hiel", "Achtervoet"],
     },
     {
+      id: "peesplaatklachten-hielspoor",
+      title: "Peesplaatklachten en hielspoor",
+      excerpt: "Pijn onder de hiel wordt vaak in verband gebracht met de peesplaat onder de voet. Een hielspoor op een foto verklaart klachten niet altijd.",
+      url: "behandelingen.html?topic=achtervoet",
+      painRegionIds: ["hiel-onderzijde", "middenvoet-onderzijde", "binnenzijde-voetboog"],
+      tags: ["Hiel", "Peesplaat"],
+    },
+    {
+      id: "vetkussen-hielklachten",
+      title: "Vetkussen onder de hiel",
+      excerpt: "Pijn direct onder de hiel kan ook met drukbelasting of het vetkussen onder de hiel samenhangen. De exacte plek en belasting zijn belangrijk.",
+      url: "behandelingen.html?topic=achtervoet",
+      painRegionIds: ["hiel-onderzijde"],
+      tags: ["Hiel", "Belasting"],
+    },
+    {
+      id: "haglund-retrocalcaneaire-klachten",
+      title: "Haglund- en slijmbeursklachten",
+      excerpt: "Pijn achter op de hiel kan verschillende oorzaken hebben, waaronder irritatie rond de achillespeesaanhechting of schoendruk.",
+      url: "behandelingen.html?topic=achtervoet",
+      painRegionIds: ["hiel-achterzijde", "achillespees"],
+      tags: ["Hiel", "Achterzijde"],
+    },
+    {
+      id: "tarsal-boss",
+      title: "Tarsal boss",
+      excerpt: "Een benige verdikking bovenop de middenvoet of wreef kan drukklachten geven, bijvoorbeeld in schoenen. De oorzaak en relevantie verschillen per situatie.",
+      url: "behandelingen.html?topic=achtervoet",
+      painRegionIds: ["wreef", "middenvoet-bovenzijde"],
+      tags: ["Middenvoet", "Wreef"],
+    },
+    {
+      id: "ganglion-middenvoet",
+      title: "Ganglion middenvoet",
+      excerpt: "Een lokale zwelling bovenop de middenvoet kan soms passen bij een ganglion. De gids kan niet onderscheiden welke structuur erbij betrokken is.",
+      url: "behandelingen.html?topic=achtervoet",
+      painRegionIds: ["wreef", "middenvoet-bovenzijde"],
+      tags: ["Middenvoet", "Zwelling"],
+    },
+    {
+      id: "stressreactie-stressfractuur",
+      title: "Stressreactie of stressfractuur",
+      excerpt: "Pijn in de middenvoet die bij belasting toeneemt kan meerdere verklaringen hebben. Bij verdenking op botstress kan beeldvorming soms helpen.",
+      url: "behandelingen.html?topic=achtervoet",
+      painRegionIds: ["middenvoet-bovenzijde", "middenvoet-onderzijde"],
+      tags: ["Middenvoet", "Belasting"],
+    },
+    {
+      id: "lisfranc-middenvoetletsel",
+      title: "Lisfranc- en middenvoetletsel",
+      excerpt: "Pijn rond de middenvoet na een verdraaiing of ongeval kan zorgvuldig onderzoek vragen. Deze gids kan dat niet onderscheiden.",
+      url: "behandelingen.html?topic=achtervoet",
+      painRegionIds: ["middenvoet-bovenzijde", "middenvoet-onderzijde"],
+      tags: ["Middenvoet", "Letsel"],
+    },
+    {
       id: "artrose-na-breuk",
       title: "Artrose na een breuk",
       excerpt: "Na eerder letsel kan later pijn of stijfheid ontstaan. Beoordeling vraagt aandacht voor stand, gewrichtsschade en voorgeschiedenis.",
       url: "behandelingen.html?topic=achtervoet",
-      painRegionIds: ["middenvoet-bovenzijde", "middenvoet-onderzijde", "binnenzijde-enkel", "buitenzijde-enkel", "buitenzijde-voet", "onduidelijke-meerdere-plekken"],
+      painRegionIds: ["middenvoet-bovenzijde", "wreef", "middenvoet-onderzijde", "binnenzijde-enkel", "buitenzijde-enkel", "buitenzijde-voet"],
       tags: ["Voet en enkel", "Eerder letsel"],
     },
     {
       id: "revisie-artrodese",
       title: "Revisie na artrodese",
-      excerpt: "Wanneer een vastzetoperatie niet vastgroeit, is beoordeling van botkwaliteit, stand en implantaten nodig.",
+      excerpt: "Bij aanhoudende klachten na een vastzetoperatie kan soms worden gekeken naar botgenezing, stand en implantaten.",
       url: "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html",
-      painRegionIds: ["middenvoet-bovenzijde", "onduidelijke-meerdere-plekken"],
+      painRegionIds: ["middenvoet-bovenzijde"],
       tags: ["Voet en enkel", "Complexe zorg"],
+    },
+  ];
+
+  const footPainReviewExclusions = [
+    {
+      id: "niet-tonen-nagelproblemen",
+      label: "Nagelproblemen",
+      reason: "Bewust buiten deze orthopedische MVP; kan later naar aparte algemene uitleg of niet opnemen.",
+      painRegionIds: ["grote-teen-mtp1", "kleine-tenen"],
+    },
+    {
+      id: "niet-tonen-tarsaal-tunnel",
+      label: "Tarsaal tunnelsyndroom",
+      reason: "Voor nu bewust niet als kaart opnemen; neurologische differentiaaldiagnose kan de gids te breed maken.",
+      painRegionIds: ["binnenzijde-enkel", "binnenzijde-voetboog"],
+    },
+    {
+      id: "niet-tonen-voorste-enkelpees-slijmbeurs",
+      label: "Pees- of slijmbeursklachten voorzijde enkel",
+      reason: "Voor nu bewust niet als aparte kaart; voorzijde enkel blijft gekoppeld aan impingement, kraakbeen, corpus liberum en artrose.",
+      painRegionIds: ["voorzijde-enkel"],
     },
   ];
 
@@ -709,8 +894,42 @@
     },
   };
 
+  const regionViews = (region) => Object.keys(region.views || {}).filter((view) => footPainViews[view]);
+  const regionHasView = (region, view) => Boolean(region?.views?.[view]?.shape);
+  const shapeForView = (region, view) => region?.views?.[view]?.shape || "";
+  const primaryViewForRegion = (region) => regionViews(region)[0] || "top";
+  const viewLabelList = (views) => views.map((view) => footPainViewLabels[view]).filter(Boolean).join(", ");
+
+  // Lower priority renders earlier/behind; higher priority stays easier to reach on overlap.
+  const footPainRegionPriority = {
+    "onduidelijke-meerdere-plekken": 0,
+    "middenvoet-bovenzijde": 10,
+    "middenvoet-onderzijde": 10,
+    "voorvoet-bovenzijde": 20,
+    "voorvoet-onderzijde": 20,
+    wreef: 25,
+    "binnenzijde-voetboog": 30,
+    "buitenzijde-voet": 30,
+    "hiel-onderzijde": 35,
+    "hiel-achterzijde": 38,
+    "grote-teen-mtp1": 45,
+    "kleine-tenen": 45,
+    achillespees: 50,
+    "binnenzijde-enkel": 55,
+    "buitenzijde-enkel": 55,
+    "voorzijde-enkel": 60,
+    "achterzijde-enkel": 60,
+  };
+
+  const regionPriority = (region) => footPainRegionPriority[region.id] ?? 25;
+  const compareRegionsForView = (a, b) => {
+    const priorityDifference = regionPriority(a) - regionPriority(b);
+    if (priorityDifference) return priorityDifference;
+    return painRegions.indexOf(a) - painRegions.indexOf(b);
+  };
+
   const conditionCard = (condition) => `
-    <article class="article-card foot-guide-card">
+    <article class="article-card foot-guide-card" data-foot-card-regions="${condition.painRegionIds.join(" ")}">
       <div class="article-card-body">
         <p class="article-label">${escapeHtml(condition.tags[0] || "Voet en enkel")}</p>
         <h3>${escapeHtml(condition.title)}</h3>
@@ -723,15 +942,33 @@
     </article>
   `;
 
+  const mappingConditionLink = (condition) => `
+    <a href="${resolvePath(condition.url)}">${escapeHtml(condition.title)}</a>
+  `;
+
+  const mappingExcludedTopic = (topic) => `
+    <span class="foot-guide-review-exclusion">
+      <strong>${escapeHtml(topic.label)}</strong>
+      <span>${escapeHtml(topic.reason)}</span>
+    </span>
+  `;
+
   const renderFootPainGuide = () => {
     document.querySelectorAll("[data-foot-pain-guide]").forEach((container) => {
       const regionById = new Map(painRegions.map((region) => [region.id, region]));
       const conditionById = new Map(footPainConditions.map((condition) => [condition.id, condition]));
+      const debugRegions = new URLSearchParams(window.location.search).get("debugRegions") === "1";
       let activeView = container.getAttribute("data-initial-view") || "top";
       let selectedRegionId = "";
+      let hoveredRegionIds = new Set();
+
+      const conditionsForRegion = (region) =>
+        region.relatedConditionIds.map((id) => conditionById.get(id)).filter(Boolean);
+      const excludedTopicsForRegion = (region) =>
+        footPainReviewExclusions.filter((topic) => topic.painRegionIds.includes(region.id));
 
       container.innerHTML = `
-        <div class="foot-guide-shell">
+        <div class="foot-guide-shell${debugRegions ? " is-debugging-regions" : ""}">
           <div class="foot-guide-toolbar" aria-label="Weergave voetillustratie">
             <div class="filter-bar">
               ${footPainViewOrder
@@ -747,9 +984,13 @@
             <div class="foot-guide-visual-column">
               <div class="foot-guide-canvas" data-foot-canvas>
                 <div class="foot-guide-base" data-foot-base></div>
-                <svg class="foot-guide-overlay" aria-label="Kies de plek van de voet- of enkelpijn" data-foot-overlay></svg>
+                <svg class="foot-guide-overlay" aria-label="Kies ongeveer waar de voet- of enkelpijn zit" data-foot-overlay></svg>
               </div>
               <p class="foot-guide-note">Kies een plek in de tekening. Dit geeft alleen algemene richting en is geen diagnose.</p>
+              <p class="foot-guide-safety-note">Bij acute ernstige klachten, forse zwelling, wond, koorts of spoed: gebruik de officiële zorgkanalen.</p>
+              <p class="foot-guide-view-status" data-foot-view-status hidden></p>
+              ${debugRegions ? '<p class="foot-guide-debug-note">Debugmodus actief: outlines, regio-id’s en consolemeldingen helpen bij calibratie.</p>' : ""}
+              <div class="foot-guide-view-previews" data-foot-view-previews hidden></div>
             </div>
             <div class="foot-guide-results" aria-live="polite" data-foot-results></div>
           </div>
@@ -762,13 +1003,57 @@
                 ${painRegions
                   .map(
                     (region) =>
-                      `<option value="${region.id}">${escapeHtml(footPainViewLabels[region.view])}: ${escapeHtml(region.label)}</option>`
+                      `<option value="${region.id}">${escapeHtml(region.label)} (${escapeHtml(viewLabelList(regionViews(region)))})</option>`
                   )
                   .join("")}
               </select>
             </div>
             <div class="foot-guide-region-list" data-foot-region-list></div>
           </div>
+          <details class="foot-guide-review-map">
+            <summary>Medische mapping voor review</summary>
+            <div class="foot-guide-review-map-inner">
+              <p>Conceptkoppelingen per pijnzone. Alles in deze tabel betekent: tonen als mogelijk leesonderwerp, niet als diagnose.</p>
+              <div class="foot-guide-review-table-wrap">
+                <table class="foot-guide-review-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Pijnzone</th>
+                      <th scope="col">Aanzichten</th>
+                      <th scope="col">Wel tonen</th>
+                      <th scope="col">Niet tonen in MVP</th>
+                      <th scope="col">Reviewstatus</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${painRegions
+                      .map((region) => {
+                        const conditions = conditionsForRegion(region);
+                        const exclusions = excludedTopicsForRegion(region);
+                        return `
+                          <tr>
+                            <th scope="row">${escapeHtml(region.label)}</th>
+                            <td>${escapeHtml(viewLabelList(regionViews(region)))}</td>
+                            <td>${
+                              conditions.length
+                                ? conditions.map((condition) => mappingConditionLink(condition)).join(", ")
+                                : "Nog geen gekoppelde onderwerpen"
+                            }</td>
+                            <td>${
+                              exclusions.length
+                                ? exclusions.map((topic) => mappingExcludedTopic(topic)).join("")
+                                : '<span class="foot-guide-review-muted">Geen bewuste uitsluitingen vastgelegd</span>'
+                            }</td>
+                            <td><span class="foot-guide-review-status">Medische review nodig</span></td>
+                          </tr>
+                        `;
+                      })
+                      .join("")}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </details>
         </div>
       `;
 
@@ -777,17 +1062,170 @@
       const results = container.querySelector("[data-foot-results]");
       const select = container.querySelector("[data-foot-select]");
       const regionList = container.querySelector("[data-foot-region-list]");
+      const viewPreviews = container.querySelector("[data-foot-view-previews]");
+      const viewStatus = container.querySelector("[data-foot-view-status]");
       const viewButtons = Array.from(container.querySelectorAll("[data-foot-view]"));
 
-      const conditionsForRegion = (region) =>
-        region.relatedConditionIds.map((id) => conditionById.get(id)).filter(Boolean);
+      const restoreFocus = (target) => {
+        if (!target) return;
+        window.setTimeout(() => {
+          let element = null;
+          if (target.type === "view") {
+            element = container.querySelector(`[data-foot-view="${target.id}"]`);
+          } else if (target.type === "region") {
+            element =
+              container.querySelector(`[data-foot-region="${target.id}"]`) ||
+              container.querySelector(`[data-foot-region-option="${target.id}"]`);
+          } else if (target.type === "region-option") {
+            element = container.querySelector(`[data-foot-region-option="${target.id}"]`);
+          } else if (target.type === "select") {
+            element = select;
+          } else if (target.type === "reset") {
+            element = container.querySelector("[data-foot-reset]");
+          }
+          element?.focus({ preventScroll: true });
+        }, 0);
+      };
+
+      const activeRegionIds = () => {
+        const ids = new Set(hoveredRegionIds);
+        if (selectedRegionId) ids.add(selectedRegionId);
+        return ids;
+      };
+
+      const syncHighlights = () => {
+        const activeIds = activeRegionIds();
+        container.querySelectorAll("[data-foot-region]").forEach((path) => {
+          const id = path.getAttribute("data-foot-region") || "";
+          const isSelected = id === selectedRegionId;
+          const isHovered = hoveredRegionIds.has(id);
+          path.classList.toggle("is-selected", isSelected);
+          path.classList.toggle("is-highlighted", isHovered && !isSelected);
+          path.setAttribute("aria-pressed", String(isSelected));
+        });
+        container.querySelectorAll("[data-foot-region-option]").forEach((button) => {
+          const id = button.getAttribute("data-foot-region-option") || "";
+          const isSelected = id === selectedRegionId;
+          const isHovered = hoveredRegionIds.has(id);
+          button.classList.toggle("is-active", isSelected);
+          button.classList.toggle("is-highlighted", isHovered && !isSelected);
+          button.setAttribute("aria-pressed", String(isSelected));
+        });
+        container.querySelectorAll("[data-foot-card-regions]").forEach((card) => {
+          const ids = (card.getAttribute("data-foot-card-regions") || "").split(/\s+/).filter(Boolean);
+          const isRelated = ids.some((id) => activeIds.has(id));
+          card.classList.toggle("is-region-related", isRelated);
+        });
+        viewButtons.forEach((button) => {
+          const view = button.getAttribute("data-foot-view") || "";
+          const matchingIds = Array.from(activeIds).filter((id) => regionHasView(regionById.get(id), view));
+          const label = footPainViewLabels[view] || view;
+          button.classList.toggle("has-related-region", matchingIds.length > 0);
+          button.setAttribute("data-related-region-count", String(matchingIds.length));
+          button.setAttribute(
+            "aria-label",
+            matchingIds.length ? `${label}, geselecteerde regio zichtbaar` : label
+          );
+        });
+        if (viewStatus) {
+          const selectedRegion = selectedRegionId ? regionById.get(selectedRegionId) : null;
+          if (!selectedRegion) {
+            viewStatus.hidden = true;
+            viewStatus.textContent = "";
+          } else if (regionHasView(selectedRegion, activeView)) {
+            const otherViews = regionViews(selectedRegion).filter((view) => view !== activeView);
+            viewStatus.hidden = otherViews.length === 0;
+            viewStatus.textContent = otherViews.length
+              ? `Ook zichtbaar in: ${viewLabelList(otherViews)}.`
+              : "";
+          } else {
+            viewStatus.hidden = false;
+            viewStatus.textContent = "Deze regio is niet zichtbaar in dit aanzicht.";
+          }
+        }
+        renderViewPreviews(activeIds);
+      };
+
+      const renderViewPreviews = (activeIds) => {
+        if (!viewPreviews) return;
+        const ids = Array.from(activeIds).filter((id) => regionById.has(id));
+        if (!ids.length) {
+          viewPreviews.hidden = true;
+          viewPreviews.innerHTML = "";
+          return;
+        }
+        const previewViews = footPainViewOrder.filter((view) =>
+          ids.some((id) => regionHasView(regionById.get(id), view))
+        );
+        viewPreviews.hidden = previewViews.length <= 1;
+        viewPreviews.innerHTML = previewViews
+          .map((view) => {
+            const viewMeta = footPainViews[view];
+            const paths = ids
+              .map((id) => {
+                const region = regionById.get(id);
+                const shape = shapeForView(region, view);
+                if (!shape) return "";
+                return `<path d="${shape}"></path>`;
+              })
+              .join("");
+            return `
+              <button class="foot-guide-view-preview${view === activeView ? " is-active" : ""}" type="button" data-foot-preview-view="${view}" aria-label="Toon ${escapeHtml(footPainViewLabels[view])}">
+                <span>${escapeHtml(footPainViewLabels[view])}</span>
+                <span class="foot-guide-view-preview-frame" style="--foot-guide-preview-aspect: ${viewMeta.aspect}">
+                  <img src="${resolvePath(viewMeta.image)}" alt="" loading="lazy">
+                  <svg viewBox="${viewMeta.viewBox}" aria-hidden="true">${paths}</svg>
+                </span>
+              </button>
+            `;
+          })
+          .join("");
+        viewPreviews.querySelectorAll("[data-foot-preview-view]").forEach((button) => {
+          button.addEventListener("click", () => {
+            activeView = button.getAttribute("data-foot-preview-view") || activeView;
+            renderAll({ type: "view", id: activeView });
+          });
+        });
+      };
+
+      const setHoveredRegionIds = (ids) => {
+        hoveredRegionIds = new Set(ids.filter((id) => regionById.has(id)));
+        syncHighlights();
+      };
+
+      const bindRegionHover = (element, ids) => {
+        element.addEventListener("mouseenter", () => setHoveredRegionIds(ids));
+        element.addEventListener("mouseleave", () => setHoveredRegionIds([]));
+        element.addEventListener("focus", () => setHoveredRegionIds(ids));
+        element.addEventListener("blur", () => setHoveredRegionIds([]));
+        element.addEventListener("focusin", () => setHoveredRegionIds(ids));
+        element.addEventListener("focusout", () => setHoveredRegionIds([]));
+      };
+
+      const availabilityMarkup = (region) => {
+        const views = regionViews(region);
+        if (views.length <= 1) return "";
+        const currentMissing = !regionHasView(region, activeView);
+        const alternateViews = views.filter((view) => view !== activeView);
+        const buttons = alternateViews
+          .map(
+            (view) =>
+              `<button class="foot-guide-view-jump" type="button" data-foot-availability-view="${view}">${escapeHtml(footPainViewLabels[view])}</button>`
+          )
+          .join("");
+        return `<div class="foot-guide-view-availability${currentMissing ? " is-current-missing" : ""}">${
+          currentMissing ? "Deze regio is niet zichtbaar in dit aanzicht." : "Ook zichtbaar in:"
+        } <span>${buttons}</span></div>`;
+      };
 
       const renderResults = () => {
         if (!results) return;
         const selectedRegion = selectedRegionId ? regionById.get(selectedRegionId) : null;
         const defaultIds = [
           "hallux-rigidus",
-          "metatarsalgie-morton",
+          "metatarsalgie",
+          "morton-neuroom",
+          "peesplaatklachten-hielspoor",
           "enkelverzwikking",
           "hielpijn",
         ];
@@ -796,23 +1234,36 @@
           : defaultIds.map((id) => conditionById.get(id)).filter(Boolean);
 
         const heading = selectedRegion
-          ? `Mogelijke oorzaken van pijn bij: ${selectedRegion.label}`
-          : "Veelvoorkomende voet- en enkelonderwerpen";
+          ? `Algemene informatie bij pijn rond: ${selectedRegion.label}`
+          : "Voorbeelden van algemene voet- en enkelonderwerpen";
         const intro = selectedRegion
           ? selectedRegion.shortDescription
           : "Selecteer een plek in de voetillustratie om de kaarten te filteren. De informatie hieronder blijft algemeen.";
+        const selectedAvailability = selectedRegion ? availabilityMarkup(selectedRegion) : "";
 
         results.innerHTML = `
           <p class="section-kicker">Foot Pain Guide</p>
           <h2>${escapeHtml(heading)}</h2>
           <p>${escapeHtml(intro)}</p>
-          <p class="foot-guide-disclaimer">Deze informatie vervangt geen medisch consult. Bij persoonlijke medische vragen, afspraken of spoed blijven de officiële zorgkanalen leidend.</p>
+          ${selectedAvailability}
+          <p class="foot-guide-disclaimer">De getoonde onderwerpen zijn geen diagnose en sluiten andere oorzaken niet uit. Deze informatie vervangt geen medisch consult. Bij persoonlijke medische vragen, acute ernstige klachten of spoed blijven de officiële zorgkanalen leidend.</p>
           ${
             conditions.length
-              ? `<div class="article-grid foot-guide-card-grid">${conditions.map(conditionCard).join("")}</div>`
-              : `<p class="foot-guide-fallback">Deze plek is nog niet gekoppeld aan specifieke pagina's. <a href="${resolvePath("behandelingen.html?topic=voorvoet")}">Bekijk alle voet- en enkelklachten.</a></p>`
+              ? `<p class="foot-guide-card-context">Mogelijke leesonderwerpen, geen uitslag.</p><div class="article-grid foot-guide-card-grid">${conditions.map(conditionCard).join("")}</div>`
+              : `<p class="foot-guide-fallback">Deze plek is nog niet gekoppeld aan specifieke pagina's. <a href="${resolvePath("behandelingen.html")}">Bekijk algemene informatie over voet- en enkelklachten.</a></p>`
           }
         `;
+        results.querySelectorAll("[data-foot-card-regions]").forEach((card) => {
+          const ids = (card.getAttribute("data-foot-card-regions") || "").split(/\s+/).filter(Boolean);
+          bindRegionHover(card, ids);
+        });
+        results.querySelectorAll("[data-foot-availability-view]").forEach((button) => {
+          button.addEventListener("click", () => {
+            activeView = button.getAttribute("data-foot-availability-view") || activeView;
+            renderAll({ type: "view", id: activeView });
+          });
+        });
+        syncHighlights();
       };
 
       const syncControls = () => {
@@ -822,6 +1273,7 @@
           button.setAttribute("aria-pressed", String(isActive));
         });
         if (select) select.value = selectedRegionId;
+        syncHighlights();
       };
 
       const renderRegionList = () => {
@@ -829,18 +1281,21 @@
         regionList.innerHTML = painRegions
           .map(
             (region) =>
-              `<button class="filter-button${region.id === selectedRegionId ? " is-active" : ""}" type="button" data-foot-region-option="${region.id}" aria-pressed="${region.id === selectedRegionId}">
-                ${escapeHtml(region.label)}
+              `<button class="filter-button${region.id === selectedRegionId ? " is-active" : ""}" type="button" data-foot-region-option="${region.id}" data-foot-region-views="${regionViews(region).join(" ")}" aria-pressed="${region.id === selectedRegionId}">
+                <span>${escapeHtml(region.label)}</span>
+                <small>${escapeHtml(viewLabelList(regionViews(region)))}</small>
               </button>`
           )
           .join("");
         regionList.querySelectorAll("[data-foot-region-option]").forEach((button) => {
+          const id = button.getAttribute("data-foot-region-option") || "";
+          bindRegionHover(button, [id]);
           button.addEventListener("click", () => {
-            const region = regionById.get(button.getAttribute("data-foot-region-option") || "");
+            const region = regionById.get(id);
             if (!region) return;
             selectedRegionId = region.id;
-            activeView = region.view;
-            renderAll();
+            if (!regionHasView(region, activeView)) activeView = primaryViewForRegion(region);
+            renderAll({ type: "region-option", id });
           });
         });
       };
@@ -851,20 +1306,43 @@
         const canvas = container.querySelector("[data-foot-canvas]");
         canvas?.style.setProperty("--foot-guide-aspect", view.aspect);
         canvas?.style.setProperty("--foot-guide-max-width", view.maxWidth);
+        canvas?.setAttribute("data-foot-active-view", activeView);
         base.innerHTML = `<img src="${resolvePath(view.image)}" alt="${escapeHtml(view.alt)}" loading="lazy">`;
         overlay.setAttribute("viewBox", view.viewBox);
-        const visibleRegions = painRegions.filter((region) => region.view === activeView);
+        const activeIds = activeRegionIds();
+        const visibleRegions = painRegions
+          .filter((region) => regionHasView(region, activeView))
+          .sort((a, b) => {
+            const aActive = activeIds.has(a.id);
+            const bActive = activeIds.has(b.id);
+            if (aActive !== bActive) return aActive ? 1 : -1;
+            if (a.id === selectedRegionId && b.id !== selectedRegionId) return 1;
+            if (b.id === selectedRegionId && a.id !== selectedRegionId) return -1;
+            return compareRegionsForView(a, b);
+          });
         overlay.innerHTML = visibleRegions
           .map(
             (region) =>
-              `<path class="foot-guide-region${region.id === selectedRegionId ? " is-selected" : ""}" d="${region.shape}" role="button" tabindex="0" aria-label="Selecteer pijnregio: ${escapeHtml(region.label)}" aria-pressed="${region.id === selectedRegionId}" data-foot-region="${region.id}"></path>`
+              `<path class="foot-guide-region${region.id === selectedRegionId ? " is-selected" : ""}" d="${shapeForView(region, activeView)}" role="button" tabindex="0" aria-label="Selecteer pijnregio: ${escapeHtml(region.label)}" aria-pressed="${region.id === selectedRegionId}" data-foot-region="${region.id}" data-foot-view="${activeView}" data-foot-region-priority="${regionPriority(region)}"></path>${
+                debugRegions
+                  ? `<text class="foot-guide-region-label" x="16" y="${28 + visibleRegions.indexOf(region) * 24}">${escapeHtml(region.id)} · ${regionPriority(region)}</text>`
+                  : ""
+              }`
           )
           .join("");
         overlay.querySelectorAll("[data-foot-region]").forEach((path) => {
           const selectRegion = () => {
             selectedRegionId = path.getAttribute("data-foot-region") || "";
-            renderAll();
+            if (debugRegions) {
+              console.info("FootPainGuide region", {
+                regionId: selectedRegionId,
+                view: activeView,
+                priority: regionPriority(regionById.get(selectedRegionId)),
+              });
+            }
+            renderAll({ type: "region", id: selectedRegionId });
           };
+          bindRegionHover(path, [path.getAttribute("data-foot-region") || ""]);
           path.addEventListener("click", selectRegion);
           path.addEventListener("keydown", (event) => {
             if (event.key === "Enter" || event.key === " ") {
@@ -873,38 +1351,34 @@
             }
           });
         });
+        syncHighlights();
       };
 
-      const renderAll = () => {
-        if (selectedRegionId) {
-          const selectedRegion = regionById.get(selectedRegionId);
-          if (selectedRegion) activeView = selectedRegion.view;
-        }
+      const renderAll = (focusTarget) => {
         syncControls();
         renderCanvas();
         renderRegionList();
         renderResults();
+        restoreFocus(focusTarget);
       };
 
       viewButtons.forEach((button) => {
         button.addEventListener("click", () => {
           activeView = button.getAttribute("data-foot-view") || "top";
-          const selectedRegion = selectedRegionId ? regionById.get(selectedRegionId) : null;
-          if (selectedRegion && selectedRegion.view !== activeView) selectedRegionId = "";
-          renderAll();
+          renderAll({ type: "view", id: activeView });
         });
       });
 
       container.querySelector("[data-foot-reset]")?.addEventListener("click", () => {
         selectedRegionId = "";
-        renderAll();
+        renderAll({ type: "reset" });
       });
 
       select?.addEventListener("change", () => {
         selectedRegionId = select.value;
         const selectedRegion = selectedRegionId ? regionById.get(selectedRegionId) : null;
-        if (selectedRegion) activeView = selectedRegion.view;
-        renderAll();
+        if (selectedRegion && !regionHasView(selectedRegion, activeView)) activeView = primaryViewForRegion(selectedRegion);
+        renderAll({ type: "select" });
       });
 
       renderAll();

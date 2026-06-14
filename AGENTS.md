@@ -16,6 +16,7 @@ Bewaak steeds:
 - professionele pagina's die persoonlijk mogen zijn, maar niet losgezongen van vakgroep, regio en officiële zorgkanalen;
 - goede mobiele leesbaarheid, toegankelijkheid, interne links, metadata en consistente vormgeving;
 - goede vindbaarheid online door heldere paginatitels, beschrijvende koppen, logische interne links, metadata, structured data en inhoud die echte zoekvragen beantwoordt;
+- zoekintentie, gebruikersreis en contentplaatsing: voor wie is een pagina of artikel bedoeld, met welke vraag komt die bezoeker binnen, waar hoort het zichtbaar te zijn en welke vervolgstap is logisch en veilig;
 - behoud van de bestaande premium, medische, rustige visuele identiteit.
 
 Werk bij nieuwe onderdelen eerst vanuit doel, doelgroep en plek in de sitestructuur. Stel alleen
@@ -30,8 +31,10 @@ inhoudelijk en medisch eindverantwoordelijk.
 Bouw matthijsvandam.nl uit tot een moderne professionele website voor Matthijs van Dam:
 orthopedisch chirurg in Tilburg en zelfstandig adviseur zorgontwikkeling, met focus op voet/enkel/sportletsel,
 knieartrose met begripvolle aandacht voor leefstijl en obesitas, onderzoek, onderwijs en
-zorgontwikkeling. Laat verwijzingen naar kraakbeentransplantaties of Mobility Clinic Tilburg
-voorlopig achterwege totdat Matthijs expliciet vraagt om die weer toe te voegen.
+zorgontwikkeling. Mobility Clinic Tilburg en kraakbeentransplantaties horen bij zijn werk als
+knieorthopedisch chirurg en mogen inhoudelijk genoemd worden waar dat relevant is. Zet dit spoor
+niet prominent op de homepage of als hoofdnarratief van de site; houd het als gericht onderdeel
+binnen knie-, kraakbeen- en professionele context.
 
 ## Toon en inhoud
 

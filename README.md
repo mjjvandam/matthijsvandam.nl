@@ -17,6 +17,8 @@ Statische conceptsite voor de professionele website van Matthijs van Dam.
 - Vermijd koppen die te veel uitleggen waarom iets strategisch op de site past, zoals "Waarom dit past bij...".
 - Schrijf liever vanuit ervaring: wat gebeurde er, wat vond Matthijs belangrijk, wat neemt hij mee, welke nuance hoort erbij.
 - Vermijd AI-achtige afstandelijke zinnen zoals "dit sluit aan bij de bredere professionele ontwikkeling" wanneer een gewone persoonlijke formulering beter is.
+- Gebruik `REDACTIEKOMPAS.md` als vaste hoofdredactionele leidraad voor sitestructuur,
+  doelgroepen, aandoeningenpagina's, vindbaarheid en publicatiechecks.
 
 ## Beeldrichtlijn behandel-tegels
 
