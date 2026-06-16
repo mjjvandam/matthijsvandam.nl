@@ -376,6 +376,10 @@ def run_checks() -> list[tuple[str, str]]:
                 issues.append(("mapping_not_reciprocal_condition_to_region", f"{condition['id']} -> {region_id}"))
         if condition["url"] and not local_target_exists(condition["url"]):
             issues.append(("missing_condition_url", f"{condition['id']}: {condition['url']}"))
+        if condition["id"] != "algemene-voet-enkelinformatie":
+            expected_url = f"behandelingen/{condition['id']}.html"
+            if condition["url"] != expected_url:
+                issues.append(("condition_not_specific_landing_page", f"{condition['id']}: {condition['url']}"))
 
     duplicate_titles = [title for title, count in Counter(condition["title"] for condition in conditions).items() if title and count > 1]
     for title in duplicate_titles:
@@ -432,8 +436,8 @@ def run_checks() -> list[tuple[str, str]]:
         issues.append(("missing_mobile_breakpoint", "max-width: 520px"))
     if ".foot-guide-toolbar .filter-bar" not in styles or "flex-wrap: nowrap" not in styles:
         issues.append(("missing_mobile_filter_scroll_guard", "foot-guide-toolbar"))
-    if "20260614footguide15" not in concept:
-        issues.append(("concept_cache_token_not_updated", "20260614footguide15"))
+    if "20260614footguide16" not in concept:
+        issues.append(("concept_cache_token_not_updated", "20260614footguide16"))
 
     return issues
 

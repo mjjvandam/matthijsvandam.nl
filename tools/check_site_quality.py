@@ -10,7 +10,7 @@ from urllib.parse import urldefrag, urlparse
 
 
 ROOT = Path(__file__).resolve().parents[1]
-HTML_GLOBS = ("*.html", "artikelen/*.html", "projecten/*.html")
+HTML_GLOBS = ("*.html", "artikelen/*.html", "projecten/*.html", "behandelingen/*.html")
 
 
 class PageParser(HTMLParser):

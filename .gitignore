@@ -1,5 +1,7 @@
 # Lokale conceptpagina's die nog niet klaar zijn voor publicatie
-/behandelingen/
+/behandelingen/*
+!/behandelingen/
+!/behandelingen/*.html
 
 # Beelden die bij de conceptpagina's horen
 /assets/illustration-hallux-rigidus-anatomy.jpg
