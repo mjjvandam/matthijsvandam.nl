@@ -194,6 +194,109 @@ Levert op:
 - lijst met punten die bij twijfel door een echte jurist of functionaris gegevensbescherming moeten
   worden beoordeeld.
 
+### Patiëntenbegrip-redacteur
+
+Taak: kijkt of patiëntgerichte informatie begrijpelijk is voor iemand zonder medische voorkennis,
+zonder de specialistische kwaliteit of rustige toon te verliezen. Deze rol let vooral op jargon,
+lange zinnen, impliciete aannames en tekst die medisch klopt maar voor bezoekers te moeilijk kan zijn.
+
+Levert op:
+
+- lijst met woorden die eenvoudiger of kort uitgelegd moeten worden;
+- voorstel voor gewone-taaldefinities bij medische begrippen;
+- check of de belangrijkste boodschap binnen enkele seconden duidelijk is;
+- advies over volgorde, tussenkoppen en korte samenvattingen;
+- signalen waar tekst onbedoeld geruststellend, onduidelijk of te technisch wordt.
+
+### Medisch-ethische veiligheidsredacteur
+
+Taak: beoordeelt of patiëntinformatie medisch voorzichtig genoeg blijft. Deze rol kijkt verder dan
+juridische compliance en let vooral op te sterke geruststelling, verborgen triage, diagnosezekerheid,
+operatiedruk, behandelverwachtingen en onbedoelde vervanging van medisch contact.
+
+Levert op:
+
+- check op formuleringen die te stellig, te geruststellend of te sturend zijn;
+- advies over veilige zinnen bij alarmsignalen, twijfel en officiële zorgkanalen;
+- signaal wanneer een interactieve module te veel op een symptoomchecker of diagnosehulp gaat lijken;
+- lijst met medische veiligheidspunten die Matthijs inhoudelijk moet beoordelen;
+- voorstel voor nuance zonder de tekst angstig of afstandelijk te maken.
+
+### Interactie- en UX-redacteur
+
+Taak: beoordeelt interactieve onderdelen zoals de Voet- en enkelpijnwijzer, filters, kaarten,
+knoppen, mobiele weergave en keyboardgebruik. Deze rol bewaakt dat interactie primair werkt met
+tikken en klikken, niet alleen met hover, en dat de interface rustig blijft.
+
+Levert op:
+
+- advies over mobiele bediening, touch-doelen, focus-states en toetsenbordnavigatie;
+- controle of geselecteerde staten, resetknoppen en alternatieve lijsten duidelijk zijn;
+- voorstel voor visuele vereenvoudiging wanneer een module te druk wordt;
+- beoordeling of beeld, SVG-overlays en kaarten logisch samenwerken;
+- lijst met testscenario's voor 360, 390, 430, 768 en desktop.
+
+### Merk- en autoriteitsredacteur
+
+Taak: bewaakt hoe Matthijs van Dam zichtbaar wordt als betrouwbare specialistische bron, zonder
+zelfpromotie, commerciële toon of verwarring met officiële ziekenhuisroutes. De rol zoekt naar
+rustige autoriteit: deskundig, menselijk, herkenbaar en zorgvuldig.
+
+Levert op:
+
+- advies over persoonlijke positionering zonder borstklopperij;
+- check of auteur, expertise, regio en professionele context helder genoeg zijn;
+- voorstel voor subtiele merkdragers zoals terugkerende toon, rubrieken en auteursblokken;
+- signalen waar tekst te anoniem, te commercieel of te persoonsgericht wordt;
+- advies over samenhang tussen patiëntinformatie, professionele expertise en consultancy.
+
+### Relatie- en nieuwsbriefredacteur
+
+Taak: denkt na over terugkerende bezoekers, nieuwsbrief, updates en binding met de site, zonder
+patiëntportaal, medisch advies op maat of funnelachtige afspraakdruk. Deze rol bewaakt dat inschrijven
+vrijblijvend, privacybewust en inhoudelijk waardevol blijft.
+
+Levert op:
+
+- voorstel voor nieuwsbriefpositie, thema's en frequentie;
+- veilige inschrijf- en privacytekst;
+- ideeën voor reeksen rond voet/enkel, knie, bewegen, artrose, onderwijs en zorgontwikkeling;
+- check of call-to-actions informatief blijven en niet richting persoonlijk medisch advies sturen;
+- advies over wat wel en niet via e-mail of formulieren gevraagd mag worden.
+
+### AI-vindbaarheidsredacteur
+
+Taak: kijkt hoe pagina's gelezen kunnen worden door zoekmachines en AI-antwoordsystemen. Deze rol
+richt zich op heldere definities, duidelijke vraag-antwoordstructuur, consistente metadata en
+betrouwbare auteurssignalen, zonder aparte trucjes of kunstmatige SEO-tekst.
+
+Levert op:
+
+- advies over korte definities bovenaan pagina's;
+- controle of H1/H2's echte zoekvragen en patiëntvragen beantwoorden;
+- voorstel voor interne links die context voor zoekmachines en AI-systemen versterken;
+- check op snippets die los uit context medisch te stellig kunnen lijken;
+- advies over auteur, reviewdatum, `dateModified`, structured data en publicatiestatus.
+- check op bronverwijzingen: gebruik in gepubliceerde artikelen compacte bracketnummers zoals `[1]`
+  die naar een bronlijst onderaan springen; publieke bronnen krijgen een klikbare primaire of officiële
+  link, interne of niet-publieke bronnen worden zichtbaar als zodanig benoemd zonder schijnlink.
+
+### Redactionele kalenderredacteur
+
+Taak: kijkt vooruit welke onderwerpen, pagina's en artikelen logisch zijn voor de komende maanden.
+Deze rol bewaakt spreiding tussen patiëntinformatie, professionele inhoud en advies/consultancy,
+en voorkomt dat de site alleen vanuit losse ideeën groeit.
+
+Levert op:
+
+- kwartaalvoorstel voor nieuwe pagina's, artikelen of updates;
+- clustering rond seizoenen, sportblessures, voet/enkel, knie, artrose, leefstijl, onderwijs en
+  zorgontwikkeling;
+- advies welke onderwerpen landingspagina's verdienen en welke beter als artikel of interne update
+  passen;
+- lijst met herbruikbare rubrieken of series;
+- prioriteitenlijst op basis van relevantie, medische waarde, zoekintentie en onderhoudslast.
+
 ### Optionele factchecker
 
 Taak: vergelijkt medische publieksinformatie met betrouwbare bronnen zoals Thuisarts,
@@ -225,7 +328,8 @@ Matthijs hoeft niet elk uitvoerend detail te doen. De noodzakelijke akkoordmomen
    Past de tekst bij Matthijs, de vakgroep, de regio en de officiële zorgkanalen?
 
 6. **Publicatie-akkoord**  
-   Mag de pagina uit de offline conceptmap, in sitemap/interne links, en eventueel later live?
+   Mag de pagina uit conceptstatus, in sitemap/interne links, en eventueel later live? Bij akkoord
+   wordt de pagina ook in `PUBLICATIE_REGISTER.json` op `geverifieerd` gezet met datum en reviewer.
 
 Alles daarbuiten kan de hoofdredacteur voorbereiden: tekst, structuur, SEO, beeldvoorstel,
 technische verwerking, checks en samenvatting van open vragen.
@@ -329,7 +433,8 @@ Een pagina gaat pas uit de offline conceptmap wanneer:
 - beelden bestaan, rustig zijn, anatomisch betrouwbaar zijn en waar nodig watermerk/metadata hebben;
 - interne links en anchors werken;
 - mobiele weergave op 360, 390, 430, 768 en desktop gecontroleerd is;
-- de pagina bewust in navigatie, relevante kaarten en eventueel `sitemap.xml` is opgenomen.
+- de pagina bewust in navigatie, relevante kaarten en eventueel `sitemap.xml` is opgenomen;
+- `PUBLICATIE_REGISTER.json` de pagina bevat en Matthijs' publicatie-akkoord vastlegt.
 
 ## Toonregels
 

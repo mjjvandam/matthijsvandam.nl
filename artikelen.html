@@ -24,7 +24,7 @@
     <meta name="twitter:image" content="https://matthijsvandam.nl/assets/social-preview.png">
     <meta name="twitter:image:alt" content="drs. Matthijs van Dam, orthopedisch chirurg in Tilburg">
     <link rel="icon" href="assets/logo-mvd-mark-v2.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css?v=20260613privacy1">
+    <link rel="stylesheet" href="styles.css?v=20260619hub1">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -58,7 +58,7 @@
       </button>
       <nav class="site-nav legal-nav" aria-label="Pagina navigatie" data-nav>
         <a href="over-mij.html">Over</a>
-        <a href="behandelingen.html">Behandelingen</a>
+        <a href="behandelingen.html">Klachten en behandelingen</a>
         <a href="professionals.html">Professionals</a>
         <a href="advies-consultancy.html">Advies</a>
         <a href="artikelen.html">Artikelen</a>
@@ -68,9 +68,12 @@
     </header>
     <main class="listing-page" id="articles-content">
       <section class="listing-hero" aria-labelledby="articles-overview-title">
-        <p class="section-kicker">Overzicht</p>
         <h1 id="articles-overview-title">Artikelen en updates</h1>
         <div class="filter-panel" aria-label="Artikel filters">
+          <div class="filter-group" data-filter-group="audience">
+            <p>Voor wie</p>
+            <div class="filter-bar" data-filter-options="audience"></div>
+          </div>
           <div class="filter-group" data-filter-group="topic">
             <p>Categorie</p>
             <div class="filter-bar" data-filter-options="topic"></div>
@@ -79,6 +82,10 @@
       </section>
       <section class="section listing-section" aria-label="Artikeloverzicht">
         <div class="article-grid article-grid-listing" data-content="articles-list"></div>
+        <div class="article-compact-section" data-compact-articles-section hidden>
+          <h2>Eerdere artikelen</h2>
+          <ul class="article-compact-list" data-content="articles-compact-list"></ul>
+        </div>
         <p class="filter-empty" data-filter-empty hidden>
           Er staan nog geen artikelen bij deze combinatie. Zet een filter uit of kies een ander onderwerp.
         </p>
@@ -92,8 +99,8 @@
         <a href="disclaimer.html">Disclaimer</a>
       </span>
     </footer>
-    <script src="content.js?v=20260612book"></script>
-    <script src="script.js?v=20260612analytics1"></script>
+    <script src="content.js?v=20260619hub1"></script>
+    <script src="script.js?v=20260619hub1"></script>
     <script>
       (() => {
         const groups = Array.from(document.querySelectorAll('[data-filter-group]'));
@@ -101,12 +108,14 @@
         const empty = document.querySelector('[data-filter-empty]');
         const params = new URLSearchParams(window.location.search);
         const state = {
+          audience: params.get('audience') || '',
           topic: params.get('topic') || '',
         };
         const syncUrl = () => {
           const url = new URL(window.location.href);
-          url.searchParams.delete('audience');
           url.searchParams.delete('label');
+          if (!state.audience) url.searchParams.delete('audience');
+          else url.searchParams.set('audience', state.audience);
           if (!state.topic) url.searchParams.delete('topic');
           else url.searchParams.set('topic', state.topic);
           history.replaceState(null, '', url);
@@ -122,11 +131,16 @@
           });
           let visibleCount = 0;
           cards.forEach((card) => {
+            const audiences = (card.dataset.audience || '').split(/\s+/);
             const topics = (card.dataset.topics || '').split(/\s+/);
-            const audienceMatches = true;
+            const audienceMatches = !state.audience || audiences.includes(state.audience);
             const topicMatches = !state.topic || topics.includes(state.topic);
             card.hidden = !(audienceMatches && topicMatches);
             if (!card.hidden) visibleCount += 1;
+          });
+          document.querySelectorAll('[data-compact-articles-section]').forEach((section) => {
+            const visibleItems = Array.from(section.querySelectorAll('[data-audience][data-topics]')).some((item) => !item.hidden);
+            section.hidden = !visibleItems;
           });
           if (empty) empty.hidden = visibleCount !== 0;
         };

@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
 Disallow: /beeldbank/
+Disallow: /concept-foot-pain-guide.html
 
 Sitemap: https://matthijsvandam.nl/sitemap.xml

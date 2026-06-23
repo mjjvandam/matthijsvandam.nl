@@ -7,6 +7,24 @@ const contactStatus = document.querySelector("[data-contact-status]");
 const root = document.documentElement;
 const themeStorageKey = "mvd-theme";
 const analyticsHostnames = ["matthijsvandam.nl", "www.matthijsvandam.nl"];
+const readLocalStorage = (key) => {
+  try {
+    return window.localStorage?.getItem(key) || null;
+  } catch {
+    return null;
+  }
+};
+const writeLocalStorage = (key, value) => {
+  try {
+    window.localStorage?.setItem(key, value);
+  } catch {
+    // Storage can be unavailable in some privacy modes.
+  }
+};
+const safeCssIdentifier = (value) => {
+  if (window.CSS?.escape) return window.CSS.escape(value);
+  return String(value).replace(/["\\]/g, "\\$&");
+};
 const shouldLoadVercelAnalytics =
   analyticsHostnames.includes(window.location.hostname) || window.location.hostname.endsWith(".vercel.app");
 
@@ -18,7 +36,7 @@ if (shouldLoadVercelAnalytics) {
     };
 
   window.va("beforeSend", (event) => {
-    if (window.localStorage?.getItem("mvd-analytics-disable") === "true") {
+    if (readLocalStorage("mvd-analytics-disable") === "true") {
       return null;
     }
 
@@ -70,7 +88,7 @@ const currentTheme = () => root.getAttribute("data-theme") || preferredTheme();
 const setTheme = (theme, persist = true) => {
   root.setAttribute("data-theme", theme);
   if (persist) {
-    window.localStorage?.setItem(themeStorageKey, theme);
+    writeLocalStorage(themeStorageKey, theme);
   }
   const themeToggle = document.querySelector("[data-theme-toggle]");
   if (!themeToggle) return;
@@ -79,13 +97,13 @@ const setTheme = (theme, persist = true) => {
   themeToggle.setAttribute("aria-label", isDark ? "Lichte modus inschakelen" : "Donkere modus inschakelen");
 };
 
-const storedTheme = window.localStorage?.getItem(themeStorageKey);
+const storedTheme = readLocalStorage(themeStorageKey);
 if (storedTheme === "dark" || storedTheme === "light") {
   setTheme(storedTheme, false);
 }
 
 window.matchMedia?.("(prefers-color-scheme: dark)").addEventListener?.("change", () => {
-  const savedTheme = window.localStorage?.getItem(themeStorageKey);
+  const savedTheme = readLocalStorage(themeStorageKey);
   if (savedTheme !== "dark" && savedTheme !== "light") {
     setTheme(preferredTheme(), false);
   }
@@ -242,8 +260,151 @@ const expertiseImageFor = (card, label, title) => {
 };
 
 const canUseHoverCards =
+  !document.querySelector(".expertise-page") &&
   window.matchMedia?.("(hover: hover) and (pointer: fine)").matches &&
   window.matchMedia?.("(min-width: 841px)").matches;
+
+const normalizeSearchText = (value) =>
+  String(value || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/['’]/g, "")
+    .replace(/[^a-z0-9-]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+
+const searchStopWords = new Set([
+  "aan",
+  "achter",
+  "bij",
+  "binnenkant",
+  "boven",
+  "bovenkant",
+  "buitenkant",
+  "de",
+  "een",
+  "en",
+  "heb",
+  "het",
+  "ik",
+  "in",
+  "last",
+  "kant",
+  "me",
+  "met",
+  "mijn",
+  "mn",
+  "of",
+  "onder",
+  "onderkant",
+  "onderzijde",
+  "op",
+  "pijn",
+  "rond",
+  "te",
+  "van",
+  "voor",
+  "voet",
+  "waar",
+  "zijde",
+  "zit",
+]);
+
+const locationSearchAliases = [
+  {
+    triggers: ["onder mijn voet", "onder voet", "onderkant voet", "onderzijde voet", "voetzool", "zool"],
+    terms: [
+      "voorvoet onderzijde",
+      "pijn onder bal voet",
+      "metatarsalgie",
+      "mtp plantaire plaat",
+      "sesamoid",
+      "middenvoet onderzijde",
+      "voetboog",
+      "peesplaat",
+      "hielspoor",
+      "hielpijn",
+      "vetkussen",
+    ],
+  },
+  {
+    triggers: ["pijn in mijn voet", "pijn aan mijn voet", "pijn voet", "voetpijn"],
+    terms: ["voorvoet", "middenvoet", "achtervoet", "hielpijn", "hallux", "enkel", "stressreactie"],
+  },
+  {
+    triggers: ["bal van mijn voet", "bal voet", "voorvoet onder", "onder voorvoet"],
+    terms: ["metatarsalgie", "morton", "mtp plantaire plaat", "sesamoid", "voorvoet onderzijde"],
+  },
+  {
+    triggers: ["op mijn wreef", "op wreef", "pijn wreef", "wreef", "bovenop voet", "bovenkant voet"],
+    terms: ["wreef", "tarsal boss", "ganglion middenvoet", "middenvoet bovenzijde", "stressreactie", "lisfranc", "holvoet"],
+  },
+  {
+    triggers: ["binnenkant voet", "binnenzijde voet", "voetboog", "binnenboog", "boog voet"],
+    terms: ["voetboog", "tibialis posterior", "platvoet", "peesplaat", "middenvoet onderzijde"],
+  },
+  {
+    triggers: ["buitenkant voet", "buitenzijde voet", "buitenrand voet"],
+    terms: ["buitenzijde voet", "peroneus", "sinus tarsi", "holvoet", "tailor", "stressreactie"],
+  },
+  {
+    triggers: ["onder mijn hiel", "onder hiel", "onderkant hiel", "hiel onder", "hielpijn"],
+    terms: ["hielpijn", "peesplaat", "hielspoor", "vetkussen", "hiel onderzijde"],
+  },
+  {
+    triggers: ["achter mijn hiel", "achter hiel", "achterkant hiel", "achilles", "achillespees"],
+    terms: ["achillespees", "haglund", "retrocalcaneaire", "posterieur impingement", "os trigonum", "hiel achterzijde"],
+  },
+  {
+    triggers: ["binnenkant enkel", "binnenenkel", "binnenzijde enkel"],
+    terms: ["binnenzijde enkel", "tibialis posterior", "platvoet", "enkelartrose", "ganglion enkel"],
+  },
+  {
+    triggers: ["buitenkant enkel", "buitenenkel", "buitenzijde enkel"],
+    terms: ["buitenzijde enkel", "enkelverzwikking", "chronische enkelinstabiliteit", "peroneus", "sinus tarsi"],
+  },
+  {
+    triggers: ["voorkant enkel", "voorzijde enkel", "voor enkel"],
+    terms: ["voorzijde enkel", "anterieur impingement", "kraakbeen enkel", "corpus liberum enkel", "enkelartrose"],
+  },
+  {
+    triggers: ["achterkant enkel", "achterzijde enkel", "achter enkel"],
+    terms: ["achterzijde enkel", "posterieur impingement", "os trigonum", "achillespees", "haglund"],
+  },
+  {
+    triggers: ["grote teen", "grote teen gewricht", "grote-teengewricht"],
+    terms: ["grote teen", "hallux", "mtp1", "mtp-1", "jicht", "sesamoid"],
+  },
+  {
+    triggers: ["kleine teen", "kleine tenen", "tenen"],
+    terms: ["kleine tenen", "hamerteen", "klauwteen", "morton", "mtp plantaire plaat", "tailor"],
+  },
+];
+
+const expandedSearchTerms = (searchTerm) => {
+  const normalized = normalizeSearchText(searchTerm);
+  if (!normalized) return { terms: [], tokens: [] };
+
+  const terms = new Set([normalized]);
+  const tokens = normalized
+    .split(/\s+/)
+    .filter((word) => word.length >= 3 && !searchStopWords.has(word));
+  let hasLocationAlias = false;
+
+  locationSearchAliases.forEach(({ triggers, terms: aliasTerms }) => {
+    if (triggers.some((trigger) => normalized.includes(normalizeSearchText(trigger)))) {
+      hasLocationAlias = true;
+      aliasTerms.forEach((term) => terms.add(normalizeSearchText(term)));
+    }
+  });
+
+  if (!hasLocationAlias) {
+    tokens.forEach((token) => terms.add(token));
+  }
+
+  return { terms: [...terms].filter(Boolean), tokens: hasLocationAlias ? [] : tokens };
+};
 
 if (canUseHoverCards) {
   document.querySelectorAll(".expertise-card .article-card-body").forEach((body) => {
@@ -327,10 +488,10 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
   const summaryLink = panel.parentElement?.querySelector("[data-filter-summary-link]");
   const summaryNote = panel.parentElement?.querySelector("[data-filter-summary-note]");
   const summaryLabels = {
-    voorvoet: "voorvoetbehandelingen",
-    enkel: "enkelbehandelingen",
-    achtervoet: "achtervoetbehandelingen",
-    knie: "kniebehandelingen",
+    voorvoet: "voorvoetonderwerpen",
+    enkel: "enkelonderwerpen",
+    achtervoet: "achtervoetonderwerpen",
+    knie: "knieonderwerpen",
     sport: "sport voet/enkel-onderwerpen",
     leefstijl: "leefstijlonderwerpen",
   };
@@ -356,7 +517,7 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
     const groupName = group.getAttribute("data-filter-group");
     if (!groupName) return;
     const queryValue = new URLSearchParams(window.location.search).get(groupName);
-    const queryButton = queryValue ? group.querySelector(`[data-filter="${CSS.escape(queryValue)}"]`) : null;
+    const queryButton = queryValue ? group.querySelector(`[data-filter="${safeCssIdentifier(queryValue)}"]`) : null;
     const active = queryButton || group.querySelector(".filter-button.is-active");
     state[groupName] = active?.getAttribute("data-filter") || "alles";
     syncGroupButtons(group, state[groupName]);
@@ -368,15 +529,15 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
     const buttons = Array.from(group.querySelectorAll("[data-filter]"));
     return (
       buttons.find((button) => {
-        const value = (button.getAttribute("data-filter") || "").toLowerCase();
-        const label = (button.textContent || "").trim().toLowerCase();
+        const value = normalizeSearchText(button.getAttribute("data-filter") || "");
+        const label = normalizeSearchText(button.textContent || "");
         return searchTerm === value || searchTerm === label || words.includes(value);
       })?.getAttribute("data-filter") || ""
     );
   };
 
   const syncFiltersFromSearch = () => {
-    const searchTerm = state.search.trim().toLowerCase();
+    const searchTerm = normalizeSearchText(state.search);
     groups.forEach((group) => {
       const groupName = group.getAttribute("data-filter-group");
       if (!groupName) return;
@@ -393,7 +554,8 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
 
   const applyFilters = () => {
     let visibleCount = 0;
-    const searchTerm = state.search.trim().toLowerCase();
+    const searchTerm = normalizeSearchText(state.search);
+    const { terms: searchTerms, tokens: searchTokens } = expandedSearchTerms(searchTerm);
     cards.forEach((card) => {
       const searchableText = [
         card.getAttribute("data-topic") || "",
@@ -404,6 +566,7 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
       ]
         .join(" ")
         .toLowerCase();
+      const normalizedSearchableText = normalizeSearchText(searchableText);
       const topicMatches =
         searchTerm ||
         !state.topic ||
@@ -414,21 +577,28 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
         !state.type ||
         state.type === "alles" ||
         (card.getAttribute("data-type") || "").split(/\s+/).includes(state.type);
-      const searchMatches = !searchTerm || searchableText.includes(searchTerm);
+      const searchMatches =
+        !searchTerm ||
+        searchTerms.some((term) => normalizedSearchableText.includes(term)) ||
+        (searchTokens.length > 0 && searchTokens.every((token) => normalizedSearchableText.includes(token)));
       const withinLimit = !Number.isFinite(visibleLimit) || visibleCount < visibleLimit;
       card.hidden = !(topicMatches && typeMatches && searchMatches && withinLimit);
       if (!card.hidden) visibleCount += 1;
     });
-    if (empty) empty.hidden = visibleCount !== 0;
+      target.querySelectorAll(".expertise-topic-section").forEach((section) => {
+        const sectionHasVisibleCards = Array.from(section.querySelectorAll("[data-topic]")).some((card) => !card.hidden);
+        section.hidden = !sectionHasVisibleCards;
+      });
+      if (empty) empty.hidden = visibleCount !== 0;
     if (summaryLink) {
       const topic = state.topic || "alles";
       const baseHref = summaryLink.getAttribute("data-base-href") || summaryLink.getAttribute("href") || "";
-      const label = summaryLabels[topic] || "behandelingen";
+      const label = summaryLabels[topic] || "onderwerpen";
       const noteLabel = summaryTopicLabels[topic] || "onderwerpen";
       summaryLink.textContent = `Bekijk alle ${label}`;
       summaryLink.setAttribute("href", topic === "alles" ? baseHref : `${baseHref}?topic=${encodeURIComponent(topic)}`);
       if (summaryNote && Number.isFinite(visibleLimit)) {
-        summaryNote.textContent = `Hier staan maximaal ${visibleLimit} ${noteLabel}.`;
+        summaryNote.textContent = `Een selectie van ${visibleLimit} ${noteLabel}.`;
       }
       if (Number.isFinite(visibleLimit)) {
         summaryLink.setAttribute(

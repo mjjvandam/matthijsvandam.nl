@@ -543,8 +543,29 @@ const relatedConditions = (condition) =>
     .slice(0, 4)
     .map((item) => item.condition);
 
+const heroImageFor = (spec) => {
+  const category = `${spec.category || ""}`.toLowerCase();
+  if (category.includes("enkel")) {
+    return {
+      src: "expertise-ankle-editorial.jpg",
+      alt: "Rustig medisch beeld bij voet- en enkelklachten",
+    };
+  }
+  if (category.includes("achtervoet") || category.includes("hiel")) {
+    return {
+      src: "tile-achtervoet-standsafwijking.jpg",
+      alt: "Algemeen beeld bij achtervoet- en hielklachten",
+    };
+  }
+  return {
+    src: "tile-voorvoet-pijn-v2.jpg",
+    alt: "Algemeen beeld bij voorvoetklachten",
+  };
+};
+
 const pageHtml = (condition) => {
   const spec = { ...defaultSpec(condition), ...(pageSpecs[condition.id] || {}) };
+  const heroImage = heroImageFor(spec);
   const title = `${condition.title} | drs. Matthijs van Dam`;
   const description = sentence(`${condition.excerpt} Algemene patiëntinformatie over klachten, beoordeling en behandelrichtingen. Geen medisch advies op maat.`).slice(0, 158);
   const canonical = `https://matthijsvandam.nl/behandelingen/${condition.id}.html`;
@@ -578,7 +599,7 @@ const pageHtml = (condition) => {
     <meta name="twitter:image" content="https://matthijsvandam.nl/assets/social-preview.png">
     <meta name="twitter:image:alt" content="drs. Matthijs van Dam, orthopedisch chirurg in Tilburg">
     <link rel="icon" href="../assets/logo-mvd-mark-v2.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="../styles.css?v=20260614footguide15">
+    <link rel="stylesheet" href="../styles.css?v=20260621herobalance1">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -659,9 +680,15 @@ const pageHtml = (condition) => {
           <p class="lead">${escapeHtml(condition.excerpt)}</p>
           <div class="article-meta" aria-label="Onderwerpen">
             <a href="../behandelingen.html">Behandelingen</a>
-            <a href="../concept-foot-pain-guide.html">Foot Pain Guide</a>
+            <span>Voet- en enkelpijnwijzer</span>
             <span>Concept voor medische review</span>
           </div>
+        </div>
+        <div class="treatment-detail-hero-visual">
+          <figure class="treatment-detail-hero-media">
+            <img src="../assets/${heroImage.src}" alt="${escapeHtml(heroImage.alt)}" width="1400" height="788" loading="eager">
+            <figcaption>${escapeHtml(spec.h1)}: algemene informatie over klachten, beoordeling en behandelrichtingen.</figcaption>
+          </figure>
           <aside class="treatment-author-card" aria-label="Geschreven door">
             <img src="../assets/portrait-matthijs-van-dam.jpg" alt="" width="72" height="72" loading="eager">
             <div>
@@ -683,10 +710,10 @@ const pageHtml = (condition) => {
                 ${spec.summary.map((item) => `<li>${escapeHtml(item)}</li>`).join("\n                ")}
               </ul>
             </div>
-            <div class="treatment-summary-card">
-              <strong>Algemene informatie</strong>
+            <details class="treatment-summary-card treatment-safety-details">
+              <summary><strong>Algemene informatie</strong></summary>
               <p>Deze pagina geeft algemene uitleg en vervangt geen persoonlijke beoordeling. Voor diagnose, behandeling, verwijzing, afspraken of spoed zijn je eigen huisarts, behandelaar of de officiële zorgkanalen de juiste route.</p>
-            </div>
+            </details>
             <div class="treatment-summary-card">
               <strong>Medische review</strong>
               <p>Dit is een lokale conceptpagina. De inhoud is bedoeld als rustige basis voor medische eindredactie door Matthijs voordat publicatie wordt overwogen.</p>
@@ -721,7 +748,7 @@ const pageHtml = (condition) => {
 
             <div class="patient-callout">
               <strong>Geen diagnose via deze pagina.</strong>
-              <p>De Foot Pain Guide en deze pagina helpen om algemene onderwerpen te herkennen. Ze sluiten andere oorzaken niet uit en vervangen geen medisch consult.</p>
+              <p>De Voet- en enkelpijnwijzer en deze pagina helpen om algemene onderwerpen te herkennen. Ze sluiten andere oorzaken niet uit en vervangen geen medisch consult.</p>
             </div>
 
             <h2 id="review">Medische reviewpunten</h2>
@@ -753,7 +780,7 @@ const pageHtml = (condition) => {
         <a href="../disclaimer.html">Disclaimer</a>
       </span>
     </footer>
-    <script src="../script.js?v=20260612analytics1"></script>
+    <script src="../script.js?v=20260619hub1"></script>
   </body>
 </html>
 `;
@@ -773,7 +800,7 @@ for (const condition of conditions) {
 }
 
 const inventoryLines = [
-  "# Foot Pain Guide launch-inventaris",
+  "# Voet- en enkelpijnwijzer launch-inventaris",
   "",
   "Alle inhoudelijke kaarten krijgen een eigen conceptpagina in `behandelingen/`. De pagina's blijven `noindex, follow` totdat Matthijs de medische inhoud heeft beoordeeld en de livegang expliciet akkoord is.",
   "",

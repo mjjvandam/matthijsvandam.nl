@@ -37,5 +37,5 @@ Alle inhoudelijke kaarten krijgen een eigen conceptpagina in `behandelingen/`. D
 | Ganglion middenvoet | `behandelingen/ganglion-middenvoet.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Stressreactie of stressfractuur | `behandelingen/stressreactie-stressfractuur.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Lisfranc- en middenvoetletsel | `behandelingen/lisfranc-middenvoetletsel.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
-| Artrose na een breuk | `behandelingen/artrose-na-breuk.html` | basisconcept, medische review nodig | medische afbakening, veilige toon, interne links |
-| Revisie na artrodese | `behandelingen/revisie-artrodese.html` | basisconcept, medische review nodig | medische afbakening, veilige toon, interne links |
+| Artrose na een breuk | `behandelingen/artrose-na-breuk.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
+| Revisie na artrodese | `behandelingen/revisie-artrodese.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |

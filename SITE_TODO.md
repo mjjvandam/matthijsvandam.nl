@@ -224,6 +224,20 @@ Deze pagina's staan lokaal als concept in `behandelingen/` en zijn nog niet bedo
    - Check formuleringen rond tarsometatarsale gewrichten, Lisfranc-complex, plantaire blauwe plek, niet kunnen belasten, gewichtdragende rontgenfoto, vergelijking met andere voet, CT, MRI, stabiel versus instabiel letsel, ontlasting, gips/walker, operatie, artrodese, restpijn en posttraumatische artrose zonder behandelclaim.
    - Check veiligheidsgrenzen rond niet kunnen belasten, aanhoudende pijn, zwelling, blauwe plek onder de voet, standsverandering, gevoelsstoornis, wond/open letsel, ernstige pijn, diabetes, verminderd gevoel, koude/blauwe tenen, val van hoogte en verkeersongeval.
 
+35. `behandelingen/artrose-na-breuk.html`
+   - Opgewaardeerd naar specialistisch niveau voor posttraumatische artrose na voetbreuk, enkelbreuk, pilon-/talus-/calcaneusletsel, Lisfranc- of middenvoetletsel.
+   - Controleer vooral dat pijn na een breuk niet automatisch als artrose wordt gepresenteerd en dat stand, kraakbeen, botgenezing, implantaten, pezen en zenuwen samen worden beoordeeld.
+   - Let extra op afbakening met nonunion/malunion, hardware-irritatie, peesklachten, zenuwbeknelling/neuropathie, stressletsel, corpus liberum/impingement, infectie/septische artritis, jicht/ontstekingsziekte, CRPS, avasculaire necrose, diabetes/neuropathie en Charcot-context.
+   - Check formuleringen rond staande rontgenfoto's, CT/weightbearing CT, MRI/echo, lab/aspiratie bij infectie- of ontstekingsvraag, schoenaanpassing, brace/AFO, fysiotherapie, injectie, implantaatverwijdering, arthroscopie, standcorrectie, artrodese en enkelprothese zonder behandelclaim.
+   - Check veiligheidsgrenzen rond nieuw trauma, niet kunnen belasten, warme rode gezwollen voet/enkel, koorts/ziek gevoel, wond/lekkage, snel toenemende pijn, koude/blauwe voet, gevoelsverlies, diabetes met warme gezwollen voet en hevige pijn met kleur-/temperatuurverandering.
+
+36. `behandelingen/revisie-artrodese.html`
+   - Opgewaardeerd naar specialistisch niveau voor pijn na artrodese/vastzetoperatie van voet, middenvoet, achtervoet of enkel.
+   - Controleer vooral dat "niet vastgegroeid" als mogelijkheid wordt gepresenteerd en niet als conclusie via de website.
+   - Let extra op afbakening met nonunion/pseudoartrose, delayed union, malunion/standprobleem, implantaatirritatie, aangrenzende artrose, peesklachten, zenuwklachten, littekenweefsel, infectie, CRPS, diabetes/verminderde afweer, botkwaliteit en rookstatus.
+   - Check formuleringen rond rontgenfoto, CT/weightbearing CT, MRI/echo bij weke delen of infectievraag, lab/kweek bij infectieverdenking, schoen/zool/brace/AFO, materiaalverwijdering, bottransplantaat, nieuwe fixatie, uitbreiding van artrodese, 3D-planning en patiënt-specifieke instrumentatie zonder behandelclaim.
+   - Check veiligheidsgrenzen rond wond/lekkage, roodheid/warmte, koorts/ziek gevoel, acute ernstige pijn, niet kunnen belasten, koude/blauwe voet, gevoelsverlies, nieuw trauma, diabetes en verminderde afweer.
+
 ## Foot Pain Guide MVP
 
 - Controleer de ingeklapte medische mappingtabel: per pijnzone de kolommen "wel tonen" en "niet tonen in MVP".
@@ -236,11 +250,27 @@ Deze pagina's staan lokaal als concept in `behandelingen/` en zijn nog niet bedo
 
 - Alle 35 inhoudelijke guide-kaarten hebben nu een eigen conceptpagina in `behandelingen/`.
 - Gebruik `FOOT_PAIN_GUIDE_LAUNCH_INVENTARIS.md` als reviewmatrix voor URL, status en medische aandachtspunten.
-- `behandelingen/morton-neuroom.html`, `behandelingen/metatarsalgie.html`, `behandelingen/mtp-plantaire-plaatklachten.html`, `behandelingen/jicht-podagra.html`, `behandelingen/tailors-bunion.html`, `behandelingen/sesamoidklachten.html`, `behandelingen/voorvoetcorrectie.html`, `behandelingen/enkelverzwikking.html`, `behandelingen/chronische-enkelinstabiliteit.html`, `behandelingen/anterieur-enkel-impingement.html`, `behandelingen/posterieur-enkel-impingement.html`, `behandelingen/ganglion-enkel.html`, `behandelingen/peroneuspeesklachten.html`, `behandelingen/sinus-tarsi-klachten.html`, `behandelingen/os-trigonum.html`, `behandelingen/enkelartrose.html`, `behandelingen/kraakbeenletsel-enkel.html`, `behandelingen/corpus-liberum-enkel.html`, `behandelingen/platvoet-volwassen.html`, `behandelingen/tibialis-posterior-peesklachten.html`, `behandelingen/holvoet-cavovarus.html`, `behandelingen/achillespeesklachten.html`, `behandelingen/hielpijn.html`, `behandelingen/peesplaatklachten-hielspoor.html`, `behandelingen/vetkussen-hielklachten.html`, `behandelingen/haglund-retrocalcaneaire-klachten.html`, `behandelingen/tarsal-boss.html`, `behandelingen/ganglion-middenvoet.html`, `behandelingen/stressreactie-stressfractuur.html` en `behandelingen/lisfranc-middenvoetletsel.html` zijn nu opgewaardeerde voorbeelden naast hallux valgus, hallux rigidus en hamerteen/klauwteen.
-- Volgende inhoudelijke clusterstap: complexe restklachten/eerder letsel, vervolg met `artrose-na-breuk.html`.
+- Alle 35 inhoudelijke Foot Pain Guide-pagina's zijn nu opgewaardeerde conceptpagina's met noindex-status en medische reviewpunten.
+- Volgende inhoudelijke stap: volledige medische review door Matthijs, daarna mobiele visuele controle, links/metadata/sitemap en publicatiebesluit per pagina.
 - `tools/check_treatment_page_quality.py` bewaakt dat opgewaardeerde pagina's rijk genoeg zijn en dat basisconcepten eerlijk als basisconcept gemarkeerd blijven.
 - De pagina's blijven `noindex, follow` totdat medische eindreview, interne links, metadata, mobiele controle en launchbesluit expliciet akkoord zijn.
 - Sitemap en publieke indexatie pas bij livegang bewust bijwerken; niet automatisch meenemen zolang dit conceptcontent is.
+
+## Redactionele artikelbacklog
+
+### Transfermetatarsalgie na MTP-1 artrodese of hallux valgus-correctie
+
+- Later een patiëntgericht verdiepend artikel schrijven over pijn onder de bal van de voet die kan ontstaan of duidelijker kan worden na een operatie aan de grote teen, zoals MTP-1 artrodese of hallux valgus-correctie.
+- Werknaam: `Waarom kan de bal van de voet pijn doen na een grote-teenoperatie?`
+- Doelgroep: patiënten die na een eerdere voorvoetoperatie nieuwe of veranderde drukpijn onder de tweede tot en met vierde straal ervaren, plus verwijzers die de samenhang met drukverdeling rustig willen herkennen.
+- Zoekintentie: "pijn bal voet na hallux valgus operatie", "metatarsalgie na MTP-1 artrodese", "drukpijn voorvoet na grote teen operatie".
+- Plek in sitestructuur: artikel als verdiepende link bij `behandelingen/metatarsalgie.html`, `behandelingen/mtp-1-artrodese.html`, `behandelingen/hallux-valgus.html` en `behandelingen/voorvoetcorrectie.html`; niet als hoofdnavigatie-item.
+- Inhoudelijke lijn: eerst uitleggen dat metatarsalgie een pijngebied is en geen einddiagnose; daarna rustig beschrijven hoe veranderde stand, lengte, stijfheid, afwikkeling, schoenkeuze, teenstand, eelt en belasting de druk onder de voorvoet kunnen verschuiven.
+- Belangrijke afbakening: niet iedere pijn na een operatie is transfermetatarsalgie. Differentieer met Morton-neuroom, MTP-/plantaire plaatklachten, stressreactie, sesamoidklachten, jicht/ontsteking, huiddruk/eelt, infectie, non-union, materiaalirritatie en recidief of onder-/overcorrectie.
+- Medische veiligheidsgrens: geen behandeladvies op maat, geen revisieclaim, geen garantie dat zool, schoenaanpassing of operatie helpt. Verwijs bij persoonlijke klachten, wondproblemen, roodheid/warmte, koorts, toenemende pijn, gevoelsverlies of diabetes naar de eigen arts/officiele zorgroute.
+- Bronronde vooraf: primaire of richtlijnachtige bronnen zoeken over transfermetatarsalgie na eerste-straalschirurgie, hallux valgus-correctie, eerste MTP-artrodese, eerste straal-lengte/stand, plantaire drukverdeling en complicaties/revisie-indicaties. Media of commerciële kliniekpagina's hooguit als zoekradar gebruiken.
+- Staffronde bij uitwerking: bronredacteur voor bronstatus en claimrisico; stijlredacteur voor rustige beschouwende toon zonder folderritme; medische veiligheidsreviewer voor diagnosezekerheid, operatieverwachtingen en officiele zorgkanalen.
+- Concept pas publiceren na medische eindreview door Matthijs.
 
 ## Voor publicatie van een behandelpagina
 
@@ -250,6 +280,14 @@ Deze pagina's staan lokaal als concept in `behandelingen/` en zijn nog niet bedo
 - Mobiele weergave gecontroleerd.
 - Afbeeldingen gecontroleerd op inhoud, rechten, logo/watermerk en metadata.
 - Interne links, metadata, canonical, OpenGraph, JSON-LD en sitemap bewust bijgewerkt.
+
+## Sitebrede livegang-checks
+
+- Beslis later hoe dominant voet/enkel ten opzichte van knie/leefstijl op de site moet worden. Vraag Matthijs hier opnieuw naar voordat de pijnwijzer publiek wordt: blijft `Klachten en behandelingen` een brede orthopedische hub, of krijgt voet/enkel een duidelijker hoofdroute met knie/leefstijl als apart spoor?
+- Kies voor livegang bewust tussen nette URL's zonder `.html` en bestaande `.html`-URL's. Uitleg: technisch kunnen pagina's zichtbaar zijn als `matthijsvandam.nl/behandelingen/hallux-rigidus` of als `matthijsvandam.nl/behandelingen/hallux-rigidus.html`. Voor bezoekers maakt dat weinig uit, maar voor zoekmachines moet er één voorkeursvorm zijn. Nu staat in `vercel.json` dat nette URL's zonder `.html` mogen werken, terwijl sitemap, canonicals en interne links nog de `.html`-vorm gebruiken. Voor livegang moet dat worden gelijkgetrokken.
+- Controleer het artikeloverzicht op doelgroepfiltering: patiëntgericht, zorgprofessionals en eventuele medewerkers/projectupdates moeten zichtbaar van elkaar gescheiden blijven.
+- Beoordeel toekomstige datum- of evenementartikelen na afloop opnieuw, zodat ze niet als actuele aankondiging blijven staan.
+- De concept-pijnwijzer blijft uitgesloten van normale interne routes en `robots.txt` totdat medische mapping, mobiele controle en publicatiebesluit akkoord zijn.
 
 ## Redactioneel nog beoordelen
 

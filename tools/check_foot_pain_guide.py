@@ -13,9 +13,10 @@ ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "content.js"
 CONCEPT_PAGE = ROOT / "concept-foot-pain-guide.html"
 STYLES = ROOT / "styles.css"
-EXPECTED_VIEWS = ("top", "sole", "medial", "lateral", "heel")
+EXPECTED_VIEWS = ("top", "front", "sole", "medial", "lateral", "heel")
 REQUIRED_ASSETS = {
     "top": "assets/foot-guide-dorsal.jpg",
+    "front": "assets/foot-guide-front.png",
     "sole": "assets/foot-guide-plantar.jpg",
     "medial": "assets/foot-guide-medial.jpg",
     "lateral": "assets/foot-guide-lateral.jpg",
@@ -63,6 +64,15 @@ REQUIRED_REVIEW_EXCLUSIONS = (
     "Pees- of slijmbeursklachten voorzijde enkel",
 )
 REVIEWED_REGION_OVERLAPS = {
+    ("front", "buitenzijde-voet", "kleine-tenen"),
+    ("front", "buitenzijde-voet", "voorvoet-bovenzijde"),
+    ("front", "grote-teen-mtp1", "voorvoet-bovenzijde"),
+    ("front", "kleine-tenen", "voorvoet-bovenzijde"),
+    ("front", "middenvoet-bovenzijde", "voorzijde-enkel"),
+    ("front", "middenvoet-bovenzijde", "voorvoet-bovenzijde"),
+    ("front", "middenvoet-bovenzijde", "wreef"),
+    ("front", "voorzijde-enkel", "wreef"),
+    ("front", "voorvoet-bovenzijde", "wreef"),
     ("top", "middenvoet-bovenzijde", "wreef"),
     ("top", "voorvoet-bovenzijde", "wreef"),
     ("sole", "grote-teen-mtp1", "voorvoet-onderzijde"),
@@ -162,7 +172,7 @@ def views_for_region(block: str) -> dict[str, str]:
     views_block = balanced_block(block, block.find("{", start), "{", "}")
     return {
         view: shape
-        for view, shape in re.findall(r'\b(top|sole|medial|lateral|heel):\s*\{\s*shape:\s*"([^"]+)"\s*\}', views_block)
+        for view, shape in re.findall(r'\b(top|front|sole|medial|lateral|heel):\s*\{\s*shape:\s*"([^"]+)"\s*\}', views_block)
     }
 
 
@@ -425,6 +435,12 @@ def run_checks() -> list[tuple[str, str]]:
         issues.append(("missing_view_status", "data-foot-view-status"))
     if "foot-guide-review-map" not in content or "Medische mapping voor review" not in content:
         issues.append(("missing_review_mapping_table", "foot-guide-review-map"))
+    if "isVisibleInPainGuide" not in content:
+        issues.append(("missing_pain_guide_visibility_filter", "isVisibleInPainGuide"))
+    if 'kind: "treatment"' not in content or "showInPainGuide: false" not in content:
+        issues.append(("missing_treatment_topic_separation", "kind/showInPainGuide"))
+    if "Behandelpagina's pas later" not in content:
+        issues.append(("missing_deferred_treatment_review_column", "Behandelpagina's pas later"))
     if "Niet tonen in MVP" not in content:
         issues.append(("missing_review_exclusion_column", "Niet tonen in MVP"))
     for topic in REQUIRED_REVIEW_EXCLUSIONS:
@@ -436,8 +452,8 @@ def run_checks() -> list[tuple[str, str]]:
         issues.append(("missing_mobile_breakpoint", "max-width: 520px"))
     if ".foot-guide-toolbar .filter-bar" not in styles or "flex-wrap: nowrap" not in styles:
         issues.append(("missing_mobile_filter_scroll_guard", "foot-guide-toolbar"))
-    if "20260614footguide16" not in concept:
-        issues.append(("concept_cache_token_not_updated", "20260614footguide16"))
+    if "20260619hub1" not in concept:
+        issues.append(("concept_cache_token_not_updated", "20260619hub1"))
 
     return issues
 

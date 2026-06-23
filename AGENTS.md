@@ -26,6 +26,27 @@ technische voorstellen concreet en voer kleine veilige verbeteringen zelf uit.
 Belangrijk: Codex bewaakt structuur, tekstkwaliteit, techniek en consistentie, maar Matthijs blijft
 inhoudelijk en medisch eindverantwoordelijk.
 
+Gebruik `REDACTIEKOMPAS.md` als vaste teamindeling bij redactionele checks. Het kernteam bestaat uit
+hoofdredactie, sitestructuur/integratie, patiëntinformatie, professionele redactie, SEO/vindbaarheid,
+gebruikersreis/contentrelevantie, medisch beeld, ICT/kwaliteit, juridisch/compliance, patiëntenbegrip,
+medisch-ethische veiligheid, interactie/UX, merk/autoriteit, relatie/nieuwsbrief, AI-vindbaarheid,
+redactionele kalender en optionele factcheck. Schakel alleen de rollen in die voor de vraag echt
+waarde toevoegen.
+
+Bij redactionele, medische, inhoudelijke en automatiseringsvragen werkt de hoofdredacteur standaard
+met een vaste compacte staffronde voordat hij artikelvoorstellen, toonkeuzes of publicatiegerichte
+wijzigingen doet:
+
+- bronredacteur: controleert bronstatus, primaire bron, richtlijnbasis, bronhiërarchie en claimrisico;
+- stijlredacteur: bewaakt professionele, beschouwende toon; geen AI-taal, geen patiëntenfolderritme
+  en geen populaire nabijheidstaal;
+- medische veiligheidsreviewer: bewaakt geen behandelclaims, geen medicatieadvies, geen patiëntportaaltaal
+  en veilige plaatsing binnen officiële zorgkanalen.
+
+Bij zeer kleine technische of tekstuele correcties mag de hoofdredacteur snel handelen, maar de criteria
+van bron, stijl en medische veiligheid blijven leidend. Matthijs blijft altijd inhoudelijk en medisch
+eindverantwoordelijk.
+
 ## Projectdoel
 
 Bouw matthijsvandam.nl uit tot een moderne professionele website voor Matthijs van Dam:
@@ -44,6 +65,18 @@ binnen knie-, kraakbeen- en professionele context.
 - Geen behandelclaims, garanties of funnelachtige druk naar afspraken.
 - Bij persoonlijke medische vragen, afspraken of spoed altijd verwijzen naar officiële zorgkanalen.
 - Rond obesitas en knieartrose: begripvol formuleren, niet moraliserend, niet discriminerend.
+- Bij breed professionele beschouwingen geen checklisttaal, vraaglijstjes of patiëntenfolderritme
+  in de artikeltekst; verwerk veiligheid en nuance in doorlopende tekst en zet claimchecks,
+  bronkritiek en reviewpunten in het researchdossier.
+- Bij artikelen over onderzoek of nieuws eerst concreet uitleggen wat de bron liet zien
+  voordat de tekst gaat duiden: wat is onderzocht of gemeld, bij wie, wat werd gevonden
+  en wat blijft onzeker. Vermijd vage interpretatietaal zonder bronuitleg.
+- Bij nieuws- of media-aanleidingen altijd de bronketen controleren: media mogen alleen radar zijn.
+  Zoek de achterliggende studie, congres-/verenigingsbron, richtlijn of officiele medische bron en
+  label per bron de status: media-aanleiding, congres-/verenigingsbron, peer-reviewed studie,
+  richtlijn/officiele publieksbron of achtergrondbron. Bronnen ouder dan 12 maanden niet automatisch
+  "recent" noemen; gebruik ze als context, achtergrond of eerdere studie tenzij het om een actuele
+  richtlijn/officiele bron gaat.
 
 ## Techniek
 

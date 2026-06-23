@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "description": "Intern register voor menselijke publicatieverificatie van gepubliceerde pagina's op matthijsvandam.nl.",
+  "policy": {
+    "published_definition": "Een pagina geldt als gepubliceerd wanneer deze in sitemap.xml staat of meta robots index, follow heeft.",
+    "required_status_for_publication": "geverifieerd",
+    "medical_owner": "Matthijs van Dam",
+    "public_visibility": "intern"
+  },
+  "allowed_statuses": [
+    "review_nodig",
+    "geverifieerd",
+    "niet_publiceren"
+  ],
+  "pages": [
+    {
+      "path": "index.html",
+      "title": "drs. Matthijs van Dam | Orthopedisch chirurg Tilburg",
+      "spoor": "algemeen",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-22",
+      "review_notes": "Homepage inhoudelijk akkoord gegeven door Matthijs."
+    },
+    {
+      "path": "artikelen.html",
+      "title": "Artikelen en updates | drs. Matthijs van Dam",
+      "spoor": "algemeen",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-23",
+      "review_notes": "Artikelenoverzicht inhoudelijk akkoord gegeven door Matthijs na verwijderen overzichtlabel en toevoegen compacte oudere-artikelenlijst bij groei."
+    },
+    {
+      "path": "behandelingen.html",
+      "title": "Klachten en behandelingen | drs. Matthijs van Dam",
+      "spoor": "patient",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-22",
+      "review_notes": "Behandelingen-overzicht inhoudelijk akkoord gegeven door Matthijs na aanpassing verwijzingsroute ETZ."
+    },
+    {
+      "path": "over-mij.html",
+      "title": "Over drs. Matthijs van Dam | Orthopedisch chirurg Tilburg",
+      "spoor": "algemeen",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-22",
+      "review_notes": "Profielpagina inhoudelijk akkoord gegeven door Matthijs."
+    },
+    {
+      "path": "professionals.html",
+      "title": "Samenwerking orthopedische zorg regio Tilburg | drs. Matthijs van Dam",
+      "spoor": "professional",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-23",
+      "review_notes": "Professionals-pagina inhoudelijk akkoord gegeven door Matthijs na vereenvoudiging LinkedIn-blok."
+    },
+    {
+      "path": "advies-consultancy.html",
+      "title": "Projectadvies, onderwijs en zorgontwikkeling | drs. Matthijs van Dam",
+      "spoor": "advies_consultancy",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-23",
+      "review_notes": "Advies- en consultancypagina inhoudelijk akkoord gegeven door Matthijs na aanscherping van implementatie-, onderwijs- en sessiebegeleidingsteksten."
+    },
+    {
+      "path": "publicaties.html",
+      "title": "Publicaties en bijdragen | drs. Matthijs van Dam",
+      "spoor": "professional",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-23",
+      "review_notes": "Publicatieoverzicht inhoudelijk akkoord gegeven door Matthijs na verwijderen van het overzichtlabel."
+    },
+    {
+      "path": "projecten.html",
+      "title": "Projecten | drs. Matthijs van Dam",
+      "spoor": "project",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-23",
+      "review_notes": "Projectenoverzicht inhoudelijk akkoord gegeven door Matthijs na vereenvoudiging van de intro."
+    },
+    {
+      "path": "artikelen/digitaal-zorgpad-artrose-obesitas.html",
+      "title": "Digitale artrosezorg in Tilburg | drs. Matthijs van Dam",
+      "spoor": "artikel",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-23",
+      "review_notes": "Artikel over Leefstijlcoalitie-voucher en digitale artrosezorg inhoudelijk akkoord gegeven door Matthijs."
+    },
+    {
+      "path": "artikelen/vaillant-fonds-digitaal-zorgpad.html",
+      "title": "Vaillant Fonds ondersteunt digitaal zorgpad | drs. Matthijs van Dam",
+      "spoor": "artikel",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-23",
+      "review_notes": "Vaillant Fonds-artikel inhoudelijk akkoord gegeven door Matthijs."
+    },
+    {
+      "path": "artikelen/footprint-quick-scan-medewerkers.html",
+      "title": "FOOTprint Quick Scan voor medewerkers | drs. Matthijs van Dam",
+      "spoor": "artikel",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-23",
+      "review_notes": "Artikel over FOOTprint Quick Scan voor medewerkers inhoudelijk akkoord gegeven door Matthijs."
+    },
+    {
+      "path": "artikelen/we-walk-ar-campusroute-tilburg.html",
+      "title": "We Walk AR-prototype op Tilburg University",
+      "spoor": "artikel",
+      "verification_status": "review_nodig",
+      "verified_by": "",
+      "verified_on": "",
+      "review_notes": "Initieel opgenomen vanuit sitemap.xml; inhoudelijke verificatie door Matthijs nodig."
+    },
+    {
+      "path": "artikelen/patientpanel-leefstijl-orthopedie.html",
+      "title": "Patientpanel over leefstijl en orthopedie | drs. Matthijs van Dam",
+      "spoor": "artikel",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-23",
+      "offline_after": "2026-12-23",
+      "review_notes": "Artikel over patientpanel leefstijl en orthopedie inhoudelijk akkoord gegeven door Matthijs. Mag na 23 december 2026 offline worden gehaald."
+    },
+    {
+      "path": "artikelen/heracleum-hulpfonds-subsidie-transmuraal-tilburg-cohort.html",
+      "title": "Subsidie Transmuraal Tilburg Cohort | drs. Matthijs van Dam",
+      "spoor": "artikel",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-23",
+      "review_notes": "Heracleum Hulpfonds-artikel inhoudelijk akkoord gegeven door Matthijs na wijziging onderzoeksverpleegkundige naar klinisch onderzoeker."
+    },
+    {
+      "path": "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html",
+      "title": "Niet vastgegroeide artrodese en revisie",
+      "spoor": "artikel",
+      "verification_status": "review_nodig",
+      "verified_by": "",
+      "verified_on": "",
+      "review_notes": "Initieel opgenomen vanuit sitemap.xml; inhoudelijke verificatie door Matthijs nodig."
+    },
+    {
+      "path": "artikelen/patient-specifieke-instrumentatie-voet-enkel-professionals.html",
+      "title": "Patient-specifieke instrumentatie voet en enkel",
+      "spoor": "artikel",
+      "verification_status": "review_nodig",
+      "verified_by": "",
+      "verified_on": "",
+      "review_notes": "Initieel opgenomen vanuit sitemap.xml; inhoudelijke verificatie door Matthijs nodig."
+    },
+    {
+      "path": "artikelen/aios-foot-education-munich.html",
+      "title": "AIOS-onderwijs voet en enkel in Munchen | drs. Matthijs van Dam",
+      "spoor": "artikel",
+      "verification_status": "review_nodig",
+      "verified_by": "",
+      "verified_on": "",
+      "review_notes": "Initieel opgenomen vanuit sitemap.xml; inhoudelijke verificatie door Matthijs nodig."
+    },
+    {
+      "path": "artikelen/probleemgeorienteerd-denken-orthopedie-boekbijdrage.html",
+      "title": "Probleemgeorienteerd denken in de orthopedie | drs. Matthijs van Dam",
+      "spoor": "artikel",
+      "verification_status": "review_nodig",
+      "verified_by": "",
+      "verified_on": "",
+      "review_notes": "Initieel opgenomen vanuit sitemap.xml; inhoudelijke verificatie door Matthijs nodig."
+    },
+    {
+      "path": "artikelen/artrosezorg-transitie-professionals.html",
+      "title": "Artrosezorg in transitie | Professionals",
+      "spoor": "artikel",
+      "verification_status": "review_nodig",
+      "verified_by": "",
+      "verified_on": "",
+      "review_notes": "Initieel opgenomen vanuit sitemap.xml; inhoudelijke verificatie door Matthijs nodig."
+    },
+    {
+      "path": "artikelen/leefstijlzorg-tweede-lijn-professionals.html",
+      "title": "Leefstijlzorg in de tweede lijn | Professionals",
+      "spoor": "artikel",
+      "verification_status": "review_nodig",
+      "verified_by": "",
+      "verified_on": "",
+      "review_notes": "Initieel opgenomen vanuit sitemap.xml; inhoudelijke verificatie door Matthijs nodig."
+    },
+    {
+      "path": "artikelen/mobility-clinic-tilburg-patienten.html",
+      "title": "Mobility Clinic Tilburg voor patienten | Kniekraakbeen | Matthijs van Dam",
+      "spoor": "artikel",
+      "verification_status": "review_nodig",
+      "verified_by": "",
+      "verified_on": "",
+      "review_notes": "Initieel opgenomen vanuit sitemap.xml; inhoudelijke verificatie door Matthijs nodig."
+    },
+    {
+      "path": "artikelen/mobility-clinic-tilburg-professionals.html",
+      "title": "Mobility Clinic Tilburg voor professionals | Kniekraakbeen | Matthijs van Dam",
+      "spoor": "artikel",
+      "verification_status": "review_nodig",
+      "verified_by": "",
+      "verified_on": "",
+      "review_notes": "Initieel opgenomen vanuit sitemap.xml; inhoudelijke verificatie door Matthijs nodig."
+    },
+    {
+      "path": "artikelen/artrosezorg-transitie-patienten.html",
+      "title": "Artrosezorg in transitie | Wat betekent dit voor patiënten?",
+      "spoor": "artikel",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-23",
+      "review_notes": "Patiëntartikel inhoudelijk akkoord gegeven door Matthijs na herschrijving en aanscherping van persoonlijke medeauteursduiding."
+    },
+    {
+      "path": "projecten/transmuraal-tilburg-cohort.html",
+      "title": "Transmuraal Tilburg Cohort | drs. Matthijs van Dam",
+      "spoor": "project",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-23",
+      "review_notes": "Projectpagina inhoudelijk akkoord gegeven door Matthijs na aanscherping van zorgpad, cohort, rol als initiator, verdere steun en veilige ETZ/MijnETZ/onderzoeksroutes."
+    },
+    {
+      "path": "projecten/leefstijlgerichte-kansen-orthopedie.html",
+      "title": "Leefstijl en orthopedie | NOV-project | drs. Matthijs van Dam",
+      "spoor": "project",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-23",
+      "review_notes": "NOV-projectpagina inhoudelijk akkoord gegeven door Matthijs na aanscherping rol als werkgroeplid en looptijd voorjaar 2025 tot en met voorjaar 2027."
+    },
+    {
+      "path": "projecten/we-walk.html",
+      "title": "We Walk: AR, artrose en bewegen | drs. Matthijs van Dam",
+      "spoor": "project",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-23",
+      "review_notes": "We Walk-projectpagina inhoudelijk akkoord gegeven door Matthijs na explicitering van augmented reality en gamification."
+    },
+    {
+      "path": "projecten/3d-planning-voet-enkel.html",
+      "title": "3D-planning bij voet- en enkelchirurgie | ETZ | drs. Matthijs van Dam",
+      "spoor": "project",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-23",
+      "review_notes": "3D-planningprojectpagina inhoudelijk akkoord gegeven door Matthijs na verduidelijking doelgroepen bij gerelateerde artikelen."
+    },
+    {
+      "path": "privacy.html",
+      "title": "Privacy | drs. Matthijs van Dam",
+      "spoor": "juridisch",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-23",
+      "review_notes": "Privacyverklaring inhoudelijk akkoord gegeven door Matthijs na compacte compliance- en medische veiligheidsreview en verwijderen van dubbele contactformulierpassage."
+    },
+    {
+      "path": "disclaimer.html",
+      "title": "Disclaimer | drs. Matthijs van Dam",
+      "spoor": "juridisch",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-23",
+      "review_notes": "Disclaimer inhoudelijk akkoord gegeven door Matthijs na compacte compliance-, medische veiligheids- en ICT-review; geen tekstwijziging nodig."
+    }
+  ]
+}

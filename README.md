@@ -57,12 +57,31 @@ Aanwezig:
 - Medische/professionele claims inhoudelijk nalopen.
 - Visuele klikronde doen op desktop en mobiel.
 
+## Publicatieverificatie
+
+Alle pagina's die gepubliceerd zijn, moeten intern door Matthijs zijn geverifieerd voordat de site
+actief breder wordt gedeeld. Een pagina geldt als gepubliceerd wanneer deze in `sitemap.xml` staat
+of `<meta name="robots" content="index, follow">` heeft.
+
+De verificatiestatus staat in `PUBLICATIE_REGISTER.json`. Nieuwe of gewijzigde gepubliceerde pagina's
+blijven daar op `review_nodig` totdat Matthijs de inhoud, medische grenzen, positionering en veilige
+vervolgstappen heeft gecontroleerd. Na akkoord wordt alleen het register aangepast naar
+`geverifieerd`, met `verified_by`, `verified_on` en eventueel een korte `review_notes`.
+
+Controleer de status met:
+
+- `python3 tools/check_publication_verification.py`
+
+Deze check faalt bewust zolang een gepubliceerde pagina nog niet op `geverifieerd` staat. Dat is de
+bedoeling: zo kan een pagina niet ongemerkt live blijven zonder expliciet inhoudelijk akkoord.
+
 ## Lokale conceptpagina's
 
-Uitgebreide behandelpagina's die nog niet klaar zijn voor publicatie staan lokaal in `behandelingen/`.
-Die map wordt genegeerd via `.gitignore`, zodat conceptpagina's niet per ongeluk live gaan bij commit en push.
-Wanneer een pagina inhoudelijk en visueel klaar is, moet deze bewust uit `.gitignore` worden gehaald,
-in de sitemap worden opgenomen en opnieuw medisch worden gecontroleerd.
+Uitgebreide behandelpagina's die nog niet klaar zijn voor publicatie staan technisch in de repository
+in `behandelingen/`, maar blijven concept door `noindex, follow`, door ontbreken in `sitemap.xml` en
+door de aparte reviewstatus in `FOOT_PAIN_GUIDE_LAUNCH_INVENTARIS.md`. Wanneer een pagina inhoudelijk
+en visueel klaar is, moet deze bewust worden overgezet naar publicatie: opnemen in de sitemap, op
+`index, follow` zetten, registreren in `PUBLICATIE_REGISTER.json` en opnieuw medisch laten controleren.
 
 ## Contactformulier via Vercel
 
@@ -85,6 +104,7 @@ Publiceer via Vercel vanuit de GitHub-repository.
 Controleer voor het pushen lokaal:
 
 - structurele sitecheck: `python3 tools/check_site_quality.py`;
+- publicatieverificatie: `python3 tools/check_publication_verification.py`;
 - homepage: hero, biografie, behandelingen, projecten, artikelen, publicaties en contactroutes;
 - `behandelingen.html`: filters, zoekfunctie en behandelingen/aandachtsgebieden;
 - `artikelen.html`: filters en alle artikelkaarten;

@@ -112,6 +112,7 @@ def run_checks() -> list[tuple[str, str]]:
                 "@type\": \"FAQPage\"",
                 "class=\"treatment-faq\"",
                 "class=\"patient-disclaimer\"",
+                "class=\"section treatment-region-guide-section\"",
                 "Waar kan je terecht?",
                 "officiële zorgkanalen",
             ]:

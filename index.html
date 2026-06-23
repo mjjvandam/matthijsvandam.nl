@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Orthopedisch chirurg Tilburg | voet, enkel en knie | drs. Matthijs van Dam</title>
+    <title>drs. Matthijs van Dam | Orthopedisch chirurg Tilburg</title>
     <meta
       name="description"
       content="drs. Matthijs van Dam, orthopedisch chirurg in Tilburg voor voet, enkel, knie, sportletsel en leefstijlgerelateerde gewrichtsklachten."
@@ -40,38 +40,96 @@
     <link rel="icon" href="assets/logo-mvd-mark-v2.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="assets/logo-mvd-mark-v2.svg">
     <link rel="preload" href="assets/andry-tree-waiting-room-hero-optimized.jpg" as="image">
-    <link rel="stylesheet" href="styles.css?v=20260613privacy1">
+    <link rel="stylesheet" href="styles.css?v=20260619hub1">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "drs. M.J.J. (Matthijs) van Dam",
-        "url": "https://matthijsvandam.nl/",
-        "image": "https://matthijsvandam.nl/assets/portrait-matthijs-van-dam.jpg",
-        "jobTitle": "Orthopedisch chirurg en zelfstandig adviseur op projectbasis",
-        "worksFor": [
+        "@graph": [
           {
-            "@type": "MedicalOrganization",
-            "name": "Orthopedisch Centrum ETZ"
+            "@type": "WebSite",
+            "@id": "https://matthijsvandam.nl/#website",
+            "name": "drs. Matthijs van Dam",
+            "url": "https://matthijsvandam.nl/",
+            "inLanguage": "nl-NL",
+            "publisher": {
+              "@id": "https://matthijsvandam.nl/#matthijs-van-dam"
+            }
           },
           {
-            "@type": "Organization",
-            "name": "Zorgontwikkeling en orthopedisch onderzoek"
+            "@type": "ProfilePage",
+            "@id": "https://matthijsvandam.nl/#profilepage",
+            "name": "drs. Matthijs van Dam",
+            "url": "https://matthijsvandam.nl/",
+            "inLanguage": "nl-NL",
+            "isPartOf": {
+              "@id": "https://matthijsvandam.nl/#website"
+            },
+            "mainEntity": {
+              "@id": "https://matthijsvandam.nl/#matthijs-van-dam"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://matthijsvandam.nl/#matthijs-van-dam",
+            "name": "drs. M.J.J. (Matthijs) van Dam",
+            "givenName": "Matthijs",
+            "familyName": "van Dam",
+            "honorificPrefix": "drs.",
+            "alternateName": [
+              "Matthijs van Dam",
+              "M.J.J. van Dam",
+              "drs. Matthijs van Dam"
+            ],
+            "url": "https://matthijsvandam.nl/",
+            "mainEntityOfPage": "https://matthijsvandam.nl/",
+            "image": "https://matthijsvandam.nl/assets/portrait-matthijs-van-dam.jpg",
+            "jobTitle": [
+              "Orthopedisch chirurg",
+              "Zelfstandig adviseur zorgontwikkeling"
+            ],
+            "worksFor": {
+              "@type": "MedicalOrganization",
+              "name": "Orthopedisch Centrum ETZ",
+              "url": "https://www.etz.nl/specialisme/orthopedie/",
+              "parentOrganization": {
+                "@type": "Hospital",
+                "name": "Elisabeth-TweeSteden Ziekenhuis",
+                "url": "https://www.etz.nl/"
+              }
+            },
+            "sameAs": [
+              "https://www.etz.nl/specialist/m-j-j-van-dam/",
+              "https://nl.linkedin.com/in/mjjvandam"
+            ],
+            "alumniOf": [
+              {
+                "@type": "CollegeOrUniversity",
+                "name": "Vrije Universiteit Amsterdam"
+              },
+              {
+                "@type": "CollegeOrUniversity",
+                "name": "Amsterdam UMC"
+              },
+              {
+                "@type": "MedicalOrganization",
+                "name": "Sint Maartenskliniek"
+              }
+            ],
+            "knowsAbout": [
+              "Voet- en enkelklachten",
+              "Voet- en enkelchirurgie",
+              "Sportletsel",
+              "Artrose van de knie",
+              "Leefstijlgerelateerde gewrichtsklachten",
+              "Obesitas in orthopedische zorg",
+              "Zorginnovatie",
+              "3D-ontwikkeling",
+              "AI in de zorg",
+              "Orthopedisch onderzoek en onderwijs"
+            ],
+            "description": "drs. M.J.J. (Matthijs) van Dam is orthopedisch chirurg in Tilburg met aandacht voor voet, enkel, knie, sportletsel en leefstijlgerelateerde gewrichtsklachten. De site is geen patiëntportaal en biedt geen medisch advies op maat."
           }
-        ],
-        "knowsAbout": [
-          "Voet- en enkelklachten",
-          "Voet- en enkelchirurgie",
-          "Sportletsel",
-          "Artrose van de knie",
-          "Leefstijlgerelateerde gewrichtsklachten",
-          "Obesitas in orthopedische zorg",
-          "Zorginnovatie",
-          "3D-ontwikkeling",
-          "AI in de zorg",
-          "Orthopedisch onderzoek en onderwijs"
-        ],
-        "description": "drs. M.J.J. (Matthijs) van Dam is orthopedisch chirurg in Tilburg met aandacht voor voet, enkel, knie, sportletsel en leefstijlgerelateerde gewrichtsklachten. De site is geen patiëntportaal en biedt geen medisch advies op maat."
+        ]
       }
     </script>
   </head>
@@ -88,7 +146,7 @@
       </button>
       <nav class="site-nav" aria-label="Hoofdnavigatie" data-nav>
         <a href="over-mij.html">Over</a>
-        <a href="#behandelingen">Behandelingen</a>
+        <a href="#behandelingen">Klachten en behandelingen</a>
         <a href="professionals.html">Professionals</a>
         <a href="advies-consultancy.html">Advies</a>
         <a href="#projecten">Projecten</a>
@@ -121,7 +179,7 @@
             <a href="projecten/we-walk.html">We Walk</a>.
           </p>
           <p class="hero-copy hero-copy-secondary">
-            <a href="over-mij.html">Meer over mij</a>
+            <a href="over-mij.html">Meer over Matthijs van Dam</a>
           </p>
           <p class="hero-disclaimer">
             Deze site is geen patiëntportaal en biedt geen medisch advies op maat.
@@ -160,10 +218,9 @@
 
       <section class="section work-band" id="behandelingen" aria-labelledby="expertise-title">
         <div class="section-heading">
-          <p class="section-kicker">Behandelingen</p>
-          <h2 id="expertise-title">Behandelingen en aandachtsgebieden</h2>
+          <h2 id="expertise-title">Klachten en behandelingen</h2>
         </div>
-        <div class="filter-panel expertise-home-panel" data-card-filter-panel data-filter-target="#expertise-home-grid" data-visible-limit="4" aria-label="Behandelingen filters">
+        <div class="filter-panel expertise-home-panel" data-card-filter-panel data-filter-target="#expertise-home-grid" data-visible-limit="4" aria-label="Filters voor klachten en behandelingen">
           <div class="filter-group" data-filter-group="topic">
             <div class="filter-bar">
               <button class="filter-button is-active" type="button" aria-pressed="true" data-filter="voorvoet">Voorvoet</button>
@@ -175,72 +232,72 @@
             </div>
           </div>
         </div>
-        <div class="section-actions expertise-home-actions" aria-label="Meer behandelingen">
-          <p class="expertise-home-note" data-filter-summary-note>Hier staan maximaal vier voorvoetonderwerpen.</p>
-          <a class="article-link" href="behandelingen.html?topic=voorvoet" data-filter-summary-link data-base-href="behandelingen.html">Bekijk alle voorvoetbehandelingen</a>
+        <div class="section-actions expertise-home-actions" aria-label="Meer onderwerpen">
+          <p class="expertise-home-note" data-filter-summary-note>Een selectie van vier voorvoetonderwerpen.</p>
+          <a class="article-link" href="behandelingen.html?topic=voorvoet" data-filter-summary-link data-base-href="behandelingen.html">Bekijk alle voorvoetonderwerpen</a>
         </div>
         <div class="article-grid expertise-home-grid" id="expertise-home-grid">
-          <article class="article-card expertise-card" data-topic="voorvoet" data-type="klacht behandeling" data-search="scheve grote teen knobbel bunion pijn grote teen schoenprobleem hallux abducto valgus teen staat scheef">
+          <article class="article-card expertise-card" data-url="behandelingen/hallux-valgus.html" data-topic="voorvoet" data-type="klachten aandoening" data-search="scheve grote teen knobbel bunion pijn grote teen schoenprobleem hallux abducto valgus teen staat scheef">
             <div class="article-card-body"><div>
-              <p class="article-label">Voorvoet</p>
+              <p class="article-label">Aandoening</p>
               <h3>Hallux valgus</h3>
-              <p>Scheefstand van de grote teen met pijn of schoenproblemen. Als niet-operatieve maatregelen onvoldoende helpen, kan een operatieve standcorrectie worden besproken.</p>
+              <p>Scheefstand van de grote teen met pijn, druk of schoenproblemen. Beoordeling hangt af van klachten, stand, huiddruk en eerdere maatregelen.</p>
             </div></div>
           </article>
-          <article class="article-card expertise-card" data-topic="voorvoet" data-type="klacht behandeling" data-search="stijve grote teen pijn grote teen artrose grote teen niet kunnen afwikkelen pijn bij afwikkelen mtp1 mtp-1 cheilectomie artrodese">
+          <article class="article-card expertise-card" data-url="behandelingen/hallux-rigidus.html" data-topic="voorvoet" data-type="klachten aandoening" data-search="stijve grote teen pijn grote teen artrose grote teen niet kunnen afwikkelen pijn bij afwikkelen mtp1 mtp-1 cheilectomie artrodese">
             <div class="article-card-body"><div>
-              <p class="article-label">Voorvoet</p>
+              <p class="article-label">Aandoening</p>
               <h3>Hallux rigidus</h3>
-              <p>Artrose van het grote-teengewricht met pijn bij afwikkelen. Operatieve opties kunnen gewrichtssparend zijn of juist bestaan uit vastzetten van het gewricht.</p>
+              <p>Artrose en stijfheid van het grote-teengewricht, vaak met pijn bij afwikkelen of moeite met schoenen.</p>
             </div></div>
           </article>
-          <article class="article-card expertise-card" data-topic="voorvoet" data-type="klacht behandeling" data-search="kromme teen kromme tenen klauwteen hamerteen drukplek teen eelt teen teenstand teen krom">
+          <article class="article-card expertise-card" data-url="behandelingen/hamerteen-klauwteen.html" data-topic="voorvoet" data-type="klachten aandoening" data-search="kromme teen kromme tenen klauwteen hamerteen drukplek teen eelt teen teenstand teen krom">
             <div class="article-card-body"><div>
-              <p class="article-label">Voorvoet</p>
+              <p class="article-label">Aandoening</p>
               <h3>Hamerteen en klauwteen</h3>
-              <p>Teenstandafwijkingen kunnen druk, eelt en wondjes geven. Bij blijvende klachten kan operatie gericht zijn op pezen, gewrichten of botstand.</p>
+              <p>Teenstandafwijkingen kunnen druk, eelt, wondjes of schoenproblemen geven. De oorzaak en flexibiliteit van de teen zijn belangrijk.</p>
             </div></div>
           </article>
-          <article class="article-card expertise-card" data-topic="voorvoet" data-type="klacht" data-search="pijn bal voet voorvoetpijn zenuwpijn tenen brandende pijn tintelingen mortonse neuralgie morton neuroom metatarsalgie">
+          <article class="article-card expertise-card" data-url="behandelingen/metatarsalgie.html" data-topic="voorvoet" data-type="klachten klachtbeeld" data-search="pijn bal voet voorvoetpijn zenuwpijn tenen brandende pijn tintelingen mortonse neuralgie morton neuroom metatarsalgie">
             <div class="article-card-body"><div>
-              <p class="article-label">Voorvoet</p>
-              <h3>Metatarsalgie en Morton neuroom</h3>
-              <p>Pijn onder de bal van de voet of zenuwirritatie tussen de middenvoetsbeentjes. Operatie is selectief en vraagt analyse van druk, stand en belasting.</p>
+              <p class="article-label">Klachtbeeld</p>
+              <h3>Metatarsalgie</h3>
+              <p>Pijn onder de bal van de voet is een beschrijving van een klachtgebied, geen sluitende diagnose.</p>
             </div></div>
           </article>
-          <article class="article-card expertise-card" data-topic="voorvoet" data-type="klacht behandeling" data-search="knobbel kleine teen bunionette tailor bunion pijn buitenkant voet vijfde teen vijfde middenvoetsbeentje">
+          <article class="article-card expertise-card" data-url="behandelingen/morton-neuroom.html" data-topic="voorvoet" data-type="klachten aandoening" data-search="morton neuroom zenuwpijn tenen brandende pijn tintelingen doof gevoel tussen tenen mortonse neuralgie">
             <div class="article-card-body"><div>
-              <p class="article-label">Voorvoet</p>
-              <h3>Tailor's bunion</h3>
-              <p>Pijnlijke knobbel aan de buitenzijde van de voorvoet. Als drukontlasting niet genoeg helpt, kan correctie van het vijfde middenvoetsbeentje worden besproken.</p>
+              <p class="article-label">Aandoening</p>
+              <h3>Morton neuroom</h3>
+              <p>Zenuwirritatie tussen de middenvoetsbeentjes kan brandende pijn, tintelingen of uitstraling naar de tenen geven.</p>
             </div></div>
           </article>
-          <article class="article-card expertise-card" data-topic="enkel sport" data-type="klacht herstel" data-search="enkel verzwikt enkel verstuikt dikke enkel pijn na verzwikken enkelbandletsel door enkel gegaan inversietrauma">
+          <article class="article-card expertise-card" data-url="behandelingen/enkelverzwikking.html" data-topic="enkel sport" data-type="klachten letsel" data-search="enkel verzwikt enkel verstuikt dikke enkel pijn na verzwikken enkelbandletsel door enkel gegaan inversietrauma">
             <div class="article-card-body"><div>
-              <p class="article-label">Enkel</p>
+              <p class="article-label">Letsel</p>
               <h3>Enkelverzwikking</h3>
-              <p>Na een verzwikking kunnen pijn en instabiliteit blijven bestaan. Operatie is niet standaard, maar beoordeling is zinvol bij aanhoudend doorzwikken of letsel.</p>
+              <p>Na een verzwikking kunnen pijn, zwelling en onzekerheid blijven bestaan. Ernst en herstel verschillen per situatie.</p>
             </div></div>
           </article>
-          <article class="article-card expertise-card" data-topic="enkel sport" data-type="klacht behandeling herstel" data-search="enkel zakt door doorzwikken instabiele enkel enkelbanden gescheurd enkelband reconstructie enkel blijft zwikken">
+          <article class="article-card expertise-card" data-url="behandelingen/chronische-enkelinstabiliteit.html" data-topic="enkel sport" data-type="klachten aandoening" data-search="enkel zakt door doorzwikken instabiele enkel enkelbanden gescheurd enkelband reconstructie enkel blijft zwikken">
             <div class="article-card-body"><div>
-              <p class="article-label">Enkel</p>
+              <p class="article-label">Aandoening</p>
               <h3>Chronische enkelinstabiliteit</h3>
-              <p>Blijvend doorzwikken door bandletsel. Als oefentherapie onvoldoende stabiliteit geeft, kan herstel of versteviging van de enkelbanden worden besproken.</p>
+              <p>Blijvend doorzwikken of onzekerheid na bandletsel vraagt onderscheid tussen kracht, coördinatie, stand en mechanische stabiliteit.</p>
             </div></div>
           </article>
-          <article class="article-card expertise-card" data-topic="enkel sport" data-type="behandeling" data-search="kijkoperatie enkel arthroscopie enkel artroscopie enkel schoonmaken enkel impingement kraakbeenletsel enkel losse stukjes enkel blokkeren">
+          <article class="article-card expertise-card" data-url="behandelingen/anterieur-enkel-impingement.html" data-topic="enkel sport" data-type="klachten aandoening" data-search="kijkoperatie enkel arthroscopie enkel artroscopie schoonmaken enkel impingement kraakbeenletsel losse stukjes blokkeren voorzijde enkel pijn">
             <div class="article-card-body"><div>
-              <p class="article-label">Enkel</p>
-              <h3>Kijkoperatie enkel</h3>
-              <p>Een kijkoperatie kan bij geselecteerde enkelklachten worden gebruikt voor beoordeling en behandeling van inklemming, losse fragmenten of kraakbeenletsel.</p>
+              <p class="article-label">Aandoening</p>
+              <h3>Anterieur enkelimpingement</h3>
+              <p>Inklemmingsklachten aan de voorzijde van de enkel kunnen pijn geven bij buigen, sport of hurken.</p>
             </div></div>
           </article>
-          <article class="article-card expertise-card" data-topic="enkel sport" data-type="behandeling herstel" data-search="enkelbandoperatie enkelband reconstructie enkelband herstel enkel zakt door doorzwikken chronische enkelinstabiliteit ligament reconstructie">
+          <article class="article-card expertise-card" data-url="behandelingen/posterieur-enkel-impingement.html" data-topic="enkel sport achtervoet" data-type="klachten aandoening" data-search="posterieur enkelimpingement pijn achterkant enkel pijn bij spitsen diepe buiging enkel">
             <div class="article-card-body"><div>
-              <p class="article-label">Enkel</p>
-              <h3>Enkelbandoperatie</h3>
-              <p>Bij blijvende instabiliteit kan een operatie gericht zijn op herstel of versteviging van de enkelbanden, vaak pas na gerichte oefentherapie.</p>
+              <p class="article-label">Aandoening</p>
+              <h3>Posterieur enkelimpingement</h3>
+              <p>Pijn achter in de enkel kan optreden bij spitsstand, diepe buiging, dans of sportbelasting.</p>
             </div></div>
           </article>
           <article class="article-card expertise-card" data-topic="enkel sport" data-type="klacht behandeling" data-search="inklemming enkel pijn voorkant enkel pijn achterkant enkel voetbalenkel anterieure impingement posterieure impingement enkel blokkeert">
@@ -361,9 +418,12 @@
 
       <section class="section location-band" id="locaties" aria-labelledby="locations-title">
         <div class="location-layout">
-          <div class="location-copy">
+          <div class="location-heading">
             <p class="section-kicker">Vakgroep Orthopedie</p>
             <h2 id="locations-title">Orthopedisch Centrum ETZ Tilburg</h2>
+          </div>
+
+          <div class="location-copy">
             <p>
               drs. Matthijs van Dam is onderdeel van de vakgroep Orthopedie binnen het Orthopedisch
               Centrum ETZ. Binnen deze vakgroep kunnen patiënten terecht voor het volledige spectrum van
@@ -372,9 +432,7 @@
             </p>
             <p>
               De vakgroep draait mee in belangrijke pijlers van het ETZ, zoals traumazorg,
-              wervelkolomzorg, oncologische zorg en passende zorg. Daardoor staat behandeling binnen
-              zijn aandachtsgebieden niet los van bredere ziekenhuisexpertise, nazorg en samenwerking
-              met andere zorgverleners.
+              wervelkolomzorg, oncologische zorg en passende zorg.
             </p>
             <p>
               Daarnaast draagt de vakgroep bij aan opleiding en kennisontwikkeling. Binnen het
@@ -396,12 +454,10 @@
 
       <section class="section process" id="projecten" aria-labelledby="projects-title">
         <div class="section-heading">
-          <p class="section-kicker">Projecten</p>
           <h2 id="projects-title">Lopende projecten</h2>
           <p>
             Een selectie van projecten uit de praktijk in Tilburg en daarbuiten, op het snijvlak van
-            orthopedie, leefstijl, onderzoek, onderwijs en digitale zorgontwikkeling. Bekijk daarnaast ook de
-            <a href="publicaties.html">publicaties en bijdragen</a>.
+            orthopedie, leefstijl, onderzoek, onderwijs en digitale zorgontwikkeling.
           </p>
         </div>
         <div class="article-grid project-grid" data-content="home-projects"></div>
@@ -412,7 +468,6 @@
 
       <section class="section articles-band" id="artikelen" aria-labelledby="articles-title">
         <div class="section-heading">
-          <p class="section-kicker">Updates</p>
           <h2 id="articles-title">Recente artikelen en updates</h2>
         </div>
         <div class="article-grid" data-article-grid data-content="home-articles" data-limit="4"></div>
@@ -423,9 +478,9 @@
 
       <section class="section publication-band" id="publicaties" aria-labelledby="publication-title">
         <div class="section-heading">
-          <h2 id="publication-title">Recente publicaties en bijdragen</h2>
+          <h2 id="publication-title">Publicaties en bijdragen</h2>
         </div>
-        <div class="publication-list publication-list-compact" aria-label="Recente publicaties en bijdragen">
+        <div class="publication-list publication-list-compact" aria-label="Publicaties en bijdragen">
           <article class="publication-card">
             <div class="publication-meta">
               <span>2026</span>
@@ -471,84 +526,117 @@
       <section class="section contact" id="contact" aria-labelledby="contact-title">
         <div class="contact-panel">
           <div>
-            <p class="section-kicker">Contact</p>
             <h2 id="contact-title">Contact en samenwerking</h2>
             <p>
-              Deze website is geen patiëntportaal. Voor afspraken, patiëntenzorg en medische vragen
-              blijven de officiële ETZ-kanalen de juiste route. drs. van Dam werkt als tweedelijns
-              zorgverlener; bij nieuwe of niet-acute klachten loopt verwijzing meestal via de huisarts
-              en, waar passend, in overleg met de fysiotherapeut.
+              De juiste route hangt af van je vraag. Deze website is geen patiëntportaal en is niet
+              bedoeld voor medische vragen over persoonlijke situaties, afspraken of lopende zorg.
             </p>
           </div>
           <div class="contact-routes" aria-label="Contactroutes">
-            <article>
-              <strong>Patiëntenzorg via het ETZ</strong>
-              <p>
-                Voor afspraken, verwijzingen, praktische ziekenhuisinformatie en vragen over lopende zorg kun
-                je contact opnemen met de
-                <a href="https://www.etz.nl/specialisme/orthopedie/" rel="noopener">polikliniek Orthopedie van het ETZ</a>.
-                drs. van Dam werkt op locatie
-                <a href="https://www.etz.nl/locaties/etz-tweesteden/" rel="noopener">ETZ TweeSteden</a> en
-                <a href="https://www.etz.nl/locaties/etz-elisabeth/" rel="noopener">ETZ Elisabeth</a>.
-              </p>
-              <div class="contact-location-cards">
-                <div>
-                  <span class="location-icon" aria-hidden="true"></span>
+            <details class="contact-route-card">
+              <summary>
+                <span class="contact-route-label">Ik ben patiënt</span>
+                <strong>Patiëntenzorg loopt via het ETZ</strong>
+              </summary>
+              <div class="contact-route-content">
+                <p>
+                  Voor afspraken, verwijzingen, uitslagen, praktische ziekenhuisinformatie en vragen over
+                  lopende zorg zijn de officiële ETZ-kanalen de juiste route. Bij nieuwe of niet-acute
+                  klachten begint de route meestal bij de huisarts.
+                </p>
+                <p>
+                  Voor algemene informatie over orthopedie in het ETZ kun je terecht bij de
+                  <a href="https://www.etz.nl/specialisme/orthopedie/" rel="noopener">polikliniek Orthopedie van het ETZ</a>.
+                  drs. van Dam werkt op locatie
+                  <a href="https://www.etz.nl/locaties/etz-tweesteden/" rel="noopener">ETZ TweeSteden</a> en
+                  <a href="https://www.etz.nl/locaties/etz-elisabeth/" rel="noopener">ETZ Elisabeth</a>.
+                </p>
+                <p>
+                  Controleer actuele contact-, locatie- en route-informatie altijd op etz.nl; officiële
+                  ETZ-informatie is leidend.
+                </p>
+                <div class="contact-location-cards">
                   <div>
-                    <h3>ETZ Elisabeth</h3>
-                    <p>Hilvarenbeekseweg 60<br>5022 GC Tilburg</p>
-                    <p class="location-route">Route 47</p>
+                    <span class="location-icon" aria-hidden="true"></span>
+                    <div>
+                      <h3>ETZ Elisabeth</h3>
+                      <p>Hilvarenbeekseweg 60<br>5022 GC Tilburg</p>
+                      <p class="location-route">Route 47</p>
+                    </div>
+                  </div>
+                  <div>
+                    <span class="location-icon" aria-hidden="true"></span>
+                    <div>
+                      <h3>ETZ TweeSteden</h3>
+                      <p>Dr. Deelenlaan 5<br>5042 AD Tilburg</p>
+                      <p class="location-route">Route 73</p>
+                    </div>
                   </div>
                 </div>
-                <div>
-                  <span class="location-icon" aria-hidden="true"></span>
+                <dl class="contact-details" aria-label="Polikliniek Orthopedie ETZ">
                   <div>
-                    <h3>ETZ TweeSteden</h3>
-                    <p>Dr. Deelenlaan 5<br>5042 AD Tilburg</p>
-                    <p class="location-route">Route 73</p>
+                    <dt>Direct nummer</dt>
+                    <dd><a href="tel:+31132210330">(013) 221 03 30</a></dd>
+                  </div>
+                  <div>
+                    <dt>Telefonisch bereikbaar</dt>
+                    <dd>maandag tot en met vrijdag: 09.00-11.30 uur en 13.30-16.00 uur</dd>
+                  </div>
+                </dl>
+                <div class="contact-map-frame map-frame map-link-card" aria-labelledby="contact-map-title">
+                  <span class="location-icon" aria-hidden="true"></span>
+                  <div class="map-link-content">
+                    <h3 id="contact-map-title">Route naar Orthopedisch Centrum ETZ Tilburg</h3>
+                    <p>
+                      De kaart wordt niet automatisch geladen. Zo blijft deze pagina vrij van externe
+                      kaartcookies of tracking voordat je zelf een route opent.
+                    </p>
+                    <a
+                      class="article-link"
+                      href="https://www.google.com/maps/search/?api=1&query=Orthopedisch%20Centrum%20ETZ%20Tilburg"
+                      rel="noopener"
+                      target="_blank"
+                    >Open route in Google Maps</a>
                   </div>
                 </div>
               </div>
-              <dl class="contact-details" aria-label="Polikliniek Orthopedie ETZ">
-                <div>
-                  <dt>Direct nummer</dt>
-                  <dd><a href="tel:+31132210330">(013) 221 03 30</a></dd>
-                </div>
-                <div>
-                  <dt>Telefonisch bereikbaar</dt>
-                  <dd>maandag tot en met vrijdag: 09.00-11.30 uur en 13.30-16.00 uur</dd>
-                </div>
-              </dl>
-              <div class="contact-map-frame map-frame map-link-card" aria-labelledby="contact-map-title">
-                <span class="location-icon" aria-hidden="true"></span>
-                <div class="map-link-content">
-                  <h3 id="contact-map-title">Route naar Orthopedisch Centrum ETZ Tilburg</h3>
-                  <p>
-                    De kaart wordt niet automatisch geladen. Zo blijft deze pagina vrij van externe
-                    kaartcookies of tracking voordat je zelf een route opent.
-                  </p>
-                  <a
-                    class="article-link"
-                    href="https://www.google.com/maps/search/?api=1&query=Orthopedisch%20Centrum%20ETZ%20Tilburg"
-                    rel="noopener"
-                    target="_blank"
-                  >Open route in Google Maps</a>
-                </div>
+            </details>
+            <details class="contact-route-card">
+              <summary>
+                <span class="contact-route-label">Ik werk in de zorg</span>
+                <strong>Professionele afstemming</strong>
+              </summary>
+              <div class="contact-route-content">
+                <p>
+                  Voor verwijzers en regionale (para)medici is er een aparte pagina over korte lijnen,
+                  samenwerking rond beweegzorg en professionele afstemming.
+                </p>
+                <p>
+                  Deel via deze website geen medische gegevens, foto's, verwijsbrieven of vragen over
+                  lopende patiëntenzorg. Gebruik daarvoor de officiële zorgkanalen.
+                </p>
+                <a class="article-link" href="professionals.html">Naar de pagina voor professionals</a>
               </div>
-            </article>
-            <article>
-              <strong>Samenwerking en zorgontwikkeling</strong>
-              <p>
-                Voor vragen rond lopende projecten of professionele samenwerking loopt contact via de
-                betrokken projectorganisaties, zoals ETZ, NOV of samenwerkingspartners. Bekijk ook de
-                pagina <a href="advies-consultancy.html">advies en consultancy</a>. Deel via deze website geen medische gegevens.
-              </p>
-              <p class="professional-email-note">
-                Voor een eerste vraag over advies, consultancy of projectontwikkeling kan
-                <a href="#" data-professional-email data-user="murtnechcsidepotro" data-domain="ln.zte">per e-mail</a>
-                contact worden opgenomen. Gebruik deze route niet voor patiëntvragen of afspraken.
-              </p>
-            </article>
+            </details>
+            <details class="contact-route-card">
+              <summary>
+                <span class="contact-route-label">Ik zoek advies of samenwerking</span>
+                <strong>Niet-patiëntgebonden advies, onderwijs of projecten</strong>
+              </summary>
+              <div class="contact-route-content">
+                <p>
+                  Voor advies op projectbasis, presentaties, onderwijs, dagvoorzitterschap of
+                  zorgontwikkeling is er een aparte adviespagina. Dit gaat niet over persoonlijke
+                  medische vragen of lopende patiëntenzorg.
+                </p>
+                <a class="article-link" href="advies-consultancy.html">Naar advies en consultancy</a>
+                <p class="professional-email-note">
+                  Voor een eerste vraag over advies, consultancy of projectontwikkeling kan
+                  <a href="#" data-professional-email data-user="murtnechcsidepotro" data-domain="ln.zte">per e-mail</a>
+                  contact worden opgenomen. Gebruik deze route niet voor patiëntvragen of afspraken.
+                </p>
+              </div>
+            </details>
           </div>
         </div>
       </section>
@@ -574,7 +662,7 @@
       </span>
     </footer>
 
-    <script src="content.js?v=20260612book"></script>
-    <script src="script.js?v=20260612analytics1"></script>
+    <script src="content.js?v=20260619hub1"></script>
+    <script src="script.js?v=20260619hub1"></script>
   </body>
 </html>
