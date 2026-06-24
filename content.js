@@ -167,7 +167,7 @@
       title: "AIOS-onderwijs voet en enkel in München",
       label: "Onderwijs",
       summary:
-        "Persoonlijke terugblik op hands-on onderwijs voor orthopedie-aios over voet- en enkelchirurgie, techniek en klinisch redeneren.",
+        "Korte terugblik op hands-on voet- en enkelonderwijs voor orthopedie-aios in München.",
       image: "assets/article-aios-foot-education-munich.jpg",
       imageAlt: "Hands-on voet- en enkelonderwijs met anatomisch model in een skills lab",
       url: "artikelen/aios-foot-education-munich.html",
@@ -181,7 +181,7 @@
       title: "Probleemgeoriënteerd denken in de orthopedie: bijdragen over voet en enkel",
       label: "Onderwijs",
       summary:
-        "Korte toelichting op mijn bijdragen aan het leerboek over enkel- en voetanatomie en klinisch redeneren bij enkelklachten.",
+        "Kort bericht over mijn bijdragen aan het leerboek over enkel- en voetanatomie en klinisch redeneren.",
       image: "assets/article-probleemgeorienteerd-denken-orthopedie-cover.jpg",
       imageAlt: "Cover van het leerboek Probleemgeoriënteerd denken in de orthopedie",
       url: "artikelen/probleemgeorienteerd-denken-orthopedie-boekbijdrage.html",

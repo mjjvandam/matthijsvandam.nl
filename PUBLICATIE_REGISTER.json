@@ -116,10 +116,10 @@
       "path": "artikelen/we-walk-ar-campusroute-tilburg.html",
       "title": "We Walk AR-prototype op Tilburg University",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
-      "verified_by": "",
-      "verified_on": "",
-      "review_notes": "Initieel opgenomen vanuit sitemap.xml; inhoudelijke verificatie door Matthijs nodig."
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-24",
+      "review_notes": "Artikel over We Walk AR-campusroute inhoudelijk akkoord gegeven door Matthijs."
     },
     {
       "path": "artikelen/patientpanel-leefstijl-orthopedie.html",
@@ -144,10 +144,10 @@
       "path": "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html",
       "title": "Niet vastgegroeide artrodese en revisie",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
-      "verified_by": "",
-      "verified_on": "",
-      "review_notes": "Initieel opgenomen vanuit sitemap.xml; inhoudelijke verificatie door Matthijs nodig."
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-24",
+      "review_notes": "Patiëntartikel over niet vastgegroeide artrodese en revisie inhoudelijk akkoord gegeven door Matthijs."
     },
     {
       "path": "artikelen/patient-specifieke-instrumentatie-voet-enkel-professionals.html",
@@ -162,19 +162,19 @@
       "path": "artikelen/aios-foot-education-munich.html",
       "title": "AIOS-onderwijs voet en enkel in Munchen | drs. Matthijs van Dam",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
-      "verified_by": "",
-      "verified_on": "",
-      "review_notes": "Initieel opgenomen vanuit sitemap.xml; inhoudelijke verificatie door Matthijs nodig."
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-24",
+      "review_notes": "Artikel over AIOS-onderwijs voet en enkel in München inhoudelijk akkoord gegeven door Matthijs na inkorten en toonaanpassing."
     },
     {
       "path": "artikelen/probleemgeorienteerd-denken-orthopedie-boekbijdrage.html",
       "title": "Probleemgeorienteerd denken in de orthopedie | drs. Matthijs van Dam",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
-      "verified_by": "",
-      "verified_on": "",
-      "review_notes": "Initieel opgenomen vanuit sitemap.xml; inhoudelijke verificatie door Matthijs nodig."
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-24",
+      "review_notes": "Ingekort tot compact bericht en inhoudelijk akkoord gegeven door Matthijs."
     },
     {
       "path": "artikelen/artrosezorg-transitie-professionals.html",
