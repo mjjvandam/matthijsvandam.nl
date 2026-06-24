@@ -47,6 +47,11 @@ Bij zeer kleine technische of tekstuele correcties mag de hoofdredacteur snel ha
 van bron, stijl en medische veiligheid blijven leidend. Matthijs blijft altijd inhoudelijk en medisch
 eindverantwoordelijk.
 
+Gebruik bij nieuwe pagina's, artikelen, grotere tekstwijzigingen, publicatiegerichte wijzigingen en
+pre-livegangcontroles ook `CODEX_WERKWIJZE.md`. Dat document bevat de praktische werkcyclus,
+opdrachtformats en afrondingsrapportage voor dagelijks gebruik. `REDACTIEKOMPAS.md` blijft de
+inhoudelijke hoofdleidraad; `CODEX_WERKWIJZE.md` vertaalt die afspraken naar uitvoering.
+
 ## Projectdoel
 
 Bouw matthijsvandam.nl uit tot een moderne professionele website voor Matthijs van Dam:

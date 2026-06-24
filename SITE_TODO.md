@@ -278,10 +278,20 @@ Deze pagina's staan lokaal als concept in `behandelingen/` en zijn nog niet bedo
 ## Sitebrede livegang-checks
 
 - Beslis later hoe dominant voet/enkel ten opzichte van knie/leefstijl op de site moet worden. Vraag Matthijs hier opnieuw naar voordat de pijnwijzer publiek wordt: blijft `Klachten en behandelingen` een brede orthopedische hub, of krijgt voet/enkel een duidelijker hoofdroute met knie/leefstijl als apart spoor?
-- Kies voor livegang bewust tussen nette URL's zonder `.html` en bestaande `.html`-URL's. Uitleg: technisch kunnen pagina's zichtbaar zijn als `matthijsvandam.nl/behandelingen/hallux-rigidus` of als `matthijsvandam.nl/behandelingen/hallux-rigidus.html`. Voor bezoekers maakt dat weinig uit, maar voor zoekmachines moet er één voorkeursvorm zijn. Nu staat in `vercel.json` dat nette URL's zonder `.html` mogen werken, terwijl sitemap, canonicals en interne links nog de `.html`-vorm gebruiken. Voor livegang moet dat worden gelijkgetrokken.
+- URL-keuze voor livegang: bestaande `.html`-URL's zijn voorlopig de voorkeursvorm. Sitemap, canonicals en interne links gebruiken `.html`; `vercel.json` forceert geen clean URLs.
 - Controleer het artikeloverzicht op doelgroepfiltering: patiëntgericht, zorgprofessionals en eventuele medewerkers/projectupdates moeten zichtbaar van elkaar gescheiden blijven.
 - Beoordeel toekomstige datum- of evenementartikelen na afloop opnieuw, zodat ze niet als actuele aankondiging blijven staan.
 - De concept-pijnwijzer blijft uitgesloten van normale interne routes en `robots.txt` totdat medische mapping, mobiele controle en publicatiebesluit akkoord zijn.
+
+## Later door Matthijs: zoekmachine-aanmelding
+
+- Google Search Console openen met het Google-account dat voor de site gebruikt mag worden.
+- Domeinproperty `matthijsvandam.nl` toevoegen.
+- Domeineigendom verifiëren via DNS bij TransIP.
+- Sitemap indienen: `https://matthijsvandam.nl/sitemap.xml`.
+- Indexering aanvragen voor homepage, `behandelingen.html`, `over-mij.html`, `professionals.html`, `projecten.html`, `artikelen.html` en de belangrijkste artikelen/projectpagina's.
+- Bing Webmaster Tools openen en de site importeren vanuit Google Search Console.
+- Na livegang controleren of `https://matthijsvandam.nl/robots.txt` en `https://matthijsvandam.nl/sitemap.xml` publiek bereikbaar zijn.
 
 ## Redactioneel nog beoordelen
 

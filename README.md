@@ -59,6 +59,10 @@ Aanwezig:
 
 ## Publicatieverificatie
 
+Gebruik `CODEX_WERKWIJZE.md` als praktisch werkprotocol voor Codex-opdrachten, reviews en
+pre-publicatiechecks. `REDACTIEKOMPAS.md` blijft de inhoudelijke hoofdleidraad; het werkprotocol
+bevat de vaste opdrachtformats, staffronde en afrondingsrapportage.
+
 Alle pagina's die gepubliceerd zijn, moeten intern door Matthijs zijn geverifieerd voordat de site
 actief breder wordt gedeeld. Een pagina geldt als gepubliceerd wanneer deze meegaat in de deployment,
 via de openbare navigatie bereikbaar is, in `sitemap.xml` staat of
@@ -111,6 +115,7 @@ Controleer voor het pushen lokaal:
 
 - structurele sitecheck: `python3 tools/check_site_quality.py`;
 - publicatieverificatie: `python3 tools/check_publication_verification.py`;
+- SEO-basischeck: `python3 tools/check_seo_basics.py`;
 - homepage: hero, biografie, behandelingen, projecten, artikelen, publicaties en contactroutes;
 - `behandelingen.html`: filters, zoekfunctie en behandelingen/aandachtsgebieden;
 - `artikelen.html`: filters en alle artikelkaarten;

@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import re
+import subprocess
 from collections import Counter
 from dataclasses import dataclass
 from html.parser import HTMLParser
@@ -135,10 +136,34 @@ def load_register() -> tuple[dict[str, dict[str, Any]], list[tuple[str, str]]]:
     return by_path, issues
 
 
+def tracked_modified_paths() -> set[str]:
+    try:
+        output = subprocess.check_output(
+            ["git", "status", "--short"],
+            cwd=ROOT,
+            text=True,
+        )
+    except (FileNotFoundError, subprocess.CalledProcessError):
+        return set()
+
+    paths: set[str] = set()
+    for line in output.splitlines():
+        if len(line) < 4:
+            continue
+        status = line[:2]
+        if status == "??":
+            continue
+        path = line[3:].strip()
+        if path:
+            paths.add(path)
+    return paths
+
+
 def run_checks() -> tuple[list[tuple[str, str]], dict[str, int]]:
     issues: list[tuple[str, str]] = []
     sitemap = sitemap_paths()
     register, register_issues = load_register()
+    modified_paths = tracked_modified_paths()
     issues.extend(register_issues)
 
     pages = {
@@ -169,6 +194,8 @@ def run_checks() -> tuple[list[tuple[str, str]], dict[str, int]]:
         else:
             review_needed.append(path)
             issues.append(("published_page_not_verified", f"{path}: {status}"))
+        if path in modified_paths:
+            issues.append(("published_page_changed_since_verification", path))
 
         if info.in_sitemap and not info.index_follow:
             issues.append(("sitemap_page_not_index_follow", f"{path}: robots={info.robots or 'ontbreekt'}"))
