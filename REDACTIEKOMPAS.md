@@ -62,6 +62,31 @@ of patiëntgebonden medische vragen.
    maar niet als expliciete homepage-prominentie of hoofdnarratief.
 6. Voeg alleen nieuwe visuele patronen toe wanneer bestaande componenten niet voldoen.
 
+## Bronmonitoring en signalen
+
+Gebruik medische media, vaknieuws en commerciële of industriegedreven platforms alleen als radar.
+Een nieuwsartikel is pas een schrijfaanleiding wanneer de achterliggende primaire bron, richtlijn,
+congres-/verenigingsbron of officiële medische bron is gevonden en beoordeeld.
+
+`orthotw.com` is bruikbaar als selectieve signaleringsbron, maar niet als primaire bron voor publicatie.
+Volg alleen de onderdelen die passen bij Matthijs' aandachtsgebieden:
+
+- `Foot & Ankle`: voet- en enkelchirurgie, implantaten, technieken, complicaties en studies.
+- `Sports Medicine`: alleen sportletsel met duidelijke knie-, voet-/enkel- of revalidatiekoppeling.
+- `Joints` of `Large Joints`: alleen knieartrose, knieprothese, kraakbeen, obesitas/leefstijl rond
+  artrosezorg en patiëntselectie.
+- `Technology`: 3D-planning, patiënt-specifieke instrumentatie, robotica, AI, wearables en
+  zorgpadtechnologie.
+- `Biologics`: alleen kraakbeen, celtherapie en orthobiologics met duidelijke knie-, voet-/enkel- of
+  sportletselrelevantie.
+- Beleids- of healthcare-policy-artikelen: alleen bij toegang tot zorg, patiëntselectie,
+  waardegedreven zorg, regionale zorgorganisatie of veilige zorgpaden.
+
+Volg `Spine`, `Upper Extremities`, `Company News`, `Power Rankings`, `Legal & Regulatory`,
+advertorials en press releases niet structureel. Gebruik die hooguit als signaal wanneer er een
+duidelijke link is met zorgontwikkeling, technologie of de eigen aandachtsgebieden. Artikelen ouder
+dan 12 maanden zijn in principe context of historische achtergrond, geen actuele aanleiding.
+
 ## Werkproces met uitvoerende rollen
 
 De hoofdredacteur bewaakt doel, doelgroep, volgorde, kwaliteit en publicatierijpheid. Uitvoerend werk

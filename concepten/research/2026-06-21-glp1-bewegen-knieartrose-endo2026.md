@@ -211,7 +211,6 @@ Invalshoek:
 
 ## Interne links
 
-- `artikelen/leefstijlzorg-tweede-lijn-professionals.html`
 - `artikelen/artrosezorg-transitie-professionals.html`
 - `artikelen/digitaal-zorgpad-artrose-obesitas.html`
 - `projecten/leefstijlgerichte-kansen-orthopedie.html`

@@ -4,7 +4,6 @@ doelgroep: "Breed professioneel; toegankelijk voor patiënten, herkenbaar voor c
 beoogde plek: "Artikel in het cluster zorgprofessionals / artrose / leefstijl"
 samenvatting: "Een ENDO 2026-bron liet zien dat volwassenen met obesitas na start van GLP-1-medicatie gemiddeld minder stappen zetten en minder matig tot intensief bewogen. In de orthopedische context is dat relevant, omdat knieartrose niet alleen draait om gewicht, maar ook om spierkracht, belastbaarheid en vertrouwen in bewegen."
 voorgestelde interne links:
-  - artikelen/leefstijlzorg-tweede-lijn-professionals.html
   - artikelen/artrosezorg-transitie-professionals.html
   - artikelen/digitaal-zorgpad-artrose-obesitas.html
   - projecten/leefstijlgerichte-kansen-orthopedie.html

@@ -7,7 +7,6 @@ voorgestelde interne links:
   - artikelen/artrosezorg-transitie-patienten.html
   - artikelen/digitaal-zorgpad-artrose-obesitas.html
   - artikelen/patientpanel-leefstijl-orthopedie.html
-  - artikelen/leefstijlzorg-tweede-lijn-professionals.html
   - projecten/leefstijlgerichte-kansen-orthopedie.html
 researchdossier: "concepten/research/2026-06-19-obesitas-artrose-glp1-bewegen.md"
 media-aanleiding:

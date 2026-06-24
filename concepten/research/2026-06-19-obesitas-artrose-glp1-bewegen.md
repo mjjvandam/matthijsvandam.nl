@@ -105,7 +105,6 @@ Voorgestelde interne links:
 - artikelen/artrosezorg-transitie-patienten.html
 - artikelen/digitaal-zorgpad-artrose-obesitas.html
 - artikelen/patientpanel-leefstijl-orthopedie.html
-- artikelen/leefstijlzorg-tweede-lijn-professionals.html
 - projecten/leefstijlgerichte-kansen-orthopedie.html
 
 ## Publicatie-inschatting

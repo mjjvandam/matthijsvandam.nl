@@ -180,19 +180,10 @@
       "path": "artikelen/artrosezorg-transitie-professionals.html",
       "title": "Artrosezorg in transitie | Professionals",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
-      "verified_by": "",
-      "verified_on": "",
-      "review_notes": "Initieel opgenomen vanuit sitemap.xml; inhoudelijke verificatie door Matthijs nodig."
-    },
-    {
-      "path": "artikelen/leefstijlzorg-tweede-lijn-professionals.html",
-      "title": "Leefstijlzorg in de tweede lijn | Professionals",
-      "spoor": "artikel",
-      "verification_status": "review_nodig",
-      "verified_by": "",
-      "verified_on": "",
-      "review_notes": "Initieel opgenomen vanuit sitemap.xml; inhoudelijke verificatie door Matthijs nodig."
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-24",
+      "review_notes": "Professionalsartikel inhoudelijk akkoord gegeven door Matthijs na herschrijving met meer persoonlijke professionele duiding."
     },
     {
       "path": "artikelen/mobility-clinic-tilburg-patienten.html",
