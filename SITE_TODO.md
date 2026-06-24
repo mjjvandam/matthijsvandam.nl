@@ -40,12 +40,6 @@ Deze pagina's staan lokaal als concept in `behandelingen/` en zijn nog niet bedo
    - Controleer vooral het onderscheid tussen MTP-synovitis/capsulitis, plantaire plaatletsel, metatarsalgie en Morton neuroom.
    - Let extra op formuleringen rond taping, zool, schoenadvies, belasting, beeldvorming en eventuele operatie.
 
-8. `behandelingen/jicht-podagra.html`
-   - Opgewaardeerd naar specialistisch voorbeeldniveau voor de Foot Pain Guide-pagina's.
-   - Controleer vooral de afbakening tussen jicht/podagra, infectie/septische artritis, hallux rigidus, trauma en sesamoidklachten.
-   - Let extra op de medicatiegrens: categorieën mogen algemeen worden genoemd, maar dosering en beleid blijven via de eigen arts.
-   - Check of de orthopedische rol bescheiden genoeg blijft: vooral bij mechanische pijn, schade, tophi, trauma of andere voetdiagnose.
-
 9. `behandelingen/tailors-bunion.html`
    - Opgewaardeerd naar specialistisch voorbeeldniveau voor de Foot Pain Guide-pagina's.
    - Controleer vooral de afbakening tussen bunionette, huiddruk/eelt/likdoorn, slijmbeursirritatie, stressletsel, jicht/infectie en zenuwklachten.
@@ -170,7 +164,7 @@ Deze pagina's staan lokaal als concept in `behandelingen/` en zijn nog niet bedo
 
 27. `behandelingen/hielpijn.html`
    - Opgewaardeerd naar specialistisch hubniveau voor pijn onder de hiel, achter de hiel en diep achter in de enkel.
-   - Controleer vooral dat hielpijn duidelijk als klachtregio wordt gepositioneerd en niet als diagnose.
+   - Controleer vooral dat hielpijn duidelijk als brede pijnplek wordt beschreven en niet als diagnose.
    - Let extra op afbakening tussen peesplaatklachten/hielspoor, vetkussenklachten, achillespeesklachten, Haglund-/retrocalcaneaire slijmbeursklachten, posterieur enkelimpingement, os trigonum, stressreactie/stressfractuur, zenuwirritatie, huidproblemen, jicht/ontstekingsbeelden, infectie en diabetes/neuropathie.
    - Check veiligheidsgrenzen rond trauma, niet kunnen belasten, knap-/scheurmoment, roodheid/warmte, koorts, wond, gevoelsverlies, nachtelijke rustpijn, diabetes met hielklacht en snel progressieve pijn.
    - Check formuleringen rond beeldvorming, hielspoor als bevinding, belasting sturen, schoenadvies, demping, fysiotherapie, zolen, injecties en eventuele operatie zonder diagnose- of behandelclaim.

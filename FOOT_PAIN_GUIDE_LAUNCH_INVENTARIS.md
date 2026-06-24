@@ -6,7 +6,6 @@ Alle inhoudelijke kaarten krijgen een eigen conceptpagina in `behandelingen/`. D
 | --- | --- | --- | --- |
 | Hallux valgus | `behandelingen/hallux-valgus.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Hallux rigidus | `behandelingen/hallux-rigidus.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
-| Jicht / podagra | `behandelingen/jicht-podagra.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Hamerteen en klauwteen | `behandelingen/hamerteen-klauwteen.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Metatarsalgie | `behandelingen/metatarsalgie.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Morton neuroom | `behandelingen/morton-neuroom.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |

@@ -374,7 +374,7 @@ const locationSearchAliases = [
   },
   {
     triggers: ["grote teen", "grote teen gewricht", "grote-teengewricht"],
-    terms: ["grote teen", "hallux", "mtp1", "mtp-1", "jicht", "sesamoid"],
+    terms: ["grote teen", "hallux", "mtp1", "mtp-1", "sesamoid"],
   },
   {
     triggers: ["kleine teen", "kleine tenen", "tenen"],

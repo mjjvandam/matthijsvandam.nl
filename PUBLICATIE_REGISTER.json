@@ -153,10 +153,10 @@
       "path": "artikelen/patient-specifieke-instrumentatie-voet-enkel-professionals.html",
       "title": "Patient-specifieke instrumentatie voet en enkel",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
-      "verified_by": "",
-      "verified_on": "",
-      "review_notes": "Initieel opgenomen vanuit sitemap.xml; inhoudelijke verificatie door Matthijs nodig."
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-24",
+      "review_notes": "Professionalsartikel over patiënt-specifieke instrumentatie bij voet- en enkelchirurgie inhoudelijk akkoord gegeven door Matthijs."
     },
     {
       "path": "artikelen/aios-foot-education-munich.html",
@@ -189,19 +189,19 @@
       "path": "artikelen/mobility-clinic-tilburg-patienten.html",
       "title": "Mobility Clinic Tilburg voor patienten | Kniekraakbeen | Matthijs van Dam",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
-      "verified_by": "",
-      "verified_on": "",
-      "review_notes": "Initieel opgenomen vanuit sitemap.xml; inhoudelijke verificatie door Matthijs nodig."
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-24",
+      "review_notes": "Patiëntartikel over Mobility Clinic Tilburg inhoudelijk akkoord gegeven door Matthijs."
     },
     {
       "path": "artikelen/mobility-clinic-tilburg-professionals.html",
       "title": "Mobility Clinic Tilburg voor professionals | Kniekraakbeen | Matthijs van Dam",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
-      "verified_by": "",
-      "verified_on": "",
-      "review_notes": "Initieel opgenomen vanuit sitemap.xml; inhoudelijke verificatie door Matthijs nodig."
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-06-24",
+      "review_notes": "Professionalsartikel over Mobility Clinic Tilburg inhoudelijk akkoord gegeven door Matthijs."
     },
     {
       "path": "artikelen/artrosezorg-transitie-patienten.html",

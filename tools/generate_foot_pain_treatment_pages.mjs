@@ -16,21 +16,6 @@ const escapeHtml = (value) =>
 const sentence = (value) => String(value || "").replace(/\s+/g, " ").trim();
 
 const pageSpecs = {
-  "jicht-podagra": {
-    category: "Voorvoet",
-    h1: "Jicht en podagra rond de grote teen",
-    summary: [
-      "Aanvallen met pijn, roodheid en zwelling rond de grote teen kunnen bij jicht passen.",
-      "Andere oorzaken, zoals infectie, artrose of letsel, moeten in de juiste context worden meegewogen.",
-      "Bij hevige acute klachten of ziek zijn is beoordeling via de juiste zorgroute belangrijk.",
-    ],
-    what: "Jicht is een ontstekingsreactie in of rond een gewricht. Podagra is de naam die vaak wordt gebruikt wanneer zo'n aanval rond het grote-teengewricht optreedt.",
-    symptoms: "De pijn kan plots beginnen en samengaan met roodheid, warmte, zwelling en drukpijn. Soms is aanraken of een schoen dragen al gevoelig.",
-    differential: "Niet iedere rode of gezwollen teen is jicht. Infectie, artrose, een wondje, letsel of andere ontstekingsbeelden kunnen erop lijken.",
-    assessment: "De beoordeling hangt af van het verhaal, lichamelijk onderzoek, medicatie, eerdere aanvallen en soms bloedonderzoek of beeldvorming.",
-    conservative: "Algemene maatregelen kunnen gaan over ontlasting, schoenruimte, medicatie via de eigen behandelaar en aandacht voor uitlokkende factoren.",
-    specialist: "Orthopedische beoordeling is vooral relevant als er twijfel is over de oorzaak, blijvende gewrichtsschade of een andere voet- of teenaandoening.",
-  },
   metatarsalgie: {
     category: "Voorvoet",
     h1: "Metatarsalgie: pijn onder de bal van de voet",
@@ -350,7 +335,7 @@ const pageSpecs = {
     category: "Achtervoet",
     h1: "Hielpijn: pijn onder of achter de hiel",
     summary: [
-      "Hielpijn is een klachtregio, geen diagnose.",
+      "Hielpijn is geen diagnose.",
       "De plek onder of achter de hiel geeft richting.",
       "Peesplaat, vetkussen, Achilles en schoendruk kunnen allemaal meespelen.",
     ],

@@ -35,7 +35,6 @@ REQUIRED_COPY = (
     "Deze informatie vervangt geen medisch consult",
 )
 REQUIRED_CONDITION_IDS = (
-    "jicht-podagra",
     "ganglion-enkel",
     "tarsal-boss",
     "ganglion-middenvoet",

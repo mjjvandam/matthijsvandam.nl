@@ -253,7 +253,7 @@
       id: "grote-teen-mtp1",
       label: "Grote teen en teengewricht",
       shortDescription: "Pijn rond het grote-teengewricht of bij het afwikkelen.",
-      relatedConditionIds: ["hallux-rigidus", "hallux-valgus", "jicht-podagra", "sesamoidklachten", "voorvoetcorrectie"],
+      relatedConditionIds: ["hallux-rigidus", "hallux-valgus", "sesamoidklachten", "voorvoetcorrectie"],
       views: {
         top: { shape: "M300 115 C390 80 455 140 460 280 C465 425 402 535 302 520 C245 410 230 205 300 115 Z" },
         front: { shape: "M630 780 C700 720 790 720 845 790 C860 885 795 940 705 920 C630 900 585 840 630 780 Z" },
@@ -470,14 +470,6 @@
       tags: ["Voorvoet", "Artrose"],
     },
     {
-      id: "jicht-podagra",
-      title: "Jicht / podagra",
-      excerpt: "Aanvallen van pijn, roodheid en zwelling rond de grote teen kunnen onder meer bij jicht passen. Dit vraagt beoordeling in de juiste context.",
-      url: "behandelingen/jicht-podagra.html",
-      painRegionIds: ["grote-teen-mtp1"],
-      tags: ["Grote teen", "Ontsteking"],
-    },
-    {
       id: "hamerteen-klauwteen",
       title: "Hamerteen en klauwteen",
       excerpt: "Teenstandafwijkingen kunnen drukplekken, eelt of schoenproblemen geven. De aanpak is afhankelijk van soepelheid, huid en belasting.",
@@ -656,7 +648,7 @@
     {
       id: "hielpijn",
       title: "Hielpijn",
-      excerpt: "Hielpijn is een klachtregio, geen diagnose. De plek, startpijn, schoendruk en belasting geven richting, maar vervangen geen consult.",
+      excerpt: "Hielpijn is geen diagnose. De plek, startpijn, schoendruk en belasting geven richting, maar vervangen geen consult.",
       url: "behandelingen/hielpijn.html",
       painRegionIds: ["hiel-onderzijde", "hiel-achterzijde"],
       tags: ["Hiel", "Achtervoet"],
@@ -750,10 +742,6 @@
       primaryLabel: "Aandoening",
       relatedTreatmentIds: ["mtp-1-artrodese"],
     },
-    "jicht-podagra": {
-      kind: "condition",
-      primaryLabel: "Aandoening",
-    },
     "hamerteen-klauwteen": {
       kind: "condition",
       primaryLabel: "Aandoening",
@@ -761,7 +749,7 @@
     },
     metatarsalgie: {
       kind: "symptom",
-      primaryLabel: "Klachtbeeld",
+      primaryLabel: "Klacht",
     },
     "morton-neuroom": {
       kind: "condition",
@@ -769,7 +757,7 @@
     },
     "mtp-plantaire-plaatklachten": {
       kind: "symptom",
-      primaryLabel: "Klachtbeeld",
+      primaryLabel: "Klacht",
       relatedTreatmentIds: ["voorvoetcorrectie"],
     },
     "tailors-bunion": {
@@ -779,7 +767,7 @@
     },
     sesamoidklachten: {
       kind: "symptom",
-      primaryLabel: "Klachtbeeld",
+      primaryLabel: "Klacht",
     },
     voorvoetcorrectie: {
       kind: "treatment",
@@ -813,7 +801,7 @@
     },
     "sinus-tarsi-klachten": {
       kind: "symptom",
-      primaryLabel: "Klachtbeeld",
+      primaryLabel: "Klacht",
     },
     "os-trigonum": {
       kind: "condition",
@@ -849,19 +837,19 @@
     },
     hielpijn: {
       kind: "symptom",
-      primaryLabel: "Klachtbeeld",
+      primaryLabel: "Klacht",
     },
     "peesplaatklachten-hielspoor": {
       kind: "symptom",
-      primaryLabel: "Klachtbeeld",
+      primaryLabel: "Klacht",
     },
     "vetkussen-hielklachten": {
       kind: "symptom",
-      primaryLabel: "Klachtbeeld",
+      primaryLabel: "Klacht",
     },
     "haglund-retrocalcaneaire-klachten": {
       kind: "symptom",
-      primaryLabel: "Klachtbeeld",
+      primaryLabel: "Klacht",
     },
     "tarsal-boss": {
       kind: "condition",
@@ -886,7 +874,7 @@
     },
     "revisie-artrodese": {
       kind: "treatment",
-      primaryLabel: "Behandelroute",
+      primaryLabel: "Behandeling",
       showInPainGuide: false,
       relatedTopicIds: ["artrose-na-breuk"],
     },
