@@ -583,7 +583,7 @@ const pageHtml = (condition) => {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>${escapeHtml(title)}</title>
     <meta name="description" content="${escapeHtml(description)}">
-    <meta name="robots" content="noindex, follow">
+    <meta name="robots" content="noindex, nofollow">
     <link rel="canonical" href="${canonical}">
     <meta property="og:type" content="article">
     <meta property="og:locale" content="nl_NL">
@@ -599,7 +599,7 @@ const pageHtml = (condition) => {
     <meta name="twitter:image" content="https://matthijsvandam.nl/assets/social-preview.png">
     <meta name="twitter:image:alt" content="drs. Matthijs van Dam, orthopedisch chirurg in Tilburg">
     <link rel="icon" href="../assets/logo-mvd-mark-v2.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="../styles.css?v=20260621herobalance1">
+    <link rel="stylesheet" href="../styles.css?v=20260623conceptlock1">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -780,7 +780,7 @@ const pageHtml = (condition) => {
         <a href="../disclaimer.html">Disclaimer</a>
       </span>
     </footer>
-    <script src="../script.js?v=20260619hub1"></script>
+    <script src="../script.js?v=20260623conceptlock1"></script>
   </body>
 </html>
 `;
@@ -802,7 +802,7 @@ for (const condition of conditions) {
 const inventoryLines = [
   "# Voet- en enkelpijnwijzer launch-inventaris",
   "",
-  "Alle inhoudelijke kaarten krijgen een eigen conceptpagina in `behandelingen/`. De pagina's blijven `noindex, follow` totdat Matthijs de medische inhoud heeft beoordeeld en de livegang expliciet akkoord is.",
+  "Alle inhoudelijke kaarten krijgen een eigen conceptpagina in `behandelingen/`. De pagina's blijven `noindex, nofollow` totdat Matthijs de medische inhoud heeft beoordeeld en de livegang expliciet akkoord is.",
   "",
   "| Kaart | Concept-URL | Status | Reviewpunten |",
   "| --- | --- | --- | --- |",

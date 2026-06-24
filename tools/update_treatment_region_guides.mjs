@@ -5,7 +5,7 @@ import vm from "node:vm";
 const root = path.resolve(import.meta.dirname, "..");
 const contentPath = path.join(root, "content.js");
 const treatmentsDir = path.join(root, "behandelingen");
-const cacheToken = "20260621herobalance1";
+const cacheToken = "20260623conceptlock1";
 
 const escapeHtml = (value) =>
   String(value ?? "")

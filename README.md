@@ -60,8 +60,9 @@ Aanwezig:
 ## Publicatieverificatie
 
 Alle pagina's die gepubliceerd zijn, moeten intern door Matthijs zijn geverifieerd voordat de site
-actief breder wordt gedeeld. Een pagina geldt als gepubliceerd wanneer deze in `sitemap.xml` staat
-of `<meta name="robots" content="index, follow">` heeft.
+actief breder wordt gedeeld. Een pagina geldt als gepubliceerd wanneer deze meegaat in de deployment,
+via de openbare navigatie bereikbaar is, in `sitemap.xml` staat of
+`<meta name="robots" content="index, follow">` heeft.
 
 De verificatiestatus staat in `PUBLICATIE_REGISTER.json`. Nieuwe of gewijzigde gepubliceerde pagina's
 blijven daar op `review_nodig` totdat Matthijs de inhoud, medische grenzen, positionering en veilige
@@ -78,10 +79,15 @@ bedoeling: zo kan een pagina niet ongemerkt live blijven zonder expliciet inhoud
 ## Lokale conceptpagina's
 
 Uitgebreide behandelpagina's die nog niet klaar zijn voor publicatie staan technisch in de repository
-in `behandelingen/`, maar blijven concept door `noindex, follow`, door ontbreken in `sitemap.xml` en
-door de aparte reviewstatus in `FOOT_PAIN_GUIDE_LAUNCH_INVENTARIS.md`. Wanneer een pagina inhoudelijk
-en visueel klaar is, moet deze bewust worden overgezet naar publicatie: opnemen in de sitemap, op
-`index, follow` zetten, registreren in `PUBLICATIE_REGISTER.json` en opnieuw medisch laten controleren.
+in `behandelingen/`, maar blijven concept doordat ze niet meegaan in de Vercel-deployment, op
+`noindex, nofollow` staan, ontbreken in `sitemap.xml`, niet via openbare kaarten doorklikbaar zijn en
+een aparte reviewstatus hebben in `FOOT_PAIN_GUIDE_LAUNCH_INVENTARIS.md`. De Voet- en
+enkelpijnwijzer blijft op dezelfde manier lokaal concept via `concept-foot-pain-guide.html`.
+
+Wanneer een pagina inhoudelijk en visueel klaar is, moet deze bewust worden overgezet naar
+publicatie: verwijderen uit `.vercelignore`, opnemen in de sitemap, op `index, follow` zetten,
+openbare links herstellen, registreren in `PUBLICATIE_REGISTER.json` en opnieuw medisch laten
+controleren.
 
 ## Contactformulier via Vercel
 

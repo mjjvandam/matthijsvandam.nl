@@ -415,6 +415,7 @@ if (canUseHoverCards) {
     const title = body.querySelector("h3")?.textContent?.trim() || "";
     const description = body.querySelector("p:not(.article-label)")?.textContent?.trim() || "";
     const url = card.getAttribute("data-url");
+    const conceptUrl = card.getAttribute("data-concept-url");
     const image = document.createElement("img");
     image.className = "expertise-card-icon expertise-card-photo";
     image.src = expertiseImageFor(card, label, title);
@@ -453,6 +454,11 @@ if (canUseHoverCards) {
       link.href = url;
       link.textContent = "Lees meer";
       back.append(link);
+    } else if (conceptUrl) {
+      const conceptStatus = document.createElement("span");
+      conceptStatus.className = "article-link expertise-card-link article-link-muted";
+      conceptStatus.textContent = "Conceptpagina in review";
+      back.append(conceptStatus);
     }
     inner.append(front, back);
     body.replaceChildren(inner);

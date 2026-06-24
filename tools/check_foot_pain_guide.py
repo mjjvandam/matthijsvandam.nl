@@ -452,8 +452,8 @@ def run_checks() -> list[tuple[str, str]]:
         issues.append(("missing_mobile_breakpoint", "max-width: 520px"))
     if ".foot-guide-toolbar .filter-bar" not in styles or "flex-wrap: nowrap" not in styles:
         issues.append(("missing_mobile_filter_scroll_guard", "foot-guide-toolbar"))
-    if "20260619hub1" not in concept:
-        issues.append(("concept_cache_token_not_updated", "20260619hub1"))
+    if "20260623conceptlock1" not in concept:
+        issues.append(("concept_cache_token_not_updated", "20260623conceptlock1"))
 
     return issues
 

@@ -253,7 +253,7 @@ Deze pagina's staan lokaal als concept in `behandelingen/` en zijn nog niet bedo
 - Alle 35 inhoudelijke Foot Pain Guide-pagina's zijn nu opgewaardeerde conceptpagina's met noindex-status en medische reviewpunten.
 - Volgende inhoudelijke stap: volledige medische review door Matthijs, daarna mobiele visuele controle, links/metadata/sitemap en publicatiebesluit per pagina.
 - `tools/check_treatment_page_quality.py` bewaakt dat opgewaardeerde pagina's rijk genoeg zijn en dat basisconcepten eerlijk als basisconcept gemarkeerd blijven.
-- De pagina's blijven `noindex, follow` totdat medische eindreview, interne links, metadata, mobiele controle en launchbesluit expliciet akkoord zijn.
+- De pagina's blijven `noindex, nofollow` totdat medische eindreview, interne links, metadata, mobiele controle en launchbesluit expliciet akkoord zijn.
 - Sitemap en publieke indexatie pas bij livegang bewust bijwerken; niet automatisch meenemen zolang dit conceptcontent is.
 
 ## Redactionele artikelbacklog

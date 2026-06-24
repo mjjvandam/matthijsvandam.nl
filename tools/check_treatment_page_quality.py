@@ -17,6 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "content.js"
 INVENTORY = ROOT / "FOOT_PAIN_GUIDE_LAUNCH_INVENTARIS.md"
+VERCEL_IGNORE = ROOT / ".vercelignore"
 ALLOWED_STATUSES = {
     "basisconcept, medische review nodig",
     "opgewaardeerd, medische review nodig",
@@ -80,6 +81,11 @@ def run_checks() -> list[tuple[str, str]]:
     issues: list[tuple[str, str]] = []
     urls = condition_urls()
     statuses = inventory_statuses()
+    vercel_ignore = VERCEL_IGNORE.read_text(encoding="utf-8") if VERCEL_IGNORE.exists() else ""
+
+    for required_ignore in ["concept-foot-pain-guide.html", "behandelingen/*.html"]:
+        if required_ignore not in vercel_ignore:
+            issues.append(("concept_pages_not_excluded_from_deploy", required_ignore))
 
     for condition_id, url in urls.items():
         if not url.startswith("behandelingen/") or not url.endswith(".html"):
@@ -101,8 +107,8 @@ def run_checks() -> list[tuple[str, str]]:
         html = html_path.read_text(encoding="utf-8", errors="ignore")
         words = word_count(html)
 
-        if 'content="noindex, follow"' not in html:
-            issues.append(("treatment_page_not_noindex_follow", condition_id))
+        if 'content="noindex, nofollow"' not in html:
+            issues.append(("treatment_page_not_noindex_nofollow", condition_id))
 
         is_upgraded = status.startswith("opgewaardeerd") or status in {"medisch akkoord", "publicatieklaar"}
         if is_upgraded:

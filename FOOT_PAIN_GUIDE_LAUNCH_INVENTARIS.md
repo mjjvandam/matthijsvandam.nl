@@ -1,6 +1,6 @@
 # Foot Pain Guide launch-inventaris
 
-Alle inhoudelijke kaarten krijgen een eigen conceptpagina in `behandelingen/`. De pagina's blijven `noindex, follow` totdat Matthijs de medische inhoud heeft beoordeeld en de livegang expliciet akkoord is.
+Alle inhoudelijke kaarten krijgen een eigen conceptpagina in `behandelingen/`. De pagina's blijven `noindex, nofollow` totdat Matthijs de medische inhoud heeft beoordeeld en de livegang expliciet akkoord is.
 
 | Kaart | Concept-URL | Status | Reviewpunten |
 | --- | --- | --- | --- |
