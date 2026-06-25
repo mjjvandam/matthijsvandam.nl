@@ -1,0 +1,7 @@
+interface:
+  display_name: "Matthijs Site Editor"
+  short_description: "Redactie en checks voor matthijsvandam.nl"
+  default_prompt: "Use $matthijsvandam-site-editor to review or improve matthijsvandam.nl with the local editorial workflow."
+
+policy:
+  allow_implicit_invocation: true
