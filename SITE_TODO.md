@@ -1,5 +1,20 @@
 # Site todo voor Matthijs
 
+## Vercel en livegang
+
+- Kies en corrigeer de primaire canonical host: live redirectt `https://matthijsvandam.nl/`
+  naar `https://www.matthijsvandam.nl/`, terwijl canonicals, sitemap, OpenGraph en JSON-LD nu
+  `https://matthijsvandam.nl` gebruiken. Beslis of `www` of apex leidend is en trek Vercel,
+  metadata, sitemap en structured data gelijk.
+- Beslis of `beeldbank/` publiek opvraagbaar mag blijven. De map staat live met
+  `X-Robots-Tag: noindex, nofollow, noarchive` en `private, no-store`, maar bestanden zijn via
+  directe URL bereikbaar. Als dit intern moet blijven, voeg `beeldbank/` toe aan `.vercelignore`.
+- Configureer het contactformulier pas wanneer het zichtbaar gebruikt mag worden:
+  `RESEND_API_KEY`, `CONTACT_TO_EMAIL`, `CONTACT_FROM_EMAIL` en `CONTACT_FORM_ENABLED=true`.
+  Nu geeft `/api/contact` bewust `503` omdat de mailkoppeling nog niet geconfigureerd is.
+- Rond de 8 gepubliceerde pagina's met `review_nodig` af voordat een volgende livegang als
+  inhoudelijk groen geldt. Controleer dit met `python3 tools/check_publication_verification.py`.
+
 ## Medische review concept-behandelpagina's
 
 Deze pagina's staan lokaal als concept in `behandelingen/` en zijn nog niet bedoeld voor livegang.
