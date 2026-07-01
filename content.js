@@ -34,6 +34,18 @@
       featured: true,
     },
     {
+      id: "vrxoa-immersive-experiences-artrose",
+      title: "VRxOA: immersive experiences bij artrose",
+      label: "Subsidie toegekend",
+      summary:
+        "Een onderzoeksproject dat half augustus 2026 start over immersive experiences, teachable moments en leefstijlmotivatie bij artrose.",
+      image: "assets/project-vrxoa-ix-model.png",
+      imageAlt: "Schema van patiënt, arts en immersive experience rond een mogelijke IX-oplossing",
+      imageContain: true,
+      url: "projecten/vrxoa-immersive-experiences-artrose.html",
+      featured: false,
+    },
+    {
       id: "3d-planning-voet-enkel",
       title: "3D-planning bij voet- en enkelchirurgie",
       label: "3D-planning",
@@ -1637,9 +1649,12 @@
     `;
   };
 
-  const projectCard = (project) => `
+  const projectCard = (project) => {
+    const imageClasses = ["article-card-image", "project-card-image"];
+    if (project.imageContain) imageClasses.push("project-card-image-contain");
+    return `
     <article class="article-card">
-      <img class="article-card-image project-card-image" src="${resolvePath(project.image)}" alt="${escapeHtml(project.imageAlt)}" loading="lazy">
+      <img class="${imageClasses.join(" ")}" src="${resolvePath(project.image)}" alt="${escapeHtml(project.imageAlt)}" loading="lazy">
       <div class="article-card-body">
         <p class="article-label">${escapeHtml(project.label)}</p>
         <h3>${escapeHtml(project.title)}</h3>
@@ -1648,6 +1663,7 @@
       </div>
     </article>
   `;
+  };
 
   const renderList = (selector, items, cardFactory) => {
     document.querySelectorAll(selector).forEach((container) => {

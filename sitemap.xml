@@ -44,7 +44,7 @@
   </url>
   <url>
     <loc>https://matthijsvandam.nl/projecten.html</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-07-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -149,6 +149,12 @@
     <lastmod>2026-06-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://matthijsvandam.nl/projecten/vrxoa-immersive-experiences-artrose.html</loc>
+    <lastmod>2026-07-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://matthijsvandam.nl/projecten/3d-planning-voet-enkel.html</loc>

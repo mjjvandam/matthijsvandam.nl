@@ -82,8 +82,8 @@
       "spoor": "project",
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-06-23",
-      "review_notes": "Projectenoverzicht inhoudelijk akkoord gegeven door Matthijs na vereenvoudiging van de intro."
+      "verified_on": "2026-07-01",
+      "review_notes": "Projectenoverzicht inhoudelijk akkoord gegeven door Matthijs op 1 juli 2026 na toevoeging en statusupdate van de VRxOA-projectkaart."
     },
     {
       "path": "artikelen/digitaal-zorgpad-artrose-obesitas.html",
@@ -238,6 +238,15 @@
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-06-27",
       "review_notes": "We Walk-projectpagina opnieuw gecontroleerd; publicatiestatus bevestigd op 27 juni 2026."
+    },
+    {
+      "path": "projecten/vrxoa-immersive-experiences-artrose.html",
+      "title": "VRxOA: immersive experiences bij artrose | drs. Matthijs van Dam",
+      "spoor": "project",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-07-01",
+      "review_notes": "Nieuwe VRxOA-projectpagina inhoudelijk akkoord gegeven door Matthijs op 1 juli 2026, inclusief subsidie toegekend, start half augustus 2026, consortiumlinks en aangepaste rolomschrijving."
     },
     {
       "path": "projecten/3d-planning-voet-enkel.html",
