@@ -35,6 +35,6 @@ Alle inhoudelijke kaarten krijgen een eigen conceptpagina in `behandelingen/`. D
 | Tarsal boss | `behandelingen/tarsal-boss.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Ganglion middenvoet | `behandelingen/ganglion-middenvoet.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Stressreactie of stressfractuur | `behandelingen/stressreactie-stressfractuur.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
-| Lisfranc- en middenvoetletsel | `behandelingen/lisfranc-middenvoetletsel.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
+| Lisfranc- en middenvoetletsel | `behandelingen/lisfranc-middenvoetletsel.html` | niet publiceren | Van de zichtbare site en voetpijnwijzer gehaald: Matthijs behandelt niet primair trauma. |
 | Artrose na een breuk | `behandelingen/artrose-na-breuk.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Revisie na artrodese | `behandelingen/revisie-artrodese.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
