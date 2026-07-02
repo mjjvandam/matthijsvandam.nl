@@ -62,6 +62,9 @@ REQUIRED_REVIEW_EXCLUSIONS = (
     "Tarsaal tunnelsyndroom",
     "Pees- of slijmbeursklachten voorzijde enkel",
 )
+CONDITION_IDS_WITHOUT_PUBLIC_LANDING_PAGE = (
+    "lisfranc-middenvoetletsel",
+)
 REVIEWED_REGION_OVERLAPS = {
     ("front", "buitenzijde-voet", "kleine-tenen"),
     ("front", "buitenzijde-voet", "voorvoet-bovenzijde"),
@@ -385,6 +388,10 @@ def run_checks() -> list[tuple[str, str]]:
                 issues.append(("mapping_not_reciprocal_condition_to_region", f"{condition['id']} -> {region_id}"))
         if condition["url"] and not local_target_exists(condition["url"]):
             issues.append(("missing_condition_url", f"{condition['id']}: {condition['url']}"))
+        if condition["id"] in CONDITION_IDS_WITHOUT_PUBLIC_LANDING_PAGE:
+            if condition["url"]:
+                issues.append(("condition_should_not_link_public_landing_page", f"{condition['id']}: {condition['url']}"))
+            continue
         if condition["id"] != "algemene-voet-enkelinformatie":
             expected_url = f"behandelingen/{condition['id']}.html"
             if condition["url"] != expected_url:

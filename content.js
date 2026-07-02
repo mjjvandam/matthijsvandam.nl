@@ -301,7 +301,7 @@
       id: "middenvoet-bovenzijde",
       label: "Bovenkant middenvoet",
       shortDescription: "Pijn bovenop de middenvoet, soms bij belasting of na eerder letsel.",
-      relatedConditionIds: ["tarsal-boss", "ganglion-middenvoet", "artrose-na-breuk", "stressreactie-stressfractuur", "revisie-artrodese", "holvoet-cavovarus"],
+      relatedConditionIds: ["tarsal-boss", "ganglion-middenvoet", "artrose-na-breuk", "stressreactie-stressfractuur", "lisfranc-middenvoetletsel", "revisie-artrodese", "holvoet-cavovarus"],
       views: {
         top: { shape: "M315 720 C455 645 665 670 745 810 C760 1050 640 1195 480 1185 C340 1175 275 1000 315 720 Z" },
         front: { shape: "M625 350 C740 290 990 290 1110 360 C1175 470 1125 595 950 625 C775 655 610 575 565 460 C565 410 585 375 625 350 Z" },
@@ -336,7 +336,7 @@
       id: "middenvoet-onderzijde",
       label: "Onder de middenvoet",
       shortDescription: "Pijn onder de middenvoet of aan de overgang naar de voetboog.",
-      relatedConditionIds: ["peesplaatklachten-hielspoor", "platvoet-volwassen", "holvoet-cavovarus", "stressreactie-stressfractuur", "artrose-na-breuk"],
+      relatedConditionIds: ["peesplaatklachten-hielspoor", "platvoet-volwassen", "holvoet-cavovarus", "stressreactie-stressfractuur", "lisfranc-middenvoetletsel", "artrose-na-breuk"],
       views: {
         sole: { shape: "M320 610 C470 520 690 570 745 735 C710 930 590 1045 430 1000 C305 965 250 760 320 610 Z" },
         medial: { shape: "M500 690 C705 640 990 645 1145 720 C1015 790 690 800 440 750 C410 720 445 700 500 690 Z" },
@@ -714,6 +714,15 @@
       tags: ["Middenvoet", "Belasting"],
     },
     {
+      id: "lisfranc-middenvoetletsel",
+      title: "Lisfranc- en middenvoetletsel",
+      excerpt: "Middenvoetpijn na een verdraaiing, val of ongeval kan soms om zorgvuldige beoordeling van Lisfranc-letsel vragen.",
+      url: "",
+      guideNote: "Dit staat hier alleen als algemene herkenningsrichting; de site biedt hiervoor geen aparte behandelpagina.",
+      painRegionIds: ["middenvoet-bovenzijde", "middenvoet-onderzijde"],
+      tags: ["Middenvoet", "Letsel"],
+    },
+    {
       id: "artrose-na-breuk",
       title: "Artrose na een breuk",
       excerpt: "Na een voet- of enkelbreuk kan later pijn, stijfheid of posttraumatische artrose ontstaan. Stand en gewrichtsschade tellen mee.",
@@ -864,6 +873,10 @@
       primaryLabel: "Aandoening",
     },
     "stressreactie-stressfractuur": {
+      kind: "injury",
+      primaryLabel: "Letsel",
+    },
+    "lisfranc-middenvoetletsel": {
       kind: "injury",
       primaryLabel: "Letsel",
     },
@@ -1115,6 +1128,18 @@
   const uniqueList = (items) => [...new Set(items.filter(Boolean))];
   const isTreatmentTopic = (topic) => topic?.kind === "treatment" || topic?.showInPainGuide === false;
   const isVisibleInPainGuide = (topic) => Boolean(topic) && !isTreatmentTopic(topic);
+  const topicUrl = (topic) => (typeof topic?.url === "string" ? topic.url.trim() : "");
+
+  const topicActionMarkup = (condition) => {
+    const url = topicUrl(condition);
+    if (url) {
+      return `<a class="article-link" href="${resolvePath(url)}">Lees algemene uitleg</a>`;
+    }
+    if (condition.guideNote) {
+      return `<p class="foot-guide-card-note">${escapeHtml(condition.guideNote)}</p>`;
+    }
+    return "";
+  };
 
   const conditionCard = (condition) => `
       <article class="article-card foot-guide-card" data-foot-card-regions="${(condition.painRegionIds || []).join(" ")}" data-foot-topic-kind="${escapeHtml(condition.kind || "condition")}">
@@ -1122,14 +1147,17 @@
           <p class="article-label">${escapeHtml(condition.primaryLabel || condition.tags?.[0] || "Voet en enkel")}</p>
           <h3>${escapeHtml(condition.title)}</h3>
           <p>${escapeHtml(condition.excerpt)}</p>
-          <a class="article-link" href="${resolvePath(condition.url)}">Lees algemene uitleg</a>
+          ${topicActionMarkup(condition)}
         </div>
       </article>
     `;
 
-  const mappingConditionLink = (condition) => `
-    <a href="${resolvePath(condition.url)}">${escapeHtml(condition.title)}</a>
-  `;
+  const mappingConditionLink = (condition) => {
+    const url = topicUrl(condition);
+    return url
+      ? `<a href="${resolvePath(url)}">${escapeHtml(condition.title)}</a>`
+      : `<span class="foot-guide-review-muted">${escapeHtml(condition.title)}</span>`;
+  };
 
   const mappingExcludedTopic = (topic) => `
     <span class="foot-guide-review-exclusion">
@@ -1451,7 +1479,7 @@
           ${selectedAvailability}
           ${
             conditions.length
-              ? `<p class="foot-guide-card-context">Deze onderwerpen zijn bedoeld om verder te lezen. Behandelopties worden pas op de detailpagina's besproken.</p><div class="article-grid foot-guide-card-grid">${conditions.map(conditionCard).join("")}</div>`
+              ? `<p class="foot-guide-card-context">Deze onderwerpen zijn bedoeld als algemene leesrichting. Niet ieder onderwerp is een behandelpagina op deze site.</p><div class="article-grid foot-guide-card-grid">${conditions.map(conditionCard).join("")}</div>`
               : `<p class="foot-guide-fallback">Deze plek is nog niet gekoppeld aan specifieke pagina's. <a href="${resolvePath("behandelingen.html")}">Bekijk algemene informatie over voet- en enkelklachten.</a></p>`
           }
         `;

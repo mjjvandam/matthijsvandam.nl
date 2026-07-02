@@ -4801,6 +4801,11 @@ a {
   line-height: 1.5;
 }
 
+.foot-guide-card-note {
+  margin-top: auto;
+  font-weight: 700;
+}
+
 .foot-guide-alternative {
   display: grid;
   grid-template-columns: minmax(240px, 0.42fr) minmax(0, 1fr);
