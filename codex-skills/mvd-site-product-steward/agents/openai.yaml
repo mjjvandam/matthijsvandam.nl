@@ -1,0 +1,4 @@
+interface:
+  display_name: "MVD Site Product Steward"
+  short_description: "Bewaakt koers en drift van MatthijsVanDam.nl"
+  default_prompt: "Use $mvd-site-product-steward to review whether a proposed MatthijsVanDam.nl change fits the current positioning, content model and medical safety boundaries."

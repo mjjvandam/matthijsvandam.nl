@@ -1,0 +1,4 @@
+interface:
+  display_name: "MVD SEO AI Visibility"
+  short_description: "SEO en AI-zichtbaarheid zonder claimdrift"
+  default_prompt: "Use $mvd-seo-ai-visibility to review or improve a MatthijsVanDam.nl page for SEO, structured content and AI visibility without losing medical reliability."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "MVD Regression Reviewer"
+  short_description: "Controleert MVD-site na wijzigingen"
+  default_prompt: "Use $mvd-regression-reviewer to review whether MatthijsVanDam.nl remains medically, technically, strategically and SEO-safe after changes."

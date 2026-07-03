@@ -1,0 +1,4 @@
+interface:
+  display_name: "MVD Foot Pain Guide"
+  short_description: "Bouwt veilige voetpijnwijzer voor MVD.nl"
+  default_prompt: "Use $mvd-foot-pain-guide to build or improve the MatthijsVanDam.nl foot pain guide as a visual navigation aid without diagnosis or triage claims."
