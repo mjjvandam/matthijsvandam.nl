@@ -1,5 +1,17 @@
 # Page Models
 
+Gebruik dit document samen met `docs/site/LINK_MATRIX.md`.
+
+`PAGE_MODELS.md` beschrijft het type pagina en de minimale structuur. `LINK_MATRIX.md` bewaakt de route, minimale interne links, concept/public-status, reviewstatus en sitemapregel. Geen paginamodel is op zichzelf een publicatiebesluit.
+
+Bij nieuwe of gewijzigde hubpagina's, aandoeningen-/klachtenpagina's, behandelpagina's of voetpijnwijzerkoppelingen moet eerst worden gecontroleerd:
+
+- welk paginamodel geldt;
+- welke minimale links volgens `LINK_MATRIX.md` nodig zijn;
+- of de pagina concept, publiek, `review_nodig` of `geverifieerd` is;
+- welke ADR's geraakt worden;
+- welke owner validation open blijft.
+
 ## Homepage
 
 Model: profiel- en routepagina.
@@ -35,6 +47,8 @@ Modelregels:
 - duidelijke H1;
 - beschrijvende meta description;
 - interne links naar relevante vervolgpagina's;
+- minimale interne links volgen `docs/site/LINK_MATRIX.md`;
+- conceptpagina's worden niet als publieke vervolgstap gelinkt zonder publicatiebesluit;
 - geen claimende kaartteksten;
 - filters mogen helpen, maar niet diagnosticeren.
 
@@ -106,7 +120,7 @@ Functie:
 - koppelen aan zorgontwikkeling, onderzoek of onderwijs;
 - geen patientgebonden adviesroute suggereren.
 
-## Concept-behandelpagina
+## Concept-aandoeningen-, klachten- en behandelpagina's
 
 Voorbeelden:
 
@@ -119,11 +133,27 @@ Huidige status:
 - uitgesloten van Vercel;
 - medische review nodig voor publicatie.
 
+Modelsubtypes:
+
+- Aandoening of letsel: algemene uitleg over een mogelijk onderwerp binnen voet/enkel, zonder diagnose op afstand.
+- Klacht of symptoom: algemene orientatie rond klachtenpatroon, zonder te suggereren dat de pagina een diagnose stelt.
+- Behandeling: algemene uitleg over een behandelonderwerp, zonder persoonlijke indicatie, uitkomstclaim of operatiedruk.
+
+Modelregels:
+
+- doelgroep en spoor expliciet houden: patientinformatie, geen patientportaal;
+- teruglink naar `behandelingen.html`;
+- medische veiligheidscontext of `disclaimer.html` bereikbaar houden;
+- verwante links volgen `docs/site/LINK_MATRIX.md`;
+- voetpijnwijzerkoppelingen blijven leesrichting, geen diagnose-uitkomst;
+- out-of-scope onderwerpen, zoals Lisfranc/middenvoetletsel, niet als behandelaanbod of publieke behandelpagina-link presenteren zonder expliciete eigenaar-validatie.
+
 Publicatievoorwaarden:
 
 - inhoudelijke review door Matthijs;
 - veilige medische claims;
 - metadata en canonical goed;
+- minimale interne links volgens `docs/site/LINK_MATRIX.md`;
 - sitemap-opname;
 - registerstatus naar `review_nodig` en daarna pas `geverifieerd` na akkoord.
 
@@ -139,7 +169,15 @@ Huidige status:
 - geen diagnosehulp;
 - niet publiek vrijgegeven.
 
+Modelregels:
+
+- bron voor regio's en mapping blijft `content.js`;
+- governance en linkregels volgen `docs/site/LINK_MATRIX.md`;
+- resultaten blijven mogelijke leesrichtingen, geen diagnose, triage of behandeladvies;
+- publicatie vraagt aparte review van medische mapping, veiligheidstekst, mobiele werking, sitemap/register en eigenaar-validatie.
+
 ## Te valideren
 
 - Of er een expliciet template-document per artikeltype nodig is.
 - Of concept-behandelpagina's eerst per cluster of individueel live mogen.
+- Definitieve medische mapping en publieke plaatsing van de Voet- en enkelpijnwijzer.
