@@ -8,7 +8,7 @@
   </url>
   <url>
     <loc>https://matthijsvandam.nl/artikelen.html</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -51,6 +51,12 @@
   <url>
     <loc>https://matthijsvandam.nl/artikelen/digitaal-zorgpad-artrose-obesitas.html</loc>
     <lastmod>2026-06-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://matthijsvandam.nl/artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html</loc>
+    <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

@@ -60,6 +60,21 @@
 
   const articles = [
     {
+      id: "obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen",
+      title: "Obesitasmedicatie en knieartrose: minder pijn, minder bewegen?",
+      label: "Artrose en leefstijl",
+      summary:
+        "Beschouwing over GLP-1-medicatie, obesitas, bewegen en knieartrose: wat betekenen gewichtsverlies, pijn en functioneren voor brede artrosezorg?",
+      image: "assets/obesitasmedicatie-knieartrose-bewegen-hero.png",
+      imageAlt: "Illustratie van obesitasmedicatie, knieartrose en bewegen",
+      url: "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html",
+      date: "2026-07-11",
+      audience: ["patienten", "zorgprofessionals"],
+      topics: ["artrose", "leefstijl", "onderzoek"],
+      project: "transmuraal-tilburg-cohort",
+      archive: false,
+    },
+    {
       id: "footprint-quick-scan-medewerkers",
       title: "FOOTprint Quick Scan op 30 juni",
       label: "Preventie",
