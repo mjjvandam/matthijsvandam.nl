@@ -247,6 +247,19 @@ Deze pagina's staan lokaal als concept in `behandelingen/` en zijn nog niet bedo
    - Check formuleringen rond rontgenfoto, CT/weightbearing CT, MRI/echo bij weke delen of infectievraag, lab/kweek bij infectieverdenking, schoen/zool/brace/AFO, materiaalverwijdering, bottransplantaat, nieuwe fixatie, uitbreiding van artrodese, 3D-planning en patiënt-specifieke instrumentatie zonder behandelclaim.
    - Check veiligheidsgrenzen rond wond/lekkage, roodheid/warmte, koorts/ziek gevoel, acute ernstige pijn, niet kunnen belasten, koude/blauwe voet, gevoelsverlies, nieuw trauma, diabetes en verminderde afweer.
 
+## Long-list nieuwe behandelpagina's
+
+- `behandelingen/syndesmoseletsel.html`
+  - Nog maken als conceptpagina over syndesmoseletsel, syndesmoseklachten en high ankle sprain.
+  - Doelgroep: patiënten met aanhoudende of hoge enkelklachten na verdraaiing, sportletsel of trauma, plus verwijzers die het onderscheid met een gewone laterale enkelverzwikking willen herkennen.
+  - Zoekintentie: "syndesmoseletsel enkel", "high ankle sprain", "hoge enkelverzwikking", "pijn boven enkel na verzwikking", "syndesmoseklachten".
+  - Plek in sitestructuur: verdiepende conceptpagina naast `behandelingen/enkelverzwikking.html`, `behandelingen/chronische-enkelinstabiliteit.html`, `behandelingen/anterieur-enkel-impingement.html`, `behandelingen/kraakbeenletsel-enkel.html` en `behandelingen/enkelartrose.html`; pas publiek linken na medische review en publicatiebesluit.
+  - Inhoudelijke lijn: leg eerst het verschil uit tussen laterale enkelbandklachten en letsel van de verbinding tussen scheenbeen en kuitbeen; daarna klachten, onderzoek, beeldvorming, ernstverschillen, sportbelasting en waarom herstel soms langer of anders verloopt dan bij een gewone enkelverzwikking.
+  - Belangrijke afbakening: differentieer met fractuur, laterale enkelbandruptuur, chronische enkelinstabiliteit, osteochondraal letsel/kraakbeenletsel, corpus liberum, anterieur impingement, peesklachten, enkelartrose en pijn na eerder trauma.
+  - Medische veiligheidsgrens: geen diagnose op afstand, geen operatie- of herstelclaim, geen sporthervattingsadvies op maat. Bij niet kunnen belasten, duidelijke standsafwijking, fors trauma, toenemende pijn, roodheid/warmte, wond, gevoelsverlies of twijfel over breuk blijft beoordeling via de reguliere zorgroute nodig.
+  - Bronronde vooraf: richtlijnachtige en peer-reviewed bronnen zoeken over syndesmoseletsel/high ankle sprain, acute diagnostiek, rontgen/stressopnamen, MRI/CT, stabiliteit, conservatieve versus operatieve zorg en return-to-sport. Media of kliniekpagina's hooguit als zoekradar gebruiken.
+  - Status bij aanmaak: concept, `noindex, nofollow`, niet in sitemap, niet in navigatie en niet in publieke artikel- of behandeloverzichten totdat Matthijs de medische inhoud en publicatiestatus expliciet goedkeurt.
+
 ## Foot Pain Guide MVP
 
 - Controleer de ingeklapte medische mappingtabel: per pijnzone de kolommen "wel tonen" en "niet tonen in MVP".

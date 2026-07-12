@@ -50,6 +50,15 @@
       "review_notes": "Behandelingen-overzicht opnieuw inhoudelijk akkoord gegeven door Matthijs na verwijderen van Lisfranc- en middenvoetletsel als zichtbare behandelkaart, omdat hij niet primair trauma behandelt. Lisfranc mag wel in de voetpijnwijzerdata blijven als differentiaal, zonder publieke behandelpagina-link."
     },
     {
+      "path": "behandelingen/enkelverzwikking.html",
+      "title": "Enkelverzwikking | Door de enkel gegaan | drs. Matthijs van Dam",
+      "spoor": "patient",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-07-12",
+      "review_notes": "Concept-behandelpagina over enkelverzwikking inhoudelijk akkoord gegeven door Matthijs op 12 juli 2026 na review van zorgroute, Thuisarts/Sportzorg-verwijzingen, fysiotherapieadvies, beeldgebruik en medische veiligheidsgrenzen."
+    },
+    {
       "path": "over-mij.html",
       "title": "Over drs. Matthijs van Dam | Orthopedisch chirurg Tilburg",
       "spoor": "algemeen",

@@ -13,7 +13,7 @@ Alle inhoudelijke kaarten krijgen een eigen conceptpagina in `behandelingen/`. D
 | Tailor's bunion | `behandelingen/tailors-bunion.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Sesamoidklachten | `behandelingen/sesamoidklachten.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Voorvoetcorrectie | `behandelingen/voorvoetcorrectie.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
-| Enkelverzwikking | `behandelingen/enkelverzwikking.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
+| Enkelverzwikking | `behandelingen/enkelverzwikking.html` | publicatieklaar | inhoudelijk akkoord door Matthijs op 2026-07-12; publieke sitemap/register/robots en interne link gecontroleerd |
 | Chronische enkelinstabiliteit | `behandelingen/chronische-enkelinstabiliteit.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Anterieur enkelimpingement | `behandelingen/anterieur-enkel-impingement.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Posterieur enkelimpingement | `behandelingen/posterieur-enkel-impingement.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |

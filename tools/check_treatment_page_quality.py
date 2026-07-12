@@ -25,6 +25,7 @@ ALLOWED_STATUSES = {
     "publicatieklaar",
 }
 MIN_UPGRADED_WORDS = 1300
+PUBLIC_STATUSES = {"publicatieklaar"}
 
 
 class TextParser(HTMLParser):
@@ -107,21 +108,28 @@ def run_checks() -> list[tuple[str, str]]:
         html = html_path.read_text(encoding="utf-8", errors="ignore")
         words = word_count(html)
 
-        if 'content="noindex, nofollow"' not in html:
+        is_public = status in PUBLIC_STATUSES
+
+        if is_public:
+            if 'content="index, follow"' not in html:
+                issues.append(("public_treatment_page_not_index_follow", condition_id))
+        elif 'content="noindex, nofollow"' not in html:
             issues.append(("treatment_page_not_noindex_nofollow", condition_id))
 
         is_upgraded = status.startswith("opgewaardeerd") or status in {"medisch akkoord", "publicatieklaar"}
         if is_upgraded:
             if words < MIN_UPGRADED_WORDS:
                 issues.append(("upgraded_page_too_thin", f"{condition_id}: {words} woorden"))
-            for required in [
+            required_elements = [
                 "@type\": \"FAQPage\"",
                 "class=\"treatment-faq\"",
                 "class=\"patient-disclaimer\"",
-                "class=\"section treatment-region-guide-section\"",
                 "Waar kan je terecht?",
                 "officiële zorgkanalen",
-            ]:
+            ]
+            if not is_public:
+                required_elements.append("class=\"section treatment-region-guide-section\"")
+            for required in required_elements:
                 if required not in html:
                     issues.append(("upgraded_page_missing_required_element", f"{condition_id}: {required}"))
         elif status.startswith("basisconcept") and words >= MIN_UPGRADED_WORDS:
