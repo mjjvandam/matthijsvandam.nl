@@ -60,6 +60,20 @@
 
   const articles = [
     {
+      id: "footprint-quick-scan-etz-fit-follow-up",
+      title: "Footprint Quick Scan binnen ETZ Fit",
+      label: "Preventie",
+      summary:
+        "Follow-up van de Footprint Quick Scan binnen ETZ Fit op 30 juni 2026: 30 medewerkers gezien, met praktische aandacht voor voet- en enkelklachten op de werkvloer.",
+      image: "assets/article-footprint-quick-scan-etz-fit-30-juni.jpg",
+      imageAlt: "Matthijs van Dam en Joep Lammers bij de Footprint Quick Scan binnen ETZ Fit",
+      url: "artikelen/footprint-quick-scan-etz-fit-follow-up.html",
+      date: "2026-07-12",
+      audience: ["medewerkers"],
+      topics: ["voet-en-enkel", "preventie", "onderzoek"],
+      archive: true,
+    },
+    {
       id: "obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen",
       title: "Obesitasmedicatie en knieartrose: minder pijn, minder bewegen?",
       label: "Artrose en leefstijl",
@@ -86,6 +100,7 @@
       audience: ["medewerkers"],
       topics: ["voet-en-enkel", "preventie"],
       archive: true,
+      hideFromHome: true,
     },
     {
       id: "patientpanel-leefstijl-orthopedie",
@@ -1718,7 +1733,7 @@
   };
 
   renderArticlesOverview(archiveArticles);
-  renderList("[data-content='home-articles']", archiveArticles, articleCard);
+  renderList("[data-content='home-articles']", archiveArticles.filter((article) => !article.hideFromHome), articleCard);
   renderArticleFilters(archiveArticles);
   renderList("[data-content='projects-list']", projects, projectCard);
   renderList("[data-content='home-projects']", projects.filter((project) => project.featured).slice(0, 3), projectCard);
