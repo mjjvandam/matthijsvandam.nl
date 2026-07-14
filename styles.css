@@ -1402,6 +1402,10 @@ a {
   object-fit: cover;
 }
 
+.article-card-image[src$="article-footprint-quick-scan-etz-fit-30-juni.jpg"] {
+  object-position: center 30%;
+}
+
 .article-card-body {
   display: flex;
   flex: 1;
@@ -3316,6 +3320,10 @@ a {
   box-shadow: var(--shadow-soft);
 }
 
+.article-hero-image[src$="article-footprint-quick-scan-etz-fit-30-juni.jpg"] {
+  object-position: center 40%;
+}
+
 .article-hero-image.project-hero-contain {
   aspect-ratio: auto;
   height: auto;
@@ -4045,14 +4053,40 @@ a {
 }
 
 .treatment-related-section {
+  width: 100%;
   max-width: 1180px;
   margin-right: auto;
   margin-left: auto;
+  box-sizing: border-box;
+}
+
+.treatment-related-section h2 {
+  max-width: 100%;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  text-wrap: balance;
+}
+
+.treatment-related-section > p:not(.section-kicker) {
+  max-width: 860px;
 }
 
 .article-grid-related {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   margin-top: 22px;
+}
+
+.treatment-related-section .article-grid-related {
+  width: 100%;
+  max-width: none;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+@media (min-width: 1120px) {
+  .treatment-related-section .article-grid-related {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }
 
 .article-grid-related .article-card {

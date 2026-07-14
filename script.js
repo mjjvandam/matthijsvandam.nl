@@ -76,6 +76,35 @@ const trackAnalyticsEvent = (name, data = {}) => {
   window.va("event", { name, data });
 };
 
+const configureExternalLinks = (scope = document) => {
+  const siteHostnames = new Set(
+    [...analyticsHostnames, window.location.hostname].filter(Boolean).map((hostname) => hostname.toLowerCase())
+  );
+
+  scope.querySelectorAll("a[href]").forEach((link) => {
+    if (link.hasAttribute("data-professional-email")) return;
+
+    const href = link.getAttribute("href") || "";
+    let url;
+    try {
+      url = new URL(href, window.location.href);
+    } catch {
+      return;
+    }
+
+    if (url.protocol !== "http:" && url.protocol !== "https:") return;
+    if (siteHostnames.has(url.hostname.toLowerCase())) return;
+
+    link.setAttribute("target", "_blank");
+    const relValues = new Set((link.getAttribute("rel") || "").split(/\s+/).filter(Boolean));
+    relValues.add("noopener");
+    relValues.add("noreferrer");
+    link.setAttribute("rel", Array.from(relValues).join(" "));
+  });
+};
+
+configureExternalLinks();
+
 if (year) {
   year.textContent = new Date().getFullYear();
 }

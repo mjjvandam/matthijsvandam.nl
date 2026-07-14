@@ -19,8 +19,8 @@
       "spoor": "algemeen",
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-06-22",
-      "review_notes": "Homepage inhoudelijk akkoord gegeven door Matthijs."
+      "verified_on": "2026-07-14",
+      "review_notes": "Homepage opnieuw inhoudelijk akkoord gegeven door Matthijs na stem-consistentieronde."
     },
     {
       "path": "artikelen.html",
@@ -44,8 +44,10 @@
       "path": "artikelen/footprint-quick-scan-etz-fit-follow-up.html",
       "title": "Footprint Quick Scan binnen ETZ Fit | drs. Matthijs van Dam",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
-      "review_notes": "Nieuw follow-upartikel over de Footprint Quick Scan binnen ETZ Fit op 30 juni 2026. Inhoudelijke review door Matthijs blijft open voordat dit als geverifieerd mag gelden."
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-07-14",
+      "review_notes": "Follow-upartikel over de Footprint Quick Scan binnen ETZ Fit inhoudelijk akkoord gegeven door Matthijs na beeldcorrectie, ETZ Wetenschapsbureau-link en toonaanpassing."
     },
     {
       "path": "behandelingen.html",
@@ -71,8 +73,8 @@
       "spoor": "algemeen",
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-06-22",
-      "review_notes": "Profielpagina inhoudelijk akkoord gegeven door Matthijs."
+      "verified_on": "2026-07-14",
+      "review_notes": "Profielpagina opnieuw inhoudelijk akkoord gegeven door Matthijs na stem-consistentieronde."
     },
     {
       "path": "professionals.html",
@@ -80,8 +82,8 @@
       "spoor": "professional",
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-06-27",
-      "review_notes": "Professionals-pagina opnieuw gecontroleerd; titelmetadata en publicatiestatus afgestemd op 27 juni 2026."
+      "verified_on": "2026-07-14",
+      "review_notes": "Professionals-pagina opnieuw inhoudelijk akkoord gegeven door Matthijs na stem-consistentieronde en klikbaar maken van de PrimaCura-vermelding."
     },
     {
       "path": "advies-consultancy.html",
@@ -89,8 +91,8 @@
       "spoor": "advies_consultancy",
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-06-27",
-      "review_notes": "Advies- en consultancypagina opnieuw gecontroleerd; titelmetadata en publicatiestatus afgestemd op 27 juni 2026."
+      "verified_on": "2026-07-14",
+      "review_notes": "Advies- en consultancypagina opnieuw inhoudelijk akkoord gegeven door Matthijs na stem-consistentieronde."
     },
     {
       "path": "publicaties.html",
@@ -98,8 +100,8 @@
       "spoor": "professional",
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-06-23",
-      "review_notes": "Publicatieoverzicht inhoudelijk akkoord gegeven door Matthijs na verwijderen van het overzichtlabel."
+      "verified_on": "2026-07-14",
+      "review_notes": "Publicatieoverzicht opnieuw inhoudelijk akkoord gegeven door Matthijs na stem-consistentieronde."
     },
     {
       "path": "projecten.html",
