@@ -139,6 +139,13 @@ window.matchMedia?.("(prefers-color-scheme: dark)").addEventListener?.("change",
 });
 
 if (header && navToggle) {
+  if (nav && !nav.id) {
+    nav.id = "site-navigation";
+  }
+  if (nav?.id) {
+    navToggle.setAttribute("aria-controls", nav.id);
+  }
+
   const themeToggle = document.createElement("button");
   themeToggle.className = "theme-toggle";
   themeToggle.type = "button";
@@ -159,6 +166,43 @@ const syncHeader = () => {
 syncHeader();
 window.addEventListener("scroll", syncHeader, { passive: true });
 
+const closeNav = () => {
+  nav?.classList.remove("is-open");
+  header?.classList.remove("is-open");
+  navToggle?.setAttribute("aria-expanded", "false");
+};
+
+const normalizePagePath = (pathname) => {
+  const normalized = decodeURIComponent(pathname || "").replace(/^\/+/, "");
+  if (!normalized) return "index.html";
+  if (normalized.endsWith("/")) return `${normalized}index.html`;
+  return normalized;
+};
+
+const currentRoutePath = () => {
+  const currentPath = normalizePagePath(window.location.pathname);
+  if (currentPath.startsWith("artikelen/") || currentPath.startsWith("concepten/previews/")) return "artikelen.html";
+  if (currentPath.startsWith("projecten/")) return "projecten.html";
+  if (currentPath.startsWith("behandelingen/") || currentPath === "concept-foot-pain-guide.html") {
+    return "behandelingen.html";
+  }
+  return currentPath;
+};
+
+nav?.querySelectorAll("a[href]").forEach((link) => {
+  let url;
+  try {
+    url = new URL(link.getAttribute("href") || "", window.location.href);
+  } catch {
+    return;
+  }
+  if (url.origin !== window.location.origin) return;
+  const linkPath = normalizePagePath(url.pathname);
+  if (linkPath === currentRoutePath()) {
+    link.setAttribute("aria-current", "page");
+  }
+});
+
 navToggle?.addEventListener("click", () => {
   const isOpen = nav?.classList.toggle("is-open") ?? false;
   header?.classList.toggle("is-open", isOpen);
@@ -166,11 +210,25 @@ navToggle?.addEventListener("click", () => {
 });
 
 nav?.addEventListener("click", (event) => {
-  if (event.target instanceof HTMLAnchorElement) {
-    nav.classList.remove("is-open");
-    header?.classList.remove("is-open");
-    navToggle?.setAttribute("aria-expanded", "false");
+  const link = event.target instanceof Element ? event.target.closest("a[href]") : null;
+  if (link) {
+    closeNav();
   }
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && nav?.classList.contains("is-open")) {
+    closeNav();
+    navToggle?.focus();
+  }
+});
+
+document.addEventListener("click", (event) => {
+  if (!nav?.classList.contains("is-open")) return;
+  if (event.target instanceof Node && header?.contains(event.target)) {
+    return;
+  }
+  closeNav();
 });
 
 document.addEventListener("click", (event) => {

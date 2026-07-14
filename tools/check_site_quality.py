@@ -7,10 +7,12 @@ from collections import Counter
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urldefrag, urlparse
+import importlib.util
 
 
 ROOT = Path(__file__).resolve().parents[1]
 HTML_GLOBS = ("*.html", "artikelen/*.html", "projecten/*.html", "behandelingen/*.html")
+NAVIGATION_CHECK = ROOT / "tools" / "check_navigation_contract.py"
 
 
 class PageParser(HTMLParser):
@@ -122,6 +124,14 @@ def run_checks() -> list[tuple[str, str]]:
       for button in page.buttons:
           if "filter-button" in button.get("class", "") and "aria-pressed" not in button:
               issues.append(("filter_missing_aria_pressed", str(rel_path)))
+
+    if NAVIGATION_CHECK.exists():
+        spec = importlib.util.spec_from_file_location("check_navigation_contract", NAVIGATION_CHECK)
+        if spec and spec.loader:
+            navigation_module = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(navigation_module)
+            for kind, detail in navigation_module.run_checks():
+                issues.append((kind, detail))
 
     return issues
 

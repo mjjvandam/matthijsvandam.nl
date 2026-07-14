@@ -30,6 +30,31 @@ Homepage-ankers vullen dit aan met:
 - publicaties;
 - contact.
 
+## Menucontract
+
+Het hoofdmenu is een routecontract, geen losse lijst met willekeurige links.
+
+Vaste publieke hoofditems:
+
+- Over
+- Klachten en behandelingen
+- Professionals
+- Advies
+- Projecten
+- Artikelen
+- Publicaties
+
+Compacte detailmenu's zijn toegestaan voor artikelen, projecten en concept-behandelpagina's. Ze moeten dan wel terugleiden naar de passende hub of route:
+
+- artikelpagina's naar `artikelen.html` of de relevante professionele/adviesroute;
+- projectpagina's naar `projecten.html`;
+- behandel- en klachtenpagina's naar `behandelingen.html`;
+- juridische en veiligheidscontext naar `privacy.html`, `disclaimer.html` of `index.html#contact` waar passend.
+
+`Contact`, `Privacy` en `Disclaimer` zijn contextuele veiligheids- en contactlinks. Ze vormen geen extra hoofdspoor naast patienten, professionals en advies/zorgontwikkeling.
+
+Een zichtbare wijziging aan hoofdmenu-items, doelgroep-routes of de scheiding tussen patient-, professional- en adviesroutes vraagt een expliciete ADR-check en owner validation.
+
 ## Route per doelgroep
 
 Patienten:
