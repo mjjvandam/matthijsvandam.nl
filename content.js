@@ -92,7 +92,7 @@
       id: "footprint-quick-scan-medewerkers",
       title: "FOOTprint Quick Scan op 30 juni",
       label: "Preventie",
-      summary: "Een laagdrempelige voetscreening voor ETZ-medewerkers door drs. Matthijs van Dam en schoentechnicus Joep van Buchrnhornen. De 35 beschikbare plekken zijn inmiddels gevuld.",
+      summary: "Een laagdrempelige voetscreening voor ETZ-medewerkers, samen met schoentechnicus Joep van Buchrnhornen. De 35 beschikbare plekken zijn inmiddels gevuld.",
       image: "assets/article-footprint-quick-scan-editorial.jpg",
       imageAlt: "Voetscreening met werkschoenen, inlegzolen en voetmodel",
       url: "artikelen/footprint-quick-scan-medewerkers.html",

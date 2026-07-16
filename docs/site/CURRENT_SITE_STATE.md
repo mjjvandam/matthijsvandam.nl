@@ -1,6 +1,6 @@
 # Current Site State
 
-Laatste auditbasis: huidige repo op 2026-07-03.
+Laatste auditbasis: huidige repo op 2026-07-16.
 
 ## Status
 
@@ -8,9 +8,9 @@ Laatste auditbasis: huidige repo op 2026-07-03.
 
 De gepubliceerde laag bestaat uit:
 
-- 29 publieke pagina's in `sitemap.xml`.
-- 29 pagina's in `PUBLICATIE_REGISTER.json`, allemaal met status `geverifieerd`.
-- 14 gepubliceerde artikelen.
+- 32 publieke pagina's in `sitemap.xml`.
+- 32 pagina's in `PUBLICATIE_REGISTER.json`, allemaal met status `geverifieerd`.
+- 16 gepubliceerde artikelen.
 - 5 gepubliceerde projectpagina's.
 - 1 publieke behandel-/klachtenhub: `behandelingen.html`.
 - 35 lokale concept-behandelpagina's in `behandelingen/`, allemaal `noindex, nofollow` en uitgesloten van Vercel via `.vercelignore`.
