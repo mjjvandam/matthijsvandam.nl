@@ -107,7 +107,7 @@
       title: "Online patiëntpanel over leefstijl en orthopedie",
       label: "Onderzoek",
       summary:
-        "Voor maandag 29 juni 2026 zoeken we patiënten die online willen meedenken over duidelijke en respectvolle leefstijlinformatie.",
+        "De oproep voor het online patiëntpanel over duidelijke en respectvolle leefstijlinformatie is gesloten.",
       image: "assets/knee-anatomy-model-editorial.jpg",
       imageAlt: "Anatomisch kniemodel in een rustige spreekkamer",
       url: "artikelen/patientpanel-leefstijl-orthopedie.html",
@@ -116,6 +116,7 @@
       topics: ["leefstijl", "onderzoek"],
       project: "leefstijlgerichte-kansen-orthopedie",
       archive: true,
+      hideFromHome: true,
     },
     {
       id: "heracleum-hulpfonds-subsidie-transmuraal-tilburg-cohort",

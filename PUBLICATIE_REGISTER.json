@@ -19,8 +19,8 @@
       "spoor": "algemeen",
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-07-14",
-      "review_notes": "Homepage opnieuw inhoudelijk akkoord gegeven door Matthijs na stem-consistentieronde."
+      "verified_on": "2026-07-20",
+      "review_notes": "De verlopen oproep voor het patientpanel is op 20 juli 2026 van de homepage gehaald en expliciet akkoord bevonden door Matthijs."
     },
     {
       "path": "artikelen.html",
@@ -28,17 +28,17 @@
       "spoor": "algemeen",
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-06-23",
-      "review_notes": "Artikelenoverzicht inhoudelijk akkoord gegeven door Matthijs na verwijderen overzichtlabel en toevoegen compacte oudere-artikelenlijst bij groei."
+      "verified_on": "2026-07-20",
+      "review_notes": "De kaarttekst van het patientpanel is op 20 juli 2026 aangepast naar een gesloten oproep en expliciet akkoord bevonden door Matthijs."
     },
     {
       "path": "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html",
       "title": "Obesitasmedicatie en knieartrose: minder pijn, minder bewegen?",
       "spoor": "artikel",
-      "verification_status": "geverifieerd",
-      "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-07-11",
-      "review_notes": "Artikel inhoudelijk en publicatiegericht akkoord gegeven door Matthijs na redactionele review van bronstatus, toon, obesitas/artrose-duiding en slot."
+      "verification_status": "review_nodig",
+      "verified_by": null,
+      "verified_on": null,
+      "review_notes": "Inleiding op 26 augustus 2026 aangepast met een persoonlijke aanleiding en explicietere duiding van de verwachting rond pijn, gewicht en bewegen. Nieuwe inhoudelijke eigenaar-validatie nodig."
     },
     {
       "path": "artikelen/footprint-quick-scan-etz-fit-follow-up.html",
@@ -154,9 +154,9 @@
       "spoor": "artikel",
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-06-23",
+      "verified_on": "2026-07-20",
       "offline_after": "2026-12-23",
-      "review_notes": "Artikel over patientpanel leefstijl en orthopedie inhoudelijk akkoord gegeven door Matthijs. Mag na 23 december 2026 offline worden gehaald."
+      "review_notes": "De verlopen oproep is op 20 juli 2026 van de homepage gehaald en op de artikelpagina als gesloten gemarkeerd. De eindtekst is expliciet inhoudelijk akkoord bevonden door Matthijs."
     },
     {
       "path": "artikelen/heracleum-hulpfonds-subsidie-transmuraal-tilburg-cohort.html",
@@ -254,8 +254,8 @@
       "spoor": "project",
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-06-23",
-      "review_notes": "NOV-projectpagina inhoudelijk akkoord gegeven door Matthijs na aanscherping rol als werkgroeplid en looptijd voorjaar 2025 tot en met voorjaar 2027."
+      "verified_on": "2026-07-20",
+      "review_notes": "De gekoppelde kaarttekst van het patientpanel is op 20 juli 2026 aangepast naar een gesloten oproep en expliciet akkoord bevonden door Matthijs."
     },
     {
       "path": "projecten/we-walk.html",

@@ -1,6 +1,6 @@
 # Current Site State
 
-Laatste auditbasis: huidige repo op 2026-07-16.
+Laatste auditbasis: huidige repo op 2026-07-20.
 
 ## Status
 

@@ -2083,7 +2083,7 @@ a {
   }
 }
 
-@media (max-width: 840px) {
+@media (max-width: 980px) {
   .site-header {
     gap: 10px;
   }
@@ -2117,7 +2117,25 @@ a {
   .site-nav.is-open {
     display: grid;
   }
+}
 
+@media (max-width: 980px) and (orientation: landscape) and (max-height: 520px) {
+  .site-nav {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 4px 10px;
+    max-height: calc(100vh - 102px);
+    max-height: calc(100dvh - 102px);
+    padding: 14px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  .site-nav a {
+    padding: 8px 10px;
+  }
+}
+
+@media (max-width: 840px) {
   .hero {
     min-height: 90vh;
     padding-top: 118px;
@@ -3345,7 +3363,11 @@ a {
   margin: 34px 0 38px;
 }
 
-.article-inline-figure img {
+.article-inline-media {
+  position: relative;
+}
+
+.article-inline-figure .article-inline-image {
   display: block;
   width: 100%;
   height: auto;
@@ -3353,6 +3375,29 @@ a {
   border-radius: 8px;
   background: var(--white);
   box-shadow: var(--shadow-soft);
+}
+
+.article-image-brand {
+  position: absolute;
+  right: clamp(8px, 1.6vw, 14px);
+  bottom: clamp(8px, 1.6vw, 14px);
+  display: flex;
+  width: clamp(112px, 20vw, 158px);
+  padding: 6px 9px;
+  border: 1px solid rgba(205, 218, 212, 0.88);
+  border-radius: 7px;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0 5px 14px rgba(22, 49, 43, 0.12);
+  backdrop-filter: blur(4px);
+}
+
+.article-image-brand img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
 }
 
 .article-inline-figure figcaption {
@@ -3409,7 +3454,7 @@ a {
   padding: 14px;
   border: 1px solid rgba(36, 76, 61, 0.16);
   border-radius: 8px;
-  background: rgba(255, 253, 248, 0.86);
+  background: var(--white);
   box-shadow: 0 16px 34px rgba(36, 76, 61, 0.1);
 }
 
