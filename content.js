@@ -78,7 +78,7 @@
       title: "8 vragen over obesitasmedicijnen bij reuma en artrose",
       label: "Nieuws",
       summary:
-        "ReumaNederland beantwoordt acht vragen over obesitasmedicijnen bij reuma en artrose. Matthijs van Dam dacht als orthopedisch chirurg en onderzoeker mee.",
+        "ReumaNederland beantwoordt acht vragen over obesitasmedicijnen bij reuma en artrose. Ik dacht als orthopedisch chirurg mee.",
       image: "assets/obesitasmedicatie-knieartrose-bewegen-hero.png",
       imageAlt: "Illustratie over obesitasmedicatie, knieartrose, wandelen en spierkracht",
       url: "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html",

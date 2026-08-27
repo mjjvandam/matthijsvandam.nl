@@ -502,6 +502,7 @@ if (canUseHoverCards) {
     const title = body.querySelector("h3")?.textContent?.trim() || "";
     const description = body.querySelector("p:not(.article-label)")?.textContent?.trim() || "";
     const url = card.getAttribute("data-url");
+    const cardLink = body.closest("a.article-card-link");
     const image = document.createElement("img");
     image.className = "expertise-card-icon expertise-card-photo";
     image.src = expertiseImageFor(card, label, title);
@@ -509,8 +510,12 @@ if (canUseHoverCards) {
     image.loading = "lazy";
 
     card.classList.add("is-flip-card");
-    card.setAttribute("tabindex", "0");
-    card.setAttribute("aria-label", `${title}. ${description}`);
+    if (cardLink) {
+      cardLink.setAttribute("aria-label", `${title}. ${description}`);
+    } else {
+      card.setAttribute("tabindex", "0");
+      card.setAttribute("aria-label", `${title}. ${description}`);
+    }
 
     const inner = document.createElement("div");
     inner.className = "expertise-flip";
@@ -535,9 +540,10 @@ if (canUseHoverCards) {
 
     back.append(backTitle, backDescription);
     if (url) {
-      const link = document.createElement("a");
+      const link = document.createElement(cardLink ? "span" : "a");
       link.className = "article-link expertise-card-link";
-      link.href = url;
+      if (!cardLink) link.href = url;
+      if (cardLink) link.setAttribute("aria-hidden", "true");
       link.textContent = "Lees meer";
       back.append(link);
     }

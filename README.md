@@ -28,9 +28,13 @@ Statische conceptsite voor de professionele website van Matthijs van Dam.
 - Bij voetbeelden altijd controleren op anatomie: vijf tenen per voet, geen vreemde teenstand, geen ontbrekende of extra middenvoetsbeentjes.
 - Gebruik geen rontgen-, bot- of modelbeeld als de anatomie niet betrouwbaar genoeg is of als het onderwerp ook met een patiëntvriendelijk klinisch beeld duidelijk kan worden.
 - Interne referentiebeelden, goedgekeurde voorbeelden en prompts staan in `beeldbank/`; definitieve websitebeelden blijven in `assets/`.
-- Site-eigen artikel-, project- en aandoeningsbeelden krijgen voor publicatie een subtiel zichtbaar
-  Matthijs van Dam-logo en bronmetadata. Gebruik daarvoor `tools/watermark_site_images.py`.
-  Externe logo's of beelden van derden niet visueel watermerken zonder toestemming.
+- Site-eigen artikel-, project- en aandoeningsbeelden krijgen voor publicatie een subtiele zichtbare
+  copyrightregel en bronmetadata. De rechteninventaris staat in `data/site-image-rights.json`;
+  gebruik `tools/watermark_site_images.py --check` voor controle en `--apply` voor verwerking.
+  Het script reconstrueert de websitekopie vanuit de vastgelegde schone Git-bron, zodat het geen
+  logo-op-logo of herhaalde JPEG-compressie veroorzaakt.
+- Externe logo's, partnerassets en beelden van derden worden uitgesloten. Beelden zonder vastgelegde
+  rechtenbasis blijven `review_required` en krijgen niet automatisch een MVD-copyrightregel.
 
 ## Klaar voor livegang
 

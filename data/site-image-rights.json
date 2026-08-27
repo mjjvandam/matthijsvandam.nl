@@ -1,0 +1,257 @@
+{
+  "version": 1,
+  "asset_root": "assets",
+  "default_source_revision": "8b27e6d2450284ec7384de00812ca7f830838031",
+  "source_revision_overrides": {
+    "assets/article-3d-planning-lab.jpg": "714349e",
+    "assets/article-aios-foot-education-munich.jpg": "abfdb16",
+    "assets/article-digital-care-pathway-editorial.jpg": "714349e",
+    "assets/article-footprint-quick-scan-editorial.jpg": "54c652a",
+    "assets/article-knee-osteoarthritis-support.jpg": "714349e",
+    "assets/article-mobility-cartilage-transplant-steps-v2.jpg": "1521770",
+    "assets/article-mobility-knee-cartilage-mvd.jpg": "abfdb16",
+    "assets/article-psi-foot-ankle-surgery.jpg": "aa4f6e9",
+    "assets/expertise-ankle-editorial.jpg": "5b5da44",
+    "assets/expertise-forefoot-editorial.jpg": "5b5da44",
+    "assets/knee-anatomy-model-editorial.jpg": "abfdb16",
+    "assets/project-transmuraal-tilburg-cohort-editorial.jpg": "54c652a",
+    "assets/project-we-walk-editorial.jpg": "714349e",
+    "assets/tile-achtervoet-standsafwijking.jpg": "abfdb16",
+    "assets/tile-enkel-artrose-kraakbeen.jpg": "abfdb16",
+    "assets/tile-hallux-clinic-v2.jpg": "abfdb16",
+    "assets/tile-knie-artrose-prothese.jpg": "abfdb16",
+    "assets/tile-knie-kraakbeen.jpg": "abfdb16",
+    "assets/tile-leefstijl-artrose-v2.jpg": "abfdb16",
+    "assets/tile-leefstijl-artrose.jpg": "abfdb16",
+    "assets/tile-voorvoet-pijn-v2.jpg": "abfdb16"
+  },
+  "overrides": [
+    {
+      "path": "assets/advice-education-stage-mvd.jpg",
+      "status": "review_required",
+      "reason": "Fotograaf en overdracht van beeldrechten zijn niet in de repo vastgelegd."
+    },
+    {
+      "path": "assets/andry-tree-waiting-room-hero-optimized.jpg",
+      "status": "review_required",
+      "reason": "Herkomst en beeldrechten zijn niet in de repo vastgelegd."
+    },
+    {
+      "path": "assets/article-footprint-quick-scan-etz-fit-30-juni.jpg",
+      "status": "review_required",
+      "reason": "Praktijkfoto; fotograaf en overdracht van beeldrechten eerst bevestigen."
+    },
+    {
+      "path": "assets/article-probleemgeorienteerd-denken-orthopedie-cover.jpg",
+      "status": "review_required",
+      "reason": "Omslagbeeld; herkomst en gebruiksrecht eerst bevestigen."
+    },
+    {
+      "path": "assets/orthopedisch-centrum-etz-vakgroep-optimized.jpg",
+      "status": "review_required",
+      "reason": "ETZ-contextfoto; fotograaf en overdracht van beeldrechten eerst bevestigen."
+    },
+    {
+      "path": "assets/portrait-matthijs-van-dam.jpg",
+      "status": "review_required",
+      "reason": "Portret; fotograaf en overdracht van beeldrechten eerst bevestigen."
+    },
+    {
+      "path": "assets/social-preview-person.jpg",
+      "status": "review_required",
+      "reason": "Afgeleid portretbeeld; rechtenstatus van de bronfoto eerst bevestigen."
+    },
+    {
+      "path": "assets/illustration-hallux-rigidus-anatomy.jpg",
+      "status": "review_required",
+      "reason": "Lokaal genegeerd v1-bestand zonder schone bron in Git; niet opnieuw overtekenen."
+    },
+    {
+      "path": "assets/illustration-hallux-rigidus-care-route.svg",
+      "status": "review_required",
+      "reason": "Lokaal conceptbestand zonder vastgelegde schone bron in Git."
+    },
+    {
+      "path": "assets/illustration-mtp1-artrodese-principle.svg",
+      "status": "review_required",
+      "reason": "Lokaal conceptbestand zonder vastgelegde schone bron in Git."
+    },
+    {
+      "path": "assets/treatment-hallux-rigidus-context.jpg",
+      "status": "review_required",
+      "reason": "Lokaal genegeerd v1-bestand zonder schone bron in Git; niet opnieuw overtekenen."
+    },
+    {
+      "path": "assets/treatment-hallux-rigidus-hero-medical.jpg",
+      "status": "review_required",
+      "reason": "Lokaal genegeerd v1-bestand zonder schone bron in Git; niet opnieuw overtekenen."
+    },
+    {
+      "path": "assets/treatment-hallux-valgus-anatomy.jpg",
+      "status": "review_required",
+      "reason": "V1-bestand is met logo aangeleverd; schone bron ontbreekt in Git."
+    },
+    {
+      "path": "assets/treatment-hallux-valgus-hamerteen-relatie.jpg",
+      "status": "review_required",
+      "reason": "V1-bestand is met logo aangeleverd; schone bron ontbreekt in Git."
+    },
+    {
+      "path": "assets/treatment-hamerteen-hero.jpg",
+      "status": "review_required",
+      "reason": "V1-bestand is met logo aangeleverd; schone bron ontbreekt in Git."
+    },
+    {
+      "path": "assets/treatment-mtp1-artrodese-hero.jpg",
+      "status": "review_required",
+      "reason": "Lokaal genegeerd v1-bestand zonder schone bron in Git; niet opnieuw overtekenen."
+    },
+    {
+      "path": "assets/treatment-mtp1-artrodese-plate.jpg",
+      "status": "review_required",
+      "reason": "Lokaal genegeerd v1-bestand zonder schone bron in Git; niet opnieuw overtekenen."
+    },
+    {
+      "path": "assets/treatment-mtp1-artrodese-xray.jpg",
+      "status": "review_required",
+      "reason": "Lokaal genegeerd v1-bestand zonder schone bron in Git; niet opnieuw overtekenen."
+    }
+  ],
+  "rules": [
+    {
+      "pattern": "assets/logo-mvd-*",
+      "status": "exclude",
+      "reason": "Eigen merkasset bevat al herkenbare branding."
+    },
+    {
+      "pattern": "assets/logo-mvd.svg",
+      "status": "exclude",
+      "reason": "Eigen merkasset bevat al herkenbare branding."
+    },
+    {
+      "pattern": "assets/logo-*.svg",
+      "status": "exclude",
+      "reason": "Extern woordmerk; geen MVD-copyright toevoegen."
+    },
+    {
+      "pattern": "assets/*-logo.png",
+      "status": "exclude",
+      "reason": "Extern logo; geen MVD-copyright toevoegen."
+    },
+    {
+      "pattern": "assets/etz-fit-*",
+      "status": "exclude",
+      "reason": "ETZ-merkasset; geen MVD-copyright toevoegen."
+    },
+    {
+      "pattern": "assets/doctolib-connect-logo.svg",
+      "status": "exclude",
+      "reason": "Extern logo; geen MVD-copyright toevoegen."
+    },
+    {
+      "pattern": "assets/linkedin-icon.svg",
+      "status": "exclude",
+      "reason": "Extern platformicoon; geen MVD-copyright toevoegen."
+    },
+    {
+      "pattern": "assets/project-vrxoa-*",
+      "status": "exclude",
+      "reason": "Project- en partnerassets; geen MVD-copyright toevoegen zonder aparte rechtenbasis."
+    },
+    {
+      "pattern": "assets/project-heracleum-logo.jpg",
+      "status": "exclude",
+      "reason": "Extern projectlogo; geen MVD-copyright toevoegen."
+    },
+    {
+      "pattern": "assets/sportzorg-enkeloefeningen-video-preview.jpg",
+      "status": "exclude",
+      "reason": "Preview van externe videobron; geen MVD-copyright toevoegen."
+    },
+    {
+      "pattern": "assets/social-preview.*",
+      "status": "exclude",
+      "reason": "Social-preview is al een volledige merkcompositie."
+    },
+    {
+      "pattern": "assets/expertise-*.svg",
+      "status": "exclude",
+      "reason": "Klein interface-icoon; extra tekst zou de UI onleesbaar maken."
+    },
+    {
+      "pattern": "assets/article-*.jpg",
+      "status": "watermark",
+      "reason": "Site-eigen redactioneel beeld met vastgelegde schone bron."
+    },
+    {
+      "pattern": "assets/article-*.svg",
+      "status": "watermark",
+      "reason": "Site-eigen redactionele illustratie met vastgelegde schone bron."
+    },
+    {
+      "pattern": "assets/enkelartrose-*",
+      "status": "watermark",
+      "reason": "Site-eigen medische illustratie met vastgelegde schone bron."
+    },
+    {
+      "pattern": "assets/enkelverzwikking-*",
+      "status": "watermark",
+      "reason": "Site-eigen redactioneel of medisch beeld met vastgelegde schone bron."
+    },
+    {
+      "pattern": "assets/foot-guide-*",
+      "status": "watermark",
+      "reason": "Site-eigen beeld voor de lokale voet- en enkelpijnwijzer."
+    },
+    {
+      "pattern": "assets/illustration-*",
+      "status": "watermark",
+      "reason": "Site-eigen medische illustratie met vastgelegde schone bron."
+    },
+    {
+      "pattern": "assets/knee-anatomy-model-editorial.jpg",
+      "status": "watermark",
+      "reason": "Site-eigen redactioneel beeld met vastgelegde schone bron."
+    },
+    {
+      "pattern": "assets/obesitasmedicatie-*.png",
+      "status": "watermark",
+      "reason": "Site-eigen redactioneel beeld met vastgelegde schone bron."
+    },
+    {
+      "pattern": "assets/professionals-regio-tilburg-netwerk*",
+      "status": "watermark",
+      "reason": "Site-eigen netwerkvisual met vastgelegde schone bron."
+    },
+    {
+      "pattern": "assets/project-leefstijl-nov.svg",
+      "status": "watermark",
+      "reason": "Site-eigen projectvisual met vastgelegde schone bron."
+    },
+    {
+      "pattern": "assets/project-transmuraal-tilburg-cohort*",
+      "status": "watermark",
+      "reason": "Site-eigen projectvisual met vastgelegde schone bron."
+    },
+    {
+      "pattern": "assets/project-we-walk*",
+      "status": "watermark",
+      "reason": "Site-eigen projectvisual met vastgelegde schone bron."
+    },
+    {
+      "pattern": "assets/tile-*",
+      "status": "watermark",
+      "reason": "Site-eigen behandel- of expertisetegel met vastgelegde schone bron."
+    },
+    {
+      "pattern": "assets/treatment-*",
+      "status": "watermark",
+      "reason": "Site-eigen behandel- of aandoeningsbeeld met vastgelegde schone bron."
+    },
+    {
+      "pattern": "assets/expertise-*.jpg",
+      "status": "watermark",
+      "reason": "Site-eigen expertisebeeld met vastgelegde schone bron."
+    }
+  ]
+}
