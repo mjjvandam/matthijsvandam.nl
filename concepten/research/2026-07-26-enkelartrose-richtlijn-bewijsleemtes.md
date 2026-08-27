@@ -1,4 +1,4 @@
-# Researchdossier — Enkelartrose: een richtlijn die vooral de bewijsleemtes laat zien
+# Researchdossier — Nieuwe Amerikaanse richtlijn voor enkelartrose: wat weten we wel en nog niet?
 
 ## Run en selectie
 
@@ -57,7 +57,9 @@ De korte reeks komt daarmee op 3x voet/enkel en 1x knie/leefstijl. Dat past bij 
 2. Via de directe link in het nieuwsbericht is de volledige richtlijnpagina op OrthoGuidelines geopend.
 3. De aanbevelingen, onderbouwing, beperkingen en kennislacunes zijn daar per onderwerp gelezen.
 4. Het nieuwsbericht blijft de `media-aanleiding`/verenigingsaankondiging; de richtlijn zelf is de inhoudelijke basis.
-5. Voor Nederlandse context zijn de bestaande sitepositionering en algemene richtlijnprincipes gebruikt. Er is in deze run geen actuele Nederlandse enkelartrose-richtlijn gevonden die dezelfde breedte behandelt.
+5. Voor de Nederlandse context is de PRIMA-studie van Amsterdam UMC gecontroleerd in de oorspronkelijke JAMA-publicatie en in de vervolgpublicatie na 52 weken.
+6. De haalbaarheidsstudie van Smith et al. is gecontroleerd als primaire bron achter de beperkte aanbeveling over groepseducatie en oefentherapie.
+7. Alleen peer-reviewed publicaties zijn als bewijsbron opgenomen. Er is in deze run geen actuele Nederlandse enkelartrose-richtlijn gevonden die dezelfde breedte behandelt.
 
 ## Bronnen en status
 
@@ -90,7 +92,40 @@ De korte reeks komt daarmee op 3x voet/enkel en 1x knie/leefstijl. Dat past bij 
 - Bronkwaliteit: retrospectief cohort, 175 patiënten, één chirurg; geen gerandomiseerde vergelijking.
 - Gebruik in artikel: niet inhoudelijk uitgewerkt; alleen researchcontext voor toekomstige duiding over verwachtingen na enkelprothese.
 
-### 4. Godziuk et al.
+### 4. Paget et al. — PRIMA-studie
+
+- Titel: *Effect of Platelet-Rich Plasma Injections vs Placebo on Ankle Symptoms and Function in Patients With Ankle Osteoarthritis: A Randomized Clinical Trial*
+- Tijdschrift: *JAMA*
+- Datum: 2021-10-26
+- DOI: 10.1001/jama.2021.16602
+- URL: https://jamanetwork.com/journals/jama/fullarticle/2785499
+- Status: `peer-reviewed studie`, `gerandomiseerde placebogecontroleerde studie`
+- Bronkwaliteit: dubbelblind multicenteronderzoek bij 100 patiënten in zes Nederlandse centra; PRP liet na 26 weken geen voordeel zien boven zoutoplossing voor pijn en functie.
+- Gebruik in artikel: primaire Nederlandse bewijsbron voor de passage over PRP.
+
+### 5. Paget et al. — vervolg na 52 weken
+
+- Titel: *Platelet-Rich Plasma Injections for the Treatment of Ankle Osteoarthritis*
+- Tijdschrift: *American Journal of Sports Medicine*
+- Jaar: 2023
+- DOI: 10.1177/03635465231182438
+- Status: `peer-reviewed studie`, `vervolgonderzoek van gerandomiseerde trial`
+- Bronkwaliteit: vervolg van dezelfde 100 gerandomiseerde patiënten; ook na 52 weken geen voordeel van PRP boven zoutoplossing.
+- Gebruik in artikel: onderbouwing van de conclusie dat tot twaalf maanden geen voordeel werd gevonden.
+
+### 6. Smith et al. — educatie en oefentherapie
+
+- Titel: *A combined program of education plus exercise versus general advice for ankle osteoarthritis: A feasibility randomised controlled trial*
+- Tijdschrift: *Musculoskeletal Science and Practice*
+- Jaar: 2024
+- Volume en artikelnummer: 74:103169
+- DOI: 10.1016/j.msksp.2024.103169
+- PMID: 39241692
+- Status: `peer-reviewed studie`, `gerandomiseerde haalbaarheidsstudie`
+- Bronkwaliteit: gerandomiseerde studie met 30 deelnemers; primair ontworpen om de uitvoerbaarheid van een grotere trial te beoordelen en niet om een definitieve effectschatting te leveren.
+- Gebruik in artikel: primaire bron voor de beperkte aanbeveling over groepseducatie, oefentherapie en een aansluitend thuisprogramma.
+
+### 7. Godziuk et al.
 
 - Titel: *Does fat mass contribute to knee osteoarthritis risk beyond weight itself? Data from the Multicenter Osteoarthritis Study*
 - Tijdschrift: *Osteoarthritis and Cartilage*
@@ -109,7 +144,7 @@ De korte reeks komt daarmee op 3x voet/enkel en 1x knie/leefstijl. Dat past bij 
 - Voor hyaluronzuur als monotherapie vond de werkgroep in drie hoogwaardige RCT’s geen voordeel boven zoutoplossing.
 - Voor PRP vond één hoogwaardige RCT geen duurzaam voordeel boven zoutoplossing tot twaalf maanden.
 - Voor een combinatie van hyaluronzuur en corticosteroïd beschrijft de richtlijn een mogelijk kortdurend voordeel boven corticosteroïd alleen, maar zonder placebocomparator is de absolute werkzaamheid niet vast te stellen.
-- Een beperkt sterke aanbeveling steunt groepseducatie en oefentherapie met een thuisprogramma bij milde tot matige symptomatische enkelartrose; deze rust op één kleine feasibilitystudie.
+- Een beperkt sterke aanbeveling steunt groepseducatie en oefentherapie met een thuisprogramma bij milde tot matige symptomatische enkelartrose; deze rust op één gerandomiseerde haalbaarheidsstudie met 30 deelnemers.
 - Voor fysiotherapie, hulpmiddelen, gewichtsreductie, veel medicamenteuze opties en operatieve strategieën zijn de adviezen grotendeels consensus.
 - Voor gewrichtssparende chirurgie vond de werkgroep geen geschikte vergelijkende studies die aan de inclusiecriteria voldeden.
 - De richtlijn behandelt definitieve operatieve keuzes zoals artrodese versus enkelprothese niet met een harde vergelijkende aanbeveling.
@@ -162,18 +197,27 @@ De korte reeks komt daarmee op 3x voet/enkel en 1x knie/leefstijl. Dat past bij 
 - Geen koppeling naar lokale concept-behandelpagina’s in een publieke route.
 - De preview blijft `noindex, follow`, buiten sitemap, `content.js`, navigatie en publicatieregister.
 
+## FAQ- en zoekvragencheck
+
+- Google-suggesties gecontroleerd op 2026-08-26 voor `enkelartrose injectie`, `PRP injectie enkel`, `hyaluronzuur injectie enkel`, `cortisone injectie enkel artrose` en varianten.
+- Zichtbare suggesties waren onder meer `enkel artrose injectie`, `PRP injectie enkel`, `hyaluronzuur injectie enkel`, `hyaluronzuur injectie enkel ervaring` en `enkelartrose behandeling`.
+- De zoekresultaten geven uiteenlopende antwoorden over hyaluronzuur en corticosteroïden. Daarom blijven de FAQ-antwoorden strikt begrensd tot de AAOS-richtlijn en de Nederlandse PRIMA-studie.
+- Gekozen vragen: welke injecties helpen, helpen bloedplaatjes-/PRP-injecties, helpt oefentherapie bij enkelartrose, helpen braces en schoenaanpassingen bij enkelartrose en welke operaties worden aanbevolen bij enkelartrose?
+- Alleen zichtbare FAQ-content toegevoegd. Geen `FAQPage`-schema toegevoegd: de preview is `noindex` en Google toont FAQ-rich-results sinds 2023 hoofdzakelijk nog voor bekende gezaghebbende overheids- en gezondheidssites.
+- Google-bron: https://developers.google.com/search/blog/2023/08/howto-faq-changes
+
 ## Staffronde vóór schrijven
 
 ### Bronredacteur
 
 - Conclusie: de AAOS-richtlijn is voldoende stevig en actueel voor een volledig concept, mits aanbevelingssterkte en consensus expliciet uit elkaar worden gehouden.
 - Wijziging: de invalshoek verschoven van “nieuwe behandeladviezen” naar “wat de richtlijn wel en nog niet kan onderbouwen”.
-- Artikelbronnen: AAOS-richtlijn concreet uitleggen; AAOS Newsroom alleen als aanleiding. De Thomas-, Godziuk- en innovatiestudies blijven in het researchdossier.
+- Artikelbronnen: AAOS-richtlijn concreet uitleggen; AAOS Newsroom alleen als aanleiding. De peer-reviewed PRIMA-studie en de vervolgpublicatie dragen de Nederlandse PRP-duiding. De studie van Smith et al. draagt de passage over educatie en oefentherapie. De Thomas-, Godziuk- en innovatiestudies blijven in het researchdossier.
 
 ### Stijlredacteur
 
 - Conclusie: voorkom een opsomming van alle behandelopties en een patiëntenfolder over enkelartrose.
-- Wijziging: beschouwende lijn gekozen rond de betekenis van een richtlijn met weinig harde aanbevelingen; geen Q&A, checklist of schoolse samenvatting.
+- Wijziging: de hoofdtekst blijft beschouwend en zonder checklist. Later is onderaan een compacte FAQ toegevoegd met echte zoekvragen, zonder de hoofdtekst in patiëntenfoldervorm om te zetten.
 
 ### Medische veiligheidsreviewer
 

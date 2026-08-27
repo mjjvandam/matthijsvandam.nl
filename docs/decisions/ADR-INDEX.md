@@ -10,6 +10,7 @@ Use this index to find the relevant architectural decision record before non-tri
 | ADR-0004 | SEO And AI Visibility | Accepted | SEO, metadata, schema, indexability, AI-readable structure | Titles, meta descriptions, schema, sitemap, robots, canonical or AI/search visibility changes |
 | ADR-0005 | Medical Content Safety | Accepted | Medical safety, claims, source chain, owner review | Patient/professional medical content, source-based articles, claims, disclaimers or safety wording |
 | ADR-0006 | Publication Governance | Accepted | Public/concept definitions, register, verification, sitemap/robots/canonical/deployment scope | Publication status, review status, register, sitemap, robots, canonical, `.vercelignore` or public release changes |
+| ADR-0007 | Central FAQ Content And Reuse | Accepted | Patient-first FAQ ownership, reuse, static generation, validation and transitional FAQ schema | FAQ creation, reuse, duplication, article/treatment overlap, FAQ rendering or schema changes |
 
 Status notes:
 

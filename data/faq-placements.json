@@ -1,0 +1,1421 @@
+{
+  "version": 1,
+  "policy": "ADR-0007",
+  "pages": [
+    {
+      "path": "behandelingen/achillespeesklachten.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "achillespeesklachten-wat-zijn-achillespeesklachten",
+          "mode": "full"
+        },
+        {
+          "id": "achillespeesklachten-wat-is-het-verschil-tussen-middenpees-en-aanhechtingsklachten",
+          "mode": "full"
+        },
+        {
+          "id": "achillespeesklachten-wanneer-past-het-niet-bij-gewone-overbelasting",
+          "mode": "full"
+        },
+        {
+          "id": "achillespeesklachten-wat-kan-op-achillespeesklachten-lijken",
+          "mode": "full"
+        },
+        {
+          "id": "achillespeesklachten-is-echo-of-mri-altijd-nodig",
+          "mode": "full"
+        },
+        {
+          "id": "achillespeesklachten-welke-behandeling-wordt-meestal-eerst-besproken",
+          "mode": "full"
+        },
+        {
+          "id": "achillespeesklachten-zijn-injecties-rond-de-achillespees-standaard",
+          "mode": "full"
+        },
+        {
+          "id": "achillespeesklachten-wanneer-wordt-een-operatie-besproken",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/anterieur-enkel-impingement.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "anterieur-enkel-impingement-wat-is-anterieur-enkelimpingement",
+          "mode": "full"
+        },
+        {
+          "id": "anterieur-enkel-impingement-welke-klachten-passen-bij-inklemming-aan-de-voorkant-van-de-enkel",
+          "mode": "full"
+        },
+        {
+          "id": "anterieur-enkel-impingement-kan-dit-ontstaan-na-een-enkelverzwikking",
+          "mode": "full"
+        },
+        {
+          "id": "anterieur-enkel-impingement-wat-kan-erop-lijken",
+          "mode": "full"
+        },
+        {
+          "id": "anterieur-enkel-impingement-wanneer-is-beeldvorming-zinvol",
+          "mode": "full"
+        },
+        {
+          "id": "anterieur-enkel-impingement-helpen-oefeningen-of-belasting-aanpassen",
+          "mode": "full"
+        },
+        {
+          "id": "anterieur-enkel-impingement-wanneer-komt-een-kijkoperatie-in-beeld",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/artrose-na-breuk.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "artrose-na-breuk-wat-is-artrose-na-een-breuk",
+          "mode": "full"
+        },
+        {
+          "id": "artrose-na-breuk-kan-artrose-jaren-na-een-enkelbreuk-ontstaan",
+          "mode": "full"
+        },
+        {
+          "id": "artrose-na-breuk-welke-klachten-passen-bij-posttraumatische-artrose",
+          "mode": "full"
+        },
+        {
+          "id": "artrose-na-breuk-wat-kan-erop-lijken",
+          "mode": "full"
+        },
+        {
+          "id": "artrose-na-breuk-welke-beeldvorming-is-zinvol",
+          "mode": "full"
+        },
+        {
+          "id": "artrose-na-breuk-welke-behandeling-wordt-meestal-eerst-besproken",
+          "mode": "full"
+        },
+        {
+          "id": "artrose-na-breuk-wanneer-wordt-operatie-besproken",
+          "mode": "full"
+        },
+        {
+          "id": "artrose-na-breuk-is-artrodese-altijd-nodig",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/chronische-enkelinstabiliteit.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "chronische-enkelinstabiliteit-wat-is-chronische-enkelinstabiliteit",
+          "mode": "full"
+        },
+        {
+          "id": "chronische-enkelinstabiliteit-wanneer-is-blijvend-doorzwikken-reden-voor-beoordeling",
+          "mode": "full"
+        },
+        {
+          "id": "chronische-enkelinstabiliteit-helpt-oefentherapie",
+          "mode": "full"
+        },
+        {
+          "id": "chronische-enkelinstabiliteit-wanneer-is-beeldvorming-nodig",
+          "mode": "full"
+        },
+        {
+          "id": "chronische-enkelinstabiliteit-wat-kan-erop-lijken",
+          "mode": "full"
+        },
+        {
+          "id": "chronische-enkelinstabiliteit-wanneer-komt-een-enkelbandoperatie-in-beeld",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/corpus-liberum-enkel.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "corpus-liberum-enkel-wat-is-een-corpus-liberum-in-de-enkel",
+          "mode": "full"
+        },
+        {
+          "id": "corpus-liberum-enkel-welke-klachten-kunnen-passen-bij-een-los-fragment-in-de-enkel",
+          "mode": "full"
+        },
+        {
+          "id": "corpus-liberum-enkel-is-een-corpus-liberum-hetzelfde-als-kraakbeenletsel",
+          "mode": "full"
+        },
+        {
+          "id": "corpus-liberum-enkel-is-een-los-fragment-op-een-scan-altijd-de-oorzaak-van-klachten",
+          "mode": "full"
+        },
+        {
+          "id": "corpus-liberum-enkel-wat-kan-op-corpus-liberum-lijken",
+          "mode": "full"
+        },
+        {
+          "id": "corpus-liberum-enkel-welke-beeldvorming-kan-nodig-zijn",
+          "mode": "full"
+        },
+        {
+          "id": "corpus-liberum-enkel-kan-een-corpus-liberum-zonder-operatie-worden-behandeld",
+          "mode": "full"
+        },
+        {
+          "id": "corpus-liberum-enkel-wanneer-komt-een-kijkoperatie-in-beeld",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/enkelartrose.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": false,
+      "publicationScope": "public",
+      "items": [
+        {
+          "id": "enkelartrose-wat-is-artrose-van-de-enkel",
+          "mode": "full"
+        },
+        {
+          "id": "enkelartrose-komt-enkelartrose-vaak-door-eerder-letsel",
+          "mode": "full"
+        },
+        {
+          "id": "enkelartrose-welke-klachten-passen-bij-enkelartrose",
+          "mode": "full"
+        },
+        {
+          "id": "enkelartrose-wordt-enkelartrose-vanzelf-steeds-erger",
+          "mode": "full"
+        },
+        {
+          "id": "enkelartrose-wat-kan-lijken-op-artrose-van-de-enkel",
+          "mode": "full"
+        },
+        {
+          "id": "enkelartrose-wanneer-zijn-rontgenfoto-s-of-scans-zinvol",
+          "mode": "full"
+        },
+        {
+          "id": "enkelartrose-wat-kan-zonder-operatie-worden-geprobeerd",
+          "mode": "full"
+        },
+        {
+          "id": "enkelartrose-kan-een-cortisoninjectie-helpen-bij-enkelartrose",
+          "mode": "full"
+        },
+        {
+          "id": "enkelartrose-helpt-hyaluronzuur-bij-enkelartrose",
+          "mode": "full"
+        },
+        {
+          "id": "enkelartrose-helpt-prp-bij-enkelartrose",
+          "mode": "full"
+        },
+        {
+          "id": "enkelartrose-helpen-stamcelinjecties-bij-enkelartrose",
+          "mode": "full"
+        },
+        {
+          "id": "enkelartrose-wanneer-komt-een-operatie-in-beeld",
+          "mode": "full"
+        },
+        {
+          "id": "enkelartrose-wat-is-het-verschil-tussen-artrodese-en-enkelprothese",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/enkelverzwikking.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "public",
+      "items": [
+        {
+          "id": "enkelverzwikking-wanneer-moet-een-verzwikte-enkel-worden-beoordeeld",
+          "mode": "full"
+        },
+        {
+          "id": "enkelverzwikking-is-een-rontgenfoto-altijd-nodig-na-een-enkelverzwikking",
+          "mode": "full"
+        },
+        {
+          "id": "enkelverzwikking-wat-is-het-verschil-tussen-een-verzwikking-en-chronische-enkelinstabiliteit",
+          "mode": "full"
+        },
+        {
+          "id": "enkelverzwikking-wanneer-kunnen-oefeningen-of-fysiotherapie-helpen",
+          "mode": "full"
+        },
+        {
+          "id": "enkelverzwikking-wanneer-kan-er-meer-aan-de-hand-zijn-dan-enkelbandletsel",
+          "mode": "full"
+        },
+        {
+          "id": "enkelverzwikking-moet-een-enkelverzwikking-geopereerd-worden",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/ganglion-enkel.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "ganglion-enkel-wat-is-een-ganglion-rond-de-enkel",
+          "mode": "full"
+        },
+        {
+          "id": "ganglion-enkel-is-een-bult-bij-de-enkel-altijd-een-ganglion",
+          "mode": "full"
+        },
+        {
+          "id": "ganglion-enkel-welke-klachten-kan-een-ganglion-geven",
+          "mode": "full"
+        },
+        {
+          "id": "ganglion-enkel-wanneer-moet-een-zwelling-rond-de-enkel-worden-beoordeeld",
+          "mode": "full"
+        },
+        {
+          "id": "ganglion-enkel-is-echografie-of-mri-nodig",
+          "mode": "full"
+        },
+        {
+          "id": "ganglion-enkel-kan-een-ganglion-vanzelf-kleiner-worden",
+          "mode": "full"
+        },
+        {
+          "id": "ganglion-enkel-wanneer-komen-punctie-of-operatie-in-beeld",
+          "mode": "full"
+        },
+        {
+          "id": "ganglion-enkel-kan-een-ganglion-terugkomen",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/ganglion-middenvoet.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "ganglion-middenvoet-wat-is-een-ganglion-op-de-wreef",
+          "mode": "full"
+        },
+        {
+          "id": "ganglion-middenvoet-is-een-bult-bovenop-de-voet-altijd-een-ganglion",
+          "mode": "full"
+        },
+        {
+          "id": "ganglion-middenvoet-wat-is-het-verschil-tussen-ganglion-en-tarsal-boss",
+          "mode": "full"
+        },
+        {
+          "id": "ganglion-middenvoet-welke-klachten-kan-een-ganglion-op-de-wreef-geven",
+          "mode": "full"
+        },
+        {
+          "id": "ganglion-middenvoet-wanneer-moet-een-zwelling-op-de-wreef-worden-beoordeeld",
+          "mode": "full"
+        },
+        {
+          "id": "ganglion-middenvoet-is-echo-of-mri-nodig",
+          "mode": "full"
+        },
+        {
+          "id": "ganglion-middenvoet-kan-een-ganglion-vanzelf-kleiner-worden",
+          "mode": "full"
+        },
+        {
+          "id": "ganglion-middenvoet-wanneer-komen-punctie-of-operatie-in-beeld",
+          "mode": "full"
+        },
+        {
+          "id": "ganglion-middenvoet-kan-een-ganglion-terugkomen",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/haglund-retrocalcaneaire-klachten.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "haglund-retrocalcaneaire-klachten-wat-is-een-haglund-vorm",
+          "mode": "full"
+        },
+        {
+          "id": "haglund-retrocalcaneaire-klachten-wat-is-retrocalcaneaire-slijmbeursirritatie",
+          "mode": "full"
+        },
+        {
+          "id": "haglund-retrocalcaneaire-klachten-is-een-knobbel-achter-op-de-hiel-altijd-haglund",
+          "mode": "full"
+        },
+        {
+          "id": "haglund-retrocalcaneaire-klachten-wat-is-het-verschil-met-achillespeesklachten",
+          "mode": "full"
+        },
+        {
+          "id": "haglund-retrocalcaneaire-klachten-wat-kan-erop-lijken",
+          "mode": "full"
+        },
+        {
+          "id": "haglund-retrocalcaneaire-klachten-wanneer-is-beeldvorming-zinvol",
+          "mode": "full"
+        },
+        {
+          "id": "haglund-retrocalcaneaire-klachten-welke-behandeling-wordt-meestal-eerst-besproken",
+          "mode": "full"
+        },
+        {
+          "id": "haglund-retrocalcaneaire-klachten-wanneer-wordt-operatie-besproken",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/hallux-rigidus.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "hallux-rigidus-is-hallux-rigidus-hetzelfde-als-hallux-valgus",
+          "mode": "full"
+        },
+        {
+          "id": "hallux-rigidus-kun-je-met-hallux-rigidus-normaal-blijven-lopen",
+          "mode": "full"
+        },
+        {
+          "id": "hallux-rigidus-kun-je-nog-hardlopen-met-hallux-rigidus",
+          "mode": "full"
+        },
+        {
+          "id": "hallux-rigidus-moet-hallux-rigidus-altijd-geopereerd-worden",
+          "mode": "full"
+        },
+        {
+          "id": "hallux-rigidus-kan-de-grote-teen-na-een-mtp-1-artrodese-nog-bewegen",
+          "mode": "full"
+        },
+        {
+          "id": "hallux-rigidus-wanneer-is-een-cheilectomie-passend",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/hallux-valgus.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "hallux-valgus-is-hallux-valgus-hetzelfde-als-een-bunion",
+          "mode": "full"
+        },
+        {
+          "id": "hallux-valgus-kan-hallux-valgus-leiden-tot-een-hamerteen",
+          "mode": "full"
+        },
+        {
+          "id": "hallux-valgus-moet-hallux-valgus-altijd-geopereerd-worden",
+          "mode": "full"
+        },
+        {
+          "id": "hallux-valgus-wordt-hallux-valgus-geopereerd-om-de-voet-mooier-te-maken",
+          "mode": "full"
+        },
+        {
+          "id": "hallux-valgus-kan-hallux-valgus-terugkomen-na-een-operatie",
+          "mode": "full"
+        },
+        {
+          "id": "hallux-valgus-wat-is-het-verschil-tussen-hallux-valgus-en-hallux-rigidus",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/hamerteen-klauwteen.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "hamerteen-klauwteen-wat-is-het-verschil-tussen-hamerteen-en-klauwteen",
+          "mode": "full"
+        },
+        {
+          "id": "hamerteen-klauwteen-kan-hallux-valgus-een-hamerteen-veroorzaken",
+          "mode": "full"
+        },
+        {
+          "id": "hamerteen-klauwteen-moet-een-hamerteen-altijd-geopereerd-worden",
+          "mode": "full"
+        },
+        {
+          "id": "hamerteen-klauwteen-wanneer-is-beoordeling-verstandig",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/hielpijn.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "hielpijn-is-hielpijn-een-diagnose",
+          "mode": "full"
+        },
+        {
+          "id": "hielpijn-wat-is-het-verschil-tussen-pijn-onder-en-achter-de-hiel",
+          "mode": "full"
+        },
+        {
+          "id": "hielpijn-betekent-startpijn-automatisch-hielspoor",
+          "mode": "full"
+        },
+        {
+          "id": "hielpijn-wanneer-is-beoordeling-verstandig-bij-hielpijn",
+          "mode": "full"
+        },
+        {
+          "id": "hielpijn-is-beeldvorming-altijd-nodig",
+          "mode": "full"
+        },
+        {
+          "id": "hielpijn-wat-kan-op-hielpijn-lijken-of-ermee-samengaan",
+          "mode": "full"
+        },
+        {
+          "id": "hielpijn-wat-wordt-meestal-eerst-besproken-bij-hielpijn",
+          "mode": "full"
+        },
+        {
+          "id": "hielpijn-wanneer-wordt-een-operatie-besproken",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/holvoet-cavovarus.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "holvoet-cavovarus-wat-is-een-holvoet",
+          "mode": "full"
+        },
+        {
+          "id": "holvoet-cavovarus-wat-betekent-cavovarus",
+          "mode": "full"
+        },
+        {
+          "id": "holvoet-cavovarus-welke-klachten-kunnen-erbij-passen",
+          "mode": "full"
+        },
+        {
+          "id": "holvoet-cavovarus-is-een-holvoet-altijd-neurologisch",
+          "mode": "full"
+        },
+        {
+          "id": "holvoet-cavovarus-wat-kan-erop-lijken-of-ermee-samengaan",
+          "mode": "full"
+        },
+        {
+          "id": "holvoet-cavovarus-welke-onderzoeken-kunnen-nodig-zijn",
+          "mode": "full"
+        },
+        {
+          "id": "holvoet-cavovarus-helpen-schoenen-zolen-brace-of-fysiotherapie",
+          "mode": "full"
+        },
+        {
+          "id": "holvoet-cavovarus-wanneer-wordt-een-operatie-besproken",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/kraakbeenletsel-enkel.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "kraakbeenletsel-enkel-wat-is-kraakbeenletsel-van-de-enkel",
+          "mode": "full"
+        },
+        {
+          "id": "kraakbeenletsel-enkel-kan-kraakbeenletsel-ontstaan-na-een-enkelverzwikking",
+          "mode": "full"
+        },
+        {
+          "id": "kraakbeenletsel-enkel-welke-klachten-passen-erbij",
+          "mode": "full"
+        },
+        {
+          "id": "kraakbeenletsel-enkel-wat-is-het-verschil-met-enkelartrose",
+          "mode": "full"
+        },
+        {
+          "id": "kraakbeenletsel-enkel-wat-kan-erop-lijken",
+          "mode": "full"
+        },
+        {
+          "id": "kraakbeenletsel-enkel-wanneer-is-mri-of-ct-zinvol",
+          "mode": "full"
+        },
+        {
+          "id": "kraakbeenletsel-enkel-kan-kraakbeenletsel-zonder-operatie-herstellen",
+          "mode": "full"
+        },
+        {
+          "id": "kraakbeenletsel-enkel-wanneer-komt-een-operatie-in-beeld",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/lisfranc-middenvoetletsel.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "lisfranc-middenvoetletsel-wat-is-lisfranc-letsel",
+          "mode": "full"
+        },
+        {
+          "id": "lisfranc-middenvoetletsel-is-lisfranc-letsel-hetzelfde-als-een-verstuiking",
+          "mode": "full"
+        },
+        {
+          "id": "lisfranc-middenvoetletsel-welke-klachten-passen-bij-lisfranc-of-middenvoetletsel",
+          "mode": "full"
+        },
+        {
+          "id": "lisfranc-middenvoetletsel-waarom-is-een-blauwe-plek-onder-de-voet-belangrijk",
+          "mode": "full"
+        },
+        {
+          "id": "lisfranc-middenvoetletsel-is-een-gewone-rontgenfoto-altijd-genoeg",
+          "mode": "full"
+        },
+        {
+          "id": "lisfranc-middenvoetletsel-wanneer-moet-middenvoetpijn-na-een-ongeval-worden-beoordeeld",
+          "mode": "full"
+        },
+        {
+          "id": "lisfranc-middenvoetletsel-wanneer-is-operatie-bij-lisfranc-letsel-een-optie",
+          "mode": "full"
+        },
+        {
+          "id": "lisfranc-middenvoetletsel-kan-later-artrose-ontstaan-na-lisfranc-letsel",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/metatarsalgie.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "metatarsalgie-is-metatarsalgie-een-diagnose",
+          "mode": "full"
+        },
+        {
+          "id": "metatarsalgie-wat-is-het-verschil-tussen-metatarsalgie-en-morton-neuroom",
+          "mode": "full"
+        },
+        {
+          "id": "metatarsalgie-kunnen-schoenen-met-metatarsalgie-te-maken-hebben",
+          "mode": "full"
+        },
+        {
+          "id": "metatarsalgie-is-een-rontgenfoto-altijd-nodig-bij-metatarsalgie",
+          "mode": "full"
+        },
+        {
+          "id": "metatarsalgie-helpt-een-steunzool-bij-metatarsalgie",
+          "mode": "full"
+        },
+        {
+          "id": "metatarsalgie-wanneer-is-specialistische-beoordeling-zinvol",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/morton-neuroom.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "morton-neuroom-is-een-morton-neuroom-een-tumor",
+          "mode": "full"
+        },
+        {
+          "id": "morton-neuroom-kan-een-morton-neuroom-uitstralen-naar-de-tenen",
+          "mode": "full"
+        },
+        {
+          "id": "morton-neuroom-wat-is-het-verschil-tussen-morton-neuroom-en-metatarsalgie",
+          "mode": "full"
+        },
+        {
+          "id": "morton-neuroom-is-een-echo-of-mri-altijd-nodig",
+          "mode": "full"
+        },
+        {
+          "id": "morton-neuroom-moet-een-morton-neuroom-geopereerd-worden",
+          "mode": "full"
+        },
+        {
+          "id": "morton-neuroom-kan-een-injectie-helpen-bij-morton-neuroom",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/mtp-1-artrodese.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "mtp-1-artrodese-kun-je-na-een-mtp-1-artrodese-normaal-lopen",
+          "mode": "full"
+        },
+        {
+          "id": "mtp-1-artrodese-kun-je-na-een-mtp-1-artrodese-nog-hardlopen",
+          "mode": "full"
+        },
+        {
+          "id": "mtp-1-artrodese-kan-de-grote-teen-na-een-mtp-1-artrodese-nog-bewegen",
+          "mode": "full"
+        },
+        {
+          "id": "mtp-1-artrodese-kun-je-gewone-schoenen-dragen-na-een-mtp-1-artrodese",
+          "mode": "full"
+        },
+        {
+          "id": "mtp-1-artrodese-wanneer-wordt-een-mtp-1-artrodese-besproken",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/mtp-plantaire-plaatklachten.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "mtp-plantaire-plaatklachten-wat-is-de-plantaire-plaat",
+          "mode": "full"
+        },
+        {
+          "id": "mtp-plantaire-plaatklachten-zijn-mtp-klachten-hetzelfde-als-metatarsalgie",
+          "mode": "full"
+        },
+        {
+          "id": "mtp-plantaire-plaatklachten-hoe-verschilt-dit-van-morton-neuroom",
+          "mode": "full"
+        },
+        {
+          "id": "mtp-plantaire-plaatklachten-kan-een-teen-scheef-gaan-staan-door-plantaire-plaatklachten",
+          "mode": "full"
+        },
+        {
+          "id": "mtp-plantaire-plaatklachten-is-beeldvorming-altijd-nodig",
+          "mode": "full"
+        },
+        {
+          "id": "mtp-plantaire-plaatklachten-moet-een-beschadiging-van-de-plantaire-plaat-geopereerd-worden",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/os-trigonum.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "os-trigonum-wat-is-een-os-trigonum",
+          "mode": "full"
+        },
+        {
+          "id": "os-trigonum-is-een-os-trigonum-altijd-de-oorzaak-van-pijn",
+          "mode": "full"
+        },
+        {
+          "id": "os-trigonum-wanneer-kan-een-os-trigonum-klachten-geven",
+          "mode": "full"
+        },
+        {
+          "id": "os-trigonum-wat-is-het-verschil-met-posterieur-enkelimpingement",
+          "mode": "full"
+        },
+        {
+          "id": "os-trigonum-wat-kan-erop-lijken",
+          "mode": "full"
+        },
+        {
+          "id": "os-trigonum-wanneer-is-beeldvorming-zinvol",
+          "mode": "full"
+        },
+        {
+          "id": "os-trigonum-wordt-een-os-trigonum-altijd-geopereerd",
+          "mode": "full"
+        },
+        {
+          "id": "os-trigonum-wanneer-is-specialistische-beoordeling-zinvol",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/peesplaatklachten-hielspoor.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "peesplaatklachten-hielspoor-wat-zijn-peesplaatklachten",
+          "mode": "full"
+        },
+        {
+          "id": "peesplaatklachten-hielspoor-is-fasciitis-plantaris-hetzelfde-als-peesplaatklachten",
+          "mode": "full"
+        },
+        {
+          "id": "peesplaatklachten-hielspoor-is-een-hielspoor-de-oorzaak-van-pijn-onder-de-hiel",
+          "mode": "full"
+        },
+        {
+          "id": "peesplaatklachten-hielspoor-welke-klachten-passen-bij-peesplaatklachten",
+          "mode": "full"
+        },
+        {
+          "id": "peesplaatklachten-hielspoor-wat-kan-op-peesplaatklachten-lijken",
+          "mode": "full"
+        },
+        {
+          "id": "peesplaatklachten-hielspoor-is-beeldvorming-altijd-nodig-bij-pijn-onder-de-hiel",
+          "mode": "full"
+        },
+        {
+          "id": "peesplaatklachten-hielspoor-welke-behandeling-wordt-meestal-eerst-besproken",
+          "mode": "full"
+        },
+        {
+          "id": "peesplaatklachten-hielspoor-zijn-injecties-shockwave-of-operatie-standaard",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/peroneuspeesklachten.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "peroneuspeesklachten-wat-zijn-peroneuspeesklachten",
+          "mode": "full"
+        },
+        {
+          "id": "peroneuspeesklachten-welke-klachten-passen-bij-pijn-aan-de-buitenenkel",
+          "mode": "full"
+        },
+        {
+          "id": "peroneuspeesklachten-kan-dit-ontstaan-na-een-enkelverzwikking",
+          "mode": "full"
+        },
+        {
+          "id": "peroneuspeesklachten-wat-betekent-knappen-of-verspringen-achter-de-buitenenkel",
+          "mode": "full"
+        },
+        {
+          "id": "peroneuspeesklachten-wanneer-is-echo-of-mri-zinvol",
+          "mode": "full"
+        },
+        {
+          "id": "peroneuspeesklachten-wat-kan-erop-lijken",
+          "mode": "full"
+        },
+        {
+          "id": "peroneuspeesklachten-helpen-oefeningen-brace-schoenen-of-zolen",
+          "mode": "full"
+        },
+        {
+          "id": "peroneuspeesklachten-wanneer-komt-specialistische-beoordeling-of-operatie-in-beeld",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/platvoet-volwassen.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "platvoet-volwassen-is-een-platvoet-bij-volwassenen-altijd-een-probleem",
+          "mode": "full"
+        },
+        {
+          "id": "platvoet-volwassen-wat-betekent-progressive-collapsing-foot-deformity",
+          "mode": "full"
+        },
+        {
+          "id": "platvoet-volwassen-welke-klachten-kunnen-passen-bij-volwassen-platvoet",
+          "mode": "full"
+        },
+        {
+          "id": "platvoet-volwassen-is-platvoet-hetzelfde-als-tibialis-posterior-peesklachten",
+          "mode": "full"
+        },
+        {
+          "id": "platvoet-volwassen-wat-kan-op-platvoet-lijken-of-ermee-samengaan",
+          "mode": "full"
+        },
+        {
+          "id": "platvoet-volwassen-welke-onderzoeken-kunnen-nodig-zijn",
+          "mode": "full"
+        },
+        {
+          "id": "platvoet-volwassen-helpen-schoenen-zolen-brace-of-fysiotherapie",
+          "mode": "full"
+        },
+        {
+          "id": "platvoet-volwassen-wanneer-wordt-een-operatie-besproken",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/posterieur-enkel-impingement.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "posterieur-enkel-impingement-wat-is-posterieur-enkelimpingement",
+          "mode": "full"
+        },
+        {
+          "id": "posterieur-enkel-impingement-welke-klachten-passen-bij-pijn-achter-in-de-enkel",
+          "mode": "full"
+        },
+        {
+          "id": "posterieur-enkel-impingement-wat-is-het-verschil-met-os-trigonum",
+          "mode": "full"
+        },
+        {
+          "id": "posterieur-enkel-impingement-kan-dit-ontstaan-of-opvallen-bij-sport-of-dans",
+          "mode": "full"
+        },
+        {
+          "id": "posterieur-enkel-impingement-wat-kan-erop-lijken",
+          "mode": "full"
+        },
+        {
+          "id": "posterieur-enkel-impingement-wanneer-is-beeldvorming-zinvol",
+          "mode": "full"
+        },
+        {
+          "id": "posterieur-enkel-impingement-helpen-rustiger-opbouwen-oefeningen-of-belasting-aanpassen",
+          "mode": "full"
+        },
+        {
+          "id": "posterieur-enkel-impingement-wanneer-komt-specialistische-beoordeling-of-kijkoperatie-in-beeld",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/revisie-artrodese.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "revisie-artrodese-is-pijn-na-artrodese-altijd-een-teken-dat-het-bot-niet-is-vastgegroeid",
+          "mode": "full"
+        },
+        {
+          "id": "revisie-artrodese-wat-betekent-pseudoartrose-na-een-vastzetoperatie",
+          "mode": "full"
+        },
+        {
+          "id": "revisie-artrodese-hoe-wordt-beoordeeld-of-een-artrodese-is-vastgegroeid",
+          "mode": "full"
+        },
+        {
+          "id": "revisie-artrodese-kan-een-plaat-of-schroef-pijn-blijven-geven",
+          "mode": "full"
+        },
+        {
+          "id": "revisie-artrodese-wat-kan-zonder-nieuwe-operatie-worden-geprobeerd",
+          "mode": "full"
+        },
+        {
+          "id": "revisie-artrodese-wanneer-komt-revisie-artrodese-in-beeld",
+          "mode": "full"
+        },
+        {
+          "id": "revisie-artrodese-is-3d-planning-altijd-nodig-bij-revisie-artrodese",
+          "mode": "full"
+        },
+        {
+          "id": "revisie-artrodese-waar-moet-ik-terecht-met-persoonlijke-of-acute-klachten",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/sesamoidklachten.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "sesamoidklachten-wat-zijn-sesamoidjes",
+          "mode": "full"
+        },
+        {
+          "id": "sesamoidklachten-waar-zit-de-pijn-bij-sesamoidklachten-meestal",
+          "mode": "full"
+        },
+        {
+          "id": "sesamoidklachten-wat-is-het-verschil-met-hallux-rigidus-of-jicht",
+          "mode": "full"
+        },
+        {
+          "id": "sesamoidklachten-is-beeldvorming-altijd-nodig",
+          "mode": "full"
+        },
+        {
+          "id": "sesamoidklachten-wat-helpt-meestal-eerst-bij-sesamoidklachten",
+          "mode": "full"
+        },
+        {
+          "id": "sesamoidklachten-wanneer-is-specialistische-beoordeling-zinvol",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/sinus-tarsi-klachten.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "sinus-tarsi-klachten-wat-is-de-sinus-tarsi",
+          "mode": "full"
+        },
+        {
+          "id": "sinus-tarsi-klachten-welke-klachten-passen-bij-sinus-tarsi-klachten",
+          "mode": "full"
+        },
+        {
+          "id": "sinus-tarsi-klachten-kan-dit-ontstaan-na-een-enkelverzwikking",
+          "mode": "full"
+        },
+        {
+          "id": "sinus-tarsi-klachten-is-dit-hetzelfde-als-enkelinstabiliteit",
+          "mode": "full"
+        },
+        {
+          "id": "sinus-tarsi-klachten-wanneer-is-beeldvorming-zinvol",
+          "mode": "full"
+        },
+        {
+          "id": "sinus-tarsi-klachten-wat-kan-erop-lijken",
+          "mode": "full"
+        },
+        {
+          "id": "sinus-tarsi-klachten-helpen-oefeningen-brace-schoenen-of-zolen",
+          "mode": "full"
+        },
+        {
+          "id": "sinus-tarsi-klachten-wanneer-komt-specialistische-beoordeling-of-operatie-in-beeld",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/stressreactie-stressfractuur.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "stressreactie-stressfractuur-wat-is-het-verschil-tussen-een-stressreactie-en-stressfractuur",
+          "mode": "full"
+        },
+        {
+          "id": "stressreactie-stressfractuur-hoe-voelt-botstress-in-de-middenvoet",
+          "mode": "full"
+        },
+        {
+          "id": "stressreactie-stressfractuur-is-een-rontgenfoto-altijd-genoeg",
+          "mode": "full"
+        },
+        {
+          "id": "stressreactie-stressfractuur-wanneer-is-de-naviculare-anders",
+          "mode": "full"
+        },
+        {
+          "id": "stressreactie-stressfractuur-kan-ik-blijven-sporten-met-verdenking-op-botstress",
+          "mode": "full"
+        },
+        {
+          "id": "stressreactie-stressfractuur-wat-kan-erop-lijken",
+          "mode": "full"
+        },
+        {
+          "id": "stressreactie-stressfractuur-wanneer-is-beoordeling-verstandig",
+          "mode": "full"
+        },
+        {
+          "id": "stressreactie-stressfractuur-wanneer-kan-belasting-weer-worden-opgebouwd",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/tailors-bunion.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "tailors-bunion-wat-is-een-tailor-s-bunion-of-bunionette",
+          "mode": "full"
+        },
+        {
+          "id": "tailors-bunion-is-een-knobbel-bij-de-kleine-teen-altijd-een-tailor-s-bunion",
+          "mode": "full"
+        },
+        {
+          "id": "tailors-bunion-welke-rol-spelen-schoenen",
+          "mode": "full"
+        },
+        {
+          "id": "tailors-bunion-wat-is-het-verschil-met-metatarsalgie-of-morton-neuroom",
+          "mode": "full"
+        },
+        {
+          "id": "tailors-bunion-is-beeldvorming-altijd-nodig",
+          "mode": "full"
+        },
+        {
+          "id": "tailors-bunion-moet-een-tailor-s-bunion-geopereerd-worden",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/tarsal-boss.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "tarsal-boss-wat-is-een-tarsal-boss",
+          "mode": "full"
+        },
+        {
+          "id": "tarsal-boss-is-een-tarsal-boss-hetzelfde-als-een-ganglion",
+          "mode": "full"
+        },
+        {
+          "id": "tarsal-boss-welke-klachten-passen-bij-een-botverdikking-op-de-wreef",
+          "mode": "full"
+        },
+        {
+          "id": "tarsal-boss-kan-middenvoetartrose-ermee-samenhangen",
+          "mode": "full"
+        },
+        {
+          "id": "tarsal-boss-wanneer-is-beeldvorming-zinvol",
+          "mode": "full"
+        },
+        {
+          "id": "tarsal-boss-wat-kan-erop-lijken",
+          "mode": "full"
+        },
+        {
+          "id": "tarsal-boss-welke-behandeling-wordt-meestal-eerst-besproken",
+          "mode": "full"
+        },
+        {
+          "id": "tarsal-boss-wanneer-wordt-operatie-besproken",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/tibialis-posterior-peesklachten.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "tibialis-posterior-peesklachten-wat-is-de-tibialis-posteriorpees",
+          "mode": "full"
+        },
+        {
+          "id": "tibialis-posterior-peesklachten-welke-klachten-kunnen-passen-bij-tibialis-posterior-peesklachten",
+          "mode": "full"
+        },
+        {
+          "id": "tibialis-posterior-peesklachten-is-dit-hetzelfde-als-platvoet-bij-volwassenen",
+          "mode": "full"
+        },
+        {
+          "id": "tibialis-posterior-peesklachten-wat-kan-er-met-de-pees-aan-de-hand-zijn",
+          "mode": "full"
+        },
+        {
+          "id": "tibialis-posterior-peesklachten-welke-onderzoeken-kunnen-nodig-zijn",
+          "mode": "full"
+        },
+        {
+          "id": "tibialis-posterior-peesklachten-wat-kan-op-tibialis-posterior-peesklachten-lijken",
+          "mode": "full"
+        },
+        {
+          "id": "tibialis-posterior-peesklachten-helpen-zolen-brace-of-fysiotherapie",
+          "mode": "full"
+        },
+        {
+          "id": "tibialis-posterior-peesklachten-wanneer-wordt-een-operatie-besproken",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/vetkussen-hielklachten.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "vetkussen-hielklachten-wat-is-het-vetkussen-onder-de-hiel",
+          "mode": "full"
+        },
+        {
+          "id": "vetkussen-hielklachten-welke-klachten-passen-bij-vetkussenklachten",
+          "mode": "full"
+        },
+        {
+          "id": "vetkussen-hielklachten-wat-is-het-verschil-met-peesplaatklachten",
+          "mode": "full"
+        },
+        {
+          "id": "vetkussen-hielklachten-kan-een-hielspoor-ook-pijn-door-het-vetkussen-verklaren",
+          "mode": "full"
+        },
+        {
+          "id": "vetkussen-hielklachten-wanneer-is-beoordeling-belangrijk",
+          "mode": "full"
+        },
+        {
+          "id": "vetkussen-hielklachten-is-beeldvorming-altijd-nodig",
+          "mode": "full"
+        },
+        {
+          "id": "vetkussen-hielklachten-welke-behandeling-wordt-meestal-besproken",
+          "mode": "full"
+        },
+        {
+          "id": "vetkussen-hielklachten-is-een-operatie-gebruikelijk-bij-vetkussenklachten",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "behandelingen/voorvoetcorrectie.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "concept",
+      "items": [
+        {
+          "id": "voorvoetcorrectie-wat-is-een-voorvoetcorrectie",
+          "mode": "full"
+        },
+        {
+          "id": "voorvoetcorrectie-wanneer-wordt-een-voorvoetcorrectie-besproken",
+          "mode": "full"
+        },
+        {
+          "id": "voorvoetcorrectie-is-voorvoetcorrectie-hetzelfde-als-een-hallux-valgus-operatie",
+          "mode": "full"
+        },
+        {
+          "id": "voorvoetcorrectie-welke-niet-operatieve-opties-komen-meestal-eerst",
+          "mode": "full"
+        },
+        {
+          "id": "voorvoetcorrectie-welke-risico-s-horen-bij-voorvoetoperaties",
+          "mode": "full"
+        },
+        {
+          "id": "voorvoetcorrectie-hoe-lang-duurt-herstel-na-een-voorvoetcorrectie",
+          "mode": "full"
+        }
+      ]
+    },
+    {
+      "path": "artikelen/aaos-richtlijn-enkelartrose.html",
+      "markdownPath": "concepten/artikelen/2026-07-26-enkelartrose-richtlijn-bewijsleemtes.md",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen over enkelartrose",
+      "schema": false,
+      "publicationScope": "public",
+      "items": [
+        {
+          "id": "enkelartrose-helpt-prp-bij-enkelartrose",
+          "mode": "link",
+          "label": "Welke injecties helpen bij enkelartrose?",
+          "introHtml": "De behandelpagina bundelt de algemene patiëntvragen over cortison, hyaluronzuur, PRP en stamcelinjecties.",
+          "linkLabel": "Bekijk de vragen over injecties",
+          "targetPage": "behandelingen/enkelartrose.html",
+          "targetAnchor": "vragen",
+          "anchor": "faq-link-enkelartrose-injecties"
+        },
+        {
+          "id": "aaos-enkelartrose-richtlijn-wat-zegt-de-richtlijn-over-oefentherapie-en-fysiotherapie-bij-enkelartrose",
+          "mode": "context"
+        },
+        {
+          "id": "aaos-enkelartrose-richtlijn-wat-zegt-de-richtlijn-over-braces-en-schoenaanpassingen",
+          "mode": "context"
+        },
+        {
+          "id": "aaos-enkelartrose-richtlijn-wat-zegt-de-richtlijn-over-operaties-bij-enkelartrose",
+          "mode": "context"
+        }
+      ]
+    }
+  ]
+}

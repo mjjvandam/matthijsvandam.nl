@@ -121,8 +121,8 @@ def run_checks() -> list[tuple[str, str]]:
             if words < MIN_UPGRADED_WORDS:
                 issues.append(("upgraded_page_too_thin", f"{condition_id}: {words} woorden"))
             required_elements = [
-                "@type\": \"FAQPage\"",
                 "class=\"treatment-faq\"",
+                "faq:section:start",
                 "class=\"patient-disclaimer\"",
                 "Waar kan je terecht?",
                 "officiële zorgkanalen",

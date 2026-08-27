@@ -19,7 +19,7 @@ Status:
 
 Risico:
 
-- `behandelingen/*.html` en `concept-foot-pain-guide.html` bestaan lokaal, maar zijn niet publiek bedoeld.
+- 33 `behandelingen/*.html`-pagina's en `concept-foot-pain-guide.html` bestaan lokaal, maar zijn niet publiek bedoeld; enkelverzwikking en enkelartrose zijn de publieke uitzonderingen.
 - Een kleine wijziging in `.vercelignore`, robots of sitemap kan conceptcontent zichtbaar maken.
 
 Beheersing:
@@ -124,3 +124,17 @@ Beheersing:
 - Datum zichtbaar houden.
 - `archive` en eventuele offline-datum controleren.
 - Projectstatussen periodiek nalopen.
+
+## 11. FAQ-kopieen en schema lopen uiteen
+
+Risico:
+
+- Dezelfde patientvraag kan op een behandelpagina, artikel en in JSON-LD afzonderlijk worden aangepast.
+- Gelijkluidende vragen kunnen medisch verschillende antwoorden hebben en daardoor ten onrechte worden samengevoegd.
+
+Beheersing:
+
+- `data/faqs.json` en `data/faq-placements.json` als centrale bron gebruiken.
+- Alleen wijzigen via `tools/generate_faqs.py`.
+- `python3 tools/generate_faqs.py --check` en `python3 tools/check_faqs.py` draaien.
+- Duplicaten inhoudelijk classificeren en medische reviewstatus per antwoord behouden.

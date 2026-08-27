@@ -16,6 +16,7 @@ Gebruik deze documenten als vaste context bij toekomstige wijzigingen:
 - `docs/site/CONTENT_PILLARS.md`: inhoudelijke pijlers.
 - `docs/site/PAGE_MODELS.md`: paginatypen en publicatievoorwaarden.
 - `docs/site/SEO_AND_AI_VISIBILITY_MODEL.md`: SEO, metadata, structured data en AI-interpretatie.
+- `docs/site/FAQ_CONTENT_MODEL.md`: centrale FAQ-bron, plaatsingsmodi, redactionele workflow en meetkader.
 - `docs/site/FOOT_ANKLE_PAIN_GUIDE_MODEL.md`: model en grenzen van de voet/enkel-pijnwijzer.
 - `docs/site/INTERNAL_LINKING_MODEL.md`: routebewuste interne links.
 - `docs/site/MEDICAL_CONTENT_SAFETY_RULES.md`: medische toon, bronregels en reviewregels.
@@ -216,6 +217,8 @@ Draai waar relevant:
 - `python3 tools/check_seo_basics.py`
 - `python3 tools/check_foot_pain_guide.py`
 - `python3 tools/check_treatment_page_quality.py`
+- `python3 tools/generate_faqs.py --check`
+- `python3 tools/check_faqs.py`
 
 Als een wijziging hero's, kaarten, navigatie, filters, formulieren, interactieve modules of tekstblokken raakt, controleer mobiele breedtes rond 360, 390 en 430 px waar mogelijk.
 

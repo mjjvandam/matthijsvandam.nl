@@ -21,7 +21,7 @@ Alle inhoudelijke kaarten krijgen een eigen conceptpagina in `behandelingen/`. D
 | Peroneuspeesklachten | `behandelingen/peroneuspeesklachten.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Sinus tarsi-klachten | `behandelingen/sinus-tarsi-klachten.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Os trigonum | `behandelingen/os-trigonum.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
-| Artrose van de enkel | `behandelingen/enkelartrose.html` | medisch akkoord | Medisch inhoudelijk akkoord door Matthijs op 23 augustus 2026; pagina blijft `noindex` tot het publicatiebesluit voor de pijnwijzer en bijbehorende pagina's. |
+| Artrose van de enkel | `behandelingen/enkelartrose.html` | publicatieklaar | Inhoudelijk nagekeken en op 26 augustus 2026 zelfstandig gepubliceerd en in het publicatieregister als `geverifieerd` vastgelegd. De pagina verwijst niet naar de nog onvoltooide pijnwijzer. |
 | Kraakbeenletsel van de enkel | `behandelingen/kraakbeenletsel-enkel.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Corpus liberum in de enkel | `behandelingen/corpus-liberum-enkel.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Platvoet bij volwassenen | `behandelingen/platvoet-volwassen.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |

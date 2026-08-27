@@ -60,6 +60,35 @@
 
   const articles = [
     {
+      id: "aaos-richtlijn-enkelartrose",
+      title: "Nieuwe Amerikaanse richtlijn voor enkelartrose: wat weten we wel en nog niet?",
+      label: "Richtlijn en onderzoek",
+      summary:
+        "De eerste AAOS-richtlijn maakt zichtbaar wat bij enkelartrose wel, niet of nog onvoldoende met vergelijkend onderzoek is onderbouwd.",
+      image: "assets/tile-enkel-artrose-kraakbeen.jpg",
+      imageAlt: "Medische illustratie van de enkel bij artrose en kraakbeenschade",
+      url: "artikelen/aaos-richtlijn-enkelartrose.html",
+      date: "2026-08-26",
+      audience: ["patienten", "zorgprofessionals"],
+      topics: ["voet-en-enkel", "artrose", "onderzoek"],
+      archive: false,
+    },
+    {
+      id: "8-vragen-obesitasmedicijnen-reuma-artrose",
+      title: "8 vragen over obesitasmedicijnen bij reuma en artrose",
+      label: "Nieuws",
+      summary:
+        "ReumaNederland beantwoordt acht vragen over obesitasmedicijnen bij reuma en artrose. Matthijs van Dam dacht als orthopedisch chirurg en onderzoeker mee.",
+      image: "assets/obesitasmedicatie-knieartrose-bewegen-hero.png",
+      imageAlt: "Illustratie over obesitasmedicatie, knieartrose, wandelen en spierkracht",
+      url: "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html",
+      date: "2026-08-26",
+      audience: ["patienten"],
+      topics: ["artrose", "leefstijl", "onderzoek"],
+      archive: true,
+      hideFromHome: true,
+    },
+    {
       id: "footprint-quick-scan-etz-fit-follow-up",
       title: "Footprint Quick Scan binnen ETZ Fit",
       label: "Preventie",

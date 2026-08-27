@@ -81,12 +81,13 @@ Verplicht raadplegen bij wijziging van links, pagina's, publicatiestatus of pijn
 
 ## Geplande aandoeningen- en klachtenpagina's
 
-Alle onderstaande routes staan lokaal in `behandelingen/` en blijven concept totdat medische review, linkcontrole, sitemap/registerbesluit en eigenaar-validatie expliciet zijn afgerond.
+De meeste onderstaande routes staan lokaal in `behandelingen/` en blijven concept totdat medische review, linkcontrole, sitemap/registerbesluit en eigenaar-validatie expliciet zijn afgerond. `enkelverzwikking.html` en `enkelartrose.html` zijn inmiddels afzonderlijk gepubliceerd en geverifieerd.
 
 | Type | Routes | Status nu | Minimale interne links voor publicatie | Sitemapregel | ADR's |
 | --- | --- | --- | --- | --- | --- |
 | Voorvoet/grote teen/tenen | `hallux-valgus.html`, `hallux-rigidus.html`, `hamerteen-klauwteen.html`, `metatarsalgie.html`, `morton-neuroom.html`, `mtp-plantaire-plaatklachten.html`, `tailors-bunion.html`, `sesamoidklachten.html` | concept, medische review nodig | Terug naar `behandelingen.html`, relevante patientartikelen indien publiek, `disclaimer.html`; onderlinge links alleen als medisch veilig en routezuiver | Niet opnemen zolang concept | ADR-0002, ADR-0003, ADR-0005, ADR-0006 |
-| Enkel | `enkelverzwikking.html`, `chronische-enkelinstabiliteit.html`, `anterieur-enkel-impingement.html`, `posterieur-enkel-impingement.html`, `ganglion-enkel.html`, `peroneuspeesklachten.html`, `sinus-tarsi-klachten.html`, `os-trigonum.html`, `enkelartrose.html`, `kraakbeenletsel-enkel.html`, `corpus-liberum-enkel.html` | concept, medische review nodig | Terug naar `behandelingen.html`, veilige verwante onderwerpen, `disclaimer.html`; geen diagnose- of triagelinks | Niet opnemen zolang concept | ADR-0002, ADR-0003, ADR-0005, ADR-0006 |
+| Enkel, publiek | `enkelverzwikking.html`, `enkelartrose.html` | publiek en `geverifieerd` | Terug naar `behandelingen.html`, veilige publieke verdieping en `disclaimer.html`; geen diagnose- of triagelinks | Opgenomen | ADR-0002, ADR-0003, ADR-0004, ADR-0005, ADR-0006 |
+| Enkel, concept | `chronische-enkelinstabiliteit.html`, `anterieur-enkel-impingement.html`, `posterieur-enkel-impingement.html`, `ganglion-enkel.html`, `peroneuspeesklachten.html`, `sinus-tarsi-klachten.html`, `os-trigonum.html`, `kraakbeenletsel-enkel.html`, `corpus-liberum-enkel.html` | concept, medische review nodig | Terug naar `behandelingen.html`, veilige verwante onderwerpen, `disclaimer.html`; geen publieke links vanaf geverifieerde pagina's zolang deze routes concept zijn | Niet opnemen zolang concept | ADR-0002, ADR-0003, ADR-0005, ADR-0006 |
 | Achtervoet/voetstand/hiel | `platvoet-volwassen.html`, `tibialis-posterior-peesklachten.html`, `holvoet-cavovarus.html`, `achillespeesklachten.html`, `hielpijn.html`, `peesplaatklachten-hielspoor.html`, `vetkussen-hielklachten.html`, `haglund-retrocalcaneaire-klachten.html` | concept, medische review nodig | Terug naar `behandelingen.html`, relevante verwante concept/publieke pagina's, `disclaimer.html` | Niet opnemen zolang concept | ADR-0002, ADR-0003, ADR-0005, ADR-0006 |
 | Middenvoet/complexe restklachten | `tarsal-boss.html`, `ganglion-middenvoet.html`, `stressreactie-stressfractuur.html`, `artrose-na-breuk.html`, `revisie-artrodese.html` | concept, medische review nodig | Terug naar `behandelingen.html`, relevante pijnwijzercontext, `disclaimer.html`; extra alert op trauma-/scopegrens | Niet opnemen zolang concept | ADR-0002, ADR-0003, ADR-0005, ADR-0006 |
 | Lisfranc/middenvoetletsel | geen publieke behandelpagina-link in pijnwijzer; lokaal bestand bestaat als concept | alleen orienterende differentiaal; niet als aanbod of behandelspoor | Alleen als algemene herkenningsrichting in pijnwijzerdata; geen publieke behandelpagina-link | Niet opnemen zolang out-of-scope/orienterend | ADR-0001, ADR-0003, ADR-0005, ADR-0006 |
@@ -126,7 +127,7 @@ Bron voor regio's en mappings blijft `content.js`. Deze matrix bewaakt de govern
 ## Pagina's die niet in sitemap mogen zolang ze concept zijn
 
 - `concept-foot-pain-guide.html`;
-- alle `behandelingen/*.html`;
+- alle niet-gepubliceerde `behandelingen/*.html`; `enkelverzwikking.html` en `enkelartrose.html` zijn uitzonderingen;
 - elke toekomstige detailpagina die `noindex,nofollow`, `review_nodig` of conceptstatus heeft;
 - elk onderwerp zonder publieke behandelpagina-link, inclusief Lisfranc/middenvoetletsel zolang dit alleen orienterende differentiaal is.
 

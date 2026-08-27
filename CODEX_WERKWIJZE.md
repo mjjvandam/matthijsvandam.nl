@@ -48,6 +48,8 @@ Gebruik waar passend:
 - `python3 tools/check_site_quality.py`
 - `python3 tools/check_publication_verification.py`
 - `python3 tools/check_seo_basics.py`
+- `python3 tools/generate_faqs.py --check` bij FAQ-wijzigingen
+- `python3 tools/check_faqs.py` bij FAQ-wijzigingen
 
 Als een wijziging invloed heeft op hero's, kaarten, navigatie, filters, formulieren of tekstblokken,
 controleer ook mobiele breedtes rond 360, 390 en 430 px. Bij publicatiegerichte wijzigingen hoort
@@ -140,6 +142,8 @@ Draai waar passend:
 - python3 tools/check_site_quality.py
 - python3 tools/check_publication_verification.py
 - python3 tools/check_seo_basics.py
+- python3 tools/generate_faqs.py --check bij FAQ-wijzigingen
+- python3 tools/check_faqs.py bij FAQ-wijzigingen
 
 Controleer daarnaast mobiele breedtes 360, 390 en 430 px wanneer layout of zichtbare UI is geraakt.
 Rapporteer alleen relevante issues, restpunten en publicatieblokkades.
@@ -182,4 +186,3 @@ Nog door Matthijs te beoordelen:
 Publicatiestatus:
 - [concept / review nodig / geverifieerd blijft ongewijzigd]
 ```
-

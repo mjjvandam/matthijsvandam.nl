@@ -1,6 +1,6 @@
 # Current Site State
 
-Laatste auditbasis: huidige repo op 2026-07-20.
+Laatste auditbasis: huidige repo op 2026-08-26.
 
 ## Status
 
@@ -8,12 +8,13 @@ Laatste auditbasis: huidige repo op 2026-07-20.
 
 De gepubliceerde laag bestaat uit:
 
-- 32 publieke pagina's in `sitemap.xml`.
-- 32 pagina's in `PUBLICATIE_REGISTER.json`, allemaal met status `geverifieerd`.
-- 16 gepubliceerde artikelen.
+- 35 publieke pagina's in `sitemap.xml`.
+- 35 pagina's in `PUBLICATIE_REGISTER.json`: 34 `geverifieerd` en 1 `review_nodig`.
+- 17 geverifieerde gepubliceerde artikelen; 1 ander publiek artikel staat nog op `review_nodig`.
 - 5 gepubliceerde projectpagina's.
 - 1 publieke behandel-/klachtenhub: `behandelingen.html`.
-- 35 lokale concept-behandelpagina's in `behandelingen/`, allemaal `noindex, nofollow` en uitgesloten van Vercel via `.vercelignore`.
+- 2 publieke behandelpagina's: `behandelingen/enkelverzwikking.html` en `behandelingen/enkelartrose.html`.
+- 33 lokale concept-behandelpagina's in `behandelingen/`, `noindex, nofollow` en uitgesloten van Vercel via `.vercelignore`.
 - 1 lokale conceptmodule: `concept-foot-pain-guide.html`, `noindex, nofollow` en uitgesloten van Vercel.
 
 ## Hoofdroutes
@@ -35,6 +36,7 @@ De gepubliceerde laag bestaat uit:
 - `styles.css` bevat de bestaande visuele taal.
 - `script.js` bevat navigatie, filters, analytics-guard, contact-e-mail-obfuscatie en kaartgedrag.
 - Er is geen `package.json`; gebruik de Python-checks als primaire repo-validatie.
+- FAQ-content wordt centraal beheerd in `data/faqs.json` en `data/faq-placements.json` en statisch gegenereerd volgens `docs/site/FAQ_CONTENT_MODEL.md` en `ADR-0007`.
 
 ## Concept versus publiek
 
@@ -51,6 +53,8 @@ Gebruik bij relevante taken:
 - `python3 tools/check_seo_basics.py`
 - `python3 tools/check_foot_pain_guide.py`
 - `python3 tools/check_treatment_page_quality.py` bij behandelpagina's
+- `python3 tools/generate_faqs.py --check` bij FAQ-wijzigingen
+- `python3 tools/check_faqs.py` bij FAQ-wijzigingen
 
 ## Te valideren
 

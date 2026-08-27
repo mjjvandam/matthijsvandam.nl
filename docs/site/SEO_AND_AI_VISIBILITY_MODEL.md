@@ -14,7 +14,7 @@ SEO en AI-zichtbaarheid ondersteunen:
 
 ## Huidige bouwstenen
 
-- `sitemap.xml` met 29 publieke URL's.
+- `sitemap.xml` met 35 publieke URL's op de auditbasis van 2026-08-26.
 - `robots.txt` met sitemapverwijzing en blokkades voor `beeldbank/` en `concept-foot-pain-guide.html`.
 - Canonical URLs op publieke pagina's.
 - Meta descriptions.
@@ -51,6 +51,19 @@ Gebruik daarom:
 - zichtbare disclaimers;
 - geen overclaims in samenvattingen.
 
+## FAQ's
+
+FAQ's zijn eerst zichtbare patientinformatie en pas daarna een vindbaarheidselement. De primaire evergreen pagina bevat het onderhouden antwoord; nieuws- en richtlijnartikelen bevatten alleen contextspecifieke vragen of een gerichte link naar dat antwoord.
+
+De centrale bron, plaatsingsmodi en redactionele workflow staan in `docs/site/FAQ_CONTENT_MODEL.md` en zijn vastgelegd in `ADR-0007`.
+
+Waar `FAQPage`-JSON-LD volgens het centrale plaatsingsregister behouden blijft, wordt het technisch gelijk gehouden aan de zichtbare FAQ. De publieke enkelartrosepagina en het bijbehorende richtlijnartikel gebruiken bewust geen FAQ-schema. Het schema is geen reden om vragen te dupliceren of zoekwoordvarianten toe te voegen. Google heeft FAQ-rich-results per 2026-05-07 beëindigd en de documentatie per 2026-06-15 verwijderd; gewone zoekresultaten, interne vindbaarheid en begrijpelijkheid blijven de relevante doelen. Voor AI-vindbaarheid is volgens Google's AI-richtlijn geen speciaal aanvullend FAQ-schema vereist naast duidelijke zichtbare inhoud en bestaande veilige structured data.
+
+Primaire bronnen:
+
+- [Google Search documentation updates](https://developers.google.com/search/updates)
+- [Google Search: AI features and your website](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)
+
 ## Publicatie- en indexregels
 
 Een pagina is publiek wanneer die:
@@ -71,6 +84,8 @@ Gebruik:
 - `python3 tools/check_seo_basics.py`
 - `python3 tools/check_publication_verification.py`
 - `python3 tools/check_site_quality.py`
+- `python3 tools/generate_faqs.py --check`
+- `python3 tools/check_faqs.py`
 
 ## Niet doen
 

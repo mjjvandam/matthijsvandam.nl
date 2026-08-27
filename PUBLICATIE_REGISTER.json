@@ -28,8 +28,17 @@
       "spoor": "algemeen",
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-07-20",
-      "review_notes": "De kaarttekst van het patientpanel is op 20 juli 2026 aangepast naar een gesloten oproep en expliciet akkoord bevonden door Matthijs."
+      "verified_on": "2026-08-26",
+      "review_notes": "Artikelkaart voor '8 vragen over obesitasmedicijnen bij reuma en artrose' toegevoegd na expliciet publicatie-akkoord van Matthijs op 26 augustus 2026."
+    },
+    {
+      "path": "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html",
+      "title": "8 vragen over obesitasmedicijnen | Matthijs van Dam",
+      "spoor": "artikel",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-08-26",
+      "review_notes": "Patiëntgericht nieuwsbericht over de ReumaNederland-publicatie, bijdrageomschrijving, bronverwijzing en medische veiligheidsgrens expliciet goedgekeurd voor publicatie door Matthijs op 26 augustus 2026."
     },
     {
       "path": "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html",
@@ -39,6 +48,15 @@
       "verified_by": null,
       "verified_on": null,
       "review_notes": "Inleiding op 26 augustus 2026 aangepast met een persoonlijke aanleiding en explicietere duiding van de verwachting rond pijn, gewicht en bewegen. Nieuwe inhoudelijke eigenaar-validatie nodig."
+    },
+    {
+      "path": "artikelen/aaos-richtlijn-enkelartrose.html",
+      "title": "AAOS-richtlijn voor enkelartrose | drs. Matthijs van Dam",
+      "spoor": "artikel",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-08-26",
+      "review_notes": "Inhoudelijk nagekeken en op 26 augustus 2026 expliciet akkoord gegeven voor gezamenlijke publicatie met de patiëntenpagina over enkelartrose en wederzijdse interne links."
     },
     {
       "path": "artikelen/footprint-quick-scan-etz-fit-follow-up.html",
@@ -66,6 +84,15 @@
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-07-12",
       "review_notes": "Concept-behandelpagina over enkelverzwikking inhoudelijk akkoord gegeven door Matthijs op 12 juli 2026 na review van zorgroute, Thuisarts/Sportzorg-verwijzingen, fysiotherapieadvies, beeldgebruik en medische veiligheidsgrenzen."
+    },
+    {
+      "path": "behandelingen/enkelartrose.html",
+      "title": "Artrose van de enkel | drs. Matthijs van Dam",
+      "spoor": "patient",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-08-26",
+      "review_notes": "Inhoudelijk nagekeken en op 26 augustus 2026 expliciet akkoord gegeven voor publicatie. De pagina verwijst naar het AAOS-richtlijnartikel en niet naar de nog onvoltooide Voet- en enkelpijnwijzer."
     },
     {
       "path": "over-mij.html",

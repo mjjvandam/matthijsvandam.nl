@@ -103,6 +103,7 @@ Modelregels:
 - bronstatus bewaken bij medische of nieuwsaanleidingen;
 - eerst bron of gebeurtenis concreet uitleggen, daarna duiden;
 - byline, datum en bronnen/links consistent houden waar relevant.
+- FAQ's beperken tot artikel- of broncontext; algemene patientvragen linken naar de primaire evergreen pagina volgens `docs/site/FAQ_CONTENT_MODEL.md`.
 
 ## Projectpagina
 
@@ -128,10 +129,8 @@ Voorbeelden:
 
 Huidige status:
 
-- lokaal aanwezig;
-- `noindex, nofollow`;
-- uitgesloten van Vercel;
-- medische review nodig voor publicatie.
+- 33 pagina's zijn lokaal concept, `noindex, nofollow`, uitgesloten van Vercel en medisch te reviewen voor publicatie;
+- `enkelverzwikking.html` en `enkelartrose.html` zijn publiek en vallen onder de normale publicatie- en herverificatieregels.
 
 Modelsubtypes:
 
@@ -147,6 +146,7 @@ Modelregels:
 - verwante links volgen `docs/site/LINK_MATRIX.md`;
 - voetpijnwijzerkoppelingen blijven leesrichting, geen diagnose-uitkomst;
 - out-of-scope onderwerpen, zoals Lisfranc/middenvoetletsel, niet als behandelaanbod of publieke behandelpagina-link presenteren zonder expliciete eigenaar-validatie.
+- tijdloze FAQ-antwoorden primair op deze pagina onderhouden; hergebruik en contextlinks volgen `docs/site/FAQ_CONTENT_MODEL.md`.
 
 Publicatievoorwaarden:
 

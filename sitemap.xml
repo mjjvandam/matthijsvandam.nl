@@ -8,7 +8,7 @@
   </url>
   <url>
     <loc>https://matthijsvandam.nl/artikelen.html</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -21,6 +21,12 @@
   <url>
     <loc>https://matthijsvandam.nl/behandelingen/enkelverzwikking.html</loc>
     <lastmod>2026-07-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://matthijsvandam.nl/behandelingen/enkelartrose.html</loc>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -61,8 +67,20 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://matthijsvandam.nl/artikelen/aaos-richtlijn-enkelartrose.html</loc>
+    <lastmod>2026-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://matthijsvandam.nl/artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html</loc>
     <lastmod>2026-07-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://matthijsvandam.nl/artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html</loc>
+    <lastmod>2026-08-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
