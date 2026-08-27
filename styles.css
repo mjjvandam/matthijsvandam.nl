@@ -2419,6 +2419,13 @@ a {
   color: var(--white);
 }
 
+.content-review-date {
+  margin: -18px 0 34px;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
 .patient-callout,
 .patient-disclaimer {
   margin: 34px 0;
@@ -3407,6 +3414,16 @@ a {
   line-height: 1.48;
 }
 
+.treatment-source-image-link {
+  display: block;
+  border-radius: 8px;
+}
+
+.treatment-source-image-link:focus-visible {
+  outline: 3px solid var(--focus);
+  outline-offset: 4px;
+}
+
 .treatment-detail-page {
   min-height: 100vh;
   background: var(--paper);
@@ -3679,6 +3696,11 @@ a {
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(1.6rem, 3vw, 2.25rem);
   line-height: 1.08;
+  scroll-margin-top: 112px;
+}
+
+.treatment-detail-content section[id] {
+  scroll-margin-top: 112px;
 }
 
 .treatment-detail-content h2:first-child {
@@ -3689,6 +3711,34 @@ a {
   color: var(--muted);
   font-size: 1.06rem;
   line-height: 1.72;
+}
+
+.treatment-question-list {
+  margin: 12px 0 20px;
+  padding-left: 1.4rem;
+  color: var(--muted);
+  font-size: 1.06rem;
+  line-height: 1.72;
+}
+
+.treatment-question-list li + li {
+  margin-top: 8px;
+}
+
+.treatment-source-list {
+  margin: 16px 0 24px;
+  padding-left: 1.5rem;
+  color: var(--muted);
+  font-size: 0.96rem;
+  line-height: 1.58;
+}
+
+.treatment-source-list li + li {
+  margin-top: 10px;
+}
+
+.treatment-detail-content .treatment-source-list a {
+  font-weight: 400;
 }
 
 .treatment-safety-list {
@@ -3804,6 +3854,10 @@ a {
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
   margin: 24px 0 4px;
+}
+
+.treatment-measure-list-two-columns {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .treatment-measure-list article {

@@ -104,4 +104,12 @@
     <text x="28" y="38" class="tiny">Regio Midden-Brabant</text>
     <text x="28" y="66" class="small">korte lijnen in netwerkzorg</text>
   </g>
+
+  <metadata id="mvd-copyright-v2-metadata">Copyright drs. Matthijs van Dam / matthijsvandam.nl | https://matthijsvandam.nl/</metadata>
+  <g id="mvd-copyright-v2" aria-hidden="true" pointer-events="none">
+    <text x="1181.96" y="801.96" text-anchor="end"
+      font-family="Arial, Helvetica, sans-serif" font-size="14.76"
+      fill="#12454a" fill-opacity="0.86" stroke="#fffdf8" stroke-opacity="0.86"
+      stroke-width="1.48" paint-order="stroke">© Matthijs van Dam · matthijsvandam.nl</text>
+  </g>
 </svg>

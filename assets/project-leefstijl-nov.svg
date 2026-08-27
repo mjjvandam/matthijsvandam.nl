@@ -14,4 +14,12 @@
   </g>
   <text x="92" y="102" fill="#17201c" font-family="Inter, Arial, sans-serif" font-size="44" font-weight="800">Leefstijl en orthopedie</text>
   <text x="94" y="154" fill="#5d675f" font-family="Inter, Arial, sans-serif" font-size="26">kansen voor herstel, voorbereiding en duurzame gezondheidswinst</text>
+
+  <metadata id="mvd-copyright-v2-metadata">Copyright drs. Matthijs van Dam / matthijsvandam.nl | https://matthijsvandam.nl/</metadata>
+  <g id="mvd-copyright-v2" aria-hidden="true" pointer-events="none">
+    <text x="1185.15" y="660.15" text-anchor="end"
+      font-family="Arial, Helvetica, sans-serif" font-size="12.15"
+      fill="#12454a" fill-opacity="0.86" stroke="#fffdf8" stroke-opacity="0.86"
+      stroke-width="1.21" paint-order="stroke">© Matthijs van Dam · matthijsvandam.nl</text>
+  </g>
 </svg>

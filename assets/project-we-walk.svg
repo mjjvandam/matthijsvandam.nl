@@ -57,4 +57,12 @@
     <circle cx="760" cy="125" r="14" fill="#5ba8a0"/>
     <rect x="790" y="114" width="156" height="22" rx="11" fill="#244c3d" opacity="0.28"/>
   </g>
+
+  <metadata id="mvd-copyright-v2-metadata">Copyright drs. Matthijs van Dam / matthijsvandam.nl | https://matthijsvandam.nl/</metadata>
+  <g id="mvd-copyright-v2" aria-hidden="true" pointer-events="none">
+    <text x="1185.15" y="660.15" text-anchor="end"
+      font-family="Arial, Helvetica, sans-serif" font-size="12.15"
+      fill="#12454a" fill-opacity="0.86" stroke="#fffdf8" stroke-opacity="0.86"
+      stroke-width="1.21" paint-order="stroke">© Matthijs van Dam · matthijsvandam.nl</text>
+  </g>
 </svg>

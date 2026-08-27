@@ -14,4 +14,12 @@
     <circle cx="536" cy="209" r="17" fill="#fffdf8" stroke="#244c3d" stroke-width="9"/>
     <path d="M303 448c141 40 311 39 463-9" stroke="#c49a46" stroke-width="10"/>
   </g>
+
+  <metadata id="mvd-copyright-v2-metadata">Copyright drs. Matthijs van Dam / matthijsvandam.nl | https://matthijsvandam.nl/</metadata>
+  <g id="mvd-copyright-v2" aria-hidden="true" pointer-events="none">
+    <text x="948.00" y="528.00" text-anchor="end"
+      font-family="Arial, Helvetica, sans-serif" font-size="12.00"
+      fill="#12454a" fill-opacity="0.86" stroke="#fffdf8" stroke-opacity="0.86"
+      stroke-width="1.20" paint-order="stroke">© Matthijs van Dam · matthijsvandam.nl</text>
+  </g>
 </svg>

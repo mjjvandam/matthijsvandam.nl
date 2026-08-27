@@ -1,4 +1,7 @@
 # Lokale conceptpagina's die nog niet klaar zijn voor publicatie
+__pycache__/
+*.pyc
+
 /behandelingen/*
 !/behandelingen/
 !/behandelingen/*.html

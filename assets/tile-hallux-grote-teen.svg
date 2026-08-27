@@ -33,4 +33,12 @@
     <ellipse cx="868" cy="251" rx="24" ry="20" fill="url(#bone)" transform="rotate(-31 868 251)"/>
   </g>
   <path d="M290 566c170 58 423 57 640-9" fill="none" stroke="#1f5a48" stroke-width="8" stroke-linecap="round" opacity=".18"/>
+
+  <metadata id="mvd-copyright-v2-metadata">Copyright drs. Matthijs van Dam / matthijsvandam.nl | https://matthijsvandam.nl/</metadata>
+  <g id="mvd-copyright-v2" aria-hidden="true" pointer-events="none">
+    <text x="1185.15" y="660.15" text-anchor="end"
+      font-family="Arial, Helvetica, sans-serif" font-size="12.15"
+      fill="#12454a" fill-opacity="0.86" stroke="#fffdf8" stroke-opacity="0.86"
+      stroke-width="1.21" paint-order="stroke">© Matthijs van Dam · matthijsvandam.nl</text>
+  </g>
 </svg>

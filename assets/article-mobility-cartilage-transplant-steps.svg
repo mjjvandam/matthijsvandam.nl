@@ -90,4 +90,12 @@
   <g transform="translate(1036 680)">
     <image href="logo-mvd-full-transparent.png" x="0" y="0" width="250" height="86" opacity=".95"/>
   </g>
+
+  <metadata id="mvd-copyright-v2-metadata">Copyright drs. Matthijs van Dam / matthijsvandam.nl | https://matthijsvandam.nl/</metadata>
+  <g id="mvd-copyright-v2" aria-hidden="true" pointer-events="none">
+    <text x="1382.66" y="770.66" text-anchor="end"
+      font-family="Arial, Helvetica, sans-serif" font-size="14.18"
+      fill="#12454a" fill-opacity="0.86" stroke="#fffdf8" stroke-opacity="0.86"
+      stroke-width="1.42" paint-order="stroke">© Matthijs van Dam · matthijsvandam.nl</text>
+  </g>
 </svg>
