@@ -19,7 +19,7 @@ Status:
 
 Risico:
 
-- 33 `behandelingen/*.html`-pagina's en `concept-foot-pain-guide.html` bestaan lokaal, maar zijn niet publiek bedoeld; enkelverzwikking en enkelartrose zijn de publieke uitzonderingen.
+- 32 `behandelingen/*.html`-pagina's en `concept-foot-pain-guide.html` bestaan lokaal, maar zijn niet publiek bedoeld; enkelverzwikking, enkelartrose en enkelprothese zijn de publieke uitzonderingen.
 - Een kleine wijziging in `.vercelignore`, robots of sitemap kan conceptcontent zichtbaar maken.
 
 Beheersing:

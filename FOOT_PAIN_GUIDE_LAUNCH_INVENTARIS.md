@@ -22,6 +22,7 @@ Alle inhoudelijke kaarten krijgen een eigen conceptpagina in `behandelingen/`. D
 | Sinus tarsi-klachten | `behandelingen/sinus-tarsi-klachten.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Os trigonum | `behandelingen/os-trigonum.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Artrose van de enkel | `behandelingen/enkelartrose.html` | publicatieklaar | Inhoudelijk nagekeken en op 26 augustus 2026 zelfstandig gepubliceerd en in het publicatieregister als `geverifieerd` vastgelegd. De pagina verwijst niet naar de nog onvoltooide pijnwijzer. |
+| Enkelprothese | `behandelingen/enkelprothese.html` | publicatieklaar | Volledig inhoudelijk nagekeken en op 27 augustus 2026 expliciet goedgekeurd voor publicatie. Robots, sitemap, register, interne links en toestemming voor het gebruikte LROI-beeld zijn vastgelegd. |
 | Kraakbeenletsel van de enkel | `behandelingen/kraakbeenletsel-enkel.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Corpus liberum in de enkel | `behandelingen/corpus-liberum-enkel.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Platvoet bij volwassenen | `behandelingen/platvoet-volwassen.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |

@@ -1,6 +1,6 @@
 # Current Site State
 
-Laatste auditbasis: huidige repo op 2026-08-26.
+Laatste auditbasis: huidige repo op 2026-08-27.
 
 ## Status
 
@@ -8,13 +8,13 @@ Laatste auditbasis: huidige repo op 2026-08-26.
 
 De gepubliceerde laag bestaat uit:
 
-- 35 publieke pagina's in `sitemap.xml`.
-- 35 pagina's in `PUBLICATIE_REGISTER.json`: 34 `geverifieerd` en 1 `review_nodig`.
+- 36 publieke pagina's in `sitemap.xml`.
+- 36 pagina's in `PUBLICATIE_REGISTER.json`: 35 `geverifieerd` en 1 `review_nodig`.
 - 17 geverifieerde gepubliceerde artikelen; 1 ander publiek artikel staat nog op `review_nodig`.
 - 5 gepubliceerde projectpagina's.
 - 1 publieke behandel-/klachtenhub: `behandelingen.html`.
-- 2 publieke behandelpagina's: `behandelingen/enkelverzwikking.html` en `behandelingen/enkelartrose.html`.
-- 33 lokale concept-behandelpagina's in `behandelingen/`, `noindex, nofollow` en uitgesloten van Vercel via `.vercelignore`.
+- 3 publieke behandelpagina's: `behandelingen/enkelverzwikking.html`, `behandelingen/enkelartrose.html` en `behandelingen/enkelprothese.html`.
+- 32 lokale concept-behandelpagina's in `behandelingen/`, `noindex, nofollow` en uitgesloten van Vercel via `.vercelignore`.
 - 1 lokale conceptmodule: `concept-foot-pain-guide.html`, `noindex, nofollow` en uitgesloten van Vercel.
 
 ## Hoofdroutes

@@ -2560,11 +2560,13 @@ a {
 }
 
 .publication-card {
+  position: relative;
   padding: 28px;
   border: 1px solid var(--line);
   border-radius: 18px;
   background: var(--white);
   box-shadow: var(--shadow-soft);
+  transition: border-color 160ms ease;
 }
 
 .publication-card h3 {
@@ -2580,6 +2582,24 @@ a {
 
 .publication-card .article-link {
   margin-top: 18px;
+}
+
+.publication-card > .article-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: 18px;
+}
+
+.publication-card:hover,
+.publication-card:focus-within {
+  border-color: var(--green);
+}
+
+.publication-card:focus-within {
+  outline: 3px solid var(--green);
+  outline-offset: 3px;
 }
 
 .publication-meta {

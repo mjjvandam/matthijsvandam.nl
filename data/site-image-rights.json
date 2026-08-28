@@ -16,6 +16,7 @@
     "assets/knee-anatomy-model-editorial.jpg": "abfdb16",
     "assets/project-transmuraal-tilburg-cohort-editorial.jpg": "54c652a",
     "assets/project-we-walk-editorial.jpg": "714349e",
+    "assets/treatment-enkelprothese-hero.png": "676115010265c509820ab35061059f8f8b958cbd",
     "assets/tile-achtervoet-standsafwijking.jpg": "abfdb16",
     "assets/tile-enkel-artrose-kraakbeen.jpg": "abfdb16",
     "assets/tile-hallux-clinic-v2.jpg": "abfdb16",
@@ -115,6 +116,11 @@
       "path": "assets/treatment-mtp1-artrodese-xray.jpg",
       "status": "review_required",
       "reason": "Lokaal genegeerd v1-bestand zonder schone bron in Git; niet opnieuw overtekenen."
+    },
+    {
+      "path": "assets/lroi-vroegtijdig-falen-enkelprothesen-2014-2020.png",
+      "status": "exclude",
+      "reason": "Externe LROI-factsheet; toestemming voor gebruik bevestigd door Matthijs op 27 augustus 2026. Bron blijft LROI; geen MVD-watermerk toevoegen."
     }
   ],
   "rules": [

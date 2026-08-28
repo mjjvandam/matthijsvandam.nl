@@ -129,8 +129,8 @@ Voorbeelden:
 
 Huidige status:
 
-- 33 pagina's zijn lokaal concept, `noindex, nofollow`, uitgesloten van Vercel en medisch te reviewen voor publicatie;
-- `enkelverzwikking.html` en `enkelartrose.html` zijn publiek en vallen onder de normale publicatie- en herverificatieregels.
+- 32 pagina's zijn lokaal concept, `noindex, nofollow`, uitgesloten van Vercel en medisch te reviewen voor publicatie;
+- `enkelverzwikking.html`, `enkelartrose.html` en `enkelprothese.html` zijn publiek en vallen onder de normale publicatie- en herverificatieregels.
 
 Modelsubtypes:
 
