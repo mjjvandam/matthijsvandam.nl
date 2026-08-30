@@ -71,10 +71,10 @@
       "path": "behandelingen.html",
       "title": "Klachten en behandelingen | drs. Matthijs van Dam",
       "spoor": "patient",
-      "verification_status": "geverifieerd",
+      "verification_status": "review_nodig",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-08-27",
-      "review_notes": "Behandelingen-overzicht opnieuw inhoudelijk akkoord gegeven door Matthijs na verwijderen van Lisfranc- en middenvoetletsel als zichtbare behandelkaart. Op 27 augustus 2026 is na expliciet publicatie-akkoord een kaart naar de geverifieerde enkelprothesepagina toegevoegd; overige kaartinhoud bleef ongewijzigd."
+      "review_notes": "Behandelingen-overzicht opnieuw inhoudelijk akkoord gegeven door Matthijs na verwijderen van Lisfranc- en middenvoetletsel als zichtbare behandelkaart. Op 27 augustus 2026 is na expliciet publicatie-akkoord een kaart naar de geverifieerde enkelprothesepagina toegevoegd; overige kaartinhoud bleef ongewijzigd. Op 28 augustus 2026 op verzoek van Matthijs lokaal het label Voor patiënten toegevoegd, de introductie vanuit zijn perspectief geschreven en de profieltekst ingekort en naar het pasfotoblok verplaatst. Op verzoek van Matthijs zijn de dubbele sectietoelichtingen en de verwijzing naar de lokale pijnwijzer verwijderd. Klachten en behandelingen staan nu in één overzicht met verwante onderwerpen bij elkaar; kaartinhoud, links, labels en filters zijn behouden. Lokale browserpreview; definitieve beoordeling en publicatie-akkoord voor deze versie staan nog open."
     },
     {
       "path": "behandelingen/enkelverzwikking.html",
@@ -107,10 +107,10 @@
       "path": "over-mij.html",
       "title": "Over drs. Matthijs van Dam | Orthopedisch chirurg Tilburg",
       "spoor": "algemeen",
-      "verification_status": "geverifieerd",
+      "verification_status": "review_nodig",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-07-14",
-      "review_notes": "Profielpagina opnieuw inhoudelijk akkoord gegeven door Matthijs na stem-consistentieronde."
+      "review_notes": "Profielpagina opnieuw inhoudelijk akkoord gegeven door Matthijs na stem-consistentieronde. Op 28 augustus 2026 op verzoek van Matthijs lokaal een compact publicatieblok onder Lidmaatschappen toegevoegd: Artrosezorg in transitie (NTvG, 12 maart 2026), met bronlink en link naar het bestaande publicatieoverzicht. Titel, datum en mede-auteurschap gecontroleerd bij NTvG. Op mobiel staan de aanvullende profielblokken na de profieltekst; op desktop blijven ze onder Loopbaan in de linkerkolom. Onder Publicaties zijn op verzoek van Matthijs de blokken Recent artikel (de geverifieerde AAOS-richtlijnbijdrage van 26 augustus 2026) en Onderzoek en projecten toegevoegd, met links naar de bestaande publieke overzichten. Definitieve beoordeling en publicatie-akkoord voor deze versie staan nog open."
     },
     {
       "path": "professionals.html",

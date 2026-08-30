@@ -34,6 +34,17 @@ publicatie of medische positionering raakt.
    - concept/noindex blijft buiten live-scope;
    - gepubliceerde pagina's horen in `PUBLICATIE_REGISTER.json`;
    - nieuwe of gewijzigde gepubliceerde pagina's blijven `review_nodig` totdat Matthijs akkoord geeft.
+   - controleer bij vrijgave alle bestaande tegels voor die pagina, zowel op `index.html` als op
+     `behandelingen.html`: vervang `data-concept-url` door `data-url` en gebruik één omvattende
+     `a.article-card-link` binnen `article-card-clickable`, niet alleen een klein Lees-meer-linkje;
+   - behoud concepttegels zonder publieke link; alleen een lokaal bestand of medische review is
+     geen publicatiebesluit. Controleer sitemap, robots, deployment en register samen;
+   - controleer relevante kruislinks en terugroutes. `check_site_quality.py` signaleert bestaande
+     tegels die na publicatie nog niet klikbaar zijn en klikbare tegels naar conceptpagina's.
+   - de filters op homepage en behandeloverzicht gebruiken `data-published-first`: tegels met
+     een vrijgegeven `data-url` en bijpassende omvattende link komen eerst, daarna de overige
+     tegels. De onderlinge volgorde binnen beide groepen blijft behouden. De homepage past
+     de grens van vier tegels pas daarna toe; conceptlinks worden niet automatisch geactiveerd.
 
 6. Rond af met een korte kwaliteitsrapportage.
    - gewijzigde bestanden;

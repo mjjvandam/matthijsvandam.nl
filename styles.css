@@ -4293,8 +4293,30 @@ a {
 .over-page .about-layout {
   max-width: 1260px;
   grid-template-columns: minmax(360px, 0.88fr) minmax(0, 1.12fr);
+  grid-template-rows: min-content 1fr;
   gap: clamp(44px, 6vw, 88px);
+  row-gap: 18px;
   align-items: start;
+}
+
+.over-page .about-heading {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.over-page .about-copy {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
+
+.over-page .bio-details {
+  grid-column: 1;
+  grid-row: 2;
+  min-width: 0;
+}
+
+.over-page .bio-details .bio-facts:first-child {
+  margin-top: 0;
 }
 
 .over-page .about-heading h1 {
@@ -4353,7 +4375,15 @@ a {
 
   .over-page .about-layout {
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
     gap: 36px;
+  }
+
+  .over-page .about-heading,
+  .over-page .about-copy,
+  .over-page .bio-details {
+    grid-column: auto;
+    grid-row: auto;
   }
 
   .over-page .about-heading {
@@ -4515,6 +4545,19 @@ a {
 
 .expertise-page .expertise-card .article-link {
   margin: auto clamp(22px, 3vw, 30px) clamp(22px, 3vw, 30px);
+}
+
+.expertise-overview .expertise-card .article-label {
+  margin-bottom: 8px;
+}
+
+.expertise-overview .expertise-card h3 {
+  min-height: 0;
+  margin-bottom: 8px;
+}
+
+.expertise-overview .expertise-card .article-card-body > p:not(.article-label) {
+  margin-top: 0;
 }
 
 .expertise-page .expertise-flip-back p:last-child {

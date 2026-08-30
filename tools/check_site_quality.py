@@ -8,6 +8,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urldefrag, urlparse
 import importlib.util
+from xml.etree import ElementTree as ET
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -44,6 +45,98 @@ class PageParser(HTMLParser):
             self.buttons.append(data)
 
 
+class ExpertiseCardParser(HTMLParser):
+    """Inspect static card links, including the wrapper used by the hover renderer."""
+
+    VOID_TAGS = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"}
+
+    def __init__(self) -> None:
+        super().__init__()
+        self.stack = []
+        self.cards = []
+        self.current = None
+        self.card_depth = 0
+
+    def handle_starttag(self, tag, attrs):
+        data = {key: value or "" for key, value in attrs}
+        classes = data.get("class", "").split()
+        if tag == "article" and "expertise-card" in classes:
+            self.current = {"attrs": data, "links": [], "wrappers": []}
+            self.cards.append(self.current)
+            self.card_depth = len(self.stack)
+        if self.current is not None:
+            if tag == "a":
+                self.current["links"].append(data)
+            if "article-card-body" in classes:
+                parent = self.stack[self.card_depth + 1:self.card_depth + 2]
+                wrapper = parent[0][1] if parent and parent[0][0] == "a" else {}
+                self.current["wrappers"].append(wrapper)
+        if tag not in self.VOID_TAGS:
+            self.stack.append((tag, data))
+
+    def handle_endtag(self, tag):
+        for index in range(len(self.stack) - 1, -1, -1):
+            if self.stack[index][0] == tag:
+                if self.current is not None and index == self.card_depth:
+                    self.current = None
+                del self.stack[index:]
+                break
+
+    def handle_startendtag(self, tag, attrs):
+        self.handle_starttag(tag, attrs)
+        if tag not in self.VOID_TAGS:
+            self.handle_endtag(tag)
+
+
+def check_expertise_cards(text, base, public_paths, cache):
+    """Detect forgotten publication links; never promote or publish content."""
+    parser = ExpertiseCardParser()
+    parser.feed(text)
+    issues = []
+
+    def target(value):
+        return local_path(ROOT if value.startswith("/") else base, value.lstrip("/"))
+
+    def published(path):
+        if not path.is_file():
+            return False
+        page = parse_page(path, cache)
+        robots = next((meta.get("content", "") for meta in page.meta if meta.get("name") == "robots"), "")
+        tokens = set(robots.lower().replace(",", " ").split())
+        return path in public_paths or ({"index", "follow"} <= tokens and "noindex" not in tokens)
+
+    for card in parser.cards:
+        attrs, links = card["attrs"], card["links"]
+        value = attrs.get("data-url") or attrs.get("data-concept-url")
+        if not value and links:
+            value = links[0].get("href")
+        if not value or is_external(value):
+            continue  # No target means an informational tile, not a guessed page mapping.
+        destination = target(value)
+        is_public = published(destination)
+        for link in links:
+            href = link.get("href", "")
+            if href and not is_external(href) and not href.startswith("#") and not published(target(href)):
+                issues.append(("expertise_card_links_to_nonpublic_page", href))
+        if not is_public:
+            if attrs.get("data-url"):
+                issues.append(("expertise_card_public_url_not_released", value))
+            continue
+        if attrs.get("data-concept-url"):
+            issues.append(("published_expertise_card_still_concept", value))
+        wrappers = card["wrappers"]
+        if not (
+            attrs.get("data-url")
+            and "article-card-clickable" in attrs.get("class", "").split()
+            and len(links) == 1
+            and wrappers
+            and all("article-card-link" in wrapper.get("class", "").split()
+                    and target(wrapper.get("href", "")) == destination for wrapper in wrappers)
+        ):
+            issues.append(("published_expertise_card_not_fully_linked", value))
+    return issues
+
+
 def is_external(value: str) -> bool:
     parsed = urlparse(value)
     return bool(parsed.scheme) or value.startswith(("mailto:", "tel:", "data:"))
@@ -72,6 +165,11 @@ def collect_html_files() -> list[Path]:
 def run_checks() -> list[tuple[str, str]]:
     issues: list[tuple[str, str]] = []
     cache: dict[Path, PageParser] = {}
+    sitemap = ET.parse(ROOT / "sitemap.xml")
+    public_paths = {
+        (ROOT / (urlparse(loc.text or "").path.lstrip("/") or "index.html")).resolve()
+        for loc in sitemap.iter("{http://www.sitemaps.org/schemas/sitemap/0.9}loc")
+    }
 
     for path in collect_html_files():
       text = path.read_text(encoding="utf-8", errors="ignore")
@@ -79,6 +177,10 @@ def run_checks() -> list[tuple[str, str]]:
       page.feed(text)
       base = path.parent
       rel_path = path.relative_to(ROOT)
+
+      if "expertise-card" in text:
+          for kind, detail in check_expertise_cards(text, base, public_paths, cache):
+              issues.append((kind, f"{rel_path}: {detail}"))
 
       if 'class="skip-link"' not in text:
           issues.append(("missing_skiplink", str(rel_path)))

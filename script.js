@@ -567,11 +567,32 @@ if (canUseHoverCards) {
   });
 }
 
+const sortPublishedExpertiseCards = (target) => {
+  // Public links are activated during publication, never inferred from a concept URL.
+  const hasPublicLink = (card) => {
+    const url = card.getAttribute("data-url");
+    const link = card.querySelector(":scope > a.article-card-link");
+    return Boolean(url && !card.hasAttribute("data-concept-url") && link?.getAttribute("href") === url);
+  };
+  const containers = new Set(
+    Array.from(target.querySelectorAll(".expertise-card")).map((card) => card.parentElement)
+  );
+  containers.forEach((container) => {
+    const cards = Array.from(container.children).filter((card) => card.matches(".expertise-card"));
+    const ordered = cards
+      .map((card, index) => ({ card, index, available: hasPublicLink(card) }))
+      .sort((a, b) => Number(b.available) - Number(a.available) || a.index - b.index);
+    // Move real nodes, so visual, screen-reader and keyboard order stay aligned.
+    ordered.forEach(({ card }) => container.append(card));
+  });
+};
+
 document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
   const selector = panel.getAttribute("data-filter-target");
   if (!selector) return;
   const target = document.querySelector(selector);
   if (!target) return;
+  if (panel.hasAttribute("data-published-first")) sortPublishedExpertiseCards(target);
   const groups = Array.from(panel.querySelectorAll("[data-filter-group]"));
   const cards = Array.from(target.querySelectorAll("[data-topic]"));
   const empty = target.parentElement?.querySelector("[data-filter-empty]");
