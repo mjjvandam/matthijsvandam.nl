@@ -779,7 +779,7 @@ a {
 .location-heading h2 {
   max-width: 960px;
   margin-bottom: 0;
-  font-size: clamp(3.2rem, 6vw, 5.35rem);
+  font-size: clamp(2.9rem, 5vw, 4.5rem);
   line-height: 0.96;
 }
 
