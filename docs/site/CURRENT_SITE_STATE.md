@@ -1,6 +1,6 @@
 # Current Site State
 
-Laatste auditbasis: huidige repo op 2026-08-27.
+Laatste auditbasis: huidige repo op 2026-09-03.
 
 ## Status
 
@@ -9,8 +9,8 @@ Laatste auditbasis: huidige repo op 2026-08-27.
 De gepubliceerde laag bestaat uit:
 
 - 36 publieke pagina's in `sitemap.xml`.
-- 36 pagina's in `PUBLICATIE_REGISTER.json`: 35 `geverifieerd` en 1 `review_nodig`.
-- 17 geverifieerde gepubliceerde artikelen; 1 ander publiek artikel staat nog op `review_nodig`.
+- 36 pagina's in `PUBLICATIE_REGISTER.json`: 36 `geverifieerd` en 0 `review_nodig`.
+- 18 geverifieerde gepubliceerde artikelen; geen publiek artikel staat nog op `review_nodig`.
 - 5 gepubliceerde projectpagina's.
 - 1 publieke behandel-/klachtenhub: `behandelingen.html`.
 - 3 publieke behandelpagina's: `behandelingen/enkelverzwikking.html`, `behandelingen/enkelartrose.html` en `behandelingen/enkelprothese.html`.

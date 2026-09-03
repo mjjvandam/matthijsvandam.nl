@@ -44,10 +44,10 @@
       "path": "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html",
       "title": "Obesitasmedicatie en knieartrose: minder pijn, minder bewegen?",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
-      "verified_by": null,
-      "verified_on": null,
-      "review_notes": "Inleiding op 26 augustus 2026 aangepast met een persoonlijke aanleiding en explicietere duiding van de verwachting rond pijn, gewicht en bewegen. Nieuwe inhoudelijke eigenaar-validatie nodig."
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-09-03",
+      "review_notes": "Inleiding op 26 augustus 2026 aangepast met een persoonlijke aanleiding en explicietere duiding van de verwachting rond pijn, gewicht en bewegen. Definitieve versie expliciet inhoudelijk akkoord gegeven door Matthijs op 3 september 2026."
     },
     {
       "path": "artikelen/aaos-richtlijn-enkelartrose.html",
@@ -71,10 +71,10 @@
       "path": "behandelingen.html",
       "title": "Klachten en behandelingen | drs. Matthijs van Dam",
       "spoor": "patient",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-08-27",
-      "review_notes": "Behandelingen-overzicht opnieuw inhoudelijk akkoord gegeven door Matthijs na verwijderen van Lisfranc- en middenvoetletsel als zichtbare behandelkaart. Op 27 augustus 2026 is na expliciet publicatie-akkoord een kaart naar de geverifieerde enkelprothesepagina toegevoegd; overige kaartinhoud bleef ongewijzigd. Op 28 augustus 2026 op verzoek van Matthijs lokaal het label Voor patiënten toegevoegd, de introductie vanuit zijn perspectief geschreven en de profieltekst ingekort en naar het pasfotoblok verplaatst. Op verzoek van Matthijs zijn de dubbele sectietoelichtingen en de verwijzing naar de lokale pijnwijzer verwijderd. Klachten en behandelingen staan nu in één overzicht met verwante onderwerpen bij elkaar; kaartinhoud, links, labels en filters zijn behouden. Lokale browserpreview; definitieve beoordeling en publicatie-akkoord voor deze versie staan nog open."
+      "verified_on": "2026-09-02",
+      "review_notes": "Behandelingen-overzicht opnieuw inhoudelijk akkoord gegeven door Matthijs na verwijderen van Lisfranc- en middenvoetletsel als zichtbare behandelkaart. Op 27 augustus 2026 is na expliciet publicatie-akkoord een kaart naar de geverifieerde enkelprothesepagina toegevoegd; overige kaartinhoud bleef ongewijzigd. Op 28 augustus 2026 op verzoek van Matthijs lokaal het label Voor patiënten toegevoegd, de introductie vanuit zijn perspectief geschreven en de profieltekst ingekort en naar het pasfotoblok verplaatst. Op verzoek van Matthijs zijn de dubbele sectietoelichtingen en de verwijzing naar de lokale pijnwijzer verwijderd. Klachten en behandelingen staan nu in één overzicht met verwante onderwerpen bij elkaar; kaartinhoud, links, labels en filters zijn behouden. Definitieve versie expliciet inhoudelijk akkoord gegeven door Matthijs op 2 september 2026."
     },
     {
       "path": "behandelingen/enkelverzwikking.html",
