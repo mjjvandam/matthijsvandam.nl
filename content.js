@@ -36,7 +36,7 @@
     {
       id: "vrxoa-immersive-experiences-artrose",
       title: "VRxOA: immersive experiences bij artrose",
-      label: "Subsidie toegekend",
+      label: "Onderzoeksproject",
       summary:
         "Een onderzoeksproject dat half augustus 2026 start over immersive experiences, teachable moments en leefstijlmotivatie bij artrose.",
       image: "assets/project-vrxoa-ix-model.png",
