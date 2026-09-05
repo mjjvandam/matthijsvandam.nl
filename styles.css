@@ -145,6 +145,8 @@ body {
 :root[data-theme="dark"] .professional-boundary-panel,
 :root[data-theme="dark"] .professional-contact-panel,
 :root[data-theme="dark"] .advisor-points article,
+:root[data-theme="dark"] .project-supporter-card,
+:root[data-theme="dark"] .project-team,
 :root[data-theme="dark"] .project-context article,
 :root[data-theme="dark"] .professional-info-grid article,
 :root[data-theme="dark"] .patient-callout,
@@ -193,6 +195,8 @@ body {
   :root:not([data-theme]) .professional-boundary-panel,
   :root:not([data-theme]) .professional-contact-panel,
   :root:not([data-theme]) .advisor-points article,
+  :root:not([data-theme]) .project-supporter-card,
+  :root:not([data-theme]) .project-team,
   :root:not([data-theme]) .project-context article,
   :root:not([data-theme]) .professional-info-grid article,
   :root:not([data-theme]) .patient-callout,
@@ -1057,6 +1061,30 @@ a {
 .process .section-kicker,
 .process p {
   color: var(--green-soft);
+}
+
+:root[data-theme="dark"] .process {
+  background:
+    radial-gradient(circle at 92% 12%, rgba(91, 168, 160, 0.18), transparent 28%),
+    linear-gradient(135deg, #173653, #244c3d);
+  color: #fffdf8;
+}
+
+:root[data-theme="dark"] .process .section-heading p {
+  color: rgba(255, 253, 248, 0.82);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .process {
+    background:
+      radial-gradient(circle at 92% 12%, rgba(91, 168, 160, 0.18), transparent 28%),
+      linear-gradient(135deg, #173653, #244c3d);
+    color: #fffdf8;
+  }
+
+  :root:not([data-theme]) .process .section-heading p {
+    color: rgba(255, 253, 248, 0.82);
+  }
 }
 
 .process .article-card p {
@@ -2456,6 +2484,68 @@ a {
   margin: 0;
   font-size: 0.98rem;
   line-height: 1.65;
+}
+
+.project-info-details {
+  padding: 0;
+  overflow: hidden;
+}
+
+.project-info-details summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 54px;
+  padding: 14px 18px;
+  color: var(--ink);
+  font-weight: 850;
+  cursor: pointer;
+  list-style: none;
+}
+
+.project-info-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.project-info-details summary::marker {
+  content: "";
+}
+
+.project-info-details summary::after {
+  content: "+";
+  display: inline-grid;
+  width: 28px;
+  height: 28px;
+  flex: 0 0 auto;
+  place-items: center;
+  border: 1px solid rgba(36, 76, 61, 0.18);
+  border-radius: 999px;
+  color: var(--green);
+  line-height: 1;
+}
+
+.project-info-details[open] summary {
+  border-bottom: 1px solid var(--line);
+}
+
+.project-info-details[open] summary::after {
+  content: "−";
+}
+
+.project-info-details summary:hover::after,
+.project-info-details summary:focus-visible::after {
+  border-color: var(--green);
+  background: rgba(36, 76, 61, 0.08);
+}
+
+.project-info-details summary:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: -3px;
+}
+
+.project-info-details-content {
+  padding: 14px 18px 18px;
 }
 
 .treatment-hero-safety {
