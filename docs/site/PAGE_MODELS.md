@@ -120,6 +120,8 @@ Functie:
 - projectdoel, rol, partners en status uitleggen;
 - koppelen aan zorgontwikkeling, onderzoek of onderwijs;
 - geen patientgebonden adviesroute suggereren.
+- plaats een korte bronvermelding, indien aanwezig, onderaan de inhoud vlak voor de teruglink;
+- beperk die bronvermelding tot bron en actualiteitsdatum, zonder procesmatige uitleg over interne of niet-overgenomen informatie.
 
 ## Concept-aandoeningen-, klachten- en behandelpagina's
 
