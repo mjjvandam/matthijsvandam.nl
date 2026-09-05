@@ -432,7 +432,7 @@
       "headingId": "faq-title",
       "heading": "Veelgestelde vragen",
       "schema": true,
-      "publicationScope": "concept",
+      "publicationScope": "public",
       "items": [
         {
           "id": "hallux-rigidus-is-hallux-rigidus-hetzelfde-als-hallux-valgus",
@@ -448,6 +448,10 @@
         },
         {
           "id": "hallux-rigidus-moet-hallux-rigidus-altijd-geopereerd-worden",
+          "mode": "full"
+        },
+        {
+          "id": "hallux-rigidus-zijn-er-ook-protheses-voor-het-mtp-1-gewricht",
           "mode": "full"
         },
         {

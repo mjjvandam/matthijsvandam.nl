@@ -19,8 +19,8 @@
       "spoor": "algemeen",
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-07-20",
-      "review_notes": "De verlopen oproep voor het patientpanel is op 20 juli 2026 van de homepage gehaald en expliciet akkoord bevonden door Matthijs."
+      "verified_on": "2026-09-06",
+      "review_notes": "De verlopen oproep voor het patientpanel is op 20 juli 2026 van de homepage gehaald en expliciet akkoord bevonden door Matthijs. Op 6 september 2026 is de bestaande hallux-rigidustegel op verzoek van Matthijs klikbaar gemaakt naar de afzonderlijk goedgekeurde pagina; overige homepage-inhoud bleef ongewijzigd."
     },
     {
       "path": "artikelen.html",
@@ -73,8 +73,8 @@
       "spoor": "patient",
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-09-02",
-      "review_notes": "Behandelingen-overzicht opnieuw inhoudelijk akkoord gegeven door Matthijs na verwijderen van Lisfranc- en middenvoetletsel als zichtbare behandelkaart. Op 27 augustus 2026 is na expliciet publicatie-akkoord een kaart naar de geverifieerde enkelprothesepagina toegevoegd; overige kaartinhoud bleef ongewijzigd. Op 28 augustus 2026 op verzoek van Matthijs lokaal het label Voor patiënten toegevoegd, de introductie vanuit zijn perspectief geschreven en de profieltekst ingekort en naar het pasfotoblok verplaatst. Op verzoek van Matthijs zijn de dubbele sectietoelichtingen en de verwijzing naar de lokale pijnwijzer verwijderd. Klachten en behandelingen staan nu in één overzicht met verwante onderwerpen bij elkaar; kaartinhoud, links, labels en filters zijn behouden. Definitieve versie expliciet inhoudelijk akkoord gegeven door Matthijs op 2 september 2026."
+      "verified_on": "2026-09-06",
+      "review_notes": "Behandelingen-overzicht opnieuw inhoudelijk akkoord gegeven door Matthijs na verwijderen van Lisfranc- en middenvoetletsel als zichtbare behandelkaart. Op 27 augustus 2026 is na expliciet publicatie-akkoord een kaart naar de geverifieerde enkelprothesepagina toegevoegd; overige kaartinhoud bleef ongewijzigd. Op 28 augustus 2026 op verzoek van Matthijs lokaal het label Voor patiënten toegevoegd, de introductie vanuit zijn perspectief geschreven en de profieltekst ingekort en naar het pasfotoblok verplaatst. Op verzoek van Matthijs zijn de dubbele sectietoelichtingen en de verwijzing naar de lokale pijnwijzer verwijderd. Klachten en behandelingen staan nu in één overzicht met verwante onderwerpen bij elkaar; kaartinhoud, links, labels en filters zijn behouden. Definitieve versie expliciet inhoudelijk akkoord gegeven door Matthijs op 2 september 2026. Op 6 september 2026 is de bestaande hallux-rigidustegel op zijn verzoek klikbaar gemaakt naar de afzonderlijk goedgekeurde pagina."
     },
     {
       "path": "behandelingen/enkelverzwikking.html",
@@ -102,6 +102,15 @@
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-08-27",
       "review_notes": "De volledige patiëntgerichte pagina over enkelprothesen is op 27 augustus 2026 inhoudelijk gecontroleerd en expliciet goedgekeurd voor publicatie door Matthijs. Toestemming voor het gebruikte LROI-beeld is door Matthijs bevestigd."
+    },
+    {
+      "path": "behandelingen/hallux-rigidus.html",
+      "title": "Hallux rigidus | Artrose grote teen | drs. Matthijs van Dam",
+      "spoor": "patient",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-09-06",
+      "review_notes": "De volledige patiëntgerichte pagina over hallux rigidus is na de redactionele ronde expliciet inhoudelijk goedgekeurd voor publicatie door Matthijs op 6 september 2026. De concept-pijnwijzer en links naar overige concept-behandelpagina's zijn bewust niet opgenomen in de publieke pagina."
     },
     {
       "path": "over-mij.html",

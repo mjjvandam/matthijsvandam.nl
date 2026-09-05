@@ -69,8 +69,13 @@
     },
     {
       "path": "assets/illustration-hallux-rigidus-care-route.svg",
-      "status": "review_required",
-      "reason": "Lokaal conceptbestand zonder vastgelegde schone bron in Git."
+      "status": "exclude",
+      "reason": "Site-eigen routeillustratie; gebruik op de hallux-rigiduspagina expliciet goedgekeurd door Matthijs op 6 september 2026."
+    },
+    {
+      "path": "assets/illustration-hallux-rigidus-zoolverstijving.jpg",
+      "status": "exclude",
+      "reason": "Door Matthijs aangeleverde ChatGPT-illustratie; gebruik op de hallux-rigiduspagina expliciet goedgekeurd op 6 september 2026."
     },
     {
       "path": "assets/illustration-mtp1-artrodese-principle.svg",
@@ -84,8 +89,8 @@
     },
     {
       "path": "assets/treatment-hallux-rigidus-hero-medical.jpg",
-      "status": "review_required",
-      "reason": "Lokaal genegeerd v1-bestand zonder schone bron in Git; niet opnieuw overtekenen."
+      "status": "exclude",
+      "reason": "Site-eigen medische illustratie met bestaande MVD-branding; gebruik op de hallux-rigiduspagina expliciet goedgekeurd door Matthijs op 6 september 2026."
     },
     {
       "path": "assets/treatment-hallux-valgus-anatomy.jpg",

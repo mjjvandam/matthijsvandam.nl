@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 600" role="img" aria-labelledby="title desc">
+  <title id="title">Zorgroute bij hallux rigidus</title>
+  <desc id="desc">Schematisch overzicht van klachten, eerste niet-operatieve behandeling en verdere beoordeling bij orthopedie.</desc>
+  <rect width="920" height="600" rx="28" fill="#fffdf8"/>
+  <rect x="28" y="28" width="864" height="544" rx="22" fill="#f7f4ed" stroke="#d8d5ca" stroke-width="2"/>
+  <text x="55" y="78" fill="#244c3d" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="850">Zorgroute in stappen</text>
+  <text x="55" y="110" fill="#5d675f" font-family="Inter, Arial, sans-serif" font-size="18">Van herkenning van klachten naar passende zorg</text>
+  <g font-family="Inter, Arial, sans-serif">
+    <g transform="translate(55 144)">
+      <rect width="190" height="112" rx="18" fill="#dce8df" stroke="#b9cabe" stroke-width="2"/>
+      <circle cx="34" cy="34" r="15" fill="#244c3d"/>
+      <text x="29" y="40" fill="#fffdf8" font-size="17" font-weight="900">1</text>
+      <text x="24" y="70" fill="#17201c" font-size="18" font-weight="850">Klachten</text>
+      <text x="24" y="96" fill="#5d675f" font-size="14">Pijn en stijfheid</text>
+    </g>
+    <path d="M263 200 H346" stroke="#a84f37" stroke-width="4" stroke-linecap="round"/>
+    <path d="M336 188 L350 200 L336 212" fill="none" stroke="#a84f37" stroke-width="4" stroke-linecap="round"/>
+    <g transform="translate(365 144)">
+      <rect width="190" height="112" rx="18" fill="#fffdf8" stroke="#d8d5ca" stroke-width="2"/>
+      <circle cx="34" cy="34" r="15" fill="#244c3d"/>
+      <text x="29" y="40" fill="#fffdf8" font-size="17" font-weight="900">2</text>
+      <text x="24" y="70" fill="#17201c" font-size="18" font-weight="850">Eerste lijn</text>
+      <text x="24" y="96" fill="#5d675f" font-size="14">Eerst niet-operatief</text>
+    </g>
+    <path d="M573 200 H651" stroke="#a84f37" stroke-width="4" stroke-linecap="round"/>
+    <path d="M641 188 L655 200 L641 212" fill="none" stroke="#a84f37" stroke-width="4" stroke-linecap="round"/>
+    <g transform="translate(670 144)">
+      <rect width="190" height="112" rx="18" fill="#fffdf8" stroke="#d8d5ca" stroke-width="2"/>
+      <circle cx="34" cy="34" r="15" fill="#244c3d"/>
+      <text x="29" y="40" fill="#fffdf8" font-size="17" font-weight="900">3</text>
+      <text x="24" y="70" fill="#17201c" font-size="18" font-weight="850">Orthopedie</text>
+      <text x="24" y="96" fill="#5d675f" font-size="14">Bij blijvende beperking</text>
+    </g>
+
+    <path d="M460 270 V296" stroke="#a84f37" stroke-width="4" stroke-linecap="round"/>
+    <path d="M449 287 L460 301 L471 287" fill="none" stroke="#a84f37" stroke-width="4" stroke-linecap="round"/>
+    <path d="M765 270 V296" stroke="#a84f37" stroke-width="4" stroke-linecap="round"/>
+    <path d="M754 287 L765 301 L776 287" fill="none" stroke="#a84f37" stroke-width="4" stroke-linecap="round"/>
+
+    <g transform="translate(335 314)">
+      <rect width="250" height="208" rx="16" fill="#dce8df" stroke="#b9cabe" stroke-width="2"/>
+      <text x="22" y="36" fill="#244c3d" font-size="14" font-weight="900">EERSTE MAATREGELEN</text>
+      <circle cx="25" cy="73" r="4" fill="#a84f37"/>
+      <text x="40" y="79" fill="#17201c" font-size="16" font-weight="750">Fysiotherapie</text>
+      <circle cx="25" cy="112" r="4" fill="#a84f37"/>
+      <text x="40" y="108" fill="#17201c" font-size="16" font-weight="750">Passende schoenen of</text>
+      <text x="40" y="131" fill="#17201c" font-size="16" font-weight="750">steunzolen</text>
+      <circle cx="25" cy="166" r="4" fill="#a84f37"/>
+      <text x="40" y="172" fill="#17201c" font-size="16" font-weight="750">Belasting aanpassen</text>
+    </g>
+
+    <g transform="translate(640 314)">
+      <rect width="250" height="208" rx="16" fill="#fffdf8" stroke="#d8d5ca" stroke-width="2"/>
+      <text x="22" y="36" fill="#244c3d" font-size="14" font-weight="900">VERDERE AFWEGING</text>
+      <text x="22" y="72" fill="#17201c" font-size="16" font-weight="800">Verder niet-operatief?</text>
+      <text x="22" y="97" fill="#5d675f" font-size="14">Evalueren of aanvullende</text>
+      <text x="22" y="118" fill="#5d675f" font-size="14">behandeling nog kan helpen.</text>
+      <path d="M22 139 H228" stroke="#d8d5ca" stroke-width="2"/>
+      <text x="22" y="169" fill="#17201c" font-size="16" font-weight="800">Operatie bespreken</text>
+      <text x="22" y="194" fill="#5d675f" font-size="14">Alleen wanneer dat passend is.</text>
+    </g>
+  </g>
+  <text x="55" y="555" fill="#5d675f" font-family="Inter, Arial, sans-serif" font-size="15">De precieze route hangt af van de klachten en de persoonlijke situatie.</text>
+</svg>

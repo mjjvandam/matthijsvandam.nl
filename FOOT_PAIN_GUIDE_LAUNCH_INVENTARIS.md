@@ -5,7 +5,7 @@ Alle inhoudelijke kaarten krijgen een eigen conceptpagina in `behandelingen/`. D
 | Kaart | Concept-URL | Status | Reviewpunten |
 | --- | --- | --- | --- |
 | Hallux valgus | `behandelingen/hallux-valgus.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
-| Hallux rigidus | `behandelingen/hallux-rigidus.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
+| Hallux rigidus | `behandelingen/hallux-rigidus.html` | publicatieklaar | Inhoudelijk akkoord en op 6 september 2026 afzonderlijk gepubliceerd, zonder zichtbare koppeling met de concept-pijnwijzer. |
 | Hamerteen en klauwteen | `behandelingen/hamerteen-klauwteen.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Metatarsalgie | `behandelingen/metatarsalgie.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Morton neuroom | `behandelingen/morton-neuroom.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |

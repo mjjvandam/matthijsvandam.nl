@@ -3924,6 +3924,19 @@ a {
   box-shadow: var(--shadow-soft);
 }
 
+.medical-illustration-route img {
+  aspect-ratio: auto;
+  border: 0;
+  border-radius: 18px;
+  background: transparent;
+}
+
+.medical-illustration-route {
+  max-width: 920px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .medical-illustration figcaption {
   margin-top: 10px;
   color: var(--muted);

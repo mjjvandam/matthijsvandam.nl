@@ -1276,8 +1276,8 @@
       "primaryPage": "behandelingen/hallux-rigidus.html",
       "anchor": "faq-hallux-rigidus-is-hallux-rigidus-hetzelfde-als-hallux-valgus",
       "sourceRefs": [],
-      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-09-06",
       "reusePolicy": "page-specific"
     },
     "hallux-rigidus-kun-je-met-hallux-rigidus-normaal-blijven-lopen": {
@@ -1291,8 +1291,8 @@
       "primaryPage": "behandelingen/hallux-rigidus.html",
       "anchor": "faq-hallux-rigidus-kun-je-met-hallux-rigidus-normaal-blijven-lopen",
       "sourceRefs": [],
-      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-09-06",
       "reusePolicy": "page-specific"
     },
     "hallux-rigidus-kun-je-nog-hardlopen-met-hallux-rigidus": {
@@ -1306,8 +1306,8 @@
       "primaryPage": "behandelingen/hallux-rigidus.html",
       "anchor": "faq-hallux-rigidus-kun-je-nog-hardlopen-met-hallux-rigidus",
       "sourceRefs": [],
-      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-09-06",
       "reusePolicy": "page-specific"
     },
     "hallux-rigidus-moet-hallux-rigidus-altijd-geopereerd-worden": {
@@ -1321,10 +1321,25 @@
       "primaryPage": "behandelingen/hallux-rigidus.html",
       "anchor": "faq-hallux-rigidus-moet-hallux-rigidus-altijd-geopereerd-worden",
       "sourceRefs": [],
-      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-09-06",
       "reusePolicy": "page-specific",
       "nearDuplicateReviewStatus": "reviewed-page-specific-2026-08-26"
+    },
+    "hallux-rigidus-zijn-er-ook-protheses-voor-het-mtp-1-gewricht": {
+      "id": "hallux-rigidus-zijn-er-ook-protheses-voor-het-mtp-1-gewricht",
+      "question": "Zijn er ook protheses voor het MTP-1-gewricht?",
+      "answerHtml": "<p>\n  Ja, er bestaan protheses voor het MTP-1-gewricht. In de loop der jaren zijn verschillende\n  modellen ontwikkeld en toegepast. Ik plaats deze protheses momenteel niet. Welke andere\n  behandeling eventueel in beeld komt, hangt af van de klachten, het onderzoek en de verwachtingen.\n</p>",
+      "audience": "patient",
+      "topics": [
+        "hallux-rigidus"
+      ],
+      "primaryPage": "behandelingen/hallux-rigidus.html",
+      "anchor": "faq-hallux-rigidus-zijn-er-ook-protheses-voor-het-mtp-1-gewricht",
+      "sourceRefs": [],
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-09-06",
+      "reusePolicy": "page-specific"
     },
     "hallux-rigidus-kan-de-grote-teen-na-een-mtp-1-artrodese-nog-bewegen": {
       "id": "hallux-rigidus-kan-de-grote-teen-na-een-mtp-1-artrodese-nog-bewegen",
@@ -1337,8 +1352,8 @@
       "primaryPage": "behandelingen/hallux-rigidus.html",
       "anchor": "faq-hallux-rigidus-kan-de-grote-teen-na-een-mtp-1-artrodese-nog-bewegen",
       "sourceRefs": [],
-      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-09-06",
       "reusePolicy": "page-specific",
       "duplicateReviewStatus": "reviewed-page-specific-2026-08-26"
     },
@@ -1353,8 +1368,8 @@
       "primaryPage": "behandelingen/hallux-rigidus.html",
       "anchor": "faq-hallux-rigidus-wanneer-is-een-cheilectomie-passend",
       "sourceRefs": [],
-      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-09-06",
       "reusePolicy": "page-specific"
     },
     "hallux-valgus-is-hallux-valgus-hetzelfde-als-een-bunion": {
