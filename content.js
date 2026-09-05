@@ -56,6 +56,17 @@
       url: "projecten/3d-planning-voet-enkel.html",
       featured: true,
     },
+    {
+      id: "footprint-quick-scan",
+      title: "FOOTprint Quick Scan",
+      label: "Studie",
+      summary:
+        "Een studie naar voetklachten bij ETZ-medewerkers, met gevalideerde vragenlijsten en een controle na zes maanden.",
+      image: "assets/article-footprint-quick-scan-editorial.jpg",
+      imageAlt: "Voetscreening met werkschoenen, inlegzolen en een anatomisch voetmodel",
+      url: "projecten/footprint-quick-scan.html",
+      featured: false,
+    },
   ];
 
   const articles = [

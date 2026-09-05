@@ -321,6 +321,15 @@
       "review_notes": "3D-planningprojectpagina opnieuw gecontroleerd; titelmetadata en publicatiestatus afgestemd op 27 juni 2026."
     },
     {
+      "path": "projecten/footprint-quick-scan.html",
+      "title": "FOOTprint Quick Scan | studie | drs. Matthijs van Dam",
+      "spoor": "project",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-09-06",
+      "review_notes": "Studiepagina inhoudelijk akkoord en voor publicatie vrijgegeven door Matthijs op 6 september 2026."
+    },
+    {
       "path": "privacy.html",
       "title": "Privacy | drs. Matthijs van Dam",
       "spoor": "juridisch",
