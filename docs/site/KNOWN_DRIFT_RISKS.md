@@ -138,3 +138,15 @@ Beheersing:
 - Alleen wijzigen via `tools/generate_faqs.py`.
 - `python3 tools/generate_faqs.py --check` en `python3 tools/check_faqs.py` draaien.
 - Duplicaten inhoudelijk classificeren en medische reviewstatus per antwoord behouden.
+
+## 12. Avondmodus combineert lichte panelen met lichte tekst
+
+Risico:
+
+- Een paneel met een vaste lichte achtergrondkleur kan in avondmodus lichte teksttokens erven.
+- Dit geeft vooral op tabletbreedte slecht leesbare koppen, labels en kaartteksten.
+
+Beheersing:
+
+- Geef lichte paneelcomponenten zowel voor `data-theme="dark"` als voor automatische donkere systeemvoorkeur een expliciet donker oppervlak.
+- Controleer gedeelde componenten op tabletbreedte en meet tekstcontrast na wijzigingen aan achtergronden of themakleuren.

@@ -679,7 +679,7 @@ const pageHtml = (condition) => {
             <div>
               <span>Geschreven door</span>
               <strong>drs. Matthijs van Dam</strong>
-              <p>Orthopedisch chirurg in het Orthopedisch Centrum ETZ in Tilburg.</p>
+              <p>Ik ben orthopeed in het Orthopedisch Centrum ETZ in Tilburg.</p>
               <a href="../over-mij.html">Meer over mij</a>
             </div>
           </aside>

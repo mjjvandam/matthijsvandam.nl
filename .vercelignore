@@ -1,5 +1,7 @@
 # Conceptpagina's blijven lokaal beschikbaar voor review, maar gaan niet mee naar Vercel.
 concept-foot-pain-guide.html
+artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html
+assets/leonie-meihuizen-transmuraal-tilburg-cohort.png
 behandelingen/*.html
 !behandelingen/enkelverzwikking.html
 !behandelingen/enkelartrose.html

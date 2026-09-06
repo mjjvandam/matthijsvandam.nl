@@ -225,6 +225,36 @@ body {
   }
 }
 
+:root[data-theme="dark"] .professionals-hero {
+  background:
+    radial-gradient(circle at 88% 14%, rgba(91, 168, 160, 0.2), transparent 30%),
+    linear-gradient(135deg, #173653, #244c3d);
+}
+
+:root[data-theme="dark"] .professionals-hero h1 {
+  color: #fffdf8;
+}
+
+:root[data-theme="dark"] .professionals-hero p {
+  color: rgba(255, 253, 248, 0.86);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .professionals-hero {
+    background:
+      radial-gradient(circle at 88% 14%, rgba(91, 168, 160, 0.2), transparent 30%),
+      linear-gradient(135deg, #173653, #244c3d);
+  }
+
+  :root:not([data-theme]) .professionals-hero h1 {
+    color: #fffdf8;
+  }
+
+  :root:not([data-theme]) .professionals-hero p {
+    color: rgba(255, 253, 248, 0.86);
+  }
+}
+
 .skip-link {
   position: fixed;
   top: 12px;
