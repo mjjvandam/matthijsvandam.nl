@@ -125,19 +125,19 @@
       "path": "professionals.html",
       "title": "Orthopedische samenwerking regio Tilburg | drs. Matthijs van Dam",
       "spoor": "professional",
-      "verification_status": "geverifieerd",
-      "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-09-06",
-      "review_notes": "De volledige actuele professionals-pagina is op 6 september 2026 expliciet gecontroleerd en akkoord bevonden voor publicatie door Matthijs, inclusief het verbeterde contrast van de regionale samenwerkingshero in avondmodus."
+      "verification_status": "review_nodig",
+      "verified_by": null,
+      "verified_on": null,
+      "review_notes": "Visuele hercontrole nodig na correctie van de Doctolib-uitlijning en dark-modecontrasten op 6 september 2026."
     },
     {
       "path": "advies-consultancy.html",
       "title": "Projectadvies en zorgontwikkeling | drs. Matthijs van Dam",
       "spoor": "advies_consultancy",
-      "verification_status": "geverifieerd",
-      "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-07-14",
-      "review_notes": "Advies- en consultancypagina opnieuw inhoudelijk akkoord gegeven door Matthijs na stem-consistentieronde."
+      "verification_status": "review_nodig",
+      "verified_by": null,
+      "verified_on": null,
+      "review_notes": "Visuele hercontrole nodig na correctie van het hero-contrast in dark mode op 6 september 2026."
     },
     {
       "path": "publicaties.html",

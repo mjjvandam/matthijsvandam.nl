@@ -231,6 +231,19 @@ body {
     linear-gradient(135deg, #173653, #244c3d);
 }
 
+:root[data-theme="dark"] .advice-hero {
+  background: linear-gradient(135deg, #25392f, #101713 58%, #19241e);
+}
+
+:root[data-theme="dark"] .professional-contact-strip,
+:root[data-theme="dark"] .professional-social {
+  background: linear-gradient(135deg, var(--green-soft), var(--paper));
+}
+
+:root[data-theme="dark"] .professional-examples {
+  background: linear-gradient(180deg, var(--white), var(--paper));
+}
+
 :root[data-theme="dark"] .professionals-hero h1 {
   color: #fffdf8;
 }
@@ -244,6 +257,19 @@ body {
     background:
       radial-gradient(circle at 88% 14%, rgba(91, 168, 160, 0.2), transparent 30%),
       linear-gradient(135deg, #173653, #244c3d);
+  }
+
+  :root:not([data-theme]) .advice-hero {
+    background: linear-gradient(135deg, #25392f, #101713 58%, #19241e);
+  }
+
+  :root:not([data-theme]) .professional-contact-strip,
+  :root:not([data-theme]) .professional-social {
+    background: linear-gradient(135deg, var(--green-soft), var(--paper));
+  }
+
+  :root:not([data-theme]) .professional-examples {
+    background: linear-gradient(180deg, var(--white), var(--paper));
   }
 
   :root:not([data-theme]) .professionals-hero h1 {
@@ -6000,8 +6026,9 @@ a {
   max-width: 1180px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(220px, 0.34fr);
-  gap: clamp(22px, 5vw, 56px);
+  grid-template-columns: minmax(0, 1fr) minmax(260px, 0.4fr);
+  column-gap: clamp(22px, 5vw, 56px);
+  row-gap: clamp(18px, 3vw, 28px);
   align-items: center;
 }
 
@@ -6015,6 +6042,16 @@ a {
 
 .professional-contact-panel p {
   margin-bottom: 0;
+}
+
+.professional-contact-note {
+  grid-column: 1 / -1;
+  margin: 0;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.92rem;
+  line-height: 1.55;
 }
 
 .professional-email-note {
