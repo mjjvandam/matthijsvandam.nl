@@ -650,9 +650,14 @@ const pageHtml = (condition) => {
         <span></span>
         <span></span>
       </button>
-      <nav class="site-nav legal-nav" aria-label="Navigatie" data-nav>
-        <a href="../behandelingen.html">Behandelingen</a>
+      <nav class="site-nav legal-nav" aria-label="Hoofdnavigatie" data-nav>
+        <a href="../over-mij.html">Over</a>
+        <a href="../behandelingen.html">Klachten en behandelingen</a>
         <a href="../professionals.html">Professionals</a>
+        <a href="../advies-consultancy.html">Advies</a>
+        <a href="../projecten.html">Projecten</a>
+        <a href="../artikelen.html">Artikelen</a>
+        <a href="../publicaties.html">Publicaties</a>
         <a href="../index.html#contact">Contact</a>
       </nav>
     </header>
