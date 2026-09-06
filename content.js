@@ -71,6 +71,21 @@
 
   const articles = [
     {
+      id: "leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort",
+      title: "Leonie Meihuizen gestart als onderzoeker voor het Transmuraal Tilburg Cohort",
+      label: "Onderzoek",
+      summary:
+        "Leonie Meihuizen versterkt de opbouw van het digitale zorgpad en de prospectieve gegevensverzameling binnen het Transmuraal Tilburg Cohort.",
+      image: "assets/leonie-meihuizen-transmuraal-tilburg-cohort.png",
+      imageAlt: "Welkomsbeeld voor Sanne van Dijk en Leonie Meihuizen bij het Orthopedisch Centrum ETZ",
+      url: "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html",
+      date: "2026-09-06",
+      audience: ["patienten", "zorgprofessionals"],
+      topics: ["artrose", "leefstijl", "onderzoek", "digitale-zorg"],
+      project: "transmuraal-tilburg-cohort",
+      archive: true,
+    },
+    {
       id: "aaos-richtlijn-enkelartrose",
       title: "Nieuwe Amerikaanse richtlijn voor enkelartrose: wat weten we wel en nog niet?",
       label: "Richtlijn en onderzoek",

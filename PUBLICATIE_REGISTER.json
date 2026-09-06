@@ -20,7 +20,7 @@
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-09-06",
-      "review_notes": "De verlopen oproep voor het patientpanel is op 20 juli 2026 van de homepage gehaald en expliciet akkoord bevonden door Matthijs. Op 6 september 2026 is de bestaande hallux-rigidustegel op verzoek van Matthijs klikbaar gemaakt naar de afzonderlijk goedgekeurde pagina; overige homepage-inhoud bleef ongewijzigd."
+      "review_notes": "De verlopen oproep voor het patientpanel is op 20 juli 2026 van de homepage gehaald en expliciet akkoord bevonden door Matthijs. Op 6 september 2026 is de bestaande hallux-rigidustegel op verzoek van Matthijs klikbaar gemaakt naar de afzonderlijk goedgekeurde pagina. Op 6 september 2026 is na expliciet publicatie-akkoord het nieuwsbericht over de start van Leonie Meihuizen aan de actuele artikelen toegevoegd."
     },
     {
       "path": "artikelen.html",
@@ -28,8 +28,8 @@
       "spoor": "algemeen",
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-08-26",
-      "review_notes": "Artikelkaart voor '8 vragen over obesitasmedicijnen bij reuma en artrose' toegevoegd na expliciet publicatie-akkoord van Matthijs op 26 augustus 2026."
+      "verified_on": "2026-09-06",
+      "review_notes": "Artikelkaart voor '8 vragen over obesitasmedicijnen bij reuma en artrose' toegevoegd na expliciet publicatie-akkoord van Matthijs op 26 augustus 2026. Op 6 september 2026 is na expliciet publicatie-akkoord het nieuwsbericht over de start van Leonie Meihuizen toegevoegd."
     },
     {
       "path": "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html",
@@ -39,6 +39,15 @@
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-08-26",
       "review_notes": "Patiëntgericht nieuwsbericht over de ReumaNederland-publicatie, bijdrageomschrijving, bronverwijzing en medische veiligheidsgrens expliciet goedgekeurd voor publicatie door Matthijs op 26 augustus 2026."
+    },
+    {
+      "path": "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html",
+      "title": "Leonie Meihuizen bij Tilburg Cohort | drs. Matthijs van Dam",
+      "spoor": "artikel",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-09-06",
+      "review_notes": "Nieuwsbericht over de start van Leonie Meihuizen als onderzoeker voor het Transmuraal Tilburg Cohort na gezamenlijke redactionele review expliciet inhoudelijk akkoord en voor publicatie vrijgegeven door Matthijs op 6 september 2026."
     },
     {
       "path": "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html",
@@ -291,7 +300,7 @@
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-09-06",
-      "review_notes": "De volledige actuele projectpagina is op 6 september 2026 expliciet akkoord bevonden door Matthijs, inclusief de verplaatste bronvermelding en de actuele status van het projectteam en Leonie Meihuizen."
+      "review_notes": "De volledige actuele projectpagina is op 6 september 2026 expliciet akkoord bevonden door Matthijs, inclusief de verplaatste bronvermelding en de actuele status van het projectteam en Leonie Meihuizen. Na het expliciete publicatie-akkoord op 6 september 2026 verschijnt het nieuwe nieuwsbericht over Leonies start automatisch onder Laatste nieuws."
     },
     {
       "path": "projecten/leefstijlgerichte-kansen-orthopedie.html",

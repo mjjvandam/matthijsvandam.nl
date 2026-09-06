@@ -8,9 +8,15 @@
   </url>
   <url>
     <loc>https://matthijsvandam.nl/artikelen.html</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://matthijsvandam.nl/artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html</loc>
+    <lastmod>2026-09-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>https://matthijsvandam.nl/behandelingen.html</loc>
@@ -182,7 +188,7 @@
   </url>
   <url>
     <loc>https://matthijsvandam.nl/projecten/transmuraal-tilburg-cohort.html</loc>
-    <lastmod>2026-06-24</lastmod>
+    <lastmod>2026-09-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
