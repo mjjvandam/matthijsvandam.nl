@@ -55,8 +55,8 @@
       "spoor": "artikel",
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-09-03",
-      "review_notes": "Inleiding op 26 augustus 2026 aangepast met een persoonlijke aanleiding en explicietere duiding van de verwachting rond pijn, gewicht en bewegen. Definitieve versie expliciet inhoudelijk akkoord gegeven door Matthijs op 3 september 2026."
+      "verified_on": "2026-09-06",
+      "review_notes": "Inleiding op 26 augustus 2026 aangepast met een persoonlijke aanleiding en explicietere duiding van de verwachting rond pijn, gewicht en bewegen. Definitieve versie expliciet inhoudelijk akkoord gegeven door Matthijs op 3 september 2026. Op 6 september 2026 is op verzoek van Matthijs uitsluitend de mobiele afbreking van lange artikelkoppen technisch gecorrigeerd; de medische inhoud is niet gewijzigd."
     },
     {
       "path": "artikelen/aaos-richtlijn-enkelartrose.html",
@@ -134,14 +134,14 @@
       "path": "professionals.html",
       "title": "Orthopedische samenwerking regio Tilburg | drs. Matthijs van Dam",
       "spoor": "professional",
-      "verification_status": "review_nodig",
-      "verified_by": null,
-      "verified_on": null,
-      "review_notes": "Visuele hercontrole nodig na correctie van de Doctolib-uitlijning en dark-modecontrasten op 6 september 2026."
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-09-06",
+      "review_notes": "De volledige actuele professionals-pagina is op 6 september 2026 expliciet inhoudelijk akkoord bevonden door Matthijs, inclusief de Doctolib-uitlijning, de verbeterde avondmoduscontrasten en de bestaande contactgrenzen."
     },
     {
       "path": "advies-consultancy.html",
-      "title": "Projectadvies en zorgontwikkeling | drs. Matthijs van Dam",
+      "title": "Medisch-specialistisch advies | drs. Matthijs van Dam",
       "spoor": "advies_consultancy",
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",

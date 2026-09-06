@@ -2144,6 +2144,11 @@ a {
   line-height: 0.96;
 }
 
+.article-page h1 {
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+
 .legal-page h2 {
   margin: 42px 0 10px;
   font-size: clamp(1.55rem, 3vw, 2.2rem);

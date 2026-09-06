@@ -8,9 +8,9 @@ Laatste auditbasis: huidige repo op 2026-09-06.
 
 De gepubliceerde laag bestaat uit:
 
-- 38 publieke pagina's in `sitemap.xml`.
-- 38 pagina's in `PUBLICATIE_REGISTER.json`: 38 `geverifieerd` en 0 `review_nodig`.
-- 18 geverifieerde gepubliceerde artikelen; geen publiek artikel staat nog op `review_nodig`.
+- 39 publieke pagina's in `sitemap.xml`.
+- 39 pagina's in `PUBLICATIE_REGISTER.json`: 39 `geverifieerd` en 0 `review_nodig`.
+- 19 geverifieerde gepubliceerde artikelen; geen publiek artikel staat nog op `review_nodig`.
 - 6 gepubliceerde projectpagina's.
 - 1 publieke behandel-/klachtenhub: `behandelingen.html`.
 - 4 publieke behandelpagina's: `behandelingen/enkelverzwikking.html`, `behandelingen/enkelartrose.html`, `behandelingen/enkelprothese.html` en `behandelingen/hallux-rigidus.html`.
