@@ -19,9 +19,9 @@ test('strict booleans, input shapes, sizes and header injection rejected before 
  for(const body of [null,[],{},'{', {...data,geen_medische_gegevens:'false'},{...data,naam:'Test\r\nBcc: injected'}, {...data,email:[]},{...data,requestId:'wrong'}, {...data,bericht:'a'.repeat(4001)},{...data,website:'spam'},{...data,type:'Zorgontwikkeling'}])assert.equal((await run({body,fetchImpl:()=>assert.fail()})).code,400);
  assert.equal((await run({body:' '.repeat(24577),fetchImpl:()=>assert.fail()})).code,413);
 });
-test('only fixed recipient and sender; text only; no subscription',async()=>{
+test('only fixed recipient and sender; HTML and text alternatives; no subscription',async()=>{
  let payload;const res=await run({body:{...data,to:'attacker@example.com',sender:'attacker@example.com'},fetchImpl:async(url,options)=>{assert.equal(url,'https://api.brevo.com/v3/smtp/email');payload=JSON.parse(options.body);return {ok:true};}});
- assert.equal(res.code,200);assert.equal(payload.to[0].email,'mjjvandam@gmail.com');assert.equal(payload.sender.email,'website@mail.matthijsvandam.nl');assert.equal(payload.replyTo.email,data.email);assert.equal(payload.htmlContent,undefined);
+ assert.equal(res.code,200);assert.equal(payload.to[0].email,'mjjvandam@gmail.com');assert.equal(payload.sender.email,'website@mail.matthijsvandam.nl');assert.equal(payload.replyTo.email,data.email);assert.match(payload.htmlContent, /Nieuw contactbericht/);assert.match(payload.textContent, /Fictief bericht/);assert.equal(payload.subject,'[Website · Anders] Test');
 });
 test('idempotency survives separate instances; binds content and ID without personal data',async()=>{
  const keys=[];const fetchImpl=async(url,options)=>{keys.push(JSON.parse(options.body).headers.idempotencyKey);return {ok:true};};
@@ -42,4 +42,17 @@ test('browser submit sends boolean consent, blocks repeat submission and preserv
  vm.runInNewContext('contactForm?.addEventListener("submit", async (event) => {'+source,{contactForm:form,contactStatus:status,FormData:function(){return fields;},crypto:{randomUUID:()=>data.requestId},AbortSignal,fetch:async(url,opts)=>{calls++;assert.equal(JSON.parse(opts.body).geen_medische_gegevens,true);throw Error('timeout');}});
  await listener({preventDefault(){}});await listener({preventDefault(){}});
  assert.equal(calls,1);assert.equal(resets,0);assert.equal(button.disabled,true);assert.match(status.textContent,/onzeker/);
+});
+
+test('HTML email escapes visitor markup and preserves line breaks and plain text',()=>{
+ const {renderContactMail}=require('../api/contact.js');
+ const fields={...data,naam:'Naam <img src=x onerror=alert(1)>',onderwerp:'Vraag & antwoord',bericht:'Eerste regel\n<script>alert(1)</script>\nLaatste regel'};
+ const mail=renderContactMail(fields);
+ assert.ok(!mail.htmlContent.includes('<script>'));
+ assert.ok(!mail.htmlContent.includes('<img'));
+ assert.ok(mail.htmlContent.includes('&lt;script&gt;'));
+ assert.ok(mail.htmlContent.includes('Eerste regel<br>'));
+ assert.ok(mail.htmlContent.includes('Vraag &amp; antwoord'));
+ assert.ok(mail.textContent.includes(fields.bericht));
+ assert.equal(mail.subject,'[Website · Anders] Vraag & antwoord');
 });
