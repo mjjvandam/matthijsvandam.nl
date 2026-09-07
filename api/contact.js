@@ -14,9 +14,10 @@ function renderContactMail(fields) {
   const safe = Object.fromEntries(Object.entries(fields).map(([key,value]) => [key,escape(value)]));
   const subject = '[Website · '+fields.type+'] '+fields.onderwerp;
   const draft = ['Beste '+fields.naam+',','','Dank voor je bericht over “'+fields.onderwerp+'”.','','[Vul hier je inhoudelijke reactie en eventuele vervolgstap aan.]','','Met vriendelijke groet,','Matthijs van Dam'].join('\n');
+  const disclaimer = 'Voor persoonlijk medisch advies, afspraken of spoed gebruik je de officiële zorgkanalen.';
   const textContent = ['Nieuw contactbericht · MatthijsvanDam.nl','',
     'Categorie: '+fields.type,'Onderwerp: '+fields.onderwerp,'Naam: '+fields.naam,'E-mailadres: '+fields.email,
-    '',fields.bericht,'','---','Conceptantwoord — eerst controleren','Basisopzet: vul aan voordat je deze verstuurt.','',draft].join('\n');
+    '',fields.bericht,'','---','Conceptantwoord — eerst controleren','Basisopzet: vul aan voordat je deze verstuurt.','',draft,'',disclaimer].join('\n');
   const htmlContent = `<!doctype html>
 <html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Nieuw contactbericht</title></head>
 <body style="margin:0;padding:0;background-color:#f3f2ed;color:#233c32;font-family:Arial,Helvetica,sans-serif;">
@@ -39,6 +40,7 @@ function renderContactMail(fields) {
 <h2 style="margin:0 0 8px;color:#233c32;font-size:18px;line-height:1.4;">Conceptantwoord — eerst controleren</h2>
 <p style="margin:0 0 20px;color:#53645b;font-size:14px;line-height:1.5;">Basisopzet: vul aan voordat je deze verstuurt.</p>
 <div style="color:#233c32;font-size:16px;line-height:1.75;">${escape(draft).replace(/\n/g,'<br>')}</div>
+<p style="margin:18px 0 0;color:#53645b;font-size:12px;line-height:1.6;">${escape(disclaimer)}</p>
 </td></tr>
 </table></td></tr></table></body></html>`;
   return {subject,textContent,htmlContent};
