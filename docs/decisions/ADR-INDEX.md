@@ -14,6 +14,7 @@ Use this index to find the relevant architectural decision record before non-tri
 | ADR-0008 | Newsletter And Contact | Accepted | Formulieren, persoonsgegevens, gratis dienstkeuze en automatische artikelverzending | Bouw van contact/nieuwsbrief, voorkeuren, RSS, mailkoppeling en activering; livegang afzonderlijk vrijgeven |
 | ADR-0009 | Hosting And Mail Production | Proposed | Hostingpakket, gratis alternatieven en migratieproef | Publieke mailactivering op huidige host of hostingmigratie; needs owner validation |
 | ADR-0010 | Newsletter Confirmation Per Request | Accepted | Afzonderlijke eenmalige bevestigingen en tijdelijke aanvraagopslag | Lokale vervanging van de Brevo DOI-route; providerkeuze en livegang afzonderlijk vrijgeven |
+| ADR-0011 | Newsletter Storage And Bundling | Proposed | Niet gekozen: Matthijs wil geen extra diensten | Historische afweging; niet uitvoeren. Vervolg binnen Brevo, geen Neon |
 
 Status notes:
 

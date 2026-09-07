@@ -9,3 +9,5 @@ Per artikel bevat een dossier:
 - `learning-analysis.md`: feitelijke vergelijking, artikelspecifieke verschillen en eventuele generaliseerbare lessen.
 
 Een ontbrekende historische versie wordt als ontbrekend gemarkeerd en nooit gereconstrueerd. Het algemene profiel staat in `docs/site/ARTICLE_EDITORIAL_PROFILE.md`.
+
+Alleen volledig door Matthijs geredigeerde artikelen tellen mee voor de actieve leerbasis. Een gedeeltelijk bekeken of niet-goedgekeurd concept kan als historisch materiaal bestaan, maar levert geen automatische profielregel op.

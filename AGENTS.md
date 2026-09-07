@@ -125,6 +125,22 @@ Bij medische nieuws- of onderzoeksaanleidingen:
 
 Matthijs blijft medisch en inhoudelijk eindverantwoordelijk. Codex mag medische inhoud niet als `geverifieerd` markeren zonder expliciet akkoord.
 
+## Tweewekelijkse redactionele leerlus
+
+Bij de automatisering `tweewekelijkse-artikelkansen-matthijsvandam-nl` is `docs/site/ARTICLE_EDITORIAL_PROFILE.md` verplicht aanvullend redactioneel kader.
+
+Voor ieder nieuw volledig conceptartikel:
+
+1. Lees vóór het schrijven het redactieprofiel, de vier meest recente volledig geredigeerde `concepten/editorial-learning/*/learning-analysis.md`-bestanden en twee inhoudelijk passende gepubliceerde voorbeeldartikelen. Onvolledige of niet-goedgekeurde trajecten tellen niet als leerevidence.
+2. Maak na de eerste volledige conceptversie onmiddellijk een onveranderlijke nulversie met `python3 tools/editorial_learning.py start --slug YYYY-MM-DD-korte-slug --source concepten/artikelen/YYYY-MM-DD-korte-slug.md`.
+3. Bewerk daarna alleen het reguliere concept en de preview; overschrijf `first-concept.md` nooit.
+4. Leg `approved-version.md` pas vast na expliciet publicatieakkoord van Matthijs, met `python3 tools/editorial_learning.py finalize --slug YYYY-MM-DD-korte-slug --source PAD-NAAR-GOEDGEKEURDE-MARKDOWN --owner-approved`.
+5. Classificeer vervolgens de verschillen in titel/opening, journalistieke lijn, medische uitleg, woordkeuze, auteursstem, schrappen/herhaling en slot. Werk `learning-analysis.md` inhoudelijk bij.
+6. Neem een regel automatisch op in het redactieprofiel wanneer hetzelfde correctiepatroon in minimaal twee van de laatste vier volledig geredigeerde trajecten voorkomt, of Matthijs de voorkeur expliciet bevestigt. Volg de uitsluitingen en voorrangsregels uit het profiel.
+7. Rapporteer bij de volgende artikelrun welke actieve profielregels aantoonbaar in het nieuwe concept zijn toegepast.
+
+De leerdossiers blijven lokaal en buiten deployment, sitemap, navigatie en `content.js`. De leerlus verandert niets aan broncontrole, medische owner review, `PUBLICATIE_REGISTER.json` of andere publicatiepoorten.
+
 ## SEO- en AI-zichtbaarheidsregels
 
 SEO en AI-vindbaarheid ondersteunen de inhoud, maar mogen medische veiligheid niet overschrijven.

@@ -7,10 +7,10 @@ Dit profiel is de compacte, vaste schrijfbasis voor nieuwe conceptartikelen op `
 De tweewekelijkse routine leest vóór het schrijven:
 
 1. dit profiel;
-2. de drie meest recente `learning-analysis.md`-bestanden;
+2. de vier meest recente `learning-analysis.md`-bestanden van volledig geredigeerde artikelen;
 3. twee inhoudelijk passende, gepubliceerde voorbeeldartikelen.
 
-Het actieve profiel bevat maximaal twintig kernregels. Regels worden alleen automatisch toegevoegd wanneer hetzelfde correctiepatroon in minimaal twee van de laatste drie afgeronde artikeltrajecten voorkomt, of wanneer Matthijs een voorkeur expliciet bevestigt. Een recentere expliciete voorkeur heeft voorrang op een oudere, strijdige regel.
+Het actieve profiel bevat maximaal twintig kernregels. Regels worden alleen automatisch toegevoegd wanneer hetzelfde correctiepatroon in minimaal twee van de laatste vier volledig geredigeerde artikeltrajecten voorkomt, of wanneer Matthijs een voorkeur expliciet bevestigt. Onvolledige of niet-goedgekeurde concepten tellen niet mee. Een recentere expliciete voorkeur heeft voorrang op een oudere, strijdige regel.
 
 ## Toon en stijl
 
@@ -31,10 +31,10 @@ Het actieve profiel bevat maximaal twintig kernregels. Regels worden alleen auto
 
 ## Medische uitleg
 
-- **MU-01 — Leg het probleem vóór de techniek uit.** Beschrijf eerst concreet de anatomie, klacht of behandelvraag en daarna pas de ingreep of onderzoeksuitkomst. Herkomst: expliciete eigenaarfeedback 3D-enkelrevisie, augustus 2026. Toepassing: technisch-complexe onderwerpen.
+- **MU-01 — Leg het probleem vóór de techniek uit.** Beschrijf eerst concreet de anatomie, klacht of behandelvraag en daarna pas de ingreep of onderzoeksuitkomst. Herkomst: terugkerende eigenaarredactie enkelinstabiliteit, AAOS en SWIFT, juli-september 2026. Toepassing: technisch-complexe onderwerpen.
 - **MU-02 — Vertaal vaktermen bij eerste gebruik.** Gebruik bijvoorbeeld `een nieuwe operatie aan de knieprothese` voordat of in plaats van alleen `revisie`. Herkomst: expliciete eigenaarfeedback SWIFT, september 2026. Toepassing: breed professionele artikelen.
 - **MU-03 — Vergelijk alleen dezelfde uitkomstmaten.** Maak duidelijk wanneer onderzoeken verschillende vragen beantwoorden, maar voeg die uitleg alleen toe als zij nodig is om een verkeerde conclusie te voorkomen. Herkomst: SWIFT en meta-analyse, september 2026. Toepassing: artikelen met meerdere onderzoeken.
-- **MU-04 — Bewijsgrens blijft concreet.** Benoem bij observationele studies of ontbrekende controlegroepen precies welke vergelijking niet kan worden gemaakt. Vermijd algemene onzekerheidsformules zonder uitleg. Herkomst: eigenaarcorrectie 3D-enkelrevisie, augustus 2026. Toepassing: onderzoeksduiding.
+- **MU-04 — Bewijsgrens blijft concreet.** Benoem bij observationele studies of ontbrekende controlegroepen precies welke vergelijking niet kan worden gemaakt. Vermijd algemene onzekerheidsformules zonder uitleg. Herkomst: terugkerende eigenaarredactie GLP-1, AAOS en SWIFT, juni-september 2026. Toepassing: onderzoeksduiding.
 - **MU-05 — Niet-stigmatiserende obesitastaal.** Beschrijf obesitas, net als artrose, als chronische aandoening en niet als maat voor inzet of motivatie. Herkomst: expliciete eigenaarformulering SWIFT, september 2026. Toepassing: knie, leefstijl en obesitas.
 
 ## Automatische verwerking na eigenaarakkoord
