@@ -40,7 +40,7 @@
     <link rel="icon" href="assets/logo-mvd-mark-v2.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="assets/logo-mvd-mark-v2.svg">
     <link rel="preload" href="assets/andry-tree-waiting-room-hero-optimized.jpg" as="image">
-    <link rel="stylesheet" href="styles.css?v=20260713imagefocus1">
+    <link rel="stylesheet" href="styles.css?v=20260907-contact">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -535,7 +535,7 @@
       <section class="section contact" id="contact" aria-labelledby="contact-title">
         <div class="contact-panel">
           <div>
-            <h2 id="contact-title">Contact en samenwerking</h2>
+            <h2 id="contact-title">Contact</h2>
             <p>
               De juiste route hangt af van je vraag. Deze website is geen patiëntportaal en is niet
               bedoeld voor medische vragen over persoonlijke situaties, afspraken of lopende zorg.
@@ -639,14 +639,25 @@
                   medische vragen of lopende patiëntenzorg.
                 </p>
                 <a class="article-link" href="advies-consultancy.html">Naar advies en consultancy</a>
-                <p class="professional-email-note">
-                  Voor een eerste vraag over advies, consultancy of projectontwikkeling kan
-                  <a href="#" data-professional-email data-user="murtnechcsidepotro" data-domain="ln.zte">per e-mail</a>
-                  contact worden opgenomen. Gebruik deze route niet voor patiëntvragen of afspraken.
-                </p>
+                <p><a class="article-link" href="#professioneel-contactformulier">Stuur een bericht</a></p>
               </div>
             </details>
           </div>
+          <form class="contact-form" id="professioneel-contactformulier" data-contact-form action="/api/contact" method="post" aria-labelledby="contact-form-title">
+            <h3 id="contact-form-title">Stuur een bericht</h3>
+            <p id="contact-boundary">Voor samenwerking, onderwijs, onderzoek of een andere professionele vraag. Gebruik voor medische vragen, afspraken, spoed of lopende zorg de officiële zorgkanalen. Deel hier geen patiëntgegevens.</p>
+            <label>Naam<input name="naam" autocomplete="name" required maxlength="120"></label>
+            <label>E-mailadres<input name="email" type="email" autocomplete="email" required maxlength="180"></label>
+            <label>Waarover wil je contact?<select name="type" required><option value="">Kies een onderwerp</option><option>Samenwerking</option><option>Onderwijs of scholing</option><option>Onderzoek</option><option>Media of publicatie</option><option>Tip voor de website</option><option>Anders</option></select></label>
+            <label>Onderwerp<input name="onderwerp" required maxlength="160"></label>
+            <label>Bericht<textarea name="bericht" rows="5" required maxlength="4000" aria-describedby="contact-boundary"></textarea></label>
+            <label class="consent-row"><input type="checkbox" name="geen_medische_gegevens" required><span>Mijn bericht bevat geen medische gegevens of patiëntinformatie.</span></label>
+            <div hidden aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off"></label></div>
+            <p>Je gegevens worden gebruikt om je bericht te behandelen. Je schrijft je hiermee niet in voor een nieuwsbrief. <a href="privacy.html">Lees de privacyverklaring</a>.</p>
+            <button class="button button-primary" type="submit">Versturen</button>
+            <p data-contact-status role="status" aria-live="polite"></p>
+            <noscript><p>Schakel JavaScript in om dit formulier te gebruiken.</p></noscript>
+          </form>
         </div>
       </section>
 
@@ -672,6 +683,6 @@
     </footer>
 
     <script src="content.js?v=20260619hub1"></script>
-    <script src="script.js?v=20260624cleanconcept1"></script>
+    <script src="script.js?v=20260907-contact"></script>
   </body>
 </html>

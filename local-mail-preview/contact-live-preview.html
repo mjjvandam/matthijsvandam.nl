@@ -1,0 +1,15 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Contact · voorbereiding livegang</title><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/preview.css"><script src="/contact-live-preview.js" defer></script></head><body><header class="preview-header" data-header><a href="/" class="brand-text">MatthijsvanDam.nl</a><nav data-nav><a href="#main">Contact</a></nav><button type="button" data-nav-toggle hidden>Menu</button></header><main id="main"><h1>Contact</h1><p class="notice">Lokale voorbereiding voor de homepage. Verzending staat uit; de privacyafstemming loopt nog.</p>          <form class="contact-form" id="professioneel-contactformulier" data-contact-form action="/api/contact" method="post" aria-labelledby="contact-form-title">
+            <h3 id="contact-form-title">Stuur een bericht</h3>
+            <p id="contact-boundary">Voor samenwerking, onderwijs, onderzoek of een andere professionele vraag. Gebruik voor medische vragen, afspraken, spoed of lopende zorg de officiële zorgkanalen. Deel hier geen patiëntgegevens.</p>
+            <label>Naam<input name="naam" autocomplete="name" required maxlength="120"></label>
+            <label>E-mailadres<input name="email" type="email" autocomplete="email" required maxlength="180"></label>
+            <label>Waarover wil je contact?<select name="type" required><option value="">Kies een onderwerp</option><option>Samenwerking</option><option>Onderwijs of scholing</option><option>Onderzoek</option><option>Media of publicatie</option><option>Tip voor de website</option><option>Anders</option></select></label>
+            <label>Onderwerp<input name="onderwerp" required maxlength="160"></label>
+            <label>Bericht<textarea name="bericht" rows="5" required maxlength="4000" aria-describedby="contact-boundary"></textarea></label>
+            <label class="consent-row"><input type="checkbox" name="geen_medische_gegevens" required><span>Mijn bericht bevat geen medische gegevens of patiëntinformatie.</span></label>
+            <div hidden aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off"></label></div>
+            <p>Je gegevens worden gebruikt om je bericht te behandelen. Je schrijft je hiermee niet in voor een nieuwsbrief. <a href="#preview-privacy">Lees de privacyverklaring</a>.</p>
+            <button class="button button-primary" type="submit">Versturen</button>
+            <p data-contact-status role="status" aria-live="polite"></p>
+            <noscript><p>Schakel JavaScript in om dit formulier te gebruiken.</p></noscript>
+          </form><section id="preview-privacy" class="panel"><h2>Privacy in deze proef</h2><p>Er wordt geen mail verstuurd. Gebruik fictieve gegevens. De privacytekst voor het publieke contactformulier wordt nog afgerond.</p></section></main></body></html>

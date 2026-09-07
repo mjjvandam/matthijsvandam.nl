@@ -1,7 +1,7 @@
 'use strict';
 const {createHmac} = require('node:crypto');
 const ORIGINS = new Set(['https://matthijsvandam.nl', 'https://www.matthijsvandam.nl']);
-const TYPES = new Set(['Samenwerking', 'Onderwijs of scholing', 'Onderzoek', 'Media of publicatie', 'Anders']);
+const TYPES = new Set(['Samenwerking', 'Onderwijs of scholing', 'Onderzoek', 'Media of publicatie', 'Tip voor de website', 'Anders']);
 const LIMITS = {naam:120,email:180,type:40,onderwerp:160,bericht:4000};
 const MAX_BYTES = 24576;
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;

@@ -48,11 +48,12 @@ const server=http.createServer(async(req,res)=>{
         const selected=select(config,loadContent(),JSON.parse(fs.readFileSync(path.join(root,'PUBLICATIE_REGISTER.json'))).pages,p=>fs.readFileSync(path.join(root,p)));
         return reply(res,200,rss(stream,selected[stream.id]),'application/xml');
       }
-      const files={'/bevestigen':'confirmation.html','/confirmation.js':'confirmation.js','/confirmation.css':'confirmation.css','/':'index.html','/app.js':'app.js','/preview.css':'preview.css','/styles.css':path.join(root,'styles.css')};
+      const files={'/contactvoorbeeld':'contact-live-preview.html','/contact-live-preview.js':'contact-live-preview.js','/bevestigen':'confirmation.html','/confirmation.js':'confirmation.js','/confirmation.css':'confirmation.css','/':'index.html','/app.js':'app.js','/preview.css':'preview.css','/styles.css':path.join(root,'styles.css')};
       if(!files[url.pathname]) return reply(res,404,{message:'Niet gevonden.'});
       const file=path.resolve(__dirname,files[url.pathname]);
       return reply(res,200,fs.readFileSync(file),file.endsWith('.js')?'text/javascript':file.endsWith('.css')?'text/css':'text/html');
     }
+    if(url.pathname==='/api/contact')return reply(res,503,{message:'Lokale proef: verzending staat uit. Er is geen bericht verstuurd.',code:'disabled'});
     if(req.method!=='POST') return reply(res,405,{message:'Niet toegestaan.'});
     if(req.headers.origin!==origin || !String(req.headers['content-type']).startsWith('application/json')) return reply(res,403,{message:'Ongeldige herkomst of inhoudstype.'});
     let raw=''; for await(const chunk of req) {raw+=chunk;if(Buffer.byteLength(raw)>12000)return reply(res,413,{message:'Bericht te groot.'});}

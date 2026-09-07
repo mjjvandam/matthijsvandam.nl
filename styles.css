@@ -6548,3 +6548,10 @@ a {
     height: 58px;
   }
 }
+
+/* Professioneel contactformulier: dezelfde kaart op mobiel en desktop. */
+.contact-form { grid-column: 1 / -1; min-width: 0; }
+.contact-form h3, .contact-form p { margin: 0; }
+.contact-form input[type="checkbox"] { width: 18px; height: 18px; padding: 0; }
+.contact-form button { justify-self: start; }
+.contact-form [data-contact-status]:empty { display: none; }

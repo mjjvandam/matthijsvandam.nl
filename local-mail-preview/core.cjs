@@ -4,7 +4,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
 const root = path.resolve(__dirname, '..');
-const TYPES = ['Samenwerking', 'Onderwijs of scholing', 'Onderzoek', 'Media of publicatie', 'Anders'];
+const TYPES = ['Samenwerking', 'Onderwijs of scholing', 'Onderzoek', 'Media of publicatie', 'Tip voor de website', 'Anders'];
 const emailOK = s => typeof s === 'string' && s.length <= 180 && /^[^\s@<>]+@[^\s@<>]+\.[^\s@<>]+$/.test(s);
 const fail = message => { throw new Error(message); };
 function validate(kind, body, streams) {
