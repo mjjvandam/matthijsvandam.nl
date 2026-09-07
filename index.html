@@ -40,7 +40,7 @@
     <link rel="icon" href="assets/logo-mvd-mark-v2.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="assets/logo-mvd-mark-v2.svg">
     <link rel="preload" href="assets/andry-tree-waiting-room-hero-optimized.jpg" as="image">
-    <link rel="stylesheet" href="styles.css?v=20260907-contact-feedback">
+    <link rel="stylesheet" href="styles.css?v=20260907-contact-layout">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -537,18 +537,14 @@
           <div>
             <h2 id="contact-title">Contact</h2>
           </div>
-          <div class="contact-routes" aria-label="Contactroutes">
-            <details class="contact-route-card">
-              <summary>
-                <span class="contact-route-label">Ik ben patiënt</span>
-                <strong>Patiëntenzorg loopt via het ETZ</strong>
-              </summary>
-              <div class="contact-route-content">
-                <p>
-                  Voor afspraken, verwijzingen, uitslagen, praktische ziekenhuisinformatie en vragen over
-                  lopende zorg zijn de officiële ETZ-kanalen de juiste route. Bij nieuwe of niet-acute
-                  klachten begint de route meestal bij de huisarts.
-                </p>
+          <div class="contact-routes contact-routes-compact" aria-label="Contactroutes">
+            <article class="contact-quick-route">
+              <h3>Afspraken en lopende zorg</h3>
+              <p>Voor afspraken, verwijzingen, uitslagen en vragen over lopende zorg gebruik je de officiële ETZ-kanalen. Bij nieuwe of niet-acute klachten begint de route meestal bij de huisarts.</p>
+              <a class="article-link" href="https://www.etz.nl/specialisme/orthopedie/" rel="noopener">Naar Orthopedie ETZ</a>
+              <details class="contact-practical">
+                <summary>Telefoon, locaties en route</summary>
+                <div class="contact-route-content">
                 <p>
                   Voor algemene informatie over orthopedie in het ETZ kun je terecht bij de
                   <a href="https://www.etz.nl/specialisme/orthopedie/" rel="noopener">polikliniek Orthopedie van het ETZ</a>.
@@ -604,53 +600,29 @@
                     >Open route in Google Maps</a>
                   </div>
                 </div>
-              </div>
-            </details>
-            <details class="contact-route-card">
-              <summary>
-                <span class="contact-route-label">Ik werk in de zorg</span>
-                <strong>Professionele afstemming</strong>
-              </summary>
-              <div class="contact-route-content">
-                <p>
-                  Voor verwijzers en regionale (para)medici is er een aparte pagina over korte lijnen,
-                  samenwerking rond beweegzorg en professionele afstemming.
-                </p>
-                <p>
-                  Deel via deze website geen medische gegevens, foto's, verwijsbrieven of vragen over
-                  lopende patiëntenzorg. Gebruik daarvoor de officiële zorgkanalen.
-                </p>
-                <a class="article-link" href="professionals.html">Naar de pagina voor professionals</a>
-              </div>
-            </details>
-            <details class="contact-route-card">
-              <summary>
-                <span class="contact-route-label">Ik zoek advies of samenwerking</span>
-                <strong>Niet-patiëntgebonden advies, onderwijs of projecten</strong>
-              </summary>
-              <div class="contact-route-content">
-                <p>
-                  Voor advies op projectbasis, presentaties, onderwijs, dagvoorzitterschap of
-                  zorgontwikkeling is er een aparte adviespagina. Dit gaat niet over persoonlijke
-                  medische vragen of lopende patiëntenzorg.
-                </p>
-                <a class="article-link" href="advies-consultancy.html">Naar advies en consultancy</a>
-                <p><a class="article-link" href="#professioneel-contactformulier">Stuur een bericht</a></p>
-              </div>
-            </details>
+                </div>
+              </details>
+            </article>
+            <article class="contact-quick-route">
+              <h3>Voor verwijzers en collega’s</h3>
+              <p>Informatie over korte lijnen, samenwerking rond beweegzorg en regionale professionele afstemming.</p>
+              <a class="article-link" href="professionals.html">Naar de pagina voor professionals</a>
+              <p class="contact-route-note">Gebruik voor patiëntgegevens, foto’s, verwijsbrieven en vragen over lopende patiëntenzorg de officiële zorgkanalen.</p>
+            </article>
           </div>
-          <form class="contact-form" id="professioneel-contactformulier" data-contact-form action="/api/contact" method="post" aria-labelledby="contact-form-title">
+          <form class="contact-form contact-form-organized" id="professioneel-contactformulier" data-contact-form action="/api/contact" method="post" aria-labelledby="contact-form-title">
             <h3 id="contact-form-title">Stuur een bericht</h3>
             <p id="contact-boundary">Voor een contactvraag, samenwerking, onderwijs of onderzoek. Gebruik voor persoonlijk medisch advies, afspraken, spoed of lopende zorg de officiële zorgkanalen.</p>
-            <label>Naam<input name="naam" autocomplete="name" required maxlength="120"></label>
-            <label>E-mailadres<input name="email" type="email" autocomplete="email" required maxlength="180"></label>
-            <label>Waarover wil je contact?<select name="type" required><option value="">Kies een onderwerp</option><option>Samenwerking</option><option>Onderwijs of scholing</option><option>Onderzoek</option><option>Media of publicatie</option><option>Tip voor de website</option><option>Anders</option></select></label>
-            <label>Onderwerp<input name="onderwerp" required maxlength="160"></label>
+            <p class="contact-advice-note">Voor niet-patiëntgebonden projectadvies, presentaties, onderwijs, dagvoorzitterschap en zorgontwikkeling: <a href="advies-consultancy.html">bekijk advies en consultancy</a>.</p>
+            <label class="contact-field-half">Naam<input name="naam" autocomplete="name" required maxlength="120"></label>
+            <label class="contact-field-half">E-mailadres<input name="email" type="email" autocomplete="email" required maxlength="180"></label>
+            <label class="contact-field-half">Waarover wil je contact?<select name="type" required><option value="">Kies een onderwerp</option><option>Samenwerking</option><option>Onderwijs of scholing</option><option>Onderzoek</option><option>Media of publicatie</option><option>Tip voor de website</option><option>Anders</option></select></label>
+            <label class="contact-field-half">Onderwerp<input name="onderwerp" required maxlength="160"></label>
             <p id="contact-message-help">Je mag kort vertellen wat de aanleiding is voor je contactvraag. Stuur geen uitgebreide medische voorgeschiedenis, onderzoeksuitslagen of gegevens van anderen mee.</p>
             <label>Bericht<textarea name="bericht" rows="5" required maxlength="4000" aria-describedby="contact-message-help"></textarea></label>
             <label class="consent-row"><input type="checkbox" name="contactgrenzen_begrepen" required><span>Ik begrijp dat ik via dit formulier geen persoonlijk medisch advies krijg en geen afspraak kan maken.</span></label>
             <div hidden aria-hidden="true"><label>Website<input name="website" tabindex="-1" autocomplete="off"></label></div>
-            <p>Je gegevens worden gebruikt om je bericht te behandelen. Je schrijft je hiermee niet in voor een nieuwsbrief. <a href="privacy.html">Lees de privacyverklaring</a>.</p>
+            <p class="contact-privacy-note">Je gegevens worden gebruikt om je bericht te behandelen. Je schrijft je hiermee niet in voor een nieuwsbrief. <a href="privacy.html">Lees de privacyverklaring</a>.</p>
             <button class="button button-primary" type="submit">Versturen</button>
             <p data-contact-status role="status" aria-live="polite" aria-atomic="true" tabindex="-1"></p>
             <button type="button" class="button" data-contact-new hidden>Nieuw bericht schrijven</button>
@@ -681,6 +653,6 @@
     </footer>
 
     <script src="content.js?v=20260619hub1"></script>
-    <script src="script.js?v=20260907-contact-feedback"></script>
+    <script src="script.js?v=20260907-contact-layout"></script>
   </body>
 </html>

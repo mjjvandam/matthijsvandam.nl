@@ -6579,3 +6579,34 @@ a {
 .contact-form .consent-row input { flex: 0 0 20px; margin-top: 4px; }
 
 .contact-form [hidden] { display: none !important; }
+
+/* Contact: twee herkenbare routes, gevolgd door één rustig formulier. */
+#contact .contact-panel { display: grid; grid-template-columns: minmax(0, 1fr); gap: 28px; }
+#contact .contact-routes-compact { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; gap: 20px; }
+#contact .contact-quick-route { min-width: 0; padding: 24px; box-shadow: none; }
+#contact .contact-quick-route h3 { margin: 0; font-size: 1.25rem; line-height: 1.35; }
+#contact .contact-quick-route p { line-height: 1.65; }
+#contact .contact-quick-route > .article-link { margin-top: 16px; }
+#contact .contact-route-note { font-size: .9rem; color: var(--muted); margin-top: 20px; }
+#contact .contact-practical { margin-top: 20px; border: 0; border-top: 1px solid var(--line); border-radius: 0; box-shadow: none; background: transparent; }
+#contact .contact-practical summary { padding: 16px 44px 4px 0; font-size: .94rem; font-weight: 650; }
+#contact .contact-practical summary::after { right: 0; width: 26px; height: 26px; }
+#contact .contact-practical .contact-route-content { padding: 12px 0 0; }
+#contact .contact-form-organized { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 24px; padding: 32px; box-shadow: none; }
+#contact .contact-form-organized > * { grid-column: 1 / -1; min-width: 0; }
+#contact .contact-form-organized > .contact-field-half { grid-column: auto; }
+#contact .contact-form-organized h3 { font-size: 1.6rem; }
+#contact .contact-form-organized p { font-size: 1rem; line-height: 1.65; }
+#contact .contact-form-organized .contact-advice-note,
+#contact .contact-form-organized .contact-privacy-note { font-size: .9rem; color: var(--muted); }
+#contact .contact-form-organized .consent-row { font-weight: 400; line-height: 1.6; }
+#contact .contact-form-organized #contact-message-help { margin-bottom: -8px; }
+#contact .contact-form-organized [data-contact-status] { color: #173d2a; }
+@media (max-width: 700px) {
+  #contact .contact-routes-compact, #contact .contact-form-organized { grid-template-columns: minmax(0, 1fr); }
+  #contact .contact-quick-route, #contact .contact-form-organized { padding: 22px 18px; }
+  #contact .contact-form-organized > .contact-field-half { grid-column: 1 / -1; }
+}
+
+#contact .contact-form-organized button[type="submit"] { background: var(--green); color: var(--white); border: 1px solid var(--green); font: inherit; font-weight: 650; }
+:root[data-theme="dark"] #contact .contact-form-organized button[type="submit"] { color: #102019; }
