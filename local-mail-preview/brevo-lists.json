@@ -1,0 +1,14 @@
+{
+  "folderId": 3,
+  "listIds": {
+    "professionals-voet-enkel": 4,
+    "patienten-voet-enkel": 5,
+    "algemeen": 6,
+    "tilburg-cohort": 7,
+    "tilburg-cohort-patienten": 8
+  },
+  "enabled": false,
+  "templateId": 3,
+  "redirectUrl": null,
+  "doiVerified": false
+}

@@ -13,3 +13,9 @@ __pycache__/
 /assets/treatment-mtp1-artrodese-hero.jpg
 /assets/treatment-mtp1-artrodese-xray.jpg
 /assets/treatment-mtp1-artrodese-plate.jpg
+
+# Lokale hostingconfiguratie en geheime sleutels
+.vercel/
+.env
+.env.*
+!.env.example

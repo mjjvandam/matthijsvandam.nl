@@ -1,0 +1,64 @@
+{
+  "mode": "local-preview",
+  "startAt": null,
+  "streams": [
+    {
+      "id": "professionals-voet-enkel",
+      "label": "Voet en enkel · voor zorgprofessionals",
+      "audiences": [
+        "zorgprofessionals"
+      ],
+      "topics": [
+        "voet-en-enkel"
+      ],
+      "projects": []
+    },
+    {
+      "id": "patienten-voet-enkel",
+      "label": "Voet en enkel · voor patiënten",
+      "audiences": [
+        "patienten"
+      ],
+      "topics": [
+        "voet-en-enkel"
+      ],
+      "projects": []
+    },
+    {
+      "id": "algemeen",
+      "label": "Algemeen",
+      "audiences": [
+        "patienten",
+        "zorgprofessionals"
+      ],
+      "topics": [],
+      "projects": []
+    },
+    {
+      "id": "tilburg-cohort",
+      "label": "Transmuraal Tilburg Cohort · voor zorgprofessionals",
+      "audiences": [
+        "zorgprofessionals"
+      ],
+      "topics": [],
+      "projects": [
+        "transmuraal-tilburg-cohort"
+      ]
+    },
+    {
+      "id": "tilburg-cohort-patienten",
+      "label": "Transmuraal Tilburg Cohort · voor patiënten",
+      "audiences": [
+        "patienten"
+      ],
+      "topics": [],
+      "projects": [
+        "transmuraal-tilburg-cohort"
+      ]
+    }
+  ],
+  "releases": [],
+  "maxNewslettersPerSubscriberPerYear": 12,
+  "contactRecipient": "mjjvandam@gmail.com",
+  "contactSender": "website@mail.matthijsvandam.nl"
+}

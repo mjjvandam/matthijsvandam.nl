@@ -1,7 +1,11 @@
 # Conceptpagina's blijven lokaal beschikbaar voor review, maar gaan niet mee naar Vercel.
 concept-foot-pain-guide.html
+concepten/editorial-learning/
 behandelingen/*.html
 !behandelingen/enkelverzwikking.html
 !behandelingen/enkelartrose.html
 !behandelingen/enkelprothese.html
 !behandelingen/hallux-rigidus.html
+
+# ADR-0008: alleen lokale bouw; geen publieke mailroutes of feeds.
+local-mail-preview/

@@ -11,6 +11,9 @@ Use this index to find the relevant architectural decision record before non-tri
 | ADR-0005 | Medical Content Safety | Accepted | Medical safety, claims, source chain, owner review | Patient/professional medical content, source-based articles, claims, disclaimers or safety wording |
 | ADR-0006 | Publication Governance | Accepted | Public/concept definitions, register, verification, sitemap/robots/canonical/deployment scope | Publication status, review status, register, sitemap, robots, canonical, `.vercelignore` or public release changes |
 | ADR-0007 | Central FAQ Content And Reuse | Accepted | Patient-first FAQ ownership, reuse, static generation, validation and transitional FAQ schema | FAQ creation, reuse, duplication, article/treatment overlap, FAQ rendering or schema changes |
+| ADR-0008 | Newsletter And Contact | Accepted | Formulieren, persoonsgegevens, gratis dienstkeuze en automatische artikelverzending | Bouw van contact/nieuwsbrief, voorkeuren, RSS, mailkoppeling en activering; livegang afzonderlijk vrijgeven |
+| ADR-0009 | Hosting And Mail Production | Proposed | Hostingpakket, gratis alternatieven en migratieproef | Publieke mailactivering op huidige host of hostingmigratie; needs owner validation |
+| ADR-0010 | Newsletter Confirmation Per Request | Accepted | Afzonderlijke eenmalige bevestigingen en tijdelijke aanvraagopslag | Lokale vervanging van de Brevo DOI-route; providerkeuze en livegang afzonderlijk vrijgeven |
 
 Status notes:
 
