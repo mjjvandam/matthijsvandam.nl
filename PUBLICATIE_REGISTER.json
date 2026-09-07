@@ -19,8 +19,8 @@
       "spoor": "algemeen",
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-09-06",
-      "review_notes": "De verlopen oproep voor het patientpanel is op 20 juli 2026 van de homepage gehaald en expliciet akkoord bevonden door Matthijs. Op 6 september 2026 is de bestaande hallux-rigidustegel op verzoek van Matthijs klikbaar gemaakt naar de afzonderlijk goedgekeurde pagina. Op 6 september 2026 is na expliciet publicatie-akkoord het nieuwsbericht over de start van Leonie Meihuizen aan de actuele artikelen toegevoegd."
+      "verified_on": "2026-09-07",
+      "review_notes": "De verlopen oproep voor het patientpanel is op 20 juli 2026 van de homepage gehaald en expliciet akkoord bevonden door Matthijs. Op 6 september 2026 is de bestaande hallux-rigidustegel op verzoek van Matthijs klikbaar gemaakt naar de afzonderlijk goedgekeurde pagina. Op 6 september 2026 is na expliciet publicatie-akkoord het nieuwsbericht over de start van Leonie Meihuizen aan de actuele artikelen toegevoegd. Op 7 september 2026 is na expliciet inhoudelijk akkoord het artikel over bariatrische chirurgie en een knieprothese aan de actuele artikelen toegevoegd."
     },
     {
       "path": "artikelen.html",
@@ -28,8 +28,17 @@
       "spoor": "algemeen",
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-09-06",
-      "review_notes": "Artikelkaart voor '8 vragen over obesitasmedicijnen bij reuma en artrose' toegevoegd na expliciet publicatie-akkoord van Matthijs op 26 augustus 2026. Op 6 september 2026 is na expliciet publicatie-akkoord het nieuwsbericht over de start van Leonie Meihuizen toegevoegd."
+      "verified_on": "2026-09-07",
+      "review_notes": "Artikelkaart voor '8 vragen over obesitasmedicijnen bij reuma en artrose' toegevoegd na expliciet publicatie-akkoord van Matthijs op 26 augustus 2026. Op 6 september 2026 is na expliciet publicatie-akkoord het nieuwsbericht over de start van Leonie Meihuizen toegevoegd. Op 7 september 2026 is na expliciet inhoudelijk akkoord het artikel over bariatrische chirurgie en een knieprothese toegevoegd."
+    },
+    {
+      "path": "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html",
+      "title": "Knieprothese of bariatrische chirurgie bij obesitas?",
+      "spoor": "artikel",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-09-07",
+      "review_notes": "Artikel over de SWIFT-studie, bariatrische chirurgie en een knieprothese na gezamenlijke redactionele review expliciet inhoudelijk akkoord en voor publicatie vrijgegeven door Matthijs op 7 september 2026."
     },
     {
       "path": "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html",

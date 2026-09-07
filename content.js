@@ -71,6 +71,20 @@
 
   const articles = [
     {
+      id: "knieprothese-bariatrische-chirurgie-obesitas-knieartrose",
+      title: "Knieprothese of eerst bariatrische chirurgie bij ernstige obesitas en knieartrose?",
+      label: "Onderzoek en duiding",
+      summary:
+        "Wat SWIFT, een meta-analyse en de Nederlandse richtlijn laten zien over bariatrische chirurgie en een knieprothese bij ernstige obesitas en knieartrose.",
+      image: "assets/knee-anatomy-model-editorial.jpg",
+      imageAlt: "Anatomisch kniemodel in een rustige spreekkamer",
+      url: "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html",
+      date: "2026-09-07",
+      audience: ["patienten", "zorgprofessionals"],
+      topics: ["artrose", "leefstijl", "onderzoek"],
+      archive: true,
+    },
+    {
       id: "leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort",
       title: "Leonie Meihuizen gestart als onderzoeker voor het Transmuraal Tilburg Cohort",
       label: "Onderzoek",
