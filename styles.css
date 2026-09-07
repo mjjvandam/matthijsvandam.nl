@@ -6555,3 +6555,27 @@ a {
 .contact-form input[type="checkbox"] { width: 18px; height: 18px; padding: 0; }
 .contact-form button { justify-self: start; }
 .contact-form [data-contact-status]:empty { display: none; }
+
+/* Contactbevestiging blijft zichtbaar in zowel lichte als donkere weergave. */
+.contact-form [data-contact-status]:not(:empty) {
+  padding: 22px;
+  border: 2px solid #547b68;
+  border-radius: 12px;
+  background: #eef6f0;
+  color: #173d2a;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+  scroll-margin-block: 110px;
+}
+.contact-form[data-sent="true"] [data-contact-status]::first-line {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.contact-form[data-sent="true"] > :not([data-contact-status]):not([data-contact-new]) { display: none; }
+.contact-form [data-contact-status]:focus { outline: 3px solid #547b68; outline-offset: 4px; }
+.contact-form .consent-row { align-items: flex-start; }
+.contact-form .consent-row input { flex: 0 0 20px; margin-top: 4px; }
+
+.contact-form [hidden] { display: none !important; }

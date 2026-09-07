@@ -79,3 +79,13 @@ ADR-0001, ADR-0002, ADR-0004, ADR-0005 en ADR-0006 blijven leidend. Deze ADR voe
 ## Uitvoeringsnotitie 2026-09-06
 
 Na de lokale bouw heeft Matthijs afzonderlijk toestemming gegeven voor DNS-authenticatie, DMARC-rapportage, API-sleutel en één contacttest. Ontvangst op mjjvandam@gmail.com is bevestigd. Zijn opdracht om de volgende stappen te regelen autoriseert voorbereiding van de hostingkoppeling en lokale Brevo-migratie van api/contact.js. Publieke activering en automatische nieuwsbrieven blijven afzonderlijke besluiten. Geen wijziging van de Accepted-status of ruimere interpretatie van het oorspronkelijke liveakkoord.
+
+## Eigenaarbesluit 2026-09-07: korte aanleiding bij contact (lokale uitwerking)
+
+Matthijs heeft expliciet gevraagd dat bezoekers kort de aanleiding voor een contactvraag mogen noemen, ook wanneer die over hun eigen gezondheid gaat. Hij heeft de nieuwe uitleg en de bevestiging dat dit formulier geen persoonlijk medisch advies of afspraak biedt goedgekeurd, zonder voorbeeld van een aandoening. Dit wijzigt voor de lokale contactpreview de eerdere absolute verklaring “geen medische gegevens”. Het is geen verruiming van de nieuwsbrief of toestemming voor medische beoordeling via deze website.
+
+De lokale preview gebruikt hiervoor `contactgrenzen_begrepen`; deze verklaring mag niet als `geen_medische_gegevens` naar de bestaande productiehandler worden vertaald. De productiehandler en publieke teksten zijn in deze wijziging niet aangepast. Overname op de live site vereist samenhangende aanpassing van handler, mailtekst en privacytekst, beoordeling van de verwerking van eventueel genoemde gezondheidsgegevens en afzonderlijke release. Deze productie-uitwerking blijft needs owner validation. De Accepted-status van het oorspronkelijke besluit blijft ongewijzigd.
+
+## Eigenaarvrijgave contactformulier 7 september 2026
+
+Na vrijgave van de mailopmaak heeft Matthijs expliciet ook de aangepaste formuliertekst en verzendbevestiging voor livegang goedgekeurd. De homepage, servervalidatie (`contactgrenzen_begrepen`) en privacyuitleg worden samen overgenomen. De privacytekst vermeldt dat vrijwillig genoemde eigen gezondheidsinformatie onderdeel van hetzelfde contactbericht is en via dezelfde diensten wordt verwerkt. De grens voor persoonlijk medisch advies, afspraken, spoed en lopende zorg blijft staan. Dit vervangt de bovenstaande lokale uitvoeringsgrens voor deze concrete contactwijziging; geen toestemming voor AI-verwerking of automatische antwoorden.

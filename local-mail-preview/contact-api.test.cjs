@@ -3,7 +3,7 @@ const test=require('node:test'),assert=require('node:assert/strict');
 const {createHandler}=require('../api/contact.js');
 const fs=require('node:fs'),vm=require('node:vm');
 const enabled={CONTACT_FORM_ENABLED:'true',CONTACT_EDGE_RATE_LIMIT_VERIFIED:'true',BREVO_API_KEY:'test-key'};
-const data={naam:'Test',email:'test@example.com',type:'Anders',onderwerp:'Test',bericht:'Fictief bericht',website:'',geen_medische_gegevens:true,requestId:'12345678-1234-4234-8234-123456789012'};
+const data={naam:'Test',email:'test@example.com',type:'Anders',onderwerp:'Test',bericht:'Fictief bericht',website:'',contactgrenzen_begrepen:true,requestId:'12345678-1234-4234-8234-123456789012'};
 async function run({body=data,headers={},env=enabled,method='POST',fetchImpl=async()=>({ok:true})}={}){
  const res={setHeader(){},status(n){this.code=n;return this;},json(body){this.body=body;return this;}};
  await createHandler(env,fetchImpl)({method,headers:{origin:'https://matthijsvandam.nl','content-type':'application/json',...headers},body},res);return res;
@@ -16,7 +16,7 @@ test('rejects other origins, missing origin, methods and content types',async()=
  assert.equal((await run({method:'GET'})).code,405);assert.equal((await run({headers:{'content-type':'text/plain'}})).code,415);
 });
 test('strict booleans, input shapes, sizes and header injection rejected before provider',async()=>{
- for(const body of [null,[],{},'{', {...data,geen_medische_gegevens:'false'},{...data,naam:'Test\r\nBcc: injected'}, {...data,email:[]},{...data,requestId:'wrong'}, {...data,bericht:'a'.repeat(4001)},{...data,website:'spam'},{...data,type:'Zorgontwikkeling'}])assert.equal((await run({body,fetchImpl:()=>assert.fail()})).code,400);
+ for(const body of [null,[],{},'{', {...data,contactgrenzen_begrepen:'false'},{...data,contactgrenzen_begrepen:false},{...data,contactgrenzen_begrepen:undefined,geen_medische_gegevens:true},{...data,naam:'Test\r\nBcc: injected'}, {...data,email:[]},{...data,requestId:'wrong'}, {...data,bericht:'a'.repeat(4001)},{...data,website:'spam'},{...data,type:'Zorgontwikkeling'}])assert.equal((await run({body,fetchImpl:()=>assert.fail()})).code,400);
  assert.equal((await run({body:' '.repeat(24577),fetchImpl:()=>assert.fail()})).code,413);
 });
 test('only fixed recipient and sender; HTML and text alternatives; no subscription',async()=>{
@@ -36,10 +36,10 @@ test('quota, duplicate, provider and network errors never claim success or retry
 });
 test('browser submit sends boolean consent, blocks repeat submission and preserves text on uncertainty',async()=>{
  const source=fs.readFileSync(require('node:path').join(__dirname,'../script.js'),'utf8').split('contactForm?.addEventListener("submit", async (event) => {')[1];
- let listener,calls=0,resets=0;const button={disabled:false},status={textContent:''};
+ let listener,calls=0,resets=0;const button={disabled:false},status={textContent:'',focus(){}};
  const form={dataset:{},reportValidity:()=>true,querySelector:()=>button,reset:()=>resets++,addEventListener:(name,fn)=>listener=fn};
- const fields=new Map(Object.entries({...data,geen_medische_gegevens:'on'}));
- vm.runInNewContext('contactForm?.addEventListener("submit", async (event) => {'+source,{contactForm:form,contactStatus:status,FormData:function(){return fields;},crypto:{randomUUID:()=>data.requestId},AbortSignal,fetch:async(url,opts)=>{calls++;assert.equal(JSON.parse(opts.body).geen_medische_gegevens,true);throw Error('timeout');}});
+ const fields=new Map(Object.entries({...data,contactgrenzen_begrepen:'on'}));
+ vm.runInNewContext('contactForm?.addEventListener("submit", async (event) => {'+source,{contactForm:form,contactStatus:status,showStatus:message=>{status.textContent=message;},FormData:function(){return fields;},crypto:{randomUUID:()=>data.requestId},AbortSignal,fetch:async(url,opts)=>{calls++;assert.equal(JSON.parse(opts.body).contactgrenzen_begrepen,true);throw Error('timeout');}});
  await listener({preventDefault(){}});await listener({preventDefault(){}});
  assert.equal(calls,1);assert.equal(resets,0);assert.equal(button.disabled,true);assert.match(status.textContent,/onzeker/);
 });

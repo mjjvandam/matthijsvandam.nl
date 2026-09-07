@@ -64,7 +64,7 @@ function createHandler(env=process.env, fetchImpl=fetch) {
       body=JSON.parse(raw);
     } catch{return reply(400,'Ongeldig berichtformaat.','invalid');}
     if(!body||typeof body!=='object'||Array.isArray(body))return reply(400,'Ongeldig berichtformaat.','invalid');
-    if(body.website!==''||body.geen_medische_gegevens!==true||!UUID.test(body.requestId||''))
+    if(body.website!==''||body.contactgrenzen_begrepen!==true||!UUID.test(body.requestId||''))
       return reply(400,'Controleer het formulier en de bevestiging.','invalid');
     const fields={};
     for(const [key,max] of Object.entries(LIMITS)) {
