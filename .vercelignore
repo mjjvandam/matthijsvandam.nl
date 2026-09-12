@@ -1,6 +1,7 @@
 # Conceptpagina's blijven lokaal beschikbaar voor review, maar gaan niet mee naar Vercel.
 concept-foot-pain-guide.html
-concepten/editorial-learning/
+concepten/
+artikelen/na-verzwikte-enkel-instabiel-blijven.html
 behandelingen/*.html
 !behandelingen/enkelverzwikking.html
 !behandelingen/enkelartrose.html
@@ -9,3 +10,13 @@ behandelingen/*.html
 
 # ADR-0008: alleen lokale bouw; geen publieke mailroutes of feeds.
 local-mail-preview/
+
+# ADR-0014: besloten lokale redactiepilot, inclusief database en uitvoer.
+local-admin/
+
+# Interne redactie- en controlebestanden zijn geen websitepagina's.
+docs/
+tools/
+codex-skills/
+*.md
+PUBLICATIE_REGISTER.json

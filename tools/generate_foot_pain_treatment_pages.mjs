@@ -553,7 +553,7 @@ const pageHtml = (condition) => {
   const heroImage = heroImageFor(spec);
   const title = `${condition.title} | drs. Matthijs van Dam`;
   const description = sentence(`${condition.excerpt} Algemene patiëntinformatie over klachten, beoordeling en behandelrichtingen. Geen medisch advies op maat.`).slice(0, 158);
-  const canonical = `https://matthijsvandam.nl/behandelingen/${condition.id}.html`;
+  const canonical = `https://www.matthijsvandam.nl/behandelingen/${condition.id}.html`;
   const related = relatedConditions(condition);
   const reviewPoints = [
     "Klopt de medische afbakening van dit onderwerp?",
@@ -576,12 +576,12 @@ const pageHtml = (condition) => {
     <meta property="og:title" content="${escapeHtml(spec.h1)}">
     <meta property="og:description" content="${escapeHtml(description)}">
     <meta property="og:url" content="${canonical}">
-    <meta property="og:image" content="https://matthijsvandam.nl/assets/social-preview.png">
+    <meta property="og:image" content="https://www.matthijsvandam.nl/assets/social-preview.png">
     <meta property="og:image:alt" content="drs. Matthijs van Dam, orthopedisch chirurg in Tilburg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="${escapeHtml(spec.h1)}">
     <meta name="twitter:description" content="${escapeHtml(description)}">
-    <meta name="twitter:image" content="https://matthijsvandam.nl/assets/social-preview.png">
+    <meta name="twitter:image" content="https://www.matthijsvandam.nl/assets/social-preview.png">
     <meta name="twitter:image:alt" content="drs. Matthijs van Dam, orthopedisch chirurg in Tilburg">
     <link rel="icon" href="../assets/logo-mvd-mark-v2.svg" type="image/svg+xml">
     <link rel="stylesheet" href="../styles.css?v=20260623conceptlock1">
@@ -601,7 +601,7 @@ const pageHtml = (condition) => {
         "isPartOf": {
           "@type": "WebSite",
           "name": "drs. Matthijs van Dam",
-          "url": "https://matthijsvandam.nl/"
+          "url": "https://www.matthijsvandam.nl/"
         },
         "medicalAudience": [
           {
@@ -621,13 +621,13 @@ const pageHtml = (condition) => {
             "@type": "ListItem",
             "position": 1,
             "name": "Home",
-            "item": "https://matthijsvandam.nl/"
+            "item": "https://www.matthijsvandam.nl/"
           },
           {
             "@type": "ListItem",
             "position": 2,
             "name": "Behandelingen",
-            "item": "https://matthijsvandam.nl/behandelingen.html"
+            "item": "https://www.matthijsvandam.nl/behandelingen.html"
           },
           {
             "@type": "ListItem",

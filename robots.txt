@@ -3,4 +3,4 @@ Allow: /
 Disallow: /beeldbank/
 Disallow: /concept-foot-pain-guide.html
 
-Sitemap: https://matthijsvandam.nl/sitemap.xml
+Sitemap: https://www.matthijsvandam.nl/sitemap.xml

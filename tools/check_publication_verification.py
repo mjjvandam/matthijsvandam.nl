@@ -17,7 +17,7 @@ from xml.etree import ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 REGISTER = ROOT / "PUBLICATIE_REGISTER.json"
 SITEMAP = ROOT / "sitemap.xml"
-SITE_URL = "https://matthijsvandam.nl/"
+SITE_URL = "https://www.matthijsvandam.nl/"
 ALLOWED_STATUSES = {"review_nodig", "geverifieerd", "niet_publiceren"}
 REQUIRED_STATUS = "geverifieerd"
 

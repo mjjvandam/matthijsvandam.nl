@@ -198,7 +198,8 @@ nav?.querySelectorAll("a[href]").forEach((link) => {
   }
   if (url.origin !== window.location.origin) return;
   const linkPath = normalizePagePath(url.pathname);
-  if (linkPath === currentRoutePath()) {
+  // Section anchors are locations within a page, not separate current pages.
+  if (!url.hash && linkPath === currentRoutePath()) {
     link.setAttribute("aria-current", "page");
   }
 });

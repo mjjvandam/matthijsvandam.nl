@@ -422,6 +422,7 @@ a {
 .site-header.is-open .site-nav a[aria-current="page"],
 .site-header.legal-header .site-nav a[aria-current="page"] {
   background: var(--green-soft);
+  color: var(--ink);
 }
 
 :root[data-theme="dark"] .site-header .site-nav a {

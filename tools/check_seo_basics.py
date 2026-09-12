@@ -13,7 +13,7 @@ from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 SITEMAP = ROOT / "sitemap.xml"
-SITE_URL = "https://matthijsvandam.nl/"
+SITE_URL = "https://www.matthijsvandam.nl/"
 MAX_TITLE_LENGTH = 65
 MAX_DESCRIPTION_LENGTH = 170
 
@@ -105,7 +105,7 @@ def canonical_href(page: PageParser) -> str:
 
 def is_absolute_https(url: str) -> bool:
     parsed = urlparse(url)
-    return parsed.scheme == "https" and parsed.netloc == "matthijsvandam.nl"
+    return parsed.scheme == "https" and parsed.netloc == "www.matthijsvandam.nl"
 
 
 def run_checks() -> tuple[list[tuple[str, str]], dict[str, int]]:
