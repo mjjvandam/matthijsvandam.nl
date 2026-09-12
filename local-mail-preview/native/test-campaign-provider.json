@@ -1,0 +1,13 @@
+{
+  "id": 10,
+  "name": "MVD technische ketenproef - concept - niet verzenden",
+  "status": "draft",
+  "scheduledAt": "",
+  "recipients": {
+    "lists": [],
+    "exclusionLists": [],
+    "segments": [],
+    "excludedSegments": []
+  },
+  "replyTo": "mjjvandam@gmail.com"
+}

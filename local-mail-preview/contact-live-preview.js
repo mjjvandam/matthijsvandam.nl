@@ -42,7 +42,7 @@ contactForm?.addEventListener("submit", async (event) => {
     if (response.ok && result.code === "accepted") {
       contactForm.dataset.sent = "true";
       newMessage.hidden = false;
-      showStatus("Bedankt voor je bericht.\nJe bericht is verzonden. Je hoeft het niet opnieuw te versturen.");
+      showStatus("Bedankt voor je bericht.\nJe bericht is verzonden.");
       return;
     } else if ([400, 403, 413, 415, 429, 503].includes(response.status)) {
       showStatus((result.message || "Verzenden is nu niet mogelijk.") + " Je ingevulde gegevens zijn behouden.");

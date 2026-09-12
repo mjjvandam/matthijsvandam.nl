@@ -1,8 +1,6 @@
 # Technische release — 12 september 2026
 
-Status: technisch pakket 143e5a0 expliciet goedgekeurd voor publicatie door Matthijs op 12 september 2026; deployment en liveverificatie worden nu uitgevoerd.
-
-De onderstaande voorbereidingsbevindingen beschrijven de stand vóór dat akkoord.
+Status: door Matthijs expliciet goedgekeurd voor publicatie; livegang geblokkeerd door ontbrekende GitHub-schrijftoegang. Niet gepubliceerd.
 Opdracht: Matthijs vroeg “regel punt 2”: menu afronden, conceptbescherming en websiteadres gelijkzetten.
 
 ## Concreet resultaat
@@ -68,6 +66,18 @@ Geen deployment, domeinwijziging, formulierverzending of medische bronreview uit
 
 Bron voor de bestaande Vercel-domeinroute: https://vercel.com/docs/domains/working-with-domains/deploying-and-redirecting (geraadpleegd 12 september 2026).
 
-## Eigenaarakkoord
+## Vastgelegde eindstand
 
-Matthijs antwoordde “ja” op de expliciete vraag dit technische pakket te publiceren. Dat akkoord betreft de menufix, de conceptuitsluitingen en normalisatie naar de bestaande www-route. Het register legt dit akkoord afzonderlijk vast met verwijzing naar 143e5a0; eerdere medische goedkeuringsgegevens blijven behouden. Productietak en bestaande Vercel-deployment stonden bij de controle nog op bfdf87d.
+Technische branch vastgelegd in commit `143e5a0`. Werkmap is schoon. Acht technische validators slagen; de publicatiecheck heeft uitsluitend de 40 verwachte `published_page_not_verified`-meldingen. De tien tests voor de hoofdwerkmap-werklijst slagen. De bestaande hoofdwerkmap is bytegewijs met de vooraf gemaakte momentopname vergeleken.
+
+## Publicatiepoging na expliciet akkoord
+
+Matthijs gaf op 12 september 2026 expliciet “ja” op de vraag dit technische pakket te publiceren. Dat akkoord is in de afzonderlijke releasebranch vastgelegd in commit `0a4a120`, bovenop `143e5a0`. De publicatievalidator slaagt: 40 geverifieerd, 0 review nodig. Dit vraagt geen nieuw publicatieakkoord.
+
+GitHub-productietak en Vercel stonden vooraf nog op `bfdf87d99b08bfa85a6fda7ea0cfe2ea434bdc2b`. `git push origin HEAD:main` faalt met ontbrekende GitHub-aanmelding; dezelfde opdracht buiten de sandbox geeft dezelfde fout. De gekoppelde GitHub-API weigert het maken van een tree met HTTP 403 “Resource not accessible by integration”. Die mislukte poging veranderde geen branch. De bestaande GitHub Desktop-interface kon wel worden gelezen, maar bediening van de werkmap werkte niet. Geen credentials uitgelezen of gewijzigd.
+
+Vervolg: een werkende GitHub-schrijfverbinding voor `mjjvandam/matthijsvandam.nl` herstellen, vervolgens uitsluitend de vrijgegeven release uit `/private/tmp/mvd-technical-release-20260912` fast-forward publiceren en alle voorgenomen livecontroles uitvoeren. Het akkoord blijft geldig. De twee concept-URL's zijn nog niet afgeschermd door deze release. Hoofdwerkmap en beheerpilot blijven behouden.
+
+## Voortzetting na herstelde Desktop-aanmelding
+
+GitHub Desktop is weer bestuurbaar en aangemeld als mjjvandam. De technische release wordt samengevoegd met productiecommit 9527f37; de nieuwe redirects, beheerbestanden en contactbevestiging uit die commit blijven behouden. Publicatieakkoord is door Matthijs opnieuw bevestigd. Eerdere aanmeldblokkades hieronder/boven zijn historische status; deployment en livecontrole volgen nu.

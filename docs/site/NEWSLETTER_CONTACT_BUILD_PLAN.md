@@ -2,6 +2,8 @@
 
 Datum: 2026-09-06
 
+Actualisatie 10 september 2026: dit dossier bevat de oorspronkelijke bouwvolgorde en historische tussenstanden. Het contactformulier is inmiddels live; daarvoor is `local-mail-preview/CONTACT_RELEASE.md` leidend. Voor de nieuwsbrief geldt de later geaccepteerde native Brevo-route uit ADR-0013 en `local-mail-preview/BREVO_NATIVE_ROUTE.md`. De samengevoegde actuele vervolgtaken staan bij Nog te doen in de lokale beheeromgeving; oude Resend-, opslag- of contactblokkades hieronder zijn geen nieuwe opdrachten.
+
 Status: lokale implementatie en proef gereed; geen livegang. ADR-0008 is op 2026-09-06 expliciet door Matthijs goedgekeurd voor lokale bouw. Zie `local-mail-preview/README.md` voor uitgevoerde tests en resterende productievoorwaarden.
 
 ## Uitkomst haalbaarheidscheck

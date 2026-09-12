@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Beheer · Matthijs van Dam</title>
+  <link rel="stylesheet" href="/app.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Naar inhoud</a>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#overzicht" aria-label="Matthijs van Dam, beheer overzicht"><span class="brand-mark" aria-hidden="true">M</span><span>Matthijs van Dam<small>WEBSITEBEHEER</small></span></a>
+      <nav aria-label="Beheeronderdelen">
+        <button type="button" data-route="overzicht"><span aria-hidden="true">01</span>Overzicht</button>
+        <button type="button" data-route="artikelen"><span aria-hidden="true">02</span>Artikelen</button>
+        <button type="button" data-route="taken"><span aria-hidden="true">03</span>Nog te doen</button>
+        <button type="button" data-route="routines"><span aria-hidden="true">04</span>Agents & routines</button>
+        <button type="button" data-route="bezoekers"><span aria-hidden="true">05</span>Bezoekers</button>
+        <button type="button" data-route="ideeen"><span aria-hidden="true">06</span>Frisse blik</button>
+      </nav>
+      <div class="sidebar-foot"><span class="connection-dot" aria-hidden="true"></span><span>Lokale beheeromgeving<small id="owner-label">Matthijs</small></span></div>
+    </aside>
+    <div class="workspace">
+      <header class="workspace-bar"><span>Matthijsvandam.nl</span><span id="connection-status">Verbinding maken…</span></header>
+      <div class="local-notice">Wijzigingen worden op deze computer bewaard. De publieke website krijgt een wijziging pas na afzonderlijke vrijgave.</div>
+      <div id="message" class="message" role="status" aria-live="polite" hidden></div>
+      <main id="main" tabindex="-1"><div class="loading">Beheeromgeving laden…</div></main>
+      <footer class="workspace-foot">Inhoud, beoordeling en publicatie blijven afzonderlijke stappen.</footer>
+    </div>
+  </div>
+  <dialog id="action-dialog" aria-labelledby="dialog-title"><form method="dialog"><div id="dialog-content"></div><div id="dialog-actions" class="dialog-actions"></div></form></dialog>
+</body>
+</html>

@@ -67,5 +67,32 @@
         }
       ]
     }
+  ],
+  "redirects": [
+    {
+      "source": "/behandelingen",
+      "destination": "/behandelingen.html",
+      "permanent": true
+    },
+    {
+      "source": "/artikelen/artrosezorg-transitie-professionals",
+      "destination": "/artikelen/artrosezorg-transitie-professionals.html",
+      "permanent": true
+    },
+    {
+      "source": "/artikelen/artrosezorg-transitie-patienten",
+      "destination": "/artikelen/artrosezorg-transitie-patienten.html",
+      "permanent": true
+    },
+    {
+      "source": "/privacy",
+      "destination": "/privacy.html",
+      "permanent": true
+    },
+    {
+      "source": "/projecten/we-walk",
+      "destination": "/projecten/we-walk.html",
+      "permanent": true
+    }
   ]
 }

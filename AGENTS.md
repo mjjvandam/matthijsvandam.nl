@@ -26,6 +26,16 @@ Gebruik deze documenten als vaste context bij toekomstige wijzigingen:
 
 `REDACTIEKOMPAS.md` blijft de inhoudelijke redactiekompaslaag. `CODEX_WERKWIJZE.md` blijft de praktische werkcyclus voor grotere opdrachten, publicatiechecks en afrondingsrapportage.
 
+## Lokale beheeromgeving en Codex-tekstwijzigingen
+
+ADR-0014 is op 9 september 2026 door Matthijs geaccepteerd voor de lokale artikelenpilot en het dashboard. Lees bij beheerwerk `local-admin/README.md` en `docs/site/EDITORIAL_WORKSPACE_DESIGN.md`.
+
+- Het pilotartikel `leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort` heeft een aparte lokale werkversie in de beheeromgeving. Wijzigingen aan die werkversie gaan via `local-admin/server.py export` en `save` met het exact teruggelezen basisversienummer, zodat Codex en de browser dezelfde bron en versiegeschiedenis gebruiken.
+- De publieke HTML en `content.js` zijn nog niet naar de beheerbron overgezet. Geef altijd aan of de opdracht de lokale werkversie of een expliciet vrijgegeven publieke release betreft. Maak geen parallelle tekstwijziging in beide bronnen. Bij een externe bronwijziging vraagt de pilot om bewuste vergelijking; omzeil die melding niet door een database of bronhash te wijzigen.
+- Niet-geïmporteerde pagina's volgen de bestaande redactieroute. Nieuwe templates worden alleen na gecontroleerde import en vergelijking bewerkbaar.
+- Taakvinkjes zijn leesmarkeringen, geen medisch akkoord. Testgoedkeuringen horen uitsluitend in tijdelijke testopslag. Echte eigenaarreview, publicatieverificatie en livegang blijven afzonderlijke stappen.
+- `local-admin/` blijft buiten deployment; `state/` en uitvoerpakketten blijven buiten Git. Routineconfiguraties en Codex-taakstatus worden alleen gelezen; het dashboard activeert of wijzigt geen automatiseringen.
+
 ## ADR-besluitvorming
 
 Gebruik `docs/decisions/ADR-INDEX.md` als ingang voor architectuur- en governancebesluiten.
@@ -252,3 +262,7 @@ Een pagina geldt als gepubliceerd wanneer die:
 Nieuwe of gewijzigde publieke medische/professionele pagina's blijven `review_nodig` in `PUBLICATIE_REGISTER.json` totdat Matthijs expliciet inhoudelijk akkoord geeft.
 
 Conceptpagina's blijven buiten live-scope totdat inhoud, beeld, metadata, interne links, sitemap, publicatieregister en medische veiligheid bewust zijn goedgekeurd.
+
+## Search Console automatisch meenemen
+
+Matthijs heeft op 12 september 2026 opdracht gegeven Google Search Console actief mee te nemen bij relevante siteontwikkeling en de bestaande weekcheck. Volg `local-admin/SEARCH_CONSOLE_WORKFLOW.md` bij vindbaarheid, URL-/hostwijzigingen, sitemap/robots, interne links en voorbereiding/nacontrole van publieke releases. Werk de gedateerde dashboardopname en bestaande vervolgtaak bij na echte controle. Wacht niet op een nieuwe herinnering van Matthijs; ontbrekende login of vereiste menselijke toestemming blijft een concrete blokkade. Deze opdracht geeft geen algemene publicatie- of medische goedkeuring.

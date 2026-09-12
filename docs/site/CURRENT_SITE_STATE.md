@@ -40,6 +40,8 @@ De gepubliceerde laag bestaat uit:
 
 ## Concept versus publiek
 
+Aanvulling 2026-09-09: onder het door Matthijs geaccepteerde ADR-0014 is een lokale beheerpilot toegevoegd in `local-admin/`. Die bevat blijvende opslag en versiebeheer voor een geïsoleerde kopie van het Leonie-artikel, een takenoverzicht, bestaande routines/agentmomentopnamen en een Vercel-bezoekersmomentopname. De publieke artikelbron is niet overgezet. De beheeromgeving is uitsluitend lokaal en geheel uitgesloten van deployment; gegevens staan buiten Git. Zie `local-admin/README.md` en `docs/site/EDITORIAL_WORKSPACE_DESIGN.md` voor gebruik, toetsing en beperkingen.
+
 Publiek is wat in `sitemap.xml` staat of `index, follow` heeft. Concept is wat `noindex` heeft, buiten sitemap blijft of via `.vercelignore` niet wordt gedeployed.
 
 Nieuwe of gewijzigde publieke medische/professionele pagina's moeten terug naar `review_nodig` in `PUBLICATIE_REGISTER.json` totdat Matthijs inhoudelijk akkoord geeft.

@@ -1,0 +1,429 @@
+{
+  "version": 1,
+  "reviewed_at": "2026-09-10T09:02:55.024Z",
+  "items": [
+    {
+      "id": "work-contact-live",
+      "title": "Contactformulier gepubliceerd",
+      "category": "Contact & nieuwsbrief",
+      "status": "done",
+      "status_label": "Live sinds 7 september",
+      "detail": "Het formulier staat publiek op de homepage. De eerste mailontvangst staat in het releaseverslag; het formulier is op 10 september opnieuw in de browser gezien.",
+      "next_action": "Geen nieuwe livegang nodig. De controle van de nieuwste mailopmaak staat afzonderlijk open.",
+      "priority": 2,
+      "sources": [
+        {
+          "path": "local-mail-preview/CONTACT_RELEASE.md",
+          "sha256": "0227d3de481031b8f1fd2579b287a4bc4cc9d83fcf5250c2b9d1d190b9a31bb0"
+        },
+        {
+          "path": "index.html",
+          "sha256": "a29315bd423f5e993fbfeef171799081f818a8ec3f3a7c06c97eb728915b0c45"
+        },
+        {
+          "path": "local-admin/WORK_ITEMS_REVIEW.md",
+          "sha256": "14ef73309f168911970d1b17a6cfe28c864080cd8025b41be4486da122eaf925"
+        }
+      ],
+      "url": "https://www.matthijsvandam.nl/"
+    },
+    {
+      "id": "work-contact-mail-review",
+      "title": "Nieuwste contactmail controleren",
+      "category": "Contact & nieuwsbrief",
+      "status": "waiting",
+      "status_label": "Test en beoordeling nodig",
+      "detail": "De verbeterde contactmail met conceptantwoord is gepubliceerd. De weergave van die versie in een echt ontvangen bericht is nog niet vastgelegd.",
+      "next_action": "Na akkoord op een concrete testmail: ontvangst, opmaak, Beantwoorden en het conceptantwoord controleren. Geen automatische reactie instellen.",
+      "priority": 1,
+      "sources": [
+        {
+          "path": "local-mail-preview/CONTACT_RELEASE.md",
+          "sha256": "0227d3de481031b8f1fd2579b287a4bc4cc9d83fcf5250c2b9d1d190b9a31bb0"
+        },
+        {
+          "path": "api/contact.js",
+          "sha256": "3adbb4ea3bec48a9c35120762204f42bfdaff6fb6e8b5156fd5e87b3a523f80b"
+        }
+      ]
+    },
+    {
+      "id": "work-newsletter-signup",
+      "title": "Nieuwsbrief: aanmelding en bevestiging testen",
+      "category": "Contact & nieuwsbrief",
+      "status": "open",
+      "status_label": "Gedeeltelijk voorbereid",
+      "detail": "Native formulieren en de bevestigingsmail zijn voorbereid. De volledige websiteaanmelding met echte bevestiging en ontvangst is nog niet bewezen.",
+      "next_action": "Bestaande integratie nalopen en een concrete proef voorbereiden. Daarna met toegestane testadressen aanmelden, bevestigen en doelgroep-/onderwerpkeuzes teruglezen.",
+      "priority": 1,
+      "sources": [
+        {
+          "path": "local-mail-preview/BREVO_NATIVE_ROUTE.md",
+          "sha256": "3f84ec56224e745aed01a9966d096eb7faee2309c1993475225712384e3b1a88"
+        },
+        {
+          "path": "docs/decisions/ADR-0013-brevo-native-practical-scope.md",
+          "sha256": "6c5cae3fe3cb1773dc443ee657a4050815c24a437b54e2444e7e57dc320c39a1"
+        }
+      ]
+    },
+    {
+      "id": "work-newsletter-preferences",
+      "title": "Nieuwsbrief: voorkeuren en afmelden afmaken",
+      "category": "Contact & nieuwsbrief",
+      "status": "open",
+      "status_label": "Werking nog te testen",
+      "detail": "Profiel- en afmeldroutes zijn gekoppeld aan een conceptcampagne. De werking van de persoonlijke links en gewijzigde voorkeuren is nog niet bewezen.",
+      "next_action": "Vanuit een toegestane testeditie voorkeuren wijzigen en afmelden; de gekozen lijsten en uitsluiting van verdere mail daarna controleren.",
+      "priority": 1,
+      "sources": [
+        {
+          "path": "local-mail-preview/BREVO_NATIVE_ROUTE.md",
+          "sha256": "3f84ec56224e745aed01a9966d096eb7faee2309c1993475225712384e3b1a88"
+        }
+      ]
+    },
+    {
+      "id": "work-newsletter-edition",
+      "title": "Nieuwsbrief: eerste editie en verzendregels uitwerken",
+      "category": "Contact & nieuwsbrief",
+      "status": "open",
+      "status_label": "Concept uitwerken",
+      "detail": "Vormgeving en een technische proefcampagne bestaan. Redactionele selectie, eerste echte editie, dubbelpreventie en maximaal twaalf bezorgingen per abonnee over alle onderwerpen samen zijn nog uit te werken.",
+      "next_action": "Eén leesbare concepteditie maken. Daarna selectie, overlap, herhaalde uitvoering, quota en gezamenlijke jaarlimiet aantoonbaar toetsen vóór automatische verzending.",
+      "priority": 2,
+      "sources": [
+        {
+          "path": "local-mail-preview/BREVO_NATIVE_ROUTE.md",
+          "sha256": "3f84ec56224e745aed01a9966d096eb7faee2309c1993475225712384e3b1a88"
+        },
+        {
+          "path": "docs/site/NEWSLETTER_CONTACT_BUILD_PLAN.md",
+          "sha256": "6471644517da1229d735f8e2c676827416f9296825c84f9bf19b2f7e8c567fd5"
+        },
+        {
+          "path": "local-mail-preview/CONTACT_RELEASE.md",
+          "sha256": "0227d3de481031b8f1fd2579b287a4bc4cc9d83fcf5250c2b9d1d190b9a31bb0"
+        }
+      ]
+    },
+    {
+      "id": "work-newsletter-release",
+      "title": "Nieuwsbrief: website-inpassing en livegang voorbereiden",
+      "category": "Contact & nieuwsbrief",
+      "status": "waiting",
+      "status_label": "Na geslaagde ketenproef",
+      "detail": "De nieuwsbrief is nog niet publiek actief. Privacyuitleg, subtiele inschrijflinks en de afgesproken eenmalige uitnodiging moeten bij de bewezen werking aansluiten.",
+      "next_action": "Na de keten- en frequentietests de uiteindelijke schermen, privacytekst en eerste editie voorleggen. Publieke activering en verzending afzonderlijk vrijgeven.",
+      "priority": 3,
+      "sources": [
+        {
+          "path": "local-mail-preview/BREVO_NATIVE_ROUTE.md",
+          "sha256": "3f84ec56224e745aed01a9966d096eb7faee2309c1993475225712384e3b1a88"
+        },
+        {
+          "path": "docs/site/NEWSLETTER_CONTACT_BUILD_PLAN.md",
+          "sha256": "6471644517da1229d735f8e2c676827416f9296825c84f9bf19b2f7e8c567fd5"
+        },
+        {
+          "path": "privacy.html",
+          "sha256": "1e5140a657006c9addb9e5c7c0997702cc7a53050a10a764c11888bedf993383"
+        }
+      ]
+    },
+    {
+      "id": "work-ankle-article",
+      "title": "Artikel over instabiele enkel beoordelen",
+      "category": "Inhoud & redactie",
+      "status": "waiting",
+      "status_label": "Bestaand concept beoordelen",
+      "detail": "De tekst over instabiliteit na een verzwikte enkel bestaat als concept en vraagt menselijke review. Er is geen publieke opname in register, sitemap of kaarten gevonden.",
+      "next_action": "Bestaande tekst en bronnen nalopen; kiezen tussen redigeren, parkeren of publicatie voorbereiden. Geen nieuw dubbel concept maken.",
+      "priority": 2,
+      "sources": [
+        {
+          "path": "concepten/artikelen/2026-07-05-mri-enkelverzwikking-instabiliteit.md",
+          "sha256": "e53c858b74fe98d8bc865992bf5d54032d5f77f7eb106615afe56265e104dc8e"
+        },
+        {
+          "path": "artikelen/na-verzwikte-enkel-instabiel-blijven.html",
+          "sha256": "8318b303cc8fe695f5ca6b09217fa9b1218f05f5d721fc3f51dd28a74c1a1ac9"
+        },
+        {
+          "path": "PUBLICATIE_REGISTER.json",
+          "sha256": "f2c0f2ee79881b6ad7c6aa698cb82799da2147d06fe6424ffbe0ed319ea10824"
+        }
+      ]
+    },
+    {
+      "id": "work-knee-exercise-article",
+      "title": "Artikel over oefeningen bij knieartrose beoordelen",
+      "category": "Inhoud & redactie",
+      "status": "waiting",
+      "status_label": "Bestaand concept beoordelen",
+      "detail": "Het concept over de vraag of er één beste oefening bij knieartrose is, staat nog op menselijke review. Een gepubliceerde eindversie is niet gevonden.",
+      "next_action": "Bronactualiteit en medische formuleringen controleren en de bestaande leesversie aan Matthijs voorleggen.",
+      "priority": 2,
+      "sources": [
+        {
+          "path": "concepten/artikelen/2026-06-21-knieartrose-geen-beste-oefening.md",
+          "sha256": "867990af4de2cdb36e572db45061e251fbe6f0ac0e5ac74c36efcb4fa80b7e0a"
+        },
+        {
+          "path": "PUBLICATIE_REGISTER.json",
+          "sha256": "f2c0f2ee79881b6ad7c6aa698cb82799da2147d06fe6424ffbe0ed319ea10824"
+        }
+      ]
+    },
+    {
+      "id": "work-syndesmosis",
+      "title": "Conceptpagina over syndesmoseletsel voorbereiden",
+      "category": "Inhoud & redactie",
+      "status": "later",
+      "status_label": "Later uitwerken",
+      "detail": "Syndesmoseletsel staat als gepland onderwerp in de inhoudelijke backlog. De voorgenomen eigen behandelpagina is nog niet aanwezig.",
+      "next_action": "Eerst bronnen en afbakening controleren; daarna alleen een lokaal concept met de bestaande medische reviewroute maken.",
+      "priority": 3,
+      "sources": [
+        {
+          "path": "SITE_TODO.md",
+          "sha256": "d269e9c427cb7c635cff5160c90579e6fe6691816a2eed6ea161eaa9712afcea"
+        },
+        {
+          "path": "FOOT_PAIN_GUIDE_LAUNCH_INVENTARIS.md",
+          "sha256": "424a3d69b03272ef6a515d9a21cd6f06798423f902d617537b8160ad07341f39"
+        }
+      ]
+    },
+    {
+      "id": "work-transfermetatarsalgia",
+      "title": "Artikel over voorvoetpijn na grote-teenoperatie",
+      "category": "Inhoud & redactie",
+      "status": "later",
+      "status_label": "Later uitwerken",
+      "detail": "Transfermetatarsalgie na een MTP-1-artrodese of hallux-valguscorrectie staat als afzonderlijk verdiepend artikel op de backlog.",
+      "next_action": "Bronronde en veilige opzet voorbereiden, met aandacht voor andere mogelijke oorzaken. Daarna een concept volgens de redactionele leerlus maken.",
+      "priority": 3,
+      "sources": [
+        {
+          "path": "SITE_TODO.md",
+          "sha256": "d269e9c427cb7c635cff5160c90579e6fe6691816a2eed6ea161eaa9712afcea"
+        }
+      ]
+    },
+    {
+      "id": "work-pain-guide",
+      "title": "Pijnwijzer medisch beoordelen en vrijgave bepalen",
+      "category": "Inhoud & redactie",
+      "status": "waiting",
+      "status_label": "Eigenaarreview nodig",
+      "detail": "De pijnwijzer is een lokale leeswijzer. De controle van regio’s, medische koppelingen en plaats op de site staat los van de review van iedere aandoeningspagina.",
+      "next_action": "Matthijs beoordeelt de aanwijsvlakken en koppelingen en beslist over de plek in de brede orthopedische site. Pas daarna een concreet publicatiepakket voorbereiden.",
+      "priority": 2,
+      "sources": [
+        {
+          "path": "concept-foot-pain-guide.html",
+          "sha256": "f709c38f30031b0b7678f27e31d347b0427409db5412eb7bd1b81d0464951afb"
+        },
+        {
+          "path": "docs/site/FOOT_ANKLE_PAIN_GUIDE_MODEL.md",
+          "sha256": "71ae61029f8e7e4ecb607a89e75c722dfd0403c48b810ae00f9e9947492f1f67"
+        },
+        {
+          "path": "SITE_TODO.md",
+          "sha256": "d269e9c427cb7c635cff5160c90579e6fe6691816a2eed6ea161eaa9712afcea"
+        }
+      ]
+    },
+    {
+      "id": "work-concept-protection",
+      "title": "Conceptbestanden buiten publicatie houden",
+      "category": "Techniek & vindbaarheid",
+      "status": "waiting",
+      "status_label": "Goedgekeurd; GitHub-toegang blokkeert livegang",
+      "detail": "Twee concept-URL’s geven live HTTP 200. Uitsluitingen zijn aangescherpt en lokaal gecontroleerd in de afzonderlijke technische release.",
+      "next_action": "GitHub-schrijftoegang herstellen en het al goedgekeurde technische pakket 0a4a120 publiceren; daarna live controleren. Geen nieuw publicatieakkoord nodig.",
+      "priority": 1,
+      "sources": [
+        {
+          "path": "docs/site/reviews/technical-release-2026-09-12.md",
+          "sha256": "3978447a5ae675e160d1c487f313c1f790c34f3dca2baec6590edd7718e95072"
+        }
+      ]
+    },
+    {
+      "id": "work-menu-review",
+      "title": "Menuaanpassingen visueel afronden",
+      "category": "Techniek & vindbaarheid",
+      "status": "waiting",
+      "status_label": "Goedgekeurd; GitHub-toegang blokkeert livegang",
+      "detail": "Menu op 360/390/430 px en desktop gecontroleerd. Afzonderlijke technische release bevat alleen de menufix en verse cacheversies.",
+      "next_action": "GitHub-schrijftoegang herstellen en het al goedgekeurde technische pakket 0a4a120 publiceren; daarna live controleren. Geen nieuw publicatieakkoord nodig.",
+      "priority": 1,
+      "sources": [
+        {
+          "path": "docs/site/reviews/technical-release-2026-09-12.md",
+          "sha256": "3978447a5ae675e160d1c487f313c1f790c34f3dca2baec6590edd7718e95072"
+        }
+      ],
+      "replaces_report": "report-latest-sitecheck"
+    },
+    {
+      "id": "work-search-setup",
+      "title": "Websiteadres en zoekmachine-inrichting controleren",
+      "category": "Techniek & vindbaarheid",
+      "status": "waiting",
+      "status_label": "Vijf redirects klaar voor livegang",
+      "detail": "Peildatum 12-09-2026: Google-eigendom en sitemap ingericht. Vijf exacte 404-redirects lokaal voorbereid en gecontroleerd, nog niet live. Indexeringsaanvragen voor de www-adressen van enkelartrose, enkelprothese en de klachtenhub zijn door Google bevestigd. Homepage-profielmarkering is geldig. De aparte www-normalisatie is niet in dit herstel meegenomen; Bing blijft ongecontroleerd.",
+      "next_action": "Akkoord op alleen de vijf redirects vragen; daarna uitsluitend deze configuratiewijziging publiceren en de 308, .html-bestemmingen en topic=voorvoet live controleren. De drie indexeringsaanvragen en de geldige homepage-profielmarkering volgen in de bestaande weekcheck. Hostnormalisatie blijft een afzonderlijk besluit.",
+      "priority": 2,
+      "sources": [
+        {
+          "path": "docs/site/reviews/technical-release-2026-09-12.md",
+          "sha256": "3978447a5ae675e160d1c487f313c1f790c34f3dca2baec6590edd7718e95072"
+        },
+        {
+          "path": "docs/site/reviews/search-console-actions-2026-09-12.md",
+          "sha256": "d8dff085531426bb70f94d5be3a39f0498c7e003acdd3add39f8108161acd67b"
+        }
+      ]
+    },
+    {
+      "id": "work-image-library",
+      "title": "Beslissen over toegang tot de beeldbank",
+      "category": "Techniek & vindbaarheid",
+      "status": "waiting",
+      "status_label": "Bedoelde toegang vaststellen",
+      "detail": "De beeldbank is niet expliciet uitgesloten van deployment. De gewenste directe bereikbaarheid staat nog als keuzepunt in de projectdocumentatie.",
+      "next_action": "Vaststellen welke bestanden nu publiek bereikbaar zijn en welke toegang gewenst is. Daarna concrete afscherming of een bewuste publieke keuze voorleggen.",
+      "priority": 2,
+      "sources": [
+        {
+          "path": "SITE_TODO.md",
+          "sha256": "d269e9c427cb7c635cff5160c90579e6fe6691816a2eed6ea161eaa9712afcea"
+        },
+        {
+          "path": ".vercelignore",
+          "sha256": "84459642187fcaab39ffaad0d310aad139e7bf48a53345b5eb0d991bd15bcffe"
+        },
+        {
+          "path": "vercel.json",
+          "sha256": "49da39ce633059bd9e731525eff11373df7ae78cb0fb73c3ffeb256a1d297d20"
+        }
+      ]
+    },
+    {
+      "id": "work-hosting",
+      "title": "Hostinggebruik en kostengrenzen bevestigen",
+      "category": "Techniek & vindbaarheid",
+      "status": "waiting",
+      "status_label": "Voorwaarden controleren",
+      "detail": "Het bouwdossier noemt Vercel Hobby en een bestaande Brevo-account. Passend hostinggebruik voor adviesactiviteiten en grenzen van de volledige nieuwsbriefketen zijn nog niet definitief vastgelegd.",
+      "next_action": "Actuele plannen, gebruiksvoorwaarden en quota beoordelen. Een eventueel vervolg met kosten of een andere dienst eerst concreet voorleggen.",
+      "priority": 2,
+      "sources": [
+        {
+          "path": "local-mail-preview/MAIL_SETUP.md",
+          "sha256": "a0603c420a4c0f060470007de45597b0bbcaf909e02de5bc5dcedc3ee46a9ecf"
+        },
+        {
+          "path": "docs/site/NEWSLETTER_CONTACT_BUILD_PLAN.md",
+          "sha256": "6471644517da1229d735f8e2c676827416f9296825c84f9bf19b2f7e8c567fd5"
+        },
+        {
+          "path": "docs/decisions/ADR-0009-hosting-mail-production.md",
+          "sha256": "464c03e08c5beec7918f8741b5caa8f0d6d75ca3217e79f89d5cd5b300ec7977"
+        }
+      ]
+    },
+    {
+      "id": "work-routine-docs",
+      "title": "Routines en projectafspraken bijwerken",
+      "category": "Beheer & routines",
+      "status": "open",
+      "status_label": "Aansluiting controleren",
+      "detail": "De APK noemt ontbrekende expliciete verwijzingen naar de redactionele leerlus en verouderde bronteksten. Contactstatus en de oude reviewtelling zijn nu verduidelijkt; overige verschillen verdienen controle.",
+      "next_action": "Opgeslagen routine-instructies vergelijken met de huidige bronlaag, beheerwerkwijze en leerlus. Alleen resterende verschillen bijwerken; oude afgeronde concepten koppelen aan hun eindversie.",
+      "priority": 2,
+      "sources": [
+        {
+          "path": "docs/site/reviews/site-automation-apk-2026-09.md",
+          "sha256": "d115ea864d1077e04642ea2a273522d00b3f820d057535d35997ac0be48861ba"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "317d67b9c9d0ec1d96ead42fc4816caa3ed68fe7c2074974c1f47a87f3711bbb"
+        },
+        {
+          "path": "docs/site/KNOWN_DRIFT_RISKS.md",
+          "sha256": "93429b02686d5defc60efcb9e9e63ef5dff04d1826eeea952298d2df45afc636"
+        },
+        {
+          "path": "docs/site/NEWSLETTER_CONTACT_BUILD_PLAN.md",
+          "sha256": "6471644517da1229d735f8e2c676827416f9296825c84f9bf19b2f7e8c567fd5"
+        },
+        {
+          "path": "SITE_TODO.md",
+          "sha256": "d269e9c427cb7c635cff5160c90579e6fe6691816a2eed6ea161eaa9712afcea"
+        }
+      ],
+      "replaces_report": "report-latest-apk"
+    },
+    {
+      "id": "work-admin-expansion",
+      "title": "Beheer uitbreiden naar meer artikelen",
+      "category": "Beheer & routines",
+      "status": "later",
+      "status_label": "Vervolg op de pilot",
+      "detail": "Nu is één artikelstructuur gecontroleerd bewerkbaar. Andere artikelen en nieuwsberichten moeten eerst volledig worden ingelezen en vergeleken. Gedeelde toegang is nog niet ingericht.",
+      "next_action": "Eén volgende artikeltemplate kiezen en verliesloos importeren. Daarna bepalen welke artikelen aansluiten en wat voor gedeelde toegang en een publieke bronovergang nodig is.",
+      "priority": 3,
+      "sources": [
+        {
+          "path": "local-admin/README.md",
+          "sha256": "9282199fad85108361af529e3c3e8efadedd58dd09f41016300d1b3c4e13d9a5"
+        },
+        {
+          "path": "docs/decisions/ADR-0014-editorial-workspace.md",
+          "sha256": "e5d3282c66d14217cd04ae8e0c3eb425891f7a93a2fd1de9ad6084248805f9ba"
+        }
+      ]
+    },
+    {
+      "id": "work-admin-backup",
+      "title": "Back-up van beheerwijzigingen controleren",
+      "category": "Beheer & routines",
+      "status": "open",
+      "status_label": "Dekking nog te bevestigen",
+      "detail": "De lokale beheerdata staan bewust buiten Git. Er is nog niet gecontroleerd of de bestaande computerback-up die werkmap dekt en of terugzetten lukt.",
+      "next_action": "Bestaande back-updekking van de lokale werkmap vaststellen en herstel met een kopie testen; voorkom dat opgeslagen redactie alleen op één plek staat.",
+      "priority": 2,
+      "sources": [
+        {
+          "path": "local-admin/README.md",
+          "sha256": "9282199fad85108361af529e3c3e8efadedd58dd09f41016300d1b3c4e13d9a5"
+        }
+      ]
+    },
+    {
+      "id": "work-weekly-dashboard-routing",
+      "title": "Weekcheck: dashboardroute in routine opslaan",
+      "category": "Beheer & routines",
+      "status": "waiting",
+      "status_label": "Routinewijziging geblokkeerd",
+      "detail": "Op 11 september opnieuw gecontroleerd: de vernieuwde beheerserver werkt en toont terugblik, acties, leesmelding en uitgebreide suggesties. Alleen het opslaan van de routineprompt wordt nog door de officiële automation-tool geblokkeerd. Automatisch aanvullen is daardoor nog niet actief; de opgeslagen prompt bevat nog de oude mailopdracht.",
+      "next_action": "Vervang in de bestaande weekroutine de prompt door local-admin/weekly-sitecheck-prompt.txt en lees terug. Daarmee worden rapportmail vervangen door dashboarduitvoer en het beperkte aanvullen van Frisse blik opgenomen.",
+      "priority": 1,
+      "sources": [
+        {
+          "path": "docs/site/reviews/sitecheck-dashboard-route-2026-09-11.md",
+          "sha256": "8ea89f902c2670f89bf04daa4e90d9ba6656e907dc826098dc48e50bd3ff75d5"
+        },
+        {
+          "path": "local-admin/weekly-sitecheck-prompt.txt",
+          "sha256": "59b9f51cc3bbee3adfcbb80111534b7f05de688d65200c19e00bcf8a183524c8"
+        }
+      ]
+    }
+  ]
+}
