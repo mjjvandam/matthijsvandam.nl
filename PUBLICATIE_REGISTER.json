@@ -17,362 +17,642 @@
       "path": "index.html",
       "title": "drs. Matthijs van Dam | Orthopedisch chirurg Tilburg",
       "spoor": "algemeen",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-09-07",
-      "review_notes": "De verlopen oproep voor het patientpanel is op 20 juli 2026 van de homepage gehaald en expliciet akkoord bevonden door Matthijs. Op 6 september 2026 is de bestaande hallux-rigidustegel op verzoek van Matthijs klikbaar gemaakt naar de afzonderlijk goedgekeurde pagina. Op 6 september 2026 is na expliciet publicatie-akkoord het nieuwsbericht over de start van Leonie Meihuizen aan de actuele artikelen toegevoegd. Op 7 september 2026 is na expliciet inhoudelijk akkoord het artikel over bariatrische chirurgie en een knieprothese aan de actuele artikelen toegevoegd. Op 7 september 2026 is op verzoek van Matthijs het contactformulier lokaal voor livegang voorbereid, inclusief Tip voor de website. Privacyafstemming en productiecontrole staan nog open; nog niet gedeployed. Matthijs heeft de contactlivegang expliciet opgedragen na bevestiging van persoonlijke verantwoordelijkheid en bewaartermijn; nieuwsbrief blijft uit. Contactformulier inclusief websitetip en bijbehorende privacytekst vallen binnen deze release. Op 7 september 2026 geeft Matthijs expliciet akkoord voor livegang van de aangepaste contactgrenzen, duidelijke verzendbevestiging en aansluitende privacyuitleg: korte aanleiding toegestaan, geen medische advies- of afspraakroute. Op 7 september 2026 is op expliciet verzoek van Matthijs de inleidende alinea boven de contactroutes verwijderd; de contactgrenzen bij het formulier blijven staan. Op 7 september 2026 heeft Matthijs de rustigere contactindeling en livegang goedgekeurd: twee compacte routes, ETZ-details uitklapbaar, adviescontext bij het brede formulier en naam/e-mail naast elkaar op desktop. Bestaande informatie en contactgrenzen behouden. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "De verlopen oproep voor het patientpanel is op 20 juli 2026 van de homepage gehaald en expliciet akkoord bevonden door Matthijs. Op 6 september 2026 is de bestaande hallux-rigidustegel op verzoek van Matthijs klikbaar gemaakt naar de afzonderlijk goedgekeurde pagina. Op 6 september 2026 is na expliciet publicatie-akkoord het nieuwsbericht over de start van Leonie Meihuizen aan de actuele artikelen toegevoegd. Op 7 september 2026 is na expliciet inhoudelijk akkoord het artikel over bariatrische chirurgie en een knieprothese aan de actuele artikelen toegevoegd. Op 7 september 2026 is op verzoek van Matthijs het contactformulier lokaal voor livegang voorbereid, inclusief Tip voor de website. Privacyafstemming en productiecontrole staan nog open; nog niet gedeployed. Matthijs heeft de contactlivegang expliciet opgedragen na bevestiging van persoonlijke verantwoordelijkheid en bewaartermijn; nieuwsbrief blijft uit. Contactformulier inclusief websitetip en bijbehorende privacytekst vallen binnen deze release. Op 7 september 2026 geeft Matthijs expliciet akkoord voor livegang van de aangepaste contactgrenzen, duidelijke verzendbevestiging en aansluitende privacyuitleg: korte aanleiding toegestaan, geen medische advies- of afspraakroute. Op 7 september 2026 is op expliciet verzoek van Matthijs de inleidende alinea boven de contactroutes verwijderd; de contactgrenzen bij het formulier blijven staan. Op 7 september 2026 heeft Matthijs de rustigere contactindeling en livegang goedgekeurd: twee compacte routes, ETZ-details uitklapbaar, adviescontext bij het brede formulier en naam/e-mail naast elkaar op desktop. Bestaande informatie en contactgrenzen behouden. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "artikelen.html",
       "title": "Artikelen en updates | drs. Matthijs van Dam",
       "spoor": "algemeen",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-09-07",
-      "review_notes": "Artikelkaart voor '8 vragen over obesitasmedicijnen bij reuma en artrose' toegevoegd na expliciet publicatie-akkoord van Matthijs op 26 augustus 2026. Op 6 september 2026 is na expliciet publicatie-akkoord het nieuwsbericht over de start van Leonie Meihuizen toegevoegd. Op 7 september 2026 is na expliciet inhoudelijk akkoord het artikel over bariatrische chirurgie en een knieprothese toegevoegd. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Artikelkaart voor '8 vragen over obesitasmedicijnen bij reuma en artrose' toegevoegd na expliciet publicatie-akkoord van Matthijs op 26 augustus 2026. Op 6 september 2026 is na expliciet publicatie-akkoord het nieuwsbericht over de start van Leonie Meihuizen toegevoegd. Op 7 september 2026 is na expliciet inhoudelijk akkoord het artikel over bariatrische chirurgie en een knieprothese toegevoegd. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html",
       "title": "Knieprothese of bariatrische chirurgie bij obesitas?",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-09-07",
-      "review_notes": "Artikel over de SWIFT-studie, bariatrische chirurgie en een knieprothese na gezamenlijke redactionele review expliciet inhoudelijk akkoord en voor publicatie vrijgegeven door Matthijs op 7 september 2026. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Artikel over de SWIFT-studie, bariatrische chirurgie en een knieprothese na gezamenlijke redactionele review expliciet inhoudelijk akkoord en voor publicatie vrijgegeven door Matthijs op 7 september 2026. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html",
       "title": "8 vragen over obesitasmedicijnen | Matthijs van Dam",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-08-26",
-      "review_notes": "Patiëntgericht nieuwsbericht over de ReumaNederland-publicatie, bijdrageomschrijving, bronverwijzing en medische veiligheidsgrens expliciet goedgekeurd voor publicatie door Matthijs op 26 augustus 2026. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Patiëntgericht nieuwsbericht over de ReumaNederland-publicatie, bijdrageomschrijving, bronverwijzing en medische veiligheidsgrens expliciet goedgekeurd voor publicatie door Matthijs op 26 augustus 2026. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html",
       "title": "Leonie Meihuizen bij Tilburg Cohort | drs. Matthijs van Dam",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-09-06",
-      "review_notes": "Nieuwsbericht over de start van Leonie Meihuizen als onderzoeker voor het Transmuraal Tilburg Cohort na gezamenlijke redactionele review expliciet inhoudelijk akkoord en voor publicatie vrijgegeven door Matthijs op 6 september 2026. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Nieuwsbericht over de start van Leonie Meihuizen als onderzoeker voor het Transmuraal Tilburg Cohort na gezamenlijke redactionele review expliciet inhoudelijk akkoord en voor publicatie vrijgegeven door Matthijs op 6 september 2026. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html",
       "title": "Obesitasmedicatie en knieartrose: minder pijn, minder bewegen?",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-09-06",
-      "review_notes": "Inleiding op 26 augustus 2026 aangepast met een persoonlijke aanleiding en explicietere duiding van de verwachting rond pijn, gewicht en bewegen. Definitieve versie expliciet inhoudelijk akkoord gegeven door Matthijs op 3 september 2026. Op 6 september 2026 is op verzoek van Matthijs uitsluitend de mobiele afbreking van lange artikelkoppen technisch gecorrigeerd; de medische inhoud is niet gewijzigd. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Inleiding op 26 augustus 2026 aangepast met een persoonlijke aanleiding en explicietere duiding van de verwachting rond pijn, gewicht en bewegen. Definitieve versie expliciet inhoudelijk akkoord gegeven door Matthijs op 3 september 2026. Op 6 september 2026 is op verzoek van Matthijs uitsluitend de mobiele afbreking van lange artikelkoppen technisch gecorrigeerd; de medische inhoud is niet gewijzigd. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "artikelen/aaos-richtlijn-enkelartrose.html",
       "title": "AAOS-richtlijn voor enkelartrose | drs. Matthijs van Dam",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-08-26",
-      "review_notes": "Inhoudelijk nagekeken en op 26 augustus 2026 expliciet akkoord gegeven voor gezamenlijke publicatie met de patiëntenpagina over enkelartrose en wederzijdse interne links. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Inhoudelijk nagekeken en op 26 augustus 2026 expliciet akkoord gegeven voor gezamenlijke publicatie met de patiëntenpagina over enkelartrose en wederzijdse interne links. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "artikelen/footprint-quick-scan-etz-fit-follow-up.html",
       "title": "Footprint Quick Scan binnen ETZ Fit | drs. Matthijs van Dam",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-07-14",
-      "review_notes": "Follow-upartikel over de Footprint Quick Scan binnen ETZ Fit inhoudelijk akkoord gegeven door Matthijs na beeldcorrectie, ETZ Wetenschapsbureau-link en toonaanpassing. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Follow-upartikel over de Footprint Quick Scan binnen ETZ Fit inhoudelijk akkoord gegeven door Matthijs na beeldcorrectie, ETZ Wetenschapsbureau-link en toonaanpassing. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "behandelingen.html",
       "title": "Klachten en behandelingen | drs. Matthijs van Dam",
       "spoor": "patient",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-09-06",
-      "review_notes": "Behandelingen-overzicht opnieuw inhoudelijk akkoord gegeven door Matthijs na verwijderen van Lisfranc- en middenvoetletsel als zichtbare behandelkaart. Op 27 augustus 2026 is na expliciet publicatie-akkoord een kaart naar de geverifieerde enkelprothesepagina toegevoegd; overige kaartinhoud bleef ongewijzigd. Op 28 augustus 2026 op verzoek van Matthijs lokaal het label Voor patiënten toegevoegd, de introductie vanuit zijn perspectief geschreven en de profieltekst ingekort en naar het pasfotoblok verplaatst. Op verzoek van Matthijs zijn de dubbele sectietoelichtingen en de verwijzing naar de lokale pijnwijzer verwijderd. Klachten en behandelingen staan nu in één overzicht met verwante onderwerpen bij elkaar; kaartinhoud, links, labels en filters zijn behouden. Definitieve versie expliciet inhoudelijk akkoord gegeven door Matthijs op 2 september 2026. Op 6 september 2026 is de bestaande hallux-rigidustegel op zijn verzoek klikbaar gemaakt naar de afzonderlijk goedgekeurde pagina. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Behandelingen-overzicht opnieuw inhoudelijk akkoord gegeven door Matthijs na verwijderen van Lisfranc- en middenvoetletsel als zichtbare behandelkaart. Op 27 augustus 2026 is na expliciet publicatie-akkoord een kaart naar de geverifieerde enkelprothesepagina toegevoegd; overige kaartinhoud bleef ongewijzigd. Op 28 augustus 2026 op verzoek van Matthijs lokaal het label Voor patiënten toegevoegd, de introductie vanuit zijn perspectief geschreven en de profieltekst ingekort en naar het pasfotoblok verplaatst. Op verzoek van Matthijs zijn de dubbele sectietoelichtingen en de verwijzing naar de lokale pijnwijzer verwijderd. Klachten en behandelingen staan nu in één overzicht met verwante onderwerpen bij elkaar; kaartinhoud, links, labels en filters zijn behouden. Definitieve versie expliciet inhoudelijk akkoord gegeven door Matthijs op 2 september 2026. Op 6 september 2026 is de bestaande hallux-rigidustegel op zijn verzoek klikbaar gemaakt naar de afzonderlijk goedgekeurde pagina. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "behandelingen/enkelverzwikking.html",
       "title": "Enkelverzwikking | Door de enkel gegaan | drs. Matthijs van Dam",
       "spoor": "patient",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-09-06",
-      "review_notes": "Pagina op 27 augustus 2026 opnieuw inhoudelijk gecontroleerd en expliciet akkoord gegeven door Matthijs na actualisatie van de zorgroute, praktische behandelvolgorde, tweede-meningtekst en de vergelijking met andere oorzaken van enkelklachten. Op 6 september 2026 heeft Matthijs de eerder bij hallux rigidus gekozen auteursregel expliciet bevestigd voor alle behandelpagina’s. Het auteursblok is gelijkgetrokken naar: Ik ben orthopeed in het Orthopedisch Centrum ETZ in Tilburg. Ook is de juiste bestaande beeldklasse toegevoegd aan de vier tussenafbeeldingen, zodat hun oorspronkelijke verhouding behouden blijft. De medische pagina-inhoud is niet gewijzigd. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Pagina op 27 augustus 2026 opnieuw inhoudelijk gecontroleerd en expliciet akkoord gegeven door Matthijs na actualisatie van de zorgroute, praktische behandelvolgorde, tweede-meningtekst en de vergelijking met andere oorzaken van enkelklachten. Op 6 september 2026 heeft Matthijs de eerder bij hallux rigidus gekozen auteursregel expliciet bevestigd voor alle behandelpagina’s. Het auteursblok is gelijkgetrokken naar: Ik ben orthopeed in het Orthopedisch Centrum ETZ in Tilburg. Ook is de juiste bestaande beeldklasse toegevoegd aan de vier tussenafbeeldingen, zodat hun oorspronkelijke verhouding behouden blijft. De medische pagina-inhoud is niet gewijzigd. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "behandelingen/enkelartrose.html",
       "title": "Artrose van de enkel | drs. Matthijs van Dam",
       "spoor": "patient",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-09-06",
-      "review_notes": "Inhoudelijk nagekeken en op 26 augustus 2026 expliciet akkoord gegeven voor publicatie. De pagina verwijst naar het AAOS-richtlijnartikel en niet naar de nog onvoltooide Voet- en enkelpijnwijzer. Op 6 september 2026 heeft Matthijs de eerder bij hallux rigidus gekozen auteursregel expliciet bevestigd voor alle behandelpagina’s; alleen het auteursblok is gelijkgetrokken naar: Ik ben orthopeed in het Orthopedisch Centrum ETZ in Tilburg. De medische pagina-inhoud is niet gewijzigd. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Inhoudelijk nagekeken en op 26 augustus 2026 expliciet akkoord gegeven voor publicatie. De pagina verwijst naar het AAOS-richtlijnartikel en niet naar de nog onvoltooide Voet- en enkelpijnwijzer. Op 6 september 2026 heeft Matthijs de eerder bij hallux rigidus gekozen auteursregel expliciet bevestigd voor alle behandelpagina’s; alleen het auteursblok is gelijkgetrokken naar: Ik ben orthopeed in het Orthopedisch Centrum ETZ in Tilburg. De medische pagina-inhoud is niet gewijzigd. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "behandelingen/enkelprothese.html",
       "title": "Enkelprothese: herstel en verwachtingen | drs. Matthijs van Dam",
       "spoor": "patient",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-09-06",
-      "review_notes": "De volledige patiëntgerichte pagina over enkelprothesen is op 27 augustus 2026 inhoudelijk gecontroleerd en expliciet goedgekeurd voor publicatie door Matthijs. Toestemming voor het gebruikte LROI-beeld is door Matthijs bevestigd. Op 6 september 2026 heeft Matthijs de eerder bij hallux rigidus gekozen auteursregel expliciet bevestigd voor alle behandelpagina’s; alleen het auteursblok is gelijkgetrokken naar: Ik ben orthopeed in het Orthopedisch Centrum ETZ in Tilburg. De medische pagina-inhoud is niet gewijzigd. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "De volledige patiëntgerichte pagina over enkelprothesen is op 27 augustus 2026 inhoudelijk gecontroleerd en expliciet goedgekeurd voor publicatie door Matthijs. Toestemming voor het gebruikte LROI-beeld is door Matthijs bevestigd. Op 6 september 2026 heeft Matthijs de eerder bij hallux rigidus gekozen auteursregel expliciet bevestigd voor alle behandelpagina’s; alleen het auteursblok is gelijkgetrokken naar: Ik ben orthopeed in het Orthopedisch Centrum ETZ in Tilburg. De medische pagina-inhoud is niet gewijzigd. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "behandelingen/hallux-rigidus.html",
       "title": "Hallux rigidus | Artrose grote teen | drs. Matthijs van Dam",
       "spoor": "patient",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-09-06",
-      "review_notes": "De volledige patiëntgerichte pagina over hallux rigidus is na de redactionele ronde expliciet inhoudelijk goedgekeurd voor publicatie door Matthijs op 6 september 2026. De concept-pijnwijzer en links naar overige concept-behandelpagina's zijn bewust niet opgenomen in de publieke pagina. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "De volledige patiëntgerichte pagina over hallux rigidus is na de redactionele ronde expliciet inhoudelijk goedgekeurd voor publicatie door Matthijs op 6 september 2026. De concept-pijnwijzer en links naar overige concept-behandelpagina's zijn bewust niet opgenomen in de publieke pagina. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "over-mij.html",
       "title": "Over drs. Matthijs van Dam | Orthopedisch chirurg Tilburg",
       "spoor": "algemeen",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-09-02",
-      "review_notes": "De volledige profielpagina is op 2 september 2026 door Matthijs gereviewd en expliciet akkoord bevonden. Dit omvat het compacte publicatieblok, de mobiele volgorde van de aanvullende profielblokken, Recent artikel zonder zichtbare datum en Onderzoek en projecten. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "De volledige profielpagina is op 2 september 2026 door Matthijs gereviewd en expliciet akkoord bevonden. Dit omvat het compacte publicatieblok, de mobiele volgorde van de aanvullende profielblokken, Recent artikel zonder zichtbare datum en Onderzoek en projecten. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "professionals.html",
       "title": "Orthopedische samenwerking regio Tilburg | drs. Matthijs van Dam",
       "spoor": "professional",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-09-06",
-      "review_notes": "De volledige actuele professionals-pagina is op 6 september 2026 expliciet inhoudelijk akkoord bevonden door Matthijs, inclusief de Doctolib-uitlijning, de verbeterde avondmoduscontrasten en de bestaande contactgrenzen. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "De volledige actuele professionals-pagina is op 6 september 2026 expliciet inhoudelijk akkoord bevonden door Matthijs, inclusief de Doctolib-uitlijning, de verbeterde avondmoduscontrasten en de bestaande contactgrenzen. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "advies-consultancy.html",
       "title": "Medisch-specialistisch advies | drs. Matthijs van Dam",
       "spoor": "advies_consultancy",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-09-06",
-      "review_notes": "De volledige actuele advies- en consultancypagina is op 6 september 2026 expliciet gecontroleerd en akkoord bevonden voor publicatie door Matthijs. Dit omvat de positionering als medisch-specialistisch advies voor organisaties, de FOOTprint Quick Scan op locatie, de vereenvoudigde werkvormteksten, het herstelde hero-contrast in avondmodus en de niet-patiëntgebonden contactgrens. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "De volledige actuele advies- en consultancypagina is op 6 september 2026 expliciet gecontroleerd en akkoord bevonden voor publicatie door Matthijs. Dit omvat de positionering als medisch-specialistisch advies voor organisaties, de FOOTprint Quick Scan op locatie, de vereenvoudigde werkvormteksten, het herstelde hero-contrast in avondmodus en de niet-patiëntgebonden contactgrens. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "publicaties.html",
       "title": "Publicaties en bijdragen | drs. Matthijs van Dam",
       "spoor": "professional",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-07-14",
-      "review_notes": "Publicatieoverzicht opnieuw inhoudelijk akkoord gegeven door Matthijs na stem-consistentieronde. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Publicatieoverzicht opnieuw inhoudelijk akkoord gegeven door Matthijs na stem-consistentieronde. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "projecten.html",
       "title": "Projecten | drs. Matthijs van Dam",
       "spoor": "project",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-07-01",
-      "review_notes": "Projectenoverzicht inhoudelijk akkoord gegeven door Matthijs op 1 juli 2026 na toevoeging en statusupdate van de VRxOA-projectkaart. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Projectenoverzicht inhoudelijk akkoord gegeven door Matthijs op 1 juli 2026 na toevoeging en statusupdate van de VRxOA-projectkaart. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "artikelen/digitaal-zorgpad-artrose-obesitas.html",
       "title": "Digitale artrosezorg in Tilburg | drs. Matthijs van Dam",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-06-23",
-      "review_notes": "Artikel over Leefstijlcoalitie-voucher en digitale artrosezorg inhoudelijk akkoord gegeven door Matthijs. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Artikel over Leefstijlcoalitie-voucher en digitale artrosezorg inhoudelijk akkoord gegeven door Matthijs. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "artikelen/vaillant-fonds-digitaal-zorgpad.html",
       "title": "Vaillant Fonds en digitaal zorgpad | drs. Matthijs van Dam",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-06-27",
-      "review_notes": "Vaillant Fonds-artikel opnieuw gecontroleerd; titelmetadata en publicatiestatus afgestemd op 27 juni 2026. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Vaillant Fonds-artikel opnieuw gecontroleerd; titelmetadata en publicatiestatus afgestemd op 27 juni 2026. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "artikelen/footprint-quick-scan-medewerkers.html",
       "title": "FOOTprint Quick Scan voor medewerkers | drs. Matthijs van Dam",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-06-23",
-      "review_notes": "Artikel over FOOTprint Quick Scan voor medewerkers inhoudelijk akkoord gegeven door Matthijs. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Artikel over FOOTprint Quick Scan voor medewerkers inhoudelijk akkoord gegeven door Matthijs. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "artikelen/we-walk-ar-campusroute-tilburg.html",
       "title": "We Walk AR-prototype op Tilburg University",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-06-24",
-      "review_notes": "Artikel over We Walk AR-campusroute inhoudelijk akkoord gegeven door Matthijs. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Artikel over We Walk AR-campusroute inhoudelijk akkoord gegeven door Matthijs. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "artikelen/patientpanel-leefstijl-orthopedie.html",
       "title": "Patientpanel over leefstijl en orthopedie | drs. Matthijs van Dam",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-07-20",
       "offline_after": "2026-12-23",
-      "review_notes": "De verlopen oproep is op 20 juli 2026 van de homepage gehaald en op de artikelpagina als gesloten gemarkeerd. De eindtekst is expliciet inhoudelijk akkoord bevonden door Matthijs. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "De verlopen oproep is op 20 juli 2026 van de homepage gehaald en op de artikelpagina als gesloten gemarkeerd. De eindtekst is expliciet inhoudelijk akkoord bevonden door Matthijs. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "artikelen/heracleum-hulpfonds-subsidie-transmuraal-tilburg-cohort.html",
       "title": "Subsidie Transmuraal Tilburg Cohort | drs. Matthijs van Dam",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-06-23",
-      "review_notes": "Heracleum Hulpfonds-artikel inhoudelijk akkoord gegeven door Matthijs na wijziging onderzoeksverpleegkundige naar klinisch onderzoeker. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Heracleum Hulpfonds-artikel inhoudelijk akkoord gegeven door Matthijs na wijziging onderzoeksverpleegkundige naar klinisch onderzoeker. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html",
       "title": "Niet vastgegroeide artrodese en revisie",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-06-24",
-      "review_notes": "Patiëntartikel over niet vastgegroeide artrodese en revisie inhoudelijk akkoord gegeven door Matthijs. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Patiëntartikel over niet vastgegroeide artrodese en revisie inhoudelijk akkoord gegeven door Matthijs. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "artikelen/patient-specifieke-instrumentatie-voet-enkel-professionals.html",
       "title": "Patient-specifieke instrumentatie voet en enkel",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-06-24",
-      "review_notes": "Professionalsartikel over patiënt-specifieke instrumentatie bij voet- en enkelchirurgie inhoudelijk akkoord gegeven door Matthijs. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Professionalsartikel over patiënt-specifieke instrumentatie bij voet- en enkelchirurgie inhoudelijk akkoord gegeven door Matthijs. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "artikelen/aios-foot-education-munich.html",
       "title": "AIOS-onderwijs voet en enkel in Munchen | drs. Matthijs van Dam",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-06-24",
-      "review_notes": "Artikel over AIOS-onderwijs voet en enkel in München inhoudelijk akkoord gegeven door Matthijs na inkorten en toonaanpassing. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Artikel over AIOS-onderwijs voet en enkel in München inhoudelijk akkoord gegeven door Matthijs na inkorten en toonaanpassing. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "artikelen/probleemgeorienteerd-denken-orthopedie-boekbijdrage.html",
       "title": "Probleemgeoriënteerd denken orthopedie | drs. Matthijs van Dam",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-06-27",
-      "review_notes": "Compact artikel over leerboekbijdrage opnieuw gecontroleerd; titelmetadata en publicatiestatus afgestemd op 27 juni 2026. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Compact artikel over leerboekbijdrage opnieuw gecontroleerd; titelmetadata en publicatiestatus afgestemd op 27 juni 2026. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "artikelen/artrosezorg-transitie-professionals.html",
       "title": "Artrosezorg in transitie | Professionals",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-06-24",
-      "review_notes": "Professionalsartikel inhoudelijk akkoord gegeven door Matthijs na herschrijving met meer persoonlijke professionele duiding. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Professionalsartikel inhoudelijk akkoord gegeven door Matthijs na herschrijving met meer persoonlijke professionele duiding. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "artikelen/mobility-clinic-tilburg-patienten.html",
       "title": "Mobility Clinic Tilburg voor patiënten | drs. Matthijs van Dam",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-06-27",
-      "review_notes": "Patiëntartikel over Mobility Clinic Tilburg opnieuw gecontroleerd; titelmetadata en publicatiestatus afgestemd op 27 juni 2026. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Patiëntartikel over Mobility Clinic Tilburg opnieuw gecontroleerd; titelmetadata en publicatiestatus afgestemd op 27 juni 2026. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "artikelen/mobility-clinic-tilburg-professionals.html",
       "title": "Mobility Clinic Tilburg | professionals | drs. Matthijs van Dam",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-06-27",
-      "review_notes": "Professionalsartikel over Mobility Clinic Tilburg opnieuw gecontroleerd; titelmetadata en publicatiestatus afgestemd op 27 juni 2026. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Professionalsartikel over Mobility Clinic Tilburg opnieuw gecontroleerd; titelmetadata en publicatiestatus afgestemd op 27 juni 2026. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "artikelen/artrosezorg-transitie-patienten.html",
       "title": "Artrosezorg in transitie | Wat betekent dit voor patiënten?",
       "spoor": "artikel",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-06-23",
-      "review_notes": "Patiëntartikel inhoudelijk akkoord gegeven door Matthijs na herschrijving en aanscherping van persoonlijke medeauteursduiding. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Patiëntartikel inhoudelijk akkoord gegeven door Matthijs na herschrijving en aanscherping van persoonlijke medeauteursduiding. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "projecten/transmuraal-tilburg-cohort.html",
       "title": "Transmuraal Tilburg Cohort | drs. Matthijs van Dam",
       "spoor": "project",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-09-06",
-      "review_notes": "De volledige actuele projectpagina is op 6 september 2026 expliciet akkoord bevonden door Matthijs, inclusief de verplaatste bronvermelding en de actuele status van het projectteam en Leonie Meihuizen. Na het expliciete publicatie-akkoord op 6 september 2026 verschijnt het nieuwe nieuwsbericht over Leonies start automatisch onder Laatste nieuws. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "De volledige actuele projectpagina is op 6 september 2026 expliciet akkoord bevonden door Matthijs, inclusief de verplaatste bronvermelding en de actuele status van het projectteam en Leonie Meihuizen. Na het expliciete publicatie-akkoord op 6 september 2026 verschijnt het nieuwe nieuwsbericht over Leonies start automatisch onder Laatste nieuws. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "projecten/leefstijlgerichte-kansen-orthopedie.html",
       "title": "Leefstijl en orthopedie | NOV-project | drs. Matthijs van Dam",
       "spoor": "project",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-09-06",
-      "review_notes": "De volledige actuele projectpagina, inclusief de naar onderaan verplaatste bronvermelding, is op 6 september 2026 expliciet akkoord bevonden door Matthijs. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "De volledige actuele projectpagina, inclusief de naar onderaan verplaatste bronvermelding, is op 6 september 2026 expliciet akkoord bevonden door Matthijs. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "projecten/we-walk.html",
       "title": "We Walk: AR, artrose en bewegen | drs. Matthijs van Dam",
       "spoor": "project",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-06-27",
-      "review_notes": "We Walk-projectpagina opnieuw gecontroleerd; publicatiestatus bevestigd op 27 juni 2026. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "We Walk-projectpagina opnieuw gecontroleerd; publicatiestatus bevestigd op 27 juni 2026. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "projecten/vrxoa-immersive-experiences-artrose.html",
       "title": "VRxOA: immersive experiences bij artrose | drs. Matthijs van Dam",
       "spoor": "project",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-09-06",
-      "review_notes": "Actuele VRxOA-projectpagina expliciet akkoord voor publicatie door Matthijs op 6 september 2026, inclusief VerseUs Games als projectpartner, het compacte standaard ingeklapte kader, de korte bronregel onderaan en de verbeterde leesbaarheid in avondmodus. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Actuele VRxOA-projectpagina expliciet akkoord voor publicatie door Matthijs op 6 september 2026, inclusief VerseUs Games als projectpartner, het compacte standaard ingeklapte kader, de korte bronregel onderaan en de verbeterde leesbaarheid in avondmodus. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "projecten/3d-planning-voet-enkel.html",
       "title": "3D-planning voet- en enkelchirurgie | ETZ | drs. Matthijs van Dam",
       "spoor": "project",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-06-27",
-      "review_notes": "3D-planningprojectpagina opnieuw gecontroleerd; titelmetadata en publicatiestatus afgestemd op 27 juni 2026. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "3D-planningprojectpagina opnieuw gecontroleerd; titelmetadata en publicatiestatus afgestemd op 27 juni 2026. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "projecten/footprint-quick-scan.html",
       "title": "FOOTprint Quick Scan | studie | drs. Matthijs van Dam",
       "spoor": "project",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-09-06",
-      "review_notes": "Studiepagina inhoudelijk akkoord en voor publicatie vrijgegeven door Matthijs op 6 september 2026. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Studiepagina inhoudelijk akkoord en voor publicatie vrijgegeven door Matthijs op 6 september 2026. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "privacy.html",
       "title": "Privacy | drs. Matthijs van Dam",
       "spoor": "juridisch",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-09-07",
-      "review_notes": "Privacyverklaring inhoudelijk akkoord gegeven door Matthijs na compacte compliance- en medische veiligheidsreview en verwijderen van dubbele contactformulierpassage. Contactrelease in voorbereiding: Matthijs bevestigt persoonlijke verantwoordelijkheid, geen betrokkenheid ETZ, twaalf maanden na afhandeling en maandelijkse controle. Nog niet gedeployed; leveranciersafstemming loopt. Matthijs heeft de contactlivegang expliciet opgedragen na bevestiging van persoonlijke verantwoordelijkheid en bewaartermijn; nieuwsbrief blijft uit. Contactformulier inclusief websitetip en bijbehorende privacytekst vallen binnen deze release. Op 7 september 2026 geeft Matthijs expliciet akkoord voor livegang van de aangepaste contactgrenzen, duidelijke verzendbevestiging en aansluitende privacyuitleg: korte aanleiding toegestaan, geen medische advies- of afspraakroute. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Privacyverklaring inhoudelijk akkoord gegeven door Matthijs na compacte compliance- en medische veiligheidsreview en verwijderen van dubbele contactformulierpassage. Contactrelease in voorbereiding: Matthijs bevestigt persoonlijke verantwoordelijkheid, geen betrokkenheid ETZ, twaalf maanden na afhandeling en maandelijkse controle. Nog niet gedeployed; leveranciersafstemming loopt. Matthijs heeft de contactlivegang expliciet opgedragen na bevestiging van persoonlijke verantwoordelijkheid en bewaartermijn; nieuwsbrief blijft uit. Contactformulier inclusief websitetip en bijbehorende privacytekst vallen binnen deze release. Op 7 september 2026 geeft Matthijs expliciet akkoord voor livegang van de aangepaste contactgrenzen, duidelijke verzendbevestiging en aansluitende privacyuitleg: korte aanleiding toegestaan, geen medische advies- of afspraakroute. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     },
     {
       "path": "disclaimer.html",
       "title": "Disclaimer | drs. Matthijs van Dam",
       "spoor": "juridisch",
-      "verification_status": "review_nodig",
+      "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-06-23",
-      "review_notes": "Disclaimer inhoudelijk akkoord gegeven door Matthijs na compacte compliance-, medische veiligheids- en ICT-review; geen tekstwijziging nodig. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open."
+      "review_notes": "Disclaimer inhoudelijk akkoord gegeven door Matthijs na compacte compliance-, medische veiligheids- en ICT-review; geen tekstwijziging nodig. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
     }
   ]
 }

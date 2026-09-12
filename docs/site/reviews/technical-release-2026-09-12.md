@@ -1,6 +1,8 @@
 # Technische release — 12 september 2026
 
-Status: lokaal voorbereid en technisch gecontroleerd; niet gepubliceerd.
+Status: technisch pakket 143e5a0 expliciet goedgekeurd voor publicatie door Matthijs op 12 september 2026; deployment en liveverificatie worden nu uitgevoerd.
+
+De onderstaande voorbereidingsbevindingen beschrijven de stand vóór dat akkoord.
 Opdracht: Matthijs vroeg “regel punt 2”: menu afronden, conceptbescherming en websiteadres gelijkzetten.
 
 ## Concreet resultaat
@@ -65,3 +67,7 @@ ADR-0004 (consistente SEO-signalen), ADR-0006 (concept/publicatiegrens) en ADR-0
 Geen deployment, domeinwijziging, formulierverzending of medische bronreview uitgevoerd. Geen volledige WCAG-audit.
 
 Bron voor de bestaande Vercel-domeinroute: https://vercel.com/docs/domains/working-with-domains/deploying-and-redirecting (geraadpleegd 12 september 2026).
+
+## Eigenaarakkoord
+
+Matthijs antwoordde “ja” op de expliciete vraag dit technische pakket te publiceren. Dat akkoord betreft de menufix, de conceptuitsluitingen en normalisatie naar de bestaande www-route. Het register legt dit akkoord afzonderlijk vast met verwijzing naar 143e5a0; eerdere medische goedkeuringsgegevens blijven behouden. Productietak en bestaande Vercel-deployment stonden bij de controle nog op bfdf87d.
