@@ -6611,3 +6611,70 @@ a {
 
 #contact .contact-form-organized button[type="submit"] { background: var(--green); color: var(--white); border: 1px solid var(--green); font: inherit; font-weight: 650; }
 :root[data-theme="dark"] #contact .contact-form-organized button[type="submit"] { color: #102019; }
+
+/* Article overview: compact filters beside the reading area. */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+.articles-browser {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  align-items: start;
+  gap: 40px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 130px 32px 64px;
+}
+.articles-browser .listing-hero {
+  display: block;
+  padding: 0;
+  text-align: left;
+  min-width: 0;
+}
+.articles-browser .filter-panel { margin: 0; gap: 24px; width: 100%; max-width: none; }
+.articles-browser .filter-group {
+  padding: 0 0 20px;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.articles-browser .filter-group summary {
+  font-size: 0.95rem;
+  font-weight: 800;
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+.articles-browser .filter-bar { justify-content: flex-start; gap: 6px; }
+.articles-browser .filter-button {
+  width: 100%;
+  text-align: left;
+  font-size: 0.88rem;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 8px 12px;
+  min-height: 40px;
+}
+.articles-browser .listing-section { padding: 0; min-width: 0; }
+@media (max-width: 1000px) and (min-width: 761px) {
+  .articles-browser { grid-template-columns: 180px minmax(0, 1fr); gap: 24px; }
+  .articles-browser .article-grid-listing { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 760px) {
+  .articles-browser { display: block; padding: 108px 20px 40px; }
+  .articles-browser .listing-hero { margin-bottom: 24px; }
+  .articles-browser .filter-panel { gap: 12px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .articles-browser .filter-group { padding-bottom: 10px; }
+  .articles-browser .filter-group summary { margin-bottom: 0; min-height: 32px; }
+  .articles-browser .filter-group[open] summary { margin-bottom: 10px; }
+  .articles-browser .filter-button { width: auto; min-height: 44px; }
+}

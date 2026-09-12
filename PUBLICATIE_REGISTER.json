@@ -31,12 +31,12 @@
     },
     {
       "path": "artikelen.html",
-      "title": "Artikelen en updates | drs. Matthijs van Dam",
+      "title": "Artikelen | drs. Matthijs van Dam",
       "spoor": "algemeen",
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-09-07",
-      "review_notes": "Artikelkaart voor '8 vragen over obesitasmedicijnen bij reuma en artrose' toegevoegd na expliciet publicatie-akkoord van Matthijs op 26 augustus 2026. Op 6 september 2026 is na expliciet publicatie-akkoord het nieuwsbericht over de start van Leonie Meihuizen toegevoegd. Op 7 september 2026 is na expliciet inhoudelijk akkoord het artikel over bariatrische chirurgie en een knieprothese toegevoegd. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment.",
+      "verified_on": "2026-09-12",
+      "review_notes": "Artikelkaart voor '8 vragen over obesitasmedicijnen bij reuma en artrose' toegevoegd na expliciet publicatie-akkoord van Matthijs op 26 augustus 2026. Op 6 september 2026 is na expliciet publicatie-akkoord het nieuwsbericht over de start van Leonie Meihuizen toegevoegd. Op 7 september 2026 is na expliciet inhoudelijk akkoord het artikel over bariatrische chirurgie en een knieprothese toegevoegd. 12 september 2026: lokale technische release voorbereid met www-hostnormalisatie en verse CSS/JS-cacheversies. Zichtbare medische/professionele tekst ongewijzigd; eerdere inhoudelijke goedkeuring hierboven blijft historische evidence. Akkoord op deze technische release en liveverificatie staan open. 12 september 2026: Matthijs geeft vervolgens expliciet akkoord op publicatie van het technische pakket 143e5a0. Eerdere inhoudelijke review blijft behouden. Liveverificatie volgt na deployment. Matthijs geeft expliciet akkoord voor livegang van het gecontroleerde artikeloverzicht: onzichtbare H1, compacte filters links, mobiele uitklaplijsten, afhankelijke doelgroep- en onderwerpfilters en drie artikelkaarten met overige titels. Akkoord: ok akkoord voor live,pagina dus gecontroleerd.",
       "technical_release_approval": {
         "approved_by": "Matthijs van Dam",
         "approved_on": "2026-09-12",

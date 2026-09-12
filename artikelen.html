@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Artikelen en updates | drs. Matthijs van Dam</title>
+    <title>Artikelen | drs. Matthijs van Dam</title>
     <meta name="description" content="Nieuws, projectupdates en achtergrondartikelen van drs. Matthijs van Dam.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://www.matthijsvandam.nl/artikelen.html">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="nl_NL">
     <meta property="og:site_name" content="drs. Matthijs van Dam">
-    <meta property="og:title" content="Artikelen en updates">
+    <meta property="og:title" content="Artikelen">
     <meta property="og:description" content="Nieuws, projectupdates en achtergrondartikelen van drs. Matthijs van Dam.">
     <meta property="og:url" content="https://www.matthijsvandam.nl/artikelen.html">
     <meta property="og:image" content="https://www.matthijsvandam.nl/assets/social-preview.png">
@@ -19,17 +19,17 @@
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="drs. Matthijs van Dam, orthopedisch chirurg in Tilburg">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Artikelen en updates">
+    <meta name="twitter:title" content="Artikelen">
     <meta name="twitter:description" content="Nieuws, projectupdates en achtergrondartikelen van drs. Matthijs van Dam.">
     <meta name="twitter:image" content="https://www.matthijsvandam.nl/assets/social-preview.png">
     <meta name="twitter:image:alt" content="drs. Matthijs van Dam, orthopedisch chirurg in Tilburg">
     <link rel="icon" href="assets/logo-mvd-mark-v2.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css?v=20260912-technical">
+    <link rel="stylesheet" href="styles.css?v=20260913-article-layout2">
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "CollectionPage",
-        "name": "Artikelen en updates",
+        "name": "Artikelen",
         "description": "Nieuws, projectupdates en achtergrondartikelen van drs. Matthijs van Dam.",
         "url": "https://www.matthijsvandam.nl/artikelen.html",
         "inLanguage": "nl-NL",
@@ -67,20 +67,20 @@
         <a href="index.html#contact">Contact</a>
       </nav>
     </header>
-    <main class="listing-page" id="articles-content">
-      <section class="listing-hero" aria-labelledby="articles-overview-title">
-        <h1 id="articles-overview-title">Artikelen en updates</h1>
+    <main class="listing-page articles-browser" id="articles-content">
+      <h1 class="visually-hidden" id="articles-overview-title">Artikelen</h1>
+      <aside class="listing-hero" aria-label="Artikelen filteren">
         <div class="filter-panel" aria-label="Artikel filters">
-          <div class="filter-group" data-filter-group="audience">
-            <p>Voor wie</p>
+          <details class="filter-group" data-filter-group="audience" open>
+            <summary>Voor wie</summary>
             <div class="filter-bar" data-filter-options="audience"></div>
-          </div>
-          <div class="filter-group" data-filter-group="topic">
-            <p>Categorie</p>
+          </details>
+          <details class="filter-group" data-filter-group="topic" open>
+            <summary>Onderwerp</summary>
             <div class="filter-bar" data-filter-options="topic"></div>
-          </div>
+          </details>
         </div>
-      </section>
+      </aside>
       <section class="section listing-section" aria-label="Artikeloverzicht">
         <div class="article-grid article-grid-listing" data-content="articles-list"></div>
         <div class="article-compact-section" data-compact-articles-section hidden>
@@ -100,18 +100,33 @@
         <a href="disclaimer.html">Disclaimer</a>
       </span>
     </footer>
-    <script src="content.js?v=20260619hub1"></script>
+    <script src="content.js?v=20260913-article-layout2"></script>
     <script src="script.js?v=20260912-technical"></script>
     <script>
       (() => {
         const groups = Array.from(document.querySelectorAll('[data-filter-group]'));
-        const cards = Array.from(document.querySelectorAll('[data-audience][data-topics]'));
         const empty = document.querySelector('[data-filter-empty]');
+        document.querySelectorAll('[data-filter=""]').forEach(button => button.remove());
+        const narrow = window.matchMedia('(max-width: 760px)');
+        const setFilterDisclosure = () => groups.forEach(group => { group.open = !narrow.matches; });
+        setFilterDisclosure();
+        narrow.addEventListener('change', setFilterDisclosure);
         const params = new URLSearchParams(window.location.search);
         const state = {
           audience: params.get('audience') || '',
           topic: params.get('topic') || '',
         };
+        const projectId = params.get('project') || '';
+        const project = window.siteContent.projects.find((item) => item.id === projectId);
+        if (project) {
+          const note = document.createElement('p');
+          note.textContent = `Artikelen bij ${project.title}. `;
+          const reset = document.createElement('a');
+          reset.href = 'artikelen.html';
+          reset.textContent = 'Bekijk alle artikelen';
+          note.append(reset);
+          document.querySelector('.filter-panel').before(note);
+        }
         const syncUrl = () => {
           const url = new URL(window.location.href);
           url.searchParams.delete('label');
@@ -121,35 +136,41 @@
           else url.searchParams.set('topic', state.topic);
           history.replaceState(null, '', url);
         };
+        const sourceArticles = window.siteContent.articles.filter((article) =>
+          !project || window.siteContent.projectArticleMatches(article, projectId)
+        );
+        const hasMatches = () => sourceArticles.some((article) =>
+          (!state.audience || article.audience.includes(state.audience)) &&
+          (!state.topic || article.topics.includes(state.topic))
+        );
         const apply = () => {
           groups.forEach((group) => {
             const groupName = group.dataset.filterGroup;
+            const available = new Set(sourceArticles
+              .filter((article) => groupName === 'audience'
+                ? !state.topic || article.topics.includes(state.topic)
+                : !state.audience || article.audience.includes(state.audience))
+              .flatMap((article) => groupName === 'audience' ? article.audience : article.topics));
             group.querySelectorAll('[data-filter]').forEach((button) => {
               const isActive = button.dataset.filter === state[groupName];
+              button.hidden = !available.has(button.dataset.filter);
               button.classList.toggle('is-active', isActive);
               button.setAttribute('aria-pressed', String(isActive));
             });
           });
-          let visibleCount = 0;
-          cards.forEach((card) => {
-            const audiences = (card.dataset.audience || '').split(/\s+/);
-            const topics = (card.dataset.topics || '').split(/\s+/);
-            const audienceMatches = !state.audience || audiences.includes(state.audience);
-            const topicMatches = !state.topic || topics.includes(state.topic);
-            card.hidden = !(audienceMatches && topicMatches);
-            if (!card.hidden) visibleCount += 1;
-          });
-          document.querySelectorAll('[data-compact-articles-section]').forEach((section) => {
-            const visibleItems = Array.from(section.querySelectorAll('[data-audience][data-topics]')).some((item) => !item.hidden);
-            section.hidden = !visibleItems;
-          });
-          if (empty) empty.hidden = visibleCount !== 0;
+          const matches = sourceArticles.filter((article) =>
+            (!state.audience || article.audience.includes(state.audience)) &&
+            (!state.topic || article.topics.includes(state.topic))
+          );
+          window.siteContent.renderArticlesOverview(matches);
+          if (empty) empty.hidden = matches.length !== 0;
         };
         groups.forEach((group) => {
           const groupName = group.dataset.filterGroup;
           group.querySelectorAll('[data-filter]').forEach((button) => {
             button.addEventListener('click', () => {
               state[groupName] = state[groupName] === button.dataset.filter ? '' : button.dataset.filter || '';
+              if (!hasMatches()) state[groupName === 'topic' ? 'audience' : 'topic'] = '';
               syncUrl();
               apply();
             });
@@ -160,6 +181,9 @@
           const allowed = Array.from(group.querySelectorAll('[data-filter]')).map((button) => button.dataset.filter);
           if (state[groupName] && !allowed.includes(state[groupName])) state[groupName] = '';
         });
+        // Old links can contain incompatible choices; keep the subject in that case.
+        if (state.audience && state.topic && !hasMatches()) state.audience = '';
+        syncUrl();
         apply();
       })();
     </script>

@@ -1051,7 +1051,8 @@
   const sortByDateDesc = (items) =>
     [...items].sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
 
-  const archiveArticles = sortByDateDesc(articles).filter((article) => article.archive !== false);
+  const isArticlesOverview = /(?:^|\/)artikelen\.html$/.test(window.location.pathname);
+  const archiveArticles = sortByDateDesc(articles).filter((article) => isArticlesOverview || article.archive !== false);
 
   const filterLabels = {
     patienten: "Patiënten",
@@ -1760,7 +1761,7 @@
     return `
       <li class="article-compact-item" data-audience="${escapeHtml(article.audience.join(" "))}" data-topics="${escapeHtml(article.topics.join(" "))}">
         <a href="${resolvePath(article.url)}">${escapeHtml(article.title)}</a>
-        <span>${escapeHtml([audienceLabel, article.label].filter(Boolean).join(" · "))}</span>
+        <span>${isArticlesOverview ? "" : escapeHtml([audienceLabel, article.label].filter(Boolean).join(" · "))}</span>
       </li>
     `;
   };
@@ -1789,8 +1790,13 @@
     });
   };
 
+  const projectArticleMatches = (article, projectId) => article.project === projectId || (
+    projectId === "transmuraal-tilburg-cohort" &&
+    article.topics.includes("artrose") && article.topics.includes("leefstijl")
+  );
+
   const renderArticlesOverview = (items) => {
-    const cardLimit = 12;
+    const cardLimit = 3;
     document.querySelectorAll("[data-content='articles-list']").forEach((container) => {
       container.innerHTML = items.slice(0, cardLimit).map(articleCard).join("");
     });
@@ -1847,5 +1853,5 @@
     if (section) section.hidden = projectArticles.length === 0;
   });
 
-  window.siteContent = { articles, projects, painRegions, footPainConditions, footPainTreatmentTopics, footPainTopics };
+  window.siteContent = { renderArticlesOverview, projectArticleMatches, articles: sortByDateDesc(articles), projects, painRegions, footPainConditions, footPainTreatmentTopics, footPainTopics };
 })();
