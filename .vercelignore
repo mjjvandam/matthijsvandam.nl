@@ -9,3 +9,6 @@ behandelingen/*.html
 
 # ADR-0008: alleen lokale bouw; geen publieke mailroutes of feeds.
 local-mail-preview/
+
+# ADR-0014: besloten lokale redactiepilot, inclusief database en uitvoer.
+local-admin/

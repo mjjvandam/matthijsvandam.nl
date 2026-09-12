@@ -15,8 +15,11 @@ Use this index to find the relevant architectural decision record before non-tri
 | ADR-0009 | Hosting And Mail Production | Proposed | Hostingpakket, gratis alternatieven en migratieproef | Publieke mailactivering op huidige host of hostingmigratie; needs owner validation |
 | ADR-0010 | Newsletter Confirmation Per Request | Accepted | Afzonderlijke eenmalige bevestigingen en tijdelijke aanvraagopslag | Lokale vervanging van de Brevo DOI-route; providerkeuze en livegang afzonderlijk vrijgeven |
 | ADR-0011 | Newsletter Storage And Bundling | Proposed | Niet gekozen: Matthijs wil geen extra diensten | Historische afweging; niet uitvoeren. Vervolg binnen Brevo, geen Neon |
+| ADR-0014 | Editorial Workspace | Accepted | Redactieomgeving, artikelbron, revisies, taken, agents/routines en versiegebonden goedkeuring | Werkpakket door Matthijs geaccepteerd op 2026-09-09; lokale pilot; publieke activering afzonderlijk |
 
 Status notes:
+
+Aanvullend besluit: [ADR-0013](ADR-0013-brevo-native-practical-scope.md) — native Brevo-route; Accepted op expliciet eigenaarbesluit. Vervangt [ADR-0012](ADR-0012-confirmation-existing-vercel.md) (Superseded). Geen eigen bevestigingsopslag; publieke vrijgave blijft open.
 
 - `Proposed`: draft decision; useful as a guardrail but still needs owner validation.
 - `Accepted`: accepted by site owner / Matthijs and leading for future work.

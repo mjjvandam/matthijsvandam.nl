@@ -1,0 +1,468 @@
+{
+  "version": 1,
+  "updated_at": "2026-09-11T19:32:36.460026+00:00",
+  "items": [
+    {
+      "id": "meten-wat-helpt",
+      "title": "Meten of de website bezoekers verder helpt",
+      "perspectives": [
+        "Ondernemer",
+        "ICT’er",
+        "Redacteur / ontwerper"
+      ],
+      "category": "Techniek & vindbaarheid",
+      "kind": "tool",
+      "why": "De bestaande bezoekerscijfers laten bereik zien; voor redactionele keuzes is ook interessant of iemand passende uitleg of een professionele vervolgstap vindt.",
+      "proposal": "Verken een klein doelenoverzicht met bijvoorbeeld gebruik van een bronnenlink, een projectverhaal en de officiële professionele contactroute, gekoppeld aan een concrete verbeterhypothese.",
+      "first_step": "Kies drie nuttige acties en leg vast welke beslissing iedere meting helpt nemen; vergelijk daarna de benodigde mogelijkheden, kosten en gegevensstromen met de bestaande inrichting.",
+      "effort": "Middel",
+      "tradeoff": "Vercel ondersteunt custom events op Pro en Enterprise, niet op Hobby; kies geen upgrade zonder afweging en leg geen medische invoer, zoektekst of individuele bezoekersprofielen vast.",
+      "success_check": "De proef is zinvol als de uitkomst één onderbouwde verbetering oplevert; een klik geldt als gebruikssignaal, niet als bewijs van begrip of betere zorg.",
+      "evidence": [
+        {
+          "label": "Bestaande analytics in het lokale beheer",
+          "path": "local-admin/analytics.py"
+        },
+        {
+          "label": "Vercel: custom events en beschikbare plannen",
+          "url": "https://vercel.com/docs/analytics/custom-events"
+        },
+        {
+          "label": "Vercel: actuele mogelijkheden en prijsmodel",
+          "url": "https://vercel.com/docs/analytics/limits-and-pricing"
+        }
+      ],
+      "priority": 1,
+      "reviewed_at": "2026-09-10T18:54:04Z"
+    },
+    {
+      "id": "zoeken-op-eigen-site",
+      "title": "Eén zoekveld voor de eigen uitleg",
+      "perspectives": [
+        "Patiënt",
+        "Arts / verwijzer",
+        "ICT’er"
+      ],
+      "category": "Techniek & vindbaarheid",
+      "kind": "tool",
+      "why": "Artikelen, behandelpagina’s en projecten vormen samen een bruikbare kenniscollectie waarin bezoekers ook met hun eigen woorden kunnen willen zoeken.",
+      "proposal": "Beproef een sitezoeker met herkenbare resultaten voor patiënten en professionals; Pagefind is een kandidaat die een zoekindex uit statische HTML kan maken.",
+      "first_step": "Maak lokaal een kleine index van expliciet gekozen, geverifieerde publieke pagina’s en toets tien alledaagse zoekvragen op passende resultaten.",
+      "effort": "Middel",
+      "tradeoff": "Een zoekindex kan ook ongepubliceerde tekst blootleggen als de selectie te ruim is; indexeer alleen vrijgegeven pagina’s en sla zoekopdrachten in de proef niet op.",
+      "success_check": "Bezoekers vinden bij de proefvragen de passende uitleg of zien eerlijk dat er geen resultaat is; geen conceptpagina verschijnt in de index.",
+      "evidence": [
+        {
+          "label": "Huidige publieke en lokale inhoud",
+          "path": "docs/site/CURRENT_SITE_STATE.md"
+        },
+        {
+          "label": "Register van geverifieerde pagina’s",
+          "path": "PUBLICATIE_REGISTER.json"
+        },
+        {
+          "label": "Pagefind: kiezen welke inhoud wordt geïndexeerd",
+          "url": "https://pagefind.app/docs/indexing/"
+        },
+        {
+          "label": "Pagefind: statische zoekindex maken",
+          "url": "https://pagefind.app/docs/running-pagefind/"
+        }
+      ],
+      "priority": 1,
+      "reviewed_at": "2026-09-10T18:54:04Z"
+    },
+    {
+      "id": "gesprekskaart",
+      "title": "Een vragenkaart voor het volgende gesprek",
+      "perspectives": [
+        "Patiënt",
+        "Arts / verwijzer",
+        "Redacteur / ontwerper"
+      ],
+      "category": "Inhoud & redactie",
+      "kind": "tool",
+      "why": "De patiëntpagina’s bieden algemene oriëntatie; een korte kaart kan helpen om bruikbare vragen mee te nemen naar de eigen zorgverlener.",
+      "proposal": "Verken een eenvoudige keuze uit algemene gespreksthema’s die een afdrukbare vragenkaart oplevert, zonder diagnose of keuze voor een behandeling.",
+      "first_step": "Ontwerp voor één geverifieerde behandelpagina zes algemene vragen, laat Matthijs ze beoordelen en beproef een kaart met alleen aankruisbare vragen.",
+      "effort": "Middel",
+      "tradeoff": "De proef vraagt geen klachten of persoonsgegevens en bewaart of verstuurt geen keuzes; de kaart mag geen vervanging voor een consult suggereren.",
+      "success_check": "Drie proeflezers kunnen een bruikbare vraag kiezen en begrijpen dat de kaart geen persoonlijk behandeladvies geeft.",
+      "evidence": [
+        {
+          "label": "Doel en grenzen van patiëntinformatie",
+          "path": "docs/site/TARGET_AUDIENCES.md"
+        },
+        {
+          "label": "Bestaande uitleg over hallux rigidus",
+          "path": "behandelingen/hallux-rigidus.html"
+        },
+        {
+          "label": "Medische veiligheidsregels",
+          "path": "docs/site/MEDICAL_CONTENT_SAFETY_RULES.md"
+        }
+      ],
+      "priority": 2,
+      "reviewed_at": "2026-09-10T18:54:04Z"
+    },
+    {
+      "id": "advertentieruimte-proef",
+      "title": "Een kleine proef met advertentieruimte of sponsoring",
+      "perspectives": [
+        "Ondernemer",
+        "Redacteur / ontwerper",
+        "Arts / verwijzer"
+      ],
+      "category": "Beheer & routines",
+      "kind": "growth",
+      "why": "Passende ondersteuning van professionele onderwijs- of projectinhoud kan een inkomstenmogelijkheid zijn, maar de waarde hangt af van werkelijk bereik en vertrouwen.",
+      "proposal": "Verken één duidelijk gelabeld sponsorvak in professionele context, met een vaste looptijd en afspraken die redactionele invloed en suggesties van medische aanbeveling uitsluiten.",
+      "first_step": "Maak intern een proefkaart en een haalbaarheidsnotitie op basis van professioneel bereik, beheeruren en passende partnercategorieën; bepaal daarna of een gesprek met een partner zinvol is.",
+      "effort": "Middel",
+      "tradeoff": "Beperkt bereik kan weinig opbrengst geven, terwijl vertrouwen veel waard is; toets belangen en organisatorische afspraken en houd advertenties gescheiden van patiëntuitleg en onderzoeksfinanciering.",
+      "success_check": "Alleen vervolgen als mogelijke baten de inzet rechtvaardigen, lezers de advertentie direct herkennen en Matthijs de inhoudelijke en organisatorische voorwaarden passend vindt.",
+      "evidence": [
+        {
+          "label": "Persoonlijke professionele positionering",
+          "path": "docs/site/SITE_POSITIONING.md"
+        },
+        {
+          "label": "Bestaande professionele en onderwijscontext",
+          "path": "professionals.html"
+        },
+        {
+          "label": "Bestaande projectondersteuning heeft een eigen context",
+          "path": "projecten/transmuraal-tilburg-cohort.html"
+        },
+        {
+          "label": "Stichting Reclame Code: herkenbaarheid van reclame, artikel 11",
+          "url": "https://www.reclamecode.nl/nederlandse-reclame-code/algemeen-deel/"
+        }
+      ],
+      "priority": 2,
+      "reviewed_at": "2026-09-10T18:54:04Z"
+    },
+    {
+      "id": "advies-in-praktijk",
+      "title": "Laten zien wat een adviesbijdrage concreet oplevert",
+      "perspectives": [
+        "Ondernemer",
+        "Redacteur / ontwerper"
+      ],
+      "category": "Inhoud & redactie",
+      "kind": "growth",
+      "why": "De adviespagina noemt inhoudelijk advies, uitwerken en begeleiden; een kort praktijkverhaal kan organisaties helpen de passende werkvorm te herkennen.",
+      "proposal": "Voeg als proef één compacte casus toe met de oorspronkelijke vraag, Matthijs’ precieze bijdrage, een aantoonbare opbrengst en de grenzen van zijn rol.",
+      "first_step": "Kies met Matthijs één bestaande opdracht waarvan vraag en bijdrage gedeeld mogen worden en schrijf een casus van ongeveer 250 woorden.",
+      "effort": "Klein",
+      "tradeoff": "Een projectbijdrage is niet automatisch een betaalde adviesopdracht of bewezen effect; formuleer precies en stem herkenbare informatie af met betrokkenen.",
+      "success_check": "Twee beoogde opdrachtgevers kunnen na het lezen benoemen voor welke vraag zij Matthijs wel en niet zouden benaderen.",
+      "evidence": [
+        {
+          "label": "Bestaande adviesvormen en praktijkvoorbeelden",
+          "path": "advies-consultancy.html"
+        },
+        {
+          "label": "Grens tussen advies en patiëntenzorg",
+          "path": "docs/site/SITE_POSITIONING.md"
+        }
+      ],
+      "priority": 1,
+      "reviewed_at": "2026-09-10T18:54:04Z"
+    },
+    {
+      "id": "onderzoek-voortgang",
+      "title": "Onderzoek volgen via een heldere tijdlijn",
+      "perspectives": [
+        "Arts / verwijzer",
+        "Ondernemer",
+        "Redacteur / ontwerper"
+      ],
+      "category": "Inhoud & redactie",
+      "kind": "experience",
+      "why": "Het Tilburg Cohort en FOOTprint hebben een eigen verhaal en nieuws; een tijdlijn kan beter laten zien wat al gebeurd is en wat de volgende stap is.",
+      "proposal": "Verken per project een compacte tijdlijn met gedateerde mijlpalen, huidige fase en één volgende stap, gekoppeld aan bestaande nieuwsartikelen.",
+      "first_step": "Maak voor het Tilburg Cohort een lokaal voorbeeld met drie bevestigde mijlpalen en laat het projectteam de huidige fase controleren.",
+      "effort": "Middel",
+      "tradeoff": "Verwachte mijlpalen kunnen verschuiven en dataverwerking is nog geen onderzoeksresultaat; houd verwachting, uitvoering en gepubliceerde uitkomst herkenbaar uit elkaar.",
+      "success_check": "Een nieuwe collega kan binnen een minuut uitleggen waar het project staat en welke informatie nog niet beschikbaar is.",
+      "evidence": [
+        {
+          "label": "Tilburg Cohort: opbouw, onderzoeksvragen en nieuws",
+          "path": "projecten/transmuraal-tilburg-cohort.html"
+        },
+        {
+          "label": "FOOTprint: onderzoek en dataverwerking",
+          "path": "projecten/footprint-quick-scan.html"
+        },
+        {
+          "label": "Nieuws over de start van de onderzoeker",
+          "path": "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html"
+        }
+      ],
+      "priority": 2,
+      "reviewed_at": "2026-09-10T18:54:04Z"
+    },
+    {
+      "id": "onderzoek-in-beeld",
+      "title": "Een onderzoeksartikel uitleggen met één interactieve figuur",
+      "perspectives": [
+        "Patiënt",
+        "Arts / verwijzer",
+        "Redacteur / ontwerper"
+      ],
+      "category": "Inhoud & redactie",
+      "kind": "content",
+      "why": "Het artikel over knieartrose en twee zorgroutes vraagt om onderscheid tussen behandelgroepen, uitkomsten en onzekerheid; beeld kan die uitleg ondersteunen.",
+      "proposal": "Beproef een figuur waarin de lezer kan wisselen tussen wie onderzocht werd, wat gemeten werd en wat de studie niet kan aantonen.",
+      "first_step": "Maak een lokaal schetsontwerp bij het bestaande SWIFT-artikel, controleer ieder cijfer tegen de primaire bron en laat Matthijs tekst en figuur samen beoordelen.",
+      "effort": "Middel",
+      "tradeoff": "Een aantrekkelijke vergelijking kan meer zekerheid suggereren dan het onderzoek biedt; toon beperkingen bij de uitkomst en vermijd een persoonlijke keuzecalculator.",
+      "success_check": "Proeflezers begrijpen beter waarom het artikel geen algemene voorkeursvolgorde geeft en kunnen een belangrijke beperking benoemen.",
+      "evidence": [
+        {
+          "label": "Geverifieerd artikel over de twee zorgroutes",
+          "path": "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html"
+        },
+        {
+          "label": "Eerst de bron uitleggen, daarna duiden",
+          "path": "REDACTIEKOMPAS.md"
+        }
+      ],
+      "priority": 2,
+      "reviewed_at": "2026-09-10T18:54:04Z"
+    },
+    {
+      "id": "verwijzerskaart",
+      "title": "Een beknopte routekaart voor verwijzers",
+      "perspectives": [
+        "Arts / verwijzer",
+        "Redacteur / ontwerper"
+      ],
+      "category": "Inhoud & redactie",
+      "kind": "tool",
+      "why": "De professionalpagina beschrijft overleg, verwijzing en regionale samenwerking; een meeneemkaart kan deze afspraken gemakkelijker bruikbaar maken in de praktijk.",
+      "proposal": "Verken één mobiel leesbare en afdrukbare pagina met de bestaande officiële kanalen, hun bedoeling en verwijzingen naar relevante professionele uitleg.",
+      "first_step": "Maak een kaart uit de huidige professionalpagina en laat een huisarts en paramedicus toetsen of de kanaalkeuze duidelijk is.",
+      "effort": "Klein",
+      "tradeoff": "Contactroutes kunnen veranderen en een kaart kan een eigen leven gaan leiden; gebruik een controledatum en bronlink en voeg geen nieuwe verwijscriteria toe.",
+      "success_check": "Proeflezers kiezen bij drie voorbeeldsituaties het bedoelde officiële kanaal zonder patiëntinformatie op deze website te willen invoeren.",
+      "evidence": [
+        {
+          "label": "Bestaande overleg- en verwijskanalen",
+          "path": "professionals.html"
+        },
+        {
+          "label": "Doelgroepen en veilige vervolgstappen",
+          "path": "docs/site/TARGET_AUDIENCES.md"
+        }
+      ],
+      "priority": 2,
+      "reviewed_at": "2026-09-10T18:54:04Z"
+    },
+    {
+      "id": "rustige-leesstand",
+      "title": "Een rustige leesstand en goede afdruk",
+      "perspectives": [
+        "Patiënt",
+        "Redacteur / ontwerper",
+        "ICT’er"
+      ],
+      "category": "Techniek & vindbaarheid",
+      "kind": "experience",
+      "why": "Langere medische artikelen worden ook gelezen door mensen die grotere tekst of een papieren versie prettig vinden.",
+      "proposal": "Beproef bij één artikel een eenvoudige leesstand met regelbare tekstgrootte en een verzorgde afdruk waarin bron, datum en medische grenzen behouden blijven.",
+      "first_step": "Maak een lokaal voorbeeld met bestaande stijlen en toets toetsenbordbediening, vergroten en afdrukken met enkele lezers.",
+      "effort": "Klein",
+      "tradeoff": "Extra knoppen kunnen zelf afleiden; houd de standaardweergave rustig en zorg dat de afdruk geen losgeraakte of verouderde medische samenvatting wordt.",
+      "success_check": "Tekst blijft bruikbaar bij sterk vergroten en op papier; lezers kunnen de originele pagina en bronnen eenvoudig terugvinden.",
+      "evidence": [
+        {
+          "label": "Bestaande vormgeving",
+          "path": "styles.css"
+        },
+        {
+          "label": "Een langer patiëntgericht artikel",
+          "path": "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html"
+        },
+        {
+          "label": "Paginamodellen en inhoudelijke samenhang",
+          "path": "docs/site/PAGE_MODELS.md"
+        }
+      ],
+      "priority": 2,
+      "reviewed_at": "2026-09-10T18:54:04Z"
+    },
+    {
+      "id": "redactie-uit-zoekvragen",
+      "title": "Artikelkansen kiezen vanuit echte zoekvragen",
+      "perspectives": [
+        "Redacteur / ontwerper",
+        "Ondernemer",
+        "ICT’er"
+      ],
+      "category": "Inhoud & redactie",
+      "kind": "growth",
+      "why": "Naast wetenschappelijke actualiteit kunnen zoekvragen laten zien welke uitleg bezoekers proberen te vinden en of bestaande titels daarbij aansluiten.",
+      "proposal": "Verken een korte redactionele vergelijking van zoekvragen, vertoningen en doorklikken in Search Console, met onderscheid tussen zoeken op Matthijs’ naam en inhoudelijke onderwerpen.",
+      "first_step": "Gebruik eerst een beschikbare export voor één onderwerpcluster en vergelijk drie veelgetoonde vragen met de bijbehorende pagina’s en bestaande artikelplanning.",
+      "effort": "Klein",
+      "tradeoff": "Zoekcijfers vertellen niet waarom iemand afhaakt en zijn geen medische prioriteitenlijst; beperk de proef tot samengevoegde patronen en controleer eerst of bruikbare toegang en data bestaan.",
+      "success_check": "De analyse levert één concrete titelverbetering of inhoudsvraag op die binnen de sitepijlers past, met een nulmeting voor latere vergelijking.",
+      "evidence": [
+        {
+          "label": "Bestaande inhoudelijke pijlers",
+          "path": "docs/site/CONTENT_PILLARS.md"
+        },
+        {
+          "label": "Redactioneel profiel",
+          "path": "docs/site/ARTICLE_EDITORIAL_PROFILE.md"
+        },
+        {
+          "label": "Google: zoekvragen, vertoningen en doorklikken",
+          "url": "https://support.google.com/webmasters/answer/7576553"
+        }
+      ],
+      "priority": 2,
+      "reviewed_at": "2026-09-10T18:54:04Z"
+    },
+    {
+      "id": "brongebonden-ai-leesassistent",
+      "title": "Een brongebonden AI-leesassistent onderzoeken",
+      "perspectives": [
+        "ICT’er",
+        "Patiënt",
+        "Arts / verwijzer"
+      ],
+      "category": "Techniek & vindbaarheid",
+      "kind": "tool",
+      "why": "Een korte uitleg met directe bronlinks kan sommige bezoekers helpen hun weg te vinden in goedgekeurde artikelen, mits de assistent binnen algemene informatie blijft.",
+      "proposal": "Onderzoek een assistent die antwoorden uitsluitend baseert op geverifieerde site-inhoud, de gebruikte pagina’s noemt en persoonlijke medische beoordeling weigert.",
+      "first_step": "Maak een offline ontwerp met vaste algemene vragen en voorbeeldantwoorden; beoordeel brontrouw, weigeringen, foutscenario’s, kosten en gegevensstromen voordat een API of publieke invoer wordt overwogen.",
+      "effort": "Groot",
+      "tradeoff": "Bronlinks voorkomen niet alle AI-fouten; begrens een eerste proef tot vaste vragen, verwerk geen gezondheidsgegevens en vergelijk de meerwaarde met een gewone sitezoeker.",
+      "success_check": "Een vaste toetsset krijgt herleidbare uitleg of een passende weigering, zonder nieuwe medische claims; alleen verder als dit aantoonbaar helpt boven gewone zoekresultaten.",
+      "evidence": [
+        {
+          "label": "Geverifieerde inhoud als mogelijke bronselectie",
+          "path": "PUBLICATIE_REGISTER.json"
+        },
+        {
+          "label": "AI-vindbaarheid en medische grenzen",
+          "path": "docs/site/SEO_AND_AI_VISIBILITY_MODEL.md"
+        },
+        {
+          "label": "Geen persoonlijk medisch advies",
+          "path": "docs/site/MEDICAL_CONTENT_SAFETY_RULES.md"
+        }
+      ],
+      "priority": 2,
+      "reviewed_at": "2026-09-10T18:54:04Z"
+    },
+    {
+      "id": "scholingspakket-regio",
+      "title": "Een kort scholingspakket voor regionale teams",
+      "perspectives": [
+        "Arts / verwijzer",
+        "Ondernemer",
+        "Redacteur / ontwerper"
+      ],
+      "category": "Inhoud & redactie",
+      "kind": "content",
+      "why": "De site verbindt onderwijs, publicaties en regionale samenwerking; een compact bespreekpakket kan bestaande inhoud bruikbaar maken tijdens een teamoverleg.",
+      "proposal": "Verken een pakket rond artrosezorg met één vooraf te lezen artikel, drie bespreekvragen en een korte bronkaart voor een gesprek tussen eerste en tweede lijn.",
+      "first_step": "Maak uit één bestaande publicatie een lokaal voorbeeld en laat Matthijs beoordelen welke vragen geschikt zijn voor een kort regionaal overleg.",
+      "effort": "Middel",
+      "tradeoff": "Een bespreekpakket is geen geaccrediteerde scholing of nieuw zorgprotocol; brongebruik, auteursrechten en eventuele verdere werkafspraken vragen een eigen beoordeling.",
+      "success_check": "Een klein proefteam kan er in vijftien minuten een inhoudelijk gesprek mee voeren en één concrete vraag voor verdere samenwerking formuleren.",
+      "evidence": [
+        {
+          "label": "Samen opleiden en leren in de regio",
+          "path": "professionals.html"
+        },
+        {
+          "label": "Bestaande professionele uitleg over artrosezorg",
+          "path": "artikelen/artrosezorg-transitie-professionals.html"
+        },
+        {
+          "label": "Publicaties en onderwijsbijdragen",
+          "path": "publicaties.html"
+        }
+      ],
+      "priority": 3,
+      "reviewed_at": "2026-09-10T18:54:04Z"
+    },
+    {
+      "id": "brononderhoud-agent",
+      "title": "Een kleine routine voor verouderende bronverwijzingen",
+      "perspectives": [
+        "ICT’er",
+        "Redacteur / ontwerper"
+      ],
+      "category": "Beheer & routines",
+      "kind": "agent",
+      "why": "Artikelen, richtlijnen en projectstatussen hebben uiteenlopende controlemomenten.",
+      "proposal": "Onderzoek of de bestaande weekcheck bronveroudering kan signaleren voordat een aparte agent nodig is. Laat alleen concrete wijzigingen of ontbrekende bronnen melden.",
+      "first_step": "Kies vijf veelgelezen pagina’s, leg bron en controlemoment vast en vergelijk vier weekchecks met handmatige controle.",
+      "effort": "Klein",
+      "tradeoff": "Extra controles kunnen ruis en dubbel werk geven. Een signaal is geen medisch oordeel; bronduiding blijft bij Matthijs.",
+      "success_check": "Doorgaan als bruikbare nieuwe signalen ontstaan; samenvoegen of stoppen wanneer dezelfde informatie al uit de weekcheck komt.",
+      "evidence": [
+        {
+          "label": "Bestaande afspraken en controles",
+          "path": "docs/site/MEDICAL_CONTENT_SAFETY_RULES.md"
+        }
+      ],
+      "priority": 2,
+      "reviewed_at": "2026-09-11T19:32:36.460026+00:00"
+    },
+    {
+      "id": "publicatiecheck-skill",
+      "title": "Bestaande publicatiechecks als één herbruikbare werkwijze",
+      "perspectives": [
+        "ICT’er",
+        "Redacteur / ontwerper"
+      ],
+      "category": "Beheer & routines",
+      "kind": "skill",
+      "why": "De site heeft al vaste controles en meerdere redactionele skills; een nieuwe skill is alleen nuttig als er echt een uitvoeringsgat is.",
+      "proposal": "Vergelijk de bestaande site-editor en regressiereviewer met de publicatiewerkwijze en bundel eventueel ontbrekende uitvoerstappen in één kleine aanvulling.",
+      "first_step": "Leg één recent publicatietraject naast CODEX_WERKWIJZE.md en noteer uitsluitend ontbrekende of dubbel uitgevoerde stappen.",
+      "effort": "Klein",
+      "tradeoff": "Nog een skill kan instructies laten botsen. Geef voorkeur aan één bestaande skill verbeteren en behoud afzonderlijk eigenaarakkoord.",
+      "success_check": "Dezelfde controle is herhaalbaar met minder dubbele instructies, zonder review- of publicatiepoort over te slaan.",
+      "evidence": [
+        {
+          "label": "Bestaande afspraken en controles",
+          "path": "CODEX_WERKWIJZE.md"
+        }
+      ],
+      "priority": 2,
+      "reviewed_at": "2026-09-11T19:32:36.460026+00:00"
+    },
+    {
+      "id": "routines-afschalen",
+      "title": "Minder dubbele routinecontroles en meldingen",
+      "perspectives": [
+        "ICT’er",
+        "Redacteur / ontwerper"
+      ],
+      "category": "Beheer & routines",
+      "kind": "simplify",
+      "why": "Weekcheck en maandelijkse APK controleren deels dezelfde technische en organisatorische onderwerpen.",
+      "proposal": "Onderzoek welke controles wekelijks waarde toevoegen en welke alleen na wijzigingen of maandelijks nodig zijn. Houd één bron voor terugkerende aandachtspunten.",
+      "first_step": "Vergelijk drie weekverslagen en één APK op unieke bevindingen, dubbel werk en bruikbare vervolgacties; stel één concrete vereenvoudiging voor.",
+      "effort": "Klein",
+      "tradeoff": "Minder controles kan een nieuw probleem later zichtbaar maken. Behoud medische en publicatiecontroles bij iedere relevante wijziging.",
+      "success_check": "Minder herhaalde meldingen en controlewerk met behoud van dezelfde relevante signalen; niets zelfstandig pauzeren.",
+      "evidence": [
+        {
+          "label": "Bestaande afspraken en controles",
+          "path": "local-admin/WORK_ITEMS_REVIEW.md"
+        }
+      ],
+      "priority": 2,
+      "reviewed_at": "2026-09-11T19:32:36.460026+00:00"
+    }
+  ]
+}

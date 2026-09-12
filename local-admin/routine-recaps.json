@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "wekelijkse-hoofdredactie-sitecheck-matthijsvandam-nl",
+      "source_sha256": "02fed4b8b4414a78ba23e6c50f593b5e58e57c99c7ee22acf4f8dc55dad137de",
+      "highlights": [
+        {
+          "label": "Gedaan",
+          "text": "Menuaanduiding en contrast lokaal verbeterd. De website en mobiele weergave nagekeken."
+        },
+        {
+          "label": "Uitkomst",
+          "text": "Alle acht controles geslaagd; de bestaande 40 publieke pagina’s bleven geverifieerd."
+        },
+        {
+          "label": "Vervolg",
+          "text": "De aangepaste menuweergave nog met verse bestanden visueel controleren vóór publicatie."
+        }
+      ]
+    },
+    {
+      "id": "tweewekelijkse-artikelkansen-matthijsvandam-nl",
+      "source_sha256": "83d40e8ed6d5c1b893c0c5d58593e2742bcf6ac6977c02c7a4ce85f86bc79baf",
+      "highlights": [
+        {
+          "label": "Gedaan",
+          "text": "Bronnen onderzocht en een artikelconcept met voorvertoning gemaakt over een knieprothese en bariatrische chirurgie bij obesitas."
+        },
+        {
+          "label": "Uitkomst",
+          "text": "De twee zorgroutes uitgelegd, met aandacht voor onzekerheden en de individuele afweging."
+        },
+        {
+          "label": "Vervolg",
+          "text": "In het verslag stond beoordeling nog open. Matthijs gaf op 7 september inhoudelijk akkoord; dit is geen nieuwe reviewtaak."
+        }
+      ],
+      "supporting_sources": [
+        {
+          "path": "PUBLICATIE_REGISTER.json",
+          "sha256": "f2c0f2ee79881b6ad7c6aa698cb82799da2147d06fe6424ffbe0ed319ea10824"
+        }
+      ]
+    },
+    {
+      "id": "maandelijkse-site-automatiserings-apk-matthijsvandam-nl",
+      "source_sha256": "d115ea864d1077e04642ea2a273522d00b3f820d057535d35997ac0be48861ba",
+      "highlights": [
+        {
+          "label": "Gedaan",
+          "text": "Routine-instellingen, recente verslagen, projectafspraken en vijf technische controles nagekeken."
+        },
+        {
+          "label": "Uitkomst",
+          "text": "De drie vaste routines stonden ingeschakeld. Uitvoering op de geplande tijden was niet bewezen."
+        },
+        {
+          "label": "Vervolg",
+          "text": "Het verslag vroeg opvolging van routine-instructies, verouderde documentatie en bescherming van conceptbestanden."
+        }
+      ]
+    }
+  ]
+}

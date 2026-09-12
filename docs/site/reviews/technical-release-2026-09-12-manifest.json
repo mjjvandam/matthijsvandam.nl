@@ -1,0 +1,363 @@
+{
+  "candidate": "/private/tmp/mvd-technical-release-20260912",
+  "branch": "codex/technical-release-20260912",
+  "base": "bfdf87d99b08bfa85a6fda7ea0cfe2ea434bdc2b",
+  "status": "approved_deployment_blocked",
+  "files": [
+    {
+      "path": ".vercelignore",
+      "sha256": "b659bc49984873dfb9b15281e16b3abbf5985cb76a2ecb5f898c64cc4d463037"
+    },
+    {
+      "path": "404.html",
+      "sha256": "6c9c90e8b177d768f0aea567da2c5022f2cebf47062edb21b786f52ae50abb9e"
+    },
+    {
+      "path": "PUBLICATIE_REGISTER.json",
+      "sha256": "31b9740a06f969d1686185926dcd5291b3e86073a319b091181fed348dea5a26"
+    },
+    {
+      "path": "advies-consultancy.html",
+      "sha256": "7906b2f952871811cd2374d599f1817a0125999f342af2ae3ffed69f5d7ba986"
+    },
+    {
+      "path": "artikelen.html",
+      "sha256": "7c95dea439394eaf0f5330ab9468689f72922145fe75cc1aa0009bc0f0cbda76"
+    },
+    {
+      "path": "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html",
+      "sha256": "9622a4c3d928ff17ca44174eb2bdb5e7dd00e3d2157dbaced004dacbd9f5e9ce"
+    },
+    {
+      "path": "artikelen/aaos-richtlijn-enkelartrose.html",
+      "sha256": "8b45faa91e5679c2a73a6be82b2f95c12f761e32b0dd290418a36bb601bc6200"
+    },
+    {
+      "path": "artikelen/aios-foot-education-munich.html",
+      "sha256": "75f1c5f27bdd7d6980524f8f6f322abd589114c3a8998c8e526fb38f1d9c2074"
+    },
+    {
+      "path": "artikelen/artrosezorg-transitie-patienten.html",
+      "sha256": "8ff3fd65fd00d32ccdc49a1ed4e07d81671d1e49d6181bb626f22cbd8e518bca"
+    },
+    {
+      "path": "artikelen/artrosezorg-transitie-professionals.html",
+      "sha256": "1d8f625d96f15a01edcf0552131382af85744521ecca3213761aec62e5c1530a"
+    },
+    {
+      "path": "artikelen/digitaal-zorgpad-artrose-obesitas.html",
+      "sha256": "0150c03a38cfa86591cb00c8b409bed2b20c66273bbfe6befd5c38c5cbd9a68c"
+    },
+    {
+      "path": "artikelen/footprint-quick-scan-etz-fit-follow-up.html",
+      "sha256": "b514bb146dcb678ef860de65bcf9351228690e1853005528467188e3dbcb50d0"
+    },
+    {
+      "path": "artikelen/footprint-quick-scan-medewerkers.html",
+      "sha256": "e0e6dbd06b37415f0e6991a30694a5e3de3a2eb2828947818621c0464c312005"
+    },
+    {
+      "path": "artikelen/heracleum-hulpfonds-subsidie-transmuraal-tilburg-cohort.html",
+      "sha256": "92bf29ea2456b2e77322a0602ff4dbe5210e9b82717ef9a94a8a4c3373404a55"
+    },
+    {
+      "path": "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html",
+      "sha256": "45d9b53b81fffc704dbf92dfb8ee3da8d76a15a21aa054453f3c09b6db4e4c32"
+    },
+    {
+      "path": "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html",
+      "sha256": "bf40ac83a40758e42cac4b45386a0d06bcf32b251eb0a0f784e73bf2d18e0d17"
+    },
+    {
+      "path": "artikelen/mobility-clinic-tilburg-patienten.html",
+      "sha256": "e566b5c9fd1f6505fa8b7fba77d3306a76b294efe736c043553785ed4a5ff10c"
+    },
+    {
+      "path": "artikelen/mobility-clinic-tilburg-professionals.html",
+      "sha256": "116d5b4e5fda4e5e065afb9c5285876a154d241d7379d6dd401f710042c5363a"
+    },
+    {
+      "path": "artikelen/na-verzwikte-enkel-instabiel-blijven.html",
+      "sha256": "8dccf22d10b132d604d97e16823ca72e1d712a0adbdde864c197ea669e5af13d"
+    },
+    {
+      "path": "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html",
+      "sha256": "4f50fb4d1d2396ef77529be661d9b8064e8e77a6d8438f02ce8567de55e188c2"
+    },
+    {
+      "path": "artikelen/patient-specifieke-instrumentatie-voet-enkel-professionals.html",
+      "sha256": "37e1e55dcbe1cd9d3b536546f29339bc4507721afc89775bae0d8efd48448cd6"
+    },
+    {
+      "path": "artikelen/patientpanel-leefstijl-orthopedie.html",
+      "sha256": "ec62c35df1dfba2de67863edd8c2034bee931d38d1a92597afa1de2a3925d1cc"
+    },
+    {
+      "path": "artikelen/probleemgeorienteerd-denken-orthopedie-boekbijdrage.html",
+      "sha256": "6067f07b182d8a9d497bb31f64ba3b1f3a96d4ca9dd24984ea7f5d94b0fa675a"
+    },
+    {
+      "path": "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html",
+      "sha256": "b4b813089965751b0e5a67153e8f84d74c3f5956127797820a3bd2713e285397"
+    },
+    {
+      "path": "artikelen/vaillant-fonds-digitaal-zorgpad.html",
+      "sha256": "42c5e6fb749d7a82751cc9d815054669ebb0488745af720dabb44fad576a8243"
+    },
+    {
+      "path": "artikelen/we-walk-ar-campusroute-tilburg.html",
+      "sha256": "b8d6b290657689d6874ff7cc9fb4108546bbe3ac0f1f1aa462ae25a8c1c37bd9"
+    },
+    {
+      "path": "behandelingen.html",
+      "sha256": "e94a31c2708a1e020d5535a687249955cfc1aaad2d77756fc668af092b9e33d2"
+    },
+    {
+      "path": "behandelingen/achillespeesklachten.html",
+      "sha256": "a2701b984764e86b767ceeb884907bad9e537a91dc56212ba817c1ce5f10c5c9"
+    },
+    {
+      "path": "behandelingen/anterieur-enkel-impingement.html",
+      "sha256": "bdcf470b7d2d6e9e7ebb38472bb93247481500c681298598acac13b7e59cb681"
+    },
+    {
+      "path": "behandelingen/artrose-na-breuk.html",
+      "sha256": "5c6d902a85ad687b5153025ae10dca100199a533bd0191a7fe2259eb4b2bcb93"
+    },
+    {
+      "path": "behandelingen/chronische-enkelinstabiliteit.html",
+      "sha256": "848322df3345a0f8ff3efce450690ab3a9490e14ae1f3c6390ee4472ecb4a875"
+    },
+    {
+      "path": "behandelingen/corpus-liberum-enkel.html",
+      "sha256": "2b1c19bff6473212185222afe6bfd807138b354f4992bb61af62a1e2517b2345"
+    },
+    {
+      "path": "behandelingen/enkelartrodese.html",
+      "sha256": "8866f829cf9f75b9a240c7e1f2afb339a940619204aab7d6da03ab93cc0a5e0a"
+    },
+    {
+      "path": "behandelingen/enkelartrose.html",
+      "sha256": "394c793654d870b980219684e12f4e271ae2edd5fa8c965087657e2d86263264"
+    },
+    {
+      "path": "behandelingen/enkelprothese.html",
+      "sha256": "172e1f1c5e8bfd76e95fb51dde79f27c65361eeea50d68beef86ba0277b8a604"
+    },
+    {
+      "path": "behandelingen/enkelverzwikking.html",
+      "sha256": "36f231f804d0858e644530b814e7d71ba3a7f8d417ffe619cffdfcff47a3717f"
+    },
+    {
+      "path": "behandelingen/ganglion-enkel.html",
+      "sha256": "90d7367b282a243d65f61aad8d942350f78c9fcac7afdf0211e8e2339e2c14d2"
+    },
+    {
+      "path": "behandelingen/ganglion-middenvoet.html",
+      "sha256": "2bff6546f259476897aa2a6481ddf14ebf8713bedd4a18f2bd6e2226c0e7e0cb"
+    },
+    {
+      "path": "behandelingen/haglund-retrocalcaneaire-klachten.html",
+      "sha256": "425571214084b49d262338dcd229fbbd6f21650bcb75db410cce09c860e940b1"
+    },
+    {
+      "path": "behandelingen/hallux-rigidus.html",
+      "sha256": "7882c3d0866531d23ce4066aac97859be02aad91280d3834e4bbe6afa47144e2"
+    },
+    {
+      "path": "behandelingen/hallux-valgus.html",
+      "sha256": "1dcb9e8de4f7021ba74e22fe99d562583f410888091ecbf324055852325588ac"
+    },
+    {
+      "path": "behandelingen/hamerteen-klauwteen.html",
+      "sha256": "4c94fced5e3750ec57bd592655e47b8760a4bbedd5e9d1a9d13992e0bbfd4c04"
+    },
+    {
+      "path": "behandelingen/hielpijn.html",
+      "sha256": "cbab3fd69581990a831b7625f37b5428aeab4ab3259aeed79bc4b4f64109bdef"
+    },
+    {
+      "path": "behandelingen/holvoet-cavovarus.html",
+      "sha256": "f1b453f17f4630643fec69ca41b94355b505b6b34e0631706006dd9533f5610a"
+    },
+    {
+      "path": "behandelingen/kraakbeenletsel-enkel.html",
+      "sha256": "23a82afbe36aa36cc28dac5c98298dd9ed5153a101e13b6c1d374d859ba97bad"
+    },
+    {
+      "path": "behandelingen/lisfranc-middenvoetletsel.html",
+      "sha256": "38587fe687cde753e42e5997c1a130d4e6bda6944a65f9948769cb438270de3c"
+    },
+    {
+      "path": "behandelingen/metatarsalgie.html",
+      "sha256": "ef0397295d33260fda6f61c200f2967c44736ad399c0105e1136ee570a6e968a"
+    },
+    {
+      "path": "behandelingen/morton-neuroom.html",
+      "sha256": "0352fac10b42731ebc6b4324aa84d319a2722efef02641e1c57dd4e9a74787ea"
+    },
+    {
+      "path": "behandelingen/mtp-1-artrodese.html",
+      "sha256": "1adce5afd7832a9c234adfc828f332847d22cdf36ce5afa6f43d923424c96212"
+    },
+    {
+      "path": "behandelingen/mtp-plantaire-plaatklachten.html",
+      "sha256": "55b3e1f97ba1cafe0588fdf890df94cf4cf1b85b26996c3dda302e65a8e476c3"
+    },
+    {
+      "path": "behandelingen/os-trigonum.html",
+      "sha256": "c73566b0af05529a383ef627dc1febaf866d708ca8dd22bd603c1a0d70594466"
+    },
+    {
+      "path": "behandelingen/peesplaatklachten-hielspoor.html",
+      "sha256": "a78bd113fe6ebba29db92c722449745030c89a6797bc6f60165c5bbc5bc2e132"
+    },
+    {
+      "path": "behandelingen/peroneuspeesklachten.html",
+      "sha256": "92acb492e938f68c19125143e90a226f1ddcf645558d2f93c122bc43a1f639d5"
+    },
+    {
+      "path": "behandelingen/platvoet-volwassen.html",
+      "sha256": "f7be053c7e9d77c35127a1604de27d7b44e7cdafabdeb496bcc2ba73db9278c2"
+    },
+    {
+      "path": "behandelingen/posterieur-enkel-impingement.html",
+      "sha256": "ff790a71725e44b682a743719fc11358c1dc75c8e6ee9ee7e3df966158248439"
+    },
+    {
+      "path": "behandelingen/revisie-artrodese.html",
+      "sha256": "034e60c05fd94355c1f8a0b7c84cebc5a7db06b63a0e347b690403bd4f2f5081"
+    },
+    {
+      "path": "behandelingen/sesamoidklachten.html",
+      "sha256": "2ee3306f41372138fd1c700b6a691b46e143a09523adeec89f1539cee001cac4"
+    },
+    {
+      "path": "behandelingen/sinus-tarsi-klachten.html",
+      "sha256": "27134317b521028d7e730e11b444ffb7aae37d34e19e3205b2337f4872ccac2f"
+    },
+    {
+      "path": "behandelingen/stressreactie-stressfractuur.html",
+      "sha256": "02a5bf89a1f220d7b5dc05ddb0f54288bedb56eed28460bd65fc25589a5593d8"
+    },
+    {
+      "path": "behandelingen/tailors-bunion.html",
+      "sha256": "0f8967bcdac82e9f5f84a9b6e43d8b224de6b0283422fe0b7f9c759265546769"
+    },
+    {
+      "path": "behandelingen/tarsal-boss.html",
+      "sha256": "660836070eb06c1c62e575158ca490a994d935a5938afc3e30c0ba507274089f"
+    },
+    {
+      "path": "behandelingen/tibialis-posterior-peesklachten.html",
+      "sha256": "3ec318b197eada674fecf5e08089d2277e7282cebe985b3db63892763390f0ec"
+    },
+    {
+      "path": "behandelingen/vetkussen-hielklachten.html",
+      "sha256": "c3765f6b5fcda867f5a7d3f9dea4808b550fe5538228c55cc5a9e3cb512f2dc0"
+    },
+    {
+      "path": "behandelingen/voorvoetcorrectie.html",
+      "sha256": "9cd02a72f150c5f2b0768073efc2545a20fa459acb5b6065fad5dc41141511e0"
+    },
+    {
+      "path": "concept-foot-pain-guide.html",
+      "sha256": "637683de999d04cb82fb2d2bd30189b7051de45d6e155c8809b1b469368cafb3"
+    },
+    {
+      "path": "disclaimer.html",
+      "sha256": "65c523bb4792cf2d721eac4ed3a00679245ca75c93d6c5478fe2cbf0cc85f41c"
+    },
+    {
+      "path": "expertise.html",
+      "sha256": "b0b3ac0de4f7939717f5205cb3df94d178be9f898645693c9a9894e169bcaa4e"
+    },
+    {
+      "path": "index.html",
+      "sha256": "1b91232acca2813468bc58de130a02d8ebb99d0511a9bb05c37299e1a30e0156"
+    },
+    {
+      "path": "over-mij.html",
+      "sha256": "9d6081b4d0de59f3c41c70ca500d14b2296446effed10ac7cb592b418aab6cbc"
+    },
+    {
+      "path": "privacy.html",
+      "sha256": "5910a404c40fe0aed3a1fa0e40ed6b54577c4a522b70dfb27224234fdfc8a6b3"
+    },
+    {
+      "path": "professionals.html",
+      "sha256": "28a615b263878feef53174cb262a345304431a3467340dfad51e25c4bb92291e"
+    },
+    {
+      "path": "projecten.html",
+      "sha256": "aa53c8f089aeb85c1ff721a955ead90260a7d4c1463e2bd47e7faab63551c4a8"
+    },
+    {
+      "path": "projecten/3d-planning-voet-enkel.html",
+      "sha256": "998657181df35f96a0108c64a0e2dce4f65a49d622a38b6cf10504ce0683f6b4"
+    },
+    {
+      "path": "projecten/footprint-quick-scan.html",
+      "sha256": "4c638482bc560a68d03126af0c162ae573bb78c9f5916dc4a6f4ea84ce1ab7ff"
+    },
+    {
+      "path": "projecten/leefstijlgerichte-kansen-orthopedie.html",
+      "sha256": "bf6cd2544bdb7bcc319184caa4bd64a4d5931447b94c68e8eb8bf904e934f185"
+    },
+    {
+      "path": "projecten/transmuraal-tilburg-cohort.html",
+      "sha256": "deed9d504eede8a982fa51d181617e31b20e539bdef800979d412703abfa5c49"
+    },
+    {
+      "path": "projecten/vrxoa-immersive-experiences-artrose.html",
+      "sha256": "2e2b2c37fdf3204c212ad4d0758a1ad18342d656e41cd6952d7d4545e4c6e57b"
+    },
+    {
+      "path": "projecten/we-walk.html",
+      "sha256": "bc843db3e262ea170fe11b75bd172ba5ce23b3906645f3414533f4d1984e8f58"
+    },
+    {
+      "path": "publicaties.html",
+      "sha256": "da39b06df48cc5b69c81646d4dc3513ee0804786f9bf4e703a1160293e7f23ec"
+    },
+    {
+      "path": "robots.txt",
+      "sha256": "d5d8e116fe1e9aca409761b6eda3efc0ad8911bdf023ce05558ca5d88d6c1c76"
+    },
+    {
+      "path": "script.js",
+      "sha256": "e3c2163cd5ff62b2e1c79bc66bb16897f3d60eed50347682f768cfe772948084"
+    },
+    {
+      "path": "sitemap.xml",
+      "sha256": "b10403ab6686c0070267ccc957c10185a185d1334f76df6365a0e933e16f5915"
+    },
+    {
+      "path": "styles.css",
+      "sha256": "2964a5ed03c0895ccde170f89784688967711eb6a36e567a44e6630956d419b8"
+    },
+    {
+      "path": "tools/check_deployment_boundary.py",
+      "sha256": "9a58a5948afe390a55dd9a43ef003046c46cbf2276517b7f2a94c841c50a2276"
+    },
+    {
+      "path": "tools/check_navigation_contract.py",
+      "sha256": "ed7dff973887188cd43f7eb4268292dfc72e9e1f73f684ad448427a01f40cdaa"
+    },
+    {
+      "path": "tools/check_publication_verification.py",
+      "sha256": "dd0e4d6702a2ee10fb670cf6366ef836795df20e63baf4781890884629dac34c"
+    },
+    {
+      "path": "tools/check_seo_basics.py",
+      "sha256": "a7d7ae9624c21b218b8226efb5705fa61ee1cc1d1624085b3b4fa600f6ced7af"
+    },
+    {
+      "path": "tools/generate_foot_pain_treatment_pages.mjs",
+      "sha256": "6edd8dc82dc566ef971b647519c1b3d66f680190d3cdcf55b04efde185d98d66"
+    }
+  ],
+  "commit": "143e5a0",
+  "approved_commit": "0a4a120",
+  "approved_tree": "8869b38fa887a6f751cac7e982604cb8ac30b35a"
+}

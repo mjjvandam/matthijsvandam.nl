@@ -19,3 +19,7 @@ __pycache__/
 .env
 .env.*
 !.env.example
+
+# Lokale redactiegegevens en voorbereide uitvoer blijven op deze computer.
+/local-admin/state/
+/local-admin/exports/

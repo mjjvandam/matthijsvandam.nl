@@ -1,0 +1,10 @@
+{
+  "templateName": "MVD - native bevestiging - Nederlands",
+  "subject": "Bevestig je inschrijving voor mijn nieuwsbrief",
+  "htmlContent": "<!doctype html><html lang=\"nl\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta name=\"robots\" content=\"noindex,nofollow\"><title>Bevestig je inschrijving voor mijn nieuwsbrief</title></head><body style=\"margin:0;background:#f7f4ed;font-family:Inter,Arial,sans-serif;line-height:1.65;color:#17201c\"><table role=\"presentation\" style=\"width:100%;border-collapse:collapse\"><tr><td style=\"padding:28px 16px\"><table role=\"presentation\" style=\"width:100%;max-width:600px;margin:auto;border-collapse:collapse\"><tr><td style=\"padding:8px 8px 24px\"><a href=\"https://matthijsvandam.nl/\" style=\"color:#17201c;text-decoration:none;font-size:24px;font-weight:700;letter-spacing:-.7px\">MatthijsvanDam<span style=\"color:#244c3d\">.nl</span></a></td></tr><tr><td style=\"background:#fffdf8;border-top:5px solid #244c3d;padding:30px 24px\"><p style=\"margin:0 0 12px;color:#244c3d;font-size:12px;letter-spacing:2px\">NIEUWSBRIEF</p><h1 style=\"font-size:28px;line-height:1.2;margin:0 0 24px\">Bevestig je inschrijving</h1><p>Je hebt je aangemeld voor mijn nieuwsbrief. Klik hieronder om je inschrijving te bevestigen.</p><p>Je ontvangt nieuws over de onderwerpen die je hebt gekozen, maximaal 12 keer per jaar. Je kunt je altijd uitschrijven.</p><p style=\"margin:26px 0\"><a href=\"{{ doubleoptin }}\" style=\"display:inline-block;background:#244c3d;color:#fffdf8;padding:13px 18px;border-radius:6px;text-decoration:none;font-size:16px;font-weight:bold\">Bevestig mijn inschrijving</a></p><p style=\"font-size:14px;color:#5d675f\">Heb je je niet zelf aangemeld? Dan kun je dit bericht negeren.</p><p>Hartelijke groet,<br><strong>Matthijs van Dam</strong></p></td></tr><tr><td style=\"padding:22px 8px;color:#5d675f;font-size:12px\">MatthijsvanDam.nl · Nieuwsbrief</td></tr></table></td></tr></table></body></html>",
+  "sender": {
+    "name": "Matthijs van Dam",
+    "email": "website@mail.matthijsvandam.nl"
+  },
+  "isActive": false
+}

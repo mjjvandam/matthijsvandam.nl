@@ -1,5 +1,7 @@
 # Site todo voor Matthijs
 
+Actualisatie 10 september 2026: de samengevoegde werklijst staat in de lokale beheeromgeving bij **Nog te doen**. Aanvullende taken rond contact, nieuwsbrief, redactie, techniek en beheer staan in [`local-admin/work-items.json`](local-admin/work-items.json), met bewijsbronnen, peildatum en eerstvolgende actie. Paginastatus volgt steeds het actuele register en de launch-inventaris. Dit document bewaart ook eerdere inhoudelijke aandachtspunten; die zijn niet vanzelf nog open. Zie [`local-admin/WORK_ITEMS_REVIEW.md`](local-admin/WORK_ITEMS_REVIEW.md).
+
 ## Vercel en livegang
 
 - Kies en corrigeer de primaire canonical host: live redirectt `https://matthijsvandam.nl/`
@@ -9,15 +11,13 @@
 - Beslis of `beeldbank/` publiek opvraagbaar mag blijven. De map staat live met
   `X-Robots-Tag: noindex, nofollow, noarchive` en `private, no-store`, maar bestanden zijn via
   directe URL bereikbaar. Als dit intern moet blijven, voeg `beeldbank/` toe aan `.vercelignore`.
-- Configureer het contactformulier pas wanneer het zichtbaar gebruikt mag worden:
-  `RESEND_API_KEY`, `CONTACT_TO_EMAIL`, `CONTACT_FROM_EMAIL` en `CONTACT_FORM_ENABLED=true`.
-  Nu geeft `/api/contact` bewust `503` omdat de mailkoppeling nog niet geconfigureerd is.
-- Rond de 8 gepubliceerde pagina's met `review_nodig` af voordat een volgende livegang als
-  inhoudelijk groen geldt. Controleer dit met `python3 tools/check_publication_verification.py`.
+- Het contactformulier is op 7 september 2026 met expliciet akkoord via Brevo live gezet. Op 10 september is het publieke formulier opnieuw in de browser gezien. De oorspronkelijke ketentest en inboxontvangst zijn vastgelegd in `local-mail-preview/CONTACT_RELEASE.md`. Open blijft de inboxweergave van de later toegevoegde mailopmaak en het conceptantwoord controleren; er is op 10 september geen nieuwe testmail verstuurd.
+- De oude melding van acht publieke reviews is achterhaald: de laatste controle van 10 september telt 40 publieke pagina's, alle 40 geverifieerd. Controleer de actuele toestand met `python3 tools/check_publication_verification.py`; dit is geen nieuw medisch akkoord.
+- De nieuwsbrief is voorbereid, maar nog niet publiek geactiveerd. Gebruik de actuele native Brevo-route uit `local-mail-preview/BREVO_NATIVE_ROUTE.md` en ADR-0013; de concrete vervolgtaken staan in het dashboard.
 
 ## Medische review concept-behandelpagina's
 
-Deze pagina's staan lokaal als concept in `behandelingen/` en zijn nog niet bedoeld voor livegang.
+Onderstaande historische reviewpunten blijven bruikbaar bij latere inhoudelijke revisies. Hallux rigidus, enkelverzwikking, enkelartrose en enkelprothese zijn inmiddels gepubliceerd en geverifieerd; hun aanwezigheid hieronder is geen open reviewopdracht. Voor de actuele conceptwerkvoorraad gebruikt het dashboard het register en `FOOT_PAIN_GUIDE_LAUNCH_INVENTARIS.md`.
 
 1. `behandelingen/hallux-rigidus.html`
    - Controleer medische inhoud, toon en indicaties.

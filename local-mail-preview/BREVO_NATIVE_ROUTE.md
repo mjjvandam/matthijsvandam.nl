@@ -1,5 +1,58 @@
 # Vervolg nieuwsbrief: bestaande website en Brevo
 
+## Actuele richting — eigenaarbesluit ADR-0013
+
+### Voortgang 8 september 2026
+
+Proefcampagne en correcte afmeldroute:
+- Campagne 10 `MVD technische ketenproef - concept - niet verzenden` gemaakt in Brevo met de goedgekeurde vormgeving en expliciete technische plaatsaanduidingen. API-readback: draft, geen geplande datum, geen ontvangerslijsten/segmenten. Niets verzonden.
+- Belangrijke correctie: Brevo onderscheidt een openbaar afmeldformulier (eerder gemaakt) van een campagne-afmeldpagina. Daarom werd ID `6a9f8014fd758e360d87d236` terecht door de campagne-API geweigerd. Geen probleem met opslag van het eerdere formulier.
+- Juiste campagne-afmeldpagina `6a9f863e2636803b01a6e46c` gemaakt via Settings > Campaigns > Unsubscribe Pages. Titel/tekst/knop Nederlands, native `{email}` behouden. Taal van Brevo's enquête na afmelding op Dutch ingesteld. Geen externe redirect. Met Done opgeslagen.
+- Campagne 10 gekoppeld aan deze campagne-afmeldpagina en profielconcept `6a9f1cd5fd758e360d87c8e0`. Zowel API-update geslaagd als de namen na heropenen teruggelezen in Additional settings. Reply-to is mjjvandam@gmail.com. De persoonlijke links worden pas bij de echte proef getest; selectie is geen bewijs van afmelding.
+- Bron onderscheid: https://help.brevo.com/hc/en-us/articles/208772629-Customize-an-unsubscribe-page-to-integrate-into-your-email-campaigns . API-specificatie https://developers.brevo.com/reference/create-email-campaign . Payload en statusbewijs lokaal in native/test-campaign*.json; geen sleutels.
+
+Laatste integratiestap:
+- `native/build.py` genereert nu vanuit dezelfde markup een netwerkvrije weergave en `native/integration.html` met de native formulieractie en officiële `main.js` uit de volledige Brevo HTML-export. Geen eigen backend of opslag. Deze map blijft uitgesloten van deployment.
+- Nederlandse runtime-meldingen, honeypot, expliciete toestemming, naam-/e-mailvalidatie en minimaal één passende onderwerpkeuze opgenomen. Knop blijft uit als de externe runtime niet laadt. Dit gedrag is nog niet met de externe runtime bewezen.
+- Native veldcontract gecontroleerd (lijsten 4–8, vereiste namen/e-mail/toestemming, juiste formulieractie en script). JavaScript-syntaxis slaagt. Lokale weergave visueel gezien op 360/390/430 px, inclusief onderwerpkeuzes en naam-/e-mailvelden.
+- Matthijs gevraagd uitsluitend te controleren of de knop actief wordt op `http://127.0.0.1:8881/integration.html`, nog niet verzenden. Externe ketenproef staat open door de eerder waargenomen browsertoolbeperking; geen omzeilroute gebruikt.
+- Publieke privacyverklaring vermeldt nog dat de nieuwsbrief niet actief is. Bij uiteindelijke vrijgave moet die tekst expliciet worden bijgewerkt; de huidige testcode is geen livevrijgave.
+
+Aanvulling websiteweergave:
+- Aanmeldconcept gedupliceerd als formulier `6a9f81effd758e360d87d286` (huidige interne naam begint nog met Copy of). Testlijsten verwijderd; alleen 4, 5, 6, 7 en 8 als expliciete keuzes. Geen achtergrondlijst. Template 9, dubbele bevestiging en Nederlandse meldingen teruggelezen; met Done opgeslagen.
+- Brevo Simple HTML-export toont native veld `lists_27[]` met waarden 8/7/5/4/6, FIRSTNAME, LASTNAME, EMAIL en OPT_IN=1. Dit is de bron voor de presentatievelden, niet een zelfbedachte API-koppeling.
+- `native/index.html`, `native/style.css`, `native/form.js`: afzonderlijke lokale vormgevingsproef op 127.0.0.1:8881, met doelgroep eerst en passende onderwerpen daarna. Browsercontrole patiënt → voet/enkel aanvinken → professional: patiëntkeuze verdwijnt en wordt gewist; professionele keuzes starten leeg. Geen persoonsgegevens opgeslagen, geen verzending en CSP form-action none. Dit is nog geen verbonden inschrijfformulier.
+- De Simple HTML-export waarschuwt dat formuliermeldingen en Brevo-bevestigingspagina's zonder JS niet werken. Daarom nog niet als productie-integratie gebruiken. Volgende implementatiestap: volledige HTML/JS-export gebruiken met behoud van Brevo-meldingen, en een echte proef uitvoeren. Directe sibforms-browsertoegang was eerder door het browserbeleid geblokkeerd; geen alternatieve netwerkroute gebruiken om die proef af te dwingen.
+- Desktopvormgeving visueel gecontroleerd. Mobiele breedtes en native integratie nog open. Geen livevrijgave of wijziging aan de publieke site.
+
+- Template 9 geactiveerd als beschikbaar sjabloon en in het bestaande proefformulier geselecteerd; via Settings > Next > Messages > Next > Done opgeslagen. Geen mail aangevraagd.
+- Profielconcept `6a9f1cd5fd758e360d87c8e0` aangemaakt en met Done opgeslagen: Mijn nieuwsbriefvoorkeuren, verplichte voornaam/achternaam/e-mail, vijf echte onderwerpen (lijsten 4–8), Opslaan/of/Uitschrijven. Alle onderwerpen worden nu samen getoond; doelgroep-voorselectie nog niet gebouwd. Nederlandse meldingen teruggelezen en native bevestiging template 9 geselecteerd. Niet aan een campagne gekoppeld, geen profielwijziging uitgevoerd.
+- Afmeldconcept `6a9f8014fd758e360d87d236` aangemaakt en met Done opgeslagen: Nederlandse titel, uitleg, e-maillabel, knop en succes-/foutmeldingen. Geen follow-upmail. Niet aan een campagne gekoppeld en afmelding nog niet getest.
+- Beide formulieren hebben nog de standaard Brevo-opmaak. Website-integratie, definitieve aanmeldkeuzes/doelgroepstap, volledige visuele controle en echte ketenproef blijven open. Geen publieke sitewijziging of verzending uitgevoerd.
+
+Matthijs accepteert het hieronder beschreven oude-linkgedrag en kiest expliciet de eenvoudige native Brevo-route. De conclusie hieronder dat het formulier om die reden niet publiek geïntegreerd mag worden is vervallen; overige tests en afzonderlijke publieke vrijgave blijven wel open. Geen verdere eigen token-/opslagbouw. ADR-0012 is vervangen; de onvoltooide Blob-module is verwijderd. De reeds eerder gebouwde lokale bevestigingsproef blijft uitsluitend historische testcode, geen productieroute.
+
+## Resultaat native proef — 7 september 2026
+
+### Uitvoering vereenvoudiging
+
+- Onvoltooide `blob-confirmation-state.cjs` verwijderd; geen productiecode gebruikte deze module.
+- Vercel-projectkoppeling van `mvd-newsletter-confirmation` verwijderd; dashboard bevestigt `No connections yet`. Het lege opslagobject zelf bestaat nog, zonder aansluiting op de website.
+- Nieuwe Brevo-template 9 `MVD - native bevestiging - Nederlands` als inactief concept opgeslagen en teruggelezen. Afzender `website@mail.matthijsvandam.nl`, Nederlandse tekst, bestaande groene/crème vormgeving en de native `{{ doubleoptin }}`-link. Bron: `native-confirmation-template.json` en `renderNativeConfirmationMail` in `mail-layout.cjs`.
+- Template 9 is nog niet geselecteerd in het proefformulier; bestaande template 5 blijft daar gekoppeld. Geen nieuwe mail verstuurd of publieke nieuwsbrief geactiveerd.
+- Volgende stap: template 9 koppelen, definitieve onderwerpen en voorkeuren-/afmeldformulier in Brevo afwerken. De onderstaande oude blokkade is historische testduiding en vervallen volgens ADR-0013.
+
+Deze latere controle vervangt de eerdere status "nog te bewijzen" voor de oude-linkproef. Matthijs heeft de native formulierinzendingen en kliks zelf uitgevoerd. Server-side uitsluitend het eigen testcontact via de Brevo Contacts API gelezen.
+
+1. Voor eerste bevestiging: marketingblokkade actief, eerdere proefnaam ongewijzigd, testlijsten 9/10.
+2. Na eerste bevestiging: marketingblokkade opgeheven, fictieve naam Test Nieuwsbrief, uitsluitend testlijst 9.
+3. Na tweede aanvraag maar vóór bevestiging: dezelfde bevestigde gegevens en lijst 9 blijven staan.
+4. Matthijs meldt opnieuw op de knop in de EERSTE mail te hebben geklikt, terwijl de tweede mail ongebruikt blijft. Daarna toont de API de tweede fictieve naam Test Twee, achternaam test, uitsluitend lijst 10, marketingblokkade uit.
+
+Conclusie: ook deze concrete native formulierroute bindt de gebruikte oude link niet voldoende aan de oorspronkelijke aanvraag voor onze afgesproken eisen. Geen algemene claim over alle Brevo-flows of juridische beoordeling. Native formulier niet publiek integreren. Tweede link niet meer gebruiken. Het testcontact is volgens de laatste controle actief op testlijst 10; niet verwarren met een productieabonnee of een geteste afmeldroute. Twee native bevestigingsmails door de gebruiker aangevraagd; geen extra agent-verzending.
+
+Vervolgonderzoek: zie ADR-0012. Geen nieuwe opslag of gewijzigde bevestigingsroute geactiveerd.
+
 ## Besluit van Matthijs — 7 september 2026
 
 "ok ga door maar dan dus zonder nog weer extra diensten"
