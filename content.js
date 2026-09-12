@@ -17,7 +17,7 @@
       label: "Transmurale zorg",
       summary:
         "Een digitaal transmuraal zorgpad voor artrose en obesitas, met aandacht voor ziekenhuiszorg, regio, leefstijl en evaluatie.",
-      image: "assets/project-transmuraal-tilburg-cohort-editorial.jpg",
+      image: "assets/project-transmuraal-tilburg-cohort-zonder-schoen.jpg",
       imageAlt: "Multidisciplinair overleg over digitaal zorgpad, artrose en leefstijl",
       url: "projecten/transmuraal-tilburg-cohort.html",
       featured: true,
