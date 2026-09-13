@@ -12,7 +12,7 @@ function filterTopics(){
   input.disabled=!applicable;
   if(!applicable)input.checked=false;
  }
- document.querySelector('#audience-note').textContent=!audience?'':audience==='patienten'?'Je kiest de artikelen voor patiënten.':'Je kiest de artikelen voor zorgprofessionals.';
+ document.querySelector('#audience-note').textContent=!audience?'':audience==='patienten'?'Je ontvangt artikelen die aansluiten bij jouw keuze: ik ben patiënt.':'Je ontvangt artikelen die aansluiten bij jouw keuze: ik werk in de zorg.';
 }
 form.addEventListener('change',event=>{
  if(event.target.name==='audience')filterTopics();

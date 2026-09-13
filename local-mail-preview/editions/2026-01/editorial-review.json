@@ -1,0 +1,37 @@
+{
+  "status": "concept",
+  "distributionApproved": false,
+  "recipients": [],
+  "scheduledAt": null,
+  "articles": [
+    {
+      "id": "knieprothese-bariatrische-chirurgie-obesitas-knieartrose",
+      "title": "Knieprothese of eerst bariatrische chirurgie bij ernstige obesitas en knieartrose?",
+      "summary": "Wat SWIFT, een meta-analyse en de Nederlandse richtlijn laten zien over bariatrische chirurgie en een knieprothese bij ernstige obesitas en knieartrose.",
+      "url": "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html",
+      "fingerprint": "bd067a6996ae7e4e680330ec994a4091354a4ad8bd10f3c7e81424b6e033e8fe"
+    },
+    {
+      "id": "leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort",
+      "title": "Leonie Meihuizen gestart als onderzoeker voor het Transmuraal Tilburg Cohort",
+      "summary": "Leonie Meihuizen versterkt de opbouw van het digitale zorgpad en de prospectieve gegevensverzameling binnen het Transmuraal Tilburg Cohort.",
+      "url": "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html",
+      "fingerprint": "78706e15375b44c467d9bf320898c78dc4957c414aa89bf3665bf21a71fd5fb2"
+    },
+    {
+      "id": "obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen",
+      "title": "Obesitasmedicatie en knieartrose: minder pijn, minder bewegen?",
+      "summary": "Beschouwing over GLP-1-medicatie, obesitas, bewegen en knieartrose: wat betekenen gewichtsverlies, pijn en functioneren voor brede artrosezorg?",
+      "url": "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html",
+      "fingerprint": "fa63037b1a1fe0cfd749fbb63331960dd38967f1a7d06b950d96493fb44033b3"
+    }
+  ],
+  "brevo": {
+    "campaignId": 11,
+    "status": "draft",
+    "recipients": [],
+    "scheduledAt": null,
+    "verifiedOn": "2026-09-13",
+    "url": "https://app.brevo.com/marketing-campaign/edit/11"
+  }
+}

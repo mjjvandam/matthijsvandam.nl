@@ -88,5 +88,5 @@ Belangrijke grens:
 
 ## Te valideren
 
-- Of "medewerkers" als aparte doelgroep blijft bestaan of alleen tijdelijk was voor FOOTprint Quick Scan.
+- Besluit Matthijs, 13 september 2026: medewerkers vallen onder zorgprofessionals; geen aparte artikelcategorie. De artikelkeuzes heten “Ik ben patiënt” en “Ik werk in de zorg”. Bestaande medewerkersfilterlinks worden naar zorgprofessionals genormaliseerd.
 - Of partners/onderzoek/zorgontwikkeling later een fijnere onderverdeling nodig heeft.

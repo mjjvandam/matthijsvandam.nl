@@ -71,10 +71,9 @@
       <h1 class="visually-hidden" id="articles-overview-title">Artikelen</h1>
       <aside class="listing-hero" aria-label="Artikelen filteren">
         <div class="filter-panel" aria-label="Artikel filters">
-          <details class="filter-group" data-filter-group="audience" open>
-            <summary>Voor wie</summary>
+          <div class="filter-group" data-filter-group="audience" role="group" aria-label="Voor wie">
             <div class="filter-bar" data-filter-options="audience"></div>
-          </details>
+          </div>
           <details class="filter-group" data-filter-group="topic" open>
             <summary>Onderwerp</summary>
             <div class="filter-bar" data-filter-options="topic"></div>
@@ -108,12 +107,12 @@
         const empty = document.querySelector('[data-filter-empty]');
         document.querySelectorAll('[data-filter=""]').forEach(button => button.remove());
         const narrow = window.matchMedia('(max-width: 760px)');
-        const setFilterDisclosure = () => groups.forEach(group => { group.open = !narrow.matches; });
+        const setFilterDisclosure = () => groups.filter(group => group.tagName === 'DETAILS').forEach(group => { group.open = !narrow.matches; });
         setFilterDisclosure();
         narrow.addEventListener('change', setFilterDisclosure);
         const params = new URLSearchParams(window.location.search);
         const state = {
-          audience: params.get('audience') || '',
+          audience: params.get('audience') === 'medewerkers' ? 'zorgprofessionals' : params.get('audience') || '',
           topic: params.get('topic') || '',
         };
         const projectId = params.get('project') || '';

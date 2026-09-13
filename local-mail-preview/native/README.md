@@ -1,6 +1,6 @@
 # Native Brevo website-integratie — voorbereiding
 
-Status: lokale integratiecode, nog niet publiek of end-to-end bewezen.
+Status: lokale integratie, nog niet publiek. Aanmelding, voorkeurwijziging en afmelding met het bestaande eigen testcontact gecontroleerd; zie actuele status hieronder.
 
 ## Bestand en gedrag
 
@@ -37,9 +37,28 @@ Template 9 voor dubbele bevestiging staat in het formulier geselecteerd. Geen au
 
 ## Openstaande vrijgave
 
-De eerstvolgende noodzakelijke externe controle is het laden van `integration.html` in de browser van Matthijs. Matthijs meldde met een screenshot dat de oude versie bleef laden. De lokale laadcontrole is inmiddels hersteld en getest; de vernieuwde versie moet nog met de echte provider worden gecontroleerd. Dezelfde browsertoolbeperking is tijdens opeenvolgende vervolgrondes blijven gelden; geen alternatieve route gebruikt. De lokale URL geeft HTTP 200, maar dat bewijst niet dat het externe Brevo-script werkt.
+Actuele stand op 13 september 2026: Matthijs bevestigt ook in deze taak dat de
+herstelde websiteaanmelding werkt. Het verslag `../editions/2026-01/REVIEW.md`
+bevat daarnaast de ontvangen testmail, bevestigde lijstwijziging en uiteindelijke
+campagne-afmelding van het bestaande eigen testcontact. Deze tests niet herhalen
+alsof ze nog ontbreken. De twee afmeldroutes zijn kort na elkaar gebruikt; hun
+afzonderlijke timing is daarmee niet bewezen.
 
-Daarna volgen: één afgesproken echte testaanmelding en bevestigingsmail, controle van gekozen lijsten, wijziging/verwijdering van voorkeuren en uitschrijving via de proefcampagne. Pas na die resultaten de integratie corrigeren waar nodig, publieke privacytekst afwerken en livevrijgave vragen. Automatische nieuwsbrieven, frequentiecontrole en subtiele website-uitnodigingen blijven vervolgwerk; niets hiervan als voltooid aanmerken.
+Nog open: eerste aanmelding van een geheel nieuw contact, Nederlandse afronding,
+live artikel-/beeldcontrole, distributieakkoord en jaarlijkse frequentiebewaking.
+Automatische verzending blijft uit; een inschrijfformulier live zetten en een
+campagne versturen zijn afzonderlijke vrijgaven.
+
+Brevo-instellingen opnieuw gelezen op 13 september: template “MVD - native
+bevestiging - Nederlands” staat geselecteerd; dubbele bevestiging blijft aan.
+De optionele pagina na de bevestigingsklik biedt alleen “Default Thank You Page”
+of een eigen URL. Er is geen Nederlandse pagina in die keuzelijst. Het onderzochte
+vinkje teruggezet op de oorspronkelijke uitstand; geen wijziging opgeslagen.
+Voor een eigen Nederlandse afronding moet een bereikbare pagina worden voorbereid
+en bij de afzonderlijke websitevrijgave worden gekoppeld. Geen localhost-URL in
+Brevo instellen. Het voorkeurformulier toont de bijgewerkte doelgroepteksten en
+“Opslaan”; de eerder gemelde Engelse afmeldknop is niet in deze ontwerpweergave
+zichtbaar en nog niet als vertaald aangemerkt.
 
 ## Herbouwen / lokaal openen
 
@@ -48,3 +67,56 @@ Daarna volgen: één afgesproken echte testaanmelding en bevestigingsmail, contr
 `python3 -m http.server 8881 --bind 127.0.0.1 --directory local-mail-preview/native`
 
 Websitevrijgave is een afzonderlijke laatste stap. Deze map staat onder de bestaande uitgesloten `local-mail-preview/`-map. Geen publieke bestanden gewijzigd.
+
+## Aanvulling 12/13 september 2026: eerste verbonden proef
+
+De nieuwere resultaten staan in ../editions/2026-01/REVIEW.md. Matthijs heeft de
+websiteaanmelding en bevestigingsklik uitgevoerd. Eén Nederlandse bevestigingsmail
+ontvangen in Gmail, en na bevestiging lijst #7 bij bestaand Brevo-contact 1 teruggelezen.
+De aanmeldketen voor dit bestaande adres is dus bewezen; eerdere notities over een geheel
+onbewezen providerketen zijn voor dit onderdeel achterhaald. Bevestigingspagina nog Engels.
+Voorkeuren, afmelding en de technische campagne staan nog open; Mac is vergrendeld.
+Native frequentiecap vraagt Upgrade in het huidige account. Geen upgrade of activering.
+
+## Doelgroepwoorden — 13 september 2026
+
+Op verzoek van Matthijs gebruikt de lokale aanmeldproef nu “Ik ben patiënt” en
+“Ik werk in de zorg”, onder “Wat past bij jou?”. Generator, beide HTML-uitvoeren
+en de begeleidende keuzezin zijn aangepast; technische audience-waarden en lijst-IDs
+blijven gelijk. Gerenderde labels gecontroleerd in de lokale browser.
+Brevo-voorkeurformulier toont nog de oude gecombineerde labels; bewerking van die
+tekst is niet opgeslagen doordat native computerbediening noWindowsAvailable meldt.
+Volgende wijziging: zichtbare suffixen “voor patiënten” naar “ik ben patiënt” en
+“voor zorgprofessionals” naar “ik werk in de zorg” in beide native formulieren,
+zonder lijst-IDs of inschrijvingen te wijzigen. Geen mails verstuurd of publieke
+inschrijving geactiveerd.
+
+### Afgerond in Brevo — 13 september 2026
+
+Na aanmelding door Matthijs in de ingebouwde browser zijn de vier zichtbare
+doelgroeplabels aangepast en opgeslagen in het native aanmeldformulier
+6a9f81effd758e360d87d286 en voorkeurformulier 6a9f1cd5fd758e360d87c8e0.
+De keuzes luiden nu per onderwerp “Ik ben patiënt” en “Ik werk in de zorg”.
+Voorkeurformulier opnieuw geopend en alle vier labels teruggelezen.
+Alleen zichtbare formulierteksten gewijzigd; interne lijstnamen, lijstkeuzes,
+bevestiging en inschrijvingen ongewijzigd. Geen testmail of publieke activering.
+Het eerdere openstaande punt over deze labels is hiermee afgehandeld.
+
+## Nederlandse afronding voorbereid — 13 september 2026
+
+`bevestigd.html` is een lokale, statische voorbeeldpagina voor uitsluitend de
+succesvolle Brevo-bevestigingsklik. Geen tokens, contactgegevens, scripts, API of
+wijzigingen aan inschrijvingen. De pagina zelf verifieert geen inschrijving en
+mag pas na een succesvolle provideractie als afronding worden gebruikt.
+Bij vrijgave: lokale voorbeeldmelding verwijderen, definitieve publieke URL
+controleren en die bij beide toepasselijke Brevo-formulieren koppelen. Niet naar
+localhost verwijzen en geen fout-/verlopen-linkroute naar deze pagina leiden.
+
+Ontwerpimpact: geen catalogusmatch op native/style.css; handmatig vastgesteld dat
+alleen de bestaande uitgesloten native-proefstijl wordt hergebruikt. Geen CSS of
+publieke component gewijzigd. Bewuste bestaande uitzondering: deze nieuwsbriefproef
+blijft licht, ook bij donkere systeemvoorkeur, passend bij de goedgekeurde mailstijl.
+Gecontroleerd op 360/390/430/1000 px, lichte en donkere voorkeur, zonder horizontale
+overloop; screenshot op 390 px visueel bekeken. Designsysteemcontrole slaagt.
+ADR-0013 dekt deze lokale voorbereiding; geen nieuwe ADR of medische review nodig.
+Publieke vrijgave en koppeling blijven open. Geen nieuwe mail verzonden.

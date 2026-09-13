@@ -1,3 +1,7 @@
+## Actuele status: gepubliceerd en live gecontroleerd
+
+De technische release is op 12 september 2026 gepubliceerd via GitHub Desktop. Commit `66201d311cd5cfbff0f6b696e85840c78c159551`, Vercel-productiedeployment `dpl_EVJ7wT8DynVxoUvQxNg9k46zULSC`, status READY. De eerdere blokkades en openstaande livegangmeldingen hieronder zijn historische stappen.
+
 # Technische release — 12 september 2026
 
 Status: door Matthijs expliciet goedgekeurd voor publicatie; livegang geblokkeerd door ontbrekende GitHub-schrijftoegang. Niet gepubliceerd.
@@ -81,3 +85,15 @@ Vervolg: een werkende GitHub-schrijfverbinding voor `mjjvandam/matthijsvandam.nl
 ## Voortzetting na herstelde Desktop-aanmelding
 
 GitHub Desktop is weer bestuurbaar en aangemeld als mjjvandam. De technische release wordt samengevoegd met productiecommit 9527f37; de nieuwe redirects, beheerbestanden en contactbevestiging uit die commit blijven behouden. Publicatieakkoord is door Matthijs opnieuw bevestigd. Eerdere aanmeldblokkades hieronder/boven zijn historische status; deployment en livecontrole volgen nu.
+
+## Liveverificatie na publicatie
+
+- Alle 40 sitemap-pagina’s geven HTTP 200 en een canonical op https://www.matthijsvandam.nl/.
+- Apex leidt naar de www-homepage (eindantwoord 200).
+- Beide eerder blootgestelde concepten geven nu 404: de knieartrose-preview en het artikel na-verzwikte-enkel-instabiel-blijven. Ook concept-foot-pain-guide.html, behandelingen/hallux-valgus.html, local-admin/README.md en PUBLICATIE_REGISTER.json geven 404.
+- Live sitemap, robots, styles.css en script.js zijn bytegelijk aan de gepubliceerde bron.
+- Live Professionals op 360/390/430 px: geen horizontale overloop, alle menulinks binnen de viewport, precies één actieve paginalink. Escape sluit het menu; geen browserconsolefouten. Licht/donker bekeken.
+- Nieuwe redirects, contactbevestiging en beheerbestanden uit 9527f37 zijn behouden. Geen formulierverzending of nieuwe medische wijzigingen gedaan.
+- De lokale main is fast-forward bijgewerkt nadat de gebruiker zijn eerdere wijzigingen zelf had gecommit. Geen lokale redactiegegevens of versiegeschiedenis gewist. Omdat de publieke Leonie-HTML technisch is bijgewerkt, blijft voor de bestaande beheerpilot de expliciete bronvergelijking gelden; bronhashes en database zijn niet aangepast om deze melding te omzeilen.
+
+Punt 2 is gepubliceerd en live gecontroleerd. Search Console/Bing-accountstatus en de bedoelde beeldbanktoegang blijven afzonderlijke bestaande onderwerpen.

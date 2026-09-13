@@ -1,0 +1,16 @@
+'use strict';
+const test=require('node:test'),assert=require('node:assert/strict');
+const {preflight,yearAgo}=require('./edition-preflight.cjs');
+const c={email:'test@example.invalid',confirmed:true,blocklisted:false,matchingArticleIds:['a','a','b']};
+const base={now:'2026-09-12T21:00:00Z',editionId:'2026-01',recipients:[c],history:[],historyComplete:true,historyCheckedAt:'2026-09-12T21:00:00Z',distributionApproved:true,quotaRemaining:200};
+const event=(i,status='sent')=>({email:c.email,campaignId:'c'+i,editionId:'old'+i,kind:'newsletter',status,at:'2026-09-01T10:00:00Z'});
+test('overlappende lijsten en artikelen leveren één plaatsing op',()=>{const p=preflight({...base,recipients:[c,{...c,email:' TEST@example.invalid '}]});assert.equal(p.eligible.length,1);assert.deepEqual(p.eligible[0].articleIds,['a','b']);assert.equal(p.sendEnabled,false)});
+test('elfde mag, twaalfde blokkeert volgende mail over alle onderwerpen',()=>{assert.equal(preflight({...base,history:Array.from({length:11},(_,i)=>event(i))}).eligible.length,1);assert.equal(preflight({...base,history:Array.from({length:12},(_,i)=>event(i))}).eligible.length,0)});
+test('sent en delivered van dezelfde campagne tellen eenmaal',()=>{const h=Array.from({length:11},(_,i)=>event(i));h.push(event(0,'delivered'));assert.equal(preflight({...base,history:h}).eligible.length,1)});
+test('herhaling, pending en onzeker blokkeren dezelfde editie',()=>{for(const status of ['sent','pending','unknown'])assert.equal(preflight({...base,history:[{...event(1,status),editionId:base.editionId}]}).eligible.length,0)});
+test('afmelding en ontbreken opt-in blokkeren',()=>{for(const extra of [{blocklisted:true},{confirmed:false}])assert.equal(preflight({...base,recipients:[{...c,...extra}]}).eligible.length,0)});
+test('ontbrekende vrijgave en geen nieuwe artikelen sturen niets',()=>{assert.equal(preflight({...base,distributionApproved:false}).eligible.length,0);assert.equal(preflight({...base,recipients:[{...c,matchingArticleIds:[]}]}).eligible.length,0)});
+test('onvolledige of verouderde historie, onbekende status en quota stoppen',()=>{for(const extra of [{historyComplete:false},{historyCheckedAt:'2026-09-11T00:00:00Z'},{quotaRemaining:0},{history:[event(1,'nonsense')]}])assert.throws(()=>preflight({...base,...extra}))});
+test('bevestigingsmail telt niet als nieuwsbrief',()=>{assert.equal(preflight({...base,history:Array.from({length:20},(_,i)=>({...event(i),kind:'confirmation'}))}).eligible.length,1)});
+test('jaargrens is kalenderjaar terug, inclusief schrikkeldag en exacte grens',()=>{assert.equal(new Date(yearAgo(Date.parse('2024-02-29T12:00:00Z'))).toISOString(),'2023-02-28T12:00:00.000Z');const h=Array.from({length:12},(_,i)=>({...event(i),at:'2025-09-12T21:00:00Z'}));assert.equal(preflight({...base,history:h}).eligible.length,0);h[0].at='2025-09-12T20:59:59Z';assert.equal(preflight({...base,history:h}).eligible.length,1)});
+test('conflicterende contactkopieën worden niet stil samengevoegd',()=>assert.throws(()=>preflight({...base,recipients:[c,{...c,blocklisted:true}]})));

@@ -2,7 +2,7 @@
   "candidate": "/private/tmp/mvd-technical-release-20260912",
   "branch": "codex/technical-release-20260912",
   "base": "bfdf87d99b08bfa85a6fda7ea0cfe2ea434bdc2b",
-  "status": "approved_deployment_blocked",
+  "status": "published_live_verified",
   "files": [
     {
       "path": ".vercelignore",
@@ -359,5 +359,44 @@
   ],
   "commit": "143e5a0",
   "approved_commit": "0a4a120",
-  "approved_tree": "8869b38fa887a6f751cac7e982604cb8ac30b35a"
+  "approved_tree": "8869b38fa887a6f751cac7e982604cb8ac30b35a",
+  "production_commit": "66201d311cd5cfbff0f6b696e85840c78c159551",
+  "deployment_id": "dpl_EVJ7wT8DynVxoUvQxNg9k46zULSC",
+  "live_checks": {
+    "public_checked": 40,
+    "blocked": [
+      {
+        "path": "/concepten/previews/2026-06-21-knieartrose-geen-beste-oefening.html",
+        "status": 404
+      },
+      {
+        "path": "/artikelen/na-verzwikte-enkel-instabiel-blijven.html",
+        "status": 404
+      },
+      {
+        "path": "/concept-foot-pain-guide.html",
+        "status": 404
+      },
+      {
+        "path": "/behandelingen/hallux-valgus.html",
+        "status": 404
+      },
+      {
+        "path": "/local-admin/README.md",
+        "status": 404
+      },
+      {
+        "path": "/PUBLICATIE_REGISTER.json",
+        "status": 404
+      }
+    ],
+    "redirect": "200 https://www.matthijsvandam.nl/",
+    "issues": []
+  },
+  "live_asset_matches": {
+    "sitemap.xml": true,
+    "robots.txt": true,
+    "styles.css": true,
+    "script.js": true
+  }
 }

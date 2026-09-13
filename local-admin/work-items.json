@@ -52,9 +52,9 @@
       "title": "Nieuwsbrief: aanmelding en bevestiging testen",
       "category": "Contact & nieuwsbrief",
       "status": "open",
-      "status_label": "Gedeeltelijk voorbereid",
-      "detail": "Native formulieren en de bevestigingsmail zijn voorbereid. De volledige websiteaanmelding met echte bevestiging en ontvangst is nog niet bewezen.",
-      "next_action": "Bestaande integratie nalopen en een concrete proef voorbereiden. Daarna met toegestane testadressen aanmelden, bevestigen en doelgroep-/onderwerpkeuzes teruglezen.",
+      "status_label": "Aanmelding bestaand adres bewezen",
+      "detail": "13 september 2026: aanmelding en bevestiging voor het bestaande eigen contact bewezen. Drie van vijf testmails totaal ontvangen, uitsluitend mjjvandam@gmail.com. Bevestigingspagina nog Engels.",
+      "next_action": "Nederlandse afronding van native bevestiging afwerken; eerste inschrijving van een geheel nieuw contact blijft afzonderlijk te testen.",
       "priority": 1,
       "sources": [
         {
@@ -64,6 +64,10 @@
         {
           "path": "docs/decisions/ADR-0013-brevo-native-practical-scope.md",
           "sha256": "6c5cae3fe3cb1773dc443ee657a4050815c24a437b54e2444e7e57dc320c39a1"
+        },
+        {
+          "path": "local-mail-preview/editions/2026-01/REVIEW.md",
+          "sha256": "a676eeb4b2c298b5633df8378575798a6631b7d92edf91ef636651d4db6b1bb0"
         }
       ]
     },
@@ -72,14 +76,18 @@
       "title": "Nieuwsbrief: voorkeuren en afmelden afmaken",
       "category": "Contact & nieuwsbrief",
       "status": "open",
-      "status_label": "Werking nog te testen",
-      "detail": "Profiel- en afmeldroutes zijn gekoppeld aan een conceptcampagne. De werking van de persoonlijke links en gewijzigde voorkeuren is nog niet bewezen.",
-      "next_action": "Vanuit een toegestane testeditie voorkeuren wijzigen en afmelden; de gekozen lijsten en uitsluiting van verdere mail daarna controleren.",
+      "status_label": "Voorkeuren en afmelding bewezen",
+      "detail": "13 september: na bevestiging lijst 4 toegevoegd en lijst 7 verwijderd. Afmeldroutes geven succes; definitieve Brevo-readback Email campaigns Blocklisted, SMS/transactioneel ongewijzigd. Eigen adres blijft afgemeld. Drie testmails gebruikt.",
+      "next_action": "Voor livegang Engelse Unsubscribe-knop afwerken; afzonderlijke timing van beide afmeldroutes desgewenst isoleren. Geen extra mail nodig voor huidige test.",
       "priority": 1,
       "sources": [
         {
           "path": "local-mail-preview/BREVO_NATIVE_ROUTE.md",
           "sha256": "3f84ec56224e745aed01a9966d096eb7faee2309c1993475225712384e3b1a88"
+        },
+        {
+          "path": "local-mail-preview/editions/2026-01/REVIEW.md",
+          "sha256": "a676eeb4b2c298b5633df8378575798a6631b7d92edf91ef636651d4db6b1bb0"
         }
       ]
     },
@@ -88,9 +96,9 @@
       "title": "Nieuwsbrief: eerste editie en verzendregels uitwerken",
       "category": "Contact & nieuwsbrief",
       "status": "open",
-      "status_label": "Concept uitwerken",
-      "detail": "Vormgeving en een technische proefcampagne bestaan. Redactionele selectie, eerste echte editie, dubbelpreventie en maximaal twaalf bezorgingen per abonnee over alle onderwerpen samen zijn nog uit te werken.",
-      "next_action": "Eén leesbare concepteditie maken. Daarna selectie, overlap, herhaalde uitvoering, quota en gezamenlijke jaarlimiet aantoonbaar toetsen vóór automatische verzending.",
+      "status_label": "Brevo-concept klaar; jaarlimiet open",
+      "detail": "Brevo-campagne 11 als Draft opgeslagen met drie artikelen, juist onderwerp, geen ontvangers of schema. Tien lokale preflight-tests geslaagd. Native frequency cap vraagt Upgrade; geen upgrade uitgevoerd. Automatische jaarlimiet niet in productie afgedwongen.",
+      "next_action": "Inhoudelijke verzendgoedkeuring en live links/beelden controleren vóór vrijgave. Jaarlimiet per verzendronde aan complete Brevo-historie controleren; geen automatische verzending zolang handhaving ontbreekt.",
       "priority": 2,
       "sources": [
         {
@@ -104,6 +112,10 @@
         {
           "path": "local-mail-preview/CONTACT_RELEASE.md",
           "sha256": "0227d3de481031b8f1fd2579b287a4bc4cc9d83fcf5250c2b9d1d190b9a31bb0"
+        },
+        {
+          "path": "local-mail-preview/editions/2026-01/REVIEW.md",
+          "sha256": "a676eeb4b2c298b5633df8378575798a6631b7d92edf91ef636651d4db6b1bb0"
         }
       ]
     },
@@ -114,7 +126,7 @@
       "status": "waiting",
       "status_label": "Na geslaagde ketenproef",
       "detail": "De nieuwsbrief is nog niet publiek actief. Privacyuitleg, subtiele inschrijflinks en de afgesproken eenmalige uitnodiging moeten bij de bewezen werking aansluiten.",
-      "next_action": "Na de keten- en frequentietests de uiteindelijke schermen, privacytekst en eerste editie voorleggen. Publieke activering en verzending afzonderlijk vrijgeven.",
+      "next_action": "Na de keten- en frequentietests de uiteindelijke schermen, privacytekst en eerste editie voorleggen. Onderwerp-specifieke subtiele inschrijfinvites voor Transmuraal Tilburg Cohort, artrose en obesitas zijn op de homepage toegevoegd. Bij voorkeur voor live nu ook een concrete test met nieuw ontvangeradres afronden. Daarna pas publieke activering en verzending apart vrijgeven.",
       "priority": 3,
       "sources": [
         {
@@ -239,15 +251,15 @@
       "id": "work-concept-protection",
       "title": "Conceptbestanden buiten publicatie houden",
       "category": "Techniek & vindbaarheid",
-      "status": "waiting",
-      "status_label": "Goedgekeurd; GitHub-toegang blokkeert livegang",
-      "detail": "Twee concept-URL’s geven live HTTP 200. Uitsluitingen zijn aangescherpt en lokaal gecontroleerd in de afzonderlijke technische release.",
-      "next_action": "GitHub-schrijftoegang herstellen en het al goedgekeurde technische pakket 0a4a120 publiceren; daarna live controleren. Geen nieuw publicatieakkoord nodig.",
+      "status": "done",
+      "status_label": "Gepubliceerd en live gecontroleerd",
+      "detail": "Technische release 66201d3 staat live; op 12 september 2026 gecontroleerd.",
+      "next_action": "Geen vervolgactie voor deze technische release.",
       "priority": 1,
       "sources": [
         {
           "path": "docs/site/reviews/technical-release-2026-09-12.md",
-          "sha256": "3978447a5ae675e160d1c487f313c1f790c34f3dca2baec6590edd7718e95072"
+          "sha256": "97988452519a18768ad15421d35b0f525a3b3045d7def6457f2835d796254a1a"
         }
       ]
     },
@@ -255,15 +267,15 @@
       "id": "work-menu-review",
       "title": "Menuaanpassingen visueel afronden",
       "category": "Techniek & vindbaarheid",
-      "status": "waiting",
-      "status_label": "Goedgekeurd; GitHub-toegang blokkeert livegang",
-      "detail": "Menu op 360/390/430 px en desktop gecontroleerd. Afzonderlijke technische release bevat alleen de menufix en verse cacheversies.",
-      "next_action": "GitHub-schrijftoegang herstellen en het al goedgekeurde technische pakket 0a4a120 publiceren; daarna live controleren. Geen nieuw publicatieakkoord nodig.",
+      "status": "done",
+      "status_label": "Gepubliceerd en live gecontroleerd",
+      "detail": "Technische release 66201d3 staat live; op 12 september 2026 gecontroleerd.",
+      "next_action": "Geen vervolgactie voor deze technische release.",
       "priority": 1,
       "sources": [
         {
           "path": "docs/site/reviews/technical-release-2026-09-12.md",
-          "sha256": "3978447a5ae675e160d1c487f313c1f790c34f3dca2baec6590edd7718e95072"
+          "sha256": "97988452519a18768ad15421d35b0f525a3b3045d7def6457f2835d796254a1a"
         }
       ],
       "replaces_report": "report-latest-sitecheck"
@@ -273,18 +285,14 @@
       "title": "Websiteadres en zoekmachine-inrichting controleren",
       "category": "Techniek & vindbaarheid",
       "status": "waiting",
-      "status_label": "Vijf redirects klaar voor livegang",
-      "detail": "Peildatum 12-09-2026: Google-eigendom en sitemap ingericht. Vijf exacte 404-redirects lokaal voorbereid en gecontroleerd, nog niet live. Indexeringsaanvragen voor de www-adressen van enkelartrose, enkelprothese en de klachtenhub zijn door Google bevestigd. Homepage-profielmarkering is geldig. De aparte www-normalisatie is niet in dit herstel meegenomen; Bing blijft ongecontroleerd.",
-      "next_action": "Akkoord op alleen de vijf redirects vragen; daarna uitsluitend deze configuratiewijziging publiceren en de 308, .html-bestemmingen en topic=voorvoet live controleren. De drie indexeringsaanvragen en de geldige homepage-profielmarkering volgen in de bestaande weekcheck. Hostnormalisatie blijft een afzonderlijk besluit.",
+      "status_label": "Search Console gecontroleerd; Google-herverwerking loopt",
+      "detail": "13 september: eigendom geverifieerd, sitemap succesvol met 40 pagina’s. Indexrapport 4 september toont 4 geïndexeerd en 9 uitgesloten; eerdere 404-validatie loopt. Goedgekeurde websitewijzigingen zijn live, 40 pagina’s en gedeelde bestanden exact gecontroleerd.",
+      "next_action": "Bij de bestaande weekcheck Google-herverwerking en eerdere URL-aanvragen opvolgen. Bing-inrichting nog controleren.",
       "priority": 2,
       "sources": [
         {
-          "path": "docs/site/reviews/technical-release-2026-09-12.md",
-          "sha256": "3978447a5ae675e160d1c487f313c1f790c34f3dca2baec6590edd7718e95072"
-        },
-        {
-          "path": "docs/site/reviews/search-console-actions-2026-09-12.md",
-          "sha256": "d8dff085531426bb70f94d5be3a39f0498c7e003acdd3add39f8108161acd67b"
+          "path": "docs/site/reviews/search-console-2026-09-13.md",
+          "sha256": "06dada4535a1d4afaeb24104901c595e8a9b6e174d146d74998bc7aff40f6eca"
         }
       ]
     },

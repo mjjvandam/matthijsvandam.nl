@@ -484,7 +484,8 @@
       panel.append(el('p', {}, `Eigendom geverifieerd · sitemap verwerkt · ${g.discovered} pagina’s ontdekt.`));
       panel.append(el('p', {}, `Indexeringsrapport van ${g.index_updated_at}: ${g.indexed} geïndexeerd, ${g.not_indexed} niet geïndexeerd. Ontdekt betekent nog niet geïndexeerd.`));
       if (!compact) panel.append(el('p', {}, `${g.not_found} niet gevonden (404), ${g.redirected} omleidingen en ${g.canonical_alternate} alternatief met correcte canonieke tag. Omleidingen en alternatieven zijn niet automatisch fouten.`));
-      panel.append(el('p', {}, 'Vervolg: de 404-adressen herstellen en daarna de indexering opnieuw controleren. Actuele werkstatus staat bij Nog te doen.'));
+      const followUp = state.dashboard?.tasks?.find(task => task.id === 'work-search-setup');
+      panel.append(el('p', {}, followUp ? `Vervolg: ${followUp.status}. ${followUp.next_action}` : 'Actueel vervolgwerk staat bij Nog te doen.'));
     }
     panel.append(link('Open Google Search Console', g.dashboard_url), compact ? button('Meer over vindbaarheid', () => navigate('bezoekers'), 'compact') : button('Bekijk vervolgwerk', () => viewTasks({ search: 'zoekmachine', category: 'Techniek & vindbaarheid' }), 'compact'));
     return panel;

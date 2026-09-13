@@ -32,3 +32,15 @@ ADR-check: ADR-0014 (lokale dashboardopname), ADR-0004 (vindbaarheid), ADR-0006 
 - Lokaal dashboard daadwerkelijk geopend op 8878. Google-blok en vervolgknop naar de bestaande taak zichtbaar gecontroleerd; 360 px visueel bekeken, geen horizontale overloop op 360/390/430 px.
 - Bestaande weekcheck via automation_update aangepast. Exacte prompt teruggelezen en gelijk aan weekly-sitecheck-prompt.txt; alle overige opgeslagen velden behalve updated_at ongewijzigd. Actief, woensdag 19:30. Een toekomstige automatische Google-run is hiermee ingesteld, nog niet uitgevoerd.
 - Vooraf herstelkopie van local-admin en AGENTS.md en een Git-diff in /private/tmp gemaakt. Bestaande werkmapwijzigingen, artikelrevisies en leesmarkeringen behouden.
+
+## Controle bij compacte artikelblokken (2026-09-12T21:30:32.354994+00:00)
+
+Via ingelogde Safari-sessie domeinproperty sc-domain:matthijsvandam.nl gelezen.
+Overzicht: vier geïndexeerde en negen niet-geïndexeerde pagina's; één geldige
+ProfilePage, nul ongeldig. Indexrapport bijgewerkt op 4 september 2026:
+vijf 404's (validatie gestart), drie omleidingen en één canoniek alternatief.
+Sitemap https://matthijsvandam.nl/sitemap.xml: succesvol, 40 ontdekte pagina's,
+verzonden en laatst gelezen op 12 september 2026. Aantallen ongewijzigd ten opzichte
+van de vorige opname. Geen indexeringsaanvraag of sitemapinzending gedaan.
+De lokale artikelblokken zijn nog niet vrijgegeven of live getest; deze controle
+bewijst dus geen effect van de aangepaste interne links. Bestaande vervolgtaak behouden.

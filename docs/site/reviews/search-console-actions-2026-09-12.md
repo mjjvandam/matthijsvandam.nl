@@ -41,3 +41,11 @@ Google rapporteert op 11-09-2026 één geldig item, nul ongeldige items en geen 
 Vijf exacte unieke redirects, bestaande publieke bestemmingen, geen loops en behoud overige Vercel-configuratie gecontroleerd. Sitekwaliteit, publicatieverificatie, SEO-basis en git diff --check slagen. Geen HTML, CSS of zichtbare pagina-inhoud gewijzigd; geen nieuwe mobiele layoutcheck nodig voor deze configuratiestap. Geen package.json en geen npm-checks beschikbaar.
 
 ADR-0004 (vindbaarheid), ADR-0006 (publieke vrijgave) en ADR-0014 (dashboard/opvolging) zijn toegepast. Geen nieuwe ADR nodig voor exact herstel van oude adressen naar bestaande publieke pagina's. Geen medische inhoud of verificatiestatus gewijzigd. Expliciete toestemming voor livegang van de vijf redirects en de daaropvolgende livecontrole staan open.
+
+## Livecontrole na eigenaarakkoord — 12 september 2026, 22:58 CEST
+
+Matthijs gaf expliciet akkoord. Bij de actuele controle bevatte productie de vijf redirects al: Vercel-deployment dpl_A7Kok1QJxcLiz2s7ACSYCX8jNX6W, READY, gekoppeld aan www.matthijsvandam.nl, Git-commit 9527f37cdeb0817bfb9460bca785fe9d989776b8. Daarom is geen tweede deployment gestart.
+
+Alle vijf oorspronkelijke www-adressen geven rechtstreeks HTTP 308 met de juiste relatieve .html-bestemming. Alle eindadressen geven HTTP 200. Het adres /behandelingen?topic=voorvoet wordt /behandelingen.html?topic=voorvoet: filterbehoud is nu live bewezen.
+
+In Search Console is OPLOSSING VALIDEREN uitgevoerd. Google bevestigt: Validatie gestart, gestart 12-09-2026. Dit is een lopende Google-hercontrole, geen afgeronde validatie. De historische rapportcijfers van 04-09 blijven intact. De eerdere secties beschrijven de voorbereiding; de vijf redirects zijn nu aantoonbaar live. Hostnormalisatie is in deze beurt niet uitgevoerd of beoordeeld.

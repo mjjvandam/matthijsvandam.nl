@@ -138,7 +138,7 @@
       imageAlt: "Matthijs van Dam en Joep Lammers bij de Footprint Quick Scan binnen ETZ Fit",
       url: "artikelen/footprint-quick-scan-etz-fit-follow-up.html",
       date: "2026-07-12",
-      audience: ["medewerkers"],
+      audience: ["zorgprofessionals"],
       topics: ["voet-en-enkel", "preventie", "onderzoek"],
       archive: true,
     },
@@ -166,7 +166,7 @@
       imageAlt: "Voetscreening met werkschoenen, inlegzolen en voetmodel",
       url: "artikelen/footprint-quick-scan-medewerkers.html",
       date: "2026-06-30",
-      audience: ["medewerkers"],
+      audience: ["zorgprofessionals"],
       topics: ["voet-en-enkel", "preventie"],
       archive: true,
       hideFromHome: true,
@@ -1054,9 +1054,8 @@
   const archiveArticles = sortByDateDesc(articles);
 
   const filterLabels = {
-    patienten: "Patiënten",
-    medewerkers: "Medewerkers",
-    zorgprofessionals: "Zorgprofessionals",
+    patienten: "Ik ben patiënt",
+    zorgprofessionals: "Ik werk in de zorg",
     "voet-en-enkel": "Voet en enkel",
     artrose: "Artrose",
     leefstijl: "Leefstijl",
@@ -1068,7 +1067,7 @@
   };
 
   const preferredFilterOrder = {
-    audience: ["patienten", "zorgprofessionals", "medewerkers"],
+    audience: ["patienten", "zorgprofessionals"],
     topic: ["voet-en-enkel", "knie-kraakbeen", "artrose", "leefstijl", "onderzoek", "digitale-zorg", "onderwijs", "preventie"],
   };
 
@@ -1721,7 +1720,6 @@
   const audienceLabels = {
     patienten: "Voor patiënten",
     zorgprofessionals: "Voor professionals",
-    medewerkers: "Voor medewerkers",
   };
 
   const articleAudienceLabel = (article) => {
@@ -1730,9 +1728,7 @@
       .filter(Boolean);
     if (labels.length === 0) return "";
     if (article.audience.includes("patienten") && article.audience.includes("zorgprofessionals")) {
-      return article.audience.includes("medewerkers")
-        ? "Voor patiënten, professionals en medewerkers"
-        : "Voor patiënten en professionals";
+      return "Voor patiënten en professionals";
     }
     return labels.join(" en ");
   };

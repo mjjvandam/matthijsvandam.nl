@@ -419,6 +419,7 @@
               <p class="article-label">Leefstijl</p>
               <h3>Obesitas en gewrichtsklachten</h3>
               <p>Gewicht kan invloed hebben op pijn, belasting en operatierisico's. Dit vraagt een respectvol gesprek over ondersteuning, belastbaarheid en timing.</p>
+              <p class="contact-advice-note">Wil je alleen updates over obesitas en artrose ontvangen? <a href="#newsletter-form-title">Meld je dan aan voor de nieuwsbrief</a>.</p>
             </div></div>
           </article>
         </div>
@@ -437,6 +438,9 @@
               en de uitkomsten van die zorg.
             </p>
             <a class="article-link" href="projecten/transmuraal-tilburg-cohort.html">Lees meer over het cohort</a>
+            <p class="contact-advice-note">
+              Interesse in updates over Transmuraal en gerelateerde artrosezorg? <a href="#newsletter-form-title">Schrijf je in voor de nieuwsbrief</a>.
+            </p>
           </div>
           <img class="cohort-home-image" src="assets/project-transmuraal-tilburg-cohort-zonder-schoen.jpg"
             alt="Multidisciplinair overleg over digitaal zorgpad, artrose en leefstijl" loading="lazy">
@@ -628,6 +632,79 @@
               <p class="contact-route-note">Gebruik voor patiëntgegevens, foto’s, verwijsbrieven en vragen over lopende patiëntenzorg de officiële zorgkanalen.</p>
             </article>
           </div>
+          <form class="contact-form contact-form-organized newsletter-signup-form" id="mvd-newsletter-form" action="https://4f8d0bed.sibforms.com/serve/MUIFAIr9umuP9Uc1UHYFqpzvTHykNjFhazysfTQSjzMfw3wV97G5p6J6wja3l5dmSDUtIWbz1bPypFWcbj-_hxM1wCqLNIOhCYd4nS61DtRRpn2D32QfPKXAUexE8e--bLX5lbXNvF2MJHNy36cUIBiaoevtwHYMdweuIJ9VcPVbkHCANVb8Y94WzBVL2x8PPR6F3kJ2jF8Yqj5uZg==" method="POST" aria-labelledby="newsletter-form-title">
+            <p class="section-kicker">Nieuwsbrief</p>
+            <h3 id="newsletter-form-title">Schrijf je in voor de nieuwsbrief</h3>
+            <p class="contact-advice-note">
+              Ontvang een rustig overzicht over de onderwerpen die voor jou relevant zijn. Je kiest zelf welke onderwerpen je volgt en je kunt je op elk moment afmelden.
+            </p>
+
+            <fieldset class="newsletter-audience">
+              <legend>Ik ben:</legend>
+              <label class="consent-row">
+                <input type="radio" name="mvd-newsletter-audience" value="patienten" required>
+                <span>Ik ben patiënt</span>
+              </label>
+              <label class="consent-row">
+                <input type="radio" name="mvd-newsletter-audience" value="zorgprofessionals" required>
+                <span>Ik werk in de zorg</span>
+              </label>
+            </fieldset>
+
+            <fieldset id="newsletter-topic-fieldset" hidden>
+              <legend>Welke onderwerpen wil je volgen?</legend>
+              <p class="newsletter-audience-note" id="newsletter-audience-note" aria-live="polite"></p>
+              <label class="consent-row" data-newsletter-topic data-newsletter-audience="all">
+                <input type="checkbox" name="lists_27[]" value="6">
+                <span>Algemeen</span>
+              </label>
+              <label class="consent-row" data-newsletter-topic data-newsletter-audience="patienten">
+                <input type="checkbox" name="lists_27[]" value="5" disabled>
+                <span>Voet en enkel</span>
+              </label>
+              <label class="consent-row" data-newsletter-topic data-newsletter-audience="patienten">
+                <input type="checkbox" name="lists_27[]" value="8" disabled>
+                <span>Transmuraal Tilburg Cohort</span>
+              </label>
+              <label class="consent-row" data-newsletter-topic data-newsletter-audience="zorgprofessionals">
+                <input type="checkbox" name="lists_27[]" value="4" disabled>
+                <span>Voet en enkel</span>
+              </label>
+              <label class="consent-row" data-newsletter-topic data-newsletter-audience="zorgprofessionals">
+                <input type="checkbox" name="lists_27[]" value="7" disabled>
+                <span>Transmuraal Tilburg Cohort</span>
+              </label>
+            </fieldset>
+
+            <label class="contact-field-half">
+              Voornaam
+              <input type="text" name="FIRSTNAME" autocomplete="given-name" maxlength="200" required>
+            </label>
+            <label class="contact-field-half">
+              Achternaam
+              <input type="text" name="LASTNAME" autocomplete="family-name" maxlength="200" required>
+            </label>
+            <label class="contact-field-half">
+              E-mailadres
+              <input type="email" name="EMAIL" autocomplete="email" maxlength="200" required>
+            </label>
+            <label class="consent-row newsletter-opt-in">
+              <input type="checkbox" name="OPT_IN" id="OPT_IN" value="1" required>
+              <span>Ik wil de nieuwsbrief van Matthijs van Dam ontvangen over de gekozen onderwerpen. Maximaal 12 keer per jaar. Ik kan mij altijd uitschrijven.</span>
+            </label>
+            <p class="newsletter-info">
+              Je inschrijving wordt bevestigd via e-mail.
+              <a href="privacy.html">Privacyverklaring</a>.
+            </p>
+            <button class="button button-primary" type="submit">Inschrijven</button>
+            <p data-newsletter-status role="status" aria-live="polite" aria-atomic="true" tabindex="-1"></p>
+            <label class="newsletter-honeypot" aria-hidden="true" hidden>
+              Laat dit veld leeg
+              <input type="text" name="email_address_check" autocomplete="off" tabindex="-1">
+            </label>
+            <input type="hidden" name="locale" value="nl">
+            <noscript><p>Schakel JavaScript in om dit formulier te gebruiken.</p></noscript>
+          </form>
           <form class="contact-form contact-form-organized" id="professioneel-contactformulier" data-contact-form action="/api/contact" method="post" aria-labelledby="contact-form-title">
             <h3 id="contact-form-title">Stuur een bericht</h3>
             <p id="contact-boundary">Voor een contactvraag, samenwerking, onderwijs of onderzoek. Gebruik voor persoonlijk medisch advies, afspraken, spoed of lopende zorg de officiële zorgkanalen.</p>
@@ -671,6 +748,6 @@
     </footer>
 
     <script src="content.js?20260913-site-release"></script>
-    <script src="script.js?20260913-site-release"></script>
+    <script src="script.js?20260913-site-release-newsletter"></script>
   </body>
 </html>

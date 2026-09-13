@@ -1806,6 +1806,12 @@ a {
   font-weight: 700;
 }
 
+.newsletter-signup-form label,
+.newsletter-signup-form .consent-row {
+  color: var(--ink);
+  font-weight: 600;
+}
+
 .consent-row {
   grid-template-columns: 18px 1fr;
   align-items: start;
@@ -1855,6 +1861,26 @@ a {
 
 .contact-form textarea {
   resize: vertical;
+}
+
+.newsletter-signup-form fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.newsletter-signup-form legend {
+  margin-bottom: 10px;
+  color: var(--green);
+  font-size: 0.98rem;
+  font-weight: 700;
+}
+
+.newsletter-audience-note,
+.newsletter-info {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.89rem;
 }
 
 .contact-routes {
@@ -6578,9 +6604,27 @@ a {
   overflow-wrap: anywhere;
   scroll-margin-block: 110px;
 }
+.newsletter-signup-form [data-newsletter-status]:not(:empty) {
+  padding: 18px;
+  border: 2px solid #547b68;
+  border-radius: 12px;
+  background: #eef6f0;
+  color: #173d2a;
+  font-size: 1.02rem;
+  line-height: 1.5;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
 .contact-form[data-sent="true"] [data-contact-status]::first-line {
   font-size: 1.3rem;
   font-weight: 700;
+}
+.newsletter-signup-form [data-newsletter-status]:focus {
+  outline: 3px solid #547b68;
+  outline-offset: 4px;
+}
+.newsletter-signup-form [data-newsletter-status]:empty {
+  display: none;
 }
 .contact-form[data-sent="true"] > :not([data-contact-status]):not([data-contact-new]) { display: none; }
 .contact-form [data-contact-status]:focus { outline: 3px solid #547b68; outline-offset: 4px; }
@@ -6723,7 +6767,7 @@ a {
 @media (max-width: 760px) {
   .articles-browser { display: block; padding: 108px 20px 40px; }
   .articles-browser .listing-hero { margin-bottom: 24px; }
-  .articles-browser .filter-panel { gap: 12px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .articles-browser .filter-panel { gap: 12px; grid-template-columns: 1fr; }
   .articles-browser .filter-group { padding-bottom: 10px; }
   .articles-browser .filter-group summary { margin-bottom: 0; min-height: 32px; }
   .articles-browser .filter-group[open] summary { margin-bottom: 10px; }

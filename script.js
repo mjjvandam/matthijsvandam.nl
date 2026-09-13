@@ -4,6 +4,8 @@ const navToggle = document.querySelector("[data-nav-toggle]");
 const year = document.querySelector("[data-year]");
 const contactForm = document.querySelector("[data-contact-form]");
 const contactStatus = document.querySelector("[data-contact-status]");
+const newsletterForm = document.querySelector("#mvd-newsletter-form");
+const newsletterStatus = newsletterForm?.querySelector("[data-newsletter-status]");
 const root = document.documentElement;
 const themeStorageKey = "mvd-theme";
 const analyticsHostnames = ["matthijsvandam.nl", "www.matthijsvandam.nl"];
@@ -171,6 +173,70 @@ const closeNav = () => {
   header?.classList.remove("is-open");
   navToggle?.setAttribute("aria-expanded", "false");
 };
+
+const setupNewsletterForm = () => {
+  if (!newsletterForm || !newsletterStatus) return;
+
+  const audienceInputs = Array.from(newsletterForm.querySelectorAll('[name="mvd-newsletter-audience"]'));
+  const topicFieldset = newsletterForm.querySelector("#newsletter-topic-fieldset");
+  const audienceNote = newsletterForm.querySelector("#newsletter-audience-note");
+  const topicInputs = Array.from(newsletterForm.querySelectorAll('[data-newsletter-topic]'));
+
+  const applyAudienceFilter = () => {
+    const selected = audienceInputs.find((input) => input.checked)?.value || "";
+    if (!topicFieldset) return;
+    topicFieldset.hidden = !selected;
+    if (audienceNote) {
+      if (selected === "patienten") {
+        audienceNote.textContent = "Je krijgt artikelen die aansluiten bij jouw keuze: ik ben patiënt.";
+      } else if (selected === "zorgprofessionals") {
+        audienceNote.textContent = "Je krijgt artikelen die aansluiten bij jouw keuze: ik werk in de zorg.";
+      } else {
+        audienceNote.textContent = "";
+      }
+    }
+
+    topicInputs.forEach((wrapper) => {
+      const input = wrapper.querySelector("input");
+      if (!input) return;
+      const appliesTo = wrapper.dataset.newsletterAudience || "all";
+      const visible = appliesTo === "all" || appliesTo === selected;
+      wrapper.hidden = !visible;
+      input.disabled = !visible;
+      if (!visible) input.checked = false;
+    });
+  };
+
+  audienceInputs.forEach((input) => {
+    input.addEventListener("change", applyAudienceFilter);
+  });
+
+  newsletterForm.addEventListener("submit", (event) => {
+    if (!newsletterForm.reportValidity()) return;
+    const selectedTopics = topicInputs
+      .map((wrapper) => wrapper.querySelector("input"))
+      .filter((input) => input && !input.disabled && input.checked);
+    if (selectedTopics.length === 0) {
+      event.preventDefault();
+      newsletterStatus.textContent = "Kies minstens één onderwerp voordat je je kunt inschrijven.";
+      newsletterStatus.focus();
+      return;
+    }
+    const honeypot = newsletterForm.querySelector("[name=\"email_address_check\"]");
+    if (honeypot && String(honeypot.value || "").trim().length > 0) {
+      event.preventDefault();
+      newsletterStatus.textContent = "Aanmelding kon niet verwerkt worden. Probeer het opnieuw.";
+      newsletterStatus.focus();
+      return;
+    }
+
+    newsletterStatus.textContent = "Je inschrijving wordt verstuurd. Controleer je e-mail.";
+  });
+
+  applyAudienceFilter();
+};
+
+setupNewsletterForm();
 
 const normalizePagePath = (pathname) => {
   const normalized = decodeURIComponent(pathname || "").replace(/^\/+/, "");
