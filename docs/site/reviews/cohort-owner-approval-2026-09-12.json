@@ -1,0 +1,22 @@
+{
+  "approved_by": "Matthijs van Dam",
+  "approved_on": "2026-09-12",
+  "evidence": "ja akkoord helemaal",
+  "scope": "Cohort-homepageblok, geen dubbele homepage-projectkaart, bredere cohortartikelselectie en compacte artikelweergave",
+  "deployment_status": "niet uitgevoerd",
+  "newsletter_status": "niet actief; wens voor latere onderwerpgerichte inschrijving behouden",
+  "files": {
+    "advies-consultancy.html": "7906b2f952871811cd2374d599f1817a0125999f342af2ae3ffed69f5d7ba986",
+    "artikelen.html": "0de5bed271b4658dde5ac01a6493ca3ac0e24a07d414d23847790f7cd52e65f5",
+    "behandelingen.html": "e94a31c2708a1e020d5535a687249955cfc1aaad2d77756fc668af092b9e33d2",
+    "content.js": "d35a78e5bd8235a6293cbed30f1ca3093c0dda8a81164cb42cb7153a8a9e5420",
+    "index.html": "6a0df29f3e89c5bab69c9fda946ad9d78212c47ee70f905aded0e4a03a69b4f6",
+    "professionals.html": "28a615b263878feef53174cb262a345304431a3467340dfad51e25c4bb92291e",
+    "projecten/3d-planning-voet-enkel.html": "998657181df35f96a0108c64a0e2dce4f65a49d622a38b6cf10504ce0683f6b4",
+    "projecten/leefstijlgerichte-kansen-orthopedie.html": "bf6cd2544bdb7bcc319184caa4bd64a4d5931447b94c68e8eb8bf904e934f185",
+    "projecten/transmuraal-tilburg-cohort.html": "b1069e86e55bfca3a5430443248dab2ecaf23d063d2fd5b414487611ba4f74ab",
+    "projecten/we-walk.html": "bc843db3e262ea170fe11b75bd172ba5ce23b3906645f3414533f4d1984e8f58",
+    "script.js": "a24eccb2c4a4587e9802c3e7cd87cf0e306066edf12093c7b72a2bc81117ca03",
+    "styles.css": "07432bc25e92e0be9bc91e2b16f1538bb945185c4cee8999739f7b8125a7cf42"
+  }
+}

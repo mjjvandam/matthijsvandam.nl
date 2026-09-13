@@ -235,6 +235,15 @@ def run_checks() -> list[tuple[str, str]]:
             for kind, detail in navigation_module.run_checks():
                 issues.append((kind, detail))
 
+    design_check = ROOT / "tools/design_system.py"
+    if design_check.exists():
+        spec = importlib.util.spec_from_file_location("design_system", design_check)
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        issues.extend(module.run_checks())
+    else:
+        issues.append(("design_system_missing", "tools/design_system.py ontbreekt"))
+
     return issues
 
 

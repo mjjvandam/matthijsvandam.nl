@@ -266,3 +266,13 @@ Conceptpagina's blijven buiten live-scope totdat inhoud, beeld, metadata, intern
 ## Search Console automatisch meenemen
 
 Matthijs heeft op 12 september 2026 opdracht gegeven Google Search Console actief mee te nemen bij relevante siteontwikkeling en de bestaande weekcheck. Volg `local-admin/SEARCH_CONSOLE_WORKFLOW.md` bij vindbaarheid, URL-/hostwijzigingen, sitemap/robots, interne links en voorbereiding/nacontrole van publieke releases. Werk de gedateerde dashboardopname en bestaande vervolgtaak bij na echte controle. Wacht niet op een nieuwe herinnering van Matthijs; ontbrekende login of vereiste menselijke toestemming blijft een concrete blokkade. Deze opdracht geeft geen algemene publicatie- of medische goedkeuring.
+
+## Designsysteem bij iedere ontwerpwijziging
+
+Matthijs heeft op 13 september 2026 opdracht gegeven ontwerpwijzigingen voortaan samen met het designsysteem en relevante andere pagina’s te onderhouden. Lees `docs/site/DESIGN_SYSTEM.md` bij layout, CSS, typografie, spacing, kaarten, knoppen, navigatie, filters en andere zichtbare/interactieve componenten.
+
+- Bepaal de impact met `python3 tools/design_system.py --impact COMPONENT-OF-BESTAND`; onderzoek ontbrekende matches handmatig.
+- Werk de bestaande gedeelde bron en alle relevante afnemers bij. Leg bewust pagina-specifieke uitzonderingen vast. Dit geeft geen extra toestemming voor medische inhoud, nieuwe routes of publicatie.
+- Werk de componentregels en voorbeelden mee bij; `python3 tools/design_system.py --build` actualiseert de lokale stijlgids en gebruikslijst.
+- Draai `python3 tools/design_system.py --check` (ook opgenomen in de sitekwaliteitscheck) en controleer de getroffen pagina’s visueel op desktop, mobiel en licht/donker.
+- Rapporteer component, regel, getroffen pagina’s, uitzonderingen en verificatie. Een bronhash of gegenereerde voorbeeldpagina is geen eigenaarreview of livebewijs.

@@ -197,3 +197,7 @@ Nog door Matthijs te beoordelen:
 Publicatiestatus:
 - [concept / review nodig / geverifieerd blijft ongewijzigd]
 ```
+
+## Ontwerpwijzigingen en gedeeld gebruik
+
+Volg bij alle visuele/interactieve wijzigingen `docs/site/DESIGN_SYSTEM.md`. Bepaal eerst gedeelde component versus pagina-uitzondering, inventariseer de afnemers met `python3 tools/design_system.py --impact BESTAND-OF-COMPONENT`, wijzig de relevante afnemers mee en werk regels/voorbeelden bij. Genereer met `--build`, controleer met `--check` en voer visuele controles uit. Geen afronding zonder vermelding van scope, uitzonderingen en lokale/live-status. Bestaande inhoudelijke en publicatiepoorten blijven gelden.

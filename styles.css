@@ -1318,6 +1318,14 @@ a {
   font-size: clamp(1.25rem, 2.2vw, 1.7rem);
 }
 
+.project-context article > .section-kicker {
+  margin-bottom: 8px;
+}
+
+.project-context article > .section-kicker + h2 {
+  margin-top: 0;
+}
+
 .project-context p:last-child {
   margin-bottom: 0;
 }
@@ -6611,6 +6619,49 @@ a {
 
 #contact .contact-form-organized button[type="submit"] { background: var(--green); color: var(--white); border: 1px solid var(--green); font: inherit; font-weight: 650; }
 :root[data-theme="dark"] #contact .contact-form-organized button[type="submit"] { color: #102019; }
+
+/* Artikelblokken: drie kaarten, daarna maximaal vijf titels. */
+.article-preview-titles,
+.article-preview-more {
+  grid-column: 1 / -1;
+  min-width: 0;
+}
+.article-preview-titles .article-compact-item {
+  display: block;
+}
+.article-preview-titles a {
+  display: block;
+  overflow-wrap: anywhere;
+}
+.article-preview-more { margin: 0; }
+
+/* Eigen plek voor het cohort tussen klachteninformatie en de vakgroep. */
+.cohort-home {
+  padding-top: clamp(32px, 5vw, 64px);
+  padding-bottom: clamp(32px, 5vw, 64px);
+}
+.cohort-home-panel {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+  align-items: center;
+  gap: clamp(24px, 4vw, 56px);
+  border-block: 1px solid var(--line);
+  padding-block: clamp(28px, 4vw, 48px);
+}
+.cohort-home-copy .section-kicker { margin-top: 0; }
+.cohort-home-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 8px;
+}
+@media (max-width: 760px) {
+  .cohort-home-panel { grid-template-columns: 1fr; }
+  .cohort-home-image { aspect-ratio: 16 / 9; }
+}
 
 /* Article overview: compact filters beside the reading area. */
 .visually-hidden {

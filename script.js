@@ -765,15 +765,14 @@ document.querySelectorAll("[data-professional-article-filters]").forEach((panel)
   };
 
   const applyProfessionalFilter = (filter) => {
-    const cards = Array.from(target.querySelectorAll("[data-topics]"));
-    let visibleCount = 0;
-    cards.forEach((card) => {
-      const topics = (card.getAttribute("data-topics") || "").split(/\s+/).filter(Boolean);
-      const text = (card.textContent || "").toLowerCase();
-      const matches = filter === "alles" || topicMatchers[filter]?.(topics, text);
-      card.hidden = !matches;
-      if (matches) visibleCount += 1;
-    });
+    const matches = window.siteContent.articles.filter((article) =>
+      article.audience.includes("zorgprofessionals") && article.archive === false &&
+      (filter === "alles" || topicMatchers[filter]?.(article.topics, `${article.title} ${article.summary}`.toLowerCase()))
+    );
+    const topic = { artrose: "artrose", knie: "knie-kraakbeen", "voet-enkel": "voet-en-enkel", onderwijs: "onderwijs" }[filter];
+    window.siteContent.renderArticlePreview(target, matches,
+      `artikelen.html?audience=zorgprofessionals${topic ? `&topic=${topic}` : ""}`);
+    const visibleCount = matches.length;
     buttons.forEach((button) => {
       const isActive = button.getAttribute("data-professional-filter") === filter;
       button.classList.toggle("is-active", isActive);

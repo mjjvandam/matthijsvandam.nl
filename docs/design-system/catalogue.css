@@ -1,0 +1,19 @@
+/* Alleen de documentatie-omlijsting; geen componentstijlen kopiëren. */
+.ds-shell { max-width: 1320px; margin:auto; padding:40px 24px; }
+.ds-shell h1, .ds-shell h2, .ds-type-heading { font-family: Georgia, serif; }
+.ds-shell h1 {font-size:clamp(2rem,5vw,3.6rem);margin:12px 0;}
+.ds-shell p {max-width:80ch;line-height:1.65;}
+.ds-eyebrow {font-size:.85rem;color:var(--muted);}
+.ds-foundations,.ds-example {border-top:1px solid var(--line);padding:28px 0;}
+.ds-type-heading {font-size:2rem;}
+#tokens {display:flex;flex-wrap:wrap;gap:12px;}
+.ds-token {padding:12px;border:1px solid var(--line);border-radius:6px;min-width:140px;}
+.ds-token i {display:block;height:48px;border:1px solid var(--line);margin-bottom:8px;}
+.ds-controls {display:flex;gap:20px;flex-wrap:wrap;padding:20px 0;}
+.ds-controls label {display:grid;gap:8px;}
+.ds-controls select {font:inherit;padding:10px;background:var(--white);color:var(--ink);border:1px solid var(--line);}
+.ds-frame-wrap {overflow:auto;border:1px solid var(--line);background:var(--paper);}
+.ds-frame-wrap iframe {display:block;border:0;height:620px;max-width:none;}
+.ds-example summary {cursor:pointer;padding:12px 0;}
+.ds-example li {line-height:1.7;}
+.ds-error {color:var(--clay);font-weight:700;}

@@ -64,3 +64,7 @@ Gebruik bij relevante taken:
 - Of `beeldbank/` publiek direct bereikbaar mag blijven.
 - Definitieve medische review van alle concept-behandelpagina's.
 - Definitieve medische review van de Voet- en enkelpijnwijzer voordat die publiek wordt.
+
+## Lokale stijlgids — 13 september 2026
+
+De bestaande vormgeving is beschreven in `docs/site/DESIGN_SYSTEM.md`. De lokale voorbeeldpagina `docs/design-system/index.html` toont echte siteonderdelen; `components.json` en de gegenereerde `usage.json` leggen regels en afnemers vast. `tools/design_system.py` bouwt en controleert deze koppeling. De gewone sitekwaliteitscheck bewaakt de synchronisatie. Dit voegt geen livepagina of nieuwe medische/publicatiegoedkeuring toe.

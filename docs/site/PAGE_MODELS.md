@@ -183,3 +183,31 @@ Modelregels:
 - Of er een expliciet template-document per artikeltype nodig is.
 - Of concept-behandelpagina's eerst per cluster of individueel live mogen.
 - Definitieve medische mapping en publieke plaatsing van de Voet- en enkelpijnwijzer.
+
+## Artikelblokken binnen bestaande pagina's — 12 september 2026
+
+Op verzoek van Matthijs: toon op datum aflopend de eerste drie artikelen als kaarten,
+artikel vier tot en met acht uitsluitend als titels onder elkaar. Bij meer dan acht
+artikelen volgt “Lees hier meer over dit onderwerp” naar het passende artikeloverzicht.
+Het volledige artikeloverzicht is de eindbestemming en toont na drie kaarten alle
+resterende titels; filters worden vóór deze verdeling toegepast.
+
+Bij het Transmuraal Tilburg Cohort geldt: expliciete cohortkoppeling óf de bestaande
+thema's artrose én leefstijl. Daarmee verschijnen ook artikelen over obesitasmedicatie
+en bariatrische chirurgie zonder die als cohortonderzoek te etiketteren. Andere
+projectkoppelingen blijven behouden. Nieuwe artikelen gebruiken dezelfde metadata.
+
+ADR-check: uitwerking binnen ADR-0002 (bestaande pijlers), ADR-0004 (interne links),
+ADR-0006 (review/publicatie) en ADR-0008/0013 (latere nieuwsbriefroute). Geen nieuw
+paginatype, inhoudspijler of navigatiespoor; geen nieuwe ADR nodig. Nieuwsbriefinpassing
+is vastgelegd bij work-newsletter-release en wordt pas actief na ketenproef en vrijgave.
+
+### Eigen homepageblok Transmuraal Tilburg Cohort
+
+Matthijs vraagt op 12 september 2026 expliciet een kort zelfstandig cohortblok tussen
+Klachten en behandelingen en Orthopedisch Centrum ETZ, met een link naar de projectpagina.
+Het cohort wordt daarom uitsluitend uit de lagere home-projects-selectie gefilterd,
+vóór de limiet van drie projecten. Het blijft in het projectoverzicht en bij professionals.
+ADR-check 0001/0002/0004/0006: concrete eigenaaropdracht voor een extra projectuitlichting
+binnen bestaande onderzoeks- en regionale context. De hoofdroutes, hero en positionering
+blijven intact; geen nieuw paginatype, hoofdnarratief of ADR. Publieke vrijgave blijft open.

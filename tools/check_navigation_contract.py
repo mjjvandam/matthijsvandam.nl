@@ -189,7 +189,7 @@ def run_checks() -> list[tuple[str, str]]:
 
         # Local mail templates and the owner admin do not use the site navigation shell.
         # Keep checking them if they ever become public by sitemap or robots.
-        if rel.startswith(("local-mail-preview/", "local-admin/")) and not public_page:
+        if rel.startswith(("local-mail-preview/", "local-admin/", "docs/design-system/")) and not public_page:
             continue
 
         if has_redirect_exception(rel, parser):

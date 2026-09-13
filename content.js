@@ -1051,8 +1051,7 @@
   const sortByDateDesc = (items) =>
     [...items].sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
 
-  const isArticlesOverview = /(?:^|\/)artikelen\.html$/.test(window.location.pathname);
-  const archiveArticles = sortByDateDesc(articles).filter((article) => isArticlesOverview || article.archive !== false);
+  const archiveArticles = sortByDateDesc(articles);
 
   const filterLabels = {
     patienten: "Patiënten",
@@ -1757,11 +1756,9 @@
   };
 
   const compactArticleItem = (article) => {
-    const audienceLabel = articleAudienceLabel(article);
     return `
       <li class="article-compact-item" data-audience="${escapeHtml(article.audience.join(" "))}" data-topics="${escapeHtml(article.topics.join(" "))}">
         <a href="${resolvePath(article.url)}">${escapeHtml(article.title)}</a>
-        <span>${isArticlesOverview ? "" : escapeHtml([audienceLabel, article.label].filter(Boolean).join(" · "))}</span>
       </li>
     `;
   };
@@ -1782,18 +1779,32 @@
   `;
   };
 
+  const projectArticleMatches = (article, projectId) => article.project === projectId || (
+    projectId === "transmuraal-tilburg-cohort" &&
+    article.topics.includes("artrose") && article.topics.includes("leefstijl")
+  );
+
+  const renderArticlePreview = (container, items, moreUrl = "artikelen.html") => {
+    container.innerHTML = items.slice(0, 3).map((article) => articleCard(article, { showAudience: true })).join("") +
+      (items.length > 3 ? `<ul class="article-compact-list article-preview-titles">${items.slice(3, 8).map(compactArticleItem).join("")}</ul>` : "") +
+      (items.length > 8 ? `<p class="article-preview-more"><a class="text-link" href="${resolvePath(moreUrl)}">Lees hier meer over dit onderwerp</a></p>` : "");
+  };
+
   const renderList = (selector, items, cardFactory) => {
     document.querySelectorAll(selector).forEach((container) => {
+      if (cardFactory === articleCard) {
+        let moreUrl = "artikelen.html";
+        if (container.dataset.content === "advice-education") moreUrl += "?topic=onderwijs";
+        if (container.dataset.content === "professional-articles") moreUrl += "?audience=zorgprofessionals";
+        if (container.dataset.content === "treatment-articles") moreUrl += "?audience=patienten";
+        renderArticlePreview(container, items, moreUrl);
+        return;
+      }
       const limit = Number.parseInt(container.getAttribute("data-limit") || "", 10);
       const selected = Number.isFinite(limit) ? items.slice(0, limit) : items;
       container.innerHTML = selected.map(cardFactory).join("");
     });
   };
-
-  const projectArticleMatches = (article, projectId) => article.project === projectId || (
-    projectId === "transmuraal-tilburg-cohort" &&
-    article.topics.includes("artrose") && article.topics.includes("leefstijl")
-  );
 
   const renderArticlesOverview = (items) => {
     const cardLimit = 3;
@@ -1809,10 +1820,10 @@
   };
 
   renderArticlesOverview(archiveArticles);
-  renderList("[data-content='home-articles']", archiveArticles.filter((article) => !article.hideFromHome), articleCard);
+  renderList("[data-content='home-articles']", archiveArticles.filter((article) => article.archive !== false && !article.hideFromHome), articleCard);
   renderArticleFilters(archiveArticles);
   renderList("[data-content='projects-list']", projects, projectCard);
-  renderList("[data-content='home-projects']", projects.filter((project) => project.featured).slice(0, 3), projectCard);
+  renderList("[data-content='home-projects']", projects.filter((project) => project.featured && project.id !== "transmuraal-tilburg-cohort").slice(0, 3), projectCard);
   renderList("[data-content='professional-projects']", projects.filter((project) => project.featured).slice(0, 3), projectCard);
   renderList(
     "[data-content='professional-articles']",
@@ -1847,11 +1858,11 @@
 
   document.querySelectorAll("[data-content='project-news']").forEach((container) => {
     const projectId = container.getAttribute("data-project");
-    const projectArticles = sortByDateDesc(articles).filter((article) => article.project === projectId);
-    container.innerHTML = projectArticles.map((article) => articleCard(article, { showAudience: true })).join("");
+    const projectArticles = sortByDateDesc(articles).filter((article) => projectArticleMatches(article, projectId));
+    renderArticlePreview(container, projectArticles, `artikelen.html?project=${encodeURIComponent(projectId)}`);
     const section = container.closest(".related-section");
     if (section) section.hidden = projectArticles.length === 0;
   });
 
-  window.siteContent = { renderArticlesOverview, projectArticleMatches, articles: sortByDateDesc(articles), projects, painRegions, footPainConditions, footPainTreatmentTopics, footPainTopics };
+  window.siteContent = { renderArticlesOverview, renderArticlePreview, projectArticleMatches, articles: sortByDateDesc(articles), projects, painRegions, footPainConditions, footPainTreatmentTopics, footPainTopics };
 })();
