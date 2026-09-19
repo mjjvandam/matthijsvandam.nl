@@ -3,6 +3,22 @@
   "policy": "ADR-0007",
   "pages": [
     {
+      "path": "behandelingen/ziekte-van-freiberg.html",
+      "sectionId": "vragen",
+      "headingId": "faq-title",
+      "heading": "Veelgestelde vragen",
+      "schema": true,
+      "publicationScope": "public",
+      "items": [
+        { "id": "ziekte-van-freiberg-wat-is-de-ziekte-van-freiberg", "mode": "full" },
+        { "id": "ziekte-van-freiberg-waar-zit-de-pijn-meestal", "mode": "full" },
+        { "id": "ziekte-van-freiberg-is-freiberg-hetzelfde-als-metatarsalgie", "mode": "full" },
+        { "id": "ziekte-van-freiberg-is-een-rontgenfoto-altijd-duidelijk", "mode": "full" },
+        { "id": "ziekte-van-freiberg-wat-wordt-meestal-eerst-geprobeerd", "mode": "full" },
+        { "id": "ziekte-van-freiberg-wanneer-komt-een-operatie-in-beeld", "mode": "full" }
+      ]
+    },
+    {
       "path": "behandelingen/achillespeesklachten.html",
       "sectionId": "vragen",
       "headingId": "faq-title",

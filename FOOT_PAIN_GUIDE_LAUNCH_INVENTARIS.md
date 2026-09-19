@@ -8,6 +8,7 @@ Alle inhoudelijke kaarten krijgen een eigen conceptpagina in `behandelingen/`. D
 | Hallux rigidus | `behandelingen/hallux-rigidus.html` | publicatieklaar | Inhoudelijk akkoord en op 6 september 2026 afzonderlijk gepubliceerd, zonder zichtbare koppeling met de concept-pijnwijzer. |
 | Hamerteen en klauwteen | `behandelingen/hamerteen-klauwteen.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Metatarsalgie | `behandelingen/metatarsalgie.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
+| Ziekte van Freiberg | `behandelingen/ziekte-van-freiberg.html` | publicatieklaar | Inhoudelijk akkoord door Matthijs en op 19 september 2026 afzonderlijk gepubliceerd; de concept-pijnwijzer en links naar overige conceptpagina's zijn niet publiek gekoppeld. |
 | Morton neuroom | `behandelingen/morton-neuroom.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | MTP- en plantaire plaatklachten | `behandelingen/mtp-plantaire-plaatklachten.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Tailor's bunion | `behandelingen/tailors-bunion.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
