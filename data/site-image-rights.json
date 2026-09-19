@@ -54,6 +54,11 @@
       "reason": "Door Matthijs aangeleverd gegenereerd beeld; MVD-copyright expliciet bevestigd op 19 september 2026."
     },
     {
+      "path": "assets/treatment-freiberg-xray-concept.jpg",
+      "status": "exclude",
+      "reason": "Site-eigen illustratieve röntgenweergave, gegenereerd voor de ziekte-van-Freibergpagina en door Matthijs op 19 september 2026 goedgekeurd voor publicatie; de zichtbare pagina voegt MVD-branding toe."
+    },
+    {
       "path": "assets/advice-education-stage-mvd.jpg",
       "status": "review_required",
       "reason": "Fotograaf en overdracht van beeldrechten zijn niet in de repo vastgelegd."
