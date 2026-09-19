@@ -4,8 +4,7 @@ const navToggle = document.querySelector("[data-nav-toggle]");
 const year = document.querySelector("[data-year]");
 const contactForm = document.querySelector("[data-contact-form]");
 const contactStatus = document.querySelector("[data-contact-status]");
-const newsletterForm = document.querySelector("#mvd-newsletter-form");
-const newsletterStatus = newsletterForm?.querySelector("[data-newsletter-status]");
+const newsletterForm = document.querySelector("#sib-form");
 const root = document.documentElement;
 const themeStorageKey = "mvd-theme";
 const analyticsHostnames = ["matthijsvandam.nl", "www.matthijsvandam.nl"];
@@ -175,7 +174,7 @@ const closeNav = () => {
 };
 
 const setupNewsletterForm = () => {
-  if (!newsletterForm || !newsletterStatus) return;
+  if (!newsletterForm) return;
 
   const audienceInputs = Array.from(newsletterForm.querySelectorAll('[name="mvd-newsletter-audience"]'));
   const topicFieldset = newsletterForm.querySelector("#newsletter-topic-fieldset");
@@ -209,28 +208,6 @@ const setupNewsletterForm = () => {
 
   audienceInputs.forEach((input) => {
     input.addEventListener("change", applyAudienceFilter);
-  });
-
-  newsletterForm.addEventListener("submit", (event) => {
-    if (!newsletterForm.reportValidity()) return;
-    const selectedTopics = topicInputs
-      .map((wrapper) => wrapper.querySelector("input"))
-      .filter((input) => input && !input.disabled && input.checked);
-    if (selectedTopics.length === 0) {
-      event.preventDefault();
-      newsletterStatus.textContent = "Kies minstens één onderwerp voordat je je kunt inschrijven.";
-      newsletterStatus.focus();
-      return;
-    }
-    const honeypot = newsletterForm.querySelector("[name=\"email_address_check\"]");
-    if (honeypot && String(honeypot.value || "").trim().length > 0) {
-      event.preventDefault();
-      newsletterStatus.textContent = "Aanmelding kon niet verwerkt worden. Probeer het opnieuw.";
-      newsletterStatus.focus();
-      return;
-    }
-
-    newsletterStatus.textContent = "Je inschrijving wordt verstuurd. Controleer je e-mail.";
   });
 
   applyAudienceFilter();

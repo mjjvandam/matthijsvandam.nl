@@ -6626,6 +6626,30 @@ a {
 .newsletter-signup-form [data-newsletter-status]:empty {
   display: none;
 }
+.newsletter-signup-form-container .sib-form-message-panel {
+  display: none;
+  margin: 0 0 16px;
+  padding: 18px;
+  border: 2px solid #547b68;
+  border-radius: 12px;
+  background: #eef6f0;
+  color: #173d2a;
+}
+.newsletter-signup-form-container .sib-form-message-panel--active {
+  display: block;
+}
+.newsletter-signup-form-container #error-message.sib-form-message-panel--active {
+  border-color: #9b3b3b;
+  background: #fff1f1;
+  color: #651f1f;
+}
+.newsletter-signup-form .entry__error:not(:empty) {
+  display: block;
+  margin-top: 8px;
+  color: #8a3030;
+  font-size: .9rem;
+  font-weight: 600;
+}
 .contact-form[data-sent="true"] > :not([data-contact-status]):not([data-contact-new]) { display: none; }
 .contact-form [data-contact-status]:focus { outline: 3px solid #547b68; outline-offset: 4px; }
 .contact-form .consent-row { align-items: flex-start; }
