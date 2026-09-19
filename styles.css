@@ -6209,6 +6209,10 @@ a {
   line-height: 1;
 }
 
+.professional-social-routes {
+  min-width: 0;
+}
+
 .professional-social-icon {
   width: 44px;
   height: 44px;
@@ -6218,6 +6222,25 @@ a {
 .professional-social-card:hover,
 .professional-social-card:focus-visible {
   border-color: rgba(10, 102, 194, 0.34);
+}
+
+.professional-social-newsletter {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.professional-social-newsletter a {
+  color: var(--green);
+  font-weight: 800;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.professional-social-newsletter a:hover,
+.professional-social-newsletter a:focus-visible {
+  color: var(--clay);
 }
 
 .expertise-sources,
@@ -6758,8 +6781,8 @@ a {
   text-align: left;
   min-width: 0;
 }
-.articles-browser .filter-panel { margin: 0; gap: 24px; width: 100%; max-width: none; }
-.articles-browser .filter-group {
+:is(.articles-browser, .expertise-browser) .filter-panel { margin: 0; gap: 24px; width: 100%; max-width: none; }
+:is(.articles-browser, .expertise-browser) .filter-group {
   padding: 0 0 20px;
   border: 0;
   border-bottom: 1px solid var(--line);
@@ -6767,14 +6790,14 @@ a {
   background: transparent;
   box-shadow: none;
 }
-.articles-browser .filter-group summary {
+:is(.articles-browser, .expertise-browser) .filter-group summary {
   font-size: 0.95rem;
   font-weight: 800;
   cursor: pointer;
   margin-bottom: 12px;
 }
-.articles-browser .filter-bar { justify-content: flex-start; gap: 6px; }
-.articles-browser .filter-button {
+:is(.articles-browser, .expertise-browser) .filter-bar { justify-content: flex-start; gap: 6px; }
+:is(.articles-browser, .expertise-browser) .filter-button {
   width: 100%;
   text-align: left;
   font-size: 0.88rem;
@@ -6791,9 +6814,33 @@ a {
 @media (max-width: 760px) {
   .articles-browser { display: block; padding: 108px 20px 40px; }
   .articles-browser .listing-hero { margin-bottom: 24px; }
-  .articles-browser .filter-panel { gap: 12px; grid-template-columns: 1fr; }
-  .articles-browser .filter-group { padding-bottom: 10px; }
-  .articles-browser .filter-group summary { margin-bottom: 0; min-height: 32px; }
-  .articles-browser .filter-group[open] summary { margin-bottom: 10px; }
-  .articles-browser .filter-button { width: auto; min-height: 44px; }
+  :is(.articles-browser, .expertise-browser) .filter-panel { gap: 12px; grid-template-columns: 1fr; }
+  :is(.articles-browser, .expertise-browser) .filter-group { padding-bottom: 10px; }
+  :is(.articles-browser, .expertise-browser) .filter-group summary { margin-bottom: 0; min-height: 32px; }
+  :is(.articles-browser, .expertise-browser) .filter-group[open] summary { margin-bottom: 10px; }
+  :is(.articles-browser, .expertise-browser) .filter-button { width: auto; min-height: 44px; }
+}
+
+/* Treatment overview reuses the article filter controls; its introduction stays above. */
+.expertise-browser { display:grid; grid-template-columns:220px minmax(0,1fr); gap:32px; align-items:start; }
+.expertise-browser .expertise-filter-panel { display:grid; justify-items:stretch; align-items:start; }
+.expertise-browser .filter-group { width:100%; text-align:left; }
+.expertise-browser .filter-bar { display:flex; flex-direction:column; }
+.expertise-browser .filter-search { min-width:0; width:100%; }
+.expertise-browser .filter-search input { min-width:0; width:100%; }
+.expertise-browser .expertise-hub { min-width:0; }
+.expertise-browser > .filter-empty { grid-column:2; }
+@media(max-width:760px) {
+  .expertise-browser { display:block; }
+  .expertise-browser .expertise-filter-panel { margin-bottom:24px; }
+  .expertise-browser .filter-bar { flex-direction:row; flex-wrap:wrap; }
+}
+
+/* Brevo's loaded stylesheet is later in the cascade; only the active provider panel may be visible. */
+#sib-form-container .sib-form-message-panel:not(.sib-form-message-panel--active) {
+  display: none !important;
+}
+
+#sib-form-container .sib-form-message-panel.sib-form-message-panel--active {
+  display: block !important;
 }

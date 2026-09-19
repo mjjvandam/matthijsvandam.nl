@@ -30,6 +30,20 @@
       }
     },
     {
+      "path": "nieuwsbrief.html",
+      "title": "Nieuwsbrief",
+      "spoor": "professioneel",
+      "verification_status": "review_nodig",
+      "review_notes": "19 september 2026: Matthijs geeft expliciet akkoord voor een afzonderlijke nieuwsbriefpagina, menu-item en rustige verwijzingen vanaf homepage en Over mij. De pagina gebruikt uitsluitend de bestaande native Brevo-route met dubbele bevestiging; publicatieverificatie volgt na deployment.",
+      "technical_release_approval": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-09-12",
+        "reviewed_commit": "143e5a0",
+        "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
+        "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      }
+    },
+    {
       "path": "artikelen.html",
       "title": "Artikelen | drs. Matthijs van Dam",
       "spoor": "algemeen",
