@@ -2,6 +2,12 @@
   "version": 1,
   "asset_root": "assets",
   "default_source_revision": "8b27e6d2450284ec7384de00812ca7f830838031",
+  "source_file_overrides": {
+    "assets/kuitspier-anatomie-gastrocnemius-soleus.png": "concepten/beeldbronnen/2026-09-19-kuitspier-en-voetpijn/kuitspier-anatomie-gastrocnemius-soleus.png",
+    "assets/kuitspier-belasting-onder-voet-v2.png": "concepten/beeldbronnen/2026-09-19-kuitspier-en-voetpijn/kuitspier-belasting-onder-voet-v2.png",
+    "assets/kuitspier-hielspoor-zijaanzicht-v2.png": "concepten/beeldbronnen/2026-09-19-kuitspier-en-voetpijn/kuitspier-hielspoor-zijaanzicht-v2.png",
+    "assets/kuitspier-voetpijn-oefeningen.png": "concepten/beeldbronnen/2026-09-19-kuitspier-en-voetpijn/kuitspier-voetpijn-oefeningen.png"
+  },
   "source_revision_overrides": {
     "assets/article-3d-planning-lab.jpg": "714349e",
     "assets/article-aios-foot-education-munich.jpg": "abfdb16",
@@ -27,6 +33,26 @@
     "assets/tile-voorvoet-pijn-v2.jpg": "abfdb16"
   },
   "overrides": [
+    {
+      "path": "assets/kuitspier-anatomie-gastrocnemius-soleus.png",
+      "status": "watermark",
+      "reason": "Door Matthijs aangeleverd gegenereerd beeld; MVD-copyright expliciet bevestigd op 19 september 2026."
+    },
+    {
+      "path": "assets/kuitspier-belasting-onder-voet-v2.png",
+      "status": "watermark",
+      "reason": "Site-eigen medische conceptillustratie; MVD-copyright expliciet bevestigd op 19 september 2026."
+    },
+    {
+      "path": "assets/kuitspier-hielspoor-zijaanzicht-v2.png",
+      "status": "watermark",
+      "reason": "Site-eigen medische conceptillustratie; MVD-copyright expliciet bevestigd op 19 september 2026."
+    },
+    {
+      "path": "assets/kuitspier-voetpijn-oefeningen.png",
+      "status": "watermark",
+      "reason": "Door Matthijs aangeleverd gegenereerd beeld; MVD-copyright expliciet bevestigd op 19 september 2026."
+    },
     {
       "path": "assets/advice-education-stage-mvd.jpg",
       "status": "review_required",

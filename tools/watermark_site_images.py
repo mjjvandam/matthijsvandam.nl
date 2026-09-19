@@ -70,12 +70,21 @@ def git_bytes(revision: str, path: Path) -> bytes:
 
 
 def source_revision(path: Path, manifest: dict[str, Any]) -> str:
+    local_source = manifest.get("source_file_overrides", {}).get(path.as_posix())
+    if local_source:
+        return f"lokale schone bron {local_source}"
     return manifest.get("source_revision_overrides", {}).get(
         path.as_posix(), manifest["default_source_revision"]
     )
 
 
 def source_bytes(path: Path, manifest: dict[str, Any]) -> bytes:
+    local_source = manifest.get("source_file_overrides", {}).get(path.as_posix())
+    if local_source:
+        source_path = Path(local_source)
+        if not source_path.is_file():
+            raise RuntimeError(f"Lokale schone bron ontbreekt voor {path}: {source_path}")
+        return source_path.read_bytes()
     return git_bytes(source_revision(path, manifest), path)
 
 

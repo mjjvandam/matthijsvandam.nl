@@ -14,6 +14,15 @@
   ],
   "pages": [
     {
+      "path": "artikelen/kuitspier-en-voetpijn.html",
+      "title": "Te korte kuitspier en voetpijn: wat is het verband?",
+      "spoor": "artikel",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-09-19",
+      "review_notes": "Patiëntgericht artikel over het mogelijke verband tussen een korte kuitspier, enkelbeweging en pijn onder hiel, middenvoet of voorvoet. Tekst, oefeningen, beeldtoelichtingen en medische grenzen zijn iteratief door Matthijs beoordeeld. Op 19 september 2026 gaf Matthijs expliciet publicatieakkoord met ‘ok publiceer’."
+    },
+    {
       "path": "index.html",
       "title": "drs. Matthijs van Dam | Orthopedisch chirurg Tilburg",
       "spoor": "algemeen",

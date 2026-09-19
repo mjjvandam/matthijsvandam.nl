@@ -70,6 +70,10 @@
           "scope": "registered"
         },
         {
+          "path": "artikelen/kuitspier-en-voetpijn.html",
+          "scope": "registered"
+        },
+        {
           "path": "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html",
           "scope": "registered"
         },
@@ -348,6 +352,7 @@
         "artikelen/footprint-quick-scan-medewerkers.html": "21a18d9eeab934ccdf50123ec04a4182ae67784aaebc6256a05f082c9990d161",
         "artikelen/heracleum-hulpfonds-subsidie-transmuraal-tilburg-cohort.html": "992656f1f790aa6d230c6d779c8432929abc8e4c46c1cea48525ec80db0d314e",
         "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html": "1db42555055daabea38246e618bb8c7063b449f5e50d5a2199c8c678f775c7fd",
+        "artikelen/kuitspier-en-voetpijn.html": "df314d602cfc787b249de17401ee1f36a2a1ff179270796f1768c00b43e91931",
         "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html": "b1822a054866c37b096bfb0e616d5dc84d3deb504eceadc54c95c49ea20962ed",
         "artikelen/mobility-clinic-tilburg-patienten.html": "1cb785d49193e2ee69f4414779b8b6e20440f95af823727ce32294fabb7bbe0a",
         "artikelen/mobility-clinic-tilburg-professionals.html": "9dfd904a8f2a5bb1842df94fab1bce7242e1301ef87fef2dd8647534876e682a",
@@ -492,7 +497,7 @@
       ],
       "fingerprints": {
         "artikelen.html": "7754cd80aca36fcd96329e921deaf75402a6d628ac3ff80d2dd3343987afe6bc",
-        "content.js": "a82318c314688ab1f2a45c859a09598226c1efa8d7f7b317f50a3ab4acd81918",
+        "content.js": "42dc7520e70e5c159fe2e9764c632fd1986b2b3f564573e94bc54f9713845a91",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "styles.css": "f86b34fd070260b5970b06785096e8138929a1b58f35a25c9fbb1aede6334459"
       }
@@ -541,6 +546,10 @@
         },
         {
           "path": "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html",
+          "scope": "registered"
+        },
+        {
+          "path": "artikelen/kuitspier-en-voetpijn.html",
           "scope": "registered"
         },
         {
@@ -632,6 +641,7 @@
         "artikelen/artrosezorg-transitie-professionals.html": "b42587da165cca8fb6e803c6b48e3dc26b546cf9dcdc6728a683cd29d302a6f2",
         "artikelen/digitaal-zorgpad-artrose-obesitas.html": "5856d5896c3360929592791320e0126768cc2354f99dbdaf9926cc6f8e40fa1c",
         "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html": "1db42555055daabea38246e618bb8c7063b449f5e50d5a2199c8c678f775c7fd",
+        "artikelen/kuitspier-en-voetpijn.html": "df314d602cfc787b249de17401ee1f36a2a1ff179270796f1768c00b43e91931",
         "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html": "b1822a054866c37b096bfb0e616d5dc84d3deb504eceadc54c95c49ea20962ed",
         "artikelen/na-verzwikte-enkel-instabiel-blijven.html": "e8542f355c366e81001d8e2599fa6fa11bccb583c6272e42a5bb2c49c4cfb7a4",
         "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html": "768532bd471c71ad49639ea8f009842eb9637989a7d7901474e7cc542776539e",
@@ -642,7 +652,7 @@
         "behandelingen/enkelartrodese.html": "be05fdd05ece8befdf8c3920d8fd483f80b6a8621e2c2ccabdafdebe7f43ea57",
         "behandelingen/enkelartrose.html": "81197637674835679685ad687df1405e2d48190f8ab92d45698285f099134a75",
         "behandelingen/enkelprothese.html": "5bce9c85bdc0ea7517b5e178966fa45bf0390d675d79be7977fb52bce9e5024d",
-        "content.js": "a82318c314688ab1f2a45c859a09598226c1efa8d7f7b317f50a3ab4acd81918",
+        "content.js": "42dc7520e70e5c159fe2e9764c632fd1986b2b3f564573e94bc54f9713845a91",
         "index.html": "353c2cc39ddb45bbc5440b7e73a301f1d6968d2656b8087d95bbca8c1fdd79f8",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "professionals.html": "950fd3737a463e01fb1e90e373c0acf4af36f3c538ec3dc37e42915c49cf63b8",
@@ -679,7 +689,7 @@
         }
       ],
       "fingerprints": {
-        "content.js": "a82318c314688ab1f2a45c859a09598226c1efa8d7f7b317f50a3ab4acd81918",
+        "content.js": "42dc7520e70e5c159fe2e9764c632fd1986b2b3f564573e94bc54f9713845a91",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "styles.css": "f86b34fd070260b5970b06785096e8138929a1b58f35a25c9fbb1aede6334459"
       }
@@ -727,6 +737,10 @@
         },
         {
           "path": "artikelen/heracleum-hulpfonds-subsidie-transmuraal-tilburg-cohort.html",
+          "scope": "registered"
+        },
+        {
+          "path": "artikelen/kuitspier-en-voetpijn.html",
           "scope": "registered"
         },
         {
@@ -947,6 +961,7 @@
         "artikelen/footprint-quick-scan-etz-fit-follow-up.html": "106fdeb7b1a9d4d8cdfc570b79158ed8319f23525cb6bbd6d582de7b3a69a0d7",
         "artikelen/footprint-quick-scan-medewerkers.html": "21a18d9eeab934ccdf50123ec04a4182ae67784aaebc6256a05f082c9990d161",
         "artikelen/heracleum-hulpfonds-subsidie-transmuraal-tilburg-cohort.html": "992656f1f790aa6d230c6d779c8432929abc8e4c46c1cea48525ec80db0d314e",
+        "artikelen/kuitspier-en-voetpijn.html": "df314d602cfc787b249de17401ee1f36a2a1ff179270796f1768c00b43e91931",
         "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html": "b1822a054866c37b096bfb0e616d5dc84d3deb504eceadc54c95c49ea20962ed",
         "artikelen/mobility-clinic-tilburg-patienten.html": "1cb785d49193e2ee69f4414779b8b6e20440f95af823727ce32294fabb7bbe0a",
         "artikelen/mobility-clinic-tilburg-professionals.html": "9dfd904a8f2a5bb1842df94fab1bce7242e1301ef87fef2dd8647534876e682a",

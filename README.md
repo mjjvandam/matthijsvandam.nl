@@ -32,7 +32,9 @@ Statische conceptsite voor de professionele website van Matthijs van Dam.
   copyrightregel en bronmetadata. De rechteninventaris staat in `data/site-image-rights.json`;
   gebruik `tools/watermark_site_images.py --check` voor controle en `--apply` voor verwerking.
   Het script reconstrueert de websitekopie vanuit de vastgelegde schone Git-bron, zodat het geen
-  logo-op-logo of herhaalde JPEG-compressie veroorzaakt.
+  logo-op-logo of herhaalde JPEG-compressie veroorzaakt. Voor nieuwe lokale conceptbeelden kan het
+  register via `source_file_overrides` verwijzen naar een schone bron onder de uitgesloten
+  `concepten/`-map; de zichtbare websitekopie blijft in `assets/` staan.
 - Externe logo's, partnerassets en beelden van derden worden uitgesloten. Beelden zonder vastgelegde
   rechtenbasis blijven `review_required` en krijgen niet automatisch een MVD-copyrightregel.
 
