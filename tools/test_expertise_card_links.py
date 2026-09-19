@@ -63,6 +63,10 @@ class ExpertiseCardLinksTest(unittest.TestCase):
     def test_no_mapping_is_not_guessed(self):
         self.assertEqual(self.codes('<article class="expertise-card"><h3>Onbekend onderwerp</h3></article>'), set())
 
+    def test_informational_card_with_related_link_is_not_guessed(self):
+        html = '<article class="expertise-card"><h3>Onderwerp</h3><a href="public.html">Meer informatie</a></article>'
+        self.assertEqual(self.codes(html), set())
+
 
 if __name__ == "__main__":
     unittest.main()

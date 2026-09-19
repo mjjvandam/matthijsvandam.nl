@@ -108,8 +108,6 @@ def check_expertise_cards(text, base, public_paths, cache):
     for card in parser.cards:
         attrs, links = card["attrs"], card["links"]
         value = attrs.get("data-url") or attrs.get("data-concept-url")
-        if not value and links:
-            value = links[0].get("href")
         if not value or is_external(value):
             continue  # No target means an informational tile, not a guessed page mapping.
         destination = target(value)

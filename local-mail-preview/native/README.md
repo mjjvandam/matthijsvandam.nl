@@ -120,3 +120,19 @@ Gecontroleerd op 360/390/430/1000 px, lichte en donkere voorkeur, zonder horizon
 overloop; screenshot op 390 px visueel bekeken. Designsysteemcontrole slaagt.
 ADR-0013 dekt deze lokale voorbereiding; geen nieuwe ADR of medische review nodig.
 Publieke vrijgave en koppeling blijven open. Geen nieuwe mail verzonden.
+
+## Eigen bevestigingspagina uitgewerkt — 19 september 2026
+
+De publieke bron is nu voorbereid als `../../nieuwsbrief-bevestigd.html`. Deze
+Nederlandstalige pagina hergebruikt de gewone siteheader, vormtaal en de drie
+recentste geverifieerde artikelkaarten uit `content.js`. De pagina verwerkt of
+toont geen abonneegegevens en blijft `noindex, follow`; hij staat niet in de
+sitemap. De eerdere `bevestigd.html` in deze map blijft alleen het historische
+lokale voorbeeld en is niet de bron voor vrijgave.
+
+Lokale browsercontrole van de nieuwe bron slaagt op 360, 390, 430 en 1200 px,
+in lichte en donkere kleurvoorkeur, zonder horizontale overloop of JavaScript-
+fouten. Brevo is nog niet gewijzigd. Eerst de nieuwe pagina deployen en de
+publieke URL controleren; pas daarna kan in het native aanmeldformulier de
+bevestigingspagina na de validatieklik worden gekoppeld. Een lokale pagina of
+geslaagde controle is geen livebewijs.

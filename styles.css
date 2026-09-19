@@ -6673,6 +6673,64 @@ a {
   font-size: .9rem;
   font-weight: 600;
 }
+/* Bevestiging na de nieuwsbriefklik: rustige afronding met bestaande artikelkaarten. */
+.newsletter-confirmation-page main { min-height: 70vh; }
+.newsletter-confirmation-hero { padding-top: 156px; padding-bottom: 52px; }
+.newsletter-confirmation-panel {
+  width: min(860px, 100%);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: clamp(20px, 4vw, 38px);
+  align-items: start;
+  padding: clamp(28px, 5vw, 52px);
+  border: 1px solid var(--line);
+  border-top: 5px solid var(--green);
+  border-radius: 0 0 18px 18px;
+  background: var(--white);
+  box-shadow: var(--shadow-soft);
+}
+.newsletter-confirmation-mark {
+  display: grid;
+  width: 60px;
+  height: 60px;
+  place-items: center;
+  border-radius: 999px;
+  background: var(--green-soft);
+  color: var(--green);
+}
+.newsletter-confirmation-mark svg {
+  width: 34px;
+  height: 34px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.newsletter-confirmation-panel h1 {
+  max-width: 690px;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.2rem, 5vw, 3.7rem);
+  font-weight: 700;
+  line-height: 1.02;
+}
+.newsletter-confirmation-panel p { max-width: 680px; line-height: 1.7; }
+.newsletter-confirmation-lead { margin-top: 24px; font-size: clamp(1.08rem, 2vw, 1.22rem); }
+.newsletter-confirmation-panel .button { margin-top: 12px; }
+.newsletter-confirmation-reading { padding-top: 52px; }
+.newsletter-confirmation-reading .section-heading { max-width: 760px; margin: 0 auto 28px; }
+.newsletter-confirmation-reading .section-heading h2 { margin-top: 0; }
+.newsletter-confirmation-reading noscript p { max-width: 1180px; margin: 24px auto 0; }
+@media (max-width: 620px) {
+  .newsletter-confirmation-hero { padding-top: 118px; padding-bottom: 36px; }
+  .newsletter-confirmation-panel { grid-template-columns: minmax(0, 1fr); padding: 26px 20px 30px; }
+  .newsletter-confirmation-mark { width: 52px; height: 52px; }
+  .newsletter-confirmation-mark svg { width: 30px; height: 30px; }
+  .newsletter-confirmation-panel .button { width: 100%; }
+}
+
 .contact-form[data-sent="true"] > :not([data-contact-status]):not([data-contact-new]) { display: none; }
 .contact-form [data-contact-status]:focus { outline: 3px solid #547b68; outline-offset: 4px; }
 .contact-form .consent-row { align-items: flex-start; }
