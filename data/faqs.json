@@ -2027,8 +2027,8 @@
       "primaryPage": "behandelingen/metatarsalgie.html",
       "anchor": "faq-metatarsalgie-is-metatarsalgie-een-diagnose",
       "sourceRefs": [],
-      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-09-19",
       "reusePolicy": "page-specific"
     },
     "metatarsalgie-wat-is-het-verschil-tussen-metatarsalgie-en-morton-neuroom": {
@@ -2042,8 +2042,8 @@
       "primaryPage": "behandelingen/metatarsalgie.html",
       "anchor": "faq-metatarsalgie-wat-is-het-verschil-tussen-metatarsalgie-en-morton-neuroom",
       "sourceRefs": [],
-      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-09-19",
       "reusePolicy": "page-specific",
       "nearDuplicateReviewStatus": "reviewed-page-specific-2026-08-26"
     },
@@ -2058,8 +2058,8 @@
       "primaryPage": "behandelingen/metatarsalgie.html",
       "anchor": "faq-metatarsalgie-kunnen-schoenen-met-metatarsalgie-te-maken-hebben",
       "sourceRefs": [],
-      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-09-19",
       "reusePolicy": "page-specific"
     },
     "metatarsalgie-is-een-rontgenfoto-altijd-nodig-bij-metatarsalgie": {
@@ -2073,14 +2073,14 @@
       "primaryPage": "behandelingen/metatarsalgie.html",
       "anchor": "faq-metatarsalgie-is-een-rontgenfoto-altijd-nodig-bij-metatarsalgie",
       "sourceRefs": [],
-      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-09-19",
       "reusePolicy": "page-specific"
     },
     "metatarsalgie-helpt-een-steunzool-bij-metatarsalgie": {
       "id": "metatarsalgie-helpt-een-steunzool-bij-metatarsalgie",
       "question": "Helpt een steunzool bij metatarsalgie?",
-      "answerHtml": "<p>\n  Een zool of drukontlastende voorziening kan in geselecteerde situaties helpen om de druk\n  onder de voorvoet anders te verdelen. Het effect hangt af van de oorzaak, de schoen en de\n  manier waarop de voet belast wordt.\n</p>",
+      "answerHtml": "<p>\n  Ja. Bij metatarsalgie kan een goed passende zool of drukontlastende voorziening de druk onder\n  de voorvoet beter verdelen en daarmee de klachten verminderen. Welke voorziening passend is,\n  hangt af van de oorzaak, de schoen en de manier waarop de voet belast wordt.\n</p>",
       "audience": "patient",
       "topics": [
         "metatarsalgie"
@@ -2088,14 +2088,14 @@
       "primaryPage": "behandelingen/metatarsalgie.html",
       "anchor": "faq-metatarsalgie-helpt-een-steunzool-bij-metatarsalgie",
       "sourceRefs": [],
-      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-09-19",
       "reusePolicy": "page-specific"
     },
     "metatarsalgie-wanneer-is-specialistische-beoordeling-zinvol": {
       "id": "metatarsalgie-wanneer-is-specialistische-beoordeling-zinvol",
-      "question": "Wanneer is specialistische beoordeling zinvol?",
-      "answerHtml": "<p>\n  Dat kan zinvol zijn bij aanhoudende pijn ondanks goede schoen- en zoolmaatregelen,\n  duidelijke teenstandafwijking, verdenking op stressfractuur of wanneer meerdere oorzaken\n  door elkaar lijken te spelen.\n</p>",
+      "question": "Moet ik voor metatarsalgie naar een orthopeed?",
+      "answerHtml": "<p>\n  Meestal niet direct. De behandeling begint vaak via de huisarts, podotherapeut, fysiotherapeut\n  of schoentechnische zorg. Beoordeling door een orthopedisch chirurg kan zinvol zijn bij\n  aanhoudende pijn ondanks goede schoen- en zoolmaatregelen, een duidelijke teenstandafwijking,\n  verdenking op een stressfractuur of wanneer meerdere oorzaken door elkaar lijken te spelen.\n</p>",
       "audience": "patient",
       "topics": [
         "metatarsalgie"
@@ -2103,8 +2103,8 @@
       "primaryPage": "behandelingen/metatarsalgie.html",
       "anchor": "faq-metatarsalgie-wanneer-is-specialistische-beoordeling-zinvol",
       "sourceRefs": [],
-      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-09-19",
       "reusePolicy": "page-specific",
       "duplicateReviewStatus": "reviewed-page-specific-2026-08-26"
     },

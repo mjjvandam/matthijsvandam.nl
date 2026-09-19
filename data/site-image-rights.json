@@ -28,6 +28,26 @@
   },
   "overrides": [
     {
+      "path": "assets/kuitspier-anatomie-gastrocnemius-soleus.png",
+      "status": "watermark",
+      "reason": "Door Matthijs aangeleverd gegenereerd beeld; MVD-copyright expliciet bevestigd op 19 september 2026."
+    },
+    {
+      "path": "assets/kuitspier-belasting-onder-voet-v2.png",
+      "status": "watermark",
+      "reason": "Site-eigen medische conceptillustratie; MVD-copyright expliciet bevestigd op 19 september 2026."
+    },
+    {
+      "path": "assets/kuitspier-hielspoor-zijaanzicht-v2.png",
+      "status": "watermark",
+      "reason": "Site-eigen medische conceptillustratie; MVD-copyright expliciet bevestigd op 19 september 2026."
+    },
+    {
+      "path": "assets/kuitspier-voetpijn-oefeningen.png",
+      "status": "watermark",
+      "reason": "Door Matthijs aangeleverd gegenereerd beeld; MVD-copyright expliciet bevestigd op 19 september 2026."
+    },
+    {
       "path": "assets/advice-education-stage-mvd.jpg",
       "status": "review_required",
       "reason": "Fotograaf en overdracht van beeldrechten zijn niet in de repo vastgelegd."
