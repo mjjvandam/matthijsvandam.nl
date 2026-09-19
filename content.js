@@ -71,6 +71,20 @@
 
   const articles = [
     {
+      id: "kuitspier-en-voetpijn",
+      title: "Waarom is de kuit belangrijk als de pijn in de voet zit?",
+      label: "Voet en enkel",
+      summary:
+        "Waarom de kuit wordt onderzocht bij hiel- en voorvoetpijn, welke oefeningen kunnen passen en wanneer een operatie pas in beeld komt.",
+      image: "assets/kuitspier-voetpijn-oefeningen.png",
+      imageAlt: "Drie voorbeelden van oefeningen voor kuit, enkel en voet",
+      url: "artikelen/kuitspier-en-voetpijn.html",
+      date: "2026-09-19",
+      audience: ["patienten"],
+      topics: ["voet-en-enkel"],
+      archive: true,
+    },
+    {
       id: "knieprothese-bariatrische-chirurgie-obesitas-knieartrose",
       title: "Knieprothese of eerst bariatrische chirurgie bij ernstige obesitas en knieartrose?",
       label: "Onderzoek en duiding",
