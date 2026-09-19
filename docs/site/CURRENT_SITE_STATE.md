@@ -8,13 +8,13 @@ Laatste auditbasis: huidige repo op 2026-09-19.
 
 De gepubliceerde laag bestaat uit:
 
-- 44 publieke pagina's in `sitemap.xml`.
-- 44 pagina's in `PUBLICATIE_REGISTER.json`: 43 `geverifieerd` en 1 `review_nodig`.
+- 45 publieke pagina's in `sitemap.xml`.
+- 45 pagina's in `PUBLICATIE_REGISTER.json`: 44 `geverifieerd` en 1 `review_nodig`.
 - 21 geverifieerde gepubliceerde artikelen; geen publiek artikel staat nog op `review_nodig`.
 - 6 gepubliceerde projectpagina's.
 - 1 publieke behandel-/klachtenhub: `behandelingen.html`.
-- 6 publieke behandelpagina's: `behandelingen/enkelverzwikking.html`, `behandelingen/enkelartrose.html`, `behandelingen/enkelprothese.html`, `behandelingen/hallux-rigidus.html`, `behandelingen/metatarsalgie.html` en `behandelingen/ziekte-van-freiberg.html`.
-- 30 lokale concept-behandelpagina's in `behandelingen/`, `noindex, nofollow` en uitgesloten van Vercel via `.vercelignore`.
+- 7 publieke behandelpagina's: `behandelingen/enkelverzwikking.html`, `behandelingen/enkelartrose.html`, `behandelingen/enkelprothese.html`, `behandelingen/hallux-rigidus.html`, `behandelingen/metatarsalgie.html`, `behandelingen/mtp-1-artrodese.html` en `behandelingen/ziekte-van-freiberg.html`.
+- 29 lokale concept-behandelpagina's in `behandelingen/`, `noindex, nofollow` en uitgesloten van Vercel via `.vercelignore`.
 - 1 lokale conceptmodule: `concept-foot-pain-guide.html`, `noindex, nofollow` en uitgesloten van Vercel.
 
 ## Hoofdroutes

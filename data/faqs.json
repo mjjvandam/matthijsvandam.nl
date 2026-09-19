@@ -2288,8 +2288,23 @@
       "primaryPage": "behandelingen/mtp-1-artrodese.html",
       "anchor": "faq-mtp-1-artrodese-kun-je-na-een-mtp-1-artrodese-normaal-lopen",
       "sourceRefs": [],
-      "medicalReviewStatus": "medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-09-19",
+      "reusePolicy": "page-specific"
+    },
+    "mtp-1-artrodese-hoe-lang-duurt-het-herstel-na-een-mtp-1-artrodese": {
+      "id": "mtp-1-artrodese-hoe-lang-duurt-het-herstel-na-een-mtp-1-artrodese",
+      "question": "Hoe lang duurt het herstel na een MTP-1 artrodese?",
+      "answerHtml": "<p>\n  De botdelen hebben meerdere weken nodig om vast te groeien. Een beschermende schoen of\n  gips is vaak ongeveer zes weken nodig, maar het belastings- en controleschema verschilt per\n  ziekenhuis en per patiënt. Zwelling en het opbouwen van gewone schoenen, werk en sport kunnen\n  langer duren. De instructies van het eigen behandelteam zijn leidend.\n</p>",
+      "audience": "patient",
+      "topics": [
+        "mtp-1-artrodese"
+      ],
+      "primaryPage": "behandelingen/mtp-1-artrodese.html",
+      "anchor": "faq-mtp-1-artrodese-hoe-lang-duurt-het-herstel-na-een-mtp-1-artrodese",
+      "sourceRefs": [],
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-09-19",
       "reusePolicy": "page-specific"
     },
     "mtp-1-artrodese-kun-je-na-een-mtp-1-artrodese-nog-hardlopen": {
@@ -2303,8 +2318,8 @@
       "primaryPage": "behandelingen/mtp-1-artrodese.html",
       "anchor": "faq-mtp-1-artrodese-kun-je-na-een-mtp-1-artrodese-nog-hardlopen",
       "sourceRefs": [],
-      "medicalReviewStatus": "medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-09-19",
       "reusePolicy": "page-specific"
     },
     "mtp-1-artrodese-kan-de-grote-teen-na-een-mtp-1-artrodese-nog-bewegen": {
@@ -2318,8 +2333,8 @@
       "primaryPage": "behandelingen/mtp-1-artrodese.html",
       "anchor": "faq-mtp-1-artrodese-kan-de-grote-teen-na-een-mtp-1-artrodese-nog-bewegen",
       "sourceRefs": [],
-      "medicalReviewStatus": "medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-09-19",
       "reusePolicy": "page-specific",
       "duplicateReviewStatus": "reviewed-page-specific-2026-08-26"
     },
@@ -2334,14 +2349,14 @@
       "primaryPage": "behandelingen/mtp-1-artrodese.html",
       "anchor": "faq-mtp-1-artrodese-kun-je-gewone-schoenen-dragen-na-een-mtp-1-artrodese",
       "sourceRefs": [],
-      "medicalReviewStatus": "medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-09-19",
       "reusePolicy": "page-specific"
     },
     "mtp-1-artrodese-wanneer-wordt-een-mtp-1-artrodese-besproken": {
       "id": "mtp-1-artrodese-wanneer-wordt-een-mtp-1-artrodese-besproken",
       "question": "Wanneer wordt een MTP-1 artrodese besproken?",
-      "answerHtml": "<p>\n  Een MTP-1 artrodese kan worden besproken bij duidelijke artrose van het grote-teengewricht\n  met pijn en beperkingen, vooral als niet-operatieve maatregelen onvoldoende helpen en een\n  gewrichtssparende operatie niet passend is.\n</p>",
+      "answerHtml": "<p>\n  Een MTP-1 artrodese kan worden besproken bij ernstige hallux rigidus met pijn en beperkingen,\n  vooral als niet-operatieve maatregelen onvoldoende helpen en een gewrichtssparende operatie\n  niet passend is. De operatie kan ook passen bij een zeer forse hallux valgus als het gewricht\n  sterk vervormd of beschadigd is.\n</p>",
       "audience": "patient",
       "topics": [
         "mtp-1-artrodese"
@@ -2349,8 +2364,8 @@
       "primaryPage": "behandelingen/mtp-1-artrodese.html",
       "anchor": "faq-mtp-1-artrodese-wanneer-wordt-een-mtp-1-artrodese-besproken",
       "sourceRefs": [],
-      "medicalReviewStatus": "medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-09-19",
       "reusePolicy": "page-specific"
     },
     "mtp-plantaire-plaatklachten-wat-is-de-plantaire-plaat": {
