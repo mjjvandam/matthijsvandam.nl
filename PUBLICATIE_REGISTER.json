@@ -266,6 +266,15 @@
       "review_notes": "De volledige patiëntgerichte pagina over metatarsalgie is na de redactionele ronde op 19 september 2026 expliciet inhoudelijk akkoord gegeven voor publicatie door Matthijs. Voor de publieke versie zijn links naar overige concept-behandelpagina's verwijderd; medische termen zijn als gewone tekst behouden. Alleen reeds gepubliceerde vervolginformatie blijft klikbaar. Het concept-pijnwijzerblok is niet opgenomen. Robots, sitemap, Vercel-uitzondering en overzichtskaarten zijn voor publicatie vrijgegeven."
     },
     {
+      "path": "behandelingen/mtp-1-artrodese.html",
+      "title": "MTP-1-artrodese: het gewricht van de grote teen vastzetten",
+      "spoor": "patient",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-09-19",
+      "review_notes": "De volledige patiëntgerichte pagina over MTP-1-artrodese is na de redactionele ronde op 19 september 2026 expliciet inhoudelijk gecontroleerd en goedgekeurd voor publicatie door Matthijs. De pagina bevat uitleg over indicaties, alternatieven, operatie, herstel, dezelfde-dag-ontslag, lopen, schoenen, werk, sport en risico's waaronder non-union en transfermetatarsalgie. Op verzoek van Matthijs zijn de zichtbare bronnen verwijderd. Voor de publieke versie is het concept-pijnwijzerblok met links naar niet-gepubliceerde behandelpagina's niet opgenomen. Robots, sitemap, Vercel-uitzondering en interne links zijn voor publicatie vrijgegeven."
+    },
+    {
       "path": "over-mij.html",
       "title": "Over drs. Matthijs van Dam | Orthopedisch chirurg Tilburg",
       "spoor": "algemeen",

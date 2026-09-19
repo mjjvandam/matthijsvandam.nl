@@ -98,7 +98,7 @@ De meeste onderstaande routes staan lokaal in `behandelingen/` en blijven concep
 | Behandelonderwerp | Route | Huidige rol | Minimale interne links voor publicatie | Pijnwijzerregel | ADR's |
 | --- | --- | --- | --- | --- | --- |
 | Voorvoetcorrectie | `behandelingen/voorvoetcorrectie.html` | concept behandelpagina, medische review nodig | Terug naar `behandelingen.html`, relevante voorvoetonderwerpen, `disclaimer.html` | Niet als automatische diagnose-uitkomst; alleen als verwant behandelonderwerp waar medisch gevalideerd | ADR-0003, ADR-0005, ADR-0006 |
-| MTP-1 artrodese | `behandelingen/mtp-1-artrodese.html` | apart behandelonderwerp, medische review nodig | Terug naar `behandelingen.html`, `hallux-rigidus.html` wanneer publiek/gevalideerd, `disclaimer.html` | `showInPainGuide: false`; geen pijnwijzeruitkomst | ADR-0003, ADR-0005, ADR-0006 |
+| MTP-1-artrodese | `behandelingen/mtp-1-artrodese.html` | publieke behandelpagina over het vastzetten van het grote-teengewricht | `behandelingen.html`, `hallux-rigidus.html`, `metatarsalgie.html`, `disclaimer.html` | `showInPainGuide: false`; geen pijnwijzeruitkomst | ADR-0003, ADR-0005, ADR-0006 |
 | Revisie na artrodese | `behandelingen/revisie-artrodese.html` | concept, in data als behandeling met beperkte zichtbaarheid | Terug naar `behandelingen.html`, relevante restklachtencontext, `disclaimer.html` | `showInPainGuide: false`; niet als brede aanbodkaart tonen zonder eigenaar-validatie | ADR-0003, ADR-0005, ADR-0006 |
 
 ## Voetpijnwijzerregio's

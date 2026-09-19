@@ -782,10 +782,14 @@
       "headingId": "faq-title",
       "heading": "Veelgestelde vragen",
       "schema": true,
-      "publicationScope": "concept",
+      "publicationScope": "public",
       "items": [
         {
           "id": "mtp-1-artrodese-kun-je-na-een-mtp-1-artrodese-normaal-lopen",
+          "mode": "full"
+        },
+        {
+          "id": "mtp-1-artrodese-hoe-lang-duurt-het-herstel-na-een-mtp-1-artrodese",
           "mode": "full"
         },
         {
