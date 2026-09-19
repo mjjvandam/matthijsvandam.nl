@@ -20,6 +20,7 @@ MAIN_MENU_LABELS = {
     "Advies",
     "Projecten",
     "Artikelen",
+    "Nieuwsbrief",
     "Publicaties",
 }
 CONTEXT_LABELS = {"Contact", "Privacy", "Disclaimer", "Project"}
@@ -152,6 +153,8 @@ def expected_route_label(rel: str) -> str | None:
         return "Projecten"
     if rel == "artikelen.html" or rel.startswith("concepten/previews/"):
         return "Artikelen"
+    if rel == "nieuwsbrief.html":
+        return "Nieuwsbrief"
     if rel.startswith("artikelen/"):
         return None
     if rel == "publicaties.html":
@@ -214,8 +217,8 @@ def run_checks() -> list[tuple[str, str]]:
             issues.append(("navigation_missing_route_label", f"{rel}: {required_label}"))
         if rel.startswith("artikelen/") and not (set(labels) & MAIN_MENU_LABELS):
             issues.append(("navigation_missing_article_route", rel))
-        if rel == "index.html" and not MAIN_MENU_LABELS.issubset(set(labels)):
-            missing = sorted(MAIN_MENU_LABELS - set(labels))
+        if rel == "index.html" and not (MAIN_MENU_LABELS - {"Nieuwsbrief"}).issubset(set(labels)):
+            missing = sorted((MAIN_MENU_LABELS - {"Nieuwsbrief"}) - set(labels))
             issues.append(("navigation_missing_main_labels", f"{rel}: {', '.join(missing)}"))
 
         for link in parser.nav_links:
