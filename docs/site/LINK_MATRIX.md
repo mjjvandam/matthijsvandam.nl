@@ -81,12 +81,12 @@ Verplicht raadplegen bij wijziging van links, pagina's, publicatiestatus of pijn
 
 ## Geplande aandoeningen- en klachtenpagina's
 
-De meeste onderstaande routes staan lokaal in `behandelingen/` en blijven concept totdat medische review, linkcontrole, sitemap/registerbesluit en eigenaar-validatie expliciet zijn afgerond. `enkelverzwikking.html`, `enkelartrose.html`, `enkelprothese.html` en `hallux-rigidus.html` zijn inmiddels afzonderlijk gepubliceerd en geverifieerd.
+De meeste onderstaande routes staan lokaal in `behandelingen/` en blijven concept totdat medische review, linkcontrole, sitemap/registerbesluit en eigenaar-validatie expliciet zijn afgerond. `enkelverzwikking.html`, `enkelartrose.html`, `enkelprothese.html`, `hallux-rigidus.html`, `metatarsalgie.html` en `ziekte-van-freiberg.html` zijn inmiddels afzonderlijk voor publicatie vrijgegeven en geverifieerd.
 
 | Type | Routes | Status nu | Minimale interne links voor publicatie | Sitemapregel | ADR's |
 | --- | --- | --- | --- | --- | --- |
-| Voorvoet, publiek | `hallux-rigidus.html` | publiek en `geverifieerd` | Terug naar `behandelingen.html` en `disclaimer.html`; geen zichtbare pijnwijzer of links naar concept-behandelpagina's | Opgenomen | ADR-0002, ADR-0003, ADR-0004, ADR-0005, ADR-0006 |
-| Voorvoet/grote teen/tenen, concept | `hallux-valgus.html`, `hamerteen-klauwteen.html`, `metatarsalgie.html`, `morton-neuroom.html`, `mtp-plantaire-plaatklachten.html`, `tailors-bunion.html`, `sesamoidklachten.html` | concept, medische review nodig | Terug naar `behandelingen.html`, relevante patientartikelen indien publiek, `disclaimer.html`; onderlinge links alleen als medisch veilig en routezuiver | Niet opnemen zolang concept | ADR-0002, ADR-0003, ADR-0005, ADR-0006 |
+| Voorvoet, publiek | `hallux-rigidus.html`, `metatarsalgie.html`, `ziekte-van-freiberg.html` | publiek en `geverifieerd` | Terug naar `behandelingen.html` en `disclaimer.html`; geen zichtbare pijnwijzer of links naar concept-behandelpagina's | Opgenomen | ADR-0002, ADR-0003, ADR-0004, ADR-0005, ADR-0006 |
+| Voorvoet/grote teen/tenen, concept | `hallux-valgus.html`, `hamerteen-klauwteen.html`, `morton-neuroom.html`, `mtp-plantaire-plaatklachten.html`, `tailors-bunion.html`, `sesamoidklachten.html` | concept, medische review nodig | Terug naar `behandelingen.html`, relevante patientartikelen indien publiek, `disclaimer.html`; onderlinge links alleen als medisch veilig en routezuiver | Niet opnemen zolang concept | ADR-0002, ADR-0003, ADR-0005, ADR-0006 |
 | Enkel, publiek | `enkelverzwikking.html`, `enkelartrose.html`, `enkelprothese.html` | publiek en `geverifieerd` | Terug naar `behandelingen.html`, veilige publieke verdieping en `disclaimer.html`; geen diagnose- of triagelinks | Opgenomen | ADR-0002, ADR-0003, ADR-0004, ADR-0005, ADR-0006 |
 | Enkel, concept | `chronische-enkelinstabiliteit.html`, `anterieur-enkel-impingement.html`, `posterieur-enkel-impingement.html`, `ganglion-enkel.html`, `peroneuspeesklachten.html`, `sinus-tarsi-klachten.html`, `os-trigonum.html`, `kraakbeenletsel-enkel.html`, `corpus-liberum-enkel.html` | concept, medische review nodig | Terug naar `behandelingen.html`, veilige verwante onderwerpen, `disclaimer.html`; geen publieke links vanaf geverifieerde pagina's zolang deze routes concept zijn | Niet opnemen zolang concept | ADR-0002, ADR-0003, ADR-0005, ADR-0006 |
 | Achtervoet/voetstand/hiel | `platvoet-volwassen.html`, `tibialis-posterior-peesklachten.html`, `holvoet-cavovarus.html`, `achillespeesklachten.html`, `hielpijn.html`, `peesplaatklachten-hielspoor.html`, `vetkussen-hielklachten.html`, `haglund-retrocalcaneaire-klachten.html` | concept, medische review nodig | Terug naar `behandelingen.html`, relevante verwante concept/publieke pagina's, `disclaimer.html` | Niet opnemen zolang concept | ADR-0002, ADR-0003, ADR-0005, ADR-0006 |
@@ -98,7 +98,7 @@ De meeste onderstaande routes staan lokaal in `behandelingen/` en blijven concep
 | Behandelonderwerp | Route | Huidige rol | Minimale interne links voor publicatie | Pijnwijzerregel | ADR's |
 | --- | --- | --- | --- | --- | --- |
 | Voorvoetcorrectie | `behandelingen/voorvoetcorrectie.html` | concept behandelpagina, medische review nodig | Terug naar `behandelingen.html`, relevante voorvoetonderwerpen, `disclaimer.html` | Niet als automatische diagnose-uitkomst; alleen als verwant behandelonderwerp waar medisch gevalideerd | ADR-0003, ADR-0005, ADR-0006 |
-| MTP-1 artrodese | `behandelingen/mtp-1-artrodese.html` | apart behandelonderwerp, medische review nodig | Terug naar `behandelingen.html`, `hallux-rigidus.html` wanneer publiek/gevalideerd, `disclaimer.html` | `showInPainGuide: false`; geen pijnwijzeruitkomst | ADR-0003, ADR-0005, ADR-0006 |
+| MTP-1-artrodese | `behandelingen/mtp-1-artrodese.html` | publieke behandelpagina over het vastzetten van het grote-teengewricht | `behandelingen.html`, `hallux-rigidus.html`, `metatarsalgie.html`, `disclaimer.html` | `showInPainGuide: false`; geen pijnwijzeruitkomst | ADR-0003, ADR-0005, ADR-0006 |
 | Revisie na artrodese | `behandelingen/revisie-artrodese.html` | concept, in data als behandeling met beperkte zichtbaarheid | Terug naar `behandelingen.html`, relevante restklachtencontext, `disclaimer.html` | `showInPainGuide: false`; niet als brede aanbodkaart tonen zonder eigenaar-validatie | ADR-0003, ADR-0005, ADR-0006 |
 
 ## Voetpijnwijzerregio's
@@ -128,7 +128,7 @@ Bron voor regio's en mappings blijft `content.js`. Deze matrix bewaakt de govern
 ## Pagina's die niet in sitemap mogen zolang ze concept zijn
 
 - `concept-foot-pain-guide.html`;
-- alle niet-gepubliceerde `behandelingen/*.html`; `enkelverzwikking.html`, `enkelartrose.html`, `enkelprothese.html` en `hallux-rigidus.html` zijn uitzonderingen;
+- alle niet-gepubliceerde `behandelingen/*.html`; `enkelverzwikking.html`, `enkelartrose.html`, `enkelprothese.html`, `hallux-rigidus.html` en `ziekte-van-freiberg.html` zijn uitzonderingen;
 - elke toekomstige detailpagina die `noindex,nofollow`, `review_nodig` of conceptstatus heeft;
 - elk onderwerp zonder publieke behandelpagina-link, inclusief Lisfranc/middenvoetletsel zolang dit alleen orienterende differentiaal is.
 

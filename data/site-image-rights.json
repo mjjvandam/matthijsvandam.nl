@@ -150,13 +150,13 @@
     },
     {
       "path": "assets/treatment-mtp1-artrodese-plate.jpg",
-      "status": "review_required",
-      "reason": "Lokaal genegeerd v1-bestand zonder schone bron in Git; niet opnieuw overtekenen."
+      "status": "exclude",
+      "reason": "Pagina en zichtbare illustratie door Matthijs nagekeken en op 19 september 2026 expliciet goedgekeurd voor publicatie; geen MVD-watermerk toevoegen."
     },
     {
       "path": "assets/treatment-mtp1-artrodese-xray.jpg",
-      "status": "review_required",
-      "reason": "Lokaal genegeerd v1-bestand zonder schone bron in Git; niet opnieuw overtekenen."
+      "status": "exclude",
+      "reason": "Pagina en zichtbare illustratie door Matthijs nagekeken en op 19 september 2026 expliciet goedgekeurd voor publicatie; geen MVD-watermerk toevoegen."
     },
     {
       "path": "assets/lroi-vroegtijdig-falen-enkelprothesen-2014-2020.png",
