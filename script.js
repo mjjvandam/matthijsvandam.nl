@@ -611,6 +611,46 @@ if (canUseHoverCards) {
   });
 }
 
+const treatmentOverviewAnchor = document.querySelector(".treatment-overview-anchor-card");
+const treatmentOverviewFilters = document.querySelector(".expertise-browser .expertise-filter-panel");
+
+if (treatmentOverviewAnchor && treatmentOverviewFilters) {
+  const stickyLayout = window.matchMedia("(min-width: 841px)");
+  let treatmentAnchorFrame = 0;
+
+  const updateTreatmentOverviewAnchor = () => {
+    treatmentAnchorFrame = 0;
+
+    if (!stickyLayout.matches) {
+      treatmentOverviewAnchor.classList.remove("is-filter-overlap-hidden");
+      return;
+    }
+
+    const stickyTop = Number.parseFloat(window.getComputedStyle(treatmentOverviewAnchor).top) || 112;
+    const anchorTop = treatmentOverviewAnchor.getBoundingClientRect().top;
+    const filtersBottom = treatmentOverviewFilters.getBoundingClientRect().bottom;
+    const isSticky = anchorTop <= stickyTop + 1;
+    const filtersStillPassing = filtersBottom > stickyTop;
+
+    const anchorMayAppear = isSticky && !filtersStillPassing;
+    treatmentOverviewAnchor.classList.toggle(
+      "is-filter-overlap-hidden",
+      !anchorMayAppear && !treatmentOverviewAnchor.contains(document.activeElement)
+    );
+  };
+
+  const scheduleTreatmentOverviewAnchorUpdate = () => {
+    if (treatmentAnchorFrame) return;
+    treatmentAnchorFrame = window.requestAnimationFrame(updateTreatmentOverviewAnchor);
+  };
+
+  updateTreatmentOverviewAnchor();
+  window.addEventListener("scroll", scheduleTreatmentOverviewAnchorUpdate, { passive: true });
+  window.addEventListener("resize", scheduleTreatmentOverviewAnchorUpdate);
+  stickyLayout.addEventListener("change", scheduleTreatmentOverviewAnchorUpdate);
+  treatmentOverviewAnchor.addEventListener("focusout", scheduleTreatmentOverviewAnchorUpdate);
+}
+
 const sortPublishedExpertiseCards = (target) => {
   // Public links are activated during publication, never inferred from a concept URL.
   const hasPublicLink = (card) => {
@@ -638,11 +678,21 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
   if (!target) return;
   if (panel.hasAttribute("data-published-first")) sortPublishedExpertiseCards(target);
   const groups = Array.from(panel.querySelectorAll("[data-filter-group]"));
+  const disclosures = groups.filter(group => group.tagName === "DETAILS");
+  if (disclosures.length) {
+    const narrow = window.matchMedia("(max-width: 760px)");
+    const updateDisclosures = () => disclosures.forEach(group => { group.open = !narrow.matches; });
+    updateDisclosures();
+    narrow.addEventListener("change", updateDisclosures);
+  }
   const cards = Array.from(target.querySelectorAll("[data-topic]"));
   const empty = target.parentElement?.querySelector("[data-filter-empty]");
   const search = panel.querySelector("[data-card-search]");
   const visibleLimit = Number.parseInt(panel.getAttribute("data-visible-limit") || "", 10);
+  const compactResultsAfter = Number.parseInt(panel.getAttribute("data-compact-results-after") || "", 10);
   const allowClear = panel.getAttribute("data-allow-clear") === "true";
+  const dependentFilters = panel.hasAttribute("data-dependent-filters");
+  const syncFilterUrl = panel.hasAttribute("data-sync-filter-url");
   const summaryLink = panel.parentElement?.querySelector("[data-filter-summary-link]");
   const summaryNote = panel.parentElement?.querySelector("[data-filter-summary-note]");
   const summaryLabels = {
@@ -681,39 +731,60 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
     syncGroupButtons(group, state[groupName]);
   });
 
-  const inferFilterFromSearch = (group, searchTerm) => {
-    if (!searchTerm) return "";
-    const words = searchTerm.split(/[\s,/.-]+/).filter(Boolean);
-    const buttons = Array.from(group.querySelectorAll("[data-filter]"));
-    return (
-      buttons.find((button) => {
-        const value = normalizeSearchText(button.getAttribute("data-filter") || "");
-        const label = normalizeSearchText(button.textContent || "");
-        return searchTerm === value || searchTerm === label || words.includes(value);
-      })?.getAttribute("data-filter") || ""
-    );
+  const cardMatchesGroup = (card, groupName, value) => {
+    if (!value || value === "alles") return true;
+    return (card.getAttribute(`data-${groupName}`) || "").split(/\s+/).includes(value);
   };
 
-  const syncFiltersFromSearch = () => {
-    const searchTerm = normalizeSearchText(state.search);
+  const cardMatchesActiveFilters = (card, omittedGroup = "") =>
+    groups.every((group) => {
+      const groupName = group.getAttribute("data-filter-group") || "";
+      return groupName === omittedGroup || cardMatchesGroup(card, groupName, state[groupName]);
+    });
+
+  const updateAvailableFilters = () => {
+    if (!dependentFilters) return;
     groups.forEach((group) => {
-      const groupName = group.getAttribute("data-filter-group");
+      const groupName = group.getAttribute("data-filter-group") || "";
       if (!groupName) return;
-      const inferred = inferFilterFromSearch(group, searchTerm);
-      if (inferred) {
-        state[groupName] = inferred;
-        syncGroupButtons(group, inferred);
-      } else if (searchTerm) {
-        state[groupName] = "alles";
-        syncGroupButtons(group, "alles");
-      }
+      const available = new Set(
+        cards
+          .filter((card) => cardMatchesActiveFilters(card, groupName))
+          .flatMap((card) => (card.getAttribute(`data-${groupName}`) || "").split(/\s+/).filter(Boolean))
+      );
+      group.querySelectorAll("[data-filter]").forEach((button) => {
+        button.hidden = !available.has(button.getAttribute("data-filter") || "");
+      });
     });
   };
 
+  const writeFiltersToUrl = () => {
+    if (!syncFilterUrl) return;
+    const url = new URL(window.location.href);
+    groups.forEach((group) => {
+      const groupName = group.getAttribute("data-filter-group") || "";
+      if (!groupName) return;
+      if (!state[groupName] || state[groupName] === "alles") url.searchParams.delete(groupName);
+      else url.searchParams.set(groupName, state[groupName]);
+    });
+    history.replaceState(null, "", url);
+  };
+
+  if (dependentFilters && !cards.some((card) => cardMatchesActiveFilters(card))) {
+    // Keep the subject from an old or shared URL and remove the conflicting type.
+    if (state.type && state.type !== "alles") {
+      state.type = "alles";
+      const typeGroup = groups.find((group) => group.getAttribute("data-filter-group") === "type");
+      if (typeGroup) syncGroupButtons(typeGroup, "alles");
+    }
+  }
+
   const applyFilters = () => {
     let visibleCount = 0;
+    const visibleCards = [];
     const searchTerm = normalizeSearchText(state.search);
     const { terms: searchTerms, tokens: searchTokens } = expandedSearchTerms(searchTerm);
+    updateAvailableFilters();
     cards.forEach((card) => {
       const searchableText = [
         card.getAttribute("data-topic") || "",
@@ -725,29 +796,38 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
         .join(" ")
         .toLowerCase();
       const normalizedSearchableText = normalizeSearchText(searchableText);
-      const topicMatches =
-        searchTerm ||
-        !state.topic ||
-        state.topic === "alles" ||
-        (card.getAttribute("data-topic") || "").split(/\s+/).includes(state.topic);
-      const typeMatches =
-        searchTerm ||
-        !state.type ||
-        state.type === "alles" ||
-        (card.getAttribute("data-type") || "").split(/\s+/).includes(state.type);
+      const topicMatches = cardMatchesGroup(card, "topic", state.topic);
+      const typeMatches = cardMatchesGroup(card, "type", state.type);
       const searchMatches =
         !searchTerm ||
         searchTerms.some((term) => normalizedSearchableText.includes(term)) ||
         (searchTokens.length > 0 && searchTokens.every((token) => normalizedSearchableText.includes(token)));
       const withinLimit = !Number.isFinite(visibleLimit) || visibleCount < visibleLimit;
       card.hidden = !(topicMatches && typeMatches && searchMatches && withinLimit);
-      if (!card.hidden) visibleCount += 1;
+      if (!card.hidden) {
+        visibleCount += 1;
+        visibleCards.push(card);
+      }
     });
-      target.querySelectorAll(".expertise-topic-section").forEach((section) => {
-        const sectionHasVisibleCards = Array.from(section.querySelectorAll("[data-topic]")).some((card) => !card.hidden);
-        section.hidden = !sectionHasVisibleCards;
-      });
-      if (empty) empty.hidden = visibleCount !== 0;
+    cards.forEach((card) => card.classList.remove("is-compact-filter-result", "is-last-compact-filter-result"));
+    const hasActiveCriteria = Boolean(
+      searchTerm || groups.some((group) => state[group.getAttribute("data-filter-group") || ""] !== "alles")
+    );
+    const useCompactResults =
+      Number.isFinite(compactResultsAfter) && hasActiveCriteria && visibleCount > compactResultsAfter;
+    target.classList.toggle("has-compact-filter-results", useCompactResults);
+    if (hasActiveCriteria) target.setAttribute("data-filter-result-count", String(visibleCount));
+    else target.removeAttribute("data-filter-result-count");
+    if (useCompactResults) {
+      const compactCards = visibleCards.slice(compactResultsAfter);
+      compactCards.forEach((card) => card.classList.add("is-compact-filter-result"));
+      compactCards.at(-1)?.classList.add("is-last-compact-filter-result");
+    }
+    target.querySelectorAll(".expertise-topic-section").forEach((section) => {
+      const sectionHasVisibleCards = Array.from(section.querySelectorAll("[data-topic]")).some((card) => !card.hidden);
+      section.hidden = !sectionHasVisibleCards;
+    });
+    if (empty) empty.hidden = visibleCount !== 0;
     if (summaryLink) {
       const topic = state.topic || "alles";
       const baseHref = summaryLink.getAttribute("data-base-href") || summaryLink.getAttribute("href") || "";
@@ -774,6 +854,7 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
         const isClearing = allowClear && button.classList.contains("is-active");
         state[groupName] = isClearing ? "alles" : button.getAttribute("data-filter") || "alles";
         syncGroupButtons(group, isClearing ? "alles" : state[groupName]);
+        writeFiltersToUrl();
         applyFilters();
       });
     });
@@ -781,10 +862,10 @@ document.querySelectorAll("[data-card-filter-panel]").forEach((panel) => {
 
   search?.addEventListener("input", () => {
     state.search = search.value || "";
-    syncFiltersFromSearch();
     applyFilters();
   });
 
+  writeFiltersToUrl();
   applyFilters();
 });
 

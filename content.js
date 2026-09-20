@@ -71,6 +71,20 @@
 
   const articles = [
     {
+      id: "kuitspier-en-voetpijn",
+      title: "Waarom is de kuit belangrijk als de pijn in de voet zit?",
+      label: "Voet en enkel",
+      summary:
+        "Waarom de kuit wordt onderzocht bij hiel- en voorvoetpijn, welke oefeningen kunnen passen en wanneer een operatie pas in beeld komt.",
+      image: "assets/kuitspier-voetpijn-oefeningen.png",
+      imageAlt: "Drie voorbeelden van oefeningen voor kuit, enkel en voet",
+      url: "artikelen/kuitspier-en-voetpijn.html",
+      date: "2026-09-19",
+      audience: ["patienten"],
+      topics: ["voet-en-enkel"],
+      archive: true,
+    },
+    {
       id: "knieprothese-bariatrische-chirurgie-obesitas-knieartrose",
       title: "Knieprothese of eerst bariatrische chirurgie bij ernstige obesitas en knieartrose?",
       label: "Onderzoek en duiding",
@@ -389,7 +403,7 @@
       id: "voorvoet-bovenzijde",
       label: "Bovenkant voorvoet",
       shortDescription: "Pijn bovenop de voorvoet of rond de middenvoetsbeentjes.",
-      relatedConditionIds: ["metatarsalgie", "mtp-plantaire-plaatklachten", "voorvoetcorrectie"],
+      relatedConditionIds: ["metatarsalgie", "ziekte-van-freiberg", "mtp-plantaire-plaatklachten", "voorvoetcorrectie"],
       views: {
         top: { shape: "M275 430 C410 350 690 380 770 540 C760 680 650 780 485 760 C340 750 260 630 275 430 Z" },
         front: { shape: "M595 555 C725 500 1015 500 1195 610 C1170 735 1010 815 805 795 C670 780 570 700 595 555 Z" },
@@ -425,7 +439,7 @@
       id: "voorvoet-onderzijde",
       label: "Onder de bal van de voet",
       shortDescription: "Pijn onder de bal van de voet of bij druk onder de voorvoet.",
-      relatedConditionIds: ["metatarsalgie", "morton-neuroom", "mtp-plantaire-plaatklachten", "sesamoidklachten", "hallux-rigidus", "voorvoetcorrectie"],
+      relatedConditionIds: ["metatarsalgie", "ziekte-van-freiberg", "morton-neuroom", "mtp-plantaire-plaatklachten", "sesamoidklachten", "hallux-rigidus", "voorvoetcorrectie"],
       views: {
         sole: { shape: "M260 250 C410 95 720 160 775 420 C720 600 620 710 470 700 C330 690 240 535 260 250 Z" },
         medial: { shape: "M1030 650 C1210 600 1465 650 1580 790 C1435 875 1195 855 1010 765 C990 715 1000 675 1030 650 Z" },
@@ -596,6 +610,14 @@
       url: "behandelingen/metatarsalgie.html",
       painRegionIds: ["voorvoet-onderzijde", "voorvoet-bovenzijde"],
       tags: ["Voorvoet", "Drukklachten"],
+    },
+    {
+      id: "ziekte-van-freiberg",
+      title: "Ziekte van Freiberg",
+      excerpt: "Beschadiging van een middenvoetskopje kan lokale pijn, zwelling en stijfheid rond de basis van een teen geven.",
+      url: "behandelingen/ziekte-van-freiberg.html",
+      painRegionIds: ["voorvoet-onderzijde", "voorvoet-bovenzijde"],
+      tags: ["Voorvoet", "Bot en gewricht"],
     },
     {
       id: "morton-neuroom",
@@ -863,6 +885,10 @@
     metatarsalgie: {
       kind: "symptom",
       primaryLabel: "Klacht",
+    },
+    "ziekte-van-freiberg": {
+      kind: "condition",
+      primaryLabel: "Aandoening",
     },
     "morton-neuroom": {
       kind: "condition",
