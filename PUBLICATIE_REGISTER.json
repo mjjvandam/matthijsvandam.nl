@@ -14,6 +14,13 @@
   ],
   "pages": [
     {
+      "path": "behandelingen/hallux-valgus.html",
+      "title": "Hallux valgus: klachten en behandeling | drs. Matthijs van Dam",
+      "spoor": "patientinformatie",
+      "verification_status": "review_nodig",
+      "review_notes": "Uitgebreide patiëntgerichte uitleg over hallux valgus, niet-operatieve en operatieve behandeling, voorbereiding, nabehandeling, herstel en risico's. Gepubliceerd op expliciet verzoek; inhoudelijke owner review blijft open."
+    },
+    {
       "path": "behandelingen/ziekte-van-freiberg.html",
       "title": "Ziekte van Freiberg | Pijn bij een middenvoetskopje | drs. Matthijs van Dam",
       "spoor": "patientinformatie",
