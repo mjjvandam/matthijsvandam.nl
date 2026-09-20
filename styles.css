@@ -796,6 +796,10 @@ a {
   margin: 0 auto 38px;
 }
 
+.work-band .section-heading {
+  text-align: center;
+}
+
 .location-band {
   position: relative;
   padding-bottom: clamp(58px, 8vw, 96px);
@@ -6879,9 +6883,13 @@ a {
   padding-block: clamp(28px, 4vw, 48px);
 }
 .cohort-home-copy .section-kicker { margin-top: 0; }
+.newsletter-home {
+  background:
+    linear-gradient(180deg, rgba(220, 232, 223, 0.48), rgba(255, 253, 248, 0.82)),
+    var(--paper);
+}
 .newsletter-home-panel {
   grid-template-columns: 1fr;
-  border-bottom: 0;
 }
 .cohort-home-image {
   display: block;
