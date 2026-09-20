@@ -1,14 +1,14 @@
 # Foot Pain Guide launch-inventaris
 
-Alle inhoudelijke kaarten krijgen een eigen conceptpagina in `behandelingen/`. De pagina's blijven `noindex, nofollow` totdat Matthijs de medische inhoud heeft beoordeeld en de livegang expliciet akkoord is.
+Alle inhoudelijke kaarten krijgen een eigen pagina in `behandelingen/`. Conceptpagina's blijven `noindex, nofollow` totdat Matthijs de medische inhoud heeft beoordeeld en de publieke vrijgave expliciet akkoord is.
 
 | Kaart | Concept-URL | Status | Reviewpunten |
 | --- | --- | --- | --- |
 | Hallux valgus | `behandelingen/hallux-valgus.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Hallux rigidus | `behandelingen/hallux-rigidus.html` | publicatieklaar | Inhoudelijk akkoord en op 6 september 2026 afzonderlijk gepubliceerd, zonder zichtbare koppeling met de concept-pijnwijzer. |
 | Hamerteen en klauwteen | `behandelingen/hamerteen-klauwteen.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
-| Metatarsalgie | `behandelingen/metatarsalgie.html` | publicatieklaar | Inhoudelijk akkoord door Matthijs op 19 september 2026; robots, sitemap, register, Vercel-uitzondering en overzichtslinks vrijgegeven voor publicatie. |
-| Ziekte van Freiberg | `behandelingen/ziekte-van-freiberg.html` | publicatieklaar | Inhoudelijk akkoord door Matthijs en op 19 september 2026 afzonderlijk gepubliceerd; de concept-pijnwijzer en links naar overige conceptpagina's zijn niet publiek gekoppeld. |
+| Metatarsalgie | `behandelingen/metatarsalgie.html` | publicatieklaar | Inhoudelijk akkoord door Matthijs op 19 september 2026; publieke robots, sitemap, register, Vercel-uitzondering en overzichtslink lokaal voorbereid. Externe deployment en livecontrole blijven afzonderlijk. |
+| Ziekte van Freiberg | `behandelingen/ziekte-van-freiberg.html` | medisch akkoord | Inhoudelijk akkoord door Matthijs op 19 september 2026; publieke vrijgave, sitemap/register/robots en livecontrole blijven een afzonderlijke stap. |
 | Morton neuroom | `behandelingen/morton-neuroom.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | MTP- en plantaire plaatklachten | `behandelingen/mtp-plantaire-plaatklachten.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Tailor's bunion | `behandelingen/tailors-bunion.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |

@@ -18,7 +18,7 @@ De huidige data bevat:
 
 - 6 aanzichten: bovenaanzicht, voorkant, onderzijde, binnenzijde, buitenzijde, hiel/achterzijde.
 - 17 pijnregio's.
-- 35 inhoudelijke voet/enkel-kaarten.
+- 36 inhoudelijke voet/enkel-kaarten.
 - 1 apart behandelonderwerp: `mtp-1-artrodese`.
 - Reviewtabel voor medische mapping.
 - Uitsluitingen voor onderwerpen die bewust niet in de MVP worden getoond.

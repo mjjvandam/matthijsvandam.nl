@@ -136,3 +136,18 @@ fouten. Brevo is nog niet gewijzigd. Eerst de nieuwe pagina deployen en de
 publieke URL controleren; pas daarna kan in het native aanmeldformulier de
 bevestigingspagina na de validatieklik worden gekoppeld. Een lokale pagina of
 geslaagde controle is geen livebewijs.
+
+## Livegang en Brevo-koppeling afgerond — 19 september 2026
+
+De bevestigingspagina is via pull request 1 samengevoegd naar `main`. Vercel-
+productiedeployment `dpl_BDGGWFCk1sHyukT6mZX35StVoPJi` is `READY`; de publieke
+URL `https://www.matthijsvandam.nl/nieuwsbrief-bevestigd.html` geeft HTTP 200 en
+toont de Nederlandse bevestiging en drie recente artikelen. De pagina blijft
+`noindex, follow` en staat niet in de sitemap.
+
+In Brevo-formulier `6a9f81effd758e360d87d286` is na de validatieklik de eigen
+publieke bevestigings-URL ingesteld en opgeslagen. Daarna is de instelling
+opnieuw geopend en teruggelezen: dubbele bevestiging en template
+`MVD - native bevestiging - Nederlands` zijn actief en de opgeslagen URL is
+exact `https://www.matthijsvandam.nl/nieuwsbrief-bevestigd.html`. Er is geen
+testmail verstuurd en geen nieuwe inschrijving aangemaakt.

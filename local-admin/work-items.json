@@ -285,14 +285,14 @@
       "title": "Websiteadres en zoekmachine-inrichting controleren",
       "category": "Techniek & vindbaarheid",
       "status": "waiting",
-      "status_label": "Search Console gecontroleerd; Google-herverwerking loopt",
-      "detail": "13 september: eigendom geverifieerd, sitemap succesvol met 40 pagina’s. Indexrapport 4 september toont 4 geïndexeerd en 9 uitgesloten; eerdere 404-validatie loopt. Goedgekeurde websitewijzigingen zijn live, 40 pagina’s en gedeelde bestanden exact gecontroleerd.",
-      "next_action": "Bij de bestaande weekcheck Google-herverwerking en eerdere URL-aanvragen opvolgen. Bing-inrichting nog controleren.",
+      "status_label": "Zoekprestaties gecontroleerd; Google-herverwerking loopt",
+      "detail": "19 september: propertybreed prestatierapport over 3 maanden gecontroleerd. De site kreeg 97 vertoningen op ‘orthopedisch schoenmaker tilburg’ en 55 op ‘tilburg orthopedische schoenen’, beide nog zonder klik. Dit ondersteunt een feitelijk samenwerkingsblok op professionals.html, maar bewijst nog geen paginaresultaat. De index- en sitemapmomentopname van 13 september is bij deze inhoudelijke controle niet ververst.",
+      "next_action": "Na een goedgekeurde publieke release bij de bestaande weekcheck pagina- en queryprestaties over een vergelijkbare periode volgen, naast Google-herverwerking en eerdere URL-aanvragen. Bing-inrichting nog controleren.",
       "priority": 2,
       "sources": [
         {
-          "path": "docs/site/reviews/search-console-2026-09-13.md",
-          "sha256": "06dada4535a1d4afaeb24104901c595e8a9b6e174d146d74998bc7aff40f6eca"
+          "path": "docs/site/reviews/search-console-2026-09-19.md",
+          "sha256": "2841cfdf54b388cdc15547c7b5537f9017ff00c0ac585f70eab986646faf461c"
         }
       ]
     },

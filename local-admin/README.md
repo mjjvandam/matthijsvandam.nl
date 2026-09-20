@@ -21,6 +21,18 @@ Gebruik Python 3.9 of nieuwer; de toepassing is op deze Mac getest met Python 3.
 - **Lokaal publicatiepakket maken** schrijft uitsluitend een lokaal ZIP-bestand met uitvoer en controlemanifest. Pak dat voor een releasecontrole buiten de websiteprojectmap uit: de HTML erin bevat de beoogde publieke metadata. Een pakket is geen publicatie en geen vervanging van de bestaande sitechecks.
 - **Bekeken** bij een taak is een persoonlijke leesmarkering met optionele notitie. Dat verandert geen medische verificatie of publicatiestatus. Als de bron wijzigt, wordt de taak opnieuw opengezet.
 
+### Publicatie na eigenaarakkoord
+
+Gebruik voor één bestaande pagina zonder structurele wijziging de gerichte pagina-release uit
+`CODEX_WERKWIJZE.md`. De inhoudelijke controle, preview en relevante technische checks horen vóór
+het akkoord klaar te zijn. Na akkoord volgt alleen de exacte register-/releasehandeling, een
+`READY`-deployment en controle van de gewijzigde URL, de directe ouderroute en sitemap/robots.
+De dashboardgoedkeuring en het lokale pakket publiceren zelf niets.
+
+Gebruik de uitgebreide release bij nieuwe pagina's, meerdere pagina's of wijzigingen aan gedeelde
+templates, navigatie, metadata, indexeerbaarheid, URL's, contact/nieuwsbrief of Search Console.
+Search Console is geen standaardstap voor iedere gewone pagina-update.
+
 De eerste bewerkbare pagina is een geïsoleerde kopie van het bestaande nieuwsbericht over Leonie Meihuizen. Het artikel kan volledig binnen zijn bestaande tekststructuur worden bewerkt. Extra tekstblokken, afbeeldingkeuze, andere artikeltemplates en nieuwe artikelen vereisen een volgende gecontroleerde importstap. De bestaande publieke HTML en `content.js` blijven voor de website de publicatiebron totdat de overgang bewust wordt vrijgegeven.
 
 ## Gepubliceerd artikel en werkversie

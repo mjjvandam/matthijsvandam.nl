@@ -32,7 +32,9 @@ Statische conceptsite voor de professionele website van Matthijs van Dam.
   copyrightregel en bronmetadata. De rechteninventaris staat in `data/site-image-rights.json`;
   gebruik `tools/watermark_site_images.py --check` voor controle en `--apply` voor verwerking.
   Het script reconstrueert de websitekopie vanuit de vastgelegde schone Git-bron, zodat het geen
-  logo-op-logo of herhaalde JPEG-compressie veroorzaakt.
+  logo-op-logo of herhaalde JPEG-compressie veroorzaakt. Voor nieuwe lokale conceptbeelden kan het
+  register via `source_file_overrides` verwijzen naar een schone bron onder de uitgesloten
+  `concepten/`-map; de zichtbare websitekopie blijft in `assets/` staan.
 - Externe logo's, partnerassets en beelden van derden worden uitgesloten. Beelden zonder vastgelegde
   rechtenbasis blijven `review_required` en krijgen niet automatisch een MVD-copyrightregel.
 
@@ -113,6 +115,14 @@ die Resend opgeeft. Die records worden bij TransIP toegevoegd. Zonder deze inste
 het formulier een foutmelding en wordt er geen bericht verzonden.
 
 ## Simpele livegang
+
+Voor één bestaande pagina zonder structurele wijziging geldt de gerichte pagina-release als
+standaard: technische en redactionele voorbereiding vóór het eigenaarakkoord, daarna alleen de
+register-/releasehandeling en een gerichte livecontrole van de gewijzigde URL, de directe route,
+sitemap, robots en deployment. De volledige site- en Search Console-controle blijft voorbehouden
+aan nieuwe pagina's, meerdere pagina's of wijzigingen aan gedeelde navigatie, metadata,
+indexeerbaarheid, URL's, contact/nieuwsbrief of andere release-infrastructuur. Zie
+`CODEX_WERKWIJZE.md` voor beide routes.
 
 Publiceer via Vercel vanuit de GitHub-repository.
 Controleer voor het pushen lokaal:

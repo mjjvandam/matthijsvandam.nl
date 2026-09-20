@@ -29,8 +29,22 @@ publicatie of medische positionering raakt.
    - behoud bestaande vormtaal, componenten, CSS-variabelen en navigatiepatronen;
    - vermijd brede refactors;
    - maak expliciet welke medische punten Matthijs nog moet beoordelen.
+   - controleer vóór oplevering wat elders moet meeveranderen: zoek oude en nieuwe termen,
+     links en functies ook op ongewijzigde pagina's en in gedeelde data en werkinstructies;
+   - volg per geraakt doelgroepspoor tekst, knop/link, werkelijke bestemming en uitleg.
+     Controleer bijvoorbeeld contactroutes na een nieuw formulier, gesloten oproepen en
+     gewijzigde project- of publicatiestatus. Een technisch geldige link is niet voldoende;
+   - gebruik de sectie 'Wijzigingen en samenhang controleren' in
+     `local-admin/WEEKLY_SITECHECK_WORKFLOW.md` als controlekader. Rapporteer scope,
+     bewuste uitzonderingen en open controles; behoud medische en publicatiepoorten.
+     Wacht voor deze oplevercontrole niet op de volgende weekcheck.
 
-5. Controleer publicatiestatus.
+5. Kies het passende publicatiespoor en controleer publicatiestatus.
+   - gebruik standaard de **gerichte pagina-release** voor één bestaande pagina zonder
+     structurele wijzigingen;
+   - gebruik de **uitgebreide release** bij nieuwe publieke pagina's, meerdere pagina's,
+     wijzigingen aan navigatie/filters/templates/content.js, metadata/schema, sitemap,
+     robots, canonical, deployment-grenzen, contact/nieuwsbrief of Search Console;
    - concept/noindex blijft buiten live-scope;
    - gepubliceerde pagina's horen in `PUBLICATIE_REGISTER.json`;
    - nieuwe of gewijzigde gepubliceerde pagina's blijven `review_nodig` totdat Matthijs akkoord geeft.
@@ -38,7 +52,10 @@ publicatie of medische positionering raakt.
      `behandelingen.html`: vervang `data-concept-url` door `data-url` en gebruik één omvattende
      `a.article-card-link` binnen `article-card-clickable`, niet alleen een klein Lees-meer-linkje;
    - behoud concepttegels zonder publieke link; alleen een lokaal bestand of medische review is
-     geen publicatiebesluit. Controleer sitemap, robots, deployment en register samen;
+     geen publicatiebesluit. Controleer sitemap, robots, deployment en register samen. Bij een
+     gerichte release volstaat dit voor de gewijzigde pagina en de directe route ernaartoe; voer
+     geen volledige site- of homepagecontrole opnieuw uit als de relevante pre-publicatiecheck
+     al is afgerond;
    - controleer relevante kruislinks en terugroutes. `check_site_quality.py` signaleert bestaande
      tegels die na publicatie nog niet klikbaar zijn en klikbare tegels naar conceptpagina's.
    - de filters op homepage en behandeloverzicht gebruiken `data-published-first`: tegels met
@@ -66,6 +83,42 @@ Als een wijziging invloed heeft op hero's, kaarten, navigatie, filters, formulie
 controleer ook mobiele breedtes rond 360, 390 en 430 px. Bij publicatiegerichte wijzigingen hoort
 ook een controle op interne links, metadata, canonical, robots, JSON-LD, sitemap en zichtbare
 medische veiligheidsgrenzen.
+
+### Gerichte pagina-release
+
+De gerichte route is de standaard voor één bestaande pagina zonder structurele wijziging.
+
+**Vóór eigenaarakkoord**
+
+- inhoudelijke, medische en broncontrole;
+- lokale preview en alleen de relevante mobiele controle;
+- relevante site-, SEO- en publicatiechecks;
+- controle van gewijzigde kaarten, metadata en interne links.
+
+**Na eigenaarakkoord**
+
+1. Leg het akkoord vast voor de exacte versie.
+2. Werk alleen de betreffende registerstatus en noodzakelijke publicatiebestanden bij.
+3. Controleer de diff en draai een gerichte integriteitscontrole.
+4. Commit en push de afgesproken bestanden.
+5. Wacht op een `READY`-deployment.
+6. Controleer de gewijzigde URL, de directe ouderroute en sitemap/robots/register.
+
+Controleer bij deze route niet opnieuw alle kernpagina's, alle mobiele breedtes of Search Console,
+tenzij de wijziging die onderdelen raakt. Een deployment, lokaal pakket of registerwijziging is
+geen zelfstandig bewijs dat de livepagina correct is; de gewijzigde URL blijft altijd onderdeel
+van de nacontrole.
+
+### Uitgebreide release
+
+Gebruik de uitgebreide route wanneer de wijziging meerdere pagina's of gedeelde infrastructuur
+raakt. Controleer dan de volledige relevante routes, gedeelde data, mobiele breedtes, metadata,
+structured data, sitemap/robots/canonical, deploymentgrenzen en — bij vindbaarheidswijzigingen —
+Search Console volgens `local-admin/SEARCH_CONSOLE_WORKFLOW.md`.
+
+Search Console is dus geen standaardstap na iedere inhoudelijke pagina-release. Het is verplicht
+bij wijzigingen aan URL's, redirects, canonical, sitemap, robots, navigatie/interne links en bij
+de expliciet relevante nacontrole van een publieke release.
 
 ## Opdrachtformats
 
