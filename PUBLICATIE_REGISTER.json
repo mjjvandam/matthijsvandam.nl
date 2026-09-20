@@ -28,6 +28,13 @@
       "review_notes": "Nieuwe patiëntgerichte uitleg over de ziekte van Freiberg, klachten, onderzoek en algemene behandelrichtingen. Opgenomen in deze release op expliciet verzoek om de recente sitewijzigingen live te zetten; inhoudelijke owner review blijft open."
     },
     {
+      "path": "behandelingen/hamerteen-klauwteen.html",
+      "title": "Hamerteen en klauwteen | drs. Matthijs van Dam",
+      "spoor": "patientinformatie",
+      "verification_status": "review_nodig",
+      "review_notes": "Patiëntgerichte uitleg over hamerteen en klauwteen, klachten, niet-operatieve opties, operatieve mogelijkheden en nabehandeling. Opgenomen in deze release op expliciet verzoek om de pagina live te zetten; inhoudelijke owner review blijft open."
+    },
+    {
       "path": "artikelen/kuitspier-en-voetpijn.html",
       "title": "Te korte kuitspier en voetpijn: wat is het verband?",
       "spoor": "artikel",
