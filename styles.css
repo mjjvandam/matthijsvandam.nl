@@ -6879,6 +6879,10 @@ a {
   padding-block: clamp(28px, 4vw, 48px);
 }
 .cohort-home-copy .section-kicker { margin-top: 0; }
+.newsletter-home-panel {
+  grid-template-columns: 1fr;
+  border-bottom: 0;
+}
 .cohort-home-image {
   display: block;
   width: 100%;
@@ -6912,6 +6916,24 @@ a {
   margin: 0 auto;
   padding: 130px 32px 64px;
 }
+.articles-intro {
+  grid-column: 1 / -1;
+  max-width: 820px;
+  padding-bottom: 8px;
+}
+.articles-intro h1 {
+  margin: 0 0 14px;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 1.05;
+}
+.articles-intro p {
+  max-width: 760px;
+  margin: 0 0 12px;
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+.articles-intro a { color: var(--green); font-weight: 700; }
 .articles-browser .listing-hero {
   display: block;
   padding: 0;
