@@ -1035,17 +1035,17 @@ a {
   min-height: 320px;
   overflow: hidden;
   border: 1px solid var(--line);
-  border-radius: 18px;
-  background: rgba(255, 253, 248, 0.82);
-  box-shadow: var(--shadow-soft);
+  border-radius: 12px;
+  background: var(--white);
+  box-shadow: 0 10px 24px rgba(23, 32, 28, 0.06);
   overflow: hidden;
 }
 
 .work-card::before {
   position: absolute;
   inset: 0 0 auto;
-  height: 5px;
-  background: linear-gradient(90deg, var(--aqua), var(--clay));
+  height: 3px;
+  background: var(--clay);
   content: "";
 }
 
@@ -2563,9 +2563,9 @@ a {
   margin: 34px 0;
   padding: 20px 22px;
   border: 1px solid var(--line);
-  border-left: 4px solid var(--clay);
-  border-radius: 14px;
-  background: rgba(255, 253, 248, 0.82);
+  border-left: 3px solid color-mix(in srgb, var(--clay) 72%, var(--line));
+  border-radius: 8px;
+  background: var(--white);
 }
 
 .compact-disclaimer {
@@ -5766,21 +5766,16 @@ a {
 .professional-theme-accordion details {
   border: 1px solid var(--line);
   border-radius: 8px;
-  background:
-    linear-gradient(90deg, rgba(36, 76, 61, 0.08), rgba(36, 76, 61, 0) 9px),
-    rgba(255, 253, 248, 0.84);
-  box-shadow: 0 16px 34px rgba(23, 54, 83, 0.055);
+  background: var(--white);
+  box-shadow: 0 8px 20px rgba(23, 32, 28, 0.045);
   overflow: hidden;
   transition: border-color 180ms ease, background 180ms ease, box-shadow 180ms ease;
 }
 
 .professional-theme-accordion details[open] {
   border-color: rgba(36, 76, 61, 0.24);
-  background:
-    linear-gradient(90deg, rgba(196, 145, 51, 0.44), rgba(196, 145, 51, 0) 9px),
-    linear-gradient(180deg, rgba(220, 232, 223, 0.38), rgba(255, 253, 248, 0.92)),
-    var(--paper);
-  box-shadow: 0 20px 42px rgba(23, 54, 83, 0.075);
+  background: var(--white);
+  box-shadow: 0 10px 24px rgba(23, 32, 28, 0.06);
 }
 
 .professional-theme-accordion summary {
