@@ -85,6 +85,11 @@
       "permanent": true
     },
     {
+      "source": "/artikelen/mobility-clinic-tilburg-patienten",
+      "destination": "/artikelen/mobility-clinic-tilburg-patienten.html",
+      "permanent": true
+    },
+    {
       "source": "/privacy",
       "destination": "/privacy.html",
       "permanent": true
