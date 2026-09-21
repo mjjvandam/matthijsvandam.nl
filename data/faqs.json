@@ -111,6 +111,21 @@
       "reviewedAt": null,
       "reusePolicy": "page-specific"
     },
+    "achillespeesklachten-ik-heb-verkalking-in-mijn-achillespees": {
+      "id": "achillespeesklachten-ik-heb-verkalking-in-mijn-achillespees",
+      "question": "Ik heb verkalking in mijn achillespees. Wat betekent dat?",
+      "answerHtml": "<p>\n  Verkalking of botaanwas bij de aanhechting van de achillespees kan samengaan met aanhechtingsklachten. Een verkalking op een röntgenfoto is niet automatisch de oorzaak van de pijn. De plek van de klachten, het lichamelijk onderzoek en het verdere verhaal bepalen hoe dit wordt beoordeeld.\n</p>",
+      "audience": "patient",
+      "topics": [
+        "achillespeesklachten"
+      ],
+      "primaryPage": "behandelingen/achillespeesklachten.html",
+      "anchor": "faq-achillespeesklachten-ik-heb-verkalking-in-mijn-achillespees",
+      "sourceRefs": [],
+      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
+      "reviewedAt": null,
+      "reusePolicy": "page-specific"
+    },
     "achillespeesklachten-wanneer-past-het-niet-bij-gewone-overbelasting": {
       "id": "achillespeesklachten-wanneer-past-het-niet-bij-gewone-overbelasting",
       "question": "Wanneer past het niet bij gewone overbelasting?",
