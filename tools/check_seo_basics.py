@@ -23,6 +23,7 @@ class PageParser(HTMLParser):
         super().__init__()
         self.title = ""
         self._in_title = False
+        self._seen_document_title = False
         self.h1_count = 0
         self.meta: list[dict[str, str]] = []
         self.links: list[dict[str, str]] = []
@@ -30,8 +31,9 @@ class PageParser(HTMLParser):
 
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         data = {key: value or "" for key, value in attrs}
-        if tag == "title":
+        if tag == "title" and not self._seen_document_title:
             self._in_title = True
+            self._seen_document_title = True
         elif tag == "h1":
             self.h1_count += 1
         elif tag == "meta":
