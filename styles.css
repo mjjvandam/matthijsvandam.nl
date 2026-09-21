@@ -4319,10 +4319,12 @@ a {
 :root[data-theme="dark"] .treatment-anchor-card a,
 :root[data-theme="dark"] .treatment-measure-list span,
 :root[data-theme="dark"] .treatment-option-grid small,
+:root[data-theme="dark"] .treatment-inline-details summary,
 :root[data-theme="dark"] .treatment-faq details[open] summary {
   color: var(--aqua);
 }
 
+:root[data-theme="dark"] .treatment-inline-details,
 :root[data-theme="dark"] .treatment-measure-list article {
   background: var(--white);
 }
@@ -4355,10 +4357,12 @@ a {
   :root:not([data-theme]) .treatment-anchor-card a,
   :root:not([data-theme]) .treatment-measure-list span,
   :root:not([data-theme]) .treatment-option-grid small,
+  :root:not([data-theme]) .treatment-inline-details summary,
   :root:not([data-theme]) .treatment-faq details[open] summary {
     color: var(--aqua);
   }
 
+  :root:not([data-theme]) .treatment-inline-details,
   :root:not([data-theme]) .treatment-measure-list article {
     background: var(--white);
   }

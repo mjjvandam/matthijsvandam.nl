@@ -1,10 +1,11 @@
 ---
-werktitel: "Hallux rigidus: wat bewijst de eerste gerandomiseerde studie naar artrodese?"
+werktitel: "Hallux rigidus: wat leert de eerste gerandomiseerde vergelijking met afwachten?"
 doelgroep: "Breed professioneel; patiënten moeten de uitleg kunnen volgen"
 beoogde plek: "Artikelen > Voet en enkel; verdieping naast de publieke hallux-rigiduspagina"
-korte samenvatting/lead: "Een Finse gerandomiseerde studie vergeleek bij 90 volwassenen met langdurige, pijnlijke hallux rigidus een artrodese van het grote-teengewricht met afwachten. Na twaalf maanden was de pijn bij lopen duidelijk lager na de operatie, maar de studie vergelijkt niet alle niet-operatieve en operatieve mogelijkheden."
+korte samenvatting/lead: "De Finse HARD-trial vergeleek bij 90 volwassenen met langdurige, pijnlijke hallux rigidus een artrodese van het grote-teengewricht met afwachten. Na twaalf maanden was de pijn bij lopen duidelijk lager na de operatie, maar de studie vergelijkt niet alle niet-operatieve en operatieve mogelijkheden."
 voorgestelde interne links:
   - "behandelingen/hallux-rigidus.html"
+  - "behandelingen/mtp-1-artrodese.html — alleen lokaal concept; niet publiek koppelen zonder vrijgave"
   - "behandelingen.html"
   - "artikelen.html?topic=voet-en-enkel"
 media-aanleiding:
@@ -23,11 +24,23 @@ claimgevoelige passages of open vragen:
 researchdossier: "concepten/research/2026-09-20-hallux-rigidus-artrodese-rct.md"
 ---
 
-# Hallux rigidus: wat bewijst de eerste gerandomiseerde studie naar artrodese?
+# Hallux rigidus: wat leert de eerste gerandomiseerde vergelijking met afwachten?
 
-Een Finse gerandomiseerde studie vergeleek bij 90 volwassenen met langdurige, pijnlijke hallux rigidus een artrodese van het grote-teengewricht met afwachten. Na twaalf maanden was de pijn bij lopen duidelijk lager na de operatie, maar de studie vergelijkt niet alle niet-operatieve en operatieve mogelijkheden.
+De Finse HARD-trial vergeleek bij 90 volwassenen met langdurige, pijnlijke hallux rigidus een artrodese van het grote-teengewricht met afwachten. Na twaalf maanden was de pijn bij lopen duidelijk lager na de operatie, maar de studie vergelijkt niet alle niet-operatieve en operatieve mogelijkheden.
 
 Hallux rigidus is artrose van het gewricht aan de basis van de grote teen. Pijn en stijfheid kunnen vooral merkbaar zijn bij het afwikkelen van de voet, traplopen, hurken of sporten. Bij een artrodese worden de gewrichtsvlakken vastgezet. Het pijnlijke gewricht beweegt daarna niet meer, terwijl de stand van de teen zo wordt gekozen dat lopen en het dragen van schoenen zo goed mogelijk blijven functioneren.
+
+<details class="treatment-inline-details">
+  <summary>Wat is hallux rigidus?</summary>
+  <div>
+    <p>Bij hallux rigidus is het gewricht aan de basis van de grote teen aangedaan door artrose. Het kraakbeen wordt dunner, het gewricht kan stijver worden en er kunnen botuitsteeksels ontstaan. Daardoor kan vooral het afwikkelen van de voet pijnlijk worden.</p>
+    <figure class="medical-illustration">
+      <img src="../../assets/treatment-hallux-rigidus-anatomy-v2.jpg" alt="Medische illustratie van hallux rigidus met botaanwas en vernauwing van het grote-teengewricht" width="900" height="1212" loading="lazy">
+      <figcaption>Hallux rigidus betreft artrose van het eerste MTP-gewricht. Klachten en afwijkingen op een röntgenfoto lopen niet altijd precies gelijk.</figcaption>
+    </figure>
+    <p><a href="../../behandelingen/hallux-rigidus.html">Lees de uitgebreide uitleg over hallux rigidus</a></p>
+  </div>
+</details>
 
 Over deze veelgebruikte operatie bestond opvallend weinig rechtstreeks vergelijkend onderzoek. De HARD-trial, in augustus 2026 gepubliceerd in *Annals of Internal Medicine*, is de eerste gerandomiseerde studie die artrodese vergeleek met afwachten. **[1]**
 
@@ -46,6 +59,33 @@ Na twaalf maanden was de gemiddelde pijn bij lopen 1,3 in de artrodesegroep en 5
 Dit is een overtuigende uitkomst voor de vraag die de studie stelde. Bij deze geselecteerde groep met langdurige en duidelijke klachten verminderde een artrodese de pijn bij lopen na één jaar sterker dan afwachten.
 
 De conclusie is smaller dan “een operatie is beter bij hallux rigidus”. De studie onderzocht één specifieke ingreep en één specifieke vergelijking. Afwachten is niet hetzelfde als een gestructureerd niet-operatief programma met schoenaanpassing, een stijve zool, aanpassing van belasting of andere begeleiding. Ook werden gewrichtssparende operaties en prothesen niet met artrodese vergeleken.
+
+<div class="treatment-measure-list">
+  <article>
+    <span>90 deelnemers</span>
+    <p>Volwassenen vanaf 40 jaar met langer dan een jaar klachten en minstens 4 van 10 pijn bij lopen.</p>
+  </article>
+  <article>
+    <span>1,3 tegenover 5,7</span>
+    <p>Gemiddelde pijn bij lopen na twaalf maanden: lager na artrodese dan bij afwachten.</p>
+  </article>
+  <article>
+    <span>Eén vergelijking</span>
+    <p>De trial vergelijkt artrodese met afwachten, niet met alle niet-operatieve of operatieve mogelijkheden.</p>
+  </article>
+</div>
+
+<details class="treatment-inline-details">
+  <summary>Wat gebeurt er bij een MTP-1-artrodese?</summary>
+  <div>
+    <p>MTP-1 is het gewricht aan de basis van de grote teen. Bij een artrodese wordt dit gewricht in een gekozen stand vastgezet. Het MTP-1-gewricht beweegt daarna niet meer; het gewrichtje verderop in de teen blijft wel beweeglijk.</p>
+    <figure class="medical-illustration">
+      <img src="../../assets/treatment-mtp1-artrodese-plate.jpg" alt="Uitlegillustratie van een MTP-1-artrodese met plaat en schroeven" width="1448" height="1086" loading="lazy">
+      <figcaption>Vereenvoudigde illustratie van het principe. De precieze techniek en stand worden per patiënt bepaald.</figcaption>
+    </figure>
+    <p><a href="../../behandelingen/mtp-1-artrodese.html">Bekijk de lokale conceptpagina over MTP-1-artrodese</a></p>
+  </div>
+</details>
 
 ## De studie verandert de indicatiestelling niet in een rekensom
 

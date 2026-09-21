@@ -3,7 +3,7 @@ Onderwerp: Tweewekelijkse artikelkansen, concept en sitepreview matthijsvandam.n
 
 Hoi Matthijs,
 
-De beste artikelkans van deze run is de eerste gerandomiseerde studie naar artrodese bij hallux rigidus. In de Finse HARD-trial werden 90 volwassenen met langdurige, pijnlijke hallux rigidus door loting verdeeld over MTP-1-artrodese of afwachten. Na twaalf maanden was de gemiddelde pijn bij lopen 1,3 na artrodese en 5,7 bij afwachten.
+De beste artikelkans van deze run is de eerste gerandomiseerde vergelijking van artrodese met afwachten bij hallux rigidus. In de Finse HARD-trial werden 90 volwassenen met langdurige, pijnlijke hallux rigidus door loting verdeeld over MTP-1-artrodese of afwachten. Na twaalf maanden was de gemiddelde pijn bij lopen 1,3 na artrodese en 5,7 bij afwachten.
 
 De studie is in augustus 2026 gepubliceerd in *Annals of Internal Medicine*. De bronstatus is `peer-reviewed gerandomiseerde studie`. Het studieprotocol en de officiële trialregistratie zijn aanvullend gecontroleerd. Een HUS-bericht van 14 augustus en vaknieuws in *Deutsches Ärzteblatt* van 2 september waren alleen de nieuwsaanleiding.
 

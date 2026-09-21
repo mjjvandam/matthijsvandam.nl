@@ -161,6 +161,19 @@
       "rule": "FAQ-tekst komt uit de centrale FAQ-bron, niet uit deze stijlgids. Controleer openen/sluiten, toetsenbord en generatiechecks. Een visuele wijziging geeft geen inhoudelijk medisch akkoord."
     },
     {
+      "id": "treatment-inline-details",
+      "name": "Uitklapbare medische verdieping",
+      "source": "behandelingen/hallux-valgus.html",
+      "selector": ".treatment-inline-details",
+      "markers": [
+        "treatment-inline-details"
+      ],
+      "sources": [
+        "styles.css"
+      ],
+      "rule": "Gebruik dit component voor korte aanvullende medische uitleg die de hoofdlijn niet hoeft te onderbreken. Een illustratie, bijschrift en veilige interne link mogen binnen het open blok staan. Behoud toetsenbordbediening, zichtbare focus, donkere modus en het onderscheid tussen publieke en lokale conceptlinks."
+    },
+    {
       "id": "treatment-overview",
       "name": "Filters klachten en behandelingen",
       "source": "behandelingen.html",

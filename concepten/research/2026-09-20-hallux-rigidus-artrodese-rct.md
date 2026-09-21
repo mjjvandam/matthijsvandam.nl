@@ -130,6 +130,7 @@ Een verdiepend professioneel artikel onder `artikelen`, thema `voet-en-enkel`, m
 ## Interne links
 
 - `behandelingen/hallux-rigidus.html` — bestaande publieke patiëntgerichte basisuitleg.
+- `behandelingen/mtp-1-artrodese.html` — lokale conceptpagina met uitleg over de ingreep; alleen vanuit de lokale conceptpreview linken en niet publiek koppelen zonder afzonderlijk publicatiebesluit.
 - `behandelingen.html` — publieke hub voor klachten en behandelingen.
 - `artikelen.html?topic=voet-en-enkel` — thematische terugroute.
 - `professionals.html` — alleen als professionele context, niet als patiëntvervolgstap.
@@ -155,6 +156,10 @@ Conclusie: titel en opening zijn concreet; iedere alinea heeft één functie. Er
 ### Medische veiligheidsreviewer
 
 Conclusie: de tekst zet de grote effectgrootte niet om in een algemene operatieaanbeveling. De blijvende bewegingsbeperking na artrodese, geselecteerde populatie, eencentrumopzet en ontbrekende vergelijking met andere behandelroutes staan zichtbaar in de tekst. De medische eigenaar moet de technische uitleg en indicatiegrens nog beoordelen; publicatiestatus blijft concept.
+
+### Naredactie van de previewblokken
+
+De drie kernbevindingen herhalen uitsluitend de gecontroleerde populatie, primaire uitkomst en afbakening uit de lopende tekst. De uitklapblokken geven korte basisuitleg over hallux rigidus en MTP-1-artrodese, met bestaande lokale beelden en routebewuste links. De hallux-rigiduslink voert naar een publieke patiëntpagina; de MTP-1-link is in de preview expliciet als lokale conceptpagina benoemd en mag niet zonder afzonderlijk publicatiebesluit in een publieke versie blijven staan. Er zijn geen nieuwe behandelclaims toegevoegd.
 
 ## ADR-check en publicatiestatus
 
