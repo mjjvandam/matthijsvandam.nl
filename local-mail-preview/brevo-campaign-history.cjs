@@ -3,7 +3,7 @@
 // Read-only provider adapter. It never creates, schedules or sends a campaign.
 // The API key must remain server-side; tests inject fetchImpl and never use a key.
 
-const NEWSLETTER_NAME = /^Matthijs van Dam\b.*(?:nieuwsbrief|newsletter)/i;
+const NEWSLETTER_NAME = /^Matthijs van Dam\b/i;
 const ALLOWED_STATUSES = new Set(['sent', 'queued', 'draft', 'scheduled', 'suspended', 'archive']);
 
 function dateOf(campaign) {
@@ -39,9 +39,9 @@ function normalizeCampaign(campaign) {
   };
 }
 
-async function readBrevoNewsletterHistory({apiKey, baseUrl='https://api.brevo.com/v3', limit=500, fetchImpl=fetch} = {}) {
+async function readBrevoNewsletterHistory({apiKey, baseUrl='https://api.brevo.com/v3', limit=50, fetchImpl=fetch} = {}) {
   if (!apiKey) throw new Error('Brevo API-sleutel ontbreekt');
-  if (!Number.isInteger(limit) || limit < 1 || limit > 500) throw new Error('Ongeldige Brevo-limiet');
+  if (!Number.isInteger(limit) || limit < 1 || limit > 50) throw new Error('Ongeldige Brevo-limiet');
   let response;
   try {
     response = await fetchImpl(`${baseUrl}/emailCampaigns?limit=${limit}&sort=desc`, {

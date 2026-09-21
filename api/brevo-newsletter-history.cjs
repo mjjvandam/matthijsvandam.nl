@@ -1,7 +1,7 @@
 'use strict';
 
 // Server-side read-only Brevo adapter. Never creates, schedules or sends mail.
-const NEWSLETTER_NAME = /^Matthijs van Dam\b.*(?:nieuwsbrief|newsletter)/i;
+const NEWSLETTER_NAME = /^Matthijs van Dam\b/i;
 const ALLOWED_STATUSES = new Set(['sent', 'queued', 'draft', 'scheduled', 'suspended', 'archive']);
 
 function dateOf(campaign) { return campaign.sentDate || campaign.sendAt || campaign.scheduledAt || campaign.createdAt; }
@@ -21,9 +21,9 @@ function normalizeCampaign(campaign) {
   if (!ALLOWED_STATUSES.has(rawStatus)) throw new Error('Onbekende Brevo-campagnestatus');
   return {campaignId:String(campaign.id),editionId:String(campaign.tag || '').startsWith('mvd-nieuwsbrief-') ? String(campaign.tag) : `brevo-${campaign.id}`,kind:'newsletter',status:statusOf(campaign),at:dateOf(campaign)};
 }
-async function readBrevoNewsletterHistory({apiKey,baseUrl='https://api.brevo.com/v3',limit=500,fetchImpl=fetch}={}) {
+async function readBrevoNewsletterHistory({apiKey,baseUrl='https://api.brevo.com/v3',limit=50,fetchImpl=fetch}={}) {
   if (!apiKey) throw new Error('Brevo API-sleutel ontbreekt');
-  if (!Number.isInteger(limit) || limit < 1 || limit > 500) throw new Error('Ongeldige Brevo-limiet');
+  if (!Number.isInteger(limit) || limit < 1 || limit > 50) throw new Error('Ongeldige Brevo-limiet');
   let response;
   try { response=await fetchImpl(`${baseUrl}/emailCampaigns?limit=${limit}&sort=desc`,{method:'GET',headers:{'api-key':apiKey,accept:'application/json'},signal:AbortSignal.timeout(8000)}); }
   catch { throw new Error('Brevo-historie onzeker; geen automatische verzending toestaan'); }
