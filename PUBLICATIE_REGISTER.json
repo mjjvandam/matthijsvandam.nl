@@ -14,6 +14,13 @@
   ],
   "pages": [
     {
+      "path": "behandelingen/mtp-1-artrodese.html",
+      "title": "MTP-1-artrodese: grote teen vastzetten en herstel",
+      "spoor": "patientinformatie",
+      "verification_status": "review_nodig",
+      "review_notes": "Op 21 september 2026 op expliciet verzoek technisch publiek gemaakt en opgenomen in sitemap. De pagina was eerder uitgebreid inhoudelijk bekeken; formele eigenaar-verificatie van deze publieke versie blijft als afzonderlijke stap open."
+    },
+    {
       "path": "behandelingen/hallux-valgus.html",
       "title": "Hallux valgus: klachten en behandeling | drs. Matthijs van Dam",
       "spoor": "patientinformatie",
