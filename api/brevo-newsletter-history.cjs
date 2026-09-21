@@ -27,7 +27,7 @@ async function readBrevoNewsletterHistory({apiKey,baseUrl='https://api.brevo.com
   let response;
   try { response=await fetchImpl(`${baseUrl}/emailCampaigns?limit=${limit}&sort=desc`,{method:'GET',headers:{'api-key':apiKey,accept:'application/json'},signal:AbortSignal.timeout(8000)}); }
   catch { throw new Error('Brevo-historie onzeker; geen automatische verzending toestaan'); }
-  if (!response || !response.ok) throw new Error('Brevo-historie kon niet worden gelezen');
+  if (!response || !response.ok) throw new Error(`Brevo-historie kon niet worden gelezen (status ${response && response.status ? response.status : 'onbekend'})`);
   const payload=await response.json();
   if (!payload || !Array.isArray(payload.campaigns)) throw new Error('Brevo-historie heeft een onbekend formaat');
   const campaigns=payload.campaigns.filter(isNewsletter);
