@@ -17,15 +17,19 @@
       "path": "behandelingen/achillespeesklachten.html",
       "title": "Achillespeesklachten: pijn in de pees of aanhechting",
       "spoor": "patientinformatie",
-      "verification_status": "review_nodig",
-      "review_notes": "Op 21 september 2026 op expliciet verzoek van Matthijs publiek gemaakt. De pagina gaat over geleidelijk ontstane achillespeesklachten en verwijst acute achillespeesrupturen naar het aparte zorgspoor. Medische eigenaar-review van deze publieke versie blijft als afzonderlijke stap open."
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-09-21",
+      "review_notes": "Op 21 september 2026 door Matthijs inhoudelijk goedgekeurd na controle van de publieke pagina en de tegelroute. De pagina gaat over geleidelijk ontstane achillespeesklachten en verwijst acute achillespeesrupturen naar het aparte zorgspoor."
     },
     {
       "path": "behandelingen/mtp-1-artrodese.html",
       "title": "MTP-1-artrodese: grote teen vastzetten en herstel",
       "spoor": "patientinformatie",
-      "verification_status": "review_nodig",
-      "review_notes": "Op 21 september 2026 op expliciet verzoek technisch publiek gemaakt en opgenomen in sitemap. De pagina was eerder uitgebreid inhoudelijk bekeken; formele eigenaar-verificatie van deze publieke versie blijft als afzonderlijke stap open."
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-09-21",
+      "review_notes": "Op 21 september 2026 door Matthijs inhoudelijk goedgekeurd na controle van de publieke pagina en de tegelroute. De pagina was eerder uitgebreid inhoudelijk bekeken en is opgenomen in sitemap."
     },
     {
       "path": "behandelingen/hallux-valgus.html",
@@ -45,8 +49,10 @@
       "path": "behandelingen/hamerteen-klauwteen.html",
       "title": "Hamerteen en klauwteen | drs. Matthijs van Dam",
       "spoor": "patientinformatie",
-      "verification_status": "review_nodig",
-      "review_notes": "Patiëntgerichte uitleg over hamerteen en klauwteen, klachten, niet-operatieve opties, operatieve mogelijkheden en nabehandeling. Opgenomen in deze release op expliciet verzoek om de pagina live te zetten; inhoudelijke owner review blijft open."
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-09-21",
+      "review_notes": "Op 21 september 2026 door Matthijs inhoudelijk goedgekeurd na controle van de publieke pagina en de tegelroute. Patiëntgerichte uitleg over hamerteen en klauwteen, klachten, niet-operatieve opties, operatieve mogelijkheden en nabehandeling."
     },
     {
       "path": "artikelen/kuitspier-en-voetpijn.html",

@@ -83,6 +83,22 @@ class WorkItemTests(unittest.TestCase):
         self.write_catalog()
         self.assertFalse(self.tasks()["work-newsletter"]["checked"])
 
+    def test_local_completion_is_separate_and_expires_on_source_change(self):
+        self.write_catalog()
+        inventory.set_task_check(self.repo, self.state, "work-newsletter", True, "gelezen")
+        completed = inventory.set_task_completion(self.repo, self.state, "work-newsletter", True)
+        self.assertTrue(completed["completed"])
+        current = self.tasks()["work-newsletter"]
+        self.assertTrue(current["completed"])
+        self.assertTrue(current["checked"])
+        self.assertEqual(current["workflow_status"], "waiting")
+
+        self.source.write_text("De bronstatus is gewijzigd.\n", encoding="utf-8")
+        reopened = self.tasks()["work-newsletter"]
+        self.assertFalse(reopened["completed"])
+        self.assertFalse(reopened["checked"])
+        self.assertTrue(reopened["evidence_changed"])
+
     def test_http_toggling_preserves_note_explicit_empty_clears_and_drift_discards(self):
         self.write_catalog()
         server = LocalServer(("127.0.0.1", 0), SimpleNamespace(repo=self.repo, state_dir=self.state))

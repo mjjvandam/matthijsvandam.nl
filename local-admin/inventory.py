@@ -565,8 +565,11 @@ def _with_checks(tasks, state_dir):
         checks = {}
     for task in tasks:
         record = checks.get(task["id"], {})
+        task["checked"] = False
+        task["completed"] = False
         if task["can_check"] and isinstance(record, dict) and record.get("source_sha256") == task["_fingerprint"]:
             task["checked"] = record.get("checked") is True
+            task["completed"] = record.get("completed") is True
             task["note"] = record.get("note", "")[:MAX_NOTE] if isinstance(record.get("note"), str) else ""
             task["checked_at"] = record.get("updated_at")
         task.pop("_fingerprint", None)
@@ -786,7 +789,33 @@ def set_task_check(repo_root: Path, state_dir: Path, task_id, checked, note=None
             same_source = isinstance(previous, dict) and previous.get("source_sha256") == task["_fingerprint"]
             note = prior_note if (same_source and isinstance(prior_note, str)
                                   and len(prior_note) <= MAX_NOTE and "\x00" not in prior_note) else ""
-        checks[task_id] = {"checked": checked, "note": note.strip(), "updated_at": _iso(_now()),
+        previous = checks.get(task_id) if isinstance(checks.get(task_id), dict) else {}
+        checks[task_id] = {"checked": checked, "completed": previous.get("completed") is True,
+                           "note": note.strip(), "updated_at": _iso(_now()),
                            "source_sha256": task["_fingerprint"]}
+        _atomic_json(path, {"version": 1, "checks": checks})
+    return _with_checks([task], state_dir)[0]
+
+
+def set_task_completion(repo_root: Path, state_dir: Path, task_id, completed):
+    """Store a local completion mark; source drift automatically removes it."""
+    if not isinstance(task_id, str) or not re.fullmatch(r"[a-z0-9-]{1,150}", task_id) or type(completed) is not bool:
+        raise ValueError("Ongeldige afronding.")
+    repo_root, state_dir = Path(repo_root), Path(state_dir)
+    with _state_lock(state_dir):
+        tasks = {task["id"]: task for task in _raw_tasks(repo_root)}
+        task = tasks.get(task_id)
+        if not task or not task["can_check"]:
+            raise ValueError("Deze taak kan niet lokaal worden afgerond.")
+        path = state_dir / "task_checks.json"
+        stored = _json(path)
+        if path.exists() and (not isinstance(stored, dict) or stored.get("version") != 1 or not isinstance(stored.get("checks"), dict)):
+            raise ValueError("Bestaande taaknotities zijn niet leesbaar; er is niets overschreven.")
+        checks = stored["checks"] if stored else {}
+        checks = {key: value for key, value in checks.items() if key in tasks}
+        previous = checks.get(task_id) if isinstance(checks.get(task_id), dict) else {}
+        checks[task_id] = {"checked": previous.get("checked") is True, "completed": completed,
+                           "note": previous.get("note", "") if isinstance(previous.get("note", ""), str) else "",
+                           "updated_at": _iso(_now()), "source_sha256": task["_fingerprint"]}
         _atomic_json(path, {"version": 1, "checks": checks})
     return _with_checks([task], state_dir)[0]

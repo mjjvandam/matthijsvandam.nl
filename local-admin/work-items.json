@@ -168,6 +168,30 @@
       ]
     },
     {
+      "id": "work-foot-condition-exercise-form",
+      "title": "Printbare oefenwijzer voor voet- en enkelconditie voorbereiden",
+      "category": "Inhoud & redactie",
+      "status": "open",
+      "status_label": "Voorzet en medische review nodig",
+      "detail": "Read-only landelijke verkenning gedaan: ziekenhuizen, Thuisarts, NHS en FootCareMD bieden vooral diagnose- of herstelgerichte oefenfolders. Een algemene, diagnose-onafhankelijke oefenwijzer voor voet- en enkelconditie kan daarom een passende aanvulling zijn, mits die geen persoonlijk oefenprogramma of behandelclaim wordt.",
+      "next_action": "Maak eerst een lokaal concept van maximaal twee A4-pagina's met beweeglijkheid, rustige kracht, balans en geleidelijke belasting. Laat selectie, veiligheidskader en doseringsvelden daarna medisch beoordelen; publicatie, downloadlink en registerstatus blijven afzonderlijke vervolgstappen.",
+      "priority": 2,
+      "sources": [
+        {
+          "path": "docs/site/MEDICAL_CONTENT_SAFETY_RULES.md",
+          "sha256": "91b4d6408e07c5c7a17eb90b1d0e7ce5589dcdc753576348edc85d67199220b6"
+        },
+        {
+          "path": "docs/site/PAGE_MODELS.md",
+          "sha256": "c7fdf8b0f4b4c8e85fee4031c945b1dfa630e75118fbf50fa031f032525bf287"
+        },
+        {
+          "path": "artikelen/kuitspier-en-voetpijn.html",
+          "sha256": "df314d602cfc787b249de17401ee1f36a2a1ff179270796f1768c00b43e91931"
+        }
+      ]
+    },
+    {
       "id": "work-knee-exercise-article",
       "title": "Artikel over oefeningen bij knieartrose beoordelen",
       "category": "Inhoud & redactie",

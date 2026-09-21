@@ -123,7 +123,7 @@
         },
         {
           "path": "behandelingen/achillespeesklachten.html",
-          "scope": "concept"
+          "scope": "registered"
         },
         {
           "path": "behandelingen/anterieur-enkel-impingement.html",
@@ -207,7 +207,7 @@
         },
         {
           "path": "behandelingen/mtp-1-artrodese.html",
-          "scope": "concept"
+          "scope": "registered"
         },
         {
           "path": "behandelingen/mtp-plantaire-plaatklachten.html",
@@ -368,48 +368,48 @@
         "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html": "c7d019469bf7f41f7222ddce7c33a5eb6e0407785a6088f38c4e464df23e05c0",
         "artikelen/vaillant-fonds-digitaal-zorgpad.html": "7cce608e15d25db3079534322a3a291e5297601f96046db8c0f3dbc3c71c6098",
         "artikelen/we-walk-ar-campusroute-tilburg.html": "a158dae0fd0a80a7814ad315fe13c5624bbdfc44581ef55a22beadc166ea561f",
-        "behandelingen.html": "57ee0f23a679780a4afac7de1fd29cb5c5e4ee1fbf7c9db683a5979fe26ba1ab",
-        "behandelingen/achillespeesklachten.html": "28a6f40b51ce8a292af78922398b42082318fa5824d4fbb3c44fe3613a238cda",
-        "behandelingen/anterieur-enkel-impingement.html": "f1c96d772cd8dcbf6e21ac498c0d3b683fc8c316eebef8973c01ac94f744f1bc",
-        "behandelingen/artrose-na-breuk.html": "50b831286d3290765b3f8f79c7bcadcab00776e72b34e59a58dfbae0f580d32d",
-        "behandelingen/chronische-enkelinstabiliteit.html": "1867ddce5a60d5336853861d0c49cef6756e6e8bc70176bcd0cae731a15b6552",
-        "behandelingen/corpus-liberum-enkel.html": "d9033d84270253f632d5307b5a28924425800920d9cae42a5e4b83b60c55c49b",
+        "behandelingen.html": "9e0a5e87d56e970f7a5e77f10a0e0729bd983f812c41f0506d57170213497800",
+        "behandelingen/achillespeesklachten.html": "2178d89dd4bb9f02a83d3a5c306e48b102ab033643a6b9ebf5595620ccb34cc5",
+        "behandelingen/anterieur-enkel-impingement.html": "00b223bd89b49c582f9766576874f2b5d6b16cc069d3590cd7255993ffdb709f",
+        "behandelingen/artrose-na-breuk.html": "72a1e33ea03a4b5f6e5e92102ba1a7a156637f85785d53b2a5ec6a37c4ecb16a",
+        "behandelingen/chronische-enkelinstabiliteit.html": "49900b12ecc298a8a1dfee299a62f6ecf6d5022383ba138e742f7d95f3ce2cbc",
+        "behandelingen/corpus-liberum-enkel.html": "8d91bc3db4817e74915ae7efe5b9bb0d98e1dcbd649dbb446ffe62ebb1c24b91",
         "behandelingen/enkelartrodese.html": "be05fdd05ece8befdf8c3920d8fd483f80b6a8621e2c2ccabdafdebe7f43ea57",
         "behandelingen/enkelartrose.html": "81197637674835679685ad687df1405e2d48190f8ab92d45698285f099134a75",
         "behandelingen/enkelprothese.html": "5bce9c85bdc0ea7517b5e178966fa45bf0390d675d79be7977fb52bce9e5024d",
         "behandelingen/enkelverzwikking.html": "62ddef772d2b0befa15be5b4a56222f2994b15d30ec5f7ffa3dfa3808b6da2b0",
-        "behandelingen/ganglion-enkel.html": "e251512f23ed4319f1a0c401873321725e755b44ce735f36dedebcee3b9466f6",
-        "behandelingen/ganglion-middenvoet.html": "dcb474271730692f53d0ca9c9de655b4da1c8a46b4c189bd1ab4848c48a47816",
-        "behandelingen/haglund-retrocalcaneaire-klachten.html": "1c4d1f2f181c0a6d2c9a43b724197f4e5ef3339ecf312ab693c52b4621d30e36",
+        "behandelingen/ganglion-enkel.html": "b4ef91f68c04813116a706b5a106499a41d92b165fb78c351a9539a1b9fb2691",
+        "behandelingen/ganglion-middenvoet.html": "ce6493aa67d76f71627d57981bd6213bc781cc40ac91910c881b569ef5b7d26a",
+        "behandelingen/haglund-retrocalcaneaire-klachten.html": "cbf2954e6271a3ce0b430f5bf45b805fae787dceab1c9af53b5c3b897b808e4e",
         "behandelingen/hallux-rigidus.html": "455b3523d335d576d2ffdf6d8135d369f4d6db5755d4dff03ff2e17849d73e74",
         "behandelingen/hallux-valgus.html": "c8b2016a27102c669484bb42998d41e491e0bde22d82eacd3426b81cc6843b55",
         "behandelingen/hamerteen-klauwteen.html": "50e3c378d2e78ac45bcd6eda226c13c5872b454c9cdbb403ac06acd64bec9948",
-        "behandelingen/hielpijn.html": "19f5e8d57b939da828547a739e557593efad7bde671f28203842eeb8571abf3f",
-        "behandelingen/holvoet-cavovarus.html": "1c463e7373548fc5ae07c9a9f2e7e9d07018860e45fbadfd3c6db0099fa048c3",
-        "behandelingen/kraakbeenletsel-enkel.html": "a722e9c9c8c6005affc7961f9eea284d3263ba31f057cbdcebc4aa037fe07086",
+        "behandelingen/hielpijn.html": "4da53ce2ac78687ccfea151f92edfea8543e10db1148c1456f55ccecd34838cc",
+        "behandelingen/holvoet-cavovarus.html": "dd6847af36960f794b5302107ef54e1bcc24d623c0aa164055dae83ff0155b9a",
+        "behandelingen/kraakbeenletsel-enkel.html": "be69486f68185c018b452bbde0cd15160805f6dde1c439696d20baa3e0c223bf",
         "behandelingen/lisfranc-middenvoetletsel.html": "cd0b9ad9ab7577a3d58766a9cb360d9fffeaeef2e7f6f25fd9229cf43a038a8f",
         "behandelingen/metatarsalgie.html": "25bfab8b148f48c8b45bd60876e06b116a920c70d9ed6b4bb5a062ebd9d857ce",
-        "behandelingen/morton-neuroom.html": "1b21653ec77c3145d1505cfa3dc25d4247bb2da1f54cd952bf6396c663bd0e5d",
-        "behandelingen/mtp-1-artrodese.html": "36b5b01455b6bc7710f9b9fc3f2efe10b4d6c875bab6c71f1659cbbc32090d58",
-        "behandelingen/mtp-plantaire-plaatklachten.html": "fa399f0b70f6cd95c87c7a334341ea17d680a9103e63b9f0840bde19e88e417c",
-        "behandelingen/os-trigonum.html": "39af321d0824c5c3a01d69aebdb44a89f3286bb4a33d30c0a3b1c93ec52671a7",
-        "behandelingen/peesplaatklachten-hielspoor.html": "69b1f47ffb1c380522df2798824fe9f58ab87ff6e632d0cf56cd8ca3f187bfff",
-        "behandelingen/peroneuspeesklachten.html": "8fac787f56afd5bb58fa399662d6bcfe2ecfa18a164ee5897429892a35ae7300",
-        "behandelingen/platvoet-volwassen.html": "24da4acc036a0f3c22ec720cbbe70a9184e69be56205a242eb4896ecc69ba6aa",
-        "behandelingen/posterieur-enkel-impingement.html": "586f7b67e6ef05cbbd10a95eef170ecfb1fccaba46c14fc84a60990d910b6a7f",
+        "behandelingen/morton-neuroom.html": "a3c44277b60a1ca625147be3a6d9f31d1be6f9567469bf49814e6b1237e92e89",
+        "behandelingen/mtp-1-artrodese.html": "6a5859a95e28c17d77fb970f026c205efd32814ea4c154b13c8f970373aa8ed6",
+        "behandelingen/mtp-plantaire-plaatklachten.html": "896993c68fdac64a6e030e9cf214f1d5d9827c50363d2616f8ea80405e8ddb89",
+        "behandelingen/os-trigonum.html": "24601cacfb78e4d50fdea4598253caea28f680346332937043a6577e73421db5",
+        "behandelingen/peesplaatklachten-hielspoor.html": "7ff8ebd67ed1d8cecb37ad8181d79580e225a9ccc3e90d3a59654ea8363b9534",
+        "behandelingen/peroneuspeesklachten.html": "5466457e324bad20fb2742106db160c0cf268248a0b12d6d3b6f856bc3753f32",
+        "behandelingen/platvoet-volwassen.html": "6ca2d95ba4da72e981dbfa2ab99e1baaa67579e964b50340331868b6a8987adf",
+        "behandelingen/posterieur-enkel-impingement.html": "79b60ab295c63ca365aa1a9f5f964551ba953156943bb6e695d2b37cc0fb1360",
         "behandelingen/revisie-artrodese.html": "268c1f27deebf94a1383d1503aa0ac023d87488a31f6113bd0b71ea52dd3a51b",
-        "behandelingen/sesamoidklachten.html": "46ed876b44d7f30c83ba1fd8a9c3ee2937029afd77e4227f47083375ef3fe5f1",
-        "behandelingen/sinus-tarsi-klachten.html": "323a5de5526351eb84e5f9b48339e72b85d4ab3cd279ac4060af120b3fb6ca9f",
-        "behandelingen/stressreactie-stressfractuur.html": "b6b37d8154b1dc2b4b669808e5e0e9a8ba38f94229308bb88faeb96d90760ee7",
-        "behandelingen/tailors-bunion.html": "e8f709893c4c6ef16b8071d17553d1eab67076212ee8290349efcc5611b9a500",
+        "behandelingen/sesamoidklachten.html": "7f5c6110b39513edaf7558229051fd1aa9d547b48665acd6d7a0ea9ae2e6c19e",
+        "behandelingen/sinus-tarsi-klachten.html": "b2c02de120eecb9172d9e71450b56aca1deb982e1f91f43719267a51f35c2cd9",
+        "behandelingen/stressreactie-stressfractuur.html": "a20305b807252feed0af323111c6fbc91aebd2e31a38582bf2ab5a52f0c5d1cd",
+        "behandelingen/tailors-bunion.html": "1e856574fd8890874f2a0cc0ddf33f9ea793df62fcf4ace696417bda09949f1f",
         "behandelingen/tarsal-boss.html": "f7cc19ae9b0b354a4c0d28d32b23bb29167ed53b59945267eab4c44db074ab44",
-        "behandelingen/tibialis-posterior-peesklachten.html": "be3d456a2096f2ced3e2ab740119e7f5a6d54704e6c9689bd2f500b25b8e3416",
-        "behandelingen/vetkussen-hielklachten.html": "2dd3f421b063acf884a135b7fdc94215e1aebfa531fc4ba88824afee620706d9",
-        "behandelingen/voorvoetcorrectie.html": "d100e7fab924dc90c41a9e4b9c0fda921dd9a6ca32e49950ade3c2982eef367b",
+        "behandelingen/tibialis-posterior-peesklachten.html": "af11a851b1858d120f9de4e4c7b8768b3f7faa01c7ca27b37bb473553a5c5a1f",
+        "behandelingen/vetkussen-hielklachten.html": "2ddca2e0d1ad448cdd841a676c2733452829fe9f8f9707c08a2d6bb9c2e8c899",
+        "behandelingen/voorvoetcorrectie.html": "3ec94ceb63ea854a265bcea9e5d39a4103bcfef96aca048cace942a5377e0e21",
         "behandelingen/ziekte-van-freiberg.html": "0fc6c83345d0f394ba4bdfe2c68f6c629dcba1e2c4df198e47ca822da36f43cc",
         "concept-foot-pain-guide.html": "0e1745e0e24c358e89e24a1f9fb3a8fe4c0678a0341d32e66c6a183aa2772a7f",
         "disclaimer.html": "c6f4f52151e74059d7332263023a8237a1c33ea69c0343df67271ab77cf98986",
-        "index.html": "80aaee956d12dbf36987e6e1a8fcdebd3e711444aa57ea5502ed7309c2cd2da6",
+        "index.html": "2e83138a04ae599d745632a3c6fa57e656039dc2dfde419e0929dbfcaffa7857",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "nieuwsbrief.html": "c10467f6fa0df2ddd969f7ee0b53995f44072a5fa0e5710dd8019ed41d408c99",
         "over-mij.html": "7b4bfcd06efaecdc0f91cdeac3cd10dd34c17f0d5073a241c304a8f01e011ed0",
@@ -424,7 +424,7 @@
         "projecten/we-walk.html": "d1224ff41ca33d07d6b7d20c1ebf77e43f590e64eb256d5939714af9f3039b8c",
         "publicaties.html": "cb0e88310b7c74794230328079a584b4fcecfc4af7fabcc3d5639cc51af08f28",
         "script.js": "d09936f38dd54c07813ca13d4acebfcfbb9ca6fe30f4f1eae891270376883012",
-        "styles.css": "541147432eeb612636a7e2be91f4ee2b72e00c570e2783dfda9d80957a80cdaf"
+        "styles.css": "380aa6616fccd94965e53d509a1518cf50965b80cbebb79611654147859f008a"
       }
     },
     {
@@ -472,7 +472,7 @@
         "projecten/transmuraal-tilburg-cohort.html": "28268444b21681a1ad96222b8057fe079ed25954b8f583a8c31c49e11f07e69d",
         "projecten/vrxoa-immersive-experiences-artrose.html": "bbd42868f0d5a697eff989e63b2ae2d2d14fb2e0ebed49f5d8a0363e6c945f58",
         "projecten/we-walk.html": "d1224ff41ca33d07d6b7d20c1ebf77e43f590e64eb256d5939714af9f3039b8c",
-        "styles.css": "541147432eeb612636a7e2be91f4ee2b72e00c570e2783dfda9d80957a80cdaf"
+        "styles.css": "380aa6616fccd94965e53d509a1518cf50965b80cbebb79611654147859f008a"
       }
     },
     {
@@ -504,7 +504,7 @@
         "artikelen.html": "6e34f18c019d1f0e64f2217a696928303ad08efbc0ded5b86afbd75726da672d",
         "content.js": "fa69be57bc622e6faacb9ca554c1b7b7e44afae3a7d9d4cd65fcda879efca5fe",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "styles.css": "541147432eeb612636a7e2be91f4ee2b72e00c570e2783dfda9d80957a80cdaf"
+        "styles.css": "380aa6616fccd94965e53d509a1518cf50965b80cbebb79611654147859f008a"
       }
     },
     {
@@ -653,12 +653,12 @@
         "artikelen/patient-specifieke-instrumentatie-voet-enkel-professionals.html": "e1a4a7641b0f578ddc6585b4398a2cdfa031757028d19e679b384d12bf8d036c",
         "artikelen/probleemgeorienteerd-denken-orthopedie-boekbijdrage.html": "239aae25e610d3af7968251003f00f458a5a8452a881f6aabaef1accff3081b2",
         "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html": "c7d019469bf7f41f7222ddce7c33a5eb6e0407785a6088f38c4e464df23e05c0",
-        "behandelingen.html": "57ee0f23a679780a4afac7de1fd29cb5c5e4ee1fbf7c9db683a5979fe26ba1ab",
+        "behandelingen.html": "9e0a5e87d56e970f7a5e77f10a0e0729bd983f812c41f0506d57170213497800",
         "behandelingen/enkelartrodese.html": "be05fdd05ece8befdf8c3920d8fd483f80b6a8621e2c2ccabdafdebe7f43ea57",
         "behandelingen/enkelartrose.html": "81197637674835679685ad687df1405e2d48190f8ab92d45698285f099134a75",
         "behandelingen/enkelprothese.html": "5bce9c85bdc0ea7517b5e178966fa45bf0390d675d79be7977fb52bce9e5024d",
         "content.js": "fa69be57bc622e6faacb9ca554c1b7b7e44afae3a7d9d4cd65fcda879efca5fe",
-        "index.html": "80aaee956d12dbf36987e6e1a8fcdebd3e711444aa57ea5502ed7309c2cd2da6",
+        "index.html": "2e83138a04ae599d745632a3c6fa57e656039dc2dfde419e0929dbfcaffa7857",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "professionals.html": "7512cfc49a599e88b60fc26bd3fce5d2019976bddb5a2090da412d8a2593b7f5",
         "projecten.html": "e42a5633a09f757bd303f323656a9de3c530f0bcc3c08ffb75099b2360867270",
@@ -668,7 +668,7 @@
         "projecten/transmuraal-tilburg-cohort.html": "28268444b21681a1ad96222b8057fe079ed25954b8f583a8c31c49e11f07e69d",
         "projecten/we-walk.html": "d1224ff41ca33d07d6b7d20c1ebf77e43f590e64eb256d5939714af9f3039b8c",
         "script.js": "d09936f38dd54c07813ca13d4acebfcfbb9ca6fe30f4f1eae891270376883012",
-        "styles.css": "541147432eeb612636a7e2be91f4ee2b72e00c570e2783dfda9d80957a80cdaf"
+        "styles.css": "380aa6616fccd94965e53d509a1518cf50965b80cbebb79611654147859f008a"
       }
     },
     {
@@ -696,7 +696,7 @@
       "fingerprints": {
         "content.js": "fa69be57bc622e6faacb9ca554c1b7b7e44afae3a7d9d4cd65fcda879efca5fe",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "styles.css": "541147432eeb612636a7e2be91f4ee2b72e00c570e2783dfda9d80957a80cdaf"
+        "styles.css": "380aa6616fccd94965e53d509a1518cf50965b80cbebb79611654147859f008a"
       }
     },
     {
@@ -786,7 +786,7 @@
         },
         {
           "path": "behandelingen/achillespeesklachten.html",
-          "scope": "concept"
+          "scope": "registered"
         },
         {
           "path": "behandelingen/anterieur-enkel-impingement.html",
@@ -870,7 +870,7 @@
         },
         {
           "path": "behandelingen/mtp-1-artrodese.html",
-          "scope": "concept"
+          "scope": "registered"
         },
         {
           "path": "behandelingen/mtp-plantaire-plaatklachten.html",
@@ -980,43 +980,43 @@
         "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html": "c7d019469bf7f41f7222ddce7c33a5eb6e0407785a6088f38c4e464df23e05c0",
         "artikelen/vaillant-fonds-digitaal-zorgpad.html": "7cce608e15d25db3079534322a3a291e5297601f96046db8c0f3dbc3c71c6098",
         "artikelen/we-walk-ar-campusroute-tilburg.html": "a158dae0fd0a80a7814ad315fe13c5624bbdfc44581ef55a22beadc166ea561f",
-        "behandelingen/achillespeesklachten.html": "28a6f40b51ce8a292af78922398b42082318fa5824d4fbb3c44fe3613a238cda",
-        "behandelingen/anterieur-enkel-impingement.html": "f1c96d772cd8dcbf6e21ac498c0d3b683fc8c316eebef8973c01ac94f744f1bc",
-        "behandelingen/artrose-na-breuk.html": "50b831286d3290765b3f8f79c7bcadcab00776e72b34e59a58dfbae0f580d32d",
-        "behandelingen/chronische-enkelinstabiliteit.html": "1867ddce5a60d5336853861d0c49cef6756e6e8bc70176bcd0cae731a15b6552",
-        "behandelingen/corpus-liberum-enkel.html": "d9033d84270253f632d5307b5a28924425800920d9cae42a5e4b83b60c55c49b",
+        "behandelingen/achillespeesklachten.html": "2178d89dd4bb9f02a83d3a5c306e48b102ab033643a6b9ebf5595620ccb34cc5",
+        "behandelingen/anterieur-enkel-impingement.html": "00b223bd89b49c582f9766576874f2b5d6b16cc069d3590cd7255993ffdb709f",
+        "behandelingen/artrose-na-breuk.html": "72a1e33ea03a4b5f6e5e92102ba1a7a156637f85785d53b2a5ec6a37c4ecb16a",
+        "behandelingen/chronische-enkelinstabiliteit.html": "49900b12ecc298a8a1dfee299a62f6ecf6d5022383ba138e742f7d95f3ce2cbc",
+        "behandelingen/corpus-liberum-enkel.html": "8d91bc3db4817e74915ae7efe5b9bb0d98e1dcbd649dbb446ffe62ebb1c24b91",
         "behandelingen/enkelartrodese.html": "be05fdd05ece8befdf8c3920d8fd483f80b6a8621e2c2ccabdafdebe7f43ea57",
         "behandelingen/enkelartrose.html": "81197637674835679685ad687df1405e2d48190f8ab92d45698285f099134a75",
         "behandelingen/enkelprothese.html": "5bce9c85bdc0ea7517b5e178966fa45bf0390d675d79be7977fb52bce9e5024d",
         "behandelingen/enkelverzwikking.html": "62ddef772d2b0befa15be5b4a56222f2994b15d30ec5f7ffa3dfa3808b6da2b0",
-        "behandelingen/ganglion-enkel.html": "e251512f23ed4319f1a0c401873321725e755b44ce735f36dedebcee3b9466f6",
-        "behandelingen/ganglion-middenvoet.html": "dcb474271730692f53d0ca9c9de655b4da1c8a46b4c189bd1ab4848c48a47816",
-        "behandelingen/haglund-retrocalcaneaire-klachten.html": "1c4d1f2f181c0a6d2c9a43b724197f4e5ef3339ecf312ab693c52b4621d30e36",
+        "behandelingen/ganglion-enkel.html": "b4ef91f68c04813116a706b5a106499a41d92b165fb78c351a9539a1b9fb2691",
+        "behandelingen/ganglion-middenvoet.html": "ce6493aa67d76f71627d57981bd6213bc781cc40ac91910c881b569ef5b7d26a",
+        "behandelingen/haglund-retrocalcaneaire-klachten.html": "cbf2954e6271a3ce0b430f5bf45b805fae787dceab1c9af53b5c3b897b808e4e",
         "behandelingen/hallux-rigidus.html": "455b3523d335d576d2ffdf6d8135d369f4d6db5755d4dff03ff2e17849d73e74",
         "behandelingen/hallux-valgus.html": "c8b2016a27102c669484bb42998d41e491e0bde22d82eacd3426b81cc6843b55",
         "behandelingen/hamerteen-klauwteen.html": "50e3c378d2e78ac45bcd6eda226c13c5872b454c9cdbb403ac06acd64bec9948",
-        "behandelingen/hielpijn.html": "19f5e8d57b939da828547a739e557593efad7bde671f28203842eeb8571abf3f",
-        "behandelingen/holvoet-cavovarus.html": "1c463e7373548fc5ae07c9a9f2e7e9d07018860e45fbadfd3c6db0099fa048c3",
-        "behandelingen/kraakbeenletsel-enkel.html": "a722e9c9c8c6005affc7961f9eea284d3263ba31f057cbdcebc4aa037fe07086",
+        "behandelingen/hielpijn.html": "4da53ce2ac78687ccfea151f92edfea8543e10db1148c1456f55ccecd34838cc",
+        "behandelingen/holvoet-cavovarus.html": "dd6847af36960f794b5302107ef54e1bcc24d623c0aa164055dae83ff0155b9a",
+        "behandelingen/kraakbeenletsel-enkel.html": "be69486f68185c018b452bbde0cd15160805f6dde1c439696d20baa3e0c223bf",
         "behandelingen/lisfranc-middenvoetletsel.html": "cd0b9ad9ab7577a3d58766a9cb360d9fffeaeef2e7f6f25fd9229cf43a038a8f",
         "behandelingen/metatarsalgie.html": "25bfab8b148f48c8b45bd60876e06b116a920c70d9ed6b4bb5a062ebd9d857ce",
-        "behandelingen/morton-neuroom.html": "1b21653ec77c3145d1505cfa3dc25d4247bb2da1f54cd952bf6396c663bd0e5d",
-        "behandelingen/mtp-1-artrodese.html": "36b5b01455b6bc7710f9b9fc3f2efe10b4d6c875bab6c71f1659cbbc32090d58",
-        "behandelingen/mtp-plantaire-plaatklachten.html": "fa399f0b70f6cd95c87c7a334341ea17d680a9103e63b9f0840bde19e88e417c",
-        "behandelingen/os-trigonum.html": "39af321d0824c5c3a01d69aebdb44a89f3286bb4a33d30c0a3b1c93ec52671a7",
-        "behandelingen/peesplaatklachten-hielspoor.html": "69b1f47ffb1c380522df2798824fe9f58ab87ff6e632d0cf56cd8ca3f187bfff",
-        "behandelingen/peroneuspeesklachten.html": "8fac787f56afd5bb58fa399662d6bcfe2ecfa18a164ee5897429892a35ae7300",
-        "behandelingen/platvoet-volwassen.html": "24da4acc036a0f3c22ec720cbbe70a9184e69be56205a242eb4896ecc69ba6aa",
-        "behandelingen/posterieur-enkel-impingement.html": "586f7b67e6ef05cbbd10a95eef170ecfb1fccaba46c14fc84a60990d910b6a7f",
+        "behandelingen/morton-neuroom.html": "a3c44277b60a1ca625147be3a6d9f31d1be6f9567469bf49814e6b1237e92e89",
+        "behandelingen/mtp-1-artrodese.html": "6a5859a95e28c17d77fb970f026c205efd32814ea4c154b13c8f970373aa8ed6",
+        "behandelingen/mtp-plantaire-plaatklachten.html": "896993c68fdac64a6e030e9cf214f1d5d9827c50363d2616f8ea80405e8ddb89",
+        "behandelingen/os-trigonum.html": "24601cacfb78e4d50fdea4598253caea28f680346332937043a6577e73421db5",
+        "behandelingen/peesplaatklachten-hielspoor.html": "7ff8ebd67ed1d8cecb37ad8181d79580e225a9ccc3e90d3a59654ea8363b9534",
+        "behandelingen/peroneuspeesklachten.html": "5466457e324bad20fb2742106db160c0cf268248a0b12d6d3b6f856bc3753f32",
+        "behandelingen/platvoet-volwassen.html": "6ca2d95ba4da72e981dbfa2ab99e1baaa67579e964b50340331868b6a8987adf",
+        "behandelingen/posterieur-enkel-impingement.html": "79b60ab295c63ca365aa1a9f5f964551ba953156943bb6e695d2b37cc0fb1360",
         "behandelingen/revisie-artrodese.html": "268c1f27deebf94a1383d1503aa0ac023d87488a31f6113bd0b71ea52dd3a51b",
-        "behandelingen/sesamoidklachten.html": "46ed876b44d7f30c83ba1fd8a9c3ee2937029afd77e4227f47083375ef3fe5f1",
-        "behandelingen/sinus-tarsi-klachten.html": "323a5de5526351eb84e5f9b48339e72b85d4ab3cd279ac4060af120b3fb6ca9f",
-        "behandelingen/stressreactie-stressfractuur.html": "b6b37d8154b1dc2b4b669808e5e0e9a8ba38f94229308bb88faeb96d90760ee7",
-        "behandelingen/tailors-bunion.html": "e8f709893c4c6ef16b8071d17553d1eab67076212ee8290349efcc5611b9a500",
+        "behandelingen/sesamoidklachten.html": "7f5c6110b39513edaf7558229051fd1aa9d547b48665acd6d7a0ea9ae2e6c19e",
+        "behandelingen/sinus-tarsi-klachten.html": "b2c02de120eecb9172d9e71450b56aca1deb982e1f91f43719267a51f35c2cd9",
+        "behandelingen/stressreactie-stressfractuur.html": "a20305b807252feed0af323111c6fbc91aebd2e31a38582bf2ab5a52f0c5d1cd",
+        "behandelingen/tailors-bunion.html": "1e856574fd8890874f2a0cc0ddf33f9ea793df62fcf4ace696417bda09949f1f",
         "behandelingen/tarsal-boss.html": "f7cc19ae9b0b354a4c0d28d32b23bb29167ed53b59945267eab4c44db074ab44",
-        "behandelingen/tibialis-posterior-peesklachten.html": "be3d456a2096f2ced3e2ab740119e7f5a6d54704e6c9689bd2f500b25b8e3416",
-        "behandelingen/vetkussen-hielklachten.html": "2dd3f421b063acf884a135b7fdc94215e1aebfa531fc4ba88824afee620706d9",
-        "behandelingen/voorvoetcorrectie.html": "d100e7fab924dc90c41a9e4b9c0fda921dd9a6ca32e49950ade3c2982eef367b",
+        "behandelingen/tibialis-posterior-peesklachten.html": "af11a851b1858d120f9de4e4c7b8768b3f7faa01c7ca27b37bb473553a5c5a1f",
+        "behandelingen/vetkussen-hielklachten.html": "2ddca2e0d1ad448cdd841a676c2733452829fe9f8f9707c08a2d6bb9c2e8c899",
+        "behandelingen/voorvoetcorrectie.html": "3ec94ceb63ea854a265bcea9e5d39a4103bcfef96aca048cace942a5377e0e21",
         "behandelingen/ziekte-van-freiberg.html": "0fc6c83345d0f394ba4bdfe2c68f6c629dcba1e2c4df198e47ca822da36f43cc",
         "projecten/3d-planning-voet-enkel.html": "c8030b2291063ad85e7bde064dfabf22a78d75848064564c5b7cf1bec43e825f",
         "projecten/footprint-quick-scan.html": "a1cec4e65aaa494227217720094cee73e4930b37af62d4fe4985d540f7b753b5",
@@ -1024,7 +1024,7 @@
         "projecten/transmuraal-tilburg-cohort.html": "28268444b21681a1ad96222b8057fe079ed25954b8f583a8c31c49e11f07e69d",
         "projecten/vrxoa-immersive-experiences-artrose.html": "bbd42868f0d5a697eff989e63b2ae2d2d14fb2e0ebed49f5d8a0363e6c945f58",
         "projecten/we-walk.html": "d1224ff41ca33d07d6b7d20c1ebf77e43f590e64eb256d5939714af9f3039b8c",
-        "styles.css": "541147432eeb612636a7e2be91f4ee2b72e00c570e2783dfda9d80957a80cdaf"
+        "styles.css": "380aa6616fccd94965e53d509a1518cf50965b80cbebb79611654147859f008a"
       }
     },
     {
@@ -1060,10 +1060,10 @@
       ],
       "fingerprints": {
         "404.html": "6c9c90e8b177d768f0aea567da2c5022f2cebf47062edb21b786f52ae50abb9e",
-        "index.html": "80aaee956d12dbf36987e6e1a8fcdebd3e711444aa57ea5502ed7309c2cd2da6",
+        "index.html": "2e83138a04ae599d745632a3c6fa57e656039dc2dfde419e0929dbfcaffa7857",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "nieuwsbrief.html": "c10467f6fa0df2ddd969f7ee0b53995f44072a5fa0e5710dd8019ed41d408c99",
-        "styles.css": "541147432eeb612636a7e2be91f4ee2b72e00c570e2783dfda9d80957a80cdaf"
+        "styles.css": "380aa6616fccd94965e53d509a1518cf50965b80cbebb79611654147859f008a"
       }
     },
     {
@@ -1095,7 +1095,7 @@
       "fingerprints": {
         "advies-consultancy.html": "9c4305ecab21a1650936c62a840db0786bc7c4c32ba45e26c7db428033b2635c",
         "professionals.html": "7512cfc49a599e88b60fc26bd3fce5d2019976bddb5a2090da412d8a2593b7f5",
-        "styles.css": "541147432eeb612636a7e2be91f4ee2b72e00c570e2783dfda9d80957a80cdaf"
+        "styles.css": "380aa6616fccd94965e53d509a1518cf50965b80cbebb79611654147859f008a"
       }
     },
     {
@@ -1119,7 +1119,7 @@
       ],
       "fingerprints": {
         "professionals.html": "7512cfc49a599e88b60fc26bd3fce5d2019976bddb5a2090da412d8a2593b7f5",
-        "styles.css": "541147432eeb612636a7e2be91f4ee2b72e00c570e2783dfda9d80957a80cdaf"
+        "styles.css": "380aa6616fccd94965e53d509a1518cf50965b80cbebb79611654147859f008a"
       }
     },
     {
@@ -1146,7 +1146,7 @@
         },
         {
           "path": "behandelingen/achillespeesklachten.html",
-          "scope": "concept"
+          "scope": "registered"
         },
         {
           "path": "behandelingen/anterieur-enkel-impingement.html",
@@ -1222,7 +1222,7 @@
         },
         {
           "path": "behandelingen/mtp-1-artrodese.html",
-          "scope": "concept"
+          "scope": "registered"
         },
         {
           "path": "behandelingen/mtp-plantaire-plaatklachten.html",
@@ -1291,45 +1291,45 @@
       ],
       "fingerprints": {
         "artikelen/aaos-richtlijn-enkelartrose.html": "8b51475cacdc1bd225c88ef9e0a96c3cddcdd21a009eff8c5fbece80948727f1",
-        "behandelingen/achillespeesklachten.html": "28a6f40b51ce8a292af78922398b42082318fa5824d4fbb3c44fe3613a238cda",
-        "behandelingen/anterieur-enkel-impingement.html": "f1c96d772cd8dcbf6e21ac498c0d3b683fc8c316eebef8973c01ac94f744f1bc",
-        "behandelingen/artrose-na-breuk.html": "50b831286d3290765b3f8f79c7bcadcab00776e72b34e59a58dfbae0f580d32d",
-        "behandelingen/chronische-enkelinstabiliteit.html": "1867ddce5a60d5336853861d0c49cef6756e6e8bc70176bcd0cae731a15b6552",
-        "behandelingen/corpus-liberum-enkel.html": "d9033d84270253f632d5307b5a28924425800920d9cae42a5e4b83b60c55c49b",
+        "behandelingen/achillespeesklachten.html": "2178d89dd4bb9f02a83d3a5c306e48b102ab033643a6b9ebf5595620ccb34cc5",
+        "behandelingen/anterieur-enkel-impingement.html": "00b223bd89b49c582f9766576874f2b5d6b16cc069d3590cd7255993ffdb709f",
+        "behandelingen/artrose-na-breuk.html": "72a1e33ea03a4b5f6e5e92102ba1a7a156637f85785d53b2a5ec6a37c4ecb16a",
+        "behandelingen/chronische-enkelinstabiliteit.html": "49900b12ecc298a8a1dfee299a62f6ecf6d5022383ba138e742f7d95f3ce2cbc",
+        "behandelingen/corpus-liberum-enkel.html": "8d91bc3db4817e74915ae7efe5b9bb0d98e1dcbd649dbb446ffe62ebb1c24b91",
         "behandelingen/enkelartrose.html": "81197637674835679685ad687df1405e2d48190f8ab92d45698285f099134a75",
         "behandelingen/enkelverzwikking.html": "62ddef772d2b0befa15be5b4a56222f2994b15d30ec5f7ffa3dfa3808b6da2b0",
-        "behandelingen/ganglion-enkel.html": "e251512f23ed4319f1a0c401873321725e755b44ce735f36dedebcee3b9466f6",
-        "behandelingen/ganglion-middenvoet.html": "dcb474271730692f53d0ca9c9de655b4da1c8a46b4c189bd1ab4848c48a47816",
-        "behandelingen/haglund-retrocalcaneaire-klachten.html": "1c4d1f2f181c0a6d2c9a43b724197f4e5ef3339ecf312ab693c52b4621d30e36",
+        "behandelingen/ganglion-enkel.html": "b4ef91f68c04813116a706b5a106499a41d92b165fb78c351a9539a1b9fb2691",
+        "behandelingen/ganglion-middenvoet.html": "ce6493aa67d76f71627d57981bd6213bc781cc40ac91910c881b569ef5b7d26a",
+        "behandelingen/haglund-retrocalcaneaire-klachten.html": "cbf2954e6271a3ce0b430f5bf45b805fae787dceab1c9af53b5c3b897b808e4e",
         "behandelingen/hallux-rigidus.html": "455b3523d335d576d2ffdf6d8135d369f4d6db5755d4dff03ff2e17849d73e74",
         "behandelingen/hallux-valgus.html": "c8b2016a27102c669484bb42998d41e491e0bde22d82eacd3426b81cc6843b55",
         "behandelingen/hamerteen-klauwteen.html": "50e3c378d2e78ac45bcd6eda226c13c5872b454c9cdbb403ac06acd64bec9948",
-        "behandelingen/hielpijn.html": "19f5e8d57b939da828547a739e557593efad7bde671f28203842eeb8571abf3f",
-        "behandelingen/holvoet-cavovarus.html": "1c463e7373548fc5ae07c9a9f2e7e9d07018860e45fbadfd3c6db0099fa048c3",
-        "behandelingen/kraakbeenletsel-enkel.html": "a722e9c9c8c6005affc7961f9eea284d3263ba31f057cbdcebc4aa037fe07086",
+        "behandelingen/hielpijn.html": "4da53ce2ac78687ccfea151f92edfea8543e10db1148c1456f55ccecd34838cc",
+        "behandelingen/holvoet-cavovarus.html": "dd6847af36960f794b5302107ef54e1bcc24d623c0aa164055dae83ff0155b9a",
+        "behandelingen/kraakbeenletsel-enkel.html": "be69486f68185c018b452bbde0cd15160805f6dde1c439696d20baa3e0c223bf",
         "behandelingen/lisfranc-middenvoetletsel.html": "cd0b9ad9ab7577a3d58766a9cb360d9fffeaeef2e7f6f25fd9229cf43a038a8f",
         "behandelingen/metatarsalgie.html": "25bfab8b148f48c8b45bd60876e06b116a920c70d9ed6b4bb5a062ebd9d857ce",
-        "behandelingen/morton-neuroom.html": "1b21653ec77c3145d1505cfa3dc25d4247bb2da1f54cd952bf6396c663bd0e5d",
-        "behandelingen/mtp-1-artrodese.html": "36b5b01455b6bc7710f9b9fc3f2efe10b4d6c875bab6c71f1659cbbc32090d58",
-        "behandelingen/mtp-plantaire-plaatklachten.html": "fa399f0b70f6cd95c87c7a334341ea17d680a9103e63b9f0840bde19e88e417c",
-        "behandelingen/os-trigonum.html": "39af321d0824c5c3a01d69aebdb44a89f3286bb4a33d30c0a3b1c93ec52671a7",
-        "behandelingen/peesplaatklachten-hielspoor.html": "69b1f47ffb1c380522df2798824fe9f58ab87ff6e632d0cf56cd8ca3f187bfff",
-        "behandelingen/peroneuspeesklachten.html": "8fac787f56afd5bb58fa399662d6bcfe2ecfa18a164ee5897429892a35ae7300",
-        "behandelingen/platvoet-volwassen.html": "24da4acc036a0f3c22ec720cbbe70a9184e69be56205a242eb4896ecc69ba6aa",
-        "behandelingen/posterieur-enkel-impingement.html": "586f7b67e6ef05cbbd10a95eef170ecfb1fccaba46c14fc84a60990d910b6a7f",
+        "behandelingen/morton-neuroom.html": "a3c44277b60a1ca625147be3a6d9f31d1be6f9567469bf49814e6b1237e92e89",
+        "behandelingen/mtp-1-artrodese.html": "6a5859a95e28c17d77fb970f026c205efd32814ea4c154b13c8f970373aa8ed6",
+        "behandelingen/mtp-plantaire-plaatklachten.html": "896993c68fdac64a6e030e9cf214f1d5d9827c50363d2616f8ea80405e8ddb89",
+        "behandelingen/os-trigonum.html": "24601cacfb78e4d50fdea4598253caea28f680346332937043a6577e73421db5",
+        "behandelingen/peesplaatklachten-hielspoor.html": "7ff8ebd67ed1d8cecb37ad8181d79580e225a9ccc3e90d3a59654ea8363b9534",
+        "behandelingen/peroneuspeesklachten.html": "5466457e324bad20fb2742106db160c0cf268248a0b12d6d3b6f856bc3753f32",
+        "behandelingen/platvoet-volwassen.html": "6ca2d95ba4da72e981dbfa2ab99e1baaa67579e964b50340331868b6a8987adf",
+        "behandelingen/posterieur-enkel-impingement.html": "79b60ab295c63ca365aa1a9f5f964551ba953156943bb6e695d2b37cc0fb1360",
         "behandelingen/revisie-artrodese.html": "268c1f27deebf94a1383d1503aa0ac023d87488a31f6113bd0b71ea52dd3a51b",
-        "behandelingen/sesamoidklachten.html": "46ed876b44d7f30c83ba1fd8a9c3ee2937029afd77e4227f47083375ef3fe5f1",
-        "behandelingen/sinus-tarsi-klachten.html": "323a5de5526351eb84e5f9b48339e72b85d4ab3cd279ac4060af120b3fb6ca9f",
-        "behandelingen/stressreactie-stressfractuur.html": "b6b37d8154b1dc2b4b669808e5e0e9a8ba38f94229308bb88faeb96d90760ee7",
-        "behandelingen/tailors-bunion.html": "e8f709893c4c6ef16b8071d17553d1eab67076212ee8290349efcc5611b9a500",
+        "behandelingen/sesamoidklachten.html": "7f5c6110b39513edaf7558229051fd1aa9d547b48665acd6d7a0ea9ae2e6c19e",
+        "behandelingen/sinus-tarsi-klachten.html": "b2c02de120eecb9172d9e71450b56aca1deb982e1f91f43719267a51f35c2cd9",
+        "behandelingen/stressreactie-stressfractuur.html": "a20305b807252feed0af323111c6fbc91aebd2e31a38582bf2ab5a52f0c5d1cd",
+        "behandelingen/tailors-bunion.html": "1e856574fd8890874f2a0cc0ddf33f9ea793df62fcf4ace696417bda09949f1f",
         "behandelingen/tarsal-boss.html": "f7cc19ae9b0b354a4c0d28d32b23bb29167ed53b59945267eab4c44db074ab44",
-        "behandelingen/tibialis-posterior-peesklachten.html": "be3d456a2096f2ced3e2ab740119e7f5a6d54704e6c9689bd2f500b25b8e3416",
-        "behandelingen/vetkussen-hielklachten.html": "2dd3f421b063acf884a135b7fdc94215e1aebfa531fc4ba88824afee620706d9",
-        "behandelingen/voorvoetcorrectie.html": "d100e7fab924dc90c41a9e4b9c0fda921dd9a6ca32e49950ade3c2982eef367b",
+        "behandelingen/tibialis-posterior-peesklachten.html": "af11a851b1858d120f9de4e4c7b8768b3f7faa01c7ca27b37bb473553a5c5a1f",
+        "behandelingen/vetkussen-hielklachten.html": "2ddca2e0d1ad448cdd841a676c2733452829fe9f8f9707c08a2d6bb9c2e8c899",
+        "behandelingen/voorvoetcorrectie.html": "3ec94ceb63ea854a265bcea9e5d39a4103bcfef96aca048cace942a5377e0e21",
         "behandelingen/ziekte-van-freiberg.html": "0fc6c83345d0f394ba4bdfe2c68f6c629dcba1e2c4df198e47ca822da36f43cc",
-        "data/faq-placements.json": "59806286e662603120cbb1b55d5b32e5b8c4d92efde9748618222f28b3ead836",
-        "data/faqs.json": "417216a172d8fdd945709a6879a058b8f92b20d77e71ee55f9bd8784a6f88d46",
-        "styles.css": "541147432eeb612636a7e2be91f4ee2b72e00c570e2783dfda9d80957a80cdaf",
+        "data/faq-placements.json": "5c044ff7846cb4ed8db78b1a92021585544f26052a44556af2ad33795f22af0a",
+        "data/faqs.json": "2a5d3a27b4904517082eddd54f06620aa6fa32437c0cca231d410e3a48c3be80",
+        "styles.css": "380aa6616fccd94965e53d509a1518cf50965b80cbebb79611654147859f008a",
         "tools/generate_faqs.py": "0c896b7255f8eaa9e9488887ae5e59f7ff7d1193ec1e0a4de5fa719bdeb1ceaf"
       }
     },
@@ -1353,7 +1353,7 @@
       ],
       "fingerprints": {
         "behandelingen/hallux-valgus.html": "c8b2016a27102c669484bb42998d41e491e0bde22d82eacd3426b81cc6843b55",
-        "styles.css": "541147432eeb612636a7e2be91f4ee2b72e00c570e2783dfda9d80957a80cdaf"
+        "styles.css": "380aa6616fccd94965e53d509a1518cf50965b80cbebb79611654147859f008a"
       }
     },
     {
@@ -1378,9 +1378,9 @@
         }
       ],
       "fingerprints": {
-        "behandelingen.html": "57ee0f23a679780a4afac7de1fd29cb5c5e4ee1fbf7c9db683a5979fe26ba1ab",
+        "behandelingen.html": "9e0a5e87d56e970f7a5e77f10a0e0729bd983f812c41f0506d57170213497800",
         "script.js": "d09936f38dd54c07813ca13d4acebfcfbb9ca6fe30f4f1eae891270376883012",
-        "styles.css": "541147432eeb612636a7e2be91f4ee2b72e00c570e2783dfda9d80957a80cdaf"
+        "styles.css": "380aa6616fccd94965e53d509a1518cf50965b80cbebb79611654147859f008a"
       }
     }
   ]

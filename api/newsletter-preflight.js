@@ -1,6 +1,6 @@
 'use strict';
 
-const {readBrevoNewsletterHistory} = require('../local-mail-preview/brevo-campaign-history.cjs');
+const {readBrevoNewsletterHistory} = require('./brevo-newsletter-history.cjs');
 
 function createHandler(env=process.env, fetchImpl=fetch) {
   return async (request, response) => {

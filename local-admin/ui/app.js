@@ -54,8 +54,12 @@
     if (task.category === 'Routines') return 'Beheer & routines';
     return 'Inhoud & redactie';
   }
-  function isOpenTask(task) { return ['work', 'idea'].includes(task.kind) ? task.workflow_status !== 'done' : Boolean(task.can_check && !task.checked); }
-  function taskStatus(task) { return task.status || (task.kind === 'work' ? workflowLabels[task.workflow_status] : '') || 'Niet bekend'; }
+  function isOpenTask(task) {
+    if (task.completed) return false;
+    if (['work', 'idea'].includes(task.kind)) return task.workflow_status !== 'done' && !task.checked;
+    return Boolean(task.can_check && !task.checked);
+  }
+  function taskStatus(task) { return task.completed ? 'Afgerond' : task.status || (task.kind === 'work' ? workflowLabels[task.workflow_status] : '') || 'Niet bekend'; }
   function sortTasks(tasks) {
     return [...tasks].sort((a, b) => {
       const order = task => task.kind === 'work' ? 0 : task.kind === 'idea' ? 1 : 2;
@@ -161,6 +165,13 @@
     catch (error) { notify(error.message, 'error'); }
     finally { state.busy = false; }
   }
+  async function refreshAnalytics() {
+    if (state.busy) return;
+    state.busy = true;
+    try { state.dashboard = await api('/api/analytics/refresh', 'POST', {}); render(); notify('Actuele Vercel-cijfers opgehaald en lokaal opgeslagen.'); }
+    catch (error) { notify(error.message, 'error'); }
+    finally { state.busy = false; }
+  }
   function renderOverview() {
     const d = state.dashboard || {}, tasks = d.tasks || [], routines = d.routines || [];
     const open = tasks.filter(isOpenTask);
@@ -195,16 +206,50 @@
     if (state.articleFilter !== 'all' && !statuses.includes(state.articleFilter)) state.articleFilter = 'all';
     main.append(el('div', { class: 'filter-bar' }, searchField('Zoek een artikel', state.articleSearch, value => { state.articleSearch = value; draw(); }, 'Titel van het artikel'), selectField('Status', state.articleFilter, [['all', 'Alle statussen'], ...statuses.map(s => [s, s])], value => { state.articleFilter = value; draw(); })), count, list); draw();
   }
+  function newsletterPanel(tasks) {
+    const byId = id => tasks.find(task => task.id === id);
+    const status = (id, fallback) => byId(id)?.status_label || fallback;
+    const row = (label, value, tone = '') => el('div', { class: 'newsletter-status-row' }, el('dt', {}, label), el('dd', { class: tone }, value));
+    return el('section', { class: 'panel newsletter-panel' },
+      el('div', { class: 'panel-header' }, el('div', {}, el('p', { class: 'eyebrow' }, 'Contact & nieuwsbrief'), el('h2', {}, 'Nieuwsbriefbeheer'), el('p', { class: 'subtle' }, 'Werkvoorraad, campagnedossier en vrijgavepoorten bij elkaar. Providergegevens worden niet als actueel ingevuld zonder readback.'))),
+      el('div', { class: 'newsletter-grid' },
+        el('div', {}, el('h3', {}, 'Ketenstatus'), el('dl', { class: 'newsletter-status' },
+          row('Aanmelding + dubbele opt-in', status('work-newsletter-signup', 'Nog niet vastgesteld'), 'status-open'),
+          row('Voorkeuren + afmelden', status('work-newsletter-preferences', 'Nog niet vastgesteld'), 'status-open'),
+          row('Eigenaarmelding nieuwe inschrijving', 'Niet ingericht', 'status-open'),
+          row('Publieke inschrijving', 'Nog niet actief', 'status-waiting'),
+          row('Brevo-campagne', 'Concept · geen ontvangers · niet gepland', 'status-open'),
+          row('Werkelijke verzending', 'Niet verzonden', 'status-waiting')
+        )),
+        el('div', {}, el('h3', {}, 'Eerste editie'), el('dl', { class: 'newsletter-status' },
+          row('Doelgroep', 'Gemengde Nederlandse doelgroep'), row('Hoofdthema', 'Eén onderwerp per editie', 'status-open'),
+          row('Persoonlijke opening', 'Nog inhoudelijk vrijgeven', 'status-open'), row('Artikelen', '2–4 gecontroleerde, live artikelen', 'status-open'),
+          row('Onderwerp + preheader', 'Nog ter beoordeling', 'status-open'), row('Frequentie', 'Maximaal 1× per maand · maximaal 12× per jaar', 'status-open')
+        ))
+      ),
+      el('div', { class: 'newsletter-gates' }, el('h3', {}, 'Volgorde vóór verzending'), el('ol', {},
+        el('li', {}, el('strong', {}, 'Concept bekijken'), ' — inhoud, links en beelden'),
+        el('li', {}, el('strong', {}, 'Inhoud goedkeuren'), ' — persoonlijke opening, artikelen en medische/redactionele controle'),
+        el('li', {}, el('strong', {}, 'Ontvangers controleren'), ' — actuele Brevo-readback, productieadressen en uitschrijvingen'),
+        el('li', {}, el('strong', {}, 'Frequentie controleren'), ' — vorige datum en aantal verzendingen'),
+        el('li', {}, el('strong', {}, 'Planning voorstellen'), ' — datum en tijd afzonderlijk bespreken'),
+        el('li', {}, el('strong', {}, 'Verzenden'), ' — alleen na afzonderlijke vrijgave')
+      )),
+      el('p', { class: 'newsletter-note' }, 'Bekijken, goedkeuren, plannen en verzenden blijven afzonderlijke stappen. Een lokale conceptstatus is geen bewijs van een actuele Brevo-status.')
+    );
+  }
   function renderTasks() {
     main.append(heading('Nog te doen', 'Contact, nieuwsbrief, inhoud en onderhoud bij elkaar. Kies een onderwerp om gericht verder te werken.', button('Vernieuwen', refresh)));
     const feedback = ideaFeedback(); if (feedback) main.append(feedback);
     const all = state.dashboard?.tasks || [], list = el('div', { class: 'task-groups' }), count = el('p', { class: 'search-count', 'aria-live': 'polite' });
+    main.append(newsletterPanel(all));
     const categories = el('div', { class: 'task-categories', role: 'group', 'aria-label': 'Hoofdonderwerp' });
     const categoryButtons = [];
     function matchesProgress(task) {
       if (state.taskFilter === 'all') return true;
       if (state.taskFilter === 'open') return isOpenTask(task);
-      if (state.taskFilter === 'checked') return Boolean(task.checked);
+      if (state.taskFilter === 'checked') return Boolean(task.checked && !task.completed);
+      if (state.taskFilter === 'done') return task.completed || (['work', 'idea'].includes(task.kind) && task.workflow_status === 'done');
       return ['work', 'idea'].includes(task.kind) && task.workflow_status === state.taskFilter;
     }
     function taskRow(task) {
@@ -230,6 +275,10 @@
           try { const result = await api(`/api/tasks/${encodeURIComponent(task.id)}/check`, 'POST', { checked: Boolean(task.checked), note: answer.note }); Object.assign(task, result); draw(); notify('Je notitie is lokaal bewaard.'); }
           catch (error) { notify(error.message, 'error'); }
         }, 'text-button compact'));
+        actions.append(button(task.completed ? 'Opnieuw openen' : 'Afronden', async () => {
+          try { const result = await api(`/api/tasks/${encodeURIComponent(task.id)}/complete`, 'POST', { completed: !task.completed }); Object.assign(task, result); draw(); notify(task.completed ? 'Werkpunt lokaal afgerond. De gecontroleerde bron en publicatiestatus zijn niet gewijzigd.' : 'Werkpunt opnieuw opengezet.'); }
+          catch (error) { notify(error.message, 'error'); }
+        }, task.completed ? 'text-button compact' : 'compact'));
       }
       const meta = el('div', { class: 'row-meta' }, badge(taskStatus(task)), task.kind !== 'work' && task.category, task.kind === 'work' && el('span', {}, `Peildatum: ${fmt(task.reviewed_at)}`), task.evidence_changed && el('span', { class: 'badge amber' }, 'Bron gewijzigd · opnieuw controleren'));
       const sourceDetails = task.kind === 'work' && (task.detail || task.source) ? el('details', { class: 'disclosure task-source' }, el('summary', {}, 'Toelichting en bron'), task.detail && el('p', { class: 'task-detail' }, task.detail), task.source && el('span', { class: 'source-label' }, `Bron: ${task.source}`)) : null;
@@ -269,7 +318,7 @@
       categoryButtons.push({ key, control, counter }); categories.append(control);
     });
     main.append(categories, el('div', { class: 'filter-bar task-filters' }, searchField('Zoeken', state.taskSearch, value => { state.taskSearch = value; draw(); }, 'Bijvoorbeeld nieuwsbrief of enkel'), selectField('Voortgang', state.taskFilter, [['open', 'Openstaande punten'], ['waiting', 'Wachten'], ['later', 'Later'], ['done', 'Afgerond'], ['checked', 'Bekeken'], ['all', 'Alles']], value => { state.taskFilter = value; draw(); }), button('Filters wissen', () => { state.taskSearch = ''; state.taskFilter = 'open'; state.taskCategory = 'all'; render(); }, 'text-button')),
-      el('p', { class: 'snapshot-note' }, 'Bekeken is een leesmarkering. Werkpunten blijven open totdat de gecontroleerde bron aangeeft dat ze zijn afgerond. De peildatum geeft de laatste controle aan, geen actuele livecheck.'), count, list); draw();
+      el('p', { class: 'snapshot-note' }, 'Bekeken is een leesmarkering; Afronden is een lokale werkstatus. Medische en publicatiestatus blijven gebaseerd op gecontroleerde broninformatie. Bij bronwijziging wordt een eerdere markering opnieuw opengezet. De peildatum geeft de laatste controle aan, geen actuele livecheck.'), count, list); draw();
   }
   const ideaChoices = { new: 'Nieuw voorstel', saved: 'Bewaard als idee', todo: 'In Nog te doen', dismissed: 'Past niet bij mij' };
   const ideaKinds = { tool: 'Geavanceerde hulpmiddelen', growth: 'Bereik & groei', content: 'Inhoud', experience: 'Gebruiksgemak', agent: 'Agents & routines', skill: 'Skills & werkwijzen', simplify: 'Vereenvoudigen' };
@@ -492,13 +541,13 @@
   }
   function renderAnalytics() {
     const a = state.dashboard?.analytics || {};
-    main.append(heading('Bezoekers', 'Je websitebezoek in één overzicht.', button('Opgeslagen cijfers herladen', refresh)), analyticsStamp(a));
+    main.append(heading('Bezoekers', 'Je websitebezoek in één overzicht.', el('div', { class: 'button-row' }, button('Actuele cijfers ophalen', refreshAnalytics, 'primary'), button('Opgeslagen cijfers herladen', refresh))), analyticsStamp(a));
     const stats = el('div', { class: 'stats-grid analytics-stats' });
     [['Bezoekers', a.visitors, 'Bezoekers die je website hebben geopend. Terugkeer op een andere dag kan opnieuw meetellen.'], ['Paginaweergaven', a.views, 'Hoe vaak een pagina is bekeken; één bezoeker kan meerdere weergaven hebben.']].forEach(([name, number, description]) => {
       stats.append(el('div', { class: 'stat-card' }, el('span', { class: 'stat-label' }, name), el('span', { class: `stat-value${hasMetric(number) ? '' : ' unknown'}` }, hasMetric(number) ? number.toLocaleString('nl-NL') : 'Onbekend'), el('span', { class: 'stat-hint' }, description)));
     });
     main.append(stats, analyticsRanking(a), searchConsolePanel());
-    main.append(el('section', { class: 'analytics-source' }, el('div', {}, el('h2', {}, 'Bron: Vercel'), el('p', {}, 'Dit zijn opgeslagen cijfers. Nieuwe cijfers uit Vercel worden niet automatisch opgehaald.'), a.dashboard_url && link('Bekijk actuele cijfers in Vercel', a.dashboard_url)), el('details', { class: 'disclosure' }, el('summary', {}, 'Hoe bezoekers worden geteld'), el('p', {}, 'Dezelfde persoon kan op verschillende dagen opnieuw worden geteld. Het aantal bezoekers is dus niet hetzelfde als het aantal verschillende personen over deze hele periode.'), el('a', { href: 'https://vercel.com/docs/analytics', target: '_blank', rel: 'noopener noreferrer' }, 'Uitleg van Vercel'))));
+    main.append(el('section', { class: 'analytics-source' }, el('div', {}, el('h2', {}, 'Bron: Vercel'), el('p', {}, 'Actuele cijfers worden alleen opgehaald wanneer je de knop gebruikt. De token blijft op de lokale server en wordt nooit in de browser opgeslagen.'), a.dashboard_url && link('Bekijk actuele cijfers in Vercel', a.dashboard_url)), el('details', { class: 'disclosure' }, el('summary', {}, 'Hoe bezoekers worden geteld'), el('p', {}, 'Dezelfde persoon kan op verschillende dagen opnieuw worden geteld. Het aantal bezoekers is dus niet hetzelfde als het aantal verschillende personen over deze hele periode.'), el('a', { href: 'https://vercel.com/docs/analytics', target: '_blank', rel: 'noopener noreferrer' }, 'Uitleg van Vercel'))));
   }
   async function openArticle(id) {
     if (!(await canLeave())) return;

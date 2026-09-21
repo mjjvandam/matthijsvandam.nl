@@ -431,6 +431,14 @@ class Handler(BaseHTTPRequestHandler):
             if self.command == "GET" and path == "/api/dashboard":
                 from inventory import build_dashboard
                 return self.send(200, build_dashboard(self.server.store.repo, self.server.store.state_dir))
+            if self.command == "POST" and path == "/api/analytics/refresh":
+                from vercel_analytics import refresh_snapshot, AnalyticsRefreshError
+                try:
+                    refresh_snapshot(self.server.store.repo, self.server.store.state_dir)
+                except AnalyticsRefreshError as exc:
+                    raise ValidationError(str(exc)) from None
+                from inventory import build_dashboard
+                return self.send(200, build_dashboard(self.server.store.repo, self.server.store.state_dir))
             idea_match = re.fullmatch(r"/api/ideas/([a-z0-9-]+)/choice", path)
             if self.command == "POST" and idea_match:
                 from ideas import choose_idea, IdeasConflict, IdeasError
@@ -478,6 +486,18 @@ class Handler(BaseHTTPRequestHandler):
                 try:
                     task = set_task_check(self.server.store.repo, self.server.store.state_dir,
                                           task_match[1], data["checked"], data.get("note"))
+                except ValueError as exc:
+                    raise ValidationError(str(exc)) from None
+                return self.send(200, task)
+            complete_match = re.fullmatch(r"/api/tasks/([a-zA-Z0-9_.:-]+)/complete", path)
+            if self.command == "POST" and complete_match:
+                from inventory import set_task_completion
+                data = self.body()
+                if set(data) != {"completed"} or type(data.get("completed")) is not bool:
+                    raise ValidationError("Geef een geldige afrondstatus op.")
+                try:
+                    task = set_task_completion(self.server.store.repo, self.server.store.state_dir,
+                                               complete_match[1], data["completed"])
                 except ValueError as exc:
                     raise ValidationError(str(exc)) from None
                 return self.send(200, task)
