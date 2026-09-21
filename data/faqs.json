@@ -126,21 +126,6 @@
       "reviewedAt": null,
       "reusePolicy": "page-specific"
     },
-    "achillespeesklachten-wanneer-past-het-niet-bij-gewone-overbelasting": {
-      "id": "achillespeesklachten-wanneer-past-het-niet-bij-gewone-overbelasting",
-      "question": "Wanneer past het niet bij gewone overbelasting?",
-      "answerHtml": "<p>\n  Een plots knapmoment, gevoel van een trap of slag tegen de kuit, niet goed kunnen afzetten of\n  niet op de tenen kunnen staan kan passen bij een achillespeesruptuur en vraagt beoordeling via\n  officiële zorgkanalen.\n</p>",
-      "audience": "patient",
-      "topics": [
-        "achillespeesklachten"
-      ],
-      "primaryPage": "behandelingen/achillespeesklachten.html",
-      "anchor": "faq-achillespeesklachten-wanneer-past-het-niet-bij-gewone-overbelasting",
-      "sourceRefs": [],
-      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
-      "reviewedAt": null,
-      "reusePolicy": "page-specific"
-    },
     "achillespeesklachten-wat-kan-op-achillespeesklachten-lijken": {
       "id": "achillespeesklachten-wat-kan-op-achillespeesklachten-lijken",
       "question": "Wat kan op achillespeesklachten lijken?",
@@ -159,7 +144,7 @@
     "achillespeesklachten-is-echo-of-mri-altijd-nodig": {
       "id": "achillespeesklachten-is-echo-of-mri-altijd-nodig",
       "question": "Is echo of MRI altijd nodig?",
-      "answerHtml": "<p>\n  Niet altijd. Het verhaal en lichamelijk onderzoek geven vaak veel richting. Echo of MRI kan\n  helpen bij twijfel, verdenking op scheur, duidelijke verdikking, langdurige klachten of\n  planning. Röntgenfoto kan bij aanhechtingsklachten of Haglund-vragen nuttig zijn.\n</p>",
+      "answerHtml": "<p>\n  Niet altijd. Het verhaal en lichamelijk onderzoek geven vaak veel richting. Echo of MRI kan\n  helpen bij twijfel, duidelijke verdikking, langdurige klachten of planning. Röntgenfoto kan bij\n  aanhechtingsklachten of Haglund-vragen nuttig zijn.\n</p>",
       "audience": "patient",
       "topics": [
         "achillespeesklachten"
@@ -199,6 +184,21 @@
       ],
       "primaryPage": "behandelingen/achillespeesklachten.html",
       "anchor": "faq-achillespeesklachten-zijn-injecties-rond-de-achillespees-standaard",
+      "sourceRefs": [],
+      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
+      "reviewedAt": null,
+      "reusePolicy": "page-specific"
+    },
+    "achillespeesklachten-helpt-prp-bij-achillespeesklachten": {
+      "id": "achillespeesklachten-helpt-prp-bij-achillespeesklachten",
+      "question": "Helpt PRP bij achillespeesklachten?",
+      "answerHtml": "<p>\n  PRP is een injectiebehandeling met bloedplaatjes uit het eigen bloed. De Nederlandse richtlijn noemt\n  PRP als een mogelijke optie in geselecteerde situaties, maar de onderzoeken geven geen duidelijk antwoord\n  op de vraag of PRP helpt of beter werkt dan andere behandelingen. Het is daarom geen standaardbehandeling\n  en geeft geen garantie op herstel.\n</p>",
+      "audience": "patient",
+      "topics": [
+        "achillespeesklachten"
+      ],
+      "primaryPage": "behandelingen/achillespeesklachten.html",
+      "anchor": "faq-achillespeesklachten-helpt-prp-bij-achillespeesklachten",
       "sourceRefs": [],
       "medicalReviewStatus": "opgewaardeerd, medische review nodig",
       "reviewedAt": null,
