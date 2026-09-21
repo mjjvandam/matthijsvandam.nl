@@ -13,6 +13,7 @@ behandelingen/*.html
 !behandelingen/hallux-valgus.html
 !behandelingen/hamerteen-klauwteen.html
 !behandelingen/mtp-1-artrodese.html
+!behandelingen/achillespeesklachten.html
 
 # ADR-0008: alleen lokale bouw; geen publieke mailroutes of feeds.
 local-mail-preview/
