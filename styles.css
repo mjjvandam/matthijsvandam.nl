@@ -3571,6 +3571,15 @@ a {
   box-shadow: var(--shadow-soft);
 }
 
+.article-hero-image[src*="kuitspier-voetpijn-oefeningen"] {
+  width: min(100%, 760px);
+  height: auto;
+  aspect-ratio: auto;
+  object-fit: contain;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .article-hero-image[src$="article-footprint-quick-scan-etz-fit-30-juni.jpg"] {
   object-position: center 40%;
 }
