@@ -460,7 +460,7 @@
     "chronische-enkelinstabiliteit-wat-is-chronische-enkelinstabiliteit": {
       "id": "chronische-enkelinstabiliteit-wat-is-chronische-enkelinstabiliteit",
       "question": "Wat is chronische enkelinstabiliteit?",
-      "answerHtml": "<p>\n  Chronische enkelinstabiliteit betekent dat de enkel na een eerdere verzwikking of\n  enkelbandletsel blijvend onzeker kan voelen of herhaald kan doorzwikken. Dat kan te maken\n  hebben met bandlaxiteit, maar ook met balans, spiercontrole, vertrouwen, pijn of voetstand.\n</p>",
+      "answerHtml": "<p>\n  Chronische enkelinstabiliteit betekent dat de enkel na een eerdere verzwikking of\n  enkelbandletsel blijvend onzeker kan voelen of herhaald kan doorzwikken. Dat kan te maken\n  hebben met bandlaxiteit, maar ook met balans, spiercontrole, vertrouwen, pijn of voetstand.\n  Er is geen vaste termijn; het gaat vooral om aanhoudende onzekerheid of herhaald doorzwikken\n  nadat de acute fase voorbij is.\n</p>",
       "audience": "patient",
       "topics": [
         "chronische-enkelinstabiliteit"
@@ -549,6 +549,21 @@
       "reviewedAt": null,
       "reusePolicy": "page-specific",
       "nearDuplicateReviewStatus": "reviewed-page-specific-2026-08-26"
+    },
+    "chronische-enkelinstabiliteit-is-een-internal-brace-altijd-nodig": {
+      "id": "chronische-enkelinstabiliteit-is-een-internal-brace-altijd-nodig",
+      "question": "Is een internal brace altijd nodig?",
+      "answerHtml": "<p>\n  Nee. Een internal brace kan een herstelde enkelband extra ondersteunen, maar is niet bij\n  iedere operatie nodig. De beschikbare literatuur laat goede resultaten zien, maar maakt niet\n  duidelijk dat deze versteviging voor iedereen betere uitkomsten geeft dan een zorgvuldig\n  uitgevoerd enkelbandherstel zonder internal brace. De keuze hangt onder meer af van de\n  kwaliteit van het bandweefsel, algemene laxiteit, eerdere operaties, sportbelasting en de\n  manier waarop de enkelband wordt hersteld.\n</p>",
+      "audience": "patient",
+      "topics": [
+        "chronische-enkelinstabiliteit"
+      ],
+      "primaryPage": "behandelingen/chronische-enkelinstabiliteit.html",
+      "anchor": "faq-chronische-enkelinstabiliteit-is-een-internal-brace-altijd-nodig",
+      "sourceRefs": [],
+      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
+      "reviewedAt": null,
+      "reusePolicy": "page-specific"
     },
     "corpus-liberum-enkel-wat-is-een-corpus-liberum-in-de-enkel": {
       "id": "corpus-liberum-enkel-wat-is-een-corpus-liberum-in-de-enkel",
