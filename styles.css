@@ -3111,6 +3111,7 @@ a {
   margin-top: 6px;
   color: var(--muted);
   font-size: 0.93rem;
+  font-weight: 400;
   line-height: 1.45;
 }
 
