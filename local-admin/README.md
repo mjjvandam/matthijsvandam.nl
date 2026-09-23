@@ -78,6 +78,8 @@ Codex-taken zijn een gedateerde momentopname, aangeleverd via de Codex-app. **Ve
 
 Het startdashboard toont de vijf best bezochte pagina's uit die opname; **Bezoekers** toont de volledige beschikbare ranglijst. Paginanamen komen uit het bestaande publicatieregister. Sortering volgt het aantal bezoekers; afzonderlijke homepageadressen worden niet opgeteld. De twee hoofdtellers hebben een korte uitleg en een absolute periode. Het optionele `period_label` is alleen een leesbaar label bij de ongewijzigde providerperiode; het wijzigt geen aantallen of vastlegtijdstip. Zie [de bezoekerscontrole](../docs/site/reviews/analytics-dashboard-2026-09-10.md).
 
+Wanneer de handmatig gecontroleerde momentopname aanvullende Vercel-uitsplitsingen bevat, toont **Bezoekers** ook verwijzende websites, landen, apparaten, browsers, besturingssystemen en bouncepercentage. Dit zijn afgeronde, geaggregeerde gegevens uit dezelfde geselecteerde providerperiode. Ontbrekende uitsplitsingen blijven leeg; zij worden niet als nul ingevuld. De pagina vernieuwt niet op de achtergrond.
+
 ## Codex en de editor gebruiken dezelfde bron
 
 Voor dit pilotartikel mag Codex de publieke HTML niet naast de beheerbron gaan aanpassen. De vaste ID is `leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort`.
@@ -116,3 +118,7 @@ Tests gebruiken tijdelijke opslag. Testgoedkeuringen zijn geen medische eigenaar
 ## Vindbaarheid in Google
 
 Overzicht en Bezoekers tonen de gedateerde Search Console-opname uit `state/search-console.json`: verificatie, sitemapverwerking en indexering met eigen rapportdatum. Zeven dagen na ophalen wordt opnieuw controleren getoond. Een schermverversing leest de opgeslagen opname. De bestaande weekcheck en relevante ontwikkeltaken volgen `SEARCH_CONSOLE_WORKFLOW.md`; toegang via de ingelogde browser blijft nodig. Dezelfde vervolgtaak staat bij Nog te doen, zonder dubbele werklijst.
+
+### Search Console-opname — onderhoud 23 september 2026
+
+De lezer accepteert de waargenomen sitemapstatus `Succesvol` naast `Sitemap is verwerkt`. De optionele velden `discovered_not_indexed` en `crawled_not_indexed` tellen mee bij de controle van het totaal. Alleen werkelijk waargenomen redenen worden getoond; ontbrekende optionele waarden worden niet als nul ingevuld. Overzicht en Bezoekers gebruiken dezelfde bestaande component, zonder nieuwe vormgeving. Na wijziging van Python-code moet de beheerserver opnieuw worden gestart.

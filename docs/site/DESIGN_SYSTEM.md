@@ -30,6 +30,7 @@ De catalogus beschrijft navigatie, projectcontext, artikeloverzicht, artikelkaar
 - Navigatie: één actieve route, toetsenbordbediening, Escape, zichtbare focus. Een aangekleurde menulink vervangt niet overal de paginatitel.
 - Links zijn navigatie; knoppen zijn acties. Toelichtingen en medische grenzen mogen niet verdwijnen bij compacter maken.
 - FAQ blijft onder het centrale FAQ-model. De stijlgids beheert geen kopie van de vragen of antwoorden.
+- Het gedeelde updatepaneel op Professionals en Advies gebruikt één compacte LinkedIn-tekstlink met klein icoon en een korte nieuwsbriefverwijzing eronder. De professionalspagina gebruikt daarnaast een eigen twee-kolomsopbouw voor samenwerkingsvragen, met het schoenmakersspreekuur als brede praktijknotitie. Dit zijn varianten binnen de bestaande rustige vormtaal, geen nieuw algemeen kaartmodel.
 
 ### Mobiel en kleurmodi
 

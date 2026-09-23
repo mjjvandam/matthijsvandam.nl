@@ -216,7 +216,7 @@
         el('div', {}, el('h3', {}, 'Ketenstatus'), el('dl', { class: 'newsletter-status' },
           row('Aanmelding + dubbele opt-in', status('work-newsletter-signup', 'Nog niet vastgesteld'), 'status-open'),
           row('Voorkeuren + afmelden', status('work-newsletter-preferences', 'Nog niet vastgesteld'), 'status-open'),
-          row('Eigenaarmelding nieuwe inschrijving', 'Niet ingericht', 'status-open'),
+          row('Eigenaarmelding nieuwe inschrijving', byId('work-newsletter-owner-notification')?.status || 'Niet ingericht', 'status-open'),
           row('Publieke inschrijving', 'Nog niet actief', 'status-waiting'),
           row('Brevo-campagne', 'Concept · geen ontvangers · niet gepland', 'status-open'),
           row('Werkelijke verzending', 'Niet verzonden', 'status-waiting')
@@ -532,7 +532,12 @@
       panel.append(el('p', {}, `Gecontroleerd op ${fmt(g.captured_at)}. De weekcheck haalt nieuwe gegevens op als accounttoegang beschikbaar is. Dit scherm toont opgeslagen gegevens.`));
       panel.append(el('p', {}, `Eigendom geverifieerd · sitemap verwerkt · ${g.discovered} pagina’s ontdekt.`));
       panel.append(el('p', {}, `Indexeringsrapport van ${g.index_updated_at}: ${g.indexed} geïndexeerd, ${g.not_indexed} niet geïndexeerd. Ontdekt betekent nog niet geïndexeerd.`));
-      if (!compact) panel.append(el('p', {}, `${g.not_found} niet gevonden (404), ${g.redirected} omleidingen en ${g.canonical_alternate} alternatief met correcte canonieke tag. Omleidingen en alternatieven zijn niet automatisch fouten.`));
+      if (!compact) {
+        const reasons = [`${g.not_found} niet gevonden (404)`, `${g.redirected} omleidingen`, `${g.canonical_alternate} alternatief met correcte canonieke tag`];
+        if (Number.isInteger(g.discovered_not_indexed)) reasons.push(`${g.discovered_not_indexed} gevonden maar nog niet geïndexeerd`);
+        if (Number.isInteger(g.crawled_not_indexed)) reasons.push(`${g.crawled_not_indexed} gecrawld maar nog niet geïndexeerd`);
+        panel.append(el('p', {}, `${reasons.join(', ')}. Omleidingen en alternatieven zijn niet automatisch fouten.`));
+      }
       const followUp = state.dashboard?.tasks?.find(task => task.id === 'work-search-setup');
       panel.append(el('p', {}, followUp ? `Vervolg: ${followUp.status}. ${followUp.next_action}` : 'Actueel vervolgwerk staat bij Nog te doen.'));
     }
@@ -546,8 +551,36 @@
     [['Bezoekers', a.visitors, 'Bezoekers die je website hebben geopend. Terugkeer op een andere dag kan opnieuw meetellen.'], ['Paginaweergaven', a.views, 'Hoe vaak een pagina is bekeken; één bezoeker kan meerdere weergaven hebben.']].forEach(([name, number, description]) => {
       stats.append(el('div', { class: 'stat-card' }, el('span', { class: 'stat-label' }, name), el('span', { class: `stat-value${hasMetric(number) ? '' : ' unknown'}` }, hasMetric(number) ? number.toLocaleString('nl-NL') : 'Onbekend'), el('span', { class: 'stat-hint' }, description)));
     });
-    main.append(stats, analyticsRanking(a), searchConsolePanel());
+    if (Number.isFinite(a.bounce_rate)) stats.append(el('div', { class: 'stat-card' }, el('span', { class: 'stat-label' }, 'Bouncepercentage'), el('span', { class: 'stat-value' }, `${a.bounce_rate}%`), el('span', { class: 'stat-hint' }, 'Aandeel bezoekers dat na één pagina weer vertrekt, volgens Vercel.')));
+    main.append(stats, analyticsRanking(a), analyticsBreakdowns(a), searchConsolePanel());
     main.append(el('section', { class: 'analytics-source' }, el('div', {}, el('h2', {}, 'Bron: Vercel'), el('p', {}, 'Actuele cijfers worden alleen opgehaald wanneer je de knop gebruikt. De token blijft op de lokale server en wordt nooit in de browser opgeslagen.'), a.dashboard_url && link('Bekijk actuele cijfers in Vercel', a.dashboard_url)), el('details', { class: 'disclosure' }, el('summary', {}, 'Hoe bezoekers worden geteld'), el('p', {}, 'Dezelfde persoon kan op verschillende dagen opnieuw worden geteld. Het aantal bezoekers is dus niet hetzelfde als het aantal verschillende personen over deze hele periode.'), el('a', { href: 'https://vercel.com/docs/analytics', target: '_blank', rel: 'noopener noreferrer' }, 'Uitleg van Vercel'))));
+  }
+  function analyticsBreakdowns(analytics) {
+    const data = analytics.breakdowns || {};
+    const configs = [
+      ['Verwijzende websites', 'Alleen sites die Vercel als verwijzer herkent.', data.referrers, 'visitors'],
+      ['Landen', 'Herkomst op landniveau, door Vercel afgerond.', data.countries, 'visitors'],
+      ['Apparaten', 'Aandeel per type apparaat.', data.devices, 'share'],
+      ['Browsers', 'Aandeel per browser.', data.browsers, 'share'],
+      ['Besturingssystemen', 'Aandeel per besturingssysteem.', data.operating_systems, 'share'],
+    ];
+    const panels = configs.filter(([, , rows]) => Array.isArray(rows) && rows.length).map(([title, description, rows, metric]) => {
+      const panel = el('section', { class: 'panel analytics-breakdown-panel' }, el('div', { class: 'panel-header' }, el('div', {}, el('h2', {}, title), el('p', { class: 'subtle' }, description))));
+      const list = el('ul', { class: 'analytics-breakdown-list' });
+      rows.forEach(item => {
+        const value = metric === 'share' ? `${item.share}%` : item.visitors.toLocaleString('nl-NL');
+        const hint = metric === 'share' ? 'bezoekers' : item.share != null ? `${item.share}% van bezoekers` : 'bezoekers';
+        const bar = el('span', { class: 'analytics-bar-fill' });
+        const share = metric === 'share' ? item.share : item.share;
+        if (Number.isFinite(share)) bar.style.width = `${share}%`;
+        const row = el('li', { class: 'analytics-breakdown-row' }, el('div', { class: 'analytics-breakdown-main' }, el('span', { class: 'analytics-page-title' }, item.label), Number.isFinite(share) && el('span', { class: 'analytics-bar', 'aria-hidden': 'true' }, bar)), el('span', { class: 'analytics-page-count' }, el('strong', {}, value), el('small', {}, hint)));
+        list.append(row);
+      });
+      panel.append(list);
+      return panel;
+    });
+    if (!panels.length) return el('div', { hidden: true });
+    return el('section', { class: 'analytics-breakdowns' }, el('div', { class: 'panel-header' }, el('div', {}, el('h2', {}, 'Meer over je bezoekers'), el('p', { class: 'subtle' }, 'Geaggregeerde uitsplitsingen uit dezelfde Vercel-periode.'))), el('div', { class: 'analytics-breakdown-grid' }, ...panels), el('p', { class: 'analytics-footnote' }, 'De percentages zijn afgerond. Verwijzende websites tonen niet noodzakelijk al het directe of onbekende verkeer. Deze momentopname identificeert geen individuele bezoekers.'));
   }
   async function openArticle(id) {
     if (!(await canLeave())) return;

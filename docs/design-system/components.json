@@ -126,7 +126,7 @@
         "professionals.html",
         "advies-consultancy.html"
       ],
-      "rule": "Gebruik op Professionals en Advies hetzelfde rustige updateblok. LinkedIn is de primaire profielroute; de nieuwsbrief blijft een korte secundaire tekstlink. Houd kop, uitleg, linklabels, focusgedrag en mobiele stapeling gelijk."
+      "rule": "Gebruik op Professionals en Advies één compact updatepaneel. De primaire tekstlink met klein LinkedIn-icoon heet ‘Volg mij via LinkedIn’; de nieuwsbrief blijft een korte secundaire tekstlink eronder. Vermijd een aparte grote LinkedIn-kaart. Houd kop, uitleg, focusgedrag en mobiele stapeling gelijk."
     },
     {
       "id": "professional-collaboration",
@@ -140,7 +140,7 @@
         "styles.css",
         "professionals.html"
       ],
-      "rule": "Gebruik voor concrete samenwerkingsvragen van verwijzers en paramedici de rustige kaartopbouw van de homepage als pagina-specifieke variant: drie kaarten gevolgd door twee bredere kaarten, twee kolommen op tablet en één kolom op mobiel. Formuleer vraagkoppen natuurlijk en beantwoord ze direct. Voeg geen afspraakroute, persoonlijk behandeladvies of publieke link naar conceptcontent toe."
+      "rule": "Gebruik voor concrete samenwerkingsvragen van verwijzers en paramedici twee rustige kolommen, met de praktijknotitie over het schoenmakersspreekuur over de volle breedte. Op mobiel stapelen de blokken in leesvolgorde. Formuleer vraagkoppen natuurlijk en beantwoord ze direct. Voeg geen afspraakroute, persoonlijk behandeladvies of publieke link naar conceptcontent toe."
     },
     {
       "id": "faq",

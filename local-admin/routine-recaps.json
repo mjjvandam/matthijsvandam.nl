@@ -3,19 +3,19 @@
   "items": [
     {
       "id": "wekelijkse-hoofdredactie-sitecheck-matthijsvandam-nl",
-      "source_sha256": "02fed4b8b4414a78ba23e6c50f593b5e58e57c99c7ee22acf4f8dc55dad137de",
+      "source_sha256": "c253cae6b2afde1bb2faee0a8da979001eb677e7cc54284a83fdc26b3f7761e0",
       "highlights": [
         {
           "label": "Gedaan",
-          "text": "Menuaanduiding en contrast lokaal verbeterd. De website en mobiele weergave nagekeken."
+          "text": "Lokale weekcheck en echte Search Console-controle uitgevoerd; Vercel-bezoekersinzichten uitgebreid en in browser gecontroleerd."
         },
         {
           "label": "Uitkomst",
-          "text": "Alle acht controles geslaagd; de bestaande 40 publieke pagina’s bleven geverifieerd."
+          "text": "17 publieke links wijzen naar concepten; vijf oude Google-404’s leiden correct door. Bezoekersopname: 69 bezoekers, 272 paginaweergaven."
         },
         {
           "label": "Vervolg",
-          "text": "De aangepaste menuweergave nog met verse bestanden visueel controleren vóór publicatie."
+          "text": "Herstel conceptlinks en inventaris; vaste dashboardserver herstarten voor nieuwe bezoekersuitsplitsingen. Niets gepubliceerd; geen tracking toegevoegd."
         }
       ]
     },

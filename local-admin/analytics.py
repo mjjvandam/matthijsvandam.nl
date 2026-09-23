@@ -51,6 +51,30 @@ def read_analytics(repo_root: Path, state_dir: Path) -> dict:
             pages.append({"path": item["path"], "title": titles[item["path"]], "visitors": item["visitors"]})
         # Preserve the provider's order for tied values; never sum URL aliases.
         pages.sort(key=lambda item: -item["visitors"])
+        breakdowns = {}
+        raw_breakdowns = raw.get("breakdowns", {})
+        if isinstance(raw_breakdowns, dict):
+            for key, metric in (("referrers", "visitors"), ("countries", "visitors"),
+                                ("devices", "share"), ("browsers", "share"),
+                                ("operating_systems", "share")):
+                rows = raw_breakdowns.get(key, [])
+                if not isinstance(rows, list) or len(rows) > 20:
+                    continue
+                clean = []
+                for row in rows:
+                    if not isinstance(row, dict) or not isinstance(row.get("label"), str):
+                        continue
+                    label = row["label"].strip()
+                    value = row.get(metric)
+                    if (not label or len(label) > 100 or type(value) is not int or value < 0
+                            or (metric == "share" and value > 100)):
+                        continue
+                    item = {"label": label, metric: value}
+                    if metric == "visitors" and type(row.get("share")) is int and 0 <= row["share"] <= 100:
+                        item["share"] = row["share"]
+                    clean.append(item)
+                if clean:
+                    breakdowns[key] = clean
         period_label = raw.get("period_label")
         if period_label is not None and (not isinstance(period_label, str) or not period_label.strip() or len(period_label) > 100):
             raise ValueError("Invalid period label")
@@ -65,6 +89,9 @@ def read_analytics(repo_root: Path, state_dir: Path) -> dict:
             "views": raw["views"],
             "visitors": raw["visitors"],
             "pages": pages,
+            "bounce_rate": raw.get("bounce_rate") if type(raw.get("bounce_rate")) in (int, float)
+                and 0 <= raw["bounce_rate"] <= 100 else None,
+            "breakdowns": breakdowns,
         })
     except (OSError, ValueError, KeyError, TypeError, AttributeError):
         pass

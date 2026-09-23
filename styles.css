@@ -6026,24 +6026,26 @@ a {
   max-width: 1180px;
   margin: 34px auto 0;
   display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 16px;
 }
 
 .professional-info-grid article {
-  position: relative;
-  grid-column: span 2;
-  min-height: 250px;
-  padding: 30px;
-  overflow: hidden;
+  min-width: 0;
+  padding: clamp(24px, 3vw, 34px);
   border: 1px solid rgba(36, 76, 61, 0.14);
-  border-radius: 8px;
-  background: linear-gradient(135deg, rgba(220, 232, 223, 0.88), rgba(255, 253, 248, 0.7));
-  box-shadow: 0 16px 34px rgba(23, 54, 83, 0.055);
+  border-radius: 14px;
+  background: rgba(255, 253, 248, 0.82);
+  box-shadow: var(--shadow-soft);
 }
 
-.professional-info-grid article:nth-last-child(-n + 2) {
-  grid-column: span 3;
+.professional-info-grid article:nth-child(3) {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: minmax(0, 0.62fr) minmax(0, 1fr);
+  gap: clamp(20px, 4vw, 52px);
+  align-items: center;
+  background: linear-gradient(110deg, rgba(220, 232, 223, 0.9), rgba(255, 253, 248, 0.88));
 }
 
 .professional-info-grid h3 {
@@ -6185,20 +6187,27 @@ a {
 }
 
 .professional-social {
-  padding-top: clamp(42px, 6vw, 72px);
-  padding-bottom: clamp(42px, 6vw, 72px);
-  background:
-    linear-gradient(135deg, rgba(220, 232, 223, 0.62), rgba(255, 253, 248, 0.92)),
-    var(--paper);
+  padding-top: clamp(44px, 6vw, 76px);
+  padding-bottom: clamp(44px, 6vw, 76px);
+  background: var(--paper);
 }
 
 .professional-social-panel {
   max-width: 1180px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(220px, 0.34fr);
+  grid-template-columns: minmax(0, 1fr) minmax(320px, 0.78fr);
   align-items: center;
-  gap: clamp(22px, 5vw, 56px);
+  gap: clamp(24px, 5vw, 72px);
+  padding: clamp(26px, 4vw, 48px);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--white);
+  box-shadow: var(--shadow-soft);
+}
+
+.professional-social-copy {
+  max-width: 580px;
 }
 
 .professional-social-panel p {
@@ -6217,23 +6226,48 @@ a {
 
 .professional-social-routes {
   min-width: 0;
+  padding-left: clamp(24px, 4vw, 52px);
+  border-left: 1px solid var(--line);
+}
+
+.professional-social-link {
+  display: inline-flex;
+  min-height: 52px;
+  align-items: center;
+  gap: 12px;
+  color: var(--green);
+  font-size: clamp(1rem, 1.45vw, 1.15rem);
+  font-weight: 800;
+  text-decoration: none;
+  text-underline-offset: 4px;
+}
+
+.professional-social-link:hover,
+.professional-social-link:focus-visible {
+  color: var(--clay);
+  text-decoration: underline;
+}
+
+.professional-social-link:focus-visible {
+  outline: 3px solid var(--green);
+  outline-offset: 5px;
 }
 
 .professional-social-icon {
-  width: 44px;
-  height: 44px;
-  margin-bottom: 8px;
+  width: 34px;
+  height: 34px;
+  flex: 0 0 auto;
 }
 
-.professional-social-card:hover,
-.professional-social-card:focus-visible {
-  border-color: rgba(10, 102, 194, 0.34);
+.professional-social-arrow {
+  color: var(--muted);
+  font-size: 1rem;
 }
 
 .professional-social-newsletter {
-  margin: 12px 0 0;
+  margin: 10px 0 0;
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: 0.96rem;
   line-height: 1.5;
 }
 
@@ -6379,13 +6413,9 @@ a {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .professional-info-grid article,
-  .professional-info-grid article:nth-last-child(-n + 2) {
-    grid-column: span 1;
-  }
-
-  .professional-info-grid article:last-child {
-    grid-column: 1 / -1;
+  .professional-info-grid article:nth-child(3) {
+    grid-template-columns: 1fr;
+    gap: 0;
   }
 
   .professional-contact-panel {
@@ -6394,6 +6424,14 @@ a {
 
   .professional-social-panel {
     grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .professional-social-routes {
+    padding-top: 20px;
+    padding-left: 0;
+    border-top: 1px solid var(--line);
+    border-left: 0;
   }
 
   .professional-boundary-panel {
@@ -6414,9 +6452,8 @@ a {
   }
 
   .professional-info-grid article,
-  .professional-info-grid article:last-child {
+  .professional-info-grid article:nth-child(3) {
     grid-column: auto;
-    min-height: 0;
     padding: 24px;
   }
 

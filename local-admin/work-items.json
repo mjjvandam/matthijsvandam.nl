@@ -76,9 +76,9 @@
       "title": "Nieuwsbrief: voorkeuren en afmelden afmaken",
       "category": "Contact & nieuwsbrief",
       "status": "open",
-      "status_label": "Voorkeuren en afmelding bewezen",
-      "detail": "13 september: na bevestiging lijst 4 toegevoegd en lijst 7 verwijderd. Afmeldroutes geven succes; definitieve Brevo-readback Email campaigns Blocklisted, SMS/transactioneel ongewijzigd. Eigen adres blijft afgemeld. Drie testmails gebruikt.",
-      "next_action": "Voor livegang Engelse Unsubscribe-knop afwerken; afzonderlijke timing van beide afmeldroutes desgewenst isoleren. Geen extra mail nodig voor huidige test.",
+      "status_label": "Nederlandse eindpagina gekoppeld; ketentest open",
+      "detail": "13 september: na bevestiging lijst 4 toegevoegd en lijst 7 verwijderd. Afmeldroutes geven succes; definitieve Brevo-readback Email campaigns Blocklisted, SMS/transactioneel ongewijzigd. Eigen adres blijft afgemeld. Drie testmails gebruikt. 23 september: ontbrekende eindbestemming na mailvalidatie in profielwijzigingsformulier gecorrigeerd naar de bestaande Nederlandse nieuwsbrief-bevestigd.html. Opslag na heropenen in Brevo teruggelezen; dubbele bevestiging behouden. Geen nieuwe mailtest uitgevoerd.",
+      "next_action": "Bij eerstvolgende eigen voorkeurenwijziging na de mailbevestiging controleren dat de Nederlandse eindpagina verschijnt. Eerder open punt Engelse Unsubscribe-knop en timing van afmeldroutes afzonderlijk controleren; geen automatische testmail verzenden.",
       "priority": 1,
       "sources": [
         {
@@ -88,6 +88,10 @@
         {
           "path": "local-mail-preview/editions/2026-01/REVIEW.md",
           "sha256": "a676eeb4b2c298b5633df8378575798a6631b7d92edf91ef636651d4db6b1bb0"
+        },
+        {
+          "path": "docs/site/reviews/nieuwsbrief-voorkeuren-2026-09-23.md",
+          "sha256": "da6da4efe3bffecccebfc05630d4c0c7e8468bd6ed3e4996f2bf3550e68201b1"
         }
       ]
     },
@@ -275,17 +279,34 @@
       "id": "work-concept-protection",
       "title": "Conceptbestanden buiten publicatie houden",
       "category": "Techniek & vindbaarheid",
-      "status": "done",
-      "status_label": "Gepubliceerd en live gecontroleerd",
-      "detail": "Technische release 66201d3 staat live; op 12 september 2026 gecontroleerd.",
-      "next_action": "Geen vervolgactie voor deze technische release.",
+      "status": "open",
+      "status_label": "Nieuwe conceptlinks herstellen",
+      "detail": "23 september 2026: afscherming uit de release van 12 september blijft bestaan. Nieuwe publieke pagina’s Achilles, hamerteen en Freiberg bevatten samen 17 links naar conceptbestemmingen; drie daarvan geven live 404.",
+      "next_action": "Behoud de uitleg en bereid correctie van uitsluitend de conceptlinks voor, zonder conceptpagina’s te publiceren. Controleer kaarten én lopende tekst; leg exacte correctie/release ter beoordeling voor en herhaal navigatie- en livecontrole.",
       "priority": 1,
       "sources": [
         {
           "path": "docs/site/reviews/technical-release-2026-09-12.md",
           "sha256": "97988452519a18768ad15421d35b0f525a3b3045d7def6457f2835d796254a1a"
+        },
+        {
+          "path": "docs/site/reviews/sitecheck-2026-09-23.md",
+          "sha256": "119a49cbf5ec5cf2b3105c17f64713af40514a4757a56f20975f5f8a55536676"
+        },
+        {
+          "path": "behandelingen/achillespeesklachten.html",
+          "sha256": "2178d89dd4bb9f02a83d3a5c306e48b102ab033643a6b9ebf5595620ccb34cc5"
+        },
+        {
+          "path": "behandelingen/hamerteen-klauwteen.html",
+          "sha256": "50e3c378d2e78ac45bcd6eda226c13c5872b454c9cdbb403ac06acd64bec9948"
+        },
+        {
+          "path": "behandelingen/ziekte-van-freiberg.html",
+          "sha256": "0fc6c83345d0f394ba4bdfe2c68f6c629dcba1e2c4df198e47ca822da36f43cc"
         }
-      ]
+      ],
+      "replaces_report": "report-latest-sitecheck"
     },
     {
       "id": "work-menu-review",
@@ -301,22 +322,21 @@
           "path": "docs/site/reviews/technical-release-2026-09-12.md",
           "sha256": "97988452519a18768ad15421d35b0f525a3b3045d7def6457f2835d796254a1a"
         }
-      ],
-      "replaces_report": "report-latest-sitecheck"
+      ]
     },
     {
       "id": "work-search-setup",
       "title": "Websiteadres en zoekmachine-inrichting controleren",
       "category": "Techniek & vindbaarheid",
       "status": "waiting",
-      "status_label": "Zoekprestaties gecontroleerd; Google-herverwerking loopt",
-      "detail": "19 september: propertybreed prestatierapport over 3 maanden gecontroleerd. De site kreeg 97 vertoningen op ‘orthopedisch schoenmaker tilburg’ en 55 op ‘tilburg orthopedische schoenen’, beide nog zonder klik. Dit ondersteunt een feitelijk samenwerkingsblok op professionals.html, maar bewijst nog geen paginaresultaat. De index- en sitemapmomentopname van 13 september is bij deze inhoudelijke controle niet ververst.",
-      "next_action": "Na een goedgekeurde publieke release bij de bestaande weekcheck pagina- en queryprestaties over een vergelijkbare periode volgen, naast Google-herverwerking en eerdere URL-aanvragen. Bing-inrichting nog controleren.",
+      "status_label": "Google gecontroleerd; herverwerking volgen",
+      "detail": "23 september 2026: 20 geïndexeerd, 40 niet geïndexeerd; sitemap succesvol gelezen, 49 ontdekt. Enkelartrose, enkelprothese en klachtenhub geïndexeerd. Vijf oude Google-404’s leiden correct door. Dashboardlezer lokaal hersteld; Google-opname werkelijk ververst.",
+      "next_action": "Volg bij de bestaande weekcheck 29 gevonden maar nog niet geïndexeerde URL’s en lopende 404-validatie. Controleer query-paginatoewijzing voor professionals over dezelfde perioden; Bing blijft open. Geen herhaalde aanvragen zonder nieuwe aanleiding.",
       "priority": 2,
       "sources": [
         {
-          "path": "docs/site/reviews/search-console-2026-09-19.md",
-          "sha256": "2841cfdf54b388cdc15547c7b5537f9017ff00c0ac585f70eab986646faf461c"
+          "path": "docs/site/reviews/search-console-2026-09-23.md",
+          "sha256": "55a4fafdafa28f1619f2118af9501de729ffdc4c6d06a633769ceb86c294cd31"
         }
       ]
     },
@@ -441,19 +461,88 @@
       "id": "work-weekly-dashboard-routing",
       "title": "Weekcheck: dashboardroute in routine opslaan",
       "category": "Beheer & routines",
-      "status": "waiting",
-      "status_label": "Routinewijziging geblokkeerd",
-      "detail": "Op 11 september opnieuw gecontroleerd: de vernieuwde beheerserver werkt en toont terugblik, acties, leesmelding en uitgebreide suggesties. Alleen het opslaan van de routineprompt wordt nog door de officiële automation-tool geblokkeerd. Automatisch aanvullen is daardoor nog niet actief; de opgeslagen prompt bevat nog de oude mailopdracht.",
-      "next_action": "Vervang in de bestaande weekroutine de prompt door local-admin/weekly-sitecheck-prompt.txt en lees terug. Daarmee worden rapportmail vervangen door dashboarduitvoer en het beperkte aanvullen van Frisse blik opgenomen.",
+      "status": "done",
+      "status_label": "Opgeslagen en daadwerkelijk uitgevoerd",
+      "detail": "23 september 2026: opgeslagen automation.toml read-only teruggelezen. De prompt bevat dashboardverslag, brongebonden taken, Frisse blik, Search Console en expliciet geen e-mail/conceptmail. Deze echte run volgt die route.",
+      "next_action": "Geen routinewijziging nodig. De nieuwe terugblik staat in het dashboard.",
       "priority": 1,
       "sources": [
         {
-          "path": "docs/site/reviews/sitecheck-dashboard-route-2026-09-11.md",
-          "sha256": "8ea89f902c2670f89bf04daa4e90d9ba6656e907dc826098dc48e50bd3ff75d5"
+          "path": "docs/site/reviews/sitecheck-2026-09-23.md",
+          "sha256": "119a49cbf5ec5cf2b3105c17f64713af40514a4757a56f20975f5f8a55536676"
         },
         {
-          "path": "local-admin/weekly-sitecheck-prompt.txt",
-          "sha256": "59b9f51cc3bbee3adfcbb80111534b7f05de688d65200c19e00bcf8a183524c8"
+          "path": "local-admin/WEEKLY_SITECHECK_WORKFLOW.md",
+          "sha256": "46f1cc95c711024008603a117e73abfc948001e77d9b570d158d5e085761017d"
+        }
+      ]
+    },
+    {
+      "id": "work-treatment-release-consistency",
+      "title": "Behandelreleases en inventaris gelijk trekken",
+      "category": "Techniek & vindbaarheid",
+      "status": "open",
+      "status_label": "Inventaris en dubbele sitemapregel",
+      "detail": "23 september 2026: vier publieke behandelpagina’s staan achterhaald in de launchinventaris. Dit veroorzaakt zes behandelcheckmeldingen. Freiberg staat tweemaal in de sitemap. CURRENT_SITE_STATE is bijgewerkt; andere historische statusvelden vragen bewuste vergelijking.",
+      "next_action": "Vergelijk releasebesluiten, register en launchinventaris voor hallux valgus, hamerteen, Freiberg en Achilles. Corrigeer documentatie zonder medisch akkoord te veronderstellen; bereid verwijdering van uitsluitend de dubbele Freiberg-sitemapregel voor. Controleer daarna beide validators.",
+      "priority": 1,
+      "sources": [
+        {
+          "path": "docs/site/reviews/sitecheck-2026-09-23.md",
+          "sha256": "119a49cbf5ec5cf2b3105c17f64713af40514a4757a56f20975f5f8a55536676"
+        },
+        {
+          "path": "FOOT_PAIN_GUIDE_LAUNCH_INVENTARIS.md",
+          "sha256": "faed8540ae83d7a9a34b412b6073d3e475b3d88d74296e4687088a875c2456c7"
+        },
+        {
+          "path": "sitemap.xml",
+          "sha256": "de70f856bef482c8a710797c5aa6d9b85cfe94ae0576c15c63b348b7b559e466"
+        },
+        {
+          "path": "PUBLICATIE_REGISTER.json",
+          "sha256": "bc207f644eae3ffbcb70582873305d48028a84aea557a7a49ade2e0a42952c4e"
+        }
+      ],
+      "replaces_report": "report-latest-sitecheck"
+    },
+    {
+      "id": "work-admin-server-restart",
+      "title": "Beheerserver op vaste poort herstarten",
+      "category": "Beheer & routines",
+      "status": "waiting",
+      "status_label": "Poort 8879 serveert nog oude module",
+      "detail": "23 september 2026: bijgewerkte bezoekersuitsplitsingen en Search Console-weergave werken op poort 8880 met dezelfde lokale opslag. De vaste server op 8879 serveert nog de eerdere Python/UI-module; stoppen/herstarten bleef eerder door procesrechten geblokkeerd.",
+      "next_action": "Sluit het bestaande beheerservervenster normaal af en open Start beheer.command opnieuw. Controleer daarna dat de vaste dashboardroute de bezoekersuitsplitsingen van 23 september toont. Tot die tijd is de bijgewerkte weergave beschikbaar op http://127.0.0.1:8880/#bezoekers.",
+      "priority": 2,
+      "sources": [
+        {
+          "path": "docs/site/reviews/sitecheck-2026-09-23.md",
+          "sha256": "c253cae6b2afde1bb2faee0a8da979001eb677e7cc54284a83fdc26b3f7761e0"
+        },
+        {
+          "path": "docs/site/reviews/analytics-extra-insights-2026-09-23.md",
+          "sha256": "a4560d42909a2acf80480d4ee71e02e8ad63d361c591482ab59c0472d7664d21"
+        },
+        {
+          "path": "local-admin/server.py",
+          "sha256": "957cd7b40a316a60714c4c4d11492d95d825b682dbf1ed889cbc5da7a1bf57c2"
+        }
+      ]
+    },
+    {
+      "id": "work-newsletter-owner-notification",
+      "title": "Nieuwsbrief: eerste eigenaarmelding controleren",
+      "category": "Contact & nieuwsbrief",
+      "status": "open",
+      "status_label": "Actief sinds 23 september; ontvangst nog open",
+      "detail": "Brevo-workflow 1 actief teruggelezen. Melding naar mjjvandam@gmail.com na bevestiging via het websiteformulier; naam en e-mailadres in de melding. Herintrede uit, dus eenmaal per contact.",
+      "next_action": "Bij de eerstvolgende bevestigde inschrijving ontvangst en ingevulde naam/e-mailadres controleren. Niet opnieuw activeren of een tweede workflow aanmaken.",
+      "priority": 2,
+      "sources": [
+        {
+          "path": "docs/site/reviews/nieuwsbrief-eigenaarmelding-2026-09-23.md",
+          "sha256": "dc11b2e5101fb9e70d73b19f0b13b0ca199139e8aad042f54c25ae67172b58cb"
         }
       ]
     }
