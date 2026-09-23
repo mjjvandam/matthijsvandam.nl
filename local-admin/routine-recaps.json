@@ -3,19 +3,19 @@
   "items": [
     {
       "id": "wekelijkse-hoofdredactie-sitecheck-matthijsvandam-nl",
-      "source_sha256": "c253cae6b2afde1bb2faee0a8da979001eb677e7cc54284a83fdc26b3f7761e0",
+      "source_sha256": "be3b97c0c3233d0a242ebc108dcc3782f7a1f34037e75d81ad8bbeda0ade0d40",
       "highlights": [
         {
           "label": "Gedaan",
-          "text": "Lokale weekcheck en echte Search Console-controle uitgevoerd; Vercel-bezoekersinzichten uitgebreid en in browser gecontroleerd."
+          "text": "Lokale weekcheck, echte Search Console-controle en Vercel-bezoekerscheck; Google-paginaresultaten brongebonden in dashboard verwerkt."
         },
         {
           "label": "Uitkomst",
-          "text": "17 publieke links wijzen naar concepten; vijf oude Google-404’s leiden correct door. Bezoekersopname: 69 bezoekers, 272 paginaweergaven."
+          "text": "Google: homepage 45 klikken en enkelprothese 6 in 28 dagen. Behandelingenhub krijgt meer vertoningen maar weinig klikken; tip blijft een controlevoorstel."
         },
         {
           "label": "Vervolg",
-          "text": "Herstel conceptlinks en inventaris; vaste dashboardserver herstarten voor nieuwe bezoekersuitsplitsingen. Niets gepubliceerd; geen tracking toegevoegd."
+          "text": "Controleer zoekintentie/snippet van behandelingenhub en volg indexering. Geen medisch/publicatiebesluit, tracking of extra idee toegevoegd."
         }
       ]
     },

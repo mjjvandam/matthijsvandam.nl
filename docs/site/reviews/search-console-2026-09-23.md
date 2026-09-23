@@ -52,3 +52,11 @@ Google-validatie staat al op Gestart, 21 september. Geen nieuwe redirects of her
 ## Dashboard en vervolg
 
 Opname atomisch ververst met werkelijk waargenomen gegevens. De oude lezer wees zowel `Succesvol` als een vierde uitsluitingsreden af. Kleine lokale reparatie accepteert deze bestaande Google-uitvoer, bewaakt de totaalsom en toont de nieuwe redenen in dezelfde dashboardcomponent. Geen API-koppeling of nieuwe routine. Bestaande taak `work-search-setup` bijgewerkt; indexeringsherverwerking en Bing blijven open.
+
+## Aanvulling prestaties per pagina — 23 september 2026
+
+De bestaande Search Console-account is opnieuw zichtbaar gecontroleerd. Prestatieperiode 25 augustus–21 september 2026 (28 dagen), vergeleken met 28 juli–24 augustus (28 dagen): propertybreed 58 klikken, circa 1,18K vertoningen, CTR 4,9%, gemiddelde positie 18. De paginatabel rangschikt op klikken: homepage 45 klikken/770 vertoningen; enkelprothese 6/140; behandelingenhub 2/168; over-mij 2/48; cohortartikel 2/11; artikel knieprothese/bariatrische chirurgie 1/17; publicaties 1/9; enkelartrose 0/81. Dit zijn gerapporteerde rijwaarden; de lijst kan niet volledig optellen tot propertytotalen.
+
+De overzichtsaanbeveling van Google meldde voor `behandelingen.html` 381% meer vertoningen dan gewoonlijk. De bijbehorende weekvergelijking is 14–20 september tegenover 7–13 september: 125 tegenover 26 vertoningen, 1 klik, CTR 0,8% en gemiddelde positie 31,3. Een stijging in vertoningen is geen bewijs van meer bezoekers of conversie. Bruikbare vervolgstap is de zoekintentie en zichtbare snippet controleren; wijzig medische inhoud of claims niet op basis van deze cijfers.
+
+De waarneming is als aparte `performance.captured_at` opgeslagen in `local-admin/state/search-console.json`. Deze aanvulling vervangt de bestaande indexerings- en sitemaprapportdatum niet. De dashboardtip combineert deze Google-data met de laatste Vercel-momentopname, maar houdt perioden en meeteenheden nadrukkelijk gescheiden.

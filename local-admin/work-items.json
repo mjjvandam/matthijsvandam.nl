@@ -329,14 +329,14 @@
       "title": "Websiteadres en zoekmachine-inrichting controleren",
       "category": "Techniek & vindbaarheid",
       "status": "waiting",
-      "status_label": "Google gecontroleerd; herverwerking volgen",
-      "detail": "23 september 2026: 20 geïndexeerd, 40 niet geïndexeerd; sitemap succesvol gelezen, 49 ontdekt. Enkelartrose, enkelprothese en klachtenhub geïndexeerd. Vijf oude Google-404’s leiden correct door. Dashboardlezer lokaal hersteld; Google-opname werkelijk ververst.",
-      "next_action": "Volg bij de bestaande weekcheck 29 gevonden maar nog niet geïndexeerde URL’s en lopende 404-validatie. Controleer query-paginatoewijzing voor professionals over dezelfde perioden; Bing blijft open. Geen herhaalde aanvragen zonder nieuwe aanleiding.",
+      "status_label": "Google-opname ververst; paginasignaal volgen",
+      "detail": "23 september 2026: property en sitemap opnieuw bevestigd; 20 geïndexeerd, 40 niet geïndexeerd, sitemap succesvol. Nieuwe 28-daagse paginatabel: homepage 45 zoekklikken; enkelprothese 6. Google-tip: behandelingenhub 125 vertoningen versus 26 in voorafgaande week, 1 klik. Indexeringsherverwerking, 29 gevonden maar niet geïndexeerde URL’s, query-paginatoewijzing en Bing blijven open.",
+      "next_action": "Bekijk volgende week of de stijging in vertoningen voor behandelingen.html aanhoudt. Controleer indien relevant zoekintentie en snippet in Search Console; wijzig medische tekst niet op basis van volume. Volg daarnaast 29 gevonden maar niet geïndexeerde URL’s en lopende 404-validatie. Geen herhaalde aanvragen zonder nieuwe aanleiding.",
       "priority": 2,
       "sources": [
         {
           "path": "docs/site/reviews/search-console-2026-09-23.md",
-          "sha256": "55a4fafdafa28f1619f2118af9501de729ffdc4c6d06a633769ceb86c294cd31"
+          "sha256": "1469536c845dd583f15066d244d9ba4a4b57dff2573befc331f3467d9af46094"
         }
       ]
     },
@@ -518,7 +518,7 @@
       "sources": [
         {
           "path": "docs/site/reviews/sitecheck-2026-09-23.md",
-          "sha256": "c253cae6b2afde1bb2faee0a8da979001eb677e7cc54284a83fdc26b3f7761e0"
+          "sha256": "be3b97c0c3233d0a242ebc108dcc3782f7a1f34037e75d81ad8bbeda0ade0d40"
         },
         {
           "path": "docs/site/reviews/analytics-extra-insights-2026-09-23.md",

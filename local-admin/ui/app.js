@@ -186,6 +186,8 @@
     routines.slice(0, 4).forEach(routine => routineList.append(el('div', { class: 'list-row' }, el('div', { class: 'list-main' }, el('h3', {}, routine.name), el('p', { class: 'subtle' }, routine.schedule || 'Planning niet bekend'), routineOverviewRecap(routine)), badge(routine.status))));
     if (!routines.length) routineList.append(empty('Nog geen routines ingelezen', 'Vernieuw het overzicht om beschikbare routines te laden.'));
     main.append(el('div', { class: 'two-column' }, el('section', { class: 'panel' }, el('div', { class: 'panel-header' }, el('div', {}, el('h2', {}, 'Waar je verder kunt'), el('p', { class: 'subtle' }, 'Taken en inhoudelijke controles')), button('Alle taken', () => viewTasks({ filter: 'all' }), 'compact')), taskList), el('section', { class: 'panel' }, el('div', { class: 'panel-header' }, el('div', {}, el('h2', {}, 'Voor deze website'), el('p', { class: 'subtle' }, 'Planning en laatste verslagen')), button('Routines', () => navigate('routines'), 'compact')), routineList, el('p', { class: 'routine-overview-note' }, 'Een terugblik beschrijft dat verslag. Actuele vervolgacties staan bij Nog te doen.'))));
+    const visitorInsight = analyticsSearchInsight(d.analytics || {}, d.search_console || {});
+    if (visitorInsight) main.append(visitorInsight);
     main.append(analyticsRanking(d.analytics || {}, true));
     main.append(searchConsolePanel(true));
     main.append(el('section', { class: 'panel section-spacing' }, el('div', { class: 'panel-header' }, el('div', {}, el('h2', {}, 'Een tekst aanpassen'), el('p', { class: 'subtle' }, 'Bewerk een artikel, sla op en bekijk het in de websitevormgeving.')), button('Naar artikelen', () => navigate('artikelen'), 'primary')), el('p', { class: 'small subtle' }, 'Je kunt wijzigingen ook aan Codex vragen. Codex en dit scherm gebruiken dezelfde lokale artikelbron en versiegeschiedenis.')));
@@ -542,6 +544,32 @@
       panel.append(el('p', {}, followUp ? `Vervolg: ${followUp.status}. ${followUp.next_action}` : 'Actueel vervolgwerk staat bij Nog te doen.'));
     }
     panel.append(link('Open Google Search Console', g.dashboard_url), compact ? button('Meer over vindbaarheid', () => navigate('bezoekers'), 'compact') : button('Bekijk vervolgwerk', () => viewTasks({ search: 'zoekmachine', category: 'Techniek & vindbaarheid' }), 'compact'));
+    return panel;
+  }
+  function analyticsSearchInsight(analytics, google) {
+    const performance = google.performance;
+    if (!performance || !Array.isArray(performance.top_pages) || !performance.top_pages.length) return null;
+    const gscPages = [...performance.top_pages].sort((a, b) => b.clicks - a.clicks);
+    const googleBest = gscPages[0], googleNext = gscPages.find(page => page.path !== googleBest.path && page.clicks > 0);
+    const popular = rankedAnalyticsPages(analytics).find(page => hasMetric(page.visitors));
+    const attention = performance.attention;
+    const googleName = path => {
+      if (path === '/' || path === '/index.html') return 'de homepage';
+      const match = (analytics.pages || []).find(page => page.path === path);
+      return match?.title || path.split('/').filter(Boolean).pop() || path;
+    };
+    const panel = el('section', { class: 'panel section-spacing insight-panel' }, el('div', { class: 'panel-header' }, el('div', {}, el('h2', {}, 'Inzichten uit Vercel en Google'), el('p', { class: 'subtle' }, 'Twee verschillende meetbronnen, elk met hun eigen periode en betekenis.'))));
+    const signals = el('div', { class: 'insight-grid' });
+    signals.append(el('div', { class: 'insight-signal' }, el('span', { class: 'info-label' }, `Google Search · ${performance.period || 'periode onbekend'} · opname ${analyticsDate(performance.captured_at)}`), el('p', {}, `${googleName(googleBest.path)} kreeg ${googleBest.clicks} zoekklikken${googleNext ? `; daarna ${googleName(googleNext.path)} met ${googleNext.clicks}` : ''}.`)));
+    if (popular) signals.append(el('div', { class: 'insight-signal' }, el('span', { class: 'info-label' }, `Vercel · ${analytics.period_label || analytics.period || 'periode onbekend'} · ${analyticsDate(analytics.captured_at)}`), el('p', {}, `${popular.title || popular.path} had ${popular.visitors} getelde bezoekers. Dat is sitebezoek, geen Google-klik.`)));
+    panel.append(signals);
+    if (attention) {
+      const decimal = value => Number(value).toLocaleString('nl-NL', { maximumFractionDigits: 1 });
+      panel.append(el('p', { class: 'insight-action' }, el('strong', {}, 'Kans om te controleren: '), `${googleName(attention.path)} kreeg ${attention.impressions} vertoningen tegenover ${attention.previous_impressions} in de vergelijkingsweek (${attention.change_percent}% meer), maar ${attention.clicks} klik${attention.clicks === 1 ? '' : 'ken'} en ${decimal(attention.ctr)}% CTR. Controleer in Search Console of de zichtbare titel en omschrijving passen bij de zoekvraag; gemiddelde positie ${decimal(attention.position)}. Dit is een signaal, geen bewijs van conversie; pas medische inhoud alleen na menselijke review aan.`));
+    }
+    const actions = el('div', { class: 'button-row insight-actions' }, link('Open Search Console', google.dashboard_url, 'compact'));
+    if (ideaItems().some(idea => idea.id === 'meten-wat-helpt')) actions.append(button('Bewaard meetidee bekijken', () => viewIdea('meten-wat-helpt'), 'text-button compact'));
+    panel.append(actions);
     return panel;
   }
   function renderAnalytics() {

@@ -26,6 +26,26 @@ class SearchConsoleTests(unittest.TestCase):
         self.assertEqual(result['discovered_not_indexed'], 29)
         self.assertEqual(result['not_indexed'], 40)
 
+    def test_page_performance_is_returned_as_a_separate_dated_observation(self):
+        performance = {
+            'captured_at': datetime.now(timezone.utc).isoformat(),
+            'period': '25 augustus–21 september 2026 (28 dagen)',
+            'comparison_period': '28 juli–24 augustus 2026 (28 dagen)',
+            'summary': {'clicks': 58, 'impressions': 1180},
+            'top_pages': [{'path': '/', 'clicks': 45, 'impressions': 770}],
+            'attention': {'path': '/behandelingen.html', 'impressions': 125,
+                          'previous_impressions': 26, 'clicks': 1, 'ctr': 0.8,
+                          'position': 31.3, 'change_percent': 381},
+        }
+        result = self.read(performance=performance)
+        self.assertEqual(result['performance']['top_pages'][0]['clicks'], 45)
+        self.assertEqual(result['performance']['attention']['previous_impressions'], 26)
+
+    def test_invalid_optional_performance_does_not_invalidate_index_snapshot(self):
+        result = self.read(performance={'captured_at': 'invalid'})
+        self.assertEqual(result['status'], 'Opgeslagen momentopname')
+        self.assertNotIn('performance', result)
+
     def test_legacy_snapshot_without_extra_reasons(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory)
