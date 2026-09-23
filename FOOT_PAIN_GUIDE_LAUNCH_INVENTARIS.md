@@ -4,18 +4,18 @@ Alle inhoudelijke kaarten krijgen een eigen pagina in `behandelingen/`. Conceptp
 
 | Kaart | Concept-URL | Status | Reviewpunten |
 | --- | --- | --- | --- |
-| Hallux valgus | `behandelingen/hallux-valgus.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
+| Hallux valgus | `behandelingen/hallux-valgus.html` | publicatieklaar | Volledig inhoudelijk en visueel gecontroleerd en op 23 september 2026 door Matthijs als akkoord beschouwd; publiek, register en live-status zijn vastgelegd. |
 | Hallux rigidus | `behandelingen/hallux-rigidus.html` | publicatieklaar | Inhoudelijk akkoord en op 6 september 2026 afzonderlijk gepubliceerd, zonder zichtbare koppeling met de concept-pijnwijzer. |
-| Hamerteen en klauwteen | `behandelingen/hamerteen-klauwteen.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
+| Hamerteen en klauwteen | `behandelingen/hamerteen-klauwteen.html` | publicatieklaar | Volledig inhoudelijk en visueel gecontroleerd en door Matthijs als akkoord beschouwd; publiek, register en live-status zijn vastgelegd. |
 | Metatarsalgie | `behandelingen/metatarsalgie.html` | publicatieklaar | Inhoudelijk akkoord door Matthijs op 19 september 2026; publieke robots, sitemap, register, Vercel-uitzondering en overzichtslink lokaal voorbereid. Externe deployment en livecontrole blijven afzonderlijk. |
-| Ziekte van Freiberg | `behandelingen/ziekte-van-freiberg.html` | medisch akkoord | Inhoudelijk akkoord door Matthijs op 19 september 2026; publieke vrijgave, sitemap/register/robots en livecontrole blijven een afzonderlijke stap. |
+| Ziekte van Freiberg | `behandelingen/ziekte-van-freiberg.html` | publicatieklaar | Volledig inhoudelijk en visueel gecontroleerd en op 23 september 2026 door Matthijs als akkoord beschouwd; publiek, register en live-status zijn vastgelegd. |
 | Morton neuroom | `behandelingen/morton-neuroom.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | MTP- en plantaire plaatklachten | `behandelingen/mtp-plantaire-plaatklachten.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Tailor's bunion | `behandelingen/tailors-bunion.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Sesamoidklachten | `behandelingen/sesamoidklachten.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Voorvoetcorrectie | `behandelingen/voorvoetcorrectie.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Enkelverzwikking | `behandelingen/enkelverzwikking.html` | publicatieklaar | inhoudelijk akkoord door Matthijs op 2026-07-12; publieke sitemap/register/robots en interne link gecontroleerd |
-| Chronische enkelinstabiliteit | `behandelingen/chronische-enkelinstabiliteit.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
+| Chronische enkelinstabiliteit | `behandelingen/chronische-enkelinstabiliteit.html` | publicatieklaar | Volledig inhoudelijk en visueel gecontroleerd en door Matthijs als akkoord beschouwd; publiek, register en live-status zijn vastgelegd. |
 | Anterieur enkelimpingement | `behandelingen/anterieur-enkel-impingement.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Posterieur enkelimpingement | `behandelingen/posterieur-enkel-impingement.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Ganglion rond de enkel | `behandelingen/ganglion-enkel.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
@@ -29,7 +29,7 @@ Alle inhoudelijke kaarten krijgen een eigen pagina in `behandelingen/`. Conceptp
 | Platvoet bij volwassenen | `behandelingen/platvoet-volwassen.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Tibialis posterior-peesklachten | `behandelingen/tibialis-posterior-peesklachten.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Holvoet en cavovarus | `behandelingen/holvoet-cavovarus.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
-| Achillespeesklachten | `behandelingen/achillespeesklachten.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
+| Achillespeesklachten | `behandelingen/achillespeesklachten.html` | publicatieklaar | Volledig inhoudelijk en visueel gecontroleerd en op 23 september 2026 door Matthijs als akkoord beschouwd; publiek, register en live-status zijn vastgelegd. |
 | Hielpijn | `behandelingen/hielpijn.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Peesplaatklachten en hielspoor | `behandelingen/peesplaatklachten-hielspoor.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Vetkussen onder de hiel | `behandelingen/vetkussen-hielklachten.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |

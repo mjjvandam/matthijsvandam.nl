@@ -45,7 +45,9 @@
       "title": "Hallux valgus: klachten en behandeling | drs. Matthijs van Dam",
       "spoor": "patientinformatie",
       "verification_status": "geverifieerd",
-      "review_notes": "Uitgebreide patiëntgerichte uitleg over hallux valgus, niet-operatieve en operatieve behandeling, voorbereiding, nabehandeling, herstel en risico's. Gepubliceerd op expliciet verzoek; inhoudelijke owner review blijft open."
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-09-23",
+      "review_notes": "Uitgebreide patiëntgerichte uitleg over hallux valgus, niet-operatieve en operatieve behandeling, voorbereiding, nabehandeling, herstel en risico's. Op 23 september 2026 volledig inhoudelijk en visueel gecontroleerd en akkoord bevonden door Matthijs. De pagina is publiek en de status is geverifieerd."
     },
     {
       "path": "behandelingen/ziekte-van-freiberg.html",
@@ -54,7 +56,7 @@
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
       "verified_on": "2026-09-23",
-      "review_notes": "Nieuwe patiëntgerichte uitleg over de ziekte van Freiberg, klachten, onderzoek en algemene behandelrichtingen. Opgenomen in deze release op expliciet verzoek om de recente sitewijzigingen live te zetten; inhoudelijke owner review blijft open."
+      "review_notes": "Nieuwe patiëntgerichte uitleg over de ziekte van Freiberg, klachten, onderzoek en algemene behandelrichtingen. Op 23 september 2026 volledig inhoudelijk en visueel gecontroleerd en akkoord bevonden door Matthijs. De pagina is publiek en de status is geverifieerd."
     },
     {
       "path": "behandelingen/hamerteen-klauwteen.html",
