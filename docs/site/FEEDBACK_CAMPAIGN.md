@@ -16,7 +16,9 @@ De nieuwe route is standaard uit. Het bestaande Vercel Hobby-project heeft al é
 
 Controleer daarna de regel op beide publieke domeinen en zet pas dan de Production-variabelen `FEEDBACK_EDGE_RATE_LIMIT_VERIFIED=true` en `FEEDBACK_FORM_ENABLED=true`. Controleer ook de bestaande `BREVO_API_KEY`, het resterende mailquotum en ontvangst van één proefantwoord voordat de uitnodiging live wordt gezet. Er is geen extra account of betaald plan nodig. Een 503 van de handler betekent dat de feedbackroute nog niet open is; de kaart blijft dan verborgen. Na 24 oktober sluit de handler vanzelf en verdwijnen kaart en footerlink. Verwijder de tijdelijke assets en paginaverwijzingen in een latere gecontroleerde release.
 
-De privacytekst moet met de kaart en endpoint tegelijk live gaan. Feedback blijft apart van de nieuwsbrief en het professionele contactformulier. Ontvangen toelichtingen kunnen ondanks de waarschuwing ongevraagd persoonlijke gegevens bevatten; behandel en verwijder die volgens de privacytekst, zonder medische beantwoording via deze route.
+De privacytekst moet met de kaart en endpoint tegelijk live gaan. Feedback blijft apart van de nieuwsbrief en het professionele contactformulier. Ontvangen toelichtingen kunnen ongevraagd persoonlijke gegevens bevatten; behandel en verwijder die volgens de privacytekst, zonder medische beantwoording via deze route.
+
+Lokale controle op 24 september: bij navigatie door vijf verschillende publieke pagina's verscheen de kaart na acht seconden op de vijfde pagina; een zesde pagina liet de kaart niet opnieuw automatisch zien. De mockserver ontving één beschikbaarheids-GET voor deze zes pagina's. In de Vercel Production-instellingen was `BREVO_API_KEY` aanwezig als afgeschermde variabele; de sleutelwaarde en het mailquotum zijn niet ingezien. Deze controles zijn geen bewijs van publieke verzending of livegang.
 
 ## Review en vrijgave
 
