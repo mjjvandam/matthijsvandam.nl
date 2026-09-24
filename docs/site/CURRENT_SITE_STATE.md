@@ -65,6 +65,10 @@ Gebruik bij relevante taken:
 - Definitieve medische review van alle concept-behandelpagina's.
 - Definitieve medische review van de Voet- en enkelpijnwijzer voordat die publiek wordt.
 
+## Tijdelijke websitefeedback — 24 september 2026
+
+De goedgekeurde feedbackkaart is publiek op de bestaande pagina's. Zij verschijnt na vijf verschillende publieke pagina's in één tabblad of via de kleine footerknop, vraagt één keuze en optioneel een korte toelichting, en gebruikt de bestaande Brevo-mailroute. De bestaande Vercel-limietregel omvat `/api/contact` en `/api/feedback`; een productieproef is in de bestaande Gmail-inbox ontvangen. De campagne sluit automatisch na 24 oktober 2026. Zie `docs/site/FEEDBACK_CAMPAIGN.md` voor de technische grens, privacy en verificatie. Dit wijzigt geen medische reviewstatus of indexeringsinstellingen.
+
 ## Lokale stijlgids — 13 september 2026
 
 De bestaande vormgeving is beschreven in `docs/site/DESIGN_SYSTEM.md`. De lokale voorbeeldpagina `docs/design-system/index.html` toont echte siteonderdelen; `components.json` en de gegenereerde `usage.json` leggen regels en afnemers vast. `tools/design_system.py` bouwt en controleert deze koppeling. De gewone sitekwaliteitscheck bewaakt de synchronisatie. Dit voegt geen livepagina of nieuwe medische/publicatiegoedkeuring toe.
