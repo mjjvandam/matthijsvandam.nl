@@ -1149,7 +1149,7 @@
 
   const resolvePath = (url) => {
     if (/^(https?:|mailto:|tel:|#)/.test(url)) return url;
-    return `${prefixForCurrentPage()}${url}`;
+    return `/${url}`;
   };
 
   const escapeHtml = (value) =>
