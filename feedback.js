@@ -5,9 +5,17 @@
   if (Date.now() >= endsAt || document.querySelector('meta[name="robots"]')?.content.includes('noindex')) return;
   const localPreview = ['localhost', '127.0.0.1'].includes(location.hostname)
     && new URLSearchParams(location.search).has('feedback-preview');
+  const session = (() => { try { return window.sessionStorage; } catch { return null; } })();
+  const availabilityKey = `${campaign}-available`;
+  const knownAvailable = (() => { try { return session?.getItem(availabilityKey) === '1'; } catch { return false; } })();
   const availability = localPreview ? Promise.resolve({ enabled: true })
+    : knownAvailable ? Promise.resolve({ enabled: true })
     : fetch('/api/feedback', { signal: AbortSignal.timeout(5000) })
-      .then((response) => response.ok ? response.json() : { enabled: false });
+      .then((response) => response.ok ? response.json() : { enabled: false })
+      .then((result) => {
+        if (result.enabled) { try { session?.setItem(availabilityKey, '1'); } catch { /* Private mode. */ } }
+        return result;
+      });
   availability
     .then(({ enabled }) => {
   if (!enabled) return;
@@ -15,7 +23,6 @@
   const seenKey = `${campaign}-pages`;
   const doneKey = `${campaign}-done`;
   const shownKey = `${campaign}-shown`;
-  const session = (() => { try { return window.sessionStorage; } catch { return null; } })();
   const local = (() => { try { return window.localStorage; } catch { return null; } })();
   const sitePath = location.pathname.replace(/\/$/, '/index.html');
   const get = (storage, key) => { try { return storage?.getItem(key); } catch { return null; } };
