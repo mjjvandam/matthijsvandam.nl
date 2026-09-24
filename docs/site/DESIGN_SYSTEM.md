@@ -32,6 +32,8 @@ De catalogus beschrijft navigatie, projectcontext, artikeloverzicht, artikelkaar
 - FAQ blijft onder het centrale FAQ-model. De stijlgids beheert geen kopie van de vragen of antwoorden.
 - Het gedeelde updatepaneel op Professionals en Advies gebruikt één compacte LinkedIn-tekstlink met klein icoon en een korte nieuwsbriefverwijzing eronder. De professionalspagina gebruikt daarnaast een eigen twee-kolomsopbouw voor samenwerkingsvragen, met het schoenmakersspreekuur als brede praktijknotitie. Dit zijn varianten binnen de bestaande rustige vormtaal, geen nieuw algemeen kaartmodel.
 
+- De tijdelijke feedbackvraag wordt door `feedback.js` op geregistreerde publieke pagina's toegevoegd en gebruikt uitsluitend de bestaande kleurvariabelen. `feedback.css` begrenst de kaart op mobiele schermen en lage vensters. Na vijf verschillende pagina's verschijnt zij hoogstens eenmaal per campagne; via de kleine footerlink kan iemand haar zelf openen. De kaart vraagt geen naam of e-mailadres en mag geen medische contactroute suggereren. De lokale stijlgids toont de footerafnemers; controleer de geopende kaart ook op een echte pagina. Deze toevoeging volgt de bestaande formulier- en publicatiegrenzen van ADR-0008 en ADR-0006; voor livegang blijft eigenaar-validatie open.
+
 ### Mobiel en kleurmodi
 
 Controleer wijzigingen op 360, 390 en 430 px en een desktopbreedte, in licht én donker. Controleer lange titels, focus, actieve/lege filterstaat, afbeeldingen en horizontale overflow. Gebruik de breedte- en kleurkeuze in de stijlgids als hulpmiddel en controleer minstens één echte bronpagina buiten het iframe. Een groene technische check bewijst geen prettige vormgeving of volledige toegankelijkheid.
