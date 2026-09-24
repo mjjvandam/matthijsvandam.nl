@@ -4,7 +4,7 @@
 
 Een rustige, vrijwillige vraag voor bezoekers die vijf verschillende publieke pagina's in hetzelfde browsertabblad hebben bezocht. Een vaste kleine footerlink laat ook andere bezoekers reageren. De campagne loopt tot en met 24 oktober 2026. Daarna verdwijnen de kaart en footerlink vanzelf en stopt `/api/feedback` met het aannemen van berichten. Er komen geen nieuwe accounts, leveranciers, cookies of analyticsgebeurtenissen bij.
 
-De kaart vraagt of iemand vond wat die zocht (ja, gedeeltelijk, nee) en biedt maximaal 500 tekens optionele toelichting. Zij vraagt geen naam of e-mailadres. De tekst sluit medische vragen, afspraken en spoed uit. De bezoeklijst blijft uitsluitend in `sessionStorage`; de keuze om te sluiten of te verzenden staat in `localStorage` voor deze campagne. Geen bezochte URL of browser-ID wordt meegestuurd met de feedback.
+De kaart vermeldt dat de site kort geleden is gepubliceerd en vraagt of de content de bezoeker verder heeft geholpen (ja, gedeeltelijk, nee). Zij biedt maximaal 500 tekens optionele toelichting en vraagt geen naam of e-mailadres. De kaart toont geen aparte medische disclaimer; de privacyverklaring houdt de grens voor medische en andere persoonsgegevens vast. De bezoeklijst blijft uitsluitend in `sessionStorage`; de keuze om te sluiten of te verzenden staat in `localStorage` voor deze campagne. Geen bezochte URL of browser-ID wordt meegestuurd met de feedback.
 
 Voor lokale vormcontrole kun je op `127.0.0.1` of `localhost` `?feedback-preview=1` aan een pagina-URL toevoegen. Dat toont de kaart ook wanneer de publieke endpoint nog uit staat. De uitzondering werkt niet op publieke domeinen; lokaal versturen vereist nog steeds een werkende test-API.
 

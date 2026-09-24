@@ -41,10 +41,10 @@
     <button class="site-feedback-close" type="button" aria-label="Feedbackvraag sluiten" data-feedback-close>×</button>
     <p class="site-feedback-kicker">Een korte vraag</p>
     <h2 id="site-feedback-title">Hoe ervaar je deze website?</h2>
-    <p>De site is nu een maand online. Je reactie helpt de website te verbeteren.</p>
+    <p>Deze site is pas kort geleden gepubliceerd. Je reactie helpt om de inhoud te verbeteren.</p>
     <form data-feedback-form>
       <fieldset>
-        <legend>Heb je gevonden wat je zocht?</legend>
+        <legend>Heeft de content je verder geholpen?</legend>
         <div class="site-feedback-options">
           <label><input type="radio" name="answer" value="yes" required> Ja</label>
           <label><input type="radio" name="answer" value="partly"> Gedeeltelijk</label>
@@ -56,7 +56,6 @@
           <textarea name="note" maxlength="500" rows="3"></textarea>
         </label>
       </details>
-      <p class="site-feedback-boundary">Deel geen persoonlijke medische informatie. Voor medische vragen, afspraken of spoed zijn de officiële zorgkanalen bedoeld.</p>
       <p class="site-feedback-privacy">Je antwoord gaat per e-mail naar Matthijs en schrijft je nergens voor in. <a href="/privacy.html">Privacy</a></p>
       <label class="site-feedback-trap" aria-hidden="true">Website <input name="website" tabindex="-1" autocomplete="off"></label>
       <button class="site-feedback-submit" type="submit">Versturen</button>
@@ -110,7 +109,7 @@
         set(local, doneKey, 'sent');
         set(session, doneKey, 'sent');
         reopenButton?.remove();
-        form.querySelectorAll('fieldset, .site-feedback-more, .site-feedback-boundary, .site-feedback-privacy, .site-feedback-submit').forEach((item) => { item.hidden = true; });
+        form.querySelectorAll('fieldset, .site-feedback-more, .site-feedback-privacy, .site-feedback-submit').forEach((item) => { item.hidden = true; });
         status.textContent = 'Dank je wel. Je feedback is verstuurd.';
         return;
       }

@@ -29,7 +29,7 @@
 .site-feedback-note { display: block; margin-top: 10px; font-size: .9rem; font-weight: 700; }
 .site-feedback-note span { color: var(--muted); font-weight: 400; }
 .site-feedback textarea { display: block; width: 100%; margin-top: 7px; padding: 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); color: var(--ink); font: inherit; resize: vertical; }
-.site-feedback .site-feedback-boundary, .site-feedback .site-feedback-privacy { color: var(--muted); font-size: .78rem; }
+.site-feedback .site-feedback-privacy { color: var(--muted); font-size: .78rem; }
 .site-feedback a { color: var(--green); }
 .site-feedback-trap { position: absolute; left: -100vw; width: 1px; height: 1px; overflow: hidden; }
 .site-feedback-submit { padding: 10px 17px; border: 1px solid var(--green); border-radius: 6px; background: var(--green); color: var(--paper); font: inherit; font-weight: 700; cursor: pointer; }

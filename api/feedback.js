@@ -32,7 +32,7 @@ function createHandler(env=process.env, fetchImpl=fetch, now=()=>Date.now()) {
       return reply(400,'Controleer je antwoord.','invalid');
     const note=body.note.trim();
     const textContent=['Websitefeedback · MatthijsvanDam.nl','',
-      'Heeft bezoeker gevonden wat gezocht werd? '+ANSWERS[body.answer],
+      'Heeft de content de bezoeker verder geholpen? '+ANSWERS[body.answer],
       '',note||'(geen toelichting)','',
       'Vrijwillige anonieme websitefeedback. Niet beantwoorden; er is geen afzenderadres.'].join('\n');
     const hex=createHmac('sha256',env.BREVO_API_KEY).update(JSON.stringify([body.requestId,body.answer,note])).digest('hex');
