@@ -147,6 +147,9 @@ teaser=f'''<section class="section artrose-teaser" id="artrose-voorproef" aria-l
 import json
 opening_chapters=''.join(re.findall(r'<section class="journey-moment".*?</section>', story.chapters, re.S)[:2])
 opening_chapters=rebase(opening_chapters,URL)
+last_paragraph='Daarom benadrukken we ook het vertrouwen dat iemand heeft in het eigen vermogen om met klachten om te gaan.</p>'
+assert opening_chapters.count(last_paragraph)==1
+opening_chapters=opening_chapters.replace(last_paragraph,last_paragraph+f'<p class="story-read-link"><a href="{PREVIEW}artikelen.html#artrose-in-beeld">Lees hier het hele verhaal</a></p>')
 opening_config=dict(story.config,scenes=story.config['scenes'][:2])
 # Keep the first two places and connecting path; omit later stations and map assets.
 stage=ET.fromstring(re.search(r'<svg.*?</svg>',story.journey_stage,re.S).group(0))

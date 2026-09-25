@@ -213,11 +213,11 @@
         "artrose-story"
       ],
       "sources": [
-        "assets/artrose-story/story-2bf2b988c40f.css",
+        "assets/artrose-story/story-b99b06aa52a8.css",
         "assets/artrose-story/story-8c83fdb90c6a.js",
         "tools/build_artrose_release.py"
       ],
-      "rule": "Publieke scrollvertelling op artikelen.html buiten de filters; homepagevoorproef vóór de vakgroep. Acht ongenummerde momenten delen één SVG-wereld. Rustige leesfasen, scrollgestuurde wandeling, leefstijlbegeleiding en netwerk rond dezelfde persoon. Vier afsluitkaarten. Reduced-motion, grote tekst en geen JavaScript behouden een statische leesversie. Menu blijft sticky met gemeten bovenruimte. Zie DESIGN_SYSTEM.md voor de vrijgegeven toepassing."
+      "rule": "Publieke scrollvertelling op artikelen.html buiten de filters; homepagevoorproef vóór de vakgroep. Onder de tweede alinea van de homepagevoorproef staat een gewone onderstreepte link naar het volledige verhaal, in dezelfde lettergrootte als de lopende tekst. Acht ongenummerde momenten delen één SVG-wereld. Rustige leesfasen, scrollgestuurde wandeling, leefstijlbegeleiding en netwerk rond dezelfde persoon. Vier afsluitkaarten. Reduced-motion, grote tekst en geen JavaScript behouden een statische leesversie. Menu blijft sticky met gemeten bovenruimte. Zie DESIGN_SYSTEM.md voor de vrijgegeven toepassing."
     }
   ]
 }

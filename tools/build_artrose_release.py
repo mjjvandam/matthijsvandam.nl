@@ -27,7 +27,7 @@ start='<!-- ARTROSE-STORY:START -->';end='<!-- ARTROSE-STORY:END -->'
 for name in ['index.html','artikelen.html']:
     p=ROOT/name;s=p.read_text()
     s=re.sub(r'<!-- ARTROSE-STORY:START -->.*?<!-- ARTROSE-STORY:END -->','',s,flags=re.S)
-    s=re.sub(r'\s*<(?:link|script)[^>]*(?:href|src)="/assets/artrose-story/[^>]+>(?:</script>)?','',s)
+    s=re.sub(r'\s*<(?:link|script)[^>]*(?:href|src)="/?assets/artrose-story/[^>]+>(?:</script>)?','',s)
     preview=(PREVIEW/name).read_text()
     if name=='index.html':
         feature=preview[preview.index('<section class="artrose-story home-story"'):preview.index('      <section class="section location-band"')].strip()

@@ -28,6 +28,8 @@ html:has(.home-story){scroll-behavior:auto}
 .home-story #journey-sign a:hover .farewell-board,.home-story #journey-sign a:focus-visible .farewell-board{fill:#35644e;stroke:var(--clay);stroke-width:4}
 .home-story #journey-sign a:focus-visible{outline:none}
 .home-story .journey-text{pointer-events:none}.home-story .journey-copy{pointer-events:auto}
+.home-story .story-read-link a{font:inherit;color:var(--green);text-decoration:underline;text-underline-offset:.16em}
+.home-story .story-read-link a:focus-visible{outline:2px solid var(--green);outline-offset:3px}
 .home-static-continue{text-align:center;padding:1rem 0 3rem}.home-static-continue a{display:inline-block;background:#244c3d!important;color:#fffdf8!important;padding:1rem 2rem;border-radius:.5rem;text-decoration:none}
 .home-story.has-motion .home-static-continue{display:none}
 .home-story.has-motion .journey-moment:last-child{min-height:155svh;padding-bottom:40vh}
