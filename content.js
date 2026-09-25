@@ -1828,13 +1828,13 @@
     });
   };
 
-  const renderArticlesOverview = (items) => {
+  const renderArticlesOverview = (items, filtered = false) => {
     const cardLimit = 3;
     document.querySelectorAll("[data-content='articles-list']").forEach((container) => {
       container.innerHTML = items.slice(0, cardLimit).map(articleCard).join("");
     });
     document.querySelectorAll("[data-content='articles-compact-list']").forEach((container) => {
-      const compactArticles = items.slice(cardLimit);
+      const compactArticles = items.slice(cardLimit, filtered ? undefined : cardLimit + 5);
       container.innerHTML = compactArticles.map(compactArticleItem).join("");
       const section = container.closest("[data-compact-articles-section]");
       if (section) section.hidden = compactArticles.length === 0;

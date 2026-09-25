@@ -190,24 +190,34 @@
       "rule": "Deelt filterknoppen en groepsopmaak met Artikelen. Het gedeelde Op deze pagina-patroon linkt naar overzicht, zorgroute, betrouwbare informatie en artikelen/nieuwsbrief. Op desktop blijft dit menu bij het begin en tijdens het passeren van het volledige zichtbare filterblok verborgen; pas daarna verschijnt het als sticky zijmenu. Het verborgen menu reserveert geen lege ruimte, zodat het zoekveld, Onderwerp en Soort direct bovenaan de filterkolom beginnen. Daardoor komt het menu niet voor de filters te staan en blijft het gedrag correct wanneer afhankelijke filteropties verborgen zijn. Op mobiel staat het statisch boven de filters. Het zoekveld staat vóór Onderwerp en Soort. Onderwerp en Soort staan links op desktop en zijn boven de resultaten uitklapbaar op mobiel. Nogmaals klikken wist een keuze; de andere groep toont alleen combinaties met resultaten. Het zoekveld zoekt binnen actieve filters zonder die keuzes te wijzigen. Bij één actief zoek- of filterresultaat krijgt de kaart een brede enkele kolom; twee resultaten gebruiken twee gelijke kolommen en drie resultaten drie kolommen. Bij meer dan drie resultaten blijven de eerste drie als volledige tegels staan; volgende resultaten worden compacte regels. Daarin staat het type als klein bovenlabel direct boven de titel, met de korte uitleg ernaast en een uitsnede van de bestaande kaartafbeelding rechts. Op smallere schermen staan label, titel en uitleg onder elkaar terwijl de afbeelding rechts zichtbaar blijft. Op mobiel staan volledige resultaten altijd in één kolom. Zonder actieve keuze blijft het volledige tegeloverzicht behouden. De URL bewaart filterkeuzes. Bestaande afbeeldingen, categorieën, kaartvolgorde en conceptgrenzen blijven ongewijzigd; introductie blijft boven het overzicht."
     },
     {
+      "id": "site-feedback",
+      "name": "Tijdelijke websitefeedback",
+      "source": "index.html",
+      "selector": ".site-footer",
+      "markers": [
+        "site-footer"
+      ],
+      "sources": [
+        "feedback.css",
+        "feedback.js"
+      ],
+      "rule": "Tijdelijke, wegklikbare feedbackkaart na vijf verschillende publieke pagina's, met een kleine handmatige link in de footer. Geen focusdwang of schermvullend venster. Controleer licht/donker, 360/390/430 px, toetsenbord, vensterhoogte en het campagne-einde. Feedback is geen medische contactroute; publicatie en mailactivering volgen de afzonderlijke vrijgave."
+    },
+    {
       "id": "artrose-scrollverhaal",
-      "name": "Visueel scrollartikel — lokale conceptvariant",
-      "source": "concepten/artrosezorg-in-transitie-visueel/index.html",
+      "name": "Visueel scrollartikel — Artrosezorg in transitie",
+      "source": "artikelen.html",
       "selector": ".scroll-story",
       "markers": [
         "scroll-story",
         "artrose-story"
       ],
       "sources": [
-        "concepten/artrosezorg-in-transitie-visueel/story.css",
-        "concepten/artrosezorg-in-transitie-visueel/story.js",
-        "concepten/artrosezorg-in-transitie-visueel/journey_art.py",
-        "concepten/artrosezorg-in-transitie-visueel/verhaal.json",
-        "concepten/artrosezorg-in-transitie-visueel/build.py",
-        "concepten/artrosezorg-in-transitie-visueel/build_integration.py",
-        "concepten/artrosezorg-in-transitie-visueel/integratie/integration.css"
+        "assets/artrose-story/story-2bf2b988c40f.css",
+        "assets/artrose-story/story-8c83fdb90c6a.js",
+        "tools/build_artrose_release.py"
       ],
-      "rule": "Lokale NTvG-reis: acht ongenummerde momenten delen één paginabrede SVG-wereld. Maximaal 420 px tekst wisselt links/rechts; camera en reiziger bewegen tussen gereserveerde leesgebieden. Moderne isometrische gebouwen, geleidelijke accenten per moment, zittend gesprek en bewegen. Nederland zoomt naar Tilburg en maakt plaats voor een schematisch regionaal netwerk; stippen zijn geen aangesloten zorgverleners. Looprichting volgt het pad. Alle beweging volgt scrollpositie; terugscrollen spoelt terug, geen animatielus of scrollblokkering. Mobiel gebruikt het beeld 40svh. Leesmodus, no-JS, minder beweging, lage schermen en grote tekst tonen dezelfde inhoud met acht stilstaande uitsneden. Alleen lokaal concept, geen behandelvolgorde of herstelclaim. Dezelfde protagonistbron voedt opening, animatie en stilstaande beelden. De hoofdpersoon blijft ook naast de kaart zichtbaar. Mobiele SVG-labels worden vervangen door een leesbaar HTML-bijschrift met schematische duiding. Moduswisseling behoudt het leesanker; stilstaande beelden reserveren hun beeldverhouding. Na de reis volgen vier semantische kaarten in een 2×2-raster, op mobiel één kolom: eigen bijdrage, NOV, bronartikel en patiëntenroute. Het scrolltoneel wordt aan de verhaalcontainer afgeknipt en bedekt deze kaarten niet. De opening kan een auteursprofiellink bevatten. Lokale plaatsingspreviews hergebruiken de verhaalbron: volledig verhaal onder het artikeloverzicht, buiten de filters; standaard vijf eerdere artikelen en bij een actief filter alle matches. De homepagevoorproef gebruikt dezelfde hoofdpersoon en een korte scrollgestuurde wandeling, met stilstand bij verminderde beweging. Mobiel staat het beeld direct onder de titel. Productiepagina’s blijven ongewijzigd. De homepageplaatsing staat vóór de vakgroep en bevat nu de echte eerste twee verhaalmomenten, tot en met Meer dan het gewricht, gevolgd door een vervolg-link naar Uitleg. De inleiding blijft behouden; beeld en tekst gebruiken dezelfde verhaalbron en renderer. De homepage eindigt met een geïllustreerd bord Lees verder dat de persoon scrollgestuurd neerzet. Het bord is een SVG-link met toetsenbordfocus en een stilstaande reduced-motion/no-JS-variant; geen los tekstblok onder de reis. Het bord staat nu in het bestaande SVG-toneel: dezelfde hoofdpersoon zet het neer, zonder tweede persoon of afzonderlijke slotscène. De bestaande scrollrenderer regelt ook het bord en het bukken; statische leesmodus behoudt een gewone vervolg-link."
+      "rule": "Publieke scrollvertelling op artikelen.html buiten de filters; homepagevoorproef vóór de vakgroep. Acht ongenummerde momenten delen één SVG-wereld. Rustige leesfasen, scrollgestuurde wandeling, leefstijlbegeleiding en netwerk rond dezelfde persoon. Vier afsluitkaarten. Reduced-motion, grote tekst en geen JavaScript behouden een statische leesversie. Menu blijft sticky met gemeten bovenruimte. Zie DESIGN_SYSTEM.md voor de vrijgegeven toepassing."
     }
   ]
 }

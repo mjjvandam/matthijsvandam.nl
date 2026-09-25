@@ -20,7 +20,13 @@ def rebase(html, origin):
     return re.sub(r'(href|src|action)="([^"]+)"',attr,html)
 
 def page(name):
-    html=rebase((SITE/name).read_text(),'/')
+    base=(SITE/name).read_text()
+    if '<!-- ARTROSE-STORY:START -->' in base:
+        base=re.sub(r'<!-- ARTROSE-STORY:START -->.*?<!-- ARTROSE-STORY:END -->','',base,flags=re.S)
+        base=re.sub(r'<(?:link|script)[^>]*(?:href|src)="/?assets/artrose-story/[^>]+>(?:</script>)?','',base)
+        if name=='artikelen.html':
+            base=base.replace('<main><div class="listing-page articles-browser" id="articles-content">','<main class="listing-page articles-browser" id="articles-content">').replace('</div></main>','</main>')
+    html=rebase(base,'/')
     html=html.replace('content="index, follow"','content="noindex, nofollow"')
     html=re.sub(r'<script type="application/ld\+json">.*?</script>','',html,flags=re.S)
     html=re.sub(r'<link rel="canonical"[^>]*>','',html)
@@ -69,7 +75,7 @@ article=article.replace('<main class="listing-page articles-browser" id="article
 article=article.replace('</main>', '</div>'+feature+'</main>')
 article=article.replace('<body>', '<body class="placement-articles">')
 article=article.replace('</body>',f'<script src="{PREVIEW}story.js"></script></body>')
-(OUT/'artikelen.html').write_text(article)
+(OUT/'artikelen.html').write_text('\n'.join(line.rstrip() for line in article.split('\n')))
 
 # Scope the existing art direction to the feature, keeping site navigation intact.
 scoped=(ROOT/'story.css').read_text().replace('.artrose-story', ':scope').replace('.has-motion', ':scope.has-motion').replace('.has-js', ':scope.has-js')
@@ -164,5 +170,5 @@ anchor='      <section class="section location-band"'
 assert home.count(anchor)==1
 home=home.replace(anchor,opening+'\n'+anchor)
 home=home.replace('</body>',f'<script src="{PREVIEW}story.js"></script></body>')
-(OUT/'index.html').write_text(home)
+(OUT/'index.html').write_text('\n'.join(line.rstrip() for line in home.split('\n')))
 print('Plaatsingspreviews:', OUT)
