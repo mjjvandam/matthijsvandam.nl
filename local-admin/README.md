@@ -49,6 +49,10 @@ De werklijst bevat ook contact, nieuwsbrief, redactionele concepten, techniek, v
 
 Deze aanvullende taken worden onderhouden in `work-items.json`, met bronpaden en gecontroleerde inhoudsversies. Wijzigt of ontbreekt een bron, dan vraagt de taak opnieuw om statuscontrole en vervalt een oude leesmarkering. Werk de betreffende taak pas na herbeoordeling bij. Dubbele algemene verslagtaken worden alleen vervangen zolang de concrete taken bij het actuele verslag horen. Zie [de inventaris en onderhoudsafspraken](WORK_ITEMS_REVIEW.md).
 
+## Pagina openen vanuit een taak
+
+Artikeltaken met een bestaande HTML-leesversie hebben **Pagina openen**. De lokale pagina opent in dezelfde browser; geef daarna in Codex aan wat je wilt aanpassen. Dit is een leespreview van het bronbestand, geen extra editor of publicatie. De koppeling staat expliciet als `page_path` in `work-items.json`; alleen bestaande HTML in `artikelen/` of `concepten/previews/` is toegestaan. Ontbrekende bestanden en symlinks leveren geen knop op. De route blijft binnen de bestaande lokale sessie en previewbeveiliging.
+
 ## Frisse blik
 
 **Frisse blik** toont één verbeteridee tegelijk, vanuit bijvoorbeeld een ondernemer, ICT'er, arts/verwijzer, patiënt of redacteur/ontwerper. De eerste verzameling is door Codex samengesteld voor deze site. Ook grotere mogelijkheden, zoals geavanceerdere bezoekersanalyse, een zoekfunctie, een brongebonden AI-leesassistent en advertentieruimte, mogen als onderzoeksidee worden voorgesteld. Per idee staan het voorstel, de mogelijke waarde, een eerste stap, de inspanning, een afweging en een manier om het te toetsen.
@@ -81,6 +85,17 @@ Het startoverzicht kan een gedateerde, bewijsgebonden tip tonen op basis van de 
 Het startdashboard toont de vijf best bezochte pagina's uit die opname; **Bezoekers** toont de volledige beschikbare ranglijst. Paginanamen komen uit het bestaande publicatieregister. Sortering volgt het aantal bezoekers; afzonderlijke homepageadressen worden niet opgeteld. De twee hoofdtellers hebben een korte uitleg en een absolute periode. Het optionele `period_label` is alleen een leesbaar label bij de ongewijzigde providerperiode; het wijzigt geen aantallen of vastlegtijdstip. Zie [de bezoekerscontrole](../docs/site/reviews/analytics-dashboard-2026-09-10.md).
 
 Wanneer de handmatig gecontroleerde momentopname aanvullende Vercel-uitsplitsingen bevat, toont **Bezoekers** ook verwijzende websites, landen, apparaten, browsers, besturingssystemen en bouncepercentage. Dit zijn afgeronde, geaggregeerde gegevens uit dezelfde geselecteerde providerperiode. Ontbrekende uitsplitsingen blijven leeg; zij worden niet als nul ingevuld. De pagina vernieuwt niet op de achtergrond.
+
+## Nieuwsbriefinschrijvingen
+
+Overzicht en Nog te doen tonen de gecontroleerde telling uit `state/newsletter.json`.
+Tel unieke bevestigde lezers op de productielijsten 4–8, zonder uitgeschreven contacten
+en zonder eigen/testadressen. Tel meerdere onderwerpkeuzes van één lezer niet op.
+Bewaar alleen `source: "Brevo browser verification"`, `captured_at` met tijdzone,
+`confirmed_subscribers` en `excluded_test_contacts`; geen persoonsgegevens.
+Werk de opname alleen na echte controle in Brevo bij. Na 24 uur verschijnt
+**opnieuw controleren**. Vernieuwen leest de lokale opname; de Brevo-link opent
+de actuele providergegevens. Er is geen automatische koppeling ingericht.
 
 ## Codex en de editor gebruiken dezelfde bron
 

@@ -1,0 +1,56 @@
+{
+  "status": "concept — medische eigenaarreview en livegang open",
+  "url": "/artikelen/artrosezorg-in-transitie-visueel.html",
+  "title": "Artrosezorg in transitie: een visueel verhaal",
+  "description": "Visuele uitleg van de NTvG-beschouwing Artrosezorg in transitie: uitleg, bewegen, welzijn en een landelijk programma met regionale samenwerking.",
+  "audience": [
+    "patienten"
+  ],
+  "topics": [
+    "artrose",
+    "leefstijl",
+    "onderzoek"
+  ],
+  "project": "",
+  "archive": false,
+  "featured": false,
+  "shareImage": "assets/deelafbeelding.png",
+  "proposedIncomingLinks": [
+    {
+      "from": "artikelen/artrosezorg-transitie-patienten.html",
+      "text": "Bekijk het visuele verhaal over artrosezorg"
+    },
+    {
+      "from": "artikelen/artrosezorg-transitie-professionals.html",
+      "text": "De beschouwing uitgelegd voor een breed publiek"
+    },
+    {
+      "from": "publicaties.html",
+      "text": "Visuele uitleg bij Artrosezorg in transitie"
+    }
+  ],
+  "proposedRelatedLinks": [
+    {
+      "route": "algemene patientinformatie",
+      "target": "artikelen/artrosezorg-transitie-patienten.html"
+    },
+    {
+      "route": "verdieping voor professionals",
+      "target": "artikelen/artrosezorg-transitie-professionals.html"
+    },
+    {
+      "route": "veiligheid",
+      "target": "disclaimer.html"
+    }
+  ],
+  "releaseSteps": [
+    "Inhoudelijk akkoord van Matthijs op definitieve tekst, onderzoeksfiguur en beeldbetekenis vastleggen",
+    "Afzonderlijke livegangtoestemming verkrijgen",
+    "Alleen vrijgegeven bestanden verplaatsen; relatieve asset- en sitelinks aanpassen",
+    "Publicatiedatum, canonical, OpenGraph, Twitter en Article JSON-LD op werkelijke definitieve URL invullen",
+    "Goedgekeurde content.js-vermelding en inkomende links activeren",
+    "Sitemap, robots, publicatieregister en Vercel-whitelist bewust synchroniseren",
+    "Regressiecontrole, deployment en live HTTP/browsercheck",
+    "Search Console volgens local-admin/SEARCH_CONSOLE_WORKFLOW.md controleren"
+  ]
+}

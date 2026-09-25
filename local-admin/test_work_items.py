@@ -38,6 +38,41 @@ class WorkItemTests(unittest.TestCase):
     def hash(self):
         return hashlib.sha256(self.source.read_bytes()).hexdigest()
 
+    def test_explicit_article_preview_opens_locally_and_private_paths_are_rejected(self):
+        relative = "concepten/previews/test-artikel.html"
+        page = self.repo / relative
+        page.parent.mkdir(parents=True)
+        page.write_text('<html><head><meta name="robots" content="index, follow"></head><body><h1>Voorbeeld</h1></body></html>')
+        self.catalog["items"][0]["page_path"] = relative
+        self.write_catalog()
+        self.assertEqual(self.tasks()["work-newsletter"]["page_url"], "/task-page/work-newsletter")
+        server = LocalServer(("127.0.0.1", 0), SimpleNamespace(repo=self.repo, state_dir=self.state))
+        threading.Thread(target=server.serve_forever, daemon=True).start()
+        self.addCleanup(server.server_close)
+        self.addCleanup(server.shutdown)
+        client = http.client.HTTPConnection("127.0.0.1", server.server_port, timeout=5)
+        self.addCleanup(client.close)
+        client.request("GET", "/api/session")
+        response = client.getresponse()
+        cookie = response.getheader("Set-Cookie").split(";")[0]
+        response.read()
+        client.request("GET", "/task-page/work-newsletter", headers={"Cookie": cookie})
+        response = client.getresponse()
+        self.assertEqual(response.status, 200)
+        body = response.read().decode()
+        self.assertIn("Voorbeeld", body)
+        self.assertIn("noindex, nofollow", body)
+        self.assertIn("Lokale leesversie", body)
+        for unsafe in ("local-admin/state/private.html", "concepten/previews/../../local-admin/state/private.html", "artikelen/absent.html"):
+            self.assertIsNone(inventory.work_page_path(self.repo, unsafe))
+        page.unlink()
+        page.symlink_to(self.source)
+        self.assertNotIn("page_url", self.tasks()["work-newsletter"])
+        client.request("GET", "/task-page/work-newsletter", headers={"Cookie": cookie})
+        response = client.getresponse()
+        self.assertEqual(response.status, 404)
+        response.read()
+
     def write_catalog(self):
         self.catalog_path.write_text(json.dumps(self.catalog, ensure_ascii=False))
 

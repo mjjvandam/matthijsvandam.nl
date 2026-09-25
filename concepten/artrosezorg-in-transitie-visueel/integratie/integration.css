@@ -1,0 +1,64 @@
+@import url('./story-scoped.css');
+.placement-notice{padding:.45rem 1rem;text-align:center;font-size:.75rem;background:var(--green-soft);color:var(--ink)}
+.artrose-story{border-top:1px solid var(--line);margin:3rem auto 0;max-width:none;width:100%}
+.artrose-story .feature-title{font:400 clamp(3.6rem,7vw,6rem)/1.02 Georgia,serif;letter-spacing:-.055em;max-width:650px;position:relative;z-index:1}
+.artrose-story .feature-title em{color:var(--green);font-weight:400}
+.artrose-teaser{display:grid;grid-template-columns:1fr 1.15fr;align-items:center;gap:1rem;border-block:1px solid var(--line);padding-block:3.5rem;margin-block:2rem;background:var(--paper)}
+.teaser-copy{position:relative;z-index:1;max-width:440px}.teaser-copy h2{font:400 clamp(2.8rem,4.7vw,4.6rem)/1.05 Georgia,serif;letter-spacing:-.045em;margin:1rem 0 1.5rem}.teaser-copy em{color:var(--green);font-weight:400}.teaser-copy p{line-height:1.8}.teaser-copy .article-link{margin-top:1rem}.teaser-eyebrow{font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--green)}
+.teaser-art{min-width:0}.teaser-art svg{width:100%;height:auto;display:block;overflow:visible}.teaser-art .scene-detail{opacity:1}
+@media(max-width:849px){.artrose-teaser{grid-template-columns:1fr;gap:0;padding-block:2rem}.teaser-copy{max-width:600px}.teaser-art{max-width:550px;margin:-1rem auto 0;width:100%}.artrose-story .feature-title{font-size:clamp(3rem,10vw,5rem)}}
+.placement-articles .site-header{position:sticky;top:0}
+@media(max-width:849px){.teaser-copy{display:contents}.teaser-copy>*{order:3}.teaser-copy .teaser-eyebrow{order:0;font-size:.7rem}.teaser-copy h2{order:1;margin-bottom:0}.teaser-art{order:2;margin:0 auto}.teaser-copy .article-link{order:4}.teaser-art .scene-pill{display:none}}
+/* Homepage: de echte reis tot en met de hele persoon, vóór de vakgroep. */
+.home-story .artrose-teaser{border:0;margin-block:0}.home-story .teaser-art svg{background:transparent;border-radius:0}
+.home-story-continue{max-width:1068px;width:calc(100% - 72px);margin:0 auto;padding:2rem 0 4rem;border-bottom:1px solid var(--line)}
+.home-story-continue p{max-width:550px;font:400 1.5rem/1.5 Georgia,serif}
+.home-story.has-motion .journey-moment:last-child{min-height:100svh;padding-bottom:8vh}
+body:has(.home-story) .site-header{position:sticky;top:0}
+@media(max-width:849px){.home-story-continue{width:88%}.home-story.has-motion .journey-moment:last-child{min-height:0;padding-bottom:8vh}}
+.home-story .teaser-copy h2{font:400 clamp(2.8rem,4.7vw,4.6rem)/1.05 Georgia,serif;letter-spacing:-.045em;margin:1rem 0 1.5rem}
+html:has(.home-story){scroll-behavior:auto}
+.home-story-farewell{position:relative;isolation:isolate;background:var(--paper);max-width:680px;margin:0 auto;padding:0 1rem 2rem}
+.home-story-farewell svg{display:block;width:100%;height:auto;overflow:visible}
+.home-story-farewell a{cursor:pointer}.home-story-farewell a:hover .farewell-board,.home-story-farewell a:focus-visible .farewell-board{fill:#35644e;stroke:var(--clay);stroke-width:4}
+.home-story-farewell a:focus-visible{outline:none}
+@media(max-width:849px){.home-story-farewell{padding:0 0 1rem}}
+/* The sign belongs to the same world and actor, not a separate closing scene. */
+.home-story #journey-sign a{pointer-events:all;cursor:pointer}
+.home-story #journey-sign a:hover .farewell-board,.home-story #journey-sign a:focus-visible .farewell-board{fill:#35644e;stroke:var(--clay);stroke-width:4}
+.home-story #journey-sign a:focus-visible{outline:none}
+.home-story .journey-text{pointer-events:none}.home-story .journey-copy{pointer-events:auto}
+.home-static-continue{text-align:center;padding:1rem 0 3rem}.home-static-continue a{display:inline-block;background:#244c3d!important;color:#fffdf8!important;padding:1rem 2rem;border-radius:.5rem;text-decoration:none}
+.home-story.has-motion .home-static-continue{display:none}
+.home-story.has-motion .journey-moment:last-child{min-height:155svh;padding-bottom:40vh}
+@media(max-width:849px){.home-story.has-motion .journey-moment:last-child{min-height:160svh;padding-bottom:60vh}}
+/* Compacte homepage-opening over de contentbreedte; de illustratie begint in de reis. */
+.home-story .artrose-teaser{display:block;max-width:1140px;width:100%;padding:2rem 36px 1rem;margin:0 auto;box-sizing:border-box}
+.home-story .teaser-copy{display:block;max-width:none}
+.home-story .teaser-copy h2{font-size:clamp(2.4rem,4.2vw,3.8rem);margin:.7rem 0 1.2rem}
+.home-story .teaser-copy p{max-width:none;margin:0 0 .85rem;line-height:1.65}
+.home-story .teaser-copy .teaser-eyebrow{font-size:.7rem;margin:0 0 .7rem}
+.home-story.has-motion .journey-moment:first-child{padding-top:2rem}
+@media(max-width:849px){.home-story .artrose-teaser{padding:1.7rem 6vw .6rem}.home-story.has-motion .journey-moment:first-child{padding-top:46svh}}
+/* Kortere aansluiting van de homepage-inleiding op het eerste verhaalmoment. */
+@media(min-width:850px){#artrose-voorproef.has-motion .journey-moment:first-child{padding-top:.5rem}#artrose-voorproef.has-motion .journey-moment:first-child .journey-copy{padding-top:.5rem}}
+@media(max-width:849px){#artrose-voorproef.has-motion .journey-moment:first-child{padding-top:42svh}}
+/* De eerste homepage-scène start hoger en heeft minder lege uitloop. */
+@media(min-width:850px){
+ #artrose-voorproef.has-motion .journey-moment:first-child{min-height:105svh;padding-bottom:12vh}
+ #artrose-voorproef.has-motion .journey-moment:nth-child(2){align-items:flex-start;padding-top:8vh}
+}
+
+/* Keep the site menu available while the story has its own sticky stage. */
+:root { --preview-header-height: 76px; }
+body .artrose-story.has-motion .journey-stage {
+  top: var(--preview-header-height);
+  height: calc(100svh - var(--preview-header-height));
+  margin-bottom: calc(var(--preview-header-height) - 100svh);
+}
+body .artrose-story .journey-moment { scroll-margin-top: calc(var(--preview-header-height) + 1rem); }
+@media(max-width:849px) {
+  body .artrose-story.has-motion .journey-stage { height:40svh; margin-bottom:-40svh; }
+  body .artrose-story.has-motion .journey-moment { scroll-margin-top: calc(var(--preview-header-height) + 40svh); }
+  body .artrose-story.has-motion .journey-copy { position:relative; }
+}

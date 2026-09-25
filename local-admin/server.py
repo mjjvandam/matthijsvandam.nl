@@ -526,6 +526,18 @@ class Handler(BaseHTTPRequestHandler):
                     raise ValidationError("Ongeldige revisie.") from None
                 model, document = self.server.store.model_document(match[1], revision)
                 return self.send(200, preview_html(model, document, revision, self.server.store.repo), "text/html; charset=utf-8")
+            task_page = re.fullmatch(r"/task-page/(work-[a-z0-9-]+)", path)
+            if self.command == "GET" and task_page:
+                from inventory import _work_tasks, work_page_path
+                task = next((item for item in _work_tasks(self.server.store.repo)
+                             if item["id"] == task_page[1]), {})
+                relative = work_page_path(self.server.store.repo, task.get("page_path"))
+                if not relative:
+                    return self.send(404, {"error": "Deze taak heeft geen lokale HTML-preview."})
+                candidate = self.server.store.repo / relative
+                return self.send(200, protect_preview(candidate.read_text(encoding="utf-8"), relative,
+                                                     local_url=path, repo=self.server.store.repo, reference=True),
+                                 "text/html; charset=utf-8")
             reference = re.fullmatch(r"/reference/(behandelingen/[a-z0-9-]+\.html)", path)
             if self.command == "GET" and reference:
                 candidate = (self.server.store.repo / reference[1]).resolve()

@@ -23,6 +23,9 @@ class Markers(HTMLParser):
 def data():
     catalog = json.loads(CATALOG.read_text())
     pages = sorted(p for pattern in ('*.html','artikelen/*.html','projecten/*.html','behandelingen/*.html') for p in ROOT.glob(pattern))
+    # Explicit local examples may live below concepten/. Include only catalogued
+    # examples there, not every historical preview or editorial-learning artifact.
+    pages = sorted(set(pages) | {ROOT / entry['source'] for entry in catalog['components']})
     parsed = {}
     for p in pages:
         parser = Markers(); parser.feed(p.read_text()); parsed[p.relative_to(ROOT).as_posix()] = parser.values

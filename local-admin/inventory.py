@@ -643,6 +643,17 @@ def _work_source(repo_root, value):
     return {"path": relative, "sha256": expected}, current
 
 
+def work_page_path(repo_root, value):
+    """Only explicitly selected article HTML may be opened from a work task."""
+    if not isinstance(value, str) or not re.fullmatch(r"(?:artikelen|concepten/previews)/[a-z0-9-]+\.html", value):
+        return None
+    root = Path(repo_root).resolve()
+    candidate = root / value
+    if candidate.is_file() and candidate.resolve() == candidate and not candidate.is_symlink():
+        return value
+    return None
+
+
 def _work_tasks(repo_root):
     """Curated workflow states are evidence-bound, separate from medical review."""
     root = Path(repo_root).resolve()
@@ -666,7 +677,7 @@ def _work_tasks(repo_root):
         tasks, ids = [], set()
         required = {"id", "title", "category", "status", "status_label", "detail", "next_action", "priority", "sources"}
         for item in data["items"]:
-            if not isinstance(item, dict) or not required <= set(item) or not set(item) <= required | {"url", "replaces_report"}:
+            if not isinstance(item, dict) or not required <= set(item) or not set(item) <= required | {"url", "replaces_report", "page_path"}:
                 raise ValueError("Ongeldige werktaak.")
             task_id = item["id"]
             if not isinstance(task_id, str) or not re.fullmatch(r"work-[a-z0-9-]{1,140}", task_id) or task_id in ids:
@@ -695,6 +706,9 @@ def _work_tasks(repo_root):
             task.update(kind="work", workflow_status=status, next_action=next_action, priority=item["priority"],
                         reviewed_at=data["reviewed_at"], evidence_changed=changed,
                         sources=[source for source, _ in evidence])
+            page_path = work_page_path(root, item.get("page_path"))
+            if page_path:
+                task.update(page_path=page_path, page_url="/task-page/" + task_id)
             if "replaces_report" in item:
                 task["replaces_report"] = item["replaces_report"]
             tasks.append(task)
@@ -718,10 +732,12 @@ def build_dashboard(repo_root: Path, state_dir: Path):
         analytics = {"status": "Niet beschikbaar", "message": "Er zijn geen gecontroleerde bezoekcijfers beschikbaar."}
     from search_console import read_search_console
     search_console = read_search_console(state_dir)
+    from newsletter import read_newsletter
+    newsletter = read_newsletter(state_dir)
     from ideas import read_ideas, idea_tasks
     ideas = read_ideas(repo_root, state_dir)
     return {"generated_at": _iso(_now()), "tasks": _with_checks(_raw_tasks(repo_root), state_dir) + idea_tasks(ideas),
-            "routines": _routines(repo_root), "agents": _agents(state_dir), "analytics": analytics, "ideas": ideas, "search_console": search_console}
+            "routines": _routines(repo_root), "agents": _agents(state_dir), "analytics": analytics, "ideas": ideas, "search_console": search_console, "newsletter": newsletter}
 
 
 @contextmanager

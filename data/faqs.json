@@ -2706,7 +2706,7 @@
     "peesplaatklachten-hielspoor-is-beeldvorming-altijd-nodig-bij-pijn-onder-de-hiel": {
       "id": "peesplaatklachten-hielspoor-is-beeldvorming-altijd-nodig-bij-pijn-onder-de-hiel",
       "question": "Is beeldvorming altijd nodig bij pijn onder de hiel?",
-      "answerHtml": "<p>\n  Niet altijd. Het verhaal en lichamelijk onderzoek geven vaak veel richting. Röntgenfoto,\n  echo of MRI kan worden overwogen bij twijfel, trauma, atypische klachten, langdurige klachten\n  of verdenking op stressletsel.\n</p>",
+      "answerHtml": "<p>\n  Meestal niet. Bij twijfel over de diagnose of onvoldoende verbetering na passende behandeling kan een echo zinvol zijn. Een röntgenfoto is niet bedoeld om alleen een hielspoor aan te tonen. MRI is voor specifieke situaties waarin echo en onderzoek niet overeenkomen of een andere aandoening wordt vermoed.\n</p>",
       "audience": "patient",
       "topics": [
         "peesplaatklachten-hielspoor"
@@ -2721,7 +2721,7 @@
     "peesplaatklachten-hielspoor-welke-behandeling-wordt-meestal-eerst-besproken": {
       "id": "peesplaatklachten-hielspoor-welke-behandeling-wordt-meestal-eerst-besproken",
       "question": "Welke behandeling wordt meestal eerst besproken?",
-      "answerHtml": "<p>\n  Vaak gaat het eerst om uitleg, belasting aanpassen, schoenen en demping beoordelen, kuit- en\n  peesplaatgerichte oefeningen, fysiotherapie, taping, zoolaanpassing of geleidelijke\n  sportopbouw. De keuze hangt af van de situatie.\n</p>",
+      "answerHtml": "<p>\n  De behandeling begint met uitleg, belasting aanpassen en passend schoeisel. Daarbij horen minimaal 12 weken dagelijkse rekoefeningen of opbouwende krachtoefeningen om de dag. De keuze wordt samen met de behandelaar gemaakt. Verbetering kan binnen die periode optreden, maar volledig herstel duurt vaak langer.\n</p>",
       "audience": "patient",
       "topics": [
         "peesplaatklachten-hielspoor"
@@ -2738,7 +2738,7 @@
     "peesplaatklachten-hielspoor-zijn-injecties-shockwave-of-operatie-standaard": {
       "id": "peesplaatklachten-hielspoor-zijn-injecties-shockwave-of-operatie-standaard",
       "question": "Zijn injecties, shockwave of operatie standaard?",
-      "answerHtml": "<p>\n  Nee. Injecties, shockwave of operatieve richtingen worden alleen geselecteerd besproken. Ze\n  vervangen geen zorgvuldige beoordeling van de oorzaak, duur, risico's en eerdere behandeling.\n</p>",
+      "answerHtml": "<p>\n  Nee. Shockwave kan worden overwogen na minimaal 12 weken adequate uitleg en oefentherapie zonder effect. Met injecties wordt terughoudend omgegaan. Een operatie komt volgens de richtlijn alleen in beeld bij een aantoonbaar verkorte kuitspier en onvoldoende herstel na minimaal één jaar adequate behandeling zonder operatie.\n</p>",
       "audience": "patient",
       "topics": [
         "peesplaatklachten-hielspoor"

@@ -178,6 +178,7 @@
     const review = state.articles.filter(article => article.status === 'Ter beoordeling' && !unchangedPublishedArticle(article));
     main.append(heading('Goed om weer verder te gaan.', 'Een plek voor je teksten, openstaande beoordelingen en het werk dat voor deze website wordt gedaan.', button('Vernieuwen', refresh)));
     main.append(el('div', { class: 'stats-grid' }, stat('Nog te doen', open.length, 'Bekijk de openstaande punten', 'taken'), stat('Werkversies ter beoordeling', review.length, 'Controleer de voorgestelde wijzigingen', 'artikelen'), stat('Ingerichte routines', routines.length, 'Bekijk planning en laatste bevindingen', 'routines')));
+    main.append(newsletterCountPanel());
     main.append(renderIdeaSpotlight());
     const taskList = el('div', { class: 'list' });
     representativeTasks(open).forEach(task => taskList.append(el('div', { class: 'list-row' }, el('div', { class: 'list-main' }, el('h3', {}, task.title), el('div', { class: 'row-meta' }, badge(taskStatus(task)), taskGroup(task)), task.next_action && el('p', { class: 'overview-next' }, task.next_action)), button('Bekijken', () => viewTasks({ search: task.title, category: taskGroup(task) }), 'compact'))));
@@ -208,9 +209,17 @@
     if (state.articleFilter !== 'all' && !statuses.includes(state.articleFilter)) state.articleFilter = 'all';
     main.append(el('div', { class: 'filter-bar' }, searchField('Zoek een artikel', state.articleSearch, value => { state.articleSearch = value; draw(); }, 'Titel van het artikel'), selectField('Status', state.articleFilter, [['all', 'Alle statussen'], ...statuses.map(s => [s, s])], value => { state.articleFilter = value; draw(); })), count, list); draw();
   }
+  function newsletterCountPanel() {
+    const n = state.dashboard?.newsletter || {};
+    const known = Number.isInteger(n.confirmed_subscribers) && n.confirmed_subscribers >= 0;
+    return el('section', { class: 'panel newsletter-panel' },
+      el('div', { class: 'panel-header' }, el('div', {}, el('p', { class: 'eyebrow' }, 'Nieuwsbrief'), el('h2', {}, known ? `${n.confirmed_subscribers} bevestigde ${n.confirmed_subscribers === 1 ? 'lezer' : 'lezers'}` : 'Aantal lezers nog niet opgehaald')), link('Actuele inschrijvingen in Brevo', n.dashboard_url || 'https://app.brevo.com/contact/list', 'compact')),
+      el('p', { class: 'subtle' }, known ? `Unieke lezers met een bevestigde inschrijving. Eigen/testcontacten uitgesloten: ${n.excluded_test_contacts}. Iemand met meerdere onderwerpen telt één keer.` : 'Onbekende aantallen worden niet als nul getoond.'),
+      el('p', { class: 'small subtle' }, known ? `Gecontroleerd op ${fmt(n.captured_at)} · opgeslagen momentopname${n.stale ? ' · opnieuw controleren' : ''}. Vernieuwen leest deze opname opnieuw; het haalt geen nieuwe inschrijvingen op uit Brevo.` : 'Open Brevo voor de actuele stand.'));
+  }
   function newsletterPanel(tasks) {
     const byId = id => tasks.find(task => task.id === id);
-    const status = (id, fallback) => byId(id)?.status_label || fallback;
+    const status = (id, fallback) => byId(id)?.status || fallback;
     const row = (label, value, tone = '') => el('div', { class: 'newsletter-status-row' }, el('dt', {}, label), el('dd', { class: tone }, value));
     return el('section', { class: 'panel newsletter-panel' },
       el('div', { class: 'panel-header' }, el('div', {}, el('p', { class: 'eyebrow' }, 'Contact & nieuwsbrief'), el('h2', {}, 'Nieuwsbriefbeheer'), el('p', { class: 'subtle' }, 'Werkvoorraad, campagnedossier en vrijgavepoorten bij elkaar. Providergegevens worden niet als actueel ingevuld zonder readback.'))),
@@ -218,8 +227,8 @@
         el('div', {}, el('h3', {}, 'Ketenstatus'), el('dl', { class: 'newsletter-status' },
           row('Aanmelding + dubbele opt-in', status('work-newsletter-signup', 'Nog niet vastgesteld'), 'status-open'),
           row('Voorkeuren + afmelden', status('work-newsletter-preferences', 'Nog niet vastgesteld'), 'status-open'),
-          row('Eigenaarmelding nieuwe inschrijving', byId('work-newsletter-owner-notification')?.status || 'Niet ingericht', 'status-open'),
-          row('Publieke inschrijving', 'Nog niet actief', 'status-waiting'),
+          row('Eigenaarmelding nieuwe inschrijving', status('work-newsletter-owner-notification', 'Niet vastgesteld'), 'status-open'),
+          row('Publieke inschrijving', state.dashboard?.newsletter?.confirmed_subscribers > 0 ? 'Bevestigde inschrijving waargenomen · zie peildatum hierboven' : 'Niet vastgesteld', 'status-waiting'),
           row('Brevo-campagne', 'Concept · geen ontvangers · niet gepland', 'status-open'),
           row('Werkelijke verzending', 'Niet verzonden', 'status-waiting')
         )),
@@ -244,7 +253,7 @@
     main.append(heading('Nog te doen', 'Contact, nieuwsbrief, inhoud en onderhoud bij elkaar. Kies een onderwerp om gericht verder te werken.', button('Vernieuwen', refresh)));
     const feedback = ideaFeedback(); if (feedback) main.append(feedback);
     const all = state.dashboard?.tasks || [], list = el('div', { class: 'task-groups' }), count = el('p', { class: 'search-count', 'aria-live': 'polite' });
-    main.append(newsletterPanel(all));
+    main.append(newsletterCountPanel(), newsletterPanel(all));
     const categories = el('div', { class: 'task-categories', role: 'group', 'aria-label': 'Hoofdonderwerp' });
     const categoryButtons = [];
     function matchesProgress(task) {
@@ -256,7 +265,8 @@
     }
     function taskRow(task) {
       const actions = el('div', { class: 'task-actions' });
-      if (task.url) actions.append(link('Pagina bekijken', task.url, 'compact'));
+      if (task.page_url) actions.append(el('a', { class: 'button compact', href: safeURL(task.page_url), target: '_self' }, 'Pagina openen'));
+      else if (task.url) actions.append(link('Pagina bekijken', task.url, 'compact'));
       if (task.kind === 'idea') {
         const idea = ideaItems().find(item => item.id === task.idea_id);
         actions.append(button('Bekijk idee', () => viewIdea(task.idea_id), 'compact', { disabled: !idea }), button('Uit Nog te doen halen', () => idea && chooseIdea(idea, 'saved'), 'text-button compact', { 'data-idea-action': 'remove', disabled: !idea || state.ideaBusy }));
