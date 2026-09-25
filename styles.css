@@ -7044,6 +7044,18 @@ body:has(.home-story) .site-header .theme-toggle {
     linear-gradient(180deg, rgba(220, 232, 223, 0.48), rgba(255, 253, 248, 0.82)),
     var(--paper);
 }
+:root[data-theme="dark"] .newsletter-home {
+  background:
+    linear-gradient(180deg, rgba(37, 57, 47, 0.78), rgba(16, 23, 19, 0.96)),
+    var(--paper);
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .newsletter-home {
+    background:
+      linear-gradient(180deg, rgba(37, 57, 47, 0.78), rgba(16, 23, 19, 0.96)),
+      var(--paper);
+  }
+}
 .newsletter-home-panel {
   grid-template-columns: 1fr;
 }

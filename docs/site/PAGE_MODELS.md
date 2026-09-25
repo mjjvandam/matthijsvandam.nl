@@ -192,6 +192,12 @@ artikelen volgt “Lees hier meer over dit onderwerp” naar het passende artike
 Het volledige artikeloverzicht is de eindbestemming en toont na drie kaarten alle
 resterende titels; filters worden vóór deze verdeling toegepast.
 
+De homepage is hierop een bewuste compacte uitzondering: daar staan uitsluitend drie
+recente artikelkaarten en geen aanvullende titellijst. Patiënt- en professionalversies
+van hetzelfde artikelonderwerp vormen één groep. Als zo'n groep voor de homepage in
+aanmerking komt, rouleert de zichtbare versie eenmaal per dag; binnen de selectie telt
+de groep maar één keer mee. De link naar het volledige artikeloverzicht blijft staan.
+
 Bij het Transmuraal Tilburg Cohort geldt: expliciete cohortkoppeling óf de bestaande
 thema's artrose én leefstijl. Daarmee verschijnen ook artikelen over obesitasmedicatie
 en bariatrische chirurgie zonder die als cohortonderzoek te etiketteren. Andere

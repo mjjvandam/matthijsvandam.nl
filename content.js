@@ -271,6 +271,7 @@
       audience: ["patienten"],
       topics: ["voet-en-enkel", "onderzoek"],
       project: "3d-planning-voet-enkel",
+      pairedArticleGroup: "revisie-artrodese-3d-planning",
       archive: false,
     },
     {
@@ -286,6 +287,7 @@
       audience: ["zorgprofessionals"],
       topics: ["voet-en-enkel", "onderzoek"],
       project: "3d-planning-voet-enkel",
+      pairedArticleGroup: "revisie-artrodese-3d-planning",
       archive: false,
     },
     {
@@ -328,6 +330,7 @@
       date: "2025-04-01",
       audience: ["patienten"],
       topics: ["knie-kraakbeen"],
+      pairedArticleGroup: "mobility-clinic-knie-kraakbeen",
       archive: false,
     },
     {
@@ -342,6 +345,7 @@
       date: "2025-04-01",
       audience: ["zorgprofessionals"],
       topics: ["knie-kraakbeen"],
+      pairedArticleGroup: "mobility-clinic-knie-kraakbeen",
       archive: false,
     },
     {
@@ -356,6 +360,7 @@
       date: "2026-03-12",
       audience: ["zorgprofessionals"],
       topics: ["artrose", "leefstijl", "onderzoek"],
+      pairedArticleGroup: "artrosezorg-in-transitie",
       archive: false,
     },
     {
@@ -370,6 +375,7 @@
       date: "2026-03-12",
       audience: ["patienten"],
       topics: ["artrose", "leefstijl"],
+      pairedArticleGroup: "artrosezorg-in-transitie",
       archive: false,
     },
   ];
@@ -1812,6 +1818,35 @@
       (items.length > 8 ? `<p class="article-preview-more"><a class="text-link" href="${resolvePath(moreUrl)}">Lees hier meer over dit onderwerp</a></p>` : "");
   };
 
+  const homepageRotationIndex = (groupId, itemCount) => {
+    const dayKey = new Date().toISOString().slice(0, 10);
+    const seed = `${dayKey}:${groupId}`;
+    let hash = 0;
+    for (const character of seed) hash = ((hash * 31) + character.charCodeAt(0)) >>> 0;
+    return hash % itemCount;
+  };
+
+  const selectHomepageArticles = (items, limit = 3) => {
+    const groups = new Map();
+    items.forEach((article) => {
+      const groupId = article.pairedArticleGroup || article.id;
+      if (!groups.has(groupId)) groups.set(groupId, []);
+      groups.get(groupId).push(article);
+    });
+
+    return Array.from(groups.entries())
+      .map(([groupId, groupItems]) => groupItems[homepageRotationIndex(groupId, groupItems.length)])
+      .sort((left, right) => right.date.localeCompare(left.date))
+      .slice(0, limit);
+  };
+
+  const renderHomepageArticles = (items) => {
+    document.querySelectorAll("[data-content='home-articles']").forEach((container) => {
+      const selected = selectHomepageArticles(items, 3);
+      container.innerHTML = selected.map((article) => articleCard(article, { showAudience: true })).join("");
+    });
+  };
+
   const renderList = (selector, items, cardFactory) => {
     document.querySelectorAll(selector).forEach((container) => {
       if (cardFactory === articleCard) {
@@ -1842,7 +1877,7 @@
   };
 
   renderArticlesOverview(archiveArticles);
-  renderList("[data-content='home-articles']", archiveArticles.filter((article) => article.archive !== false && !article.hideFromHome), articleCard);
+  renderHomepageArticles(archiveArticles.filter((article) => article.archive !== false && !article.hideFromHome));
   renderArticleFilters(archiveArticles);
   renderList("[data-content='projects-list']", projects, projectCard);
   renderList("[data-content='home-projects']", projects.filter((project) => project.featured && project.id !== "transmuraal-tilburg-cohort").slice(0, 3), projectCard);

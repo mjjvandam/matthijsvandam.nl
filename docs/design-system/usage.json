@@ -3,7 +3,7 @@
   "catalogue_sources": {
     "docs/design-system/catalogue.js": "4e4fc72ad96574b8538187f3b2cd88851856de6fb3aaacbdec60fdaa790b4720",
     "docs/design-system/catalogue.css": "71b21f74acf3d686e873590f6c367f57856afed6ee3d8dc89049a95532875df8",
-    "docs/site/DESIGN_SYSTEM.md": "db34752c5ddbb72ac92ca2925b338f9951959b7620db8aeac91b4f59d25f6197"
+    "docs/site/DESIGN_SYSTEM.md": "6fd5497e802f52f9bc6f108d9e35fea938d9782dcf069ee3d44bf1c4254ef2b1"
   },
   "components": [
     {
@@ -348,7 +348,7 @@
       ],
       "fingerprints": {
         "404.html": "6c9c90e8b177d768f0aea567da2c5022f2cebf47062edb21b786f52ae50abb9e",
-        "advies-consultancy.html": "6c35a864428710dd10fba3d5cae7baab302ab4b6552f97635fb9d6ea29288a9f",
+        "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
         "artikelen.html": "6e0175de0812d0a418e6dc631c0afec36a96c389be20562f9d82436c41627aac",
         "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html": "0a1cb2f9651474a2000f7111e4af7a391001fd1a1e2147d47e8fa63d12df30a8",
         "artikelen/aaos-richtlijn-enkelartrose.html": "c1f2609c98adb81444cb110fb1355c9f71e7093b812e6c0a6bc7143a508dda75",
@@ -414,12 +414,12 @@
         "behandelingen/ziekte-van-freiberg.html": "5d86f067ff132823fd69f19da5ca597b31c4a8f97b4b3e57130a80fc0031082a",
         "concept-foot-pain-guide.html": "0e1745e0e24c358e89e24a1f9fb3a8fe4c0678a0341d32e66c6a183aa2772a7f",
         "disclaimer.html": "525af2637cfccd697905f0855b6688e3943fe1ef46134721824c702339461973",
-        "index.html": "94cabe25c9aac53ba0c5e2c7141089e32b62e7fe58f79a49336ccc55dc6aad72",
+        "index.html": "038c6e2d68d32f027bd161a5238ff9f4dd97d545a968cfee7c8bcd188e6f7c6b",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "nieuwsbrief.html": "7abeb64e6ad987dc1f668510f368272a89a9f08ce2821e79b21c4ab35d30b6de",
-        "over-mij.html": "58e4e143efabfcdf7e77ca1a23a5d3b5d11745e6377cf7b5cc4f4f0c5a543b70",
+        "nieuwsbrief.html": "6f63b29472ef45f958b09f2072d965370b5bb4a3eb472150f905dad2c1474a46",
+        "over-mij.html": "8eae57375819b840793e1b1c71ef3d6b7bfba45e7754a045bc9099586dbc4459",
         "privacy.html": "7bb17788719e6d5baaf10a3ed45f4d3be142f933d1616ba4a271ccc29b2c0233",
-        "professionals.html": "208218cfcd11ab1193d57e392ddc128703c50acfe41b04d74477e52d4d141f8e",
+        "professionals.html": "b5f9f1606e97f56279c373bad043735c97fddd3dc217dde4058df009e58defa1",
         "projecten.html": "94b21e7fd8818d3df2f2e9f88a0cc5fc688024168bf99b346fd9887e2413dbfa",
         "projecten/3d-planning-voet-enkel.html": "9b61b9c6c5f448e843ca246567023b3e8d59f40ba1ca98b0d961c4503000767f",
         "projecten/footprint-quick-scan.html": "e8eaa95c10bb1b8bd29097a339513dcceef143169fa0848bd43bec159f64b883",
@@ -429,7 +429,7 @@
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
         "publicaties.html": "f56660c05f7c6de1faec5fb82e8c4dd38ff6e9810f3196e6a4ec316d0e833ca2",
         "script.js": "d09936f38dd54c07813ca13d4acebfcfbb9ca6fe30f4f1eae891270376883012",
-        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265"
+        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
       }
     },
     {
@@ -477,7 +477,32 @@
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/vrxoa-immersive-experiences-artrose.html": "3e5459d0d47216d747923f35446fd5be7844189d22fb99494a855d8a84107ac1",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
-        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265"
+        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
+      }
+    },
+    {
+      "id": "newsletter-home",
+      "name": "Nieuwsbriefblok homepage",
+      "source": "index.html",
+      "selector": ".newsletter-home",
+      "markers": [
+        "newsletter-home",
+        "newsletter-home-panel"
+      ],
+      "sources": [
+        "styles.css",
+        "index.html"
+      ],
+      "rule": "Gebruik het bestaande compacte nieuwsbriefblok. Licht gebruikt de crème/groene band; donker gebruikt een donkere groen/papier-gradient met voldoende contrast voor kop, tekst en link. Wijzig de nieuwsbriefroute of tekst niet als onderdeel van kleurcorrecties.",
+      "pages": [
+        {
+          "path": "index.html",
+          "scope": "registered"
+        }
+      ],
+      "fingerprints": {
+        "index.html": "038c6e2d68d32f027bd161a5238ff9f4dd97d545a968cfee7c8bcd188e6f7c6b",
+        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
       }
     },
     {
@@ -507,9 +532,9 @@
       ],
       "fingerprints": {
         "artikelen.html": "6e0175de0812d0a418e6dc631c0afec36a96c389be20562f9d82436c41627aac",
-        "content.js": "6d3bd3268ea3a716b4e6b5ea7fd20412462aff59cdbe4cfe92a515b3f465617c",
+        "content.js": "fd08c5544711aaff45ef4225b90f79b70ca6627af585b23ddb8fa62800710a90",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265"
+        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
       }
     },
     {
@@ -532,7 +557,7 @@
         "content.js",
         "script.js"
       ],
-      "rule": "Herbruik de renderer in content.js en de bestaande kaartklassen. Controleer lange titels, lege selectie, datumvolgorde en vervolglinks. Gedeelde renderwijzigingen moeten ook op homepage, projecten, professionals en behandelingen worden gecontroleerd.",
+      "rule": "Herbruik de renderer in content.js en de bestaande kaartklassen. Controleer lange titels, lege selectie, datumvolgorde en vervolglinks. De homepage toont alleen drie recente kaarten; gekoppelde patiënt- en professionalversies van hetzelfde onderwerp rouleren dagelijks en tellen als één onderwerp. Andere artikelblokken behouden drie kaarten plus hun compacte titellijst. Gedeelde renderwijzigingen moeten ook op homepage, projecten, professionals en behandelingen worden gecontroleerd.",
       "pages": [
         {
           "path": "advies-consultancy.html",
@@ -644,7 +669,7 @@
         }
       ],
       "fingerprints": {
-        "advies-consultancy.html": "6c35a864428710dd10fba3d5cae7baab302ab4b6552f97635fb9d6ea29288a9f",
+        "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
         "artikelen.html": "6e0175de0812d0a418e6dc631c0afec36a96c389be20562f9d82436c41627aac",
         "artikelen/aaos-richtlijn-enkelartrose.html": "c1f2609c98adb81444cb110fb1355c9f71e7093b812e6c0a6bc7143a508dda75",
         "artikelen/artrosezorg-transitie-patienten.html": "c8f5081d007a2fda4013f063f23485a0f11e2992381486ae3e45830c01022a52",
@@ -662,10 +687,10 @@
         "behandelingen/enkelartrodese.html": "be05fdd05ece8befdf8c3920d8fd483f80b6a8621e2c2ccabdafdebe7f43ea57",
         "behandelingen/enkelartrose.html": "47cc63d67bf783d598b39bdd629368e554aba30eb9989b1454df7853785d2f95",
         "behandelingen/enkelprothese.html": "2d3d7a9b55d88a67d6a98ee687d84bf5f42900af10736cd06de94c3e6389cd06",
-        "content.js": "6d3bd3268ea3a716b4e6b5ea7fd20412462aff59cdbe4cfe92a515b3f465617c",
-        "index.html": "94cabe25c9aac53ba0c5e2c7141089e32b62e7fe58f79a49336ccc55dc6aad72",
+        "content.js": "fd08c5544711aaff45ef4225b90f79b70ca6627af585b23ddb8fa62800710a90",
+        "index.html": "038c6e2d68d32f027bd161a5238ff9f4dd97d545a968cfee7c8bcd188e6f7c6b",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "professionals.html": "208218cfcd11ab1193d57e392ddc128703c50acfe41b04d74477e52d4d141f8e",
+        "professionals.html": "b5f9f1606e97f56279c373bad043735c97fddd3dc217dde4058df009e58defa1",
         "projecten.html": "94b21e7fd8818d3df2f2e9f88a0cc5fc688024168bf99b346fd9887e2413dbfa",
         "projecten/3d-planning-voet-enkel.html": "9b61b9c6c5f448e843ca246567023b3e8d59f40ba1ca98b0d961c4503000767f",
         "projecten/footprint-quick-scan.html": "e8eaa95c10bb1b8bd29097a339513dcceef143169fa0848bd43bec159f64b883",
@@ -673,7 +698,7 @@
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
         "script.js": "d09936f38dd54c07813ca13d4acebfcfbb9ca6fe30f4f1eae891270376883012",
-        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265"
+        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
       }
     },
     {
@@ -699,9 +724,9 @@
         }
       ],
       "fingerprints": {
-        "content.js": "6d3bd3268ea3a716b4e6b5ea7fd20412462aff59cdbe4cfe92a515b3f465617c",
+        "content.js": "fd08c5544711aaff45ef4225b90f79b70ca6627af585b23ddb8fa62800710a90",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265"
+        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
       }
     },
     {
@@ -1034,7 +1059,7 @@
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/vrxoa-immersive-experiences-artrose.html": "3e5459d0d47216d747923f35446fd5be7844189d22fb99494a855d8a84107ac1",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
-        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265"
+        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
       }
     },
     {
@@ -1070,10 +1095,10 @@
       ],
       "fingerprints": {
         "404.html": "6c9c90e8b177d768f0aea567da2c5022f2cebf47062edb21b786f52ae50abb9e",
-        "index.html": "94cabe25c9aac53ba0c5e2c7141089e32b62e7fe58f79a49336ccc55dc6aad72",
+        "index.html": "038c6e2d68d32f027bd161a5238ff9f4dd97d545a968cfee7c8bcd188e6f7c6b",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "nieuwsbrief.html": "7abeb64e6ad987dc1f668510f368272a89a9f08ce2821e79b21c4ab35d30b6de",
-        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265"
+        "nieuwsbrief.html": "6f63b29472ef45f958b09f2072d965370b5bb4a3eb472150f905dad2c1474a46",
+        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
       }
     },
     {
@@ -1103,33 +1128,9 @@
         }
       ],
       "fingerprints": {
-        "advies-consultancy.html": "6c35a864428710dd10fba3d5cae7baab302ab4b6552f97635fb9d6ea29288a9f",
-        "professionals.html": "208218cfcd11ab1193d57e392ddc128703c50acfe41b04d74477e52d4d141f8e",
-        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265"
-      }
-    },
-    {
-      "id": "professional-collaboration",
-      "name": "Praktische samenwerking voor professionals",
-      "source": "professionals.html",
-      "selector": ".professional-info-grid",
-      "markers": [
-        "professional-info-grid"
-      ],
-      "sources": [
-        "styles.css",
-        "professionals.html"
-      ],
-      "rule": "Gebruik voor concrete samenwerkingsvragen van verwijzers en paramedici twee rustige kolommen, met de praktijknotitie over het schoenmakersspreekuur over de volle breedte. Op mobiel stapelen de blokken in leesvolgorde. Formuleer vraagkoppen natuurlijk en beantwoord ze direct. Voeg geen afspraakroute, persoonlijk behandeladvies of publieke link naar conceptcontent toe.",
-      "pages": [
-        {
-          "path": "professionals.html",
-          "scope": "registered"
-        }
-      ],
-      "fingerprints": {
-        "professionals.html": "208218cfcd11ab1193d57e392ddc128703c50acfe41b04d74477e52d4d141f8e",
-        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265"
+        "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
+        "professionals.html": "b5f9f1606e97f56279c373bad043735c97fddd3dc217dde4058df009e58defa1",
+        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
       }
     },
     {
@@ -1344,7 +1345,7 @@
         "behandelingen/ziekte-van-freiberg.html": "5d86f067ff132823fd69f19da5ca597b31c4a8f97b4b3e57130a80fc0031082a",
         "data/faq-placements.json": "0852f9d167d6ccf69c0484220f8b249bedd2821166388f8848d225e6c82c61e2",
         "data/faqs.json": "075c5732c5fe63a3c1ffaaee2fdc4b53a6ce664917e1671dbbe7989a738408d7",
-        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265",
+        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee",
         "tools/generate_faqs.py": "0c896b7255f8eaa9e9488887ae5e59f7ff7d1193ec1e0a4de5fa719bdeb1ceaf"
       }
     },
@@ -1368,7 +1369,7 @@
       ],
       "fingerprints": {
         "behandelingen/hallux-valgus.html": "60d0e3e4f032e5cc3210d29e7cddf97dfe8b0e4519233456d48607b1d8d61a19",
-        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265"
+        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
       }
     },
     {
@@ -1395,7 +1396,7 @@
       "fingerprints": {
         "behandelingen.html": "8d484ffa2f1d211b21d77eb95babd4acea88828d26ef74d8f6fcd8e8dccd4e1f",
         "script.js": "d09936f38dd54c07813ca13d4acebfcfbb9ca6fe30f4f1eae891270376883012",
-        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265"
+        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
       }
     },
     {
@@ -1734,7 +1735,7 @@
         }
       ],
       "fingerprints": {
-        "advies-consultancy.html": "6c35a864428710dd10fba3d5cae7baab302ab4b6552f97635fb9d6ea29288a9f",
+        "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
         "artikelen.html": "6e0175de0812d0a418e6dc631c0afec36a96c389be20562f9d82436c41627aac",
         "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html": "0a1cb2f9651474a2000f7111e4af7a391001fd1a1e2147d47e8fa63d12df30a8",
         "artikelen/aaos-richtlijn-enkelartrose.html": "c1f2609c98adb81444cb110fb1355c9f71e7093b812e6c0a6bc7143a508dda75",
@@ -1802,12 +1803,12 @@
         "disclaimer.html": "525af2637cfccd697905f0855b6688e3943fe1ef46134721824c702339461973",
         "feedback.css": "0ab4ce10537c05937ae69ac29335bf4c139d049bb980731d144370e7b7595219",
         "feedback.js": "5aa29ca0437cf076157217c592e87a68966b93fa7fdcb3b35ffcf83633e2bfe0",
-        "index.html": "94cabe25c9aac53ba0c5e2c7141089e32b62e7fe58f79a49336ccc55dc6aad72",
+        "index.html": "038c6e2d68d32f027bd161a5238ff9f4dd97d545a968cfee7c8bcd188e6f7c6b",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "nieuwsbrief.html": "7abeb64e6ad987dc1f668510f368272a89a9f08ce2821e79b21c4ab35d30b6de",
-        "over-mij.html": "58e4e143efabfcdf7e77ca1a23a5d3b5d11745e6377cf7b5cc4f4f0c5a543b70",
+        "nieuwsbrief.html": "6f63b29472ef45f958b09f2072d965370b5bb4a3eb472150f905dad2c1474a46",
+        "over-mij.html": "8eae57375819b840793e1b1c71ef3d6b7bfba45e7754a045bc9099586dbc4459",
         "privacy.html": "7bb17788719e6d5baaf10a3ed45f4d3be142f933d1616ba4a271ccc29b2c0233",
-        "professionals.html": "208218cfcd11ab1193d57e392ddc128703c50acfe41b04d74477e52d4d141f8e",
+        "professionals.html": "b5f9f1606e97f56279c373bad043735c97fddd3dc217dde4058df009e58defa1",
         "projecten.html": "94b21e7fd8818d3df2f2e9f88a0cc5fc688024168bf99b346fd9887e2413dbfa",
         "projecten/3d-planning-voet-enkel.html": "9b61b9c6c5f448e843ca246567023b3e8d59f40ba1ca98b0d961c4503000767f",
         "projecten/footprint-quick-scan.html": "e8eaa95c10bb1b8bd29097a339513dcceef143169fa0848bd43bec159f64b883",
@@ -1847,7 +1848,7 @@
         "artikelen.html": "6e0175de0812d0a418e6dc631c0afec36a96c389be20562f9d82436c41627aac",
         "assets/artrose-story/story-8c83fdb90c6a.js": "8c83fdb90c6af81ec8e957454bc842e3f74f67b29d2413e9eca84efdd98b6480",
         "assets/artrose-story/story-b99b06aa52a8.css": "b99b06aa52a86c2644e1e0483be1ba02189557d77550afc2cf5da2f2b6dd3dbe",
-        "index.html": "94cabe25c9aac53ba0c5e2c7141089e32b62e7fe58f79a49336ccc55dc6aad72",
+        "index.html": "038c6e2d68d32f027bd161a5238ff9f4dd97d545a968cfee7c8bcd188e6f7c6b",
         "tools/build_artrose_release.py": "b57d044c6892cd2e50dd14270338cd30c5331430c5014597c8fd5b4909d655c0"
       }
     }
