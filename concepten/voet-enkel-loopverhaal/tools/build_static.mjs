@@ -1,0 +1,10 @@
+import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import {fileURLToPath} from 'node:url';
+import {illustration} from '../renderer.mjs';
+const root=fileURLToPath(new URL('../',import.meta.url));
+const data=JSON.parse(readFileSync(root+'motion.json'));
+const specs=[{phase:0,mode:'person'},{phase:.06,focus:'anterior'},{phase:.3,focus:'calf'},{phase:.37,focus:'arch',zoom:2.7},{phase:.56,focus:'calf'},{phase:.25,lab:true},{phase:.28,focus:'calf',examination:true},{phase:.85,mode:'person',outdoors:true}];
+mkdirSync(root+'stills',{recursive:true});
+specs.forEach((s,i)=>writeFileSync(root+`stills/scene-${i}.svg`,illustration(data,s.phase,{...s,uid:'still-'+i})));
+const phases=[0,.08,.18,.3,.45,.52,.61,.75,.9,1];
+phases.forEach((phase,i)=>writeFileSync(root+`stills/rig-${i}.svg`,illustration(data,phase,{debug:true,uid:'rig-'+i})));

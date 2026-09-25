@@ -144,6 +144,23 @@
       "rule": "Gebruik op Professionals en Advies één compact updatepaneel. De primaire tekstlink met klein LinkedIn-icoon heet ‘Volg mij via LinkedIn’; de nieuwsbrief blijft een korte secundaire tekstlink eronder. Vermijd een aparte grote LinkedIn-kaart. Houd kop, uitleg, focusgedrag en mobiele stapeling gelijk."
     },
     {
+      "id": "professional-scroll-story",
+      "name": "Scrollverhaal samenwerking voor professionals",
+      "source": "professionals.html",
+      "selector": ".professional-scroll-story",
+      "markers": [
+        "professional-scroll-story",
+        "professional-story-stage",
+        "professional-story-moment"
+      ],
+      "sources": [
+        "professionals.html",
+        "assets/professionals-story.css",
+        "assets/professionals-story.js"
+      ],
+      "rule": "De professionalspagina vertelt in zeven korte momenten hoe samenwerking van Nederland naar Midden-Brabant, Tilburg en vier praktische pijlers beweegt. Kaart en verbindingen zijn expliciet schematisch. De gewone HTML-tekst blijft zonder JavaScript en bij verminderde beweging volledig leesbaar. Bied in de intro altijd een directe route naar overleg/verwijzing; Doctolib, ZorgDomein, artikelen en updates blijven gewone functionele onderdelen buiten het verhaal. Voeg geen afspraakroute, persoonlijk behandeladvies of publieke link naar conceptcontent toe."
+    },
+    {
       "id": "faq",
       "name": "Uitklapbare vragen",
       "source": "behandelingen/enkelartrose.html",
@@ -219,6 +236,21 @@
         "tools/build_artrose_release.py"
       ],
       "rule": "Publieke scrollvertelling op artikelen.html buiten de filters; homepagevoorproef vóór de vakgroep. Onder de tweede alinea van de homepagevoorproef staat een gewone onderstreepte link naar het volledige verhaal, in dezelfde lettergrootte als de lopende tekst. Acht ongenummerde momenten delen één SVG-wereld. Rustige leesfasen, scrollgestuurde wandeling, leefstijlbegeleiding en netwerk rond dezelfde persoon. Vier afsluitkaarten. Reduced-motion, grote tekst en geen JavaScript behouden een statische leesversie. Menu blijft sticky met gemeten bovenruimte. Zie DESIGN_SYSTEM.md voor de vrijgegeven toepassing."
+    },
+    {
+      "id": "gait-story-concept",
+      "name": "Loopverhaal — lokaal concept",
+      "source": "concepten/voet-enkel-loopverhaal/index.html",
+      "selector": ".story-wrap",
+      "markers": [
+        "story-wrap"
+      ],
+      "sources": [
+        "concepten/voet-enkel-loopverhaal/story.css",
+        "concepten/voet-enkel-loopverhaal/story.mjs",
+        "concepten/voet-enkel-loopverhaal/renderer.mjs"
+      ],
+      "rule": "Pagina-eigen koelwit/diepblauw concept op expliciet verzoek. Scrollgestuurde illustratie, 42/58 op desktop; mobiel een klein sticky toneel. Statische leesversie zonder JavaScript, bij verminderde beweging of lage vensters. Geen gedeelde sitecomponent, geen publicatie of medische verificatie."
     }
   ]
 }

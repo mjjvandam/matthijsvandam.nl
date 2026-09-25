@@ -1,0 +1,921 @@
+{
+  "datum": "2026-09-25",
+  "methode": "Gerichte aanvullende zoekactie; standaard relevantiesortering; eerste 25 records per zoekblok. Totalen zijn zoekhits, geen aantallen geïncludeerde of volledig gelezen studies.",
+  "resultaten": [
+    {
+      "blok": "loopcyclus_en_data",
+      "query": "((TITLE_ABS:\"gait cycle\" OR TITLE_ABS:\"walking kinematics\") AND (TITLE_ABS:adult OR TITLE_ABS:healthy OR TITLE_ABS:dataset)) AND FIRST_PDATE:[1900-01-01 TO 2026-09-25] AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3A%22gait+cycle%22+OR+TITLE_ABS%3A%22walking+kinematics%22%29+AND+%28TITLE_ABS%3Aadult+OR+TITLE_ABS%3Ahealthy+OR+TITLE_ABS%3Adataset%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-25%5D+AND+SRC%3AMED&format=json&pageSize=25",
+      "hitCount": 1242,
+      "opgehaald": [
+        {
+          "id": "42317623",
+          "title": "A public dataset of treadmill walking kinematics and kinetics at steady speeds in healthy individuals.",
+          "authorString": "Le Goff L, Chorin F, Reneaud N, Fontaine D, Piche E.",
+          "pubYear": "2026",
+          "doi": "10.1016/j.dib.2026.112943"
+        },
+        {
+          "id": "42393089",
+          "title": "A Wearable Motion Capture Dataset for Gait Analysis Using IMUs and Shank-Mounted Egocentric Cameras.",
+          "authorString": "Hossain MSB, Nguyen S, Dranetz J, Moniruzzaman M, Guo Z, Yin Z, Lee H, Choi H.",
+          "pubYear": "2026",
+          "doi": "10.1038/s41597-026-07657-7"
+        },
+        {
+          "id": "42664986",
+          "title": "Wearable IMU-based gait-cycle signal processing with multi-scale attention for preliminary auxiliary identification of osteonecrosis of the femoral head.",
+          "authorString": "Wu Z, Shang X, Ma J.",
+          "pubYear": "2026",
+          "doi": "10.1088/1873-4030/ae9ff8"
+        },
+        {
+          "id": "42587358",
+          "title": "Impact of Anterior Load Carriage on Dynamic Sagittal Spinal Alignment: A Comparative Study Between Individuals Below and Above 65 Years.",
+          "authorString": "Barman A, Rezaei A, Bhat SG, Kaufman KR.",
+          "pubYear": "2026",
+          "doi": "10.1097/phm.0000000000003128"
+        },
+        {
+          "id": "42687754",
+          "title": "Sex-specific control of locomotor behavior by neuronal Arhgef10 in aged Drosophila.",
+          "authorString": "Gualdino M, Herédia F, Medeiros AM, Zanini R, Menezes J, Mantas Dias AR, Garcez M, Prag S, Jacinto A, Mendes CS, Garelli A, Gontijo AM.",
+          "pubYear": "2026",
+          "doi": "10.1093/genetics/iyag237"
+        },
+        {
+          "id": "41866417",
+          "title": "Effects of Cerebellar Transcranial Alternating Current Stimulation at Frequencies Surrounding the Gait Cycle Frequency on Spatiotemporal Gait Parameters.",
+          "authorString": "Watanabe R, Kitatani R, Amano A, Sorimachi R, Onishi H.",
+          "pubYear": "2026",
+          "doi": "10.1007/s12311-026-01985-5"
+        },
+        {
+          "id": "42573721",
+          "title": "Patellofemoral Joint Contact Area During Gait is Significantly Reduced in ACL-reconstructed and Uninjured Contralateral Knees Compared to Healthy Controls.",
+          "authorString": "Guan S, Pandy MG.",
+          "pubYear": "2026",
+          "doi": "10.1007/s10439-026-04328-x"
+        },
+        {
+          "id": "42515277",
+          "title": "Waveform-Level Validation of Continuous Shank-to-Vertical Angle Measurement Using a Wearable Posture Sensor with Independent Video-Based Gait Event Detection.",
+          "authorString": "Tanaka S.",
+          "pubYear": "2026",
+          "doi": "10.3390/s26144392"
+        },
+        {
+          "id": "42622680",
+          "title": "Modulation of the nociceptive withdrawal reflex in walking is not changed by the presence of tonic pain.",
+          "authorString": "Reeves J, Thacker C, Cunningham G, Hughes S, Davies JL.",
+          "pubYear": "2026",
+          "doi": "10.1007/s00221-026-07379-7"
+        },
+        {
+          "id": "41385418",
+          "title": "Multi-Task Learning for Gait Phase and Gait Cycle Percentage Prediction With Wearable Sensors in Frail Older Adults.",
+          "authorString": "Wang J, Guan Z, Liang T, Ding Z, Ma X, Li Y, Song R, Zhang H.",
+          "pubYear": "2026",
+          "doi": "10.1109/jbhi.2025.3643724"
+        },
+        {
+          "id": "42030763",
+          "title": "Ageing alters ankle mechanics and muscle co-contraction patterns across the gait cycle.",
+          "authorString": "Lindsay C, Radcliffe CR, Immink MA.",
+          "pubYear": "2026",
+          "doi": "10.1016/j.gaitpost.2026.110202"
+        },
+        {
+          "id": "41774632",
+          "title": "Fall Warning Method Based on Multimodal Sensor Fusion and Gait Phase Detection.",
+          "authorString": "Zhang W, Liang Q, Jia X, Bian C, Guo Y, Li T, Liu J.",
+          "pubYear": "2026",
+          "doi": "10.1109/jbhi.2026.3669717"
+        },
+        {
+          "id": "42545357",
+          "title": "Multidomain mobility and cognition across the adult lifespan: Stride velocity and cadence are associated with executive function in older adulthood.",
+          "authorString": "Amadon G, Lee AJ, Hayes JP, Onate JA, Kraemer WJ, Kegelmeyer DA, Kloos AD, Hayes SM.",
+          "pubYear": "2026",
+          "doi": "10.1037/bne0000664"
+        },
+        {
+          "id": "42655318",
+          "title": "Embedded Adaptive Admittance Control for a Modular Hip Exoskeleton Using Deep Learning-Based Gait-Phase Estimation.",
+          "authorString": "Nguyen TA, Vo CP, Kim Y, Shim Y, Kim SJ.",
+          "pubYear": "2026",
+          "doi": "10.3390/s26165008"
+        },
+        {
+          "id": "39979477",
+          "title": "Side dominance and eye patches obscuring half of the visual field do not affect walking kinematics.",
+          "authorString": "Négyesi J, Kovács B, Petró B, Salman DN, Khandoker A, Katona P, Moussa MM, Hortobágyi T, Rácz K, Pálya Z, Grand L, Kiss RM, Nagatomi R.",
+          "pubYear": "2025",
+          "doi": "10.1038/s41598-025-90936-x"
+        },
+        {
+          "id": "40816135",
+          "title": "Inter-limb gait asymmetry in people with Parkinson's disease.",
+          "authorString": "Barbieri FA, de Campos DDSF, Fukuchi CA, Cupertino L, Pellegrino NM, Los Angeles E, Coelho DB.",
+          "pubYear": "2025",
+          "doi": "10.1016/j.humov.2025.103399"
+        },
+        {
+          "id": "41990573",
+          "title": "Altered gait characteristics in women with breast cancer-related lymphedema: A case-control analysis using inertial sensor-based assessment.",
+          "authorString": "Haspolat M, Ozal SY, Ayas IH, Guzel NA, Keser I.",
+          "pubYear": "2026",
+          "doi": "10.1016/j.clinbiomech.2026.106849"
+        },
+        {
+          "id": "42320235",
+          "title": "Ankle exoskeleton assistance increases task-relevant variability without altering center of mass control during walking.",
+          "authorString": "Kettner C, Beyerlein M, Marquardt C, Dežman M, Asfour T, Stein T.",
+          "pubYear": "2026",
+          "doi": "10.1016/j.gaitpost.2026.110263"
+        },
+        {
+          "id": "41175658",
+          "title": "A kinematic and kinetic dataset of lower limb joints during obstacle crossing in healthy young adults.",
+          "authorString": "Huang J, Yin S, Chen Z, Xu H, Fu C.",
+          "pubYear": "2026",
+          "doi": "10.1016/j.jbiomech.2025.112979"
+        },
+        {
+          "id": "40638346",
+          "title": "Spatio-Temporal Multi-Granularity for Skeleton-Based Depression Risk Recognition.",
+          "authorString": "Li Q, Ren M, Hu X, Liu X, Yao L, Huang Y.",
+          "pubYear": "2026",
+          "doi": "10.1109/jbhi.2025.3587401"
+        },
+        {
+          "id": "42019073",
+          "title": "Multimodal Integration of A Novel Gait State Time Interval Signal Generation Method and Insole Sensor Data-based Body Intelligence: Application in Parkinson's Disease.",
+          "authorString": "Li H, Baryskievic I, Baryskievic A, Tsviatkou V.",
+          "pubYear": "2026",
+          "doi": "10.1109/jbhi.2026.3686257"
+        },
+        {
+          "id": "41974926",
+          "title": "An accessible 2D video-based gait analysis framework with model-based illustration of joint torque and power trends.",
+          "authorString": "Phathaisuang W, Boonlupyanan C, Vetchaiyo P, Laocharoen P, Limritnonthiphak P, Romtrairat P, Jintanawan T, Phanomchoeng G.",
+          "pubYear": "2026",
+          "doi": "10.1038/s41598-026-48113-1"
+        },
+        {
+          "id": "42756242",
+          "title": "Plantar-pressure-guided support-plate position control for a walker-assisted lower-limb rehabilitation exoskeleton.",
+          "authorString": "Yang Y, Zhao W, Guo Y, Huang Z, Gao X, Han X, Deng J.",
+          "pubYear": "2026",
+          "doi": "10.3389/fbioe.2026.1911004"
+        },
+        {
+          "id": "41428912",
+          "title": "Laboratory Environments Mask Gait Differences Between Healthy Participants and Patients With Anterior Cruciate Ligament Reconstruction.",
+          "authorString": "Parola LR, Phan V, Halilaj E.",
+          "pubYear": "2026",
+          "doi": "10.1109/tnsre.2025.3645799"
+        },
+        {
+          "id": "41948479",
+          "title": "Establishment of a novel deep learning-based method for gait analysis after peripheral nerve injury in pigs.",
+          "authorString": "Nakayama J, Okuyama K, Uda R, Iida Y, Hayatsu M, Miura R, Yoshioka S, Kobayashi T, Kamimura K, Ueoka Y, Funamizu A, Niiyama E, Kawada J, Yamazaki T, Yoda T, Kawashima H, Shibata S.",
+          "pubYear": "2026",
+          "doi": "10.1016/j.reth.2026.101103"
+        }
+      ]
+    },
+    {
+      "blok": "voetboog",
+      "query": "((TITLE_ABS:windlass OR TITLE_ABS:\"longitudinal arch\") AND TITLE_ABS:walking) AND FIRST_PDATE:[1900-01-01 TO 2026-09-25] AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3Awindlass+OR+TITLE_ABS%3A%22longitudinal+arch%22%29+AND+TITLE_ABS%3Awalking%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-25%5D+AND+SRC%3AMED&format=json&pageSize=25",
+      "hitCount": 192,
+      "opgehaald": [
+        {
+          "id": "40171181",
+          "title": "Morphological analysis of the windlass mechanism during running.",
+          "authorString": "Shiroshita T.",
+          "pubYear": "2025",
+          "doi": "10.1589/jpts.37.153"
+        },
+        {
+          "id": "40234710",
+          "title": "Reconsideration of the load-bearing functions of the plantar fascia and intrinsic foot muscles in the windlass mechanism.",
+          "authorString": "Shinohara H, Umezaki Y, Ikeda A, Ikeda T, Tateyama N.",
+          "pubYear": "2025",
+          "doi": "10.1038/s41598-025-97477-3"
+        },
+        {
+          "id": "42571953",
+          "title": "Energetic Contribution of the Human Plantar Aponeurosis to Locomotor Economy During Bipedal Walking and Running.",
+          "authorString": "Matsumoto Y, Kanemura N, Ogihara N.",
+          "pubYear": "2026",
+          "doi": "10.1002/ajpa.70347"
+        },
+        {
+          "id": "38562535",
+          "title": "Analysis of windlass mechanism according to one walking cycle.",
+          "authorString": "Shiroshita T.",
+          "pubYear": "2024",
+          "doi": "10.1589/jpts.36.161"
+        },
+        {
+          "id": "39672664",
+          "title": "Effect of plantar fascia stiffness on plantar windlass mechanism and arch: Finite element method and dual fluoroscopic imaging system verification.",
+          "authorString": "Zhang Q, Sun D, Wang M, Tafferner-Gulyás V, Chen H, Bíró I, Gu Y.",
+          "pubYear": "2024",
+          "doi": "10.1016/j.medengphy.2024.104259"
+        },
+        {
+          "id": "42076561",
+          "title": "Differences in Plantar Pressure Distribution Between Adults with Asymptomatic and Symptomatic Flexible Flatfeet During Walking and Heel-Strike Running.",
+          "authorString": "Haelewijn N, Deknudt I, Vanhaelewyn M, Staes F, Vereecke E, Deschamps K.",
+          "pubYear": "2026",
+          "doi": "10.3390/s26082451"
+        },
+        {
+          "id": "42703580",
+          "title": "Effects of metatarsal bar and heel lift on foot biomechanics during gait: implications for performance-related biomechanics.",
+          "authorString": "Shiroshita T.",
+          "pubYear": "2026",
+          "doi": "10.1589/jpts.38.387"
+        },
+        {
+          "id": "42510143",
+          "title": "Foot Arch Status and Muscular Strength: Associations with Unilateral Balance and Physical Performance.",
+          "authorString": "Alshehri MA, Alghamdi MS, Alsaedi DA, Alsharif AT, Alotaibi NE, Alhasan H, Fadil A, Subahi MS, Aljehani MS, Awali A, Alayat MSM, Tobaigy M.",
+          "pubYear": "2026",
+          "doi": "10.3390/diagnostics16142279"
+        },
+        {
+          "id": "38007867",
+          "title": "Lower-limb dominance does not explain subject-specific foot kinematic asymmetries observed during walking and running.",
+          "authorString": "Molitor SL, Zelik KE, McDonald KA.",
+          "pubYear": "2024",
+          "doi": "10.1016/j.jbiomech.2023.111877"
+        },
+        {
+          "id": "41547833",
+          "title": "Gait changes in daily life during the healing process of fifth metatarsal fracture: a case report.",
+          "authorString": "Suzuki S, Shimizu H, Nagai-Tanima M, Aoyama T.",
+          "pubYear": "2026",
+          "doi": "10.1186/s13256-026-05827-0"
+        },
+        {
+          "id": "38642017",
+          "title": "Direct visualization and measurement of the plantar aponeurosis behavior in foot arch deformation via the windlass mechanism.",
+          "authorString": "Matsumoto Y, Ogihara N.",
+          "pubYear": "2025",
+          "doi": "10.1002/ca.24171"
+        },
+        {
+          "id": "41411739",
+          "title": "Effects of custom-made foot orthoses on lower limb kinematics and kinetics during step-up and step-down tasks in individuals with progressive collapsing foot deformity.",
+          "authorString": "Dami A, Schalkens EP, Ghabdian T, Farahpour N, Isabelle PL, Moisan G.",
+          "pubYear": "2026",
+          "doi": "10.1016/j.jbiomech.2025.113136"
+        },
+        {
+          "id": "33831112",
+          "title": "The rise of the longitudinal arch when sitting, standing, and walking: Contributions of the windlass mechanism.",
+          "authorString": "Sichting F, Ebrecht F.",
+          "pubYear": "2021",
+          "doi": "10.1371/journal.pone.0249965"
+        },
+        {
+          "id": "38432816",
+          "title": "Evaluation of the relationship between truss/windlass mechanisms and foot stiffness while walking.",
+          "authorString": "Yamagiwa D, Iwamoto Y, Nishihara S, Kito N.",
+          "pubYear": "2024",
+          "doi": "10.1016/j.jbmt.2023.11.059"
+        },
+        {
+          "id": "40267154",
+          "title": "A phase division-based multi-segment foot model for estimating dynamic foot arch stiffness during walking.",
+          "authorString": "Liu C, Yi J, He L, Zhang Y, Liu T.",
+          "pubYear": "2025",
+          "doi": "10.1371/journal.pone.0320156"
+        },
+        {
+          "id": "40366842",
+          "title": "An Unpowered Exoskeleton With a Bionic Multi-Segment Foot Structure for Walking Assistance.",
+          "authorString": "Lyu Y, Lin Y, Zhao S, Wei J, Zhang X.",
+          "pubYear": "2025",
+          "doi": "10.1109/tnsre.2025.3569835"
+        },
+        {
+          "id": "41154266",
+          "title": "Chronic Implications of Bilateral Foot Pattern Variability in Schoolchildren.",
+          "authorString": "Traistaru MR, Cealicu M, Matei D, Matei MA, Anghelina L, Stoica D.",
+          "pubYear": "2025",
+          "doi": "10.3390/healthcare13202586"
+        },
+        {
+          "id": "40650545",
+          "title": "Biomechanical effects of asymmetric backpack shoulder straps on the unilateral flatfoot: a finite element analysis.",
+          "authorString": "Hu C, Cen X, Sun D, Lu Z, Xu Y, Zhu C, Xu Y, Gu Y.",
+          "pubYear": "2025",
+          "doi": "10.1080/10255842.2025.2530650"
+        },
+        {
+          "id": "39675318",
+          "title": "In vivo kinematic changes of the medial longitudinal arch during barefoot and high-heeled shoes walking.",
+          "authorString": "Hu M, Li Z, Zhang L, Wang C, Wu D, Zhao X, Tsai TY, Wang S.",
+          "pubYear": "2025",
+          "doi": "10.1016/j.gaitpost.2024.12.002"
+        },
+        {
+          "id": "40875444",
+          "title": "Investigation of the Immediate Effects of Kinesiology Taping and Manual Release on Lower-Extremity Performance in Young Adults With Pes Planus.",
+          "authorString": "Ulusoy T, Demirdel E.",
+          "pubYear": "2025",
+          "doi": "10.7547/23-125"
+        },
+        {
+          "id": "39068870",
+          "title": "Step width modification to change rearfoot eversion and medial longitudinal arch angle during walking and running in individuals with pronated feet.",
+          "authorString": "Khorramroo F, Mousavi SH, Hijmans JM.",
+          "pubYear": "2024",
+          "doi": "10.1016/j.gaitpost.2024.07.295"
+        },
+        {
+          "id": "41489939",
+          "title": "Effects of Orthotic Insoles on Gait Biomechanics in Runners With Flatfoot Under Different Gait Loads.",
+          "authorString": "Liu H, Ye D, Yang Y, Zhang S.",
+          "pubYear": "2026",
+          "doi": "10.1111/sms.70205"
+        },
+        {
+          "id": "40536850",
+          "title": "Investigation Into Plantar Fascia Contribution to Gait Mechanics Using Robotic and Simulation Approaches.",
+          "authorString": "Lu X, Zhang Y, Tang J, Ren L, Wang K, Xie H, Wang X, Ren L.",
+          "pubYear": "2025",
+          "doi": "10.1109/tnsre.2025.3581366"
+        },
+        {
+          "id": "40273180",
+          "title": "The impact of wide step width on lower limb coordination and its variability in individuals with flat feet.",
+          "authorString": "Khorramroo F, Hijmans JM, Mousavi SH.",
+          "pubYear": "2025",
+          "doi": "10.1371/journal.pone.0321901"
+        },
+        {
+          "id": "42157219",
+          "title": "The effect of fatigue on kinetic and kinematic variables in individuals with flexible flatfoot during gait: a systematic review and meta-analysis.",
+          "authorString": "Biabangard MA, Rajabi R, Maleki AA, Mousavi SH.",
+          "pubYear": "2026",
+          "doi": "10.1186/s12891-026-09898-4"
+        }
+      ]
+    },
+    {
+      "blok": "spier_pees",
+      "query": "((TITLE_ABS:gastrocnemius OR TITLE_ABS:soleus OR TITLE_ABS:\"tibialis anterior\") AND TITLE_ABS:walking AND (TITLE_ABS:ultrasound OR TITLE_ABS:stimulation OR TITLE_ABS:tendon)) AND FIRST_PDATE:[1900-01-01 TO 2026-09-25] AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28%28TITLE_ABS%3Agastrocnemius+OR+TITLE_ABS%3Asoleus+OR+TITLE_ABS%3A%22tibialis+anterior%22%29+AND+TITLE_ABS%3Awalking+AND+%28TITLE_ABS%3Aultrasound+OR+TITLE_ABS%3Astimulation+OR+TITLE_ABS%3Atendon%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-25%5D+AND+SRC%3AMED&format=json&pageSize=25",
+      "hitCount": 738,
+      "opgehaald": [
+        {
+          "id": "42622680",
+          "title": "Modulation of the nociceptive withdrawal reflex in walking is not changed by the presence of tonic pain.",
+          "authorString": "Reeves J, Thacker C, Cunningham G, Hughes S, Davies JL.",
+          "pubYear": "2026",
+          "doi": "10.1007/s00221-026-07379-7"
+        },
+        {
+          "id": "30844176",
+          "title": "Achilles Tendinopathy",
+          "authorString": "Medina Pabón MA, Bergman R, Naqvi U.",
+          "pubYear": "2026",
+          "doi": null
+        },
+        {
+          "id": "42030763",
+          "title": "Ageing alters ankle mechanics and muscle co-contraction patterns across the gait cycle.",
+          "authorString": "Lindsay C, Radcliffe CR, Immink MA.",
+          "pubYear": "2026",
+          "doi": "10.1016/j.gaitpost.2026.110202"
+        },
+        {
+          "id": "42551247",
+          "title": "Impaired gastrocnemius medialis muscle-tendon decoupling reduces gait efficiency in spastic paresis syndrome.",
+          "authorString": "Lecharte T, Leboeuf F, Gross R, Sarcher A, Nordez A, Le Sant G.",
+          "pubYear": "2026",
+          "doi": "10.1016/j.rehab.2026.102151"
+        },
+        {
+          "id": "41491773",
+          "title": "Lower limb neuromotor control during perturbed and unperturbed gait conditions in male runners with Achilles tendinopathy: an exploratory analysis.",
+          "authorString": "Quarmby A, Kurtz P, Khajooei M, Kim MH, Cassel M, Mayer F, Engel T.",
+          "pubYear": "2026",
+          "doi": "10.1080/23335432.2025.2611710"
+        },
+        {
+          "id": "41962397",
+          "title": "Reliability of an ultrasound-motion capture approach to measure the lengthening behavior of the gastrocnemius medialis muscle-tendon unit, muscle belly, and Achilles tendon in vivo during gait.",
+          "authorString": "Habersack A, Guggenberger B, Mosser N, Svehlik M, Tilp M, Kruse A.",
+          "pubYear": "2026",
+          "doi": "10.1016/j.gaitpost.2026.110189"
+        },
+        {
+          "id": "40954475",
+          "title": "Interlimb differences in gait kinematics, kinetics, and muscle activation during walking and running one year after acute unilateral Achilles tendon rupture.",
+          "authorString": "Huseth K, Harðarson GR, Aagaard P, Gutke A, Zügner R, Karlsson J, Helander KN, Larsson E, Brorsson A, Tranberg R.",
+          "pubYear": "2025",
+          "doi": "10.1186/s13018-025-06221-0"
+        },
+        {
+          "id": "42556514",
+          "title": "Side-to-side differences in neuromuscular function and associated joint mechanics in the lower limbs and trunk during walking and running one year after acute unilateral Achilles tendon rupture.",
+          "authorString": "Huseth K, Harðarson GR, Aagaard P, Gutke A, Zügner R, Karlsson J, Helander KN, Larsson E, Brorsson A, Tranberg R.",
+          "pubYear": "2026",
+          "doi": "10.1016/j.jisako.2026.101198"
+        },
+        {
+          "id": "41440801",
+          "title": "The Effect of a Single Session of Functional Electrical Muscle Stimulation During Walking in Patients with Hemiparesis After Stroke: A Pilot Pre-Post Study.",
+          "authorString": "Skvortsov D, Lobunko D, Grebenkina N, Ivanova G.",
+          "pubYear": "2025",
+          "doi": "10.3390/jfmk10040480"
+        },
+        {
+          "id": "41752864",
+          "title": "Modulation of Forward Propulsion and Foot Dorsiflexion by Spinal and Muscular Stimulation During Human Stepping.",
+          "authorString": "Ananyev S, Sakun I, Lyakhovetskii V, Grishin A, Moshonkina T, Gerasimenko Y.",
+          "pubYear": "2026",
+          "doi": "10.3390/life16020226"
+        },
+        {
+          "id": "41860166",
+          "title": "Differences in morphological parameters of calf muscles among children and adolescents with spastic cerebral palsy at different mobility levels and their relationships with walking ability.",
+          "authorString": "Erkut Ü, Bingöl H.",
+          "pubYear": "2026",
+          "doi": "10.1080/09593985.2026.2647789"
+        },
+        {
+          "id": "42443071",
+          "title": "[Ultrasound-guided acupotomy release combined with &lt;i&gt;Tongdu Tiaoshen&lt;/i&gt; acupuncture for post-stroke talipes varus: a randomized controlled trial].",
+          "authorString": "Wang Z, Wang S, Zhu C, Cao Y, Wang Y, Shang X, Chen S, Ma Y, Yang Y.",
+          "pubYear": "2026",
+          "doi": "10.13703/j.0255-2930.20250807-k0006"
+        },
+        {
+          "id": "41830656",
+          "title": "How are Achilles tendon properties associated with gait performance in cerebral palsy?",
+          "authorString": "Alexander N, Sukanen M, Laatikainen-Raussi I, Mustafaoglu A, Finni T, Cenni F.",
+          "pubYear": "2026",
+          "doi": "10.1016/j.clinbiomech.2026.106820"
+        },
+        {
+          "id": "42320005",
+          "title": "Sarcopenia-associated traits and sepsis risk: a Mendelian Randomization and Prospective Observational Study.",
+          "authorString": "Zhou Y, Qin M, Wang L, Wan L, Chen C, Si X, Wu J, Chen R, Pei F, Gu B, Guan X.",
+          "pubYear": "2026",
+          "doi": "10.1097/shk.0000000000002890"
+        },
+        {
+          "id": "40369277",
+          "title": "Functional Electrical Stimulation of the Plantarflexor Muscle During Walking Leads to a Proximal-to-Distal Redistribution of Lower Limb Joint Work.",
+          "authorString": "Aout T, Begon M, Larivière O, Peyrot N, Caderby T.",
+          "pubYear": "2025",
+          "doi": "10.1007/s10439-025-03756-5"
+        },
+        {
+          "id": "40351636",
+          "title": "Management of Chronic Achilles Tendon Rupture with Tibialis Anterior Allograft: A 2-Year Follow-up Study.",
+          "authorString": "Bhagunde P, Modi N, Gunay S, Shah D.",
+          "pubYear": "2025",
+          "doi": "10.13107/jocr.2025.v15.i05.5576"
+        },
+        {
+          "id": "41812487",
+          "title": "Effects of 10 weeks of oscillation stretching training on gastrocnemius medialis muscle-tendon behaviour and walking energetics in people with type 2 diabetes.",
+          "authorString": "Monte A, Magris R, Nardello F, Vigolo N, Negri C, Moghetti P, Zamparo P.",
+          "pubYear": "2026",
+          "doi": "10.1016/j.gaitpost.2026.110146"
+        },
+        {
+          "id": "40459847",
+          "title": "Efficacy of Excitatory iTBS on Lower Limb Recovery in iSCI Patients.",
+          "authorString": "Shi S, Yao J, Cai J.",
+          "pubYear": "2026",
+          "doi": "10.1177/21925682251343528"
+        },
+        {
+          "id": "42482073",
+          "title": "Why inverse simulations overestimate optimal ankle exoskeleton assistance: the role of bi-articular coordination and joint stiffness.",
+          "authorString": "Luis I, Gutierrez-Farewik EM, Afschrift M.",
+          "pubYear": "2026",
+          "doi": "10.1186/s12984-026-02106-3"
+        },
+        {
+          "id": "40320480",
+          "title": "Effects of stepping practice and functional electrical stmulation on neuromotor excitability in able bodied young adults.",
+          "authorString": "Spencer J, Aloba FK, Slusarenko A, Leone T, Patel J, Eyvazzadeh L, Lynch AL, Borich MR, Kesar TM.",
+          "pubYear": "2025",
+          "doi": "10.1007/s00221-025-07042-7"
+        },
+        {
+          "id": "42141937",
+          "title": "Impact of High-Definition Cathodal tDCS Preconditioning on Enhancing the Therapeutic Efficacy of iTBS Combined With FES for Improving Walking Function in Patients With Spinal Cord Injury: A Randomized Controlled Trial.",
+          "authorString": "Chen H, Xia C, Yao W, Ren X, Zhang C, Fan Y, Wang J, Cheng D, Su Z, Du H, Liu Y, Su M.",
+          "pubYear": "2026",
+          "doi": "10.1002/cns.70932"
+        },
+        {
+          "id": "39943752",
+          "title": "[Efficacy of ultrasound-guided acupuncture at myofascial trigger points on improving gait function in patients with post-stroke foot drop].",
+          "authorString": "Leng Q, Zheng X, Zhong H, Xie Y, Lu L, Guo Y, Liu C.",
+          "pubYear": "2025",
+          "doi": "10.13703/j.0255-2930.20240115-k0004"
+        },
+        {
+          "id": "42034001",
+          "title": "Musculotendinous morphological differences and their relationship with walking biomechanics in children with and without Sever disease.",
+          "authorString": "Cardiel-Sánchez S, Rubio-Peirotén A, Bravo-Viñuales E, Ráfales-Perucha A, Cartón-Llorente A, García-Pinillos F.",
+          "pubYear": "2026",
+          "doi": "10.1016/j.gaitpost.2026.110199"
+        },
+        {
+          "id": "40102928",
+          "title": "Therapeutic and orthotic effects of an adaptive functional electrical stimulation system on gait biomechanics in participants with stroke.",
+          "authorString": "He R, Dong Y, Li Y, Zheng M, Peng S, Tong RK, Song R.",
+          "pubYear": "2025",
+          "doi": "10.1186/s12984-025-01577-0"
+        },
+        {
+          "id": "39884064",
+          "title": "Biomechanical mechanisms for modulating stride frequency in walking.",
+          "authorString": "Johnson RT, Umberger BR.",
+          "pubYear": "2025",
+          "doi": "10.1016/j.jbiomech.2025.112549"
+        }
+      ]
+    },
+    {
+      "blok": "klinische_loopanalyse",
+      "query": "(TITLE_ABS:\"gait analysis\" AND (TITLE_ABS:clinical OR TITLE_ABS:instrumented) AND (TITLE_ABS:review OR TITLE_ABS:validity OR TITLE_ABS:reliability)) AND FIRST_PDATE:[1900-01-01 TO 2026-09-25] AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3A%22gait+analysis%22+AND+%28TITLE_ABS%3Aclinical+OR+TITLE_ABS%3Ainstrumented%29+AND+%28TITLE_ABS%3Areview+OR+TITLE_ABS%3Avalidity+OR+TITLE_ABS%3Areliability%29%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-25%5D+AND+SRC%3AMED&format=json&pageSize=25",
+      "hitCount": 736,
+      "opgehaald": [
+        {
+          "id": "42407242",
+          "title": "Reliability and validity of a smart insole incorporating inertial measurement unit and pressure sensors for spatiotemporal gait parameters.",
+          "authorString": "Tan K, Tanabe S, Kondo H, Sugiyama T, Ii T, Katagiri K, Kondo M, Uehara S, Mori N, Otaka Y.",
+          "pubYear": "2026",
+          "doi": "10.1016/j.gaitpost.2026.110274"
+        },
+        {
+          "id": "40250127",
+          "title": "Reliability and validity of current computer vision based motion capture systems in gait analysis: A systematic review.",
+          "authorString": "Cheng X, Jiao Y, Meiring RM, Sheng B, Zhang Y.",
+          "pubYear": "2025",
+          "doi": "10.1016/j.gaitpost.2025.04.016"
+        },
+        {
+          "id": "42265439",
+          "title": "Gait analysis after TKA: Do different alignment strategies lead to different outcomes? A systematic review.",
+          "authorString": "Bulzaki Bogucki BD, Digennaro V, Panciera A, Cecchin D, Ferri R, Benvenuti L, Faldini C.",
+          "pubYear": "2026",
+          "doi": "10.1007/s12306-026-00959-4"
+        },
+        {
+          "id": "40895711",
+          "title": "Integrating Gait Analysis Systems in Clinical Rehabilitation Settings for Individuals With Lower Limb Amputation: A Narrative Review.",
+          "authorString": "Yuan X, Sparling T, Carlisle D, McGavin S, Riggleman T, Cuevas E, Ojha S, Smith DG, Sheehan R, Kim G.",
+          "pubYear": "2025",
+          "doi": "10.7759/cureus.91030"
+        },
+        {
+          "id": "41901917",
+          "title": "Validity, Reliability and Interpretability of an IMU-Based System to Measure 3D Lower Limb Kinematics of Patients with Heterogeneous Gait Disorders.",
+          "authorString": "Carcreff L, Payen G, Grouvel G, Cardoso-Fonseca M, Massé F, Armand S.",
+          "pubYear": "2026",
+          "doi": "10.3390/s26061746"
+        },
+        {
+          "id": "41299765",
+          "title": "Assessment of reliability and concurrent validity of a single trunk-based IMU system to quantify spatiotemporal parameters in healthy individuals.",
+          "authorString": "Zamberger S, Wurzinger L, Horsak B, Dumphart B, Pahr D, Ernst U, Zauner-Dungl A.",
+          "pubYear": "2025",
+          "doi": "10.1186/s13102-025-01410-0"
+        },
+        {
+          "id": "42515404",
+          "title": "Concurrent Validity and Reliability Between Noraxon Ultium™ IMU and Vicon OMC for Lower Limb Gait Assessment Across Variable Walking Speeds.",
+          "authorString": "Le TT, Vo HV, Brandon SCE.",
+          "pubYear": "2026",
+          "doi": "10.3390/s26144520"
+        },
+        {
+          "id": "41673343",
+          "title": "Gait deviations in adolescent patients with Wilson disease and their possible connections with biochemical markers: preliminary results.",
+          "authorString": "Syczewska M, Jańczyk W, Szczerbik E, Kalinowska M, Socha P.",
+          "pubYear": "2026",
+          "doi": "10.1007/s00431-026-06779-9"
+        },
+        {
+          "id": "42425019",
+          "title": "Reliability and utility of a novel classification scheme for gait deviations in children with persistent idiopathic toe walking.",
+          "authorString": "Childers S, Brown S, Kephart D, Bagley A, Kulkarni VA, Davids JR.",
+          "pubYear": "2026",
+          "doi": "10.1016/j.gaitpost.2026.110281"
+        },
+        {
+          "id": "41155074",
+          "title": "Biomechanics of Human Motion and Its Clinical Applications: Instrumented Gait Analysis.",
+          "authorString": "Alderink G, Õunpuu S.",
+          "pubYear": "2025",
+          "doi": "10.3390/bioengineering12101076"
+        },
+        {
+          "id": "40971743",
+          "title": "Gait Analysis in Neurologic Disorders: Methodology, Applications, and Clinical Considerations.",
+          "authorString": "Ali F, Padilla H, Blazek AM, Barnard L, Kaufman KR.",
+          "pubYear": "2025",
+          "doi": "10.1212/wnl.0000000000214154"
+        },
+        {
+          "id": "41821044",
+          "title": "Gait analysis methods in people with spinal cord injury: a systematic review.",
+          "authorString": "Mirando M, Panara AC, Rossi G, Pingue V, Nardone A, Pavese C.",
+          "pubYear": "2026",
+          "doi": "10.1186/s12984-026-01938-3"
+        },
+        {
+          "id": "41269999",
+          "title": "Validity and reliability of wireless pressure insoles for measuring gait biomechanics in healthy adults: A protocol for a systematic review and meta-analysis.",
+          "authorString": "Cudejko T, Al-Amri M, Szotek S, Żuk M, Kobielarz M, D'Août K.",
+          "pubYear": "2025",
+          "doi": "10.1371/journal.pone.0336692"
+        },
+        {
+          "id": "42483446",
+          "title": "Gait analysis in cerebral palsy (2005-2025): a bibliometric mapping of research trends, collaboration networks, and emerging technologies.",
+          "authorString": "Wang Z, Liu X.",
+          "pubYear": "2026",
+          "doi": "10.3389/fneur.2026.1899328"
+        },
+        {
+          "id": "42259107",
+          "title": "The relationship between clinical joint hyper-resistance scores and gait kinematics in patients with central neurological disorders: A systematic review.",
+          "authorString": "Hozeman D, Greve C, Lu S, Buurke TJW.",
+          "pubYear": "2026",
+          "doi": "10.1016/j.gaitpost.2026.110238"
+        },
+        {
+          "id": "42628977",
+          "title": "Methods for measuring the sagittal resistive torque of ankle-foot orthoses during gait: A systematic review.",
+          "authorString": "Strenge O, Hochmann D.",
+          "pubYear": "2026",
+          "doi": "10.1097/pxr.0000000000000565"
+        },
+        {
+          "id": "41583941",
+          "title": "Reliability of a wireless instrumented insole (WalkinSense system) for measuring spatiotemporal and kinematic gait variables.",
+          "authorString": "Eckelt M, Fayad J, Backes A, Garcia F, Grimm B, Serchi V, Meyer T, Solignac T, Mouton C, Seil R, Malisoux L.",
+          "pubYear": "2026",
+          "doi": "10.1002/jeo2.70628"
+        },
+        {
+          "id": "42602715",
+          "title": "IMU-based gait analysis methods: a systematic review of techniques for different body locations.",
+          "authorString": "Chen L, Guo R, Guo R, Chen Y, Wang Y, Zhang S, Zhang Q.",
+          "pubYear": "2026",
+          "doi": "10.3389/fspor.2026.1854615"
+        },
+        {
+          "id": "42480581",
+          "title": "Ankle-worn accelerometers for gait analysis in people with Alzheimer's disease and mild cognitive impairment: reliability of a finite state machine approach.",
+          "authorString": "Cornish BF, Ooteghem KV, Pieruccini-Faria F, Montero-Odasso M, McIlroy WE.",
+          "pubYear": "2026",
+          "doi": "10.1088/1873-4030/ae8dd0"
+        },
+        {
+          "id": "40511312",
+          "title": "Measurement properties of observational gait analysis in patients with stroke: a systematic review.",
+          "authorString": "Takeda Y, Takahashi A, Kitsu T, Furukawa K.",
+          "pubYear": "2025",
+          "doi": "10.1589/jpts.37.303"
+        },
+        {
+          "id": "41007205",
+          "title": "Evaluation of the Validity and Reliability of NeuroSkin's Wearable Sensor Gait Analysis Device in Healthy Individuals.",
+          "authorString": "Descollonges M, Moreau B, Feppon N, Abdoun O, Séguin P, Popovic-Maneski L, Di Marco J, Metani A.",
+          "pubYear": "2025",
+          "doi": "10.3390/bioengineering12090960"
+        },
+        {
+          "id": "42651255",
+          "title": "Use of Computer Vision with Conventional Video Recordings of Gait in Older Adults: A Scoping Review.",
+          "authorString": "Banarjee C, Bilic A, Kwon YJ, Rojas Aristizabal S, Lopez J, Xie R, Chen C, Thiamwong L.",
+          "pubYear": "2026",
+          "doi": "10.3390/healthcare14162487"
+        },
+        {
+          "id": "42105725",
+          "title": "Wearable inertial sensors for paediatric gait assessment: A systematic review.",
+          "authorString": "Bavan L, Ng K, Gardner R, Andrysek J, Narayanan U.",
+          "pubYear": "2026",
+          "doi": "10.1016/j.gaitpost.2026.110188"
+        },
+        {
+          "id": "42382450",
+          "title": "Predictive accuracy of machine learning and markerless gait analysis for return-to-sport following lower extremity injury: a systematic review and meta-analysis.",
+          "authorString": "Satija R, Dkhar D.",
+          "pubYear": "2026",
+          "doi": "10.3389/fspor.2026.1862870"
+        },
+        {
+          "id": "42468549",
+          "title": "Comparative evaluation of a smartphone-based inertial measurement approach for quantitative gait analysis.",
+          "authorString": "Nur Altin F, Trivino G, Kavlak E.",
+          "pubYear": "2026",
+          "doi": "10.1088/1873-4030/ae8c43"
+        }
+      ]
+    },
+    {
+      "blok": "kuitbeperking",
+      "query": "(TITLE_ABS:\"gastrocnemius tightness\" OR TITLE_ABS:Silfverskiold) AND FIRST_PDATE:[1900-01-01 TO 2026-09-25] AND SRC:MED",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28TITLE_ABS%3A%22gastrocnemius+tightness%22+OR+TITLE_ABS%3ASilfverskiold%29+AND+FIRST_PDATE%3A%5B1900-01-01+TO+2026-09-25%5D+AND+SRC%3AMED&format=json&pageSize=25",
+      "hitCount": 114,
+      "opgehaald": [
+        {
+          "id": "42475833",
+          "title": "Proximal medial gastrocnemius release: Loosening the calf, tightening the criteria for its use.",
+          "authorString": "Poutoglidou F, Elliot R, Dimock R.",
+          "pubYear": "2026",
+          "doi": "10.1016/j.foot.2026.102284"
+        },
+        {
+          "id": "42023392",
+          "title": "The prevalence of an isolated gastrocnemius tightness in patients with knee or hip pathology.",
+          "authorString": "Kralj Vitez Š, Drobnič M, Tomc Žargi T.",
+          "pubYear": "2026",
+          "doi": "10.3389/fresc.2026.1733301"
+        },
+        {
+          "id": "41732786",
+          "title": "Prone-Position Modified Silfverskiöld Test: Feasibility and Reliability.",
+          "authorString": "Bhatia M, Dhiran A, Jones A.",
+          "pubYear": "2026",
+          "doi": "10.1177/24730114261417693"
+        },
+        {
+          "id": "40684368",
+          "title": "Does the Side Matter? Medial vs Lateral Ankle Dorsiflexion Measurements During the Silfverskiöld Test in Children.",
+          "authorString": "Liyanarachi S, Basma CJ, Foss OA, Øye CR, Holen KJ, Langvatn H.",
+          "pubYear": "2025",
+          "doi": "10.1177/10711007251351317"
+        },
+        {
+          "id": "40767345",
+          "title": "The effect of a 12-week physiotherapy program on lower extremity function and gait in children with isolated gastrocnemius tightness.",
+          "authorString": "Tuncer D, Eren Zengin F, Senaran H, Uzer G.",
+          "pubYear": "2025",
+          "doi": "10.1080/09593985.2025.2542415"
+        },
+        {
+          "id": "41039620",
+          "title": "Effects of isolated gastrocnemius tightness on foot posture, strength, function, and balance in children aged 7-16: a case-control study.",
+          "authorString": "Eren-Zengin F, Tuncer D, Senaran H, Uzer G.",
+          "pubYear": "2025",
+          "doi": "10.1186/s13102-025-01210-6"
+        },
+        {
+          "id": "37485103",
+          "title": "The Incidence of Gastrocnemius Tightness Among Clinic Staff in a District Hospital's Clinic in the State of Kedah, Malaysia.",
+          "authorString": "Ramalingam K, Perumal D, Balan H, Leong JF, Thiruselvam T.",
+          "pubYear": "2023",
+          "doi": "10.7759/cureus.40714"
+        },
+        {
+          "id": "37043480",
+          "title": "Reliability of a new computerized equinometer based on Silfverskiöld test to measure gastrocnemius tightness.",
+          "authorString": "Martinez L, Lalevée M, Beldame J, L'Hermette M, Brunel H, Dujardin F, Billuart F.",
+          "pubYear": "2023",
+          "doi": "10.1371/journal.pone.0284279"
+        },
+        {
+          "id": "42168004",
+          "title": "Retrospective study investigating the effect of isolated proximal medial gastrocnemius release for recalcitrant plantar fasciitis.",
+          "authorString": "Akichjev R, Hamers D, Vandeputte G, Wuite S, Clockaerts S.",
+          "pubYear": "2026",
+          "doi": "10.1016/j.fas.2026.05.004"
+        },
+        {
+          "id": "34432740",
+          "title": "Is Gastrocnemius Tightness a Normal Finding in Children?: A Cross-Sectional Study of 204 Norwegian Schoolchildren.",
+          "authorString": "Liyanarachi S, Hulleberg G, Foss OA.",
+          "pubYear": "2021",
+          "doi": "10.2106/jbjs.20.01273"
+        },
+        {
+          "id": "39257332",
+          "title": "Is the Silfverskiöld Test a valid tool for evaluating calf muscles spastic overactivity in patients with stroke? A retrospective observational study.",
+          "authorString": "Picelli A, DI Censo R, Angeli C, Spina S, Santamato A, Baricich A, Smania N, Filippetti M.",
+          "pubYear": "2024",
+          "doi": "10.23736/s1973-9087.24.08153-x"
+        },
+        {
+          "id": "40151495",
+          "title": "Evaluating barbed sutures: A porcine biomechanical comparison of Z-plasty and turndown flap according to Silfverskiöld.",
+          "authorString": "Bürger HV, Alexander J, Torben H, Fonseca-Ulloa CA, Rickert M, Stolz D.",
+          "pubYear": "2025",
+          "doi": "10.1016/j.jor.2025.03.003"
+        },
+        {
+          "id": "33422443",
+          "title": "The Association of Gastrocnemius Tightness, Genu Valgum and Hallux Valgus: A Prospective Case-Control Study.",
+          "authorString": "O' Reilly M, Merghani K, McKenna J, Bayer T.",
+          "pubYear": "2021",
+          "doi": "10.1053/j.jfas.2020.06.023"
+        },
+        {
+          "id": "34144595",
+          "title": "A Predictive Model for Gastrocnemius Tightness in Forefoot Pain and Intractable Plantar Keratosis of the Second Rocker.",
+          "authorString": "Cobacho MT, Barcia JM, Freijó-Gutiérrez V, Caballero-Gómez F, Ferrer-Torregrosa J.",
+          "pubYear": "2021",
+          "doi": "10.7547/18-024"
+        },
+        {
+          "id": "41579055",
+          "title": "Gastrocnemius recession in the treatment of isolated metatarsalgia: A systematic review of surgical outcomes and complications.",
+          "authorString": "Calori S, Giuliani A, Bocchino G, Forconi F, Maccauro G, Vitiello R.",
+          "pubYear": "2026",
+          "doi": "10.1177/10225536251350416"
+        },
+        {
+          "id": "41318348",
+          "title": "Proximal vs Distal Gastrocnemius Recession: Randomized Side-to-Side Comparison in Full-Body Cadaveric Specimens.",
+          "authorString": "Michlin M, Kovatsi L, Freund O, Totlis T, Symeonidis PD.",
+          "pubYear": "2026",
+          "doi": "10.1177/10711007251393252"
+        },
+        {
+          "id": "40578504",
+          "title": "Chronic heel pain: Can reducing gastrocnemius-achilles-plantar fascia (GAP) Workload through modified surgical technique improve outcomes?",
+          "authorString": "Rajeev A, Devalia K.",
+          "pubYear": "2025",
+          "doi": "10.1053/j.jfas.2025.05.008"
+        },
+        {
+          "id": "41393516",
+          "title": "Pre- and Postoperative Gait After Proximal Medial Gastrocnemius Recession for Chronic Plantar Fasciitis: An Exploratory 3D Gait Analysis of 29 Patients.",
+          "authorString": "Riiser MO, Bengtson EI, Klund-Hansen SL, Maalen-Johansen IK, Molund M.",
+          "pubYear": "2025",
+          "doi": "10.1177/24730114251394010"
+        },
+        {
+          "id": "41542010",
+          "title": "Botulinum Toxin Type A Injection Into the Medial Gastrocnemius for Refractory Plantar Fasciitis: A Case Series.",
+          "authorString": "Ventura Luís J, Martins E Pereira G, Cordeiro D, Freitas MM, Lorga S.",
+          "pubYear": "2025",
+          "doi": "10.7759/cureus.99254"
+        },
+        {
+          "id": "32924578",
+          "title": "Correlation Between Gastrocnemius Tightness and Heel Pain Severity in Plantar Fasciitis.",
+          "authorString": "Pearce CJ, Seow D, Lau BP.",
+          "pubYear": "2021",
+          "doi": "10.1177/1071100720955144"
+        },
+        {
+          "id": "40585347",
+          "title": "Outcomes of Combined Proximal Medial Gastrocnemius Release and Achilles Tendon Debridement and Reinsertion for Calcified Insertional Achilles Tendinopathy.",
+          "authorString": "Saraiva D, Knupp M, Freitas D, Rodrigues AS, Pato T, Tulha J, Gomes TM, Oliva XM.",
+          "pubYear": "2025",
+          "doi": "10.1177/24730114251348194"
+        },
+        {
+          "id": "34668880",
+          "title": "Measuring Ankle Dorsiflexion: Not as Simple as You Might Think: Commentary on an article by Suki Liyanarachi, MD, et al.: \"Is Gastrocnemius Tightness a Normal Finding in Children? A Cross-Sectional Study of 204 Norwegian Schoolchildren\".",
+          "authorString": "Sussman MD.",
+          "pubYear": "2021",
+          "doi": "10.2106/jbjs.21.00742"
+        },
+        {
+          "id": "25456715",
+          "title": "Clinical diagnosis of gastrocnemius tightness.",
+          "authorString": "Barouk P, Barouk LS.",
+          "pubYear": "2014",
+          "doi": "10.1016/j.fcl.2014.08.004"
+        },
+        {
+          "id": "36199379",
+          "title": "Triceps Surae Lengthening in Foot and Ankle Trauma: A Survey of OTA and AOFAS Members.",
+          "authorString": "Patterson JT, Campbell ST, Wallace SJ, Magnusson EA, Elliott IS, Mertz K, Benirschke SK.",
+          "pubYear": "2022",
+          "doi": "10.1177/24730114221126719"
+        },
+        {
+          "id": "29954204",
+          "title": "Prevalence of isolated gastrocnemius tightness in patients with foot and ankle pathology: a population-based study.",
+          "authorString": "Malhotra K, Chan O, Cullen S, Welck M, Goldberg AJ, Cullen N, Singh D.",
+          "pubYear": "2018",
+          "doi": "10.1302/0301-620x.100b7.bjj-2017-1465.r1"
+        }
+      ]
+    }
+  ]
+}

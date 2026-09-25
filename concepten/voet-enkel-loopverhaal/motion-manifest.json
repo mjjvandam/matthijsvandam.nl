@@ -1,0 +1,33 @@
+{
+  "source": "https://doi.org/10.6084/m9.figshare.5722711.v6",
+  "license": "CC BY 4.0",
+  "subject": "WBDS01",
+  "trial": "walkO01C",
+  "mode": "barefoot overground, self-selected comfortable speed",
+  "frameRange150Hz": [
+    85,
+    247.5
+  ],
+  "seconds": [
+    0.5666666666666667,
+    1.65
+  ],
+  "axes": "X forward, Y up, Z lateral; input mm",
+  "contact": "Initial contacts from force onset >20N (right plates5 and2; left plate1). Releases approximately from heel/MT1 trajectories; plate coverage incomplete. No force values rendered.",
+  "calibration": "Static heel and MT1 marker heights subtracted for floor reference; GTR average used as pelvis proxy, NOT anatomical hip center.",
+  "retargeting": [
+    "Sagittal projection; floor anchors fixed during stance; foot length205mm, toe55mm are design geometry",
+    "Thigh405mm/shank415mm, analytic IK, shared pelvis; reach clamp",
+    "Toe motion is schematic, absent in source markers",
+    "No extra filtering; linear interpolation of supplied trajectories; 120ms smooth transitions around contact locks",
+    "Muscles/anatomy are explanatory drawings, no EMG or tissue-force reconstruction"
+  ],
+  "maxPelvisCorrectionMm": 32.338665312128114,
+  "estimatedSpeedMps": 1.267037076923077,
+  "sourceFiles": {
+    "WBDS01static1.txt": "209b113d1f15c7e7ce73f73842b710e6dec9b2bfdcea26f4c9a1bc45264aee92",
+    "WBDS01walkO01Cmkr.txt": "8571a77bcf477cb0d0d13b682610da51ec9941d748524dbc486e3368e3da30f3",
+    "WBDS01walkO01Cgrf.txt": "0950f2a929e0e3f3fcebdf71d1e7689fdbf70f0d85fabd72407986785593f7f0"
+  },
+  "archiveNote": "v6 archive directory is named 51subjs; original 2018 paper describes42. No assumption that every v6 record belonged to original paper."
+}

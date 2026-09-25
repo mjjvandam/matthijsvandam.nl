@@ -1,0 +1,625 @@
+{
+  "geraadpleegd": "2026-09-25",
+  "bron": "Europe PMC bibliografische metadata; inhoudelijke beoordeling in onderzoeksdossier.md",
+  "records": [
+    {
+      "id": "41155074",
+      "title": "Biomechanics of Human Motion and Its Clinical Applications: Instrumented Gait Analysis.",
+      "authorString": "Alderink G, Õunpuu S.",
+      "firstPublicationDate": "2025-10-03",
+      "doi": "10.3390/bioengineering12101076",
+      "journalInfo": {
+        "issue": "10",
+        "volume": "12",
+        "journalIssueId": 4038821,
+        "dateOfPublication": "2025 Oct",
+        "monthOfPublication": 10,
+        "yearOfPublication": 2025,
+        "journal": {
+          "medlineAbbreviation": "Bioengineering (Basel)",
+          "title": "Bioengineering (Basel, Switzerland)",
+          "essn": "2306-5354",
+          "issn": "2306-5354",
+          "nlmid": "101676056",
+          "isoabbreviation": "Bioengineering (Basel)"
+        },
+        "printPublicationDate": "2025-10-01"
+      },
+      "pmcid": "PMC12561807"
+    },
+    {
+      "id": "38568266",
+      "title": "Three-Dimensional Instrumented Gait Analysis for Children With Cerebral Palsy: An Evidence-Based Clinical Practice Guideline.",
+      "authorString": "States RA, Salem Y, Krzak JJ, Godwin EM, McMulkin ML, Kaplan SL.",
+      "firstPublicationDate": "2024-03-29",
+      "doi": "10.1097/pep.0000000000001101",
+      "journalInfo": {
+        "issue": "2",
+        "volume": "36",
+        "journalIssueId": 3749810,
+        "dateOfPublication": "2024 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2024,
+        "journal": {
+          "medlineAbbreviation": "Pediatr Phys Ther",
+          "title": "Pediatric physical therapy : the official publication of the Section on Pediatrics of the American Physical Therapy Association",
+          "essn": "1538-005X",
+          "issn": "0898-5669",
+          "nlmid": "8912748",
+          "isoabbreviation": "Pediatr Phys Ther"
+        },
+        "printPublicationDate": "2024-04-01"
+      },
+      "pmcid": null
+    },
+    {
+      "id": "37043480",
+      "title": "Reliability of a new computerized equinometer based on Silfverskiöld test to measure gastrocnemius tightness.",
+      "authorString": "Martinez L, Lalevée M, Beldame J, L'Hermette M, Brunel H, Dujardin F, Billuart F.",
+      "firstPublicationDate": "2023-04-12",
+      "doi": "10.1371/journal.pone.0284279",
+      "journalInfo": {
+        "issue": "4",
+        "volume": "18",
+        "journalIssueId": 3535217,
+        "dateOfPublication": "2023 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2023,
+        "journal": {
+          "medlineAbbreviation": "PLoS One",
+          "title": "PloS one",
+          "essn": "1932-6203",
+          "issn": "1932-6203",
+          "nlmid": "101285081",
+          "isoabbreviation": "PLoS One"
+        },
+        "printPublicationDate": "2023-01-01"
+      },
+      "pmcid": "PMC10096190"
+    },
+    {
+      "id": "33831112",
+      "title": "The rise of the longitudinal arch when sitting, standing, and walking: Contributions of the windlass mechanism.",
+      "authorString": "Sichting F, Ebrecht F.",
+      "firstPublicationDate": "2021-04-08",
+      "doi": "10.1371/journal.pone.0249965",
+      "journalInfo": {
+        "issue": "4",
+        "volume": "16",
+        "journalIssueId": 3143484,
+        "dateOfPublication": "2021 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2021,
+        "journal": {
+          "medlineAbbreviation": "PLoS One",
+          "title": "PloS one",
+          "essn": "1932-6203",
+          "issn": "1932-6203",
+          "nlmid": "101285081",
+          "isoabbreviation": "PLoS One"
+        },
+        "printPublicationDate": "2021-01-01"
+      },
+      "pmcid": "PMC8031382"
+    },
+    {
+      "id": "32563727",
+      "title": "Clinical efficacy of instrumented gait analysis: Systematic review 2020 update.",
+      "authorString": "Wren TAL, Tucker CA, Rethlefsen SA, Gorton GE, Õunpuu S.",
+      "firstPublicationDate": "2020-05-23",
+      "doi": "10.1016/j.gaitpost.2020.05.031",
+      "journalInfo": {
+        "volume": "80",
+        "journalIssueId": 2980454,
+        "dateOfPublication": "2020 Jul",
+        "monthOfPublication": 7,
+        "yearOfPublication": 2020,
+        "journal": {
+          "medlineAbbreviation": "Gait Posture",
+          "title": "Gait & posture",
+          "essn": "1879-2219",
+          "issn": "0966-6362",
+          "nlmid": "9416830",
+          "isoabbreviation": "Gait Posture"
+        },
+        "printPublicationDate": "2020-07-01"
+      },
+      "pmcid": null
+    },
+    {
+      "id": "31064856",
+      "title": "Tibialis anterior tendinous tissue plays a key role in energy absorption during human walking.",
+      "authorString": "Maharaj JN, Cresswell AG, Lichtwark GA.",
+      "firstPublicationDate": "2019-06-04",
+      "doi": "10.1242/jeb.191247",
+      "journalInfo": {
+        "issue": "Pt 11",
+        "volume": "222",
+        "journalIssueId": 2823048,
+        "dateOfPublication": "2019 Jun",
+        "monthOfPublication": 6,
+        "yearOfPublication": 2019,
+        "journal": {
+          "medlineAbbreviation": "J Exp Biol",
+          "title": "The Journal of experimental biology",
+          "essn": "1477-9145",
+          "issn": "0022-0949",
+          "nlmid": "0243705",
+          "isoabbreviation": "J Exp Biol"
+        },
+        "printPublicationDate": "2019-06-01"
+      },
+      "pmcid": null
+    },
+    {
+      "id": "30665039",
+      "title": "Multi-segment foot models and their use in clinical populations.",
+      "authorString": "Leardini A, Caravaggi P, Theologis T, Stebbins J.",
+      "firstPublicationDate": "2019-01-15",
+      "doi": "10.1016/j.gaitpost.2019.01.022",
+      "journalInfo": {
+        "volume": "69",
+        "journalIssueId": 2828727,
+        "dateOfPublication": "2019 Mar",
+        "monthOfPublication": 3,
+        "yearOfPublication": 2019,
+        "journal": {
+          "medlineAbbreviation": "Gait Posture",
+          "title": "Gait & posture",
+          "essn": "1879-2219",
+          "issn": "0966-6362",
+          "nlmid": "9416830",
+          "isoabbreviation": "Gait Posture"
+        },
+        "printPublicationDate": "2019-03-01"
+      },
+      "pmcid": null
+    },
+    {
+      "id": "29707431",
+      "title": "A public dataset of overground and treadmill walking kinematics and kinetics in healthy individuals.",
+      "authorString": "Fukuchi CA, Fukuchi RK, Duarte M.",
+      "firstPublicationDate": "2018-04-24",
+      "doi": "10.7717/peerj.4640",
+      "journalInfo": {
+        "volume": "6",
+        "journalIssueId": 2636959,
+        "dateOfPublication": "2018 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2018,
+        "journal": {
+          "medlineAbbreviation": "PeerJ",
+          "title": "PeerJ",
+          "essn": "2167-8359",
+          "issn": "2167-8359",
+          "nlmid": "101603425",
+          "isoabbreviation": "PeerJ"
+        },
+        "printPublicationDate": "2018-01-01"
+      },
+      "pmcid": "PMC5922232"
+    },
+    {
+      "id": "28821242",
+      "title": "Methodological factors affecting joint moments estimation in clinical gait analysis: a systematic review.",
+      "authorString": "Camomilla V, Cereatti A, Cutti AG, Fantozzi S, Stagni R, Vannozzi G.",
+      "firstPublicationDate": "2017-08-18",
+      "doi": "10.1186/s12938-017-0396-x",
+      "journalInfo": {
+        "issue": "1",
+        "volume": "16",
+        "journalIssueId": 2582332,
+        "dateOfPublication": "2017 Aug",
+        "monthOfPublication": 8,
+        "yearOfPublication": 2017,
+        "journal": {
+          "medlineAbbreviation": "Biomed Eng Online",
+          "title": "Biomedical engineering online",
+          "essn": "1475-925X",
+          "issn": "1475-925X",
+          "nlmid": "101147518",
+          "isoabbreviation": "Biomed Eng Online"
+        },
+        "printPublicationDate": "2017-08-01"
+      },
+      "pmcid": "PMC5563001"
+    },
+    {
+      "id": "27903626",
+      "title": "A unified perspective on ankle push-off in human walking.",
+      "authorString": "Zelik KE, Adamczyk PG.",
+      "firstPublicationDate": "2016-12-01",
+      "doi": "10.1242/jeb.140376",
+      "journalInfo": {
+        "issue": "Pt 23",
+        "volume": "219",
+        "journalIssueId": 2497896,
+        "dateOfPublication": "2016 Dec",
+        "monthOfPublication": 12,
+        "yearOfPublication": 2016,
+        "journal": {
+          "medlineAbbreviation": "J Exp Biol",
+          "title": "The Journal of experimental biology",
+          "essn": "1477-9145",
+          "issn": "0022-0949",
+          "nlmid": "0243705",
+          "isoabbreviation": "J Exp Biol"
+        },
+        "printPublicationDate": "2016-12-01"
+      },
+      "pmcid": "PMC5201006"
+    },
+    {
+      "id": "25551151",
+      "title": "Active regulation of longitudinal arch compression and recoil during walking and running.",
+      "authorString": "Kelly LA, Lichtwark G, Cresswell AG.",
+      "firstPublicationDate": "2015-01-01",
+      "doi": "10.1098/rsif.2014.1076",
+      "journalInfo": {
+        "issue": "102",
+        "volume": "12",
+        "journalIssueId": 2217679,
+        "dateOfPublication": "2015 Jan",
+        "monthOfPublication": 1,
+        "yearOfPublication": 2015,
+        "journal": {
+          "medlineAbbreviation": "J R Soc Interface",
+          "title": "Journal of the Royal Society, Interface",
+          "essn": "1742-5662",
+          "issn": "1742-5689",
+          "nlmid": "101217269",
+          "isoabbreviation": "J R Soc Interface"
+        },
+        "printPublicationDate": "2015-01-01"
+      },
+      "pmcid": "PMC4277100"
+    },
+    {
+      "id": "25107666",
+      "title": "Empirical evaluation of gastrocnemius and soleus function during walking.",
+      "authorString": "Lenhart RL, Francis CA, Lenz AL, Thelen DG.",
+      "firstPublicationDate": "2014-07-15",
+      "doi": "10.1016/j.jbiomech.2014.07.007",
+      "journalInfo": {
+        "issue": "12",
+        "volume": "47",
+        "journalIssueId": 2201183,
+        "dateOfPublication": "2014 Sep",
+        "monthOfPublication": 9,
+        "yearOfPublication": 2014,
+        "journal": {
+          "medlineAbbreviation": "J Biomech",
+          "title": "Journal of biomechanics",
+          "essn": "1873-2380",
+          "issn": "0021-9290",
+          "nlmid": "0157375",
+          "isoabbreviation": "J Biomech"
+        },
+        "printPublicationDate": "2014-09-01"
+      },
+      "pmcid": "PMC4228932"
+    },
+    {
+      "id": "23787149",
+      "title": "The modulation of forward propulsion, vertical support, and center of pressure by the plantarflexors during human walking.",
+      "authorString": "Francis CA, Lenz AL, Lenhart RL, Thelen DG.",
+      "firstPublicationDate": "2013-06-17",
+      "doi": "10.1016/j.gaitpost.2013.05.009",
+      "journalInfo": {
+        "issue": "4",
+        "volume": "38",
+        "journalIssueId": 2083657,
+        "dateOfPublication": "2013 Sep",
+        "monthOfPublication": 9,
+        "yearOfPublication": 2013,
+        "journal": {
+          "medlineAbbreviation": "Gait Posture",
+          "title": "Gait & posture",
+          "essn": "1879-2219",
+          "issn": "0966-6362",
+          "nlmid": "9416830",
+          "isoabbreviation": "Gait Posture"
+        },
+        "printPublicationDate": "2013-09-01"
+      },
+      "pmcid": "PMC3795949"
+    },
+    {
+      "id": "20023002",
+      "title": "Dynamic principles of gait and their clinical implications.",
+      "authorString": "Kuo AD, Donelan JM.",
+      "firstPublicationDate": "2009-12-18",
+      "doi": "10.2522/ptj.20090125",
+      "journalInfo": {
+        "issue": "2",
+        "volume": "90",
+        "journalIssueId": 1694967,
+        "dateOfPublication": "2010 Feb",
+        "monthOfPublication": 2,
+        "yearOfPublication": 2010,
+        "journal": {
+          "medlineAbbreviation": "Phys Ther",
+          "title": "Physical therapy",
+          "essn": "1538-6724",
+          "issn": "0031-9023",
+          "nlmid": "0022623",
+          "isoabbreviation": "Phys Ther"
+        },
+        "printPublicationDate": "2010-02-01"
+      },
+      "pmcid": "PMC2816028"
+    },
+    {
+      "id": "19853455",
+      "title": "Quantification of soft tissue artifact in lower limb human motion analysis: a systematic review.",
+      "authorString": "Peters A, Galna B, Sangeux M, Morris M, Baker R.",
+      "firstPublicationDate": "2009-10-23",
+      "doi": "10.1016/j.gaitpost.2009.09.004",
+      "journalInfo": {
+        "issue": "1",
+        "volume": "31",
+        "journalIssueId": 1694789,
+        "dateOfPublication": "2010 Jan",
+        "monthOfPublication": 1,
+        "yearOfPublication": 2010,
+        "journal": {
+          "medlineAbbreviation": "Gait Posture",
+          "title": "Gait & posture",
+          "essn": "1879-2219",
+          "issn": "0966-6362",
+          "nlmid": "9416830",
+          "isoabbreviation": "Gait Posture"
+        },
+        "printPublicationDate": "2010-01-01"
+      },
+      "pmcid": null
+    },
+    {
+      "id": "19666202",
+      "title": "Gastrocnemius tightness on joint angle and work of lower extremity during gait.",
+      "authorString": "You JY, Lee HM, Luo HJ, Leu CC, Cheng PG, Wu SK.",
+      "firstPublicationDate": "2009-08-08",
+      "doi": "10.1016/j.clinbiomech.2009.07.002",
+      "journalInfo": {
+        "issue": "9",
+        "volume": "24",
+        "journalIssueId": 1651918,
+        "dateOfPublication": "2009 Nov",
+        "monthOfPublication": 11,
+        "yearOfPublication": 2009,
+        "journal": {
+          "medlineAbbreviation": "Clin Biomech (Bristol)",
+          "title": "Clinical biomechanics (Bristol, Avon)",
+          "essn": "1879-1271",
+          "issn": "1879-1271",
+          "nlmid": "8611877",
+          "isoabbreviation": "Clin Biomech (Bristol)"
+        },
+        "printPublicationDate": "2009-11-01"
+      },
+      "pmcid": null
+    },
+    {
+      "id": "12063330",
+      "title": "Isolated gastrocnemius tightness.",
+      "authorString": "DiGiovanni CW, Kuo R, Tejwani N, Price R, Hansen ST, Cziernecki J, Sangeorzan BJ.",
+      "firstPublicationDate": "2002-06-01",
+      "doi": "10.2106/00004623-200206000-00010",
+      "journalInfo": {
+        "issue": "6",
+        "volume": "84",
+        "journalIssueId": 2818525,
+        "dateOfPublication": "2002 Jun",
+        "monthOfPublication": 6,
+        "yearOfPublication": 2002,
+        "journal": {
+          "medlineAbbreviation": "J Bone Joint Surg Am",
+          "title": "The Journal of bone and joint surgery. American volume",
+          "essn": "1535-1386",
+          "issn": "0021-9355",
+          "nlmid": "0014030",
+          "isoabbreviation": "J Bone Joint Surg Am"
+        },
+        "printPublicationDate": "2002-06-01"
+      },
+      "pmcid": null
+    },
+    {
+      "id": "11672713",
+      "title": "Contributions of the individual ankle plantar flexors to support, forward progression and swing initiation during walking.",
+      "authorString": "Neptune RR, Kautz SA, Zajac FE.",
+      "firstPublicationDate": "2001-11-01",
+      "doi": "10.1016/s0021-9290(01)00105-1",
+      "journalInfo": {
+        "issue": "11",
+        "volume": "34",
+        "journalIssueId": 1022335,
+        "dateOfPublication": "2001 Nov",
+        "monthOfPublication": 11,
+        "yearOfPublication": 2001,
+        "journal": {
+          "medlineAbbreviation": "J Biomech",
+          "title": "Journal of biomechanics",
+          "essn": "1873-2380",
+          "issn": "0021-9290",
+          "nlmid": "0157375",
+          "isoabbreviation": "J Biomech"
+        },
+        "printPublicationDate": "2001-11-01"
+      },
+      "pmcid": null
+    },
+    {
+      "id": "11217891",
+      "title": "In vivo behaviour of human muscle tendon during walking.",
+      "authorString": "Fukunaga T, Kubo K, Kawakami Y, Fukashiro S, Kanehisa H, Maganaris CN.",
+      "firstPublicationDate": "2001-02-01",
+      "doi": "10.1098/rspb.2000.1361",
+      "journalInfo": {
+        "issue": "1464",
+        "volume": "268",
+        "journalIssueId": 1226117,
+        "dateOfPublication": "2001 Feb",
+        "monthOfPublication": 2,
+        "yearOfPublication": 2001,
+        "journal": {
+          "medlineAbbreviation": "Proc Biol Sci",
+          "title": "Proceedings. Biological sciences",
+          "essn": "1471-2954",
+          "issn": "0962-8452",
+          "nlmid": "101245157",
+          "isoabbreviation": "Proc Biol Sci"
+        },
+        "printPublicationDate": "2001-02-01"
+      },
+      "pmcid": "PMC1088596"
+    },
+    {
+      "id": "42571953",
+      "title": "Energetic Contribution of the Human Plantar Aponeurosis to Locomotor Economy During Bipedal Walking and Running.",
+      "authorString": "Matsumoto Y, Kanemura N, Ogihara N.",
+      "firstPublicationDate": "2026-08-01",
+      "doi": "10.1002/ajpa.70347",
+      "journalInfo": {
+        "issue": "4",
+        "volume": "190",
+        "journalIssueId": 4235908,
+        "dateOfPublication": "2026 Aug",
+        "monthOfPublication": 8,
+        "yearOfPublication": 2026,
+        "journal": {
+          "medlineAbbreviation": "Am J Biol Anthropol",
+          "title": "American journal of biological anthropology",
+          "essn": "2692-7691",
+          "issn": "2692-7691",
+          "nlmid": "101770171",
+          "isoabbreviation": "Am J Biol Anthropol"
+        },
+        "printPublicationDate": "2026-08-01"
+      },
+      "pmcid": "PMC13453924"
+    },
+    {
+      "id": "42317623",
+      "title": "A public dataset of treadmill walking kinematics and kinetics at steady speeds in healthy individuals.",
+      "authorString": "Le Goff L, Chorin F, Reneaud N, Fontaine D, Piche E.",
+      "firstPublicationDate": "2026-06-06",
+      "doi": "10.1016/j.dib.2026.112943",
+      "journalInfo": {
+        "volume": "67",
+        "journalIssueId": 4217768,
+        "dateOfPublication": "2026 Aug",
+        "monthOfPublication": 8,
+        "yearOfPublication": 2026,
+        "journal": {
+          "medlineAbbreviation": "Data Brief",
+          "title": "Data in brief",
+          "essn": "2352-3409",
+          "issn": "2352-3409",
+          "nlmid": "101654995",
+          "isoabbreviation": "Data Brief"
+        },
+        "printPublicationDate": "2026-08-01"
+      },
+      "pmcid": "PMC13273904"
+    },
+    {
+      "id": "41962397",
+      "title": "Reliability of an ultrasound-motion capture approach to measure the lengthening behavior of the gastrocnemius medialis muscle-tendon unit, muscle belly, and Achilles tendon in vivo during gait.",
+      "authorString": "Habersack A, Guggenberger B, Mosser N, Svehlik M, Tilp M, Kruse A.",
+      "firstPublicationDate": "2026-04-08",
+      "doi": "10.1016/j.gaitpost.2026.110189",
+      "journalInfo": {
+        "volume": "128",
+        "journalIssueId": 4194337,
+        "dateOfPublication": "2026 Jul",
+        "monthOfPublication": 7,
+        "yearOfPublication": 2026,
+        "journal": {
+          "medlineAbbreviation": "Gait Posture",
+          "title": "Gait & posture",
+          "essn": "1879-2219",
+          "issn": "0966-6362",
+          "nlmid": "9416830",
+          "isoabbreviation": "Gait Posture"
+        },
+        "printPublicationDate": "2026-07-01"
+      },
+      "pmcid": null
+    },
+    {
+      "id": "40234710",
+      "title": "Reconsideration of the load-bearing functions of the plantar fascia and intrinsic foot muscles in the windlass mechanism.",
+      "authorString": "Shinohara H, Umezaki Y, Ikeda A, Ikeda T, Tateyama N.",
+      "firstPublicationDate": "2025-04-15",
+      "doi": "10.1038/s41598-025-97477-3",
+      "journalInfo": {
+        "issue": "1",
+        "volume": "15",
+        "journalIssueId": 3920966,
+        "dateOfPublication": "2025 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2025,
+        "journal": {
+          "medlineAbbreviation": "Sci Rep",
+          "title": "Scientific reports",
+          "essn": "2045-2322",
+          "issn": "2045-2322",
+          "nlmid": "101563288",
+          "isoabbreviation": "Sci Rep"
+        },
+        "printPublicationDate": "2025-04-01"
+      },
+      "pmcid": "PMC12000309"
+    },
+    {
+      "id": "39672664",
+      "title": "Effect of plantar fascia stiffness on plantar windlass mechanism and arch: Finite element method and dual fluoroscopic imaging system verification.",
+      "authorString": "Zhang Q, Sun D, Wang M, Tafferner-Gulyás V, Chen H, Bíró I, Gu Y.",
+      "firstPublicationDate": "2024-11-19",
+      "doi": "10.1016/j.medengphy.2024.104259",
+      "journalInfo": {
+        "volume": "134",
+        "journalIssueId": 3871259,
+        "dateOfPublication": "2024 Dec",
+        "monthOfPublication": 12,
+        "yearOfPublication": 2024,
+        "journal": {
+          "medlineAbbreviation": "Med Eng Phys",
+          "title": "Medical engineering & physics",
+          "essn": "1873-4030",
+          "issn": "1350-4533",
+          "nlmid": "9422753",
+          "isoabbreviation": "Med Eng Phys"
+        },
+        "printPublicationDate": "2024-12-01"
+      },
+      "pmcid": null
+    },
+    {
+      "id": "38562535",
+      "title": "Analysis of windlass mechanism according to one walking cycle.",
+      "authorString": "Shiroshita T.",
+      "firstPublicationDate": "2024-04-01",
+      "doi": "10.1589/jpts.36.161",
+      "journalInfo": {
+        "issue": "4",
+        "volume": "36",
+        "journalIssueId": 3748897,
+        "dateOfPublication": "2024 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2024,
+        "journal": {
+          "medlineAbbreviation": "J Phys Ther Sci",
+          "title": "Journal of physical therapy science",
+          "essn": "2187-5626",
+          "issn": "0915-5287",
+          "nlmid": "9105359",
+          "isoabbreviation": "J Phys Ther Sci"
+        },
+        "printPublicationDate": "2024-04-01"
+      },
+      "pmcid": "PMC10981956"
+    }
+  ]
+}

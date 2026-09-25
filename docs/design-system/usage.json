@@ -3,7 +3,7 @@
   "catalogue_sources": {
     "docs/design-system/catalogue.js": "4e4fc72ad96574b8538187f3b2cd88851856de6fb3aaacbdec60fdaa790b4720",
     "docs/design-system/catalogue.css": "71b21f74acf3d686e873590f6c367f57856afed6ee3d8dc89049a95532875df8",
-    "docs/site/DESIGN_SYSTEM.md": "6fd5497e802f52f9bc6f108d9e35fea938d9782dcf069ee3d44bf1c4254ef2b1"
+    "docs/site/DESIGN_SYSTEM.md": "e2944e8e668c6e64a42015dfbde869c70cc572afb6b734b68fdc41ccf528f40f"
   },
   "components": [
     {
@@ -419,7 +419,7 @@
         "nieuwsbrief.html": "6f63b29472ef45f958b09f2072d965370b5bb4a3eb472150f905dad2c1474a46",
         "over-mij.html": "8eae57375819b840793e1b1c71ef3d6b7bfba45e7754a045bc9099586dbc4459",
         "privacy.html": "7bb17788719e6d5baaf10a3ed45f4d3be142f933d1616ba4a271ccc29b2c0233",
-        "professionals.html": "b5f9f1606e97f56279c373bad043735c97fddd3dc217dde4058df009e58defa1",
+        "professionals.html": "c2fbc9102488ca581e9b675f3caf4c7c59e7752992febac15b4bfe54e90f6378",
         "projecten.html": "94b21e7fd8818d3df2f2e9f88a0cc5fc688024168bf99b346fd9887e2413dbfa",
         "projecten/3d-planning-voet-enkel.html": "9b61b9c6c5f448e843ca246567023b3e8d59f40ba1ca98b0d961c4503000767f",
         "projecten/footprint-quick-scan.html": "e8eaa95c10bb1b8bd29097a339513dcceef143169fa0848bd43bec159f64b883",
@@ -690,7 +690,7 @@
         "content.js": "fd08c5544711aaff45ef4225b90f79b70ca6627af585b23ddb8fa62800710a90",
         "index.html": "038c6e2d68d32f027bd161a5238ff9f4dd97d545a968cfee7c8bcd188e6f7c6b",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "professionals.html": "b5f9f1606e97f56279c373bad043735c97fddd3dc217dde4058df009e58defa1",
+        "professionals.html": "c2fbc9102488ca581e9b675f3caf4c7c59e7752992febac15b4bfe54e90f6378",
         "projecten.html": "94b21e7fd8818d3df2f2e9f88a0cc5fc688024168bf99b346fd9887e2413dbfa",
         "projecten/3d-planning-voet-enkel.html": "9b61b9c6c5f448e843ca246567023b3e8d59f40ba1ca98b0d961c4503000767f",
         "projecten/footprint-quick-scan.html": "e8eaa95c10bb1b8bd29097a339513dcceef143169fa0848bd43bec159f64b883",
@@ -1129,8 +1129,36 @@
       ],
       "fingerprints": {
         "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
-        "professionals.html": "b5f9f1606e97f56279c373bad043735c97fddd3dc217dde4058df009e58defa1",
+        "professionals.html": "c2fbc9102488ca581e9b675f3caf4c7c59e7752992febac15b4bfe54e90f6378",
         "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
+      }
+    },
+    {
+      "id": "professional-scroll-story",
+      "name": "Scrollverhaal samenwerking voor professionals",
+      "source": "professionals.html",
+      "selector": ".professional-scroll-story",
+      "markers": [
+        "professional-scroll-story",
+        "professional-story-stage",
+        "professional-story-moment"
+      ],
+      "sources": [
+        "professionals.html",
+        "assets/professionals-story.css",
+        "assets/professionals-story.js"
+      ],
+      "rule": "De professionalspagina vertelt in zeven korte momenten hoe samenwerking van Nederland naar Midden-Brabant, Tilburg en vier praktische pijlers beweegt. Kaart en verbindingen zijn expliciet schematisch. De gewone HTML-tekst blijft zonder JavaScript en bij verminderde beweging volledig leesbaar. Bied in de intro altijd een directe route naar overleg/verwijzing; Doctolib, ZorgDomein, artikelen en updates blijven gewone functionele onderdelen buiten het verhaal. Voeg geen afspraakroute, persoonlijk behandeladvies of publieke link naar conceptcontent toe.",
+      "pages": [
+        {
+          "path": "professionals.html",
+          "scope": "registered"
+        }
+      ],
+      "fingerprints": {
+        "assets/professionals-story.css": "029daf75813f4cb7abe7e2137f408226e255dc82a441c1aa5973850f6e64f5de",
+        "assets/professionals-story.js": "735f2e55a8ec4f5a8dcb768de8aaaf6fa66025c3e02e8beecc706cdc15b982f9",
+        "professionals.html": "c2fbc9102488ca581e9b675f3caf4c7c59e7752992febac15b4bfe54e90f6378"
       }
     },
     {
@@ -1808,7 +1836,7 @@
         "nieuwsbrief.html": "6f63b29472ef45f958b09f2072d965370b5bb4a3eb472150f905dad2c1474a46",
         "over-mij.html": "8eae57375819b840793e1b1c71ef3d6b7bfba45e7754a045bc9099586dbc4459",
         "privacy.html": "7bb17788719e6d5baaf10a3ed45f4d3be142f933d1616ba4a271ccc29b2c0233",
-        "professionals.html": "b5f9f1606e97f56279c373bad043735c97fddd3dc217dde4058df009e58defa1",
+        "professionals.html": "c2fbc9102488ca581e9b675f3caf4c7c59e7752992febac15b4bfe54e90f6378",
         "projecten.html": "94b21e7fd8818d3df2f2e9f88a0cc5fc688024168bf99b346fd9887e2413dbfa",
         "projecten/3d-planning-voet-enkel.html": "9b61b9c6c5f448e843ca246567023b3e8d59f40ba1ca98b0d961c4503000767f",
         "projecten/footprint-quick-scan.html": "e8eaa95c10bb1b8bd29097a339513dcceef143169fa0848bd43bec159f64b883",
@@ -1850,6 +1878,33 @@
         "assets/artrose-story/story-b99b06aa52a8.css": "b99b06aa52a86c2644e1e0483be1ba02189557d77550afc2cf5da2f2b6dd3dbe",
         "index.html": "038c6e2d68d32f027bd161a5238ff9f4dd97d545a968cfee7c8bcd188e6f7c6b",
         "tools/build_artrose_release.py": "b57d044c6892cd2e50dd14270338cd30c5331430c5014597c8fd5b4909d655c0"
+      }
+    },
+    {
+      "id": "gait-story-concept",
+      "name": "Loopverhaal — lokaal concept",
+      "source": "concepten/voet-enkel-loopverhaal/index.html",
+      "selector": ".story-wrap",
+      "markers": [
+        "story-wrap"
+      ],
+      "sources": [
+        "concepten/voet-enkel-loopverhaal/story.css",
+        "concepten/voet-enkel-loopverhaal/story.mjs",
+        "concepten/voet-enkel-loopverhaal/renderer.mjs"
+      ],
+      "rule": "Pagina-eigen koelwit/diepblauw concept op expliciet verzoek. Scrollgestuurde illustratie, 42/58 op desktop; mobiel een klein sticky toneel. Statische leesversie zonder JavaScript, bij verminderde beweging of lage vensters. Geen gedeelde sitecomponent, geen publicatie of medische verificatie.",
+      "pages": [
+        {
+          "path": "concepten/voet-enkel-loopverhaal/index.html",
+          "scope": "concept"
+        }
+      ],
+      "fingerprints": {
+        "concepten/voet-enkel-loopverhaal/index.html": "5d2ad6bb02cb1a2e1666099032a0184b8ede48c1b13f2cc80847b8d387032998",
+        "concepten/voet-enkel-loopverhaal/renderer.mjs": "197ec52c5df8af466fbc9e17910e0b58434a68eb8c7ce6eb095fd0dac7c68a95",
+        "concepten/voet-enkel-loopverhaal/story.css": "bcca33d5aef21d3afe638c5f77183cbec29947de973b029dc865d7fe06bf6884",
+        "concepten/voet-enkel-loopverhaal/story.mjs": "f10e38881866e94ff8fc2f587e8223c094d2e0b8fdcf2cd91c6158ac291c89ed"
       }
     }
   ]

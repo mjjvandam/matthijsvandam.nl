@@ -1,0 +1,83 @@
+{
+  "title": "A public data set of overground and treadmill walking kinematics and kinetics of healthy individuals",
+  "doi": "10.6084/m9.figshare.5722711.v6",
+  "version": 6,
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "url_public_html": "https://figshare.com/articles/dataset/A_public_data_set_of_overground_and_treadmill_walking_kinematics_and_kinetics_of_healthy_individuals/5722711",
+  "files": [
+    {
+      "id": 10058989,
+      "name": "wbdsOvergroundDA.v3s",
+      "size": 26214,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/10058989",
+      "supplied_md5": "780b97ca17f2117ba6507b0cde7347c6",
+      "computed_md5": "780b97ca17f2117ba6507b0cde7347c6",
+      "mimetype": "text/plain"
+    },
+    {
+      "id": 10167060,
+      "name": "wbdsExploratoryDA.m",
+      "size": 35793,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/10167060",
+      "supplied_md5": "48d700f360c64d021dbdeb8ec2d50ec6",
+      "computed_md5": "48d700f360c64d021dbdeb8ec2d50ec6",
+      "mimetype": "text/plain"
+    },
+    {
+      "id": 11341412,
+      "name": "WBDSmodel.mdh",
+      "size": 28691,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/11341412",
+      "supplied_md5": "49e01170d916fff32f855d89794d7ee2",
+      "computed_md5": "49e01170d916fff32f855d89794d7ee2",
+      "mimetype": "text/plain"
+    },
+    {
+      "id": 12403928,
+      "name": "WBDSc3dWithGaitEvents.zip",
+      "size": 732934431,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/12403928",
+      "supplied_md5": "ee7010dfcd3ee223f5e5d63dd369f124",
+      "computed_md5": "ee7010dfcd3ee223f5e5d63dd369f124",
+      "mimetype": "application/zip"
+    },
+    {
+      "id": 68193898,
+      "name": "WBDSc3d.zip",
+      "size": 817730490,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/68193898",
+      "supplied_md5": "426a26bf3718cddd9f3bfe68437cb553",
+      "computed_md5": "426a26bf3718cddd9f3bfe68437cb553",
+      "mimetype": "application/zip"
+    },
+    {
+      "id": 68194516,
+      "name": "WBDSascii.zip",
+      "size": 686716664,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/68194516",
+      "supplied_md5": "75d2be58331b3a0610b478572929651f",
+      "computed_md5": "75d2be58331b3a0610b478572929651f",
+      "mimetype": "application/zip"
+    },
+    {
+      "id": 68504641,
+      "name": "WBDSinfo.csv",
+      "size": 640894,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/68504641",
+      "supplied_md5": "35bc5abde86db7cd56532e2605adb138",
+      "computed_md5": "35bc5abde86db7cd56532e2605adb138",
+      "mimetype": "text/csv"
+    }
+  ]
+}
