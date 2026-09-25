@@ -3,7 +3,7 @@
   "catalogue_sources": {
     "docs/design-system/catalogue.js": "4e4fc72ad96574b8538187f3b2cd88851856de6fb3aaacbdec60fdaa790b4720",
     "docs/design-system/catalogue.css": "71b21f74acf3d686e873590f6c367f57856afed6ee3d8dc89049a95532875df8",
-    "docs/site/DESIGN_SYSTEM.md": "1ab34e632f529530e4e1eb26dabd2b6bc15b54bd06c162f4317be768097a2746"
+    "docs/site/DESIGN_SYSTEM.md": "db34752c5ddbb72ac92ca2925b338f9951959b7620db8aeac91b4f59d25f6197"
   },
   "components": [
     {
@@ -19,7 +19,7 @@
         "styles.css",
         "script.js"
       ],
-      "rule": "Eén actieve paginalink met aria-current. Desktop en mobiel gebruiken dezelfde routes. Controleer menu openen, Escape, focus en beide kleurmodi.",
+      "rule": "Eén actieve paginalink met aria-current. Desktop en mobiel gebruiken dezelfde routes. Een header die in de normale paginastroom sticky staat, gebruikt direct de contrasterende papier/inkt-variant; de witte overlayvariant is alleen voor plaatsing boven een donker beeld. Controleer menu openen, Escape, focus en beide kleurmodi.",
       "pages": [
         {
           "path": "404.html",
@@ -414,7 +414,7 @@
         "behandelingen/ziekte-van-freiberg.html": "5d86f067ff132823fd69f19da5ca597b31c4a8f97b4b3e57130a80fc0031082a",
         "concept-foot-pain-guide.html": "0e1745e0e24c358e89e24a1f9fb3a8fe4c0678a0341d32e66c6a183aa2772a7f",
         "disclaimer.html": "525af2637cfccd697905f0855b6688e3943fe1ef46134721824c702339461973",
-        "index.html": "a5fe31e85335e6ac74df49e41eb7a141df03580359d7c402bc8c93b02fe4934d",
+        "index.html": "94cabe25c9aac53ba0c5e2c7141089e32b62e7fe58f79a49336ccc55dc6aad72",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "nieuwsbrief.html": "7abeb64e6ad987dc1f668510f368272a89a9f08ce2821e79b21c4ab35d30b6de",
         "over-mij.html": "58e4e143efabfcdf7e77ca1a23a5d3b5d11745e6377cf7b5cc4f4f0c5a543b70",
@@ -429,7 +429,7 @@
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
         "publicaties.html": "f56660c05f7c6de1faec5fb82e8c4dd38ff6e9810f3196e6a4ec316d0e833ca2",
         "script.js": "d09936f38dd54c07813ca13d4acebfcfbb9ca6fe30f4f1eae891270376883012",
-        "styles.css": "a98c86aa2f299de1fdb038179e807dc386be62c3e4c8a552ed8ebaa80f33bfaf"
+        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265"
       }
     },
     {
@@ -477,7 +477,7 @@
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/vrxoa-immersive-experiences-artrose.html": "3e5459d0d47216d747923f35446fd5be7844189d22fb99494a855d8a84107ac1",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
-        "styles.css": "a98c86aa2f299de1fdb038179e807dc386be62c3e4c8a552ed8ebaa80f33bfaf"
+        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265"
       }
     },
     {
@@ -509,7 +509,7 @@
         "artikelen.html": "6e0175de0812d0a418e6dc631c0afec36a96c389be20562f9d82436c41627aac",
         "content.js": "6d3bd3268ea3a716b4e6b5ea7fd20412462aff59cdbe4cfe92a515b3f465617c",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "styles.css": "a98c86aa2f299de1fdb038179e807dc386be62c3e4c8a552ed8ebaa80f33bfaf"
+        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265"
       }
     },
     {
@@ -663,7 +663,7 @@
         "behandelingen/enkelartrose.html": "47cc63d67bf783d598b39bdd629368e554aba30eb9989b1454df7853785d2f95",
         "behandelingen/enkelprothese.html": "2d3d7a9b55d88a67d6a98ee687d84bf5f42900af10736cd06de94c3e6389cd06",
         "content.js": "6d3bd3268ea3a716b4e6b5ea7fd20412462aff59cdbe4cfe92a515b3f465617c",
-        "index.html": "a5fe31e85335e6ac74df49e41eb7a141df03580359d7c402bc8c93b02fe4934d",
+        "index.html": "94cabe25c9aac53ba0c5e2c7141089e32b62e7fe58f79a49336ccc55dc6aad72",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "professionals.html": "208218cfcd11ab1193d57e392ddc128703c50acfe41b04d74477e52d4d141f8e",
         "projecten.html": "94b21e7fd8818d3df2f2e9f88a0cc5fc688024168bf99b346fd9887e2413dbfa",
@@ -673,7 +673,7 @@
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
         "script.js": "d09936f38dd54c07813ca13d4acebfcfbb9ca6fe30f4f1eae891270376883012",
-        "styles.css": "a98c86aa2f299de1fdb038179e807dc386be62c3e4c8a552ed8ebaa80f33bfaf"
+        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265"
       }
     },
     {
@@ -701,7 +701,7 @@
       "fingerprints": {
         "content.js": "6d3bd3268ea3a716b4e6b5ea7fd20412462aff59cdbe4cfe92a515b3f465617c",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "styles.css": "a98c86aa2f299de1fdb038179e807dc386be62c3e4c8a552ed8ebaa80f33bfaf"
+        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265"
       }
     },
     {
@@ -1034,7 +1034,7 @@
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/vrxoa-immersive-experiences-artrose.html": "3e5459d0d47216d747923f35446fd5be7844189d22fb99494a855d8a84107ac1",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
-        "styles.css": "a98c86aa2f299de1fdb038179e807dc386be62c3e4c8a552ed8ebaa80f33bfaf"
+        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265"
       }
     },
     {
@@ -1070,10 +1070,10 @@
       ],
       "fingerprints": {
         "404.html": "6c9c90e8b177d768f0aea567da2c5022f2cebf47062edb21b786f52ae50abb9e",
-        "index.html": "a5fe31e85335e6ac74df49e41eb7a141df03580359d7c402bc8c93b02fe4934d",
+        "index.html": "94cabe25c9aac53ba0c5e2c7141089e32b62e7fe58f79a49336ccc55dc6aad72",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "nieuwsbrief.html": "7abeb64e6ad987dc1f668510f368272a89a9f08ce2821e79b21c4ab35d30b6de",
-        "styles.css": "a98c86aa2f299de1fdb038179e807dc386be62c3e4c8a552ed8ebaa80f33bfaf"
+        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265"
       }
     },
     {
@@ -1105,7 +1105,7 @@
       "fingerprints": {
         "advies-consultancy.html": "6c35a864428710dd10fba3d5cae7baab302ab4b6552f97635fb9d6ea29288a9f",
         "professionals.html": "208218cfcd11ab1193d57e392ddc128703c50acfe41b04d74477e52d4d141f8e",
-        "styles.css": "a98c86aa2f299de1fdb038179e807dc386be62c3e4c8a552ed8ebaa80f33bfaf"
+        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265"
       }
     },
     {
@@ -1129,7 +1129,7 @@
       ],
       "fingerprints": {
         "professionals.html": "208218cfcd11ab1193d57e392ddc128703c50acfe41b04d74477e52d4d141f8e",
-        "styles.css": "a98c86aa2f299de1fdb038179e807dc386be62c3e4c8a552ed8ebaa80f33bfaf"
+        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265"
       }
     },
     {
@@ -1344,7 +1344,7 @@
         "behandelingen/ziekte-van-freiberg.html": "5d86f067ff132823fd69f19da5ca597b31c4a8f97b4b3e57130a80fc0031082a",
         "data/faq-placements.json": "0852f9d167d6ccf69c0484220f8b249bedd2821166388f8848d225e6c82c61e2",
         "data/faqs.json": "075c5732c5fe63a3c1ffaaee2fdc4b53a6ce664917e1671dbbe7989a738408d7",
-        "styles.css": "a98c86aa2f299de1fdb038179e807dc386be62c3e4c8a552ed8ebaa80f33bfaf",
+        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265",
         "tools/generate_faqs.py": "0c896b7255f8eaa9e9488887ae5e59f7ff7d1193ec1e0a4de5fa719bdeb1ceaf"
       }
     },
@@ -1368,7 +1368,7 @@
       ],
       "fingerprints": {
         "behandelingen/hallux-valgus.html": "60d0e3e4f032e5cc3210d29e7cddf97dfe8b0e4519233456d48607b1d8d61a19",
-        "styles.css": "a98c86aa2f299de1fdb038179e807dc386be62c3e4c8a552ed8ebaa80f33bfaf"
+        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265"
       }
     },
     {
@@ -1395,7 +1395,7 @@
       "fingerprints": {
         "behandelingen.html": "8d484ffa2f1d211b21d77eb95babd4acea88828d26ef74d8f6fcd8e8dccd4e1f",
         "script.js": "d09936f38dd54c07813ca13d4acebfcfbb9ca6fe30f4f1eae891270376883012",
-        "styles.css": "a98c86aa2f299de1fdb038179e807dc386be62c3e4c8a552ed8ebaa80f33bfaf"
+        "styles.css": "87bef8e59c86401bb9a41276fbefb2824ac75beac9d35dc6be868451a752a265"
       }
     },
     {
@@ -1802,7 +1802,7 @@
         "disclaimer.html": "525af2637cfccd697905f0855b6688e3943fe1ef46134721824c702339461973",
         "feedback.css": "0ab4ce10537c05937ae69ac29335bf4c139d049bb980731d144370e7b7595219",
         "feedback.js": "5aa29ca0437cf076157217c592e87a68966b93fa7fdcb3b35ffcf83633e2bfe0",
-        "index.html": "a5fe31e85335e6ac74df49e41eb7a141df03580359d7c402bc8c93b02fe4934d",
+        "index.html": "94cabe25c9aac53ba0c5e2c7141089e32b62e7fe58f79a49336ccc55dc6aad72",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "nieuwsbrief.html": "7abeb64e6ad987dc1f668510f368272a89a9f08ce2821e79b21c4ab35d30b6de",
         "over-mij.html": "58e4e143efabfcdf7e77ca1a23a5d3b5d11745e6377cf7b5cc4f4f0c5a543b70",
@@ -1847,7 +1847,7 @@
         "artikelen.html": "6e0175de0812d0a418e6dc631c0afec36a96c389be20562f9d82436c41627aac",
         "assets/artrose-story/story-8c83fdb90c6a.js": "8c83fdb90c6af81ec8e957454bc842e3f74f67b29d2413e9eca84efdd98b6480",
         "assets/artrose-story/story-b99b06aa52a8.css": "b99b06aa52a86c2644e1e0483be1ba02189557d77550afc2cf5da2f2b6dd3dbe",
-        "index.html": "a5fe31e85335e6ac74df49e41eb7a141df03580359d7c402bc8c93b02fe4934d",
+        "index.html": "94cabe25c9aac53ba0c5e2c7141089e32b62e7fe58f79a49336ccc55dc6aad72",
         "tools/build_artrose_release.py": "b57d044c6892cd2e50dd14270338cd30c5331430c5014597c8fd5b4909d655c0"
       }
     }

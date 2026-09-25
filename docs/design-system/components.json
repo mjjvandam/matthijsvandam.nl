@@ -14,7 +14,7 @@
         "styles.css",
         "script.js"
       ],
-      "rule": "Eén actieve paginalink met aria-current. Desktop en mobiel gebruiken dezelfde routes. Controleer menu openen, Escape, focus en beide kleurmodi."
+      "rule": "Eén actieve paginalink met aria-current. Desktop en mobiel gebruiken dezelfde routes. Een header die in de normale paginastroom sticky staat, gebruikt direct de contrasterende papier/inkt-variant; de witte overlayvariant is alleen voor plaatsing boven een donker beeld. Controleer menu openen, Escape, focus en beide kleurmodi."
     },
     {
       "id": "project-context",

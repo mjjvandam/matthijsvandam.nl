@@ -326,7 +326,8 @@ a {
 
 .site-header.is-scrolled,
 .site-header.is-open,
-.site-header.legal-header {
+.site-header.legal-header,
+body:has(.home-story) .site-header {
   background: rgba(255, 253, 248, 0.88);
   color: var(--ink);
   box-shadow: 0 10px 32px rgba(23, 32, 28, 0.07);
@@ -335,7 +336,8 @@ a {
 
 :root[data-theme="dark"] .site-header.is-scrolled,
 :root[data-theme="dark"] .site-header.is-open,
-:root[data-theme="dark"] .site-header.legal-header {
+:root[data-theme="dark"] .site-header.legal-header,
+:root[data-theme="dark"] body:has(.home-story) .site-header {
   background: rgba(17, 25, 20, 0.88);
   box-shadow: 0 10px 32px rgba(0, 0, 0, 0.34);
 }
@@ -343,7 +345,8 @@ a {
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme]) .site-header.is-scrolled,
   :root:not([data-theme]) .site-header.is-open,
-  :root:not([data-theme]) .site-header.legal-header {
+  :root:not([data-theme]) .site-header.legal-header,
+  :root:not([data-theme]) body:has(.home-story) .site-header {
     background: rgba(17, 25, 20, 0.88);
     box-shadow: 0 10px 32px rgba(0, 0, 0, 0.34);
   }
@@ -418,9 +421,12 @@ a {
 
 .site-header.is-scrolled .site-nav a:hover,
 .site-header.is-open .site-nav a:hover,
+.site-header.legal-header .site-nav a:hover,
+body:has(.home-story) .site-header .site-nav a:hover,
 .site-header.is-scrolled .site-nav a[aria-current="page"],
 .site-header.is-open .site-nav a[aria-current="page"],
-.site-header.legal-header .site-nav a[aria-current="page"] {
+.site-header.legal-header .site-nav a[aria-current="page"],
+body:has(.home-story) .site-header .site-nav a[aria-current="page"] {
   background: var(--green-soft);
   color: var(--ink);
 }
@@ -470,14 +476,16 @@ a {
 
 .site-header.is-scrolled .theme-toggle,
 .site-header.is-open .theme-toggle,
-.site-header.legal-header .theme-toggle {
+.site-header.legal-header .theme-toggle,
+body:has(.home-story) .site-header .theme-toggle {
   border-color: rgba(36, 76, 61, 0.18);
   background: rgba(36, 76, 61, 0.08);
 }
 
 :root[data-theme="dark"] .site-header.is-scrolled .theme-toggle,
 :root[data-theme="dark"] .site-header.is-open .theme-toggle,
-:root[data-theme="dark"] .site-header.legal-header .theme-toggle {
+:root[data-theme="dark"] .site-header.legal-header .theme-toggle,
+:root[data-theme="dark"] body:has(.home-story) .site-header .theme-toggle {
   border-color: rgba(244, 241, 233, 0.24);
   background: rgba(244, 241, 233, 0.08);
 }
