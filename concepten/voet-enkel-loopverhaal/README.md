@@ -1,10 +1,10 @@
-# Wat er gebeurt bij één stap
+# Als lopen pijn doet
 
 Onderzoeks- en uitvoeringswerkpakket · 25 september 2026 · lokaal concept, medische review nodig.
 
 ## Einddoel
 
-Een visueel artikel van ongeveer zes minuten waarin de lezer begrijpt hoe voet, enkel en kuit tijdens lopen samenwerken, wat een loopanalyse zichtbaar kan maken en waarom een bewegingsverschil niet vanzelf de oorzaak van pijn verklaart. De beweging wordt een inhoudelijk gecontroleerde illustratie. Zij is geen diagnose, meetinstrument of demonstratie van een behandeling.
+Een visueel artikel waarin de lezer begrijpt wat een stap vraagt van hiel, kuit/enkel en grote teen; hoe klachten daarbij kunnen opspelen; en waarom orthopedisch onderzoek de pijnlijke plek én het bewegen beoordeelt. Loopanalyse krijgt een ondersteunende slotrol. De beweging wordt een inhoudelijk gecontroleerde illustratie. Zij is geen diagnose, meetinstrument of demonstratie van een behandeling.
 
 ## Leesvolgorde
 
@@ -13,7 +13,7 @@ Een visueel artikel van ongeveer zes minuten waarin de lezer begrijpt hoe voet, 
 3. [Artikeltekst](artikeltekst.md): complete eerste tekstversie, met broncodes voor de redactie.
 4. [Bouw- en reviewplan](bouw-en-reviewplan.md): stappen van bewijs naar gecontroleerd beeld.
 
-Bibliografische metadata van 25 wetenschappelijke publicaties staan in `bibliografie.json`. Met vijf officiële klinische en opleidingsbronnen bevat het dossier 30 beoordeelde bronnen. `zoeklog-europepmc.json` bewaart de aanvullende zoekvragen en opgehaalde resultaten. `dataset-verkenning.json` bewaart de aangetroffen Figshare-versie en licentie; geselecteerde bewegingsbestanden zijn gedownload en verwerkt; `motion-manifest.json` documenteert de gekozen opname, bewerkingen en grenzen.
+Bibliografische metadata van 25 wetenschappelijke publicaties staan in `bibliografie.json`. Met zeven officiële klinische en opleidingsbronnen bevat het dossier 32 beoordeelde bronnen (waarvan twee later toegevoegde AAOS-bronnen). `zoeklog-europepmc.json` bewaart de aanvullende zoekvragen en opgehaalde resultaten. `dataset-verkenning.json` bewaart de aangetroffen Figshare-versie en licentie; geselecteerde bewegingsbestanden zijn gedownload en verwerkt; `motion-manifest.json` documenteert de gekozen opname, bewerkingen en grenzen.
 
 ## Wat nu wel en niet is afgerond
 
@@ -32,3 +32,5 @@ Doelgroep: algemeen geïnteresseerd publiek en patiënten; verdieping voor profe
 ADR-check: ADR-0002, ADR-0005 en ADR-0006 dekken onderwerp, medische grenzen en conceptstatus. Geen nieuw structureel besluit nodig voor deze conceptuitwerking. De pagina-eigen blauw/witte vormgeving volgt de expliciete wens van Matthijs; die verandert de gedeelde site-identiteit niet en is als uitzondering in het designsysteem vastgelegd.
 
 Medische eigenaar-validatie nodig: concepttekst, interpretatie van kuitbeperking, anatomische tekeningen en uiteindelijke beweging. Publicatie valt buiten dit werkpakket.
+
+De geaccepteerde inhoudelijke herziening staat in `herziening-pijn-bij-lopen.md`. Deze vervangt de eerdere scèneregie waar die afwijkt. Het onderzoeksdossier blijft bronlaag; de artikeltekst is versie 2.

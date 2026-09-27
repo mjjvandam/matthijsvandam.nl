@@ -1,5 +1,7 @@
 # Beeld- en bewegingsdraaiboek
 
+**Historisch draaiboek. Voor de actuele doelstelling en scènevolgorde geldt `herziening-pijn-bij-lopen.md`. Anatomie- en contactafspraken hieronder blijven gelden.**
+
 Werkversie 1 · 25 september 2026 · broncodes verwijzen naar `onderzoeksdossier.md`.
 
 ## 1. De ervaring

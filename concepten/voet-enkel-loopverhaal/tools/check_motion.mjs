@@ -27,3 +27,6 @@ for(let i=0;i<=1000;i++){
 }
 assert(maxJump<40,'Discontinuous frame movement');
 console.log(JSON.stringify({frames:data.frames.length,maxSegmentLengthErrorMm:maxError,maxFrameDisplacementMm:maxJump,minFootHeightMm:minGround,renderedPhases:1001,checks:'fixed lengths, ground, contacts, stance anchors, deterministic rendering'},null,2));
+
+for(let i=0;i<=1000;i++){for(const compact of [false,true]){const svg=illustration(data,.36,{focus:'arch',windlass:true,detail:i/1000,compact});assert(!/NaN|Infinity|undefined/.test(svg));assert.equal(svg,illustration(data,.36,{focus:'arch',windlass:true,detail:i/1000,compact}));}}
+console.log('Windlass: 1001 deterministic transition positions, desktop and mobile, finite SVG geometry');

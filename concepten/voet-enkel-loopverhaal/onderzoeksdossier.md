@@ -135,3 +135,11 @@ Bestaande figuren dienen als studiemateriaal. We tekenen eigen anatomische beeld
 - Exacte timing/omvang van individuele spierkracht en peesrek: niet af te leiden uit de basisdataset; daarom niet numeriek afbeelden.
 - Klinische betekenis van een afgebeeld bewegingsverschil: afhankelijk van persoon, klacht en onderzoek.
 - Anatomische en medische juistheid van het uiteindelijke beeld: apart beoordelen naast tekst. Een goed draaiboek is geen bewijs dat de animatie goed is.
+
+## Aanvulling bij herzien doel — 25 september 2026
+
+**B31 — AAOS OrthoInfo. Hallux Rigidus (Stiff Big Toe).** [Patiënteninformatie](https://www.orthoinfo.org/diseases--conditions/stiff-big-toe-hallux-rigidus/). Officiële uitleg over artrose van het eerste MTP-gewricht, pijn, stijfheid en klachten bij lopen/schoendruk. Gebruikt voor het klachtenvoorbeeld, niet voor een universeel afwijkend looppatroon of behandelkeuze.
+
+**B32 — AAOS OrthoInfo. Plantar Fasciitis and Bone Spurs.** [Patiënteninformatie](https://www.orthoinfo.org/en/diseases--conditions/plantar-fasciitis-and-bone-spurs/). Officiële uitleg over peesplaatklachten, pijn bij eerste stappen en onderscheid met een röntgenologisch hielspoor. Geen zelfdiagnose of behandelingsuitkomst overgenomen.
+
+B11 opnieuw inhoudelijk gelezen: het eenvoudige windlassprincipe wordt afzonderlijk gevisualiseerd. De schemahoeken en lengten zijn didactische geometrie; geen fysiologische meetwaarden. Spieractiviteit en rekbaar weefsel maken lopen complexer dan een onrekbare kabel. De loopanalyse verschuift in de herziening naar een ondersteunende slotrol.

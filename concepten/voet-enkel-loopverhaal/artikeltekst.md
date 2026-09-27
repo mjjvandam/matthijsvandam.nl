@@ -1,78 +1,82 @@
-# Wat er gebeurt bij één stap
+# Als lopen pijn doet
 
-**Hoe voet, enkel en kuit samenwerken — en wat een loopanalyse ons daarover vertelt.**
+**Wat je grote teen, voetboog en kuit met een gewone stap te maken hebben.**
 
-Concept 1 · 25 september 2026 · medische review nodig. Broncodes zijn redactionele verwijzingen naar `onderzoeksdossier.md`; bij opmaak worden dit rustige, aanklikbare bronnoten. Scèneletters zijn niet bedoeld als zichtbare hoofdstuknummers.
+Concept 2 · medische en anatomische review nodig.
 
-## A — Je loopt. Zonder erbij na te denken.
+## A — Wat vraagt een stap van je voet?
 
-Naar de keuken, naar de trein, een rondje buiten. Meestal denk je niet na over wat je voeten ondertussen doen. Tot een stap pijn doet of lopen moeilijker wordt.
+Pijn onder je hiel bij de eerste stappen. Een grote teen die bij het lopen niet prettig meebuigt. Of een enkel die stijf voelt wanneer je lichaam naar voren beweegt. Lopen lijkt één handeling, maar vraagt op verschillende momenten iets anders van je voet en been.
 
-Dan gaat de aandacht begrijpelijk naar die plek: de hiel, de enkel of de bal van de voet. Toch kijkt een behandelaar vaak ook naar de kuit, de knie en de manier waarop je loopt. Die onderdelen werken samen. Om dat te begrijpen, vertragen we een gewone wandeling.
+Daarom kijkt een orthopedisch chirurg bij voetklachten naar de pijnlijke plek én naar hoe je beweegt. Waar zit de pijn? Wanneer merk je die? Welke beweging is beperkt? In dit verhaal volgen we een gewone stap en verbinden we die met drie herkenbare voorbeelden: hielpijn, een beperkte enkelbeweging en een stijve grote teen.
 
-We volgen één voet: vanaf het moment dat hij neerkomt totdat hij opnieuw de grond raakt. Daartussen zet ook de andere voet een stap. Samen is dat één volledige loopcyclus. [B01, B03]
+De wandelaar laat een voorbeeld van lopen zien. We geven hem geen aandoening en voorspellen niet hoe iemand met pijn zou lopen. We volgen de rechtervoet vanaf het neerkomen tot het volgende contact. Intussen zet ook de andere voet een stap: samen één loopcyclus. [B01, B03]
 
-## B — Neerkomen is een beweging op zich
+## B — Pijn onder de hiel
 
-Bij de wandeling die je hier ziet, raakt eerst de hiel de grond. Vervolgens komt de voorvoet geleidelijk naar beneden. Het been neemt steun over van het andere been. De knie buigt daarbij een beetje mee.
+Bij deze wandeling raakt eerst de hiel de grond. Daarna komt de voorvoet geleidelijk naar beneden en neemt het been steun over. De knie buigt mee. Spieren aan de voorkant van het onderbeen helpen de voet gecontroleerd neer te zetten. [B01, B06]
 
-Aan de voorkant van het onderbeen lopen spieren die de voet kunnen optillen. Een daarvan is de tibialis anterior. Deze spier helpt ook om de voet na het eerste contact gecontroleerd neer te zetten. Het is dus niet simpelweg een voet die op de grond valt. [B01, B06]
+Onder de voet loopt een stevige weefselband: de plantaire fascie, ook peesplaat genoemd. Die verbindt de hielregio met de voorvoet en tenen en helpt de voetboog ondersteunen. Bij peesplaatklachten kan de onderkant van de hiel pijnlijk zijn, vaak juist bij de eerste stappen na rust. [B32]
 
-Straks is diezelfde spier opnieuw nodig, wanneer de voet door de lucht naar voren beweegt. De functie van een spier hangt ook af van het moment in de stap.
+Die klachten worden vaak ‘hielspoor’ genoemd. Maar een botuitsteeksel op de röntgenfoto is niet automatisch de verklaring: veel mensen met zo’n uitsteeksel hebben geen hielpijn. Ook andere aandoeningen kunnen pijn rond de hiel geven. De plek, het klachtenverloop en lichamelijk onderzoek helpen om dat onderscheid te maken. [B32]
 
-## C — Je lichaam beweegt over je voet
+De animatie wijst de peesplaat aan. Ze laat niet zien hoeveel pijn of spanning iemand daar heeft.
 
-De voet staat nu op de grond, maar je lichaam gaat verder. Het onderbeen beweegt naar voren ten opzichte van de voet. Daarvoor is bewegingsruimte in de enkel nodig.
+## C — Je lichaam moet over je voet kunnen bewegen
 
-De kuit doet in deze fase al mee. Hij wordt vaak alleen geassocieerd met afzetten, maar helpt ook tijdens het steunen en het voortbewegen van het lichaam. [B03, B07–B09]
+Terwijl de voet steunt, beweegt het lichaam verder. Het onderbeen komt naar voren boven de voet. Daarvoor is bewegingsruimte in de enkel nodig. De kuitspieren helpen ondertussen bij steun en voortbeweging. [B03, B07–B09]
 
-De twee grote kuitspieren liggen deels over elkaar. De gastrocnemius loopt vanaf boven de knie naar de achillespees. De soleus ligt dieper en begint onder de knie. Beide dragen via de achillespees kracht over op het hielbeen, maar de stand van de knie beïnvloedt ze verschillend. Dat onderscheid komt terug bij lichamelijk onderzoek. [B04, B20]
+De gastrocnemius begint boven de knie. De soleus ligt dieper en begint onder de knie. Beide brengen via de achillespees kracht over op het hielbeen. Omdat de gastrocnemius zowel knie als enkel overspant, doet de kniepositie ertoe wanneer je de kuit onderzoekt. [B04, B20]
 
-## D — De voet is geen vast blok
+Een beperkte enkelbeweging kan samengaan met een andere manier van lopen. Mensen passen zich daar niet allemaal hetzelfde aan aan. Bij sommige groepen met voorvoet- of middenvoetklachten is een strakkere gastrocnemius gevonden. Dat maakt de kuit relevant voor onderzoek, maar bewijst niet dat een ‘korte kuit’ bij iedere persoon de pijn veroorzaakt. [B20, B21]
 
-Onder je voet ligt een boog, opgebouwd uit botten, gewrichten en weefsel dat de voet ondersteunt. Die vorm is beweeglijk. Tijdens het lopen verandert de voet onder belasting en bij het loskomen van de grond. Ook kleine spieren in de voet doen daaraan mee. [B10, B12, B13]
+De vraag is dus hoe de beschikbare beweging past bij wat iemand tijdens lopen nodig heeft, en bij de klachten die daarbij optreden.
 
-De plantaire fascie, vaak peesplaat genoemd, loopt onder de voet vanuit de hiel naar de voorvoet. De stand van de tenen beïnvloedt de spanning in dit weefsel. Dat wordt vaak uitgelegd met een eenvoudig kabelmodel.
+## D — Van voetboog naar windlass
 
-Zo'n model helpt om het principe te begrijpen, maar tijdens lopen gebeurt meer. De peesplaat is vervormbaar en spieren zijn actief. De grote teen omhoog bewegen betekent daarom niet dat de hele voet meteen als een starre hefboom op slot gaat. [B11]
+De voet is geen star blok. Botten, gewrichten, banden en spieren vormen samen een beweeglijke boog. Die verandert tijdens het belasten en loskomen van de voet. Ook de kleine spieren in de voet doen mee. [B10, B12, B13]
 
-## E — Loskomen en weer naar voren
+We zetten de wandeling even stil. Uit dezelfde rechtervoet lichten we nu een eenvoudig model: de boog bovenaan, de peesplaat onderaan en de grote teen vooraan. De kleuren blijven gelijk, zodat je kunt volgen welke structuur in het model terugkomt.
 
-Als het lichaam verdergaat, komt de hiel omhoog. De voorvoet en tenen houden nog even contact met de grond. De andere voet komt neer en neemt steun over. Daarna komt ook deze voet los.
+Als de grote teen omhoog beweegt ten opzichte van het middenvoetsbeentje, wordt de peesplaat om het middenvoetskopje geleid. Vergelijk het met een band om een katrol. In dit vereenvoudigde model trekt dat hiel en voorvoet dichter naar elkaar en komt de boog omhoog. Dit noemen we het windlassmechanisme. [B11]
 
-Kuitspieren en achillespees dragen bij aan die overgang. De pees kan tijdens lopen elastische energie opslaan en weer teruggeven. Spier en pees gedragen zich daarbij niet hetzelfde: uit de beweging van de enkel kun je niet rechtstreeks aflezen hoeveel een spierbundel korter of langer wordt. [B04]
+Dit verklaart een mechanische samenhang tussen teen, peesplaat en voetboog. Tijdens echt lopen bepalen ook belasting, rekbaar weefsel en actieve spieren wat er gebeurt. De teen omhoog bewegen zet de voet dus niet automatisch ‘op slot’. Het schema is een uitleg van het principe, geen meting van spanning of een voorspelling van pijn. [B10, B11]
 
-Ook afzetten is meer dan alleen de romp vooruitduwen. De overgang hangt samen met de beweging van het hele lichaam én met het naar voren brengen van het been. [B05]
+## E — Als de grote teen niet prettig meebuigt
 
-Nu zwaait de voet door de lucht. Het been buigt en beweegt naar voren; de voetheffers helpen om de voet vrij van de grond te houden. Vervolgens bereidt het been zich voor op het volgende contact. [B06]
+Wanneer de hiel omhoogkomt, houden voorvoet en tenen nog even contact met de grond. De voet beweegt dan ten opzichte van de tenen. Zo wordt begrijpelijk waarom een pijnlijk of stijf grote-teengewricht juist bij het lopen kan hinderen.
 
-## F — Wat ziet een loopanalyse?
+Bij hallux rigidus is er artrose van het gewricht aan de basis van de grote teen. Dat kan pijn en minder beweeglijkheid geven. Iemand kan het pijnlijke bewegen gaan ontzien. Hoe dat eruitziet, verschilt per persoon; de gewone wandeling in deze animatie is geen voorbeeld van een specifiek afwijkend looppatroon. [B31]
 
-Veel van deze bewegingen gaan te snel om tijdens één wandeling precies te volgen. Een behandelaar kan kijken hoe iemand loopt en beelden zo nodig vertraagd terugzien. Bij een specifieke vraag kan uitgebreider onderzoek in een looplab helpen.
+De windlassuitleg helpt om te zien waarom de teen bij de rest van de voet hoort. Ze verklaart niet in haar eentje alle klachten bij hallux rigidus. Het gewricht zelf kan pijnlijk zijn, en ook druk van de schoen op een botuitsteeksel kan een rol spelen. [B31]
 
-Daar kunnen camera's de beweging volgen met kleine markers op de huid. Krachtplaten meten hoe iemand tegen de grond duwt. Elektroden kunnen de elektrische activiteit van bepaalde spieren registreren. Soms wordt ook de drukverdeling onder de voet gemeten. Het zijn verschillende manieren om naar dezelfde wandeling te kijken. [B14, B15]
+Een scheve grote teen is bovendien niet hetzelfde als een stijve grote teen. Welke structuur klachten geeft en welke beweging lastig is, moet afzonderlijk worden onderzocht.
 
-De metingen geven niet allemaal hetzelfde antwoord. Beeld laat zien hoe iets beweegt. Een krachtplaat meet geen pijn. En elektrische spieractiviteit is niet hetzelfde als spierkracht. Voor sommige uitkomsten zijn bovendien berekeningen nodig, met aannames over het lichaam. [B15, B16]
+## F — Wat onderzoekt de orthopedisch chirurg?
 
-Ook nauwkeurige apparatuur heeft grenzen. Markers zitten op de huid, niet rechtstreeks op het bot. Daarom horen de meetgegevens bij het lichamelijk onderzoek en het verhaal van de persoon die loopt. Een afwijkende lijn in een grafiek is op zichzelf nog geen diagnose. [B14, B17, B18]
+De drie voorbeelden brengen ons terug naar dezelfde vragen: waar doet het pijn, bij welke beweging en onder welke belasting? De arts onderzoekt de pijnlijke structuur en kijkt naar stand, beweeglijkheid en het functioneren van voet en been. Een bevinding krijgt betekenis in samenhang met je klachten. [B23, B31, B32]
 
-## G — Waarom kijken we ook naar de kuit?
+Bij de kuit kan onderzoek met een gestrekte en een gebogen knie helpen om de bijdrage van de gastrocnemius te beoordelen. Bij het buigen van de knie komen de aanhechtingen van deze spier dichter bij elkaar. De soleus overspant de knie niet. Dat verschil maakt de twee onderzoekshoudingen informatief. [B20, B22]
 
-Wanneer de enkel minder bewegingsruimte heeft, kan de manier van lopen anders zijn. Daarbij kunnen ook de knie en heup meedoen. Maar niet iedereen past zijn beweging op dezelfde manier aan. [B21]
+De uitvoering doet ertoe: de arts houdt ook rekening met de stand van hiel en voet. Het is geen zelftest waarbij één hoek bepaalt wat er mis is. Ook kracht, belasting en wat je in het dagelijks leven wilt kunnen doen, horen bij de beoordeling. [B22, B23]
 
-Bij sommige groepen mensen met voorvoet- of middenvoetklachten is minder enkelbeweeglijkheid gevonden wanneer de knie gestrekt is. Dat maakt de kuit een relevant onderdeel van het onderzoek. Het bewijst niet dat een beperkte kuit bij iedereen de oorzaak van de pijn is. [B20]
+Bij een andere voetvorm of artrose in een ander voetgewricht blijft deze manier van kijken bruikbaar. Welke aanvullende onderzoeken nodig zijn, hangt af van de concrete vraag.
 
-Een behandelaar kan de enkel daarom onderzoeken met de knie gestrekt en gebogen. Dat helpt om de mogelijke bijdrage van de gastrocnemius te beoordelen. De uitvoering en de manier van meten doen ertoe; één getal is geen zelfstandig oordeel over wat er mis is. [B22]
+## G — Wat voegt kijken naar lopen toe?
 
-Daarnaast blijft de vraag wat iemand voelt en wanneer: waar zit de pijn, bij welke belasting treedt die op en wat is er veranderd? Een bewegingsmeting vervangt die vragen niet. Ook gericht onderzoek van de pijnlijke voet blijft nodig. [B23]
+Lichamelijk onderzoek laat onder meer zien welke beweging mogelijk is. Kijken naar lopen laat zien hoe iemand die beweging gebruikt. De arts kan bijvoorbeeld observeren wanneer de hiel loskomt en hoe de voet wordt afgewikkeld. Zo kunnen klachten en onderzoek worden verbonden met de activiteit waarbij iemand last heeft. [B18, B23]
 
-## H — Meer begrijpen van een gewone stap
+Bij een gerichte vraag kan een uitgebreidere loopanalyse helpen. Camera’s volgen bewegingen, krachtplaten meten de krachten tussen voet en grond en elektroden kunnen elektrische spieractiviteit registreren. Het zijn verschillende metingen; elektrische activiteit is bijvoorbeeld niet hetzelfde als spierkracht. [B14–B16]
 
-Een voet vangt op, ondersteunt en komt weer los. Ondertussen bewegen het onderbeen, de knie en de rest van het lichaam mee. Dat samenspel maakt lopen mogelijk.
+Een afwijkende beweging bewijst op zichzelf niet waar pijn vandaan komt. Ze kan ook een manier zijn om pijn te vermijden. Meetgegevens worden daarom samen met het verhaal en lichamelijk onderzoek beoordeeld. Niet iedereen met voetklachten heeft een gespecialiseerd looplabonderzoek nodig. [B17, B18, B23]
 
-Een loopanalyse kan helpen om dat samenspel beter te begrijpen. Welke informatie nodig is, hangt af van de vraag. Niet iedereen met voetklachten heeft daarvoor een uitgebreid looplabonderzoek nodig. [B18]
+## H — De pijnlijke plek én de stap eromheen
 
-De reden om verder te kijken dan de pijnlijke plek is dus niet dat daar niets aan de hand is. Het gaat erom die plek te begrijpen binnen wat de voet en het been samen doen.
+Bij hielpijn kijken we naar de structuren rond de hiel. Bij een stijve grote teen naar het gewricht en het bewegen over de voorvoet. En bij een beperkte enkelbeweging kan ook de kuit van belang zijn.
+
+Die onderdelen horen bij dezelfde stap, maar hebben niet allemaal dezelfde oorzaak of dezelfde behandeling. De animatie helpt begrijpen welke bewegingen samenkomen. Het onderzoek moet vervolgens duidelijk maken welke bevindingen bij iemands klachten passen.
+
+Dat is het orthopedische oogpunt van dit verhaal: begrijpen wat de voet tijdens lopen moet kunnen, en de pijnlijke plek beoordelen binnen dat geheel.
 
 **Verder lezen:** [Waarom is de kuit belangrijk als de pijn in de voet zit?](../../artikelen/kuitspier-en-voetpijn.html)
 
@@ -80,19 +84,10 @@ De reden om verder te kijken dan de pijnlijke plek is dus niet dat daar niets aa
 
 ---
 
-## Redactionele gegevens — geen onderdeel van de hoofdtekst
+## Redactionele gegevens
 
-**Doel en doelgroep:** algemeen publiek en patiënten; begrijpen van beweging, geen zelftest of behandelkeuze.
+Doel: verband begrijpen tussen de beweging/belasting van een stap, drie herkenbare klachtenvoorbeelden en orthopedisch onderzoek. Loopanalyse is ondersteunend, geen hoofdonderwerp of automatische diagnose.
 
-**Bronstatus:** synthese van meerdere wetenschappelijke en officiële bronnen, niet de visualisatie van één onderzoek. De afgebeelde loopcyclus wordt een illustratief voorbeeld; zolang de dataset nog niet is verwerkt niet schrijven dat de animatie al op metingen is gebaseerd.
+Bronstatus: synthese, geen visualisatie van één onderzoek. B31/B32 zijn officiële AAOS-patiëntbronnen, toegevoegd voor de concrete klachtenvoorbeelden. Loopdata en mechanische schema’s blijven gescheiden.
 
-**SEO-voorstel, nog niet toegepast:**
-
-- Title: Wat er gebeurt bij één stap: voet, enkel en kuit | Matthijs van Dam
-- Description: Een visueel verhaal over hoe voet, enkel en kuit samenwerken tijdens lopen, wat een loopanalyse meet en waarom beweging niet alles over pijn vertelt.
-- H1: Wat er gebeurt bij één stap
-- Geen nieuw FAQ-blok; geen termen als ‘perfect looppatroon’ of ‘ontdek de oorzaak van jouw voetpijn’.
-
-**Interne links:** primaire patiëntverdieping naar `artikelen/kuitspier-en-voetpijn.html`; algemene route naar `behandelingen.html`; bron- en veiligheidscontext naar `disclaimer.html`. De genoemde bestanden bestaan; actuele publieke reviewstatus en live links opnieuw controleren bij publicatievoorbereiding. Geen link naar een conceptbehandeling toevoegen.
-
-**Medische eigenaar-validatie nodig:** de biomechanische uitleg, onderscheid spier/pees, klinische duiding van kuitbeperking, begrenzing van loopanalyse en samenhang tussen tekst en nog te bouwen illustratie. Deze versie is niet als medisch geverifieerd aangemerkt.
+Medische eigenaar-validatie nodig: pijnvoorbeelden, klinische interpretatie, onderzoekshoudingen en windlassmodel. Geen publicatie of verificatie verleend.

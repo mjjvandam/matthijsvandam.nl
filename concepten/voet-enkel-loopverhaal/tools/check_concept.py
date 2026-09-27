@@ -21,7 +21,7 @@ for name in ('index.html','rig.html'):
   if not u.path:assert unquote(u.fragment) in p.ids,(name,url)
   else:assert (P/unquote(u.path)).exists(),(name,url)
  for a in p.images:assert a.get('alt'),a
- if name=='index.html':assert len(p.images)==8;assert all('bron-B'+str(n).zfill(2) in p.ids for n in range(1,31))
+ if name=='index.html':assert len(p.images)==8;assert all('bron-B'+str(n).zfill(2) in p.ids for n in range(1,33))
 assert 'concepten/' in (P.parents[1]/'.vercelignore').read_text()
 assert not re.search(r'voet-enkel-loopverhaal', (P.parents[1]/'sitemap.xml').read_text())
-print('Concept: links, unique IDs, 30 references, eight static figures, noindex and deployment exclusion OK')
+print('Concept: links, unique IDs, 32 references, eight static figures, noindex and deployment exclusion OK')

@@ -101,8 +101,8 @@ def make_world(data,*unused):
         elements='';details=[]
         if i==0:
             elements=building(-95,-130,.86)+tree(167,-80,.64)+bench(125,8,.7)
-            # Schematic rise across the connecting path, not a quantitative chart.
-            elements+='<g class="growth-trend">'+P('M-325 345 C-255 315 -230 252 -170 220 S-82 135 -25 105',stroke='#bf704d',w=5,attrs='class="growth-line" pathLength="1"')+P('M-45 108 L-25 105 L-30 126',stroke='#bf704d',w=5,attrs='class="growth-arrow"')+G(pill(0,0,'Meer mensen met artrose'),-60,74,attrs='class="growth-label"')+'</g>'
+            # Schematic, angular rise beside the route; the label prevents it reading as measured data.
+            elements+='<g class="growth-trend">'+P('M-325 345 L-270 278 L-220 318 L-165 220 L-120 270 L-65 180 L-20 225 L18 130',stroke='#bf704d',w=6,attrs='class="growth-line" pathLength="1"')+P('M40 84 L4 111 L31 139 Z',fill='#bf704d',attrs='class="growth-arrow"')+G(pill(0,0,'Meer mensen met artrose'),-70,70,attrs='class="growth-label"')+'</g>'
 
             details=[P('M-82 -34 L40 27 L126 -15',stroke='#c48965',w=3,attrs='class="draw-detail" pathLength="1"'),pill(65,-250,'Opstaan · lopen · meedoen')]
         elif i==1:

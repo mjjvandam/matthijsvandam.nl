@@ -10,7 +10,7 @@ const pt=p=>p.map(fmt).join(',');
 const line=(a,b,c,w,extra='')=>`<path d="M${pt(a)}L${pt(b)}" stroke="${c}" stroke-width="${w}" stroke-linecap="round" fill="none" ${extra}/>`;
 const circle=(p,r,c)=>`<circle cx="${fmt(p[0])}" cy="${fmt(p[1])}" r="${r}" fill="${c}"/>`;
 function muscle(a,b,width,color){const dx=b[0]-a[0],dy=b[1]-a[1],d=Math.hypot(dx,dy),nx=-dy/d*width,ny=dx/d*width;return `<path d="M${pt(a)} C${pt([a[0]+nx,a[1]+ny])} ${pt([b[0]+nx,b[1]+ny])} ${pt(b)} C${pt([b[0]-nx,b[1]-ny])} ${pt([a[0]-nx,a[1]-ny])} ${pt(a)}" fill="${color}" stroke="#102330" stroke-width="1.2"/>`;}
-export function illustration(data,phase=0,{mode='anatomy',focus='all',zoom=1,debug=false,lab=false,examination=false,detail=1,compact=false,outdoors=false,uid='gait'}={}){
+export function illustration(data,phase=0,{mode='anatomy',focus='all',zoom=1,debug=false,lab=false,examination=false,detail=1,compact=false,outdoors=false,windlass=false,clinical='',uid='gait'}={}){
  const frame=sample(data,phase),scale=.32,ground=520,center=355;
  const xy=p=>[center+(p[0]-frame.hip[0])*scale,ground-p[1]*scale];
  const p=xy(frame.hip),r=frame.legs.R,l=frame.legs.L;
@@ -45,9 +45,9 @@ export function illustration(data,phase=0,{mode='anatomy',focus='all',zoom=1,deb
   if(lab)out+=[h,k,a,heel,m].map(v=>circle(v,3,'#65D6DA')).join('');
   return out;
  }
- const chest=[p[0]-3,p[1]-97],shoulder=[p[0]-5,p[1]-126],head=[p[0]+3,p[1]-173];
+ const chest=[p[0]-3,p[1]-120],shoulder=[p[0]-5,p[1]-164],head=[p[0]+3,p[1]-207];
  const armSwing=Math.sin(phase*Math.PI*2)*24;
- let person=`<g opacity="${mode==='person'?1:.28}">`+line(p,chest,'#526D82',67)+line(chest,shoulder,'#526D82',52)+line(shoulder,[shoulder[0]+armSwing,shoulder[1]+60],'#AEC3CD',17)+line([shoulder[0]+armSwing,shoulder[1]+60],[shoulder[0]+25+armSwing,shoulder[1]+90],'#AEC3CD',13)+line([chest[0],chest[1]-20],[head[0],head[1]+13],'#AEC3CD',19)+circle(head,24,'#BDCDD6')+`<path d="M${head[0]-24},${head[1]-1} Q${head[0]-31},${head[1]-31} ${head[0]+9},${head[1]-28} Q${head[0]+23},${head[1]-22} ${head[0]+24},${head[1]-9} Q${head[0]+4},${head[1]-20} ${head[0]-24},${head[1]-1}" fill="#365367"/>`+circle([head[0]+16,head[1]-3],1.8,'#142A3A')+`</g>`;
+ let person=`<g opacity="${mode==='person'?1:.28}">`+line(p,chest,'#526D82',67)+line(chest,shoulder,'#526D82',52)+line(shoulder,[shoulder[0]+armSwing,shoulder[1]+75],'#AEC3CD',17)+line([shoulder[0]+armSwing,shoulder[1]+75],[shoulder[0]+25+armSwing,shoulder[1]+140],'#AEC3CD',13)+line([chest[0],chest[1]-20],[head[0],head[1]+13],'#AEC3CD',19)+circle(head,24,'#BDCDD6')+`<path d="M${head[0]-24},${head[1]-1} Q${head[0]-31},${head[1]-31} ${head[0]+9},${head[1]-28} Q${head[0]+23},${head[1]-22} ${head[0]+24},${head[1]-9} Q${head[0]+4},${head[1]-20} ${head[0]-24},${head[1]-1}" fill="#365367"/>`+circle([head[0]+16,head[1]-3],1.8,'#142A3A')+`</g>`;
  person+=leg(r,'R')+`<g opacity="${mode==='person'?1:.2}">${leg(l,'L')}</g>`;
  // Anatomical medial right view: left limb is foreground, transparent in anatomy mode.
  const focusPoint=xy([(r.heel[0]+r.mtp[0])/2,75]);
@@ -66,24 +66,40 @@ export function illustration(data,phase=0,{mode='anatomy',focus='all',zoom=1,deb
 
  if(examination){
   const example=(x,bent)=>{
-   const hip=[x+55,195],knee=[x+65,302],ankle=bent?[x+137,386]:[x+73,421],heel=[ankle[0]-13,ankle[1]+26],toe=[ankle[0]+49,ankle[1]+26];
+   const hip=[x+55,195],knee=[x+65,302],angle=bent?-.65:Math.atan2(10,107),down=[Math.sin(angle),Math.cos(angle)],forward=[down[1],-down[0]],ankle=knee.map((v,i)=>v+119*down[i]),heel=ankle.map((v,i)=>v+26*down[i]-13*forward[i]),toe=heel.map((v,i)=>v+62*forward[i]);
    const junction=[lerp(knee[0],ankle[0],.8)-9,lerp(knee[1],ankle[1],.8)];
-   return `<g><text x="${x+95}" y="150" text-anchor="middle" fill="#E4EBEF" font-size="20">Knie ${bent?'gebogen':'gestrekt'}</text>`+line(hip,knee,'#D5E3EA',14)+line(knee,ankle,'#D5E3EA',12)+line(heel,toe,'#D5E3EA',11)+line(ankle,heel,'#D5E3EA',10)+muscle([knee[0]-5,knee[1]+15],junction,12,'#EDC46B')+muscle([knee[0]-11,knee[1]-18],junction,17,'#ED927C')+line(junction,heel,'#EFF6F9',4)+circle(knee,9,'#E4EBEF')+`<path d="M${heel[0]-24},${heel[1]+20}q-2,-20 14,-19 M${toe[0]+8},${toe[1]+20}q15,-18 -1,-27" stroke="#AFC5D0" stroke-width="7" stroke-linecap="round" fill="none"/></g>`;
+   return `<g><text x="${x+95}" y="150" text-anchor="middle" fill="#E4EBEF" font-size="${compact?30:20}">Knie ${bent?'gebogen':'gestrekt'}</text>`+line(hip,knee,'#D5E3EA',14)+line(knee,ankle,'#D5E3EA',12)+line(heel,toe,'#D5E3EA',11)+line(ankle,heel,'#D5E3EA',10)+muscle([knee[0]-5,knee[1]+15],junction,12,'#EDC46B')+muscle([knee[0]-11,knee[1]-18],junction,17,'#ED927C')+line(junction,heel,'#EFF6F9',4)+circle(knee,9,'#E4EBEF')+`<path d="M${heel[0]-24},${heel[1]+20}q-2,-20 14,-19 M${toe[0]+8},${toe[1]+20}q15,-18 -1,-27" stroke="#AFC5D0" stroke-width="7" stroke-linecap="round" fill="none"/></g>`;
   };
-  scene=example(80,false)+example(410,true)+`<text x="360" y="515" text-anchor="middle" fill="#B8CDD8" font-size="16">Bewegingsruimte · kracht en belasting · jouw verhaal</text><text x="360" y="545" text-anchor="middle" fill="#B8CDD8" font-size="13">Schematische onderzoekshoudingen · geen zelftest</text>`;
- }
- if(focus==='arch'&&zoom>2){
-  // Separate qualitative linkage: fixed segment lengths and fixed end contacts.
-  // It illustrates available motion, not a measured deformation of this subject.
-  const t=.28+.09*Math.sin(Math.max(0,Math.min(1,detail))*Math.PI),a=[0,0],b=[85*Math.cos(t),-85*Math.sin(t)],d=[205,0];
-  const dx=d[0]-b[0],dy=d[1]-b[1],dist=Math.hypot(dx,dy),along=(85**2-65**2+dist**2)/(2*dist),height=Math.sqrt(85**2-along**2);
-  const c=[b[0]+along*dx/dist+height*dy/dist,b[1]+along*dy/dist-height*dx/dist];
-  scene+=`<g transform="translate(60 175)"><text y="-70" fill="#B8CDD8" font-size="14">Een beweeglijke boog</text>${line(a,b,'#D9E3E9',7)}${line(b,c,'#D9E3E9',7)}${line(c,d,'#D9E3E9',7)}${[a,b,c,d].map(p=>circle(p,4,'#65D6DA')).join('')}<path d="M0,8Q100,${-10-30*t} 205,8" fill="none" stroke="#65D6DA" stroke-width="3"/><text y="34" fill="#B8CDD8" font-size="12">Schematisch · geen meting</text></g>`;
+  scene=example(80,false)+example(410,true)+(compact?'':`<text x="360" y="515" text-anchor="middle" fill="#B8CDD8" font-size="16">Bewegingsruimte · kracht en belasting · jouw verhaal</text><text x="360" y="545" text-anchor="middle" fill="#B8CDD8" font-size="13">Schematische onderzoekshoudingen · geen zelftest</text>`);
  }
  if(outdoors)scene=`<g opacity=".65"><path d="M90 510V403" stroke="#6D9BA3" stroke-width="6"/><circle cx="90" cy="370" r="47" fill="#294B59"/><circle cx="68" cy="400" r="33" fill="#345D67"/><path d="M535 457h100m-85 0v62m70-62v62" stroke="#6D9BA3" stroke-width="7" stroke-linecap="round"/></g>`+scene;
 
- if(focus==='calf'&&!examination&&!lab&&phase>.4&&phase<.68){
-  scene+=`<g transform="translate(45 82)"><text fill="#B8CDD8" font-size="13">Spier en pees bewegen verschillend</text><path d="M0,22H140" stroke="#ED927C" stroke-width="10" stroke-linecap="round"/><path d="M146,22H${240-20*Math.sin((phase-.4)/.28*Math.PI)}" stroke="#EFF6F9" stroke-width="4"/><text y="49" fill="#B8CDD8" font-size="11">Principe, geen gemeten weefsellengte</text></g>`;
+
+ if(clinical){
+  const q=clinical==='toe'?xy(r.mtp):xy(r.heel);
+  const marker=zoom>1?[365+(q[0]-focusPoint[0])*zoom,350+(q[1]-focusPoint[1])*zoom]:q;
+  scene+=`<circle cx="${marker[0]}" cy="${marker[1]-7}" r="20" fill="none" stroke="#EDC46B" stroke-width="2"/><path d="M${marker[0]},${marker[1]-28}v-60" stroke="#EDC46B"/><text x="${marker[0]}" y="${marker[1]-100}" text-anchor="middle" fill="#EDC46B" font-size="${compact?25:18}">${clinical==='toe'?'Grote-teengewricht':'Aanhechting peesplaat'}</text>`;
  }
- return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${compact&&zoom>2?'30 55 650 480':'0 0 720 620'}" role="img" aria-labelledby="${uid}-title"><title id="${uid}-title">${debug?'Controlebeeld van het vereenvoudigde skelet':'Schematische wandelaar; voet, enkel en kuit tijdens lopen'}</title>${scene}</svg>`;
+ if(windlass){
+  const clamp=x=>Math.max(0,Math.min(1,x)),ease=x=>{x=clamp(x);return x*x*(3-2*x)};
+  const isolate=ease(detail/.12),trace=ease((detail-.12)/.15),move=ease((detail-.30)/.20),turn=ease((detail-.57)/.27);
+  const heel=xy(r.heel),footAngle=-r.angle*180/Math.PI;
+  // A single right limb becomes the anatomical source of the schematic copy.
+  const mag=lerp(1,2.8,isolate),tx=lerp(heel[0],445,isolate),ty=lerp(heel[1],430,isolate);
+  const angle=turn*1.02,rad=10,shift=rad*angle,d=205-shift,L1=Math.hypot(90,60),L2=Math.hypot(115,60);
+  const x=(L1*L1-L2*L2+d*d)/(2*d),y=-Math.sqrt(L1*L1-x*x);
+  const h=[shift,10],peak=[shift+x,y],m=[205,0],toe=[205+55*Math.cos(angle),-55*Math.sin(angle)];
+  const bandEnd=[205+rad*Math.sin(angle)+30*Math.cos(angle),rad*Math.cos(angle)-30*Math.sin(angle)];
+  const band=`M${pt(h)}L205,10 A10,10 0 0 0 ${pt([205+rad*Math.sin(angle),rad*Math.cos(angle)])} L${pt(bandEnd)}`;
+  const model=(opacity=1)=>`<g opacity="${opacity}" transform="translate(0 -13)">${line([shift,0],peak,'#E4EBEF',5)}${line(peak,m,'#E4EBEF',5)}${circle(m,10,'#49616F')}${line(m,toe,'#E4EBEF',7)}<path d="${band}" stroke="#65D6DA" stroke-width="4" fill="none"/>${circle([shift,0],4,'#65D6DA')}${circle(peak,4,'#E4EBEF')}</g>`;
+  scene=`<g opacity="${1-isolate}">${fullPerson}</g><defs><clipPath id="${uid}-crop"><rect x="0" y="30" width="720" height="535"/></clipPath></defs><g opacity="${isolate}" clip-path="url(#${uid}-crop)"><g transform="translate(${tx} ${ty}) scale(${mag}) translate(${-heel[0]} ${-heel[1]})">${leg(r,'R')}</g></g>`;
+  const initialScale=mag*.32;
+  scene+=`<g opacity="${trace*.35*(1-turn)}" transform="translate(${tx} ${ty}) rotate(${footAngle}) scale(${initialScale})">${model()}</g>`;
+  // Copy originates on that very foot, then travels left before it starts moving.
+  const mx=lerp(tx,42,move),my=lerp(ty,385,move),ms=lerp(initialScale,1.12,move),rotation=lerp(footAngle,0,move);
+  scene+=`<g opacity="${trace}" transform="translate(${mx} ${my}) rotate(${rotation}) scale(${ms})">${model()}</g>`;
+  if(move>.98)scene+=`<g fill="#B8CDD8" font-size="${compact?25:18}"><text x="42" y="270">${turn>.05?(compact?'Teen omhoog':'Teen omhoog → boog komt mee'):(compact?'Van voet naar model':'Dezelfde voet, vereenvoudigd')}</text>${compact?'':`<text x="245" y="302" font-size="15">Grote teen</text>`}<text x="42" y="435" fill="#65D6DA">Peesplaat</text>${compact?'':`<text x="240" y="435" font-size="15">Kopje</text>`}<text x="42" y="470" font-size="${compact?23:15}">${compact?'Schematisch':'Windlassprincipe · geen meetmodel'}</text></g>`;
+  if(!compact)scene+=`<text x="445" y="515" fill="#B8CDD8" font-size="16">Rechtervoet · binnenzijde</text>`;
+ }
+ return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="${compact&&examination?'60 115 600 380':compact&&windlass?'0 170 720 370':compact&&zoom>2?'30 55 650 480':'0 0 720 620'}" role="img" aria-labelledby="${uid}-title"><desc id="${uid}-title">${debug?'Controlebeeld van het vereenvoudigde skelet':windlass?'Van rechtervoet naar schematisch windlassprincipe':examination?'Onderzoek met gestrekte en correct gebogen knie':'Schematische wandelaar; voet, enkel en kuit tijdens lopen'}</desc>${scene}</svg>`;
 }

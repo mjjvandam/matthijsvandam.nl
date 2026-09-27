@@ -3,7 +3,7 @@
   "catalogue_sources": {
     "docs/design-system/catalogue.js": "4e4fc72ad96574b8538187f3b2cd88851856de6fb3aaacbdec60fdaa790b4720",
     "docs/design-system/catalogue.css": "71b21f74acf3d686e873590f6c367f57856afed6ee3d8dc89049a95532875df8",
-    "docs/site/DESIGN_SYSTEM.md": "e2944e8e668c6e64a42015dfbde869c70cc572afb6b734b68fdc41ccf528f40f"
+    "docs/site/DESIGN_SYSTEM.md": "491d00e9555be4cbb653cfade2acc7d3dea4f99cd64ef682dceeed992e80a67b"
   },
   "components": [
     {
@@ -349,7 +349,7 @@
       "fingerprints": {
         "404.html": "6c9c90e8b177d768f0aea567da2c5022f2cebf47062edb21b786f52ae50abb9e",
         "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
-        "artikelen.html": "6e0175de0812d0a418e6dc631c0afec36a96c389be20562f9d82436c41627aac",
+        "artikelen.html": "f0e025d5f239ea50d9e6538d4993af1ba170c9d03d715f646fabb49437a3f17e",
         "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html": "0a1cb2f9651474a2000f7111e4af7a391001fd1a1e2147d47e8fa63d12df30a8",
         "artikelen/aaos-richtlijn-enkelartrose.html": "c1f2609c98adb81444cb110fb1355c9f71e7093b812e6c0a6bc7143a508dda75",
         "artikelen/aios-foot-education-munich.html": "a4b9cc20f0a9df59813fe76ee781bcd9e486bfb6cf1643504516c8e3f8a29087",
@@ -414,12 +414,12 @@
         "behandelingen/ziekte-van-freiberg.html": "5d86f067ff132823fd69f19da5ca597b31c4a8f97b4b3e57130a80fc0031082a",
         "concept-foot-pain-guide.html": "0e1745e0e24c358e89e24a1f9fb3a8fe4c0678a0341d32e66c6a183aa2772a7f",
         "disclaimer.html": "525af2637cfccd697905f0855b6688e3943fe1ef46134721824c702339461973",
-        "index.html": "038c6e2d68d32f027bd161a5238ff9f4dd97d545a968cfee7c8bcd188e6f7c6b",
+        "index.html": "a74441616c7169d91fd5c10f08846a1e0da11f366316d2ca7295146a5029af66",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "nieuwsbrief.html": "6f63b29472ef45f958b09f2072d965370b5bb4a3eb472150f905dad2c1474a46",
         "over-mij.html": "8eae57375819b840793e1b1c71ef3d6b7bfba45e7754a045bc9099586dbc4459",
         "privacy.html": "7bb17788719e6d5baaf10a3ed45f4d3be142f933d1616ba4a271ccc29b2c0233",
-        "professionals.html": "c2fbc9102488ca581e9b675f3caf4c7c59e7752992febac15b4bfe54e90f6378",
+        "professionals.html": "5fe590dce55c35861203888200705883708fddf03d994c96c4d1031bfda0167e",
         "projecten.html": "94b21e7fd8818d3df2f2e9f88a0cc5fc688024168bf99b346fd9887e2413dbfa",
         "projecten/3d-planning-voet-enkel.html": "9b61b9c6c5f448e843ca246567023b3e8d59f40ba1ca98b0d961c4503000767f",
         "projecten/footprint-quick-scan.html": "e8eaa95c10bb1b8bd29097a339513dcceef143169fa0848bd43bec159f64b883",
@@ -501,7 +501,7 @@
         }
       ],
       "fingerprints": {
-        "index.html": "038c6e2d68d32f027bd161a5238ff9f4dd97d545a968cfee7c8bcd188e6f7c6b",
+        "index.html": "a74441616c7169d91fd5c10f08846a1e0da11f366316d2ca7295146a5029af66",
         "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
       }
     },
@@ -531,7 +531,7 @@
         }
       ],
       "fingerprints": {
-        "artikelen.html": "6e0175de0812d0a418e6dc631c0afec36a96c389be20562f9d82436c41627aac",
+        "artikelen.html": "f0e025d5f239ea50d9e6538d4993af1ba170c9d03d715f646fabb49437a3f17e",
         "content.js": "fd08c5544711aaff45ef4225b90f79b70ca6627af585b23ddb8fa62800710a90",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
@@ -670,7 +670,7 @@
       ],
       "fingerprints": {
         "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
-        "artikelen.html": "6e0175de0812d0a418e6dc631c0afec36a96c389be20562f9d82436c41627aac",
+        "artikelen.html": "f0e025d5f239ea50d9e6538d4993af1ba170c9d03d715f646fabb49437a3f17e",
         "artikelen/aaos-richtlijn-enkelartrose.html": "c1f2609c98adb81444cb110fb1355c9f71e7093b812e6c0a6bc7143a508dda75",
         "artikelen/artrosezorg-transitie-patienten.html": "c8f5081d007a2fda4013f063f23485a0f11e2992381486ae3e45830c01022a52",
         "artikelen/artrosezorg-transitie-professionals.html": "110db2cbd78a3511a672e2fe67831fe9856fb7b3751f1f8040eb8015686fd768",
@@ -688,9 +688,9 @@
         "behandelingen/enkelartrose.html": "47cc63d67bf783d598b39bdd629368e554aba30eb9989b1454df7853785d2f95",
         "behandelingen/enkelprothese.html": "2d3d7a9b55d88a67d6a98ee687d84bf5f42900af10736cd06de94c3e6389cd06",
         "content.js": "fd08c5544711aaff45ef4225b90f79b70ca6627af585b23ddb8fa62800710a90",
-        "index.html": "038c6e2d68d32f027bd161a5238ff9f4dd97d545a968cfee7c8bcd188e6f7c6b",
+        "index.html": "a74441616c7169d91fd5c10f08846a1e0da11f366316d2ca7295146a5029af66",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "professionals.html": "c2fbc9102488ca581e9b675f3caf4c7c59e7752992febac15b4bfe54e90f6378",
+        "professionals.html": "5fe590dce55c35861203888200705883708fddf03d994c96c4d1031bfda0167e",
         "projecten.html": "94b21e7fd8818d3df2f2e9f88a0cc5fc688024168bf99b346fd9887e2413dbfa",
         "projecten/3d-planning-voet-enkel.html": "9b61b9c6c5f448e843ca246567023b3e8d59f40ba1ca98b0d961c4503000767f",
         "projecten/footprint-quick-scan.html": "e8eaa95c10bb1b8bd29097a339513dcceef143169fa0848bd43bec159f64b883",
@@ -1095,7 +1095,7 @@
       ],
       "fingerprints": {
         "404.html": "6c9c90e8b177d768f0aea567da2c5022f2cebf47062edb21b786f52ae50abb9e",
-        "index.html": "038c6e2d68d32f027bd161a5238ff9f4dd97d545a968cfee7c8bcd188e6f7c6b",
+        "index.html": "a74441616c7169d91fd5c10f08846a1e0da11f366316d2ca7295146a5029af66",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "nieuwsbrief.html": "6f63b29472ef45f958b09f2072d965370b5bb4a3eb472150f905dad2c1474a46",
         "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
@@ -1129,7 +1129,7 @@
       ],
       "fingerprints": {
         "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
-        "professionals.html": "c2fbc9102488ca581e9b675f3caf4c7c59e7752992febac15b4bfe54e90f6378",
+        "professionals.html": "5fe590dce55c35861203888200705883708fddf03d994c96c4d1031bfda0167e",
         "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
       }
     },
@@ -1148,7 +1148,7 @@
         "assets/professionals-story.css",
         "assets/professionals-story.js"
       ],
-      "rule": "De professionalspagina vertelt in zeven korte momenten hoe samenwerking van Nederland naar Midden-Brabant, Tilburg en vier praktische pijlers beweegt. Kaart en verbindingen zijn expliciet schematisch. De gewone HTML-tekst blijft zonder JavaScript en bij verminderde beweging volledig leesbaar. Bied in de intro altijd een directe route naar overleg/verwijzing; Doctolib, ZorgDomein, artikelen en updates blijven gewone functionele onderdelen buiten het verhaal. Voeg geen afspraakroute, persoonlijk behandeladvies of publieke link naar conceptcontent toe.",
+      "rule": "De professionalspagina vertelt hoe samenwerking van Nederland naar Midden-Brabant, Tilburg, het zorgnetwerk en vijf praktische pijlers beweegt. De overgang zoomt eerst door naar de Tilburg-marker; de regionale kaart verschijnt vervolgens op hetzelfde middelpunt en zoomt uit naar het overzicht. Bij de vijfde pijler verschuift het beeld naar een afzonderlijk leerverband tussen patiënt, praktijk en wetenschap. Kaart en verbindingen zijn expliciet schematisch. De gewone HTML-tekst blijft zonder JavaScript en bij verminderde beweging volledig leesbaar. Bied in de intro altijd een directe route naar overleg/verwijzing; Doctolib, ZorgDomein, artikelen en updates blijven gewone functionele onderdelen buiten het verhaal. Voeg geen afspraakroute, persoonlijk behandeladvies of publieke link naar conceptcontent toe.",
       "pages": [
         {
           "path": "professionals.html",
@@ -1156,9 +1156,9 @@
         }
       ],
       "fingerprints": {
-        "assets/professionals-story.css": "029daf75813f4cb7abe7e2137f408226e255dc82a441c1aa5973850f6e64f5de",
-        "assets/professionals-story.js": "735f2e55a8ec4f5a8dcb768de8aaaf6fa66025c3e02e8beecc706cdc15b982f9",
-        "professionals.html": "c2fbc9102488ca581e9b675f3caf4c7c59e7752992febac15b4bfe54e90f6378"
+        "assets/professionals-story.css": "e0e137a1f2f58fbc67634d41e9c7fca9e62482ffe8fe04b0f7fb25a0c19aa446",
+        "assets/professionals-story.js": "c96df41077725f4989d57ce1bd796de473b8a88cf48e602d5d682c418fd01e3e",
+        "professionals.html": "5fe590dce55c35861203888200705883708fddf03d994c96c4d1031bfda0167e"
       }
     },
     {
@@ -1764,7 +1764,7 @@
       ],
       "fingerprints": {
         "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
-        "artikelen.html": "6e0175de0812d0a418e6dc631c0afec36a96c389be20562f9d82436c41627aac",
+        "artikelen.html": "f0e025d5f239ea50d9e6538d4993af1ba170c9d03d715f646fabb49437a3f17e",
         "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html": "0a1cb2f9651474a2000f7111e4af7a391001fd1a1e2147d47e8fa63d12df30a8",
         "artikelen/aaos-richtlijn-enkelartrose.html": "c1f2609c98adb81444cb110fb1355c9f71e7093b812e6c0a6bc7143a508dda75",
         "artikelen/aios-foot-education-munich.html": "a4b9cc20f0a9df59813fe76ee781bcd9e486bfb6cf1643504516c8e3f8a29087",
@@ -1831,12 +1831,12 @@
         "disclaimer.html": "525af2637cfccd697905f0855b6688e3943fe1ef46134721824c702339461973",
         "feedback.css": "0ab4ce10537c05937ae69ac29335bf4c139d049bb980731d144370e7b7595219",
         "feedback.js": "5aa29ca0437cf076157217c592e87a68966b93fa7fdcb3b35ffcf83633e2bfe0",
-        "index.html": "038c6e2d68d32f027bd161a5238ff9f4dd97d545a968cfee7c8bcd188e6f7c6b",
+        "index.html": "a74441616c7169d91fd5c10f08846a1e0da11f366316d2ca7295146a5029af66",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "nieuwsbrief.html": "6f63b29472ef45f958b09f2072d965370b5bb4a3eb472150f905dad2c1474a46",
         "over-mij.html": "8eae57375819b840793e1b1c71ef3d6b7bfba45e7754a045bc9099586dbc4459",
         "privacy.html": "7bb17788719e6d5baaf10a3ed45f4d3be142f933d1616ba4a271ccc29b2c0233",
-        "professionals.html": "c2fbc9102488ca581e9b675f3caf4c7c59e7752992febac15b4bfe54e90f6378",
+        "professionals.html": "5fe590dce55c35861203888200705883708fddf03d994c96c4d1031bfda0167e",
         "projecten.html": "94b21e7fd8818d3df2f2e9f88a0cc5fc688024168bf99b346fd9887e2413dbfa",
         "projecten/3d-planning-voet-enkel.html": "9b61b9c6c5f448e843ca246567023b3e8d59f40ba1ca98b0d961c4503000767f",
         "projecten/footprint-quick-scan.html": "e8eaa95c10bb1b8bd29097a339513dcceef143169fa0848bd43bec159f64b883",
@@ -1873,10 +1873,10 @@
         }
       ],
       "fingerprints": {
-        "artikelen.html": "6e0175de0812d0a418e6dc631c0afec36a96c389be20562f9d82436c41627aac",
+        "artikelen.html": "f0e025d5f239ea50d9e6538d4993af1ba170c9d03d715f646fabb49437a3f17e",
         "assets/artrose-story/story-8c83fdb90c6a.js": "8c83fdb90c6af81ec8e957454bc842e3f74f67b29d2413e9eca84efdd98b6480",
         "assets/artrose-story/story-b99b06aa52a8.css": "b99b06aa52a86c2644e1e0483be1ba02189557d77550afc2cf5da2f2b6dd3dbe",
-        "index.html": "038c6e2d68d32f027bd161a5238ff9f4dd97d545a968cfee7c8bcd188e6f7c6b",
+        "index.html": "a74441616c7169d91fd5c10f08846a1e0da11f366316d2ca7295146a5029af66",
         "tools/build_artrose_release.py": "b57d044c6892cd2e50dd14270338cd30c5331430c5014597c8fd5b4909d655c0"
       }
     },
@@ -1893,7 +1893,7 @@
         "concepten/voet-enkel-loopverhaal/story.mjs",
         "concepten/voet-enkel-loopverhaal/renderer.mjs"
       ],
-      "rule": "Pagina-eigen koelwit/diepblauw concept op expliciet verzoek. Scrollgestuurde illustratie, 42/58 op desktop; mobiel een klein sticky toneel. Statische leesversie zonder JavaScript, bij verminderde beweging of lage vensters. Geen gedeelde sitecomponent, geen publicatie of medische verificatie.",
+      "rule": "Pagina-eigen koelwit/diepblauw concept op expliciet verzoek. Scrollgestuurde illustratie, 42/58 op desktop; mobiel een klein sticky toneel. Statische leesversie zonder JavaScript, bij verminderde beweging of lage vensters. Geen gedeelde sitecomponent, geen publicatie of medische verificatie. Anatomische vergroting en windlassschema houden dezelfde oriëntatie en kleuren: eerst afleiden, dan verplaatsen, dan bewegen. Mobiel kortere labels; geen automatische animatielus.",
       "pages": [
         {
           "path": "concepten/voet-enkel-loopverhaal/index.html",
@@ -1901,10 +1901,10 @@
         }
       ],
       "fingerprints": {
-        "concepten/voet-enkel-loopverhaal/index.html": "5d2ad6bb02cb1a2e1666099032a0184b8ede48c1b13f2cc80847b8d387032998",
-        "concepten/voet-enkel-loopverhaal/renderer.mjs": "197ec52c5df8af466fbc9e17910e0b58434a68eb8c7ce6eb095fd0dac7c68a95",
+        "concepten/voet-enkel-loopverhaal/index.html": "3f5ae5c5cca5421c013f183aa6f8dcbc510453e189982760fa3f8de0f53968bc",
+        "concepten/voet-enkel-loopverhaal/renderer.mjs": "1c4996602b38234a7590780c9b3b5f23488e3a41415b850a88b9f18da8c9210c",
         "concepten/voet-enkel-loopverhaal/story.css": "bcca33d5aef21d3afe638c5f77183cbec29947de973b029dc865d7fe06bf6884",
-        "concepten/voet-enkel-loopverhaal/story.mjs": "f10e38881866e94ff8fc2f587e8223c094d2e0b8fdcf2cd91c6158ac291c89ed"
+        "concepten/voet-enkel-loopverhaal/story.mjs": "a223f8fa790af4e749ad3f81a717860d91b5d3a75227df253957a97bdcfdd14f"
       }
     }
   ]

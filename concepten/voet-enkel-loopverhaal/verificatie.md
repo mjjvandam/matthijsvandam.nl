@@ -31,3 +31,16 @@ De algemene site-/publicatiecheck is niet volledig groen door andere werkboomwij
 6. `python3 tools/design_system.py --build` en `--check`.
 
 Gebruik de beschikbare lokale Node-runtime als `node` niet op PATH staat. Er is geen npm-project/check nodig voor deze statische conceptmodule.
+
+## Hercontrole na inhoudelijke en visuele herziening
+
+De oorspronkelijke tekst en scèneregie zijn vervangen door ‘Als lopen pijn doet’, conform het geaccepteerde advies. Acht scènes blijven behouden, nu met drie klachtenvoorbeelden; loopanalyse is ondersteunend aan het einde. B31/B32 toegevoegd en 32 bronankers gecontroleerd.
+
+- Visueel in browser gecontroleerd: langere romp met aangepaste schouder-/hoofd-/armposities; correcte achterwaartse kniebuiging; gelijk gehouden relatieve enkelstand bij de twee onderzoekshoudingen; afleiden en verplaatsen van het windlassschema, daarna teenrotatie; herkenbare grote-teengewrichtsmarkering.
+- Nieuwe windlassovergang op desktop en 390 px bekeken. Onderzoek op 360 px en grote teen op 430 px; geen horizontale overflow. Labels en uitsnede zijn mobiel aangepast. Desktoponderzoek op 1200×900 opnieuw bekeken.
+- Terugkeren naar hetzelfde voetbooganker gaf exact dezelfde SVG-markup. Geen browserconsolefouten.
+- Leesknop met toetsenbord: acht zichtbare stilstaande beelden, geen kapotte afbeeldingen; de nieuwe windlasscaption legt het principe én de begrenzing uit.
+- Rendercontrole uitgebreid met 1001 windlassposities voor zowel desktop als mobiel: deterministisch en zonder ongeldige geometrie. De bestaande looprig blijft ongewijzigd en doorstaat de grondcontact-/segmentlengtecontrole.
+- Conceptcheck, JavaScript-syntax, designsysteembuild/check en diff-whitespacecheck opnieuw uitgevoerd. De eerdere sitebrede waarschuwingen buiten dit concept zijn hiermee niet opgelost of als groen aangemerkt.
+
+Deze hercontrole vervangt geen medische/anatomische eigenaarbeoordeling. Het windlassmodel is didactisch; onderlinge spier-/peesbelasting wordt niet uit de tekening berekend.
