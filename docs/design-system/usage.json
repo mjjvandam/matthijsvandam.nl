@@ -349,7 +349,7 @@
       "fingerprints": {
         "404.html": "6c9c90e8b177d768f0aea567da2c5022f2cebf47062edb21b786f52ae50abb9e",
         "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
-        "artikelen.html": "f0e025d5f239ea50d9e6538d4993af1ba170c9d03d715f646fabb49437a3f17e",
+        "artikelen.html": "3ac55834870e2984e299ca8ce7645d07ebb7570ea30f52aead5f18c218077f02",
         "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html": "0a1cb2f9651474a2000f7111e4af7a391001fd1a1e2147d47e8fa63d12df30a8",
         "artikelen/aaos-richtlijn-enkelartrose.html": "c1f2609c98adb81444cb110fb1355c9f71e7093b812e6c0a6bc7143a508dda75",
         "artikelen/aios-foot-education-munich.html": "a4b9cc20f0a9df59813fe76ee781bcd9e486bfb6cf1643504516c8e3f8a29087",
@@ -414,7 +414,7 @@
         "behandelingen/ziekte-van-freiberg.html": "5d86f067ff132823fd69f19da5ca597b31c4a8f97b4b3e57130a80fc0031082a",
         "concept-foot-pain-guide.html": "0e1745e0e24c358e89e24a1f9fb3a8fe4c0678a0341d32e66c6a183aa2772a7f",
         "disclaimer.html": "525af2637cfccd697905f0855b6688e3943fe1ef46134721824c702339461973",
-        "index.html": "a74441616c7169d91fd5c10f08846a1e0da11f366316d2ca7295146a5029af66",
+        "index.html": "4dd9d58ad433df7f1cafacdc571436628abad7eec1cf419ed1aa8f15937ca9cf",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "nieuwsbrief.html": "6f63b29472ef45f958b09f2072d965370b5bb4a3eb472150f905dad2c1474a46",
         "over-mij.html": "8eae57375819b840793e1b1c71ef3d6b7bfba45e7754a045bc9099586dbc4459",
@@ -501,7 +501,7 @@
         }
       ],
       "fingerprints": {
-        "index.html": "a74441616c7169d91fd5c10f08846a1e0da11f366316d2ca7295146a5029af66",
+        "index.html": "4dd9d58ad433df7f1cafacdc571436628abad7eec1cf419ed1aa8f15937ca9cf",
         "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
       }
     },
@@ -531,7 +531,7 @@
         }
       ],
       "fingerprints": {
-        "artikelen.html": "f0e025d5f239ea50d9e6538d4993af1ba170c9d03d715f646fabb49437a3f17e",
+        "artikelen.html": "3ac55834870e2984e299ca8ce7645d07ebb7570ea30f52aead5f18c218077f02",
         "content.js": "fd08c5544711aaff45ef4225b90f79b70ca6627af585b23ddb8fa62800710a90",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
@@ -670,7 +670,7 @@
       ],
       "fingerprints": {
         "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
-        "artikelen.html": "f0e025d5f239ea50d9e6538d4993af1ba170c9d03d715f646fabb49437a3f17e",
+        "artikelen.html": "3ac55834870e2984e299ca8ce7645d07ebb7570ea30f52aead5f18c218077f02",
         "artikelen/aaos-richtlijn-enkelartrose.html": "c1f2609c98adb81444cb110fb1355c9f71e7093b812e6c0a6bc7143a508dda75",
         "artikelen/artrosezorg-transitie-patienten.html": "c8f5081d007a2fda4013f063f23485a0f11e2992381486ae3e45830c01022a52",
         "artikelen/artrosezorg-transitie-professionals.html": "110db2cbd78a3511a672e2fe67831fe9856fb7b3751f1f8040eb8015686fd768",
@@ -688,7 +688,7 @@
         "behandelingen/enkelartrose.html": "47cc63d67bf783d598b39bdd629368e554aba30eb9989b1454df7853785d2f95",
         "behandelingen/enkelprothese.html": "2d3d7a9b55d88a67d6a98ee687d84bf5f42900af10736cd06de94c3e6389cd06",
         "content.js": "fd08c5544711aaff45ef4225b90f79b70ca6627af585b23ddb8fa62800710a90",
-        "index.html": "a74441616c7169d91fd5c10f08846a1e0da11f366316d2ca7295146a5029af66",
+        "index.html": "4dd9d58ad433df7f1cafacdc571436628abad7eec1cf419ed1aa8f15937ca9cf",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "professionals.html": "8d087decf290b781fe73d5c13c6b604cb5ec1c56b2d3247787db3968bd537a82",
         "projecten.html": "94b21e7fd8818d3df2f2e9f88a0cc5fc688024168bf99b346fd9887e2413dbfa",
@@ -1095,7 +1095,7 @@
       ],
       "fingerprints": {
         "404.html": "6c9c90e8b177d768f0aea567da2c5022f2cebf47062edb21b786f52ae50abb9e",
-        "index.html": "a74441616c7169d91fd5c10f08846a1e0da11f366316d2ca7295146a5029af66",
+        "index.html": "4dd9d58ad433df7f1cafacdc571436628abad7eec1cf419ed1aa8f15937ca9cf",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "nieuwsbrief.html": "6f63b29472ef45f958b09f2072d965370b5bb4a3eb472150f905dad2c1474a46",
         "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
@@ -1764,7 +1764,7 @@
       ],
       "fingerprints": {
         "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
-        "artikelen.html": "f0e025d5f239ea50d9e6538d4993af1ba170c9d03d715f646fabb49437a3f17e",
+        "artikelen.html": "3ac55834870e2984e299ca8ce7645d07ebb7570ea30f52aead5f18c218077f02",
         "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html": "0a1cb2f9651474a2000f7111e4af7a391001fd1a1e2147d47e8fa63d12df30a8",
         "artikelen/aaos-richtlijn-enkelartrose.html": "c1f2609c98adb81444cb110fb1355c9f71e7093b812e6c0a6bc7143a508dda75",
         "artikelen/aios-foot-education-munich.html": "a4b9cc20f0a9df59813fe76ee781bcd9e486bfb6cf1643504516c8e3f8a29087",
@@ -1831,7 +1831,7 @@
         "disclaimer.html": "525af2637cfccd697905f0855b6688e3943fe1ef46134721824c702339461973",
         "feedback.css": "0ab4ce10537c05937ae69ac29335bf4c139d049bb980731d144370e7b7595219",
         "feedback.js": "5aa29ca0437cf076157217c592e87a68966b93fa7fdcb3b35ffcf83633e2bfe0",
-        "index.html": "a74441616c7169d91fd5c10f08846a1e0da11f366316d2ca7295146a5029af66",
+        "index.html": "4dd9d58ad433df7f1cafacdc571436628abad7eec1cf419ed1aa8f15937ca9cf",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "nieuwsbrief.html": "6f63b29472ef45f958b09f2072d965370b5bb4a3eb472150f905dad2c1474a46",
         "over-mij.html": "8eae57375819b840793e1b1c71ef3d6b7bfba45e7754a045bc9099586dbc4459",
@@ -1857,8 +1857,8 @@
         "artrose-story"
       ],
       "sources": [
-        "assets/artrose-story/story-b99b06aa52a8.css",
-        "assets/artrose-story/story-8c83fdb90c6a.js",
+        "assets/artrose-story/story-ed80632ad106.css",
+        "assets/artrose-story/story-baa39c9fc807.js",
         "tools/build_artrose_release.py"
       ],
       "rule": "Publieke scrollvertelling op artikelen.html buiten de filters; homepagevoorproef vóór de vakgroep. Onder de tweede alinea van de homepagevoorproef staat een gewone onderstreepte link naar het volledige verhaal, in dezelfde lettergrootte als de lopende tekst. Acht ongenummerde momenten delen één SVG-wereld. Rustige leesfasen, scrollgestuurde wandeling, leefstijlbegeleiding en netwerk rond dezelfde persoon. Vier afsluitkaarten. Reduced-motion, grote tekst en geen JavaScript behouden een statische leesversie. Menu blijft sticky met gemeten bovenruimte. Zie DESIGN_SYSTEM.md voor de vrijgegeven toepassing.",
@@ -1873,10 +1873,10 @@
         }
       ],
       "fingerprints": {
-        "artikelen.html": "f0e025d5f239ea50d9e6538d4993af1ba170c9d03d715f646fabb49437a3f17e",
-        "assets/artrose-story/story-8c83fdb90c6a.js": "8c83fdb90c6af81ec8e957454bc842e3f74f67b29d2413e9eca84efdd98b6480",
-        "assets/artrose-story/story-b99b06aa52a8.css": "b99b06aa52a86c2644e1e0483be1ba02189557d77550afc2cf5da2f2b6dd3dbe",
-        "index.html": "a74441616c7169d91fd5c10f08846a1e0da11f366316d2ca7295146a5029af66",
+        "artikelen.html": "3ac55834870e2984e299ca8ce7645d07ebb7570ea30f52aead5f18c218077f02",
+        "assets/artrose-story/story-baa39c9fc807.js": "baa39c9fc807c59878465a1a8b278eea27321e888b9ed88b004d47a53bd99b33",
+        "assets/artrose-story/story-ed80632ad106.css": "ed80632ad10618a462f58c1013f7b7278ef32a0fcf53036a80ecdc64409eb923",
+        "index.html": "4dd9d58ad433df7f1cafacdc571436628abad7eec1cf419ed1aa8f15937ca9cf",
         "tools/build_artrose_release.py": "b57d044c6892cd2e50dd14270338cd30c5331430c5014597c8fd5b4909d655c0"
       }
     },

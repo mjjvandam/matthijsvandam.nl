@@ -235,3 +235,10 @@
   const initialTarget=`#${body.id}`===location.hash?body:chapters.find(c=>`#${c.id}`===location.hash);
   if(initialTarget)requestAnimationFrame(()=>{initialTarget.scrollIntoView({block:'start'});requestPaint();});
 })();
+
+(() => {
+ const header=document.querySelector('[data-header]');
+ if(!header) return;
+ const measure=()=>document.documentElement.style.setProperty('--story-header-height', `${header.getBoundingClientRect().height}px`);
+ new ResizeObserver(measure).observe(header); measure();
+})();

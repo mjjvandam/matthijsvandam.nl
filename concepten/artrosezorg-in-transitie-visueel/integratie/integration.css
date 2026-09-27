@@ -53,6 +53,7 @@ html:has(.home-story){scroll-behavior:auto}
 
 /* Keep the site menu available while the story has its own sticky stage. */
 :root { --preview-header-height: 76px; }
+body .artrose-story { scroll-margin-top: calc(var(--preview-header-height) + 1rem); }
 body .artrose-story.has-motion .journey-stage {
   top: var(--preview-header-height);
   height: calc(100svh - var(--preview-header-height));

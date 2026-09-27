@@ -211,7 +211,7 @@
     else document.documentElement.dataset.theme=value;
   });
   applyMode();
-  // Resolve an incoming station link after enhancement changes document height.
-  const initialTarget=chapters.find(c=>`#${c.id}`===location.hash);
+  // Resolve an incoming story or station link after enhancement changes document height.
+  const initialTarget=`#${body.id}`===location.hash?body:chapters.find(c=>`#${c.id}`===location.hash);
   if(initialTarget)requestAnimationFrame(()=>{initialTarget.scrollIntoView({block:'start'});requestPaint();});
 })();
