@@ -6344,6 +6344,11 @@ body:has(.home-story) .site-header .theme-toggle {
   line-height: 1;
 }
 
+.professional-social--compact-title .professional-social-panel h2 {
+  font-size: clamp(1.55rem, 2.3vw, 2.2rem);
+  line-height: 1.08;
+}
+
 .professional-social-routes {
   min-width: 0;
   padding-left: clamp(24px, 4vw, 52px);

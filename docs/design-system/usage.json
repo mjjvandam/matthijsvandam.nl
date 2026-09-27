@@ -3,7 +3,7 @@
   "catalogue_sources": {
     "docs/design-system/catalogue.js": "4e4fc72ad96574b8538187f3b2cd88851856de6fb3aaacbdec60fdaa790b4720",
     "docs/design-system/catalogue.css": "71b21f74acf3d686e873590f6c367f57856afed6ee3d8dc89049a95532875df8",
-    "docs/site/DESIGN_SYSTEM.md": "491d00e9555be4cbb653cfade2acc7d3dea4f99cd64ef682dceeed992e80a67b"
+    "docs/site/DESIGN_SYSTEM.md": "6e9ccabb6d443a49c0c4939eec54af98a9f28f3514f2ebc2bac8a94ae544eb3d"
   },
   "components": [
     {
@@ -419,7 +419,7 @@
         "nieuwsbrief.html": "6f63b29472ef45f958b09f2072d965370b5bb4a3eb472150f905dad2c1474a46",
         "over-mij.html": "8eae57375819b840793e1b1c71ef3d6b7bfba45e7754a045bc9099586dbc4459",
         "privacy.html": "7bb17788719e6d5baaf10a3ed45f4d3be142f933d1616ba4a271ccc29b2c0233",
-        "professionals.html": "5fe590dce55c35861203888200705883708fddf03d994c96c4d1031bfda0167e",
+        "professionals.html": "8d087decf290b781fe73d5c13c6b604cb5ec1c56b2d3247787db3968bd537a82",
         "projecten.html": "94b21e7fd8818d3df2f2e9f88a0cc5fc688024168bf99b346fd9887e2413dbfa",
         "projecten/3d-planning-voet-enkel.html": "9b61b9c6c5f448e843ca246567023b3e8d59f40ba1ca98b0d961c4503000767f",
         "projecten/footprint-quick-scan.html": "e8eaa95c10bb1b8bd29097a339513dcceef143169fa0848bd43bec159f64b883",
@@ -429,7 +429,7 @@
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
         "publicaties.html": "f56660c05f7c6de1faec5fb82e8c4dd38ff6e9810f3196e6a4ec316d0e833ca2",
         "script.js": "d09936f38dd54c07813ca13d4acebfcfbb9ca6fe30f4f1eae891270376883012",
-        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
+        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
       }
     },
     {
@@ -477,7 +477,7 @@
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/vrxoa-immersive-experiences-artrose.html": "3e5459d0d47216d747923f35446fd5be7844189d22fb99494a855d8a84107ac1",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
-        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
+        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
       }
     },
     {
@@ -502,7 +502,7 @@
       ],
       "fingerprints": {
         "index.html": "a74441616c7169d91fd5c10f08846a1e0da11f366316d2ca7295146a5029af66",
-        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
+        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
       }
     },
     {
@@ -534,7 +534,7 @@
         "artikelen.html": "f0e025d5f239ea50d9e6538d4993af1ba170c9d03d715f646fabb49437a3f17e",
         "content.js": "fd08c5544711aaff45ef4225b90f79b70ca6627af585b23ddb8fa62800710a90",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
+        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
       }
     },
     {
@@ -690,7 +690,7 @@
         "content.js": "fd08c5544711aaff45ef4225b90f79b70ca6627af585b23ddb8fa62800710a90",
         "index.html": "a74441616c7169d91fd5c10f08846a1e0da11f366316d2ca7295146a5029af66",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "professionals.html": "5fe590dce55c35861203888200705883708fddf03d994c96c4d1031bfda0167e",
+        "professionals.html": "8d087decf290b781fe73d5c13c6b604cb5ec1c56b2d3247787db3968bd537a82",
         "projecten.html": "94b21e7fd8818d3df2f2e9f88a0cc5fc688024168bf99b346fd9887e2413dbfa",
         "projecten/3d-planning-voet-enkel.html": "9b61b9c6c5f448e843ca246567023b3e8d59f40ba1ca98b0d961c4503000767f",
         "projecten/footprint-quick-scan.html": "e8eaa95c10bb1b8bd29097a339513dcceef143169fa0848bd43bec159f64b883",
@@ -698,7 +698,7 @@
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
         "script.js": "d09936f38dd54c07813ca13d4acebfcfbb9ca6fe30f4f1eae891270376883012",
-        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
+        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
       }
     },
     {
@@ -726,7 +726,7 @@
       "fingerprints": {
         "content.js": "fd08c5544711aaff45ef4225b90f79b70ca6627af585b23ddb8fa62800710a90",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
+        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
       }
     },
     {
@@ -1059,7 +1059,7 @@
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/vrxoa-immersive-experiences-artrose.html": "3e5459d0d47216d747923f35446fd5be7844189d22fb99494a855d8a84107ac1",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
-        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
+        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
       }
     },
     {
@@ -1098,7 +1098,7 @@
         "index.html": "a74441616c7169d91fd5c10f08846a1e0da11f366316d2ca7295146a5029af66",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "nieuwsbrief.html": "6f63b29472ef45f958b09f2072d965370b5bb4a3eb472150f905dad2c1474a46",
-        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
+        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
       }
     },
     {
@@ -1129,8 +1129,8 @@
       ],
       "fingerprints": {
         "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
-        "professionals.html": "5fe590dce55c35861203888200705883708fddf03d994c96c4d1031bfda0167e",
-        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
+        "professionals.html": "8d087decf290b781fe73d5c13c6b604cb5ec1c56b2d3247787db3968bd537a82",
+        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
       }
     },
     {
@@ -1158,7 +1158,7 @@
       "fingerprints": {
         "assets/professionals-story.css": "e0e137a1f2f58fbc67634d41e9c7fca9e62482ffe8fe04b0f7fb25a0c19aa446",
         "assets/professionals-story.js": "c96df41077725f4989d57ce1bd796de473b8a88cf48e602d5d682c418fd01e3e",
-        "professionals.html": "5fe590dce55c35861203888200705883708fddf03d994c96c4d1031bfda0167e"
+        "professionals.html": "8d087decf290b781fe73d5c13c6b604cb5ec1c56b2d3247787db3968bd537a82"
       }
     },
     {
@@ -1373,7 +1373,7 @@
         "behandelingen/ziekte-van-freiberg.html": "5d86f067ff132823fd69f19da5ca597b31c4a8f97b4b3e57130a80fc0031082a",
         "data/faq-placements.json": "0852f9d167d6ccf69c0484220f8b249bedd2821166388f8848d225e6c82c61e2",
         "data/faqs.json": "075c5732c5fe63a3c1ffaaee2fdc4b53a6ce664917e1671dbbe7989a738408d7",
-        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee",
+        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f",
         "tools/generate_faqs.py": "0c896b7255f8eaa9e9488887ae5e59f7ff7d1193ec1e0a4de5fa719bdeb1ceaf"
       }
     },
@@ -1397,7 +1397,7 @@
       ],
       "fingerprints": {
         "behandelingen/hallux-valgus.html": "60d0e3e4f032e5cc3210d29e7cddf97dfe8b0e4519233456d48607b1d8d61a19",
-        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
+        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
       }
     },
     {
@@ -1424,7 +1424,7 @@
       "fingerprints": {
         "behandelingen.html": "8d484ffa2f1d211b21d77eb95babd4acea88828d26ef74d8f6fcd8e8dccd4e1f",
         "script.js": "d09936f38dd54c07813ca13d4acebfcfbb9ca6fe30f4f1eae891270376883012",
-        "styles.css": "f2fe333af463c68f68eb86a811fd03163c1d1f2ed8c10c4b53154ea7d8c604ee"
+        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
       }
     },
     {
@@ -1836,7 +1836,7 @@
         "nieuwsbrief.html": "6f63b29472ef45f958b09f2072d965370b5bb4a3eb472150f905dad2c1474a46",
         "over-mij.html": "8eae57375819b840793e1b1c71ef3d6b7bfba45e7754a045bc9099586dbc4459",
         "privacy.html": "7bb17788719e6d5baaf10a3ed45f4d3be142f933d1616ba4a271ccc29b2c0233",
-        "professionals.html": "5fe590dce55c35861203888200705883708fddf03d994c96c4d1031bfda0167e",
+        "professionals.html": "8d087decf290b781fe73d5c13c6b604cb5ec1c56b2d3247787db3968bd537a82",
         "projecten.html": "94b21e7fd8818d3df2f2e9f88a0cc5fc688024168bf99b346fd9887e2413dbfa",
         "projecten/3d-planning-voet-enkel.html": "9b61b9c6c5f448e843ca246567023b3e8d59f40ba1ca98b0d961c4503000767f",
         "projecten/footprint-quick-scan.html": "e8eaa95c10bb1b8bd29097a339513dcceef143169fa0848bd43bec159f64b883",
