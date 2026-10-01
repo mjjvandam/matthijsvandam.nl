@@ -6846,6 +6846,7 @@ body:has(.home-story) .site-header .theme-toggle {
   border-radius: 12px;
   background: #eef6f0;
   color: #173d2a;
+  scroll-margin-block-start: 110px;
 }
 .newsletter-signup-form-container .sib-form-message-panel--active {
   display: block;

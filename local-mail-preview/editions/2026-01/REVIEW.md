@@ -5,6 +5,14 @@ Drie bestaande artikelkaarten; titels en samenvattingen ongewijzigd uit content.
 Nieuw geschreven: korte inleiding en editieonderwerp. Fingerprints in editorial-review.json.
 De websitegoedkeuring geldt niet als nieuwsbriefdistributie-akkoord; config.json releases blijft leeg.
 
+## Redactionele en visuele revisie 27 september 2026
+
+Op verzoek van Matthijs is de conceptopzet persoonlijker en inhoudelijk rijker gemaakt. De opening bevat nu één verbindende duidingszin en wordt direct afgesloten met `Hartelijke groet, Matthijs`; de dubbele ondertekening onder de artikelen is vervallen. Het eerste artikel is herkenbaar uitgelicht en alle drie de blokken geven al een compacte inhoudelijke kern voordat de lezer doorklikt. De teksten blijven binnen de reeds gepubliceerde artikelen en voegen geen nieuwe behandelclaim toe.
+
+De nieuwsbriefkop gebruikt voortaan het bestaande boombeeldmerk naast het tekstmerk `MatthijsvanDam.nl`. De tekst blijft live HTML, zodat de afzender herkenbaar blijft wanneer externe afbeeldingen niet laden. Het beeldmerk verwijst naar het reeds publiek beschikbare PNG-bestand op de website. Inschrijf-, voorkeuren-, privacy- en verzendlogica zijn niet gewijzigd.
+
+De editie blijft concept, zonder ontvangers of planning. Een testmail is pas een vormgevingsproef en geen inhoudelijke of distributievrijgave.
+
 ## Verzendregels
 
 Brevo blijft bron van contacten, toestemming, uitschrijving en verzendhistorie.

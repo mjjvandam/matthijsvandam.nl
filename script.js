@@ -176,10 +176,33 @@ const closeNav = () => {
 const setupNewsletterForm = () => {
   if (!newsletterForm) return;
 
+  const formContainer = newsletterForm.closest("#sib-form-container");
   const audienceInputs = Array.from(newsletterForm.querySelectorAll('[name="mvd-newsletter-audience"]'));
   const topicFieldset = newsletterForm.querySelector("#newsletter-topic-fieldset");
   const audienceNote = newsletterForm.querySelector("#newsletter-audience-note");
   const topicInputs = Array.from(newsletterForm.querySelectorAll('[data-newsletter-topic]'));
+
+  const revealProviderMessage = () => {
+    const activeMessage = formContainer?.querySelector(".sib-form-message-panel--active");
+    if (!activeMessage || activeMessage.dataset.mvdRevealed === "true") return;
+    activeMessage.dataset.mvdRevealed = "true";
+    window.requestAnimationFrame(() => {
+      activeMessage.focus({ preventScroll: true });
+      activeMessage.scrollIntoView({
+        behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth",
+        block: "start"
+      });
+    });
+  };
+
+  if (formContainer) {
+    new MutationObserver(revealProviderMessage).observe(formContainer, {
+      attributes: true,
+      attributeFilter: ["class"],
+      subtree: true
+    });
+    revealProviderMessage();
+  }
 
   const applyAudienceFilter = () => {
     const selected = audienceInputs.find((input) => input.checked)?.value || "";

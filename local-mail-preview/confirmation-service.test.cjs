@@ -1,5 +1,5 @@
 'use strict';
-const test=require('node:test'),assert=require('node:assert/strict');
+const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const {createMemoryStore}=require('./confirmation-store.cjs');
 const {createConfirmationService,hashToken,CONSENT_VERSION}=require('./confirmation-service.cjs');
 const {renderConfirmationMail,renderNewsletterExample}=require('./mail-layout.cjs');
@@ -91,5 +91,12 @@ test('uncertain confirmation-mail delivery makes token unusable without auto ret
 test('email markup escapes choices and puts token only in URL fragment',()=>{
  const mail=renderConfirmationMail({url:'https://matthijsvandam.nl/bevestigen#token=example',streams:['<script>bad</script>'],minutes:30,consentText:'Consent & more'});
  assert.ok(!mail.html.includes('<script>'));assert.ok(mail.html.includes('&lt;script&gt;'));assert.ok(mail.html.includes('#token=example'));assert.ok(!mail.html.includes('<img'));assert.ok(!mail.html.includes('DOIurl'));
- assert.ok(renderNewsletterExample().includes('plaatsaanduidingen'));assert.ok(mail.html.includes('#244c3d'));assert.ok(mail.html.includes('#f7f4ed'));
+ const newsletter=renderNewsletterExample();
+ assert.ok(newsletter.includes('plaatsaanduidingen'));assert.ok(newsletter.includes('logo-mvd-tree-mark.png'));assert.ok(mail.html.includes('#244c3d'));assert.ok(mail.html.includes('#f7f4ed'));
+});
+test('nieuwsbriefeditie sluit af met website- en doorstuuruitnodiging',()=>{
+ const draft=JSON.parse(fs.readFileSync(path.join(__dirname,'editions/2026-01/campaign-draft.json')));
+ assert.match(draft.htmlContent,/Bekijk meer op de website/);
+ assert.match(draft.htmlContent,/Stuur mijn nieuwsbrief dan gerust door/);
+ assert.match(draft.htmlContent,/mijn onderzoek verder onder de aandacht te brengen/);
 });

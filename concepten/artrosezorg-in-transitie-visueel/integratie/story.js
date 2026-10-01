@@ -174,8 +174,11 @@
       const sy=-49+18*pull+23*unfold+28*lower;
       sign.setAttribute('visibility',size>0?'visible':'hidden');
       sign.setAttribute('transform',`translate(${pos[0]+sx} ${pos[1]+sy}) rotate(${-8*pull*(1-unfold)}) scale(${size})`);
-      sign.querySelector('a').style.pointerEvents=lower>.9?'all':'none';
-      sign.querySelector('a').setAttribute('tabindex',lower>.9?'0':'-1');
+      // Make the board usable as soon as it is recognisably unfolded. Waiting
+      // for the final lowering frame left a visible board temporarily inert.
+      const signReady=unfold>.72;
+      sign.querySelector('a').style.pointerEvents=signReady?'all':'none';
+      sign.querySelector('a').setAttribute('tabindex',signReady?'0':'-1');
       if(current===1){
         const bend=Math.sin(lower*Math.PI);
         upper.setAttribute('transform',`translate(0 -15) rotate(${bend*14} 0 -37)`);

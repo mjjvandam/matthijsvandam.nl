@@ -3,7 +3,7 @@
   "catalogue_sources": {
     "docs/design-system/catalogue.js": "4e4fc72ad96574b8538187f3b2cd88851856de6fb3aaacbdec60fdaa790b4720",
     "docs/design-system/catalogue.css": "71b21f74acf3d686e873590f6c367f57856afed6ee3d8dc89049a95532875df8",
-    "docs/site/DESIGN_SYSTEM.md": "6e9ccabb6d443a49c0c4939eec54af98a9f28f3514f2ebc2bac8a94ae544eb3d"
+    "docs/site/DESIGN_SYSTEM.md": "4e21316d9f902c91e94c967a6785efe3da1c613f61478de3ce631aec8a5b3191"
   },
   "components": [
     {
@@ -349,13 +349,13 @@
       "fingerprints": {
         "404.html": "6c9c90e8b177d768f0aea567da2c5022f2cebf47062edb21b786f52ae50abb9e",
         "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
-        "artikelen.html": "3ac55834870e2984e299ca8ce7645d07ebb7570ea30f52aead5f18c218077f02",
+        "artikelen.html": "f585764df21995defd573df94533eb80cfa47ffa6328e5c3fb6218859e897752",
         "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html": "0a1cb2f9651474a2000f7111e4af7a391001fd1a1e2147d47e8fa63d12df30a8",
         "artikelen/aaos-richtlijn-enkelartrose.html": "c1f2609c98adb81444cb110fb1355c9f71e7093b812e6c0a6bc7143a508dda75",
         "artikelen/aios-foot-education-munich.html": "a4b9cc20f0a9df59813fe76ee781bcd9e486bfb6cf1643504516c8e3f8a29087",
         "artikelen/artrosezorg-transitie-patienten.html": "c8f5081d007a2fda4013f063f23485a0f11e2992381486ae3e45830c01022a52",
         "artikelen/artrosezorg-transitie-professionals.html": "110db2cbd78a3511a672e2fe67831fe9856fb7b3751f1f8040eb8015686fd768",
-        "artikelen/digitaal-zorgpad-artrose-obesitas.html": "ca29e06ad103f4163c2be9f3f06255b4e84ba51633b08e71e42b86b8accdf23b",
+        "artikelen/digitaal-zorgpad-artrose-obesitas.html": "2219699cd43ac2361303f3e3dd101e721f283b2be454dad130557893b93a35a8",
         "artikelen/footprint-quick-scan-etz-fit-follow-up.html": "bc6607a7598a84aaeb57824f60771c48e5f394ed30953e640541a1543b6748a5",
         "artikelen/footprint-quick-scan-medewerkers.html": "fc41ae4ff6babb91406048ba88ff7b9283aee838a877e9f2c1917e2ddd9c4b68",
         "artikelen/heracleum-hulpfonds-subsidie-transmuraal-tilburg-cohort.html": "e9fd313e8b47a3555a82398a2f132e0f26177909d01fb088e03125d7b1f58945",
@@ -414,22 +414,22 @@
         "behandelingen/ziekte-van-freiberg.html": "5d86f067ff132823fd69f19da5ca597b31c4a8f97b4b3e57130a80fc0031082a",
         "concept-foot-pain-guide.html": "0e1745e0e24c358e89e24a1f9fb3a8fe4c0678a0341d32e66c6a183aa2772a7f",
         "disclaimer.html": "525af2637cfccd697905f0855b6688e3943fe1ef46134721824c702339461973",
-        "index.html": "d96906ea1d7508f7e63c4eed4f8f35ab44427b17d7743cba1ae65717571817b1",
+        "index.html": "b3f81f941fccce56b575be55468f69e8d296c6ffae664e3f23c11e8c8d166141",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "nieuwsbrief.html": "6f63b29472ef45f958b09f2072d965370b5bb4a3eb472150f905dad2c1474a46",
+        "nieuwsbrief.html": "674c2298bf459042dc428fc9cb38bc00a777211d16dee3ba4d559de2b807bcc9",
         "over-mij.html": "8eae57375819b840793e1b1c71ef3d6b7bfba45e7754a045bc9099586dbc4459",
         "privacy.html": "7bb17788719e6d5baaf10a3ed45f4d3be142f933d1616ba4a271ccc29b2c0233",
         "professionals.html": "8d087decf290b781fe73d5c13c6b604cb5ec1c56b2d3247787db3968bd537a82",
         "projecten.html": "94b21e7fd8818d3df2f2e9f88a0cc5fc688024168bf99b346fd9887e2413dbfa",
         "projecten/3d-planning-voet-enkel.html": "9b61b9c6c5f448e843ca246567023b3e8d59f40ba1ca98b0d961c4503000767f",
         "projecten/footprint-quick-scan.html": "e8eaa95c10bb1b8bd29097a339513dcceef143169fa0848bd43bec159f64b883",
-        "projecten/leefstijlgerichte-kansen-orthopedie.html": "52dfca3828f8e71745c346334c5ed9fa377a21a55149c39098f53fb50fd4b60e",
+        "projecten/leefstijlgerichte-kansen-orthopedie.html": "e8cf8fb433c1a4a88526e37f5eb1d71fbefea1dc2af7b4b9c04261744df25ef9",
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/vrxoa-immersive-experiences-artrose.html": "3e5459d0d47216d747923f35446fd5be7844189d22fb99494a855d8a84107ac1",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
         "publicaties.html": "f56660c05f7c6de1faec5fb82e8c4dd38ff6e9810f3196e6a4ec316d0e833ca2",
-        "script.js": "d09936f38dd54c07813ca13d4acebfcfbb9ca6fe30f4f1eae891270376883012",
-        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
+        "script.js": "8f40f054393d37f2df0de334b7720b7b89f8dd8de0e37d0ebbab8fe8c2d00def",
+        "styles.css": "c2328bed28b152372c936344e64d88f296a7fbc57ddc365d513d629ee3182ad0"
       }
     },
     {
@@ -473,11 +473,11 @@
       "fingerprints": {
         "projecten/3d-planning-voet-enkel.html": "9b61b9c6c5f448e843ca246567023b3e8d59f40ba1ca98b0d961c4503000767f",
         "projecten/footprint-quick-scan.html": "e8eaa95c10bb1b8bd29097a339513dcceef143169fa0848bd43bec159f64b883",
-        "projecten/leefstijlgerichte-kansen-orthopedie.html": "52dfca3828f8e71745c346334c5ed9fa377a21a55149c39098f53fb50fd4b60e",
+        "projecten/leefstijlgerichte-kansen-orthopedie.html": "e8cf8fb433c1a4a88526e37f5eb1d71fbefea1dc2af7b4b9c04261744df25ef9",
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/vrxoa-immersive-experiences-artrose.html": "3e5459d0d47216d747923f35446fd5be7844189d22fb99494a855d8a84107ac1",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
-        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
+        "styles.css": "c2328bed28b152372c936344e64d88f296a7fbc57ddc365d513d629ee3182ad0"
       }
     },
     {
@@ -501,8 +501,8 @@
         }
       ],
       "fingerprints": {
-        "index.html": "d96906ea1d7508f7e63c4eed4f8f35ab44427b17d7743cba1ae65717571817b1",
-        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
+        "index.html": "b3f81f941fccce56b575be55468f69e8d296c6ffae664e3f23c11e8c8d166141",
+        "styles.css": "c2328bed28b152372c936344e64d88f296a7fbc57ddc365d513d629ee3182ad0"
       }
     },
     {
@@ -531,10 +531,10 @@
         }
       ],
       "fingerprints": {
-        "artikelen.html": "3ac55834870e2984e299ca8ce7645d07ebb7570ea30f52aead5f18c218077f02",
+        "artikelen.html": "f585764df21995defd573df94533eb80cfa47ffa6328e5c3fb6218859e897752",
         "content.js": "fd08c5544711aaff45ef4225b90f79b70ca6627af585b23ddb8fa62800710a90",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
+        "styles.css": "c2328bed28b152372c936344e64d88f296a7fbc57ddc365d513d629ee3182ad0"
       }
     },
     {
@@ -670,11 +670,11 @@
       ],
       "fingerprints": {
         "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
-        "artikelen.html": "3ac55834870e2984e299ca8ce7645d07ebb7570ea30f52aead5f18c218077f02",
+        "artikelen.html": "f585764df21995defd573df94533eb80cfa47ffa6328e5c3fb6218859e897752",
         "artikelen/aaos-richtlijn-enkelartrose.html": "c1f2609c98adb81444cb110fb1355c9f71e7093b812e6c0a6bc7143a508dda75",
         "artikelen/artrosezorg-transitie-patienten.html": "c8f5081d007a2fda4013f063f23485a0f11e2992381486ae3e45830c01022a52",
         "artikelen/artrosezorg-transitie-professionals.html": "110db2cbd78a3511a672e2fe67831fe9856fb7b3751f1f8040eb8015686fd768",
-        "artikelen/digitaal-zorgpad-artrose-obesitas.html": "ca29e06ad103f4163c2be9f3f06255b4e84ba51633b08e71e42b86b8accdf23b",
+        "artikelen/digitaal-zorgpad-artrose-obesitas.html": "2219699cd43ac2361303f3e3dd101e721f283b2be454dad130557893b93a35a8",
         "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html": "03376f400a48579a6cb8f5caad9dd614bcfba9b4a87749c8a52693717c174e50",
         "artikelen/kuitspier-en-voetpijn.html": "06d3faef6f92dc9edb70566b821972c1ac4cf66fa0ace08bc45dd00a3f6f4a82",
         "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html": "69d842426f513f4d01043414beadbfe37985c68cfc98f98d77075d96f5d46690",
@@ -688,17 +688,17 @@
         "behandelingen/enkelartrose.html": "47cc63d67bf783d598b39bdd629368e554aba30eb9989b1454df7853785d2f95",
         "behandelingen/enkelprothese.html": "2d3d7a9b55d88a67d6a98ee687d84bf5f42900af10736cd06de94c3e6389cd06",
         "content.js": "fd08c5544711aaff45ef4225b90f79b70ca6627af585b23ddb8fa62800710a90",
-        "index.html": "d96906ea1d7508f7e63c4eed4f8f35ab44427b17d7743cba1ae65717571817b1",
+        "index.html": "b3f81f941fccce56b575be55468f69e8d296c6ffae664e3f23c11e8c8d166141",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "professionals.html": "8d087decf290b781fe73d5c13c6b604cb5ec1c56b2d3247787db3968bd537a82",
         "projecten.html": "94b21e7fd8818d3df2f2e9f88a0cc5fc688024168bf99b346fd9887e2413dbfa",
         "projecten/3d-planning-voet-enkel.html": "9b61b9c6c5f448e843ca246567023b3e8d59f40ba1ca98b0d961c4503000767f",
         "projecten/footprint-quick-scan.html": "e8eaa95c10bb1b8bd29097a339513dcceef143169fa0848bd43bec159f64b883",
-        "projecten/leefstijlgerichte-kansen-orthopedie.html": "52dfca3828f8e71745c346334c5ed9fa377a21a55149c39098f53fb50fd4b60e",
+        "projecten/leefstijlgerichte-kansen-orthopedie.html": "e8cf8fb433c1a4a88526e37f5eb1d71fbefea1dc2af7b4b9c04261744df25ef9",
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
-        "script.js": "d09936f38dd54c07813ca13d4acebfcfbb9ca6fe30f4f1eae891270376883012",
-        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
+        "script.js": "8f40f054393d37f2df0de334b7720b7b89f8dd8de0e37d0ebbab8fe8c2d00def",
+        "styles.css": "c2328bed28b152372c936344e64d88f296a7fbc57ddc365d513d629ee3182ad0"
       }
     },
     {
@@ -726,7 +726,7 @@
       "fingerprints": {
         "content.js": "fd08c5544711aaff45ef4225b90f79b70ca6627af585b23ddb8fa62800710a90",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
+        "styles.css": "c2328bed28b152372c936344e64d88f296a7fbc57ddc365d513d629ee3182ad0"
       }
     },
     {
@@ -1000,7 +1000,7 @@
         "artikelen/aaos-richtlijn-enkelartrose.html": "c1f2609c98adb81444cb110fb1355c9f71e7093b812e6c0a6bc7143a508dda75",
         "artikelen/aios-foot-education-munich.html": "a4b9cc20f0a9df59813fe76ee781bcd9e486bfb6cf1643504516c8e3f8a29087",
         "artikelen/artrosezorg-transitie-patienten.html": "c8f5081d007a2fda4013f063f23485a0f11e2992381486ae3e45830c01022a52",
-        "artikelen/digitaal-zorgpad-artrose-obesitas.html": "ca29e06ad103f4163c2be9f3f06255b4e84ba51633b08e71e42b86b8accdf23b",
+        "artikelen/digitaal-zorgpad-artrose-obesitas.html": "2219699cd43ac2361303f3e3dd101e721f283b2be454dad130557893b93a35a8",
         "artikelen/footprint-quick-scan-etz-fit-follow-up.html": "bc6607a7598a84aaeb57824f60771c48e5f394ed30953e640541a1543b6748a5",
         "artikelen/footprint-quick-scan-medewerkers.html": "fc41ae4ff6babb91406048ba88ff7b9283aee838a877e9f2c1917e2ddd9c4b68",
         "artikelen/heracleum-hulpfonds-subsidie-transmuraal-tilburg-cohort.html": "e9fd313e8b47a3555a82398a2f132e0f26177909d01fb088e03125d7b1f58945",
@@ -1055,11 +1055,11 @@
         "behandelingen/ziekte-van-freiberg.html": "5d86f067ff132823fd69f19da5ca597b31c4a8f97b4b3e57130a80fc0031082a",
         "projecten/3d-planning-voet-enkel.html": "9b61b9c6c5f448e843ca246567023b3e8d59f40ba1ca98b0d961c4503000767f",
         "projecten/footprint-quick-scan.html": "e8eaa95c10bb1b8bd29097a339513dcceef143169fa0848bd43bec159f64b883",
-        "projecten/leefstijlgerichte-kansen-orthopedie.html": "52dfca3828f8e71745c346334c5ed9fa377a21a55149c39098f53fb50fd4b60e",
+        "projecten/leefstijlgerichte-kansen-orthopedie.html": "e8cf8fb433c1a4a88526e37f5eb1d71fbefea1dc2af7b4b9c04261744df25ef9",
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/vrxoa-immersive-experiences-artrose.html": "3e5459d0d47216d747923f35446fd5be7844189d22fb99494a855d8a84107ac1",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
-        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
+        "styles.css": "c2328bed28b152372c936344e64d88f296a7fbc57ddc365d513d629ee3182ad0"
       }
     },
     {
@@ -1095,10 +1095,10 @@
       ],
       "fingerprints": {
         "404.html": "6c9c90e8b177d768f0aea567da2c5022f2cebf47062edb21b786f52ae50abb9e",
-        "index.html": "d96906ea1d7508f7e63c4eed4f8f35ab44427b17d7743cba1ae65717571817b1",
+        "index.html": "b3f81f941fccce56b575be55468f69e8d296c6ffae664e3f23c11e8c8d166141",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "nieuwsbrief.html": "6f63b29472ef45f958b09f2072d965370b5bb4a3eb472150f905dad2c1474a46",
-        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
+        "nieuwsbrief.html": "674c2298bf459042dc428fc9cb38bc00a777211d16dee3ba4d559de2b807bcc9",
+        "styles.css": "c2328bed28b152372c936344e64d88f296a7fbc57ddc365d513d629ee3182ad0"
       }
     },
     {
@@ -1130,7 +1130,7 @@
       "fingerprints": {
         "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
         "professionals.html": "8d087decf290b781fe73d5c13c6b604cb5ec1c56b2d3247787db3968bd537a82",
-        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
+        "styles.css": "c2328bed28b152372c936344e64d88f296a7fbc57ddc365d513d629ee3182ad0"
       }
     },
     {
@@ -1373,7 +1373,7 @@
         "behandelingen/ziekte-van-freiberg.html": "5d86f067ff132823fd69f19da5ca597b31c4a8f97b4b3e57130a80fc0031082a",
         "data/faq-placements.json": "0852f9d167d6ccf69c0484220f8b249bedd2821166388f8848d225e6c82c61e2",
         "data/faqs.json": "075c5732c5fe63a3c1ffaaee2fdc4b53a6ce664917e1671dbbe7989a738408d7",
-        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f",
+        "styles.css": "c2328bed28b152372c936344e64d88f296a7fbc57ddc365d513d629ee3182ad0",
         "tools/generate_faqs.py": "0c896b7255f8eaa9e9488887ae5e59f7ff7d1193ec1e0a4de5fa719bdeb1ceaf"
       }
     },
@@ -1397,7 +1397,7 @@
       ],
       "fingerprints": {
         "behandelingen/hallux-valgus.html": "60d0e3e4f032e5cc3210d29e7cddf97dfe8b0e4519233456d48607b1d8d61a19",
-        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
+        "styles.css": "c2328bed28b152372c936344e64d88f296a7fbc57ddc365d513d629ee3182ad0"
       }
     },
     {
@@ -1423,8 +1423,8 @@
       ],
       "fingerprints": {
         "behandelingen.html": "8d484ffa2f1d211b21d77eb95babd4acea88828d26ef74d8f6fcd8e8dccd4e1f",
-        "script.js": "d09936f38dd54c07813ca13d4acebfcfbb9ca6fe30f4f1eae891270376883012",
-        "styles.css": "920a7152a15b356e7b86b9e5b24db0e56397f32c626e2fa65e7a16f837d1561f"
+        "script.js": "8f40f054393d37f2df0de334b7720b7b89f8dd8de0e37d0ebbab8fe8c2d00def",
+        "styles.css": "c2328bed28b152372c936344e64d88f296a7fbc57ddc365d513d629ee3182ad0"
       }
     },
     {
@@ -1764,13 +1764,13 @@
       ],
       "fingerprints": {
         "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
-        "artikelen.html": "3ac55834870e2984e299ca8ce7645d07ebb7570ea30f52aead5f18c218077f02",
+        "artikelen.html": "f585764df21995defd573df94533eb80cfa47ffa6328e5c3fb6218859e897752",
         "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html": "0a1cb2f9651474a2000f7111e4af7a391001fd1a1e2147d47e8fa63d12df30a8",
         "artikelen/aaos-richtlijn-enkelartrose.html": "c1f2609c98adb81444cb110fb1355c9f71e7093b812e6c0a6bc7143a508dda75",
         "artikelen/aios-foot-education-munich.html": "a4b9cc20f0a9df59813fe76ee781bcd9e486bfb6cf1643504516c8e3f8a29087",
         "artikelen/artrosezorg-transitie-patienten.html": "c8f5081d007a2fda4013f063f23485a0f11e2992381486ae3e45830c01022a52",
         "artikelen/artrosezorg-transitie-professionals.html": "110db2cbd78a3511a672e2fe67831fe9856fb7b3751f1f8040eb8015686fd768",
-        "artikelen/digitaal-zorgpad-artrose-obesitas.html": "ca29e06ad103f4163c2be9f3f06255b4e84ba51633b08e71e42b86b8accdf23b",
+        "artikelen/digitaal-zorgpad-artrose-obesitas.html": "2219699cd43ac2361303f3e3dd101e721f283b2be454dad130557893b93a35a8",
         "artikelen/footprint-quick-scan-etz-fit-follow-up.html": "bc6607a7598a84aaeb57824f60771c48e5f394ed30953e640541a1543b6748a5",
         "artikelen/footprint-quick-scan-medewerkers.html": "fc41ae4ff6babb91406048ba88ff7b9283aee838a877e9f2c1917e2ddd9c4b68",
         "artikelen/heracleum-hulpfonds-subsidie-transmuraal-tilburg-cohort.html": "e9fd313e8b47a3555a82398a2f132e0f26177909d01fb088e03125d7b1f58945",
@@ -1831,16 +1831,16 @@
         "disclaimer.html": "525af2637cfccd697905f0855b6688e3943fe1ef46134721824c702339461973",
         "feedback.css": "0ab4ce10537c05937ae69ac29335bf4c139d049bb980731d144370e7b7595219",
         "feedback.js": "5aa29ca0437cf076157217c592e87a68966b93fa7fdcb3b35ffcf83633e2bfe0",
-        "index.html": "d96906ea1d7508f7e63c4eed4f8f35ab44427b17d7743cba1ae65717571817b1",
+        "index.html": "b3f81f941fccce56b575be55468f69e8d296c6ffae664e3f23c11e8c8d166141",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "nieuwsbrief.html": "6f63b29472ef45f958b09f2072d965370b5bb4a3eb472150f905dad2c1474a46",
+        "nieuwsbrief.html": "674c2298bf459042dc428fc9cb38bc00a777211d16dee3ba4d559de2b807bcc9",
         "over-mij.html": "8eae57375819b840793e1b1c71ef3d6b7bfba45e7754a045bc9099586dbc4459",
         "privacy.html": "7bb17788719e6d5baaf10a3ed45f4d3be142f933d1616ba4a271ccc29b2c0233",
         "professionals.html": "8d087decf290b781fe73d5c13c6b604cb5ec1c56b2d3247787db3968bd537a82",
         "projecten.html": "94b21e7fd8818d3df2f2e9f88a0cc5fc688024168bf99b346fd9887e2413dbfa",
         "projecten/3d-planning-voet-enkel.html": "9b61b9c6c5f448e843ca246567023b3e8d59f40ba1ca98b0d961c4503000767f",
         "projecten/footprint-quick-scan.html": "e8eaa95c10bb1b8bd29097a339513dcceef143169fa0848bd43bec159f64b883",
-        "projecten/leefstijlgerichte-kansen-orthopedie.html": "52dfca3828f8e71745c346334c5ed9fa377a21a55149c39098f53fb50fd4b60e",
+        "projecten/leefstijlgerichte-kansen-orthopedie.html": "e8cf8fb433c1a4a88526e37f5eb1d71fbefea1dc2af7b4b9c04261744df25ef9",
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/vrxoa-immersive-experiences-artrose.html": "3e5459d0d47216d747923f35446fd5be7844189d22fb99494a855d8a84107ac1",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
@@ -1857,8 +1857,8 @@
         "artrose-story"
       ],
       "sources": [
-        "assets/artrose-story/story-ed80632ad106.css",
-        "assets/artrose-story/story-baa39c9fc807.js",
+        "assets/artrose-story/story-d95ecf296c41.css",
+        "assets/artrose-story/story-a12ec34068b1.js",
         "tools/build_artrose_release.py"
       ],
       "rule": "Publieke scrollvertelling op artikelen.html buiten de filters; homepagevoorproef vóór de vakgroep. Onder de tweede alinea van de homepagevoorproef staat een gewone onderstreepte link naar het volledige verhaal, in dezelfde lettergrootte als de lopende tekst. Acht ongenummerde momenten delen één SVG-wereld. Rustige leesfasen, scrollgestuurde wandeling, leefstijlbegeleiding en netwerk rond dezelfde persoon. Vier afsluitkaarten. Reduced-motion, grote tekst en geen JavaScript behouden een statische leesversie. Menu blijft sticky met gemeten bovenruimte. Zie DESIGN_SYSTEM.md voor de vrijgegeven toepassing.",
@@ -1873,10 +1873,10 @@
         }
       ],
       "fingerprints": {
-        "artikelen.html": "3ac55834870e2984e299ca8ce7645d07ebb7570ea30f52aead5f18c218077f02",
-        "assets/artrose-story/story-baa39c9fc807.js": "baa39c9fc807c59878465a1a8b278eea27321e888b9ed88b004d47a53bd99b33",
-        "assets/artrose-story/story-ed80632ad106.css": "ed80632ad10618a462f58c1013f7b7278ef32a0fcf53036a80ecdc64409eb923",
-        "index.html": "d96906ea1d7508f7e63c4eed4f8f35ab44427b17d7743cba1ae65717571817b1",
+        "artikelen.html": "f585764df21995defd573df94533eb80cfa47ffa6328e5c3fb6218859e897752",
+        "assets/artrose-story/story-a12ec34068b1.js": "a12ec34068b115bae440ab068da296ed37bdec0a4c32a6e08994d1733a7a6d19",
+        "assets/artrose-story/story-d95ecf296c41.css": "d95ecf296c41c38190c62f544e7870938af55ebb3689726e9f8ecc555f83d678",
+        "index.html": "b3f81f941fccce56b575be55468f69e8d296c6ffae664e3f23c11e8c8d166141",
         "tools/build_artrose_release.py": "b57d044c6892cd2e50dd14270338cd30c5331430c5014597c8fd5b4909d655c0"
       }
     },
