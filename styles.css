@@ -149,6 +149,7 @@ body {
 :root[data-theme="dark"] .project-team,
 :root[data-theme="dark"] .project-context article,
 :root[data-theme="dark"] .professional-info-grid article,
+:root[data-theme="dark"] .article-newsletter-callout,
 :root[data-theme="dark"] .patient-callout,
 :root[data-theme="dark"] .patient-disclaimer {
   border-color: var(--line);
@@ -199,6 +200,7 @@ body {
   :root:not([data-theme]) .project-team,
   :root:not([data-theme]) .project-context article,
   :root:not([data-theme]) .professional-info-grid article,
+  :root:not([data-theme]) .article-newsletter-callout,
   :root:not([data-theme]) .patient-callout,
   :root:not([data-theme]) .patient-disclaimer {
     border-color: var(--line);
@@ -2567,6 +2569,7 @@ body:has(.home-story) .site-header .theme-toggle {
   line-height: 1.5;
 }
 
+.article-newsletter-callout,
 .patient-callout,
 .patient-disclaimer {
   margin: 34px 0;
@@ -2585,6 +2588,7 @@ body:has(.home-story) .site-header .theme-toggle {
   line-height: 1.55;
 }
 
+.article-newsletter-callout strong,
 .patient-callout strong,
 .patient-disclaimer strong {
   display: block;
@@ -2592,11 +2596,16 @@ body:has(.home-story) .site-header .theme-toggle {
   color: var(--ink);
 }
 
+.article-newsletter-callout p,
 .patient-callout p,
 .patient-disclaimer p {
   margin: 0;
   font-size: 0.98rem;
   line-height: 1.65;
+}
+
+:root .article-newsletter-callout {
+  border-left-color: var(--green);
 }
 
 .project-info-details {
@@ -7116,6 +7125,17 @@ body:has(.home-story) .site-header .theme-toggle {
   line-height: 1.7;
 }
 .articles-intro a { color: var(--green); font-weight: 700; }
+.articles-topic-entry {
+  margin: 42px 0 34px;
+}
+.articles-topic-entry > p:not(.section-kicker) {
+  max-width: 820px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+.articles-topic-entry .article-grid-related {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
 .articles-browser .listing-hero {
   display: block;
   padding: 0;
@@ -7160,6 +7180,7 @@ body:has(.home-story) .site-header .theme-toggle {
   :is(.articles-browser, .expertise-browser) .filter-group summary { margin-bottom: 0; min-height: 32px; }
   :is(.articles-browser, .expertise-browser) .filter-group[open] summary { margin-bottom: 10px; }
   :is(.articles-browser, .expertise-browser) .filter-button { width: auto; min-height: 44px; }
+  .articles-topic-entry .article-grid-related { grid-template-columns: 1fr; }
 }
 
 /* Treatment overview reuses the article filter controls; its introduction stays above. */
