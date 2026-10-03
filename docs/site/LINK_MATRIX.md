@@ -81,7 +81,7 @@ Verplicht raadplegen bij wijziging van links, pagina's, publicatiestatus of pijn
 
 ## Geplande aandoeningen- en klachtenpagina's
 
-De meeste onderstaande routes staan lokaal in `behandelingen/` en blijven concept totdat medische review, linkcontrole, sitemap/registerbesluit en eigenaar-validatie expliciet zijn afgerond. `enkelverzwikking.html`, `enkelartrose.html`, `enkelprothese.html`, `hallux-rigidus.html`, `metatarsalgie.html`, `achillespeesklachten.html`, `chronische-enkelinstabiliteit.html`, `hallux-valgus.html`, `hamerteen-klauwteen.html` en `ziekte-van-freiberg.html` zijn inmiddels afzonderlijk voor publicatie vrijgegeven en geverifieerd.
+De meeste onderstaande routes staan lokaal in `behandelingen/` en blijven concept totdat medische review, linkcontrole, sitemap/registerbesluit en eigenaar-validatie expliciet zijn afgerond. `enkelverzwikking.html`, `enkelartrose.html`, `enkelprothese.html`, `hallux-rigidus.html`, `metatarsalgie.html`, `achillespeesklachten.html`, `chronische-enkelinstabiliteit.html`, `hallux-valgus.html`, `hamerteen-klauwteen.html`, `ziekte-van-freiberg.html`, `bewegen-bij-artrose.html`, `knieartrose.html`, `knieprothese-obesitas.html` en `obesitas-gewrichtsklachten.html` zijn inmiddels afzonderlijk voor publicatie vrijgegeven en geverifieerd.
 
 | Type | Routes | Status nu | Minimale interne links voor publicatie | Sitemapregel | ADR's |
 | --- | --- | --- | --- | --- | --- |
@@ -102,6 +102,10 @@ De meeste onderstaande routes staan lokaal in `behandelingen/` en blijven concep
 | --- | --- | --- | --- | --- | --- |
 | Voorvoetcorrectie | `behandelingen/voorvoetcorrectie.html` | concept behandelpagina, medische review nodig | Terug naar `behandelingen.html`, relevante voorvoetonderwerpen, `disclaimer.html` | Niet als automatische diagnose-uitkomst; alleen als verwant behandelonderwerp waar medisch gevalideerd | ADR-0003, ADR-0005, ADR-0006 |
 | MTP-1 artrodese | `behandelingen/mtp-1-artrodese.html` | publiek, `geverifieerd` | Terug naar `behandelingen.html`, `hallux-rigidus.html`, `disclaimer.html` | `showInPainGuide: false`; geen pijnwijzeruitkomst | ADR-0003, ADR-0005, ADR-0006 |
+| Bewegen bij artrose | `behandelingen/bewegen-bij-artrose.html` | publiek, `geverifieerd` | Terug naar `behandelingen.html`, een passende publieke verdieping en `disclaimer.html`; niet naar nog niet gepubliceerde artrosepagina's | Niet van toepassing | ADR-0002, ADR-0004, ADR-0005, ADR-0006 |
+| Artrose van de knie | `behandelingen/knieartrose.html` | publiek, `geverifieerd` | Terug naar `behandelingen.html`, `bewegen-bij-artrose.html`, passende publieke artikelen en `disclaimer.html`; niet naar nog niet gepubliceerde artrosepagina's | Niet van toepassing | ADR-0002, ADR-0004, ADR-0005, ADR-0006 |
+| Knieprothese bij obesitas | `behandelingen/knieprothese-obesitas.html` | publiek, `geverifieerd` | Terug naar `behandelingen.html`, `knieartrose.html`, `obesitas-gewrichtsklachten.html`, passende publieke artikelen en `disclaimer.html` | Niet van toepassing | ADR-0002, ADR-0004, ADR-0005, ADR-0006 |
+| Obesitas en gewrichtsklachten | `behandelingen/obesitas-gewrichtsklachten.html` | publiek, `geverifieerd` | Terug naar `behandelingen.html`, `bewegen-bij-artrose.html`, `knieprothese-obesitas.html`, passende publieke artikelen en `disclaimer.html` | Niet van toepassing | ADR-0002, ADR-0004, ADR-0005, ADR-0006 |
 | Revisie na artrodese | `behandelingen/revisie-artrodese.html` | concept, in data als behandeling met beperkte zichtbaarheid | Terug naar `behandelingen.html`, relevante restklachtencontext, `disclaimer.html` | `showInPainGuide: false`; niet als brede aanbodkaart tonen zonder eigenaar-validatie | ADR-0003, ADR-0005, ADR-0006 |
 
 ## Voetpijnwijzerregio's
