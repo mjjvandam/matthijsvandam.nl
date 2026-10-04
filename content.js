@@ -71,6 +71,21 @@
 
   const articles = [
     {
+      id: "kraakbeenletsel-enkel-consensus-diagnostiek",
+      title: "Kraakbeenletsel van de enkel: nieuwe consensus over diagnostiek",
+      label: "Onderzoek en duiding",
+      summary:
+        "Twee internationale consensuspublicaties beschrijven hoe klachten, lichamelijk onderzoek, röntgenfoto, MRI en CT samen worden beoordeeld bij een osteochondraal letsel van de talus.",
+      image: "assets/article-kraakbeenletsel-enkel-olt-zoom.jpg",
+      imageAlt:
+        "Illustratie van een osteochondraal letsel van de talus met een uitvergroting van kraakbeen en onderliggend bot",
+      url: "artikelen/kraakbeenletsel-enkel-consensus-diagnostiek.html",
+      date: "2026-10-04",
+      audience: ["zorgprofessionals"],
+      topics: ["voet-en-enkel", "onderzoek"],
+      archive: false,
+    },
+    {
       id: "kuitspier-en-voetpijn",
       title: "Waarom is de kuit belangrijk als de pijn in de voet zit?",
       label: "Voet en enkel",
