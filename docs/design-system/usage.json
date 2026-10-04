@@ -235,7 +235,7 @@
         },
         {
           "path": "behandelingen/peesplaatklachten-hielspoor.html",
-          "scope": "concept"
+          "scope": "registered"
         },
         {
           "path": "behandelingen/peroneus-saltans.html",
@@ -388,7 +388,7 @@
         "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html": "403ffe62cd4b164cdc80ea43f021d82cd968918ce27ab31309bffac70fc116a5",
         "artikelen/vaillant-fonds-digitaal-zorgpad.html": "80aa744665304710c15dbcca5d40f4f362babf7fe9b0837077714ec386ac0a7a",
         "artikelen/we-walk-ar-campusroute-tilburg.html": "298bc599e286e3fd975625d63450ca289acf83f6dd21d4311e4d033c7bcef1c8",
-        "behandelingen.html": "b79a5acf99cae2ceb81c0a98717dedd427b71b48770a57b7381f640364ee6d96",
+        "behandelingen.html": "c378269a4942673e5e604f3a98752decde9c08dbaff4f570d3c8356d1693dc07",
         "behandelingen/achillespeesklachten.html": "557907aac74700da6cccec39389c801e4e255245c3b0e3bb361b8e1326fc993e",
         "behandelingen/anterieur-enkel-impingement.html": "6ffc6bc8a2d20e93ef988b778d5f598c7310d6688a0523f39b7ddefe4b95dd8c",
         "behandelingen/artrose-na-breuk.html": "72a1e33ea03a4b5f6e5e92102ba1a7a156637f85785d53b2a5ec6a37c4ecb16a",
@@ -417,7 +417,7 @@
         "behandelingen/mtp-plantaire-plaatklachten.html": "0433b9c753fea4aee983973f1def90a0dcbda2ddabe1ed4cb423b208805d2cf2",
         "behandelingen/obesitas-gewrichtsklachten.html": "e837330d9d3f28868e68436758ff785222d66aaeaaf5f29749132ca343375991",
         "behandelingen/os-trigonum.html": "24601cacfb78e4d50fdea4598253caea28f680346332937043a6577e73421db5",
-        "behandelingen/peesplaatklachten-hielspoor.html": "f3c3d0c9f96c3e2c324ee3df410e971e58edb24e96f594f32207508aeba5ee85",
+        "behandelingen/peesplaatklachten-hielspoor.html": "083daede703a1b10ee3f2069226160f00ea7598192e0bdf27b440feabc20873b",
         "behandelingen/peroneus-saltans.html": "4fce39a3b3b2764d64c3317bb2157d9bf382911cec1588b9a7578f6b9089a9e0",
         "behandelingen/peroneuspeesklachten.html": "6fe2d46042c2fca75608d98dfe3b096e664161a3ca1bc748ff9d679285f6ff6a",
         "behandelingen/platvoet-volwassen.html": "46f71201dae224a499fa54360836229ebaaaa94b8a64acd1c224220e53e6e527",
@@ -756,7 +756,7 @@
         "artikelen/patient-specifieke-instrumentatie-voet-enkel-professionals.html": "eccaae6ba923d60d2bfe9fe434381c2821fc6d782199dbc9117a82106d9b06ee",
         "artikelen/probleemgeorienteerd-denken-orthopedie-boekbijdrage.html": "c04b24ad63d1a7744e83216aa64a5cf987c04cfd571eff11d6b139615bd553c1",
         "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html": "403ffe62cd4b164cdc80ea43f021d82cd968918ce27ab31309bffac70fc116a5",
-        "behandelingen.html": "b79a5acf99cae2ceb81c0a98717dedd427b71b48770a57b7381f640364ee6d96",
+        "behandelingen.html": "c378269a4942673e5e604f3a98752decde9c08dbaff4f570d3c8356d1693dc07",
         "behandelingen/enkelartrodese.html": "be05fdd05ece8befdf8c3920d8fd483f80b6a8621e2c2ccabdafdebe7f43ea57",
         "behandelingen/enkelartrose.html": "a756b7840597bf678f0f53a4f58a48e106d597eea8cf09211d6a46a03a4dc3df",
         "behandelingen/enkelprothese.html": "2d3d7a9b55d88a67d6a98ee687d84bf5f42900af10736cd06de94c3e6389cd06",
@@ -1001,7 +1001,7 @@
         },
         {
           "path": "behandelingen/peesplaatklachten-hielspoor.html",
-          "scope": "concept"
+          "scope": "registered"
         },
         {
           "path": "behandelingen/peroneus-saltans.html",
@@ -1131,7 +1131,7 @@
         "behandelingen/mtp-plantaire-plaatklachten.html": "0433b9c753fea4aee983973f1def90a0dcbda2ddabe1ed4cb423b208805d2cf2",
         "behandelingen/obesitas-gewrichtsklachten.html": "e837330d9d3f28868e68436758ff785222d66aaeaaf5f29749132ca343375991",
         "behandelingen/os-trigonum.html": "24601cacfb78e4d50fdea4598253caea28f680346332937043a6577e73421db5",
-        "behandelingen/peesplaatklachten-hielspoor.html": "f3c3d0c9f96c3e2c324ee3df410e971e58edb24e96f594f32207508aeba5ee85",
+        "behandelingen/peesplaatklachten-hielspoor.html": "083daede703a1b10ee3f2069226160f00ea7598192e0bdf27b440feabc20873b",
         "behandelingen/peroneus-saltans.html": "4fce39a3b3b2764d64c3317bb2157d9bf382911cec1588b9a7578f6b9089a9e0",
         "behandelingen/peroneuspeesklachten.html": "6fe2d46042c2fca75608d98dfe3b096e664161a3ca1bc748ff9d679285f6ff6a",
         "behandelingen/platvoet-volwassen.html": "46f71201dae224a499fa54360836229ebaaaa94b8a64acd1c224220e53e6e527",
@@ -1366,7 +1366,7 @@
         },
         {
           "path": "behandelingen/peesplaatklachten-hielspoor.html",
-          "scope": "concept"
+          "scope": "registered"
         },
         {
           "path": "behandelingen/peroneus-saltans.html",
@@ -1449,7 +1449,7 @@
         "behandelingen/mtp-1-artrodese.html": "63d1f4ba696912ee25ed58ff69b2f7bf9a1808ade45f50f3960a6fc5a27a2b4d",
         "behandelingen/mtp-plantaire-plaatklachten.html": "0433b9c753fea4aee983973f1def90a0dcbda2ddabe1ed4cb423b208805d2cf2",
         "behandelingen/os-trigonum.html": "24601cacfb78e4d50fdea4598253caea28f680346332937043a6577e73421db5",
-        "behandelingen/peesplaatklachten-hielspoor.html": "f3c3d0c9f96c3e2c324ee3df410e971e58edb24e96f594f32207508aeba5ee85",
+        "behandelingen/peesplaatklachten-hielspoor.html": "083daede703a1b10ee3f2069226160f00ea7598192e0bdf27b440feabc20873b",
         "behandelingen/peroneus-saltans.html": "4fce39a3b3b2764d64c3317bb2157d9bf382911cec1588b9a7578f6b9089a9e0",
         "behandelingen/peroneuspeesklachten.html": "6fe2d46042c2fca75608d98dfe3b096e664161a3ca1bc748ff9d679285f6ff6a",
         "behandelingen/platvoet-volwassen.html": "46f71201dae224a499fa54360836229ebaaaa94b8a64acd1c224220e53e6e527",
@@ -1464,8 +1464,8 @@
         "behandelingen/vetkussen-hielklachten.html": "2ddca2e0d1ad448cdd841a676c2733452829fe9f8f9707c08a2d6bb9c2e8c899",
         "behandelingen/voorvoetcorrectie.html": "75ee1324af112a1277fbda6ff70781c7200029ed9bc69a8d935a9077a4f30ea3",
         "behandelingen/ziekte-van-freiberg.html": "cdd888ea1eb889506e5dd452ab1d4baf3940ec53fd58747ef46f0229631019d1",
-        "data/faq-placements.json": "0852f9d167d6ccf69c0484220f8b249bedd2821166388f8848d225e6c82c61e2",
-        "data/faqs.json": "075c5732c5fe63a3c1ffaaee2fdc4b53a6ce664917e1671dbbe7989a738408d7",
+        "data/faq-placements.json": "14f601714bf8ff022077361441e325720ab02ddf810c3f8b11c37c3f663e0e0e",
+        "data/faqs.json": "c80a6b3aad460b2d99b36e2dcbc3e5fde686d9e984bb4f20d61e7c673b040d38",
         "styles.css": "8fbbfccfd86dbcbf0ca0e6caf07e763b82d4af1409cd0815189eeb7b633bb746",
         "tools/generate_faqs.py": "0c896b7255f8eaa9e9488887ae5e59f7ff7d1193ec1e0a4de5fa719bdeb1ceaf"
       }
@@ -1515,7 +1515,7 @@
         }
       ],
       "fingerprints": {
-        "behandelingen.html": "b79a5acf99cae2ceb81c0a98717dedd427b71b48770a57b7381f640364ee6d96",
+        "behandelingen.html": "c378269a4942673e5e604f3a98752decde9c08dbaff4f570d3c8356d1693dc07",
         "script.js": "8f40f054393d37f2df0de334b7720b7b89f8dd8de0e37d0ebbab8fe8c2d00def",
         "styles.css": "8fbbfccfd86dbcbf0ca0e6caf07e763b82d4af1409cd0815189eeb7b633bb746"
       }
@@ -1744,7 +1744,7 @@
         },
         {
           "path": "behandelingen/peesplaatklachten-hielspoor.html",
-          "scope": "concept"
+          "scope": "registered"
         },
         {
           "path": "behandelingen/peroneus-saltans.html",
@@ -1896,7 +1896,7 @@
         "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html": "403ffe62cd4b164cdc80ea43f021d82cd968918ce27ab31309bffac70fc116a5",
         "artikelen/vaillant-fonds-digitaal-zorgpad.html": "80aa744665304710c15dbcca5d40f4f362babf7fe9b0837077714ec386ac0a7a",
         "artikelen/we-walk-ar-campusroute-tilburg.html": "298bc599e286e3fd975625d63450ca289acf83f6dd21d4311e4d033c7bcef1c8",
-        "behandelingen.html": "b79a5acf99cae2ceb81c0a98717dedd427b71b48770a57b7381f640364ee6d96",
+        "behandelingen.html": "c378269a4942673e5e604f3a98752decde9c08dbaff4f570d3c8356d1693dc07",
         "behandelingen/achillespeesklachten.html": "557907aac74700da6cccec39389c801e4e255245c3b0e3bb361b8e1326fc993e",
         "behandelingen/anterieur-enkel-impingement.html": "6ffc6bc8a2d20e93ef988b778d5f598c7310d6688a0523f39b7ddefe4b95dd8c",
         "behandelingen/artrose-na-breuk.html": "72a1e33ea03a4b5f6e5e92102ba1a7a156637f85785d53b2a5ec6a37c4ecb16a",
@@ -1925,7 +1925,7 @@
         "behandelingen/mtp-plantaire-plaatklachten.html": "0433b9c753fea4aee983973f1def90a0dcbda2ddabe1ed4cb423b208805d2cf2",
         "behandelingen/obesitas-gewrichtsklachten.html": "e837330d9d3f28868e68436758ff785222d66aaeaaf5f29749132ca343375991",
         "behandelingen/os-trigonum.html": "24601cacfb78e4d50fdea4598253caea28f680346332937043a6577e73421db5",
-        "behandelingen/peesplaatklachten-hielspoor.html": "f3c3d0c9f96c3e2c324ee3df410e971e58edb24e96f594f32207508aeba5ee85",
+        "behandelingen/peesplaatklachten-hielspoor.html": "083daede703a1b10ee3f2069226160f00ea7598192e0bdf27b440feabc20873b",
         "behandelingen/peroneus-saltans.html": "4fce39a3b3b2764d64c3317bb2157d9bf382911cec1588b9a7578f6b9089a9e0",
         "behandelingen/peroneuspeesklachten.html": "6fe2d46042c2fca75608d98dfe3b096e664161a3ca1bc748ff9d679285f6ff6a",
         "behandelingen/platvoet-volwassen.html": "46f71201dae224a499fa54360836229ebaaaa94b8a64acd1c224220e53e6e527",

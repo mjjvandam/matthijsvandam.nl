@@ -14,6 +14,15 @@
   ],
   "pages": [
     {
+      "path": "behandelingen/peesplaatklachten-hielspoor.html",
+      "title": "Hielspoor en peesplaatklachten | drs. Matthijs van Dam",
+      "spoor": "patientinformatie",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-10-04",
+      "review_notes": "Matthijs heeft de conceptpagina in opeenvolgende redactionele en medische rondes beoordeeld en op 4 oktober 2026 expliciet vrijgegeven voor livegang met 'hij mag live'. De publieke versie behoudt de beoordeelde medische tekst; links en de lokale pijnwijzersectie naar overige conceptpagina's zijn voor publicatie verwijderd."
+    },
+    {
       "path": "behandelingen/achillespeesklachten.html",
       "title": "Achillespeesklachten: pijn in de pees of aanhechting",
       "spoor": "patientinformatie",
@@ -229,6 +238,7 @@
       }
     },
     {
+      "release_note_2026_10_04": "Matthijs gaf na stapsgewijze review de hielspoorpagina vrij voor livegang; de bestaande overzichtskaart is voor die expliciet vrijgegeven pagina klikbaar gemaakt. Overige conceptkaarten blijven niet-klikbaar.",
       "path": "behandelingen.html",
       "title": "Klachten en behandelingen | drs. Matthijs van Dam",
       "spoor": "patient",

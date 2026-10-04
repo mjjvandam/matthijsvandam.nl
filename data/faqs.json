@@ -2646,7 +2646,7 @@
     "peesplaatklachten-hielspoor-is-fasciitis-plantaris-hetzelfde-als-peesplaatklachten": {
       "id": "peesplaatklachten-hielspoor-is-fasciitis-plantaris-hetzelfde-als-peesplaatklachten",
       "question": "Is fasciitis plantaris hetzelfde als peesplaatklachten?",
-      "answerHtml": "<p>\n  Fasciitis plantaris wordt vaak gebruikt als naam. In de praktijk gaat het niet altijd om een\n  klassieke ontsteking, maar om irritatie of verandering van de peesplaat en de aanhechting.\n  Daarom wordt ook de term plantaire fasciopathie gebruikt.\n</p>",
+      "answerHtml": "<p>\n  Fasciitis plantaris wordt vaak gebruikt als naam. In de praktijk gaat het niet altijd om een\n  klassieke ontsteking, maar om irritatie of verandering van de peesplaat en de aanhechting.\n  Daarom wordt ook de term plantaire fasciopathie gebruikt: een aandoening van de peesplaat\n  onder de voet. Die naam zegt niet dat er een ontsteking is.\n</p>",
       "audience": "patient",
       "topics": [
         "peesplaatklachten-hielspoor"
@@ -2661,7 +2661,7 @@
     "peesplaatklachten-hielspoor-is-een-hielspoor-de-oorzaak-van-pijn-onder-de-hiel": {
       "id": "peesplaatklachten-hielspoor-is-een-hielspoor-de-oorzaak-van-pijn-onder-de-hiel",
       "question": "Is een hielspoor de oorzaak van pijn onder de hiel?",
-      "answerHtml": "<p>\n  Niet automatisch. Een hielspoor is een benige uitloper die op een röntgenfoto zichtbaar kan\n  zijn. Zo'n bevinding komt ook voor zonder klachten en moet altijd worden gekoppeld aan het\n  verhaal en lichamelijk onderzoek.\n</p>",
+      "answerHtml": "<p>\n  Hielspoor is de veelgebruikte naam voor pijn onder de hiel, meestal rond de aanhechting van de peesplaat. De naam zegt niet precies waardoor de pijn ontstaat. Het pijnpatroon, de precieze plek en lichamelijk onderzoek geven meer richting.\n</p>",
       "audience": "patient",
       "topics": [
         "peesplaatklachten-hielspoor"
@@ -2688,10 +2688,28 @@
       "reviewedAt": null,
       "reusePolicy": "page-specific"
     },
+    "peesplaatklachten-hielspoor-gaat-hielspoor-vanzelf-over": {
+      "id": "peesplaatklachten-hielspoor-gaat-hielspoor-vanzelf-over",
+      "question": "Gaat hielspoor vanzelf over?",
+      "answerHtml": "<p>\n  Vaak wel, maar niet altijd. Bij veel mensen wordt de pijn in de loop van maanden vanzelf minder.\n  Hoe lang dat duurt, verschilt per persoon. Bij een deel blijven de klachten langer bestaan.\n  Wordt de pijn erger of neemt die niet af, bespreek dit dan met je huisarts.\n</p>",
+      "audience": "patient",
+      "topics": [
+        "peesplaatklachten-hielspoor"
+      ],
+      "primaryPage": "behandelingen/peesplaatklachten-hielspoor.html",
+      "anchor": "faq-peesplaatklachten-hielspoor-gaat-hielspoor-vanzelf-over",
+      "sourceRefs": [
+        "https://www.thuisarts.nl/hielspoor/pijn-onder-mijn-voet-hielspoor",
+        "https://richtlijnendatabase.nl/richtlijn/fasciopathie_plantaris/educatie_-_fasciopathie_plantaris.html"
+      ],
+      "medicalReviewStatus": "medische review nodig",
+      "reviewedAt": null,
+      "reusePolicy": "page-specific"
+    },
     "peesplaatklachten-hielspoor-wat-kan-op-peesplaatklachten-lijken": {
       "id": "peesplaatklachten-hielspoor-wat-kan-op-peesplaatklachten-lijken",
       "question": "Wat kan op peesplaatklachten lijken?",
-      "answerHtml": "<p>\n  Vetkussenklachten, stressletsel, zenuwirritatie, achilles- of Haglund-klachten,\n  ontstekingsziekten, jicht, huidproblemen en algemene hielpijn kunnen erop lijken of ermee\n  samengaan.\n</p>",
+      "answerHtml": "<p>\n  Een stevige knobbel onder de voetboog kan passen bij de ziekte van Ledderhose. Ook het\n  vetkussen onder de hiel, een botprobleem en zenuw- of huidklachten kunnen pijn geven. Onderzoek\n  helpt om deze oorzaken te onderscheiden.\n</p>",
       "audience": "patient",
       "topics": [
         "peesplaatklachten-hielspoor"
@@ -2706,7 +2724,7 @@
     "peesplaatklachten-hielspoor-is-beeldvorming-altijd-nodig-bij-pijn-onder-de-hiel": {
       "id": "peesplaatklachten-hielspoor-is-beeldvorming-altijd-nodig-bij-pijn-onder-de-hiel",
       "question": "Is beeldvorming altijd nodig bij pijn onder de hiel?",
-      "answerHtml": "<p>\n  Meestal niet. Bij twijfel over de diagnose of onvoldoende verbetering na passende behandeling kan een echo zinvol zijn. Een röntgenfoto is niet bedoeld om alleen een hielspoor aan te tonen. MRI is voor specifieke situaties waarin echo en onderzoek niet overeenkomen of een andere aandoening wordt vermoed.\n</p>",
+      "answerHtml": "<p>\n  Meestal niet. Waar en wanneer je pijn voelt en het onderzoek van je voet geven vaak al\n  veel informatie. Als de oorzaak onduidelijk blijft of de klachten na behandeling onvoldoende\n  verbeteren, kan een echo helpen. Een röntgenfoto is niet bedoeld om alleen een hielspoor te\n  zien. Een MRI is soms nodig als een andere aandoening wordt vermoed.\n</p>",
       "audience": "patient",
       "topics": [
         "peesplaatklachten-hielspoor"
@@ -2720,8 +2738,8 @@
     },
     "peesplaatklachten-hielspoor-welke-behandeling-wordt-meestal-eerst-besproken": {
       "id": "peesplaatklachten-hielspoor-welke-behandeling-wordt-meestal-eerst-besproken",
-      "question": "Welke behandeling wordt meestal eerst besproken?",
-      "answerHtml": "<p>\n  De behandeling begint met uitleg, belasting aanpassen en passend schoeisel. Daarbij horen minimaal 12 weken dagelijkse rekoefeningen of opbouwende krachtoefeningen om de dag. De keuze wordt samen met de behandelaar gemaakt. Verbetering kan binnen die periode optreden, maar volledig herstel duurt vaak langer.\n</p>",
+      "question": "Wat helpt meestal bij hielspoor?",
+      "answerHtml": "<p>\n  Meestal begint de behandeling met uitleg, het aanpassen van activiteiten en aandacht voor\n  schoenen. Daarbij horen minstens 12 weken dagelijkse rekoefeningen of opbouwende\n  krachtoefeningen om de dag. Samen met je behandelaar kijk je wat past en wat je kunt volhouden.\n  De klachten kunnen in de loop van maanden afnemen. Hoe snel dat gaat verschilt; bij een deel\n  blijft de pijn langer bestaan.\n</p>",
       "audience": "patient",
       "topics": [
         "peesplaatklachten-hielspoor"
@@ -2738,7 +2756,7 @@
     "peesplaatklachten-hielspoor-zijn-injecties-shockwave-of-operatie-standaard": {
       "id": "peesplaatklachten-hielspoor-zijn-injecties-shockwave-of-operatie-standaard",
       "question": "Zijn injecties, shockwave of operatie standaard?",
-      "answerHtml": "<p>\n  Nee. Shockwave kan worden overwogen na minimaal 12 weken adequate uitleg en oefentherapie zonder effect. Met injecties wordt terughoudend omgegaan. Een operatie komt volgens de richtlijn alleen in beeld bij een aantoonbaar verkorte kuitspier en onvoldoende herstel na minimaal één jaar adequate behandeling zonder operatie.\n</p>",
+      "answerHtml": "<p>\n  Nee. Als uitleg en oefeningen na minstens 12 weken onvoldoende helpen, kan shockwave soms\n  een volgende stap zijn. Een injectie is meestal geen eerste stap. Een operatie komt volgens\n  de richtlijn alleen in beeld bij een aantoonbaar verkorte kuitspier en onvoldoende herstel\n  na minstens één jaar passende behandeling zonder operatie.\n</p>",
       "audience": "patient",
       "topics": [
         "peesplaatklachten-hielspoor"

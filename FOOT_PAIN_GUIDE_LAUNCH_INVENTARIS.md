@@ -31,7 +31,7 @@ Alle inhoudelijke kaarten krijgen een eigen pagina in `behandelingen/`. Conceptp
 | Holvoet en cavovarus | `behandelingen/holvoet-cavovarus.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Achillespeesklachten | `behandelingen/achillespeesklachten.html` | publicatieklaar | Volledig inhoudelijk en visueel gecontroleerd en op 23 september 2026 door Matthijs als akkoord beschouwd; publiek, register en live-status zijn vastgelegd. |
 | Hielpijn | `behandelingen/hielpijn.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
-| Peesplaatklachten en hielspoor | `behandelingen/peesplaatklachten-hielspoor.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
+| Peesplaatklachten en hielspoor | `behandelingen/peesplaatklachten-hielspoor.html` | publicatieklaar | Na stapsgewijze inhoudelijke review op 4 oktober 2026 door Matthijs voor livegang vrijgegeven; publieke versie zonder links naar overige conceptpagina's en zonder lokale pijnwijzersectie. |
 | Vetkussen onder de hiel | `behandelingen/vetkussen-hielklachten.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Haglund- en slijmbeursklachten | `behandelingen/haglund-retrocalcaneaire-klachten.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
 | Tarsal boss | `behandelingen/tarsal-boss.html` | opgewaardeerd, medische review nodig | medische afbakening, veilige toon, interne links |
