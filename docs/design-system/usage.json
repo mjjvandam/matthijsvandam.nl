@@ -434,7 +434,7 @@
         "behandelingen/ziekte-van-freiberg.html": "5d86f067ff132823fd69f19da5ca597b31c4a8f97b4b3e57130a80fc0031082a",
         "concept-foot-pain-guide.html": "0e1745e0e24c358e89e24a1f9fb3a8fe4c0678a0341d32e66c6a183aa2772a7f",
         "disclaimer.html": "525af2637cfccd697905f0855b6688e3943fe1ef46134721824c702339461973",
-        "index.html": "3fa323fe5cceb5d74080f96d0c354b655a4550a79a56683b4862caa675235659",
+        "index.html": "0991ac2a5d0c54465cf6d8fdbdb9ed32b814ae40be3ac4a2c71ed368345e70f3",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "nieuwsbrief.html": "674c2298bf459042dc428fc9cb38bc00a777211d16dee3ba4d559de2b807bcc9",
         "over-mij.html": "8eae57375819b840793e1b1c71ef3d6b7bfba45e7754a045bc9099586dbc4459",
@@ -449,7 +449,7 @@
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
         "publicaties.html": "f56660c05f7c6de1faec5fb82e8c4dd38ff6e9810f3196e6a4ec316d0e833ca2",
         "script.js": "8f40f054393d37f2df0de334b7720b7b89f8dd8de0e37d0ebbab8fe8c2d00def",
-        "styles.css": "0db1c753dfbb1970e871517b2c80153af7af4d44457c9d48cc0676714d1c7748"
+        "styles.css": "8fbbfccfd86dbcbf0ca0e6caf07e763b82d4af1409cd0815189eeb7b633bb746"
       }
     },
     {
@@ -497,7 +497,7 @@
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/vrxoa-immersive-experiences-artrose.html": "3e5459d0d47216d747923f35446fd5be7844189d22fb99494a855d8a84107ac1",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
-        "styles.css": "0db1c753dfbb1970e871517b2c80153af7af4d44457c9d48cc0676714d1c7748"
+        "styles.css": "8fbbfccfd86dbcbf0ca0e6caf07e763b82d4af1409cd0815189eeb7b633bb746"
       }
     },
     {
@@ -521,8 +521,8 @@
         }
       ],
       "fingerprints": {
-        "index.html": "3fa323fe5cceb5d74080f96d0c354b655a4550a79a56683b4862caa675235659",
-        "styles.css": "0db1c753dfbb1970e871517b2c80153af7af4d44457c9d48cc0676714d1c7748"
+        "index.html": "0991ac2a5d0c54465cf6d8fdbdb9ed32b814ae40be3ac4a2c71ed368345e70f3",
+        "styles.css": "8fbbfccfd86dbcbf0ca0e6caf07e763b82d4af1409cd0815189eeb7b633bb746"
       }
     },
     {
@@ -554,7 +554,7 @@
         "artikelen.html": "26e6eb4f35eac5896aafaadd19b91dc3fdc14775fd1ee36dfc666946dbf996d7",
         "content.js": "fd08c5544711aaff45ef4225b90f79b70ca6627af585b23ddb8fa62800710a90",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "styles.css": "0db1c753dfbb1970e871517b2c80153af7af4d44457c9d48cc0676714d1c7748"
+        "styles.css": "8fbbfccfd86dbcbf0ca0e6caf07e763b82d4af1409cd0815189eeb7b633bb746"
       }
     },
     {
@@ -713,7 +713,7 @@
         "behandelingen/enkelartrose.html": "47cc63d67bf783d598b39bdd629368e554aba30eb9989b1454df7853785d2f95",
         "behandelingen/enkelprothese.html": "2d3d7a9b55d88a67d6a98ee687d84bf5f42900af10736cd06de94c3e6389cd06",
         "content.js": "fd08c5544711aaff45ef4225b90f79b70ca6627af585b23ddb8fa62800710a90",
-        "index.html": "3fa323fe5cceb5d74080f96d0c354b655a4550a79a56683b4862caa675235659",
+        "index.html": "0991ac2a5d0c54465cf6d8fdbdb9ed32b814ae40be3ac4a2c71ed368345e70f3",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "professionals.html": "8d087decf290b781fe73d5c13c6b604cb5ec1c56b2d3247787db3968bd537a82",
         "projecten.html": "94b21e7fd8818d3df2f2e9f88a0cc5fc688024168bf99b346fd9887e2413dbfa",
@@ -723,7 +723,7 @@
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
         "script.js": "8f40f054393d37f2df0de334b7720b7b89f8dd8de0e37d0ebbab8fe8c2d00def",
-        "styles.css": "0db1c753dfbb1970e871517b2c80153af7af4d44457c9d48cc0676714d1c7748"
+        "styles.css": "8fbbfccfd86dbcbf0ca0e6caf07e763b82d4af1409cd0815189eeb7b633bb746"
       }
     },
     {
@@ -751,7 +751,7 @@
       "fingerprints": {
         "content.js": "fd08c5544711aaff45ef4225b90f79b70ca6627af585b23ddb8fa62800710a90",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "styles.css": "0db1c753dfbb1970e871517b2c80153af7af4d44457c9d48cc0676714d1c7748"
+        "styles.css": "8fbbfccfd86dbcbf0ca0e6caf07e763b82d4af1409cd0815189eeb7b633bb746"
       }
     },
     {
@@ -1104,7 +1104,7 @@
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/vrxoa-immersive-experiences-artrose.html": "3e5459d0d47216d747923f35446fd5be7844189d22fb99494a855d8a84107ac1",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
-        "styles.css": "0db1c753dfbb1970e871517b2c80153af7af4d44457c9d48cc0676714d1c7748"
+        "styles.css": "8fbbfccfd86dbcbf0ca0e6caf07e763b82d4af1409cd0815189eeb7b633bb746"
       }
     },
     {
@@ -1140,10 +1140,10 @@
       ],
       "fingerprints": {
         "404.html": "6c9c90e8b177d768f0aea567da2c5022f2cebf47062edb21b786f52ae50abb9e",
-        "index.html": "3fa323fe5cceb5d74080f96d0c354b655a4550a79a56683b4862caa675235659",
+        "index.html": "0991ac2a5d0c54465cf6d8fdbdb9ed32b814ae40be3ac4a2c71ed368345e70f3",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "nieuwsbrief.html": "674c2298bf459042dc428fc9cb38bc00a777211d16dee3ba4d559de2b807bcc9",
-        "styles.css": "0db1c753dfbb1970e871517b2c80153af7af4d44457c9d48cc0676714d1c7748"
+        "styles.css": "8fbbfccfd86dbcbf0ca0e6caf07e763b82d4af1409cd0815189eeb7b633bb746"
       }
     },
     {
@@ -1175,7 +1175,7 @@
       "fingerprints": {
         "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
         "professionals.html": "8d087decf290b781fe73d5c13c6b604cb5ec1c56b2d3247787db3968bd537a82",
-        "styles.css": "0db1c753dfbb1970e871517b2c80153af7af4d44457c9d48cc0676714d1c7748"
+        "styles.css": "8fbbfccfd86dbcbf0ca0e6caf07e763b82d4af1409cd0815189eeb7b633bb746"
       }
     },
     {
@@ -1418,7 +1418,7 @@
         "behandelingen/ziekte-van-freiberg.html": "5d86f067ff132823fd69f19da5ca597b31c4a8f97b4b3e57130a80fc0031082a",
         "data/faq-placements.json": "0852f9d167d6ccf69c0484220f8b249bedd2821166388f8848d225e6c82c61e2",
         "data/faqs.json": "075c5732c5fe63a3c1ffaaee2fdc4b53a6ce664917e1671dbbe7989a738408d7",
-        "styles.css": "0db1c753dfbb1970e871517b2c80153af7af4d44457c9d48cc0676714d1c7748",
+        "styles.css": "8fbbfccfd86dbcbf0ca0e6caf07e763b82d4af1409cd0815189eeb7b633bb746",
         "tools/generate_faqs.py": "0c896b7255f8eaa9e9488887ae5e59f7ff7d1193ec1e0a4de5fa719bdeb1ceaf"
       }
     },
@@ -1442,7 +1442,7 @@
       ],
       "fingerprints": {
         "behandelingen/hallux-valgus.html": "60d0e3e4f032e5cc3210d29e7cddf97dfe8b0e4519233456d48607b1d8d61a19",
-        "styles.css": "0db1c753dfbb1970e871517b2c80153af7af4d44457c9d48cc0676714d1c7748"
+        "styles.css": "8fbbfccfd86dbcbf0ca0e6caf07e763b82d4af1409cd0815189eeb7b633bb746"
       }
     },
     {
@@ -1459,7 +1459,7 @@
         "script.js",
         "behandelingen.html"
       ],
-      "rule": "Deelt filterknoppen en groepsopmaak met Artikelen. Het gedeelde Op deze pagina-patroon linkt naar overzicht, zorgroute, betrouwbare informatie en artikelen/nieuwsbrief. Op desktop blijft dit menu bij het begin en tijdens het passeren van het volledige zichtbare filterblok verborgen; pas daarna verschijnt het als sticky zijmenu. Het verborgen menu reserveert geen lege ruimte, zodat het zoekveld, Onderwerp en Soort direct bovenaan de filterkolom beginnen. Daardoor komt het menu niet voor de filters te staan en blijft het gedrag correct wanneer afhankelijke filteropties verborgen zijn. Op mobiel staat het statisch boven de filters. Het zoekveld staat vóór Onderwerp en Soort. Onderwerp en Soort staan links op desktop en zijn boven de resultaten uitklapbaar op mobiel. Nogmaals klikken wist een keuze; de andere groep toont alleen combinaties met resultaten. Het zoekveld zoekt binnen actieve filters zonder die keuzes te wijzigen. Bij één actief zoek- of filterresultaat krijgt de kaart een brede enkele kolom; twee resultaten gebruiken twee gelijke kolommen en drie resultaten drie kolommen. Bij meer dan drie resultaten blijven de eerste drie als volledige tegels staan; volgende resultaten worden compacte regels. Daarin staat het type als klein bovenlabel direct boven de titel, met de korte uitleg ernaast en een uitsnede van de bestaande kaartafbeelding rechts. Op smallere schermen staan label, titel en uitleg onder elkaar terwijl de afbeelding rechts zichtbaar blijft. Op mobiel staan volledige resultaten altijd in één kolom. Zonder actieve keuze blijft het volledige tegeloverzicht behouden. De URL bewaart filterkeuzes. Bestaande afbeeldingen, categorieën, kaartvolgorde en conceptgrenzen blijven ongewijzigd; introductie blijft boven het overzicht.",
+      "rule": "Deelt filterknoppen en groepsopmaak met Artikelen. Het gedeelde Op deze pagina-patroon linkt naar overzicht, zorgroute, betrouwbare informatie en artikelen/nieuwsbrief. Op desktop blijft dit menu bij het begin en tijdens het passeren van het volledige zichtbare filterblok verborgen; pas daarna verschijnt het als sticky zijmenu. Het verborgen menu reserveert geen lege ruimte, zodat het zoekveld, Onderwerp en Soort direct bovenaan de filterkolom beginnen. Daardoor komt het menu niet voor de filters te staan en blijft het gedrag correct wanneer afhankelijke filteropties verborgen zijn. Op mobiel staat het statisch boven de filters. Het zoekveld staat vóór Onderwerp en Soort. Onderwerp en Soort staan links op desktop en zijn boven de resultaten uitklapbaar op mobiel. Nogmaals klikken wist een keuze; de andere groep toont alleen combinaties met resultaten. Het zoekveld zoekt binnen actieve filters zonder die keuzes te wijzigen. Bij één actief zoek- of filterresultaat krijgt de kaart een brede enkele kolom; twee resultaten gebruiken twee gelijke kolommen en drie resultaten drie kolommen. Bij meer dan drie resultaten blijven de eerste drie als volledige tegels staan; volgende resultaten worden compacte regels. Daarin staat het type als klein bovenlabel direct boven de titel, met de korte uitleg ernaast en een uitsnede van de bestaande kaartafbeelding rechts. Op smallere schermen staan label, titel en uitleg onder elkaar terwijl de afbeelding rechts zichtbaar blijft. Op mobiel staan volledige resultaten altijd in één kolom. De lichte voorkant van een flipkaart gebruikt in beide kleurmodi donkere inkt; de donkere achterkant gebruikt lichte tekst. Zonder actieve keuze blijft het volledige tegeloverzicht behouden. De URL bewaart filterkeuzes. Bestaande afbeeldingen, categorieën, kaartvolgorde en conceptgrenzen blijven ongewijzigd; introductie blijft boven het overzicht.",
       "pages": [
         {
           "path": "behandelingen.html",
@@ -1469,7 +1469,7 @@
       "fingerprints": {
         "behandelingen.html": "b79a5acf99cae2ceb81c0a98717dedd427b71b48770a57b7381f640364ee6d96",
         "script.js": "8f40f054393d37f2df0de334b7720b7b89f8dd8de0e37d0ebbab8fe8c2d00def",
-        "styles.css": "0db1c753dfbb1970e871517b2c80153af7af4d44457c9d48cc0676714d1c7748"
+        "styles.css": "8fbbfccfd86dbcbf0ca0e6caf07e763b82d4af1409cd0815189eeb7b633bb746"
       }
     },
     {
@@ -1896,7 +1896,7 @@
         "disclaimer.html": "525af2637cfccd697905f0855b6688e3943fe1ef46134721824c702339461973",
         "feedback.css": "0ab4ce10537c05937ae69ac29335bf4c139d049bb980731d144370e7b7595219",
         "feedback.js": "5aa29ca0437cf076157217c592e87a68966b93fa7fdcb3b35ffcf83633e2bfe0",
-        "index.html": "3fa323fe5cceb5d74080f96d0c354b655a4550a79a56683b4862caa675235659",
+        "index.html": "0991ac2a5d0c54465cf6d8fdbdb9ed32b814ae40be3ac4a2c71ed368345e70f3",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "nieuwsbrief.html": "674c2298bf459042dc428fc9cb38bc00a777211d16dee3ba4d559de2b807bcc9",
         "over-mij.html": "8eae57375819b840793e1b1c71ef3d6b7bfba45e7754a045bc9099586dbc4459",
@@ -1941,7 +1941,7 @@
         "artikelen.html": "26e6eb4f35eac5896aafaadd19b91dc3fdc14775fd1ee36dfc666946dbf996d7",
         "assets/artrose-story/story-a12ec34068b1.js": "a12ec34068b115bae440ab068da296ed37bdec0a4c32a6e08994d1733a7a6d19",
         "assets/artrose-story/story-d95ecf296c41.css": "d95ecf296c41c38190c62f544e7870938af55ebb3689726e9f8ecc555f83d678",
-        "index.html": "3fa323fe5cceb5d74080f96d0c354b655a4550a79a56683b4862caa675235659",
+        "index.html": "0991ac2a5d0c54465cf6d8fdbdb9ed32b814ae40be3ac4a2c71ed368345e70f3",
         "tools/build_artrose_release.py": "b57d044c6892cd2e50dd14270338cd30c5331430c5014597c8fd5b4909d655c0"
       }
     },

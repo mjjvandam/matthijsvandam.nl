@@ -1686,6 +1686,7 @@ body:has(.home-story) .site-header .theme-toggle {
   background:
     linear-gradient(135deg, rgba(220, 232, 223, 0.7), rgba(255, 253, 248, 0.92)),
     var(--white);
+  color: #17201c;
 }
 
 .expertise-flip-back {
