@@ -369,17 +369,17 @@
         "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html": "1079e166c22c5b7d14e80c2d43dc46506f08d64bcf5dafc823551691b9594c29",
         "artikelen/aaos-richtlijn-enkelartrose.html": "c1f2609c98adb81444cb110fb1355c9f71e7093b812e6c0a6bc7143a508dda75",
         "artikelen/aios-foot-education-munich.html": "a4b9cc20f0a9df59813fe76ee781bcd9e486bfb6cf1643504516c8e3f8a29087",
-        "artikelen/artrosezorg-transitie-patienten.html": "c8f5081d007a2fda4013f063f23485a0f11e2992381486ae3e45830c01022a52",
+        "artikelen/artrosezorg-transitie-patienten.html": "89c687d72be48854f0dba6eda229280103d1bc6596da819f584aab10189d5b5a",
         "artikelen/artrosezorg-transitie-professionals.html": "110db2cbd78a3511a672e2fe67831fe9856fb7b3751f1f8040eb8015686fd768",
         "artikelen/digitaal-zorgpad-artrose-obesitas.html": "2219699cd43ac2361303f3e3dd101e721f283b2be454dad130557893b93a35a8",
         "artikelen/footprint-quick-scan-etz-fit-follow-up.html": "bc6607a7598a84aaeb57824f60771c48e5f394ed30953e640541a1543b6748a5",
         "artikelen/footprint-quick-scan-medewerkers.html": "fc41ae4ff6babb91406048ba88ff7b9283aee838a877e9f2c1917e2ddd9c4b68",
         "artikelen/heracleum-hulpfonds-subsidie-transmuraal-tilburg-cohort.html": "e9fd313e8b47a3555a82398a2f132e0f26177909d01fb088e03125d7b1f58945",
         "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html": "1cb88b248b31295cb1f5d5915091770a6064c5d08bc2bb42842c1a31ff595985",
-        "artikelen/kuitspier-en-voetpijn.html": "06d3faef6f92dc9edb70566b821972c1ac4cf66fa0ace08bc45dd00a3f6f4a82",
+        "artikelen/kuitspier-en-voetpijn.html": "12d3988d4e64072b173caddc479ece50845d59032ff055538b1dbcd8202575d8",
         "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html": "69d842426f513f4d01043414beadbfe37985c68cfc98f98d77075d96f5d46690",
         "artikelen/mobility-clinic-tilburg-patienten.html": "d44aa71eb3c7739157ab6e56bf39bee754eafd9c4db924eff64b103dc0be0381",
-        "artikelen/mobility-clinic-tilburg-professionals.html": "90d8390b23323eb59915dac29eb66cd4ac0bd878564bff55a8c3e812d7457be5",
+        "artikelen/mobility-clinic-tilburg-professionals.html": "24fecc08d8034847e800da3083b14bc20e54312bc3857ca0f149629341088c16",
         "artikelen/na-verzwikte-enkel-instabiel-blijven.html": "e8542f355c366e81001d8e2599fa6fa11bccb583c6272e42a5bb2c49c4cfb7a4",
         "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html": "c43f97d8b0e424e009fa299038ff25c57d64fa61606e50527752d254a10621ff",
         "artikelen/patient-specifieke-instrumentatie-voet-enkel-professionals.html": "eccaae6ba923d60d2bfe9fe434381c2821fc6d782199dbc9117a82106d9b06ee",
@@ -522,6 +522,54 @@
       ],
       "fingerprints": {
         "index.html": "0991ac2a5d0c54465cf6d8fdbdb9ed32b814ae40be3ac4a2c71ed368345e70f3",
+        "styles.css": "8fbbfccfd86dbcbf0ca0e6caf07e763b82d4af1409cd0815189eeb7b633bb746"
+      }
+    },
+    {
+      "id": "article-newsletter-callout",
+      "name": "Onderwerpgerichte nieuwsbriefregel in artikelen",
+      "source": "artikelen/kuitspier-en-voetpijn.html",
+      "selector": ".article-newsletter-callout",
+      "markers": [
+        "article-newsletter-callout"
+      ],
+      "sources": [
+        "styles.css",
+        "artikelen/artrosezorg-transitie-patienten.html",
+        "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html",
+        "artikelen/kuitspier-en-voetpijn.html",
+        "artikelen/mobility-clinic-tilburg-professionals.html",
+        "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html"
+      ],
+      "rule": "Gebruik één compact informatieblok na een afgeronde inhoudelijke sectie, ongeveer halverwege het artikel. De onderwerpregel sluit aan op de pagina, de enige actie is een tekstlink naar nieuwsbrief.html en de tekst suggereert geen patiëntadvies, afspraakroute of automatische inschrijving. Houd het blok visueel rustiger dan een primaire CTA en controleer licht, donker en mobiele tekstafbreking.",
+      "pages": [
+        {
+          "path": "artikelen/artrosezorg-transitie-patienten.html",
+          "scope": "registered"
+        },
+        {
+          "path": "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html",
+          "scope": "registered"
+        },
+        {
+          "path": "artikelen/kuitspier-en-voetpijn.html",
+          "scope": "registered"
+        },
+        {
+          "path": "artikelen/mobility-clinic-tilburg-professionals.html",
+          "scope": "registered"
+        },
+        {
+          "path": "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html",
+          "scope": "registered"
+        }
+      ],
+      "fingerprints": {
+        "artikelen/artrosezorg-transitie-patienten.html": "89c687d72be48854f0dba6eda229280103d1bc6596da819f584aab10189d5b5a",
+        "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html": "1cb88b248b31295cb1f5d5915091770a6064c5d08bc2bb42842c1a31ff595985",
+        "artikelen/kuitspier-en-voetpijn.html": "12d3988d4e64072b173caddc479ece50845d59032ff055538b1dbcd8202575d8",
+        "artikelen/mobility-clinic-tilburg-professionals.html": "24fecc08d8034847e800da3083b14bc20e54312bc3857ca0f149629341088c16",
+        "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html": "c43f97d8b0e424e009fa299038ff25c57d64fa61606e50527752d254a10621ff",
         "styles.css": "8fbbfccfd86dbcbf0ca0e6caf07e763b82d4af1409cd0815189eeb7b633bb746"
       }
     },
@@ -697,11 +745,11 @@
         "artikelen.html": "26e6eb4f35eac5896aafaadd19b91dc3fdc14775fd1ee36dfc666946dbf996d7",
         "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html": "1079e166c22c5b7d14e80c2d43dc46506f08d64bcf5dafc823551691b9594c29",
         "artikelen/aaos-richtlijn-enkelartrose.html": "c1f2609c98adb81444cb110fb1355c9f71e7093b812e6c0a6bc7143a508dda75",
-        "artikelen/artrosezorg-transitie-patienten.html": "c8f5081d007a2fda4013f063f23485a0f11e2992381486ae3e45830c01022a52",
+        "artikelen/artrosezorg-transitie-patienten.html": "89c687d72be48854f0dba6eda229280103d1bc6596da819f584aab10189d5b5a",
         "artikelen/artrosezorg-transitie-professionals.html": "110db2cbd78a3511a672e2fe67831fe9856fb7b3751f1f8040eb8015686fd768",
         "artikelen/digitaal-zorgpad-artrose-obesitas.html": "2219699cd43ac2361303f3e3dd101e721f283b2be454dad130557893b93a35a8",
         "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html": "1cb88b248b31295cb1f5d5915091770a6064c5d08bc2bb42842c1a31ff595985",
-        "artikelen/kuitspier-en-voetpijn.html": "06d3faef6f92dc9edb70566b821972c1ac4cf66fa0ace08bc45dd00a3f6f4a82",
+        "artikelen/kuitspier-en-voetpijn.html": "12d3988d4e64072b173caddc479ece50845d59032ff055538b1dbcd8202575d8",
         "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html": "69d842426f513f4d01043414beadbfe37985c68cfc98f98d77075d96f5d46690",
         "artikelen/na-verzwikte-enkel-instabiel-blijven.html": "e8542f355c366e81001d8e2599fa6fa11bccb583c6272e42a5bb2c49c4cfb7a4",
         "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html": "c43f97d8b0e424e009fa299038ff25c57d64fa61606e50527752d254a10621ff",
@@ -1040,15 +1088,15 @@
         "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html": "1079e166c22c5b7d14e80c2d43dc46506f08d64bcf5dafc823551691b9594c29",
         "artikelen/aaos-richtlijn-enkelartrose.html": "c1f2609c98adb81444cb110fb1355c9f71e7093b812e6c0a6bc7143a508dda75",
         "artikelen/aios-foot-education-munich.html": "a4b9cc20f0a9df59813fe76ee781bcd9e486bfb6cf1643504516c8e3f8a29087",
-        "artikelen/artrosezorg-transitie-patienten.html": "c8f5081d007a2fda4013f063f23485a0f11e2992381486ae3e45830c01022a52",
+        "artikelen/artrosezorg-transitie-patienten.html": "89c687d72be48854f0dba6eda229280103d1bc6596da819f584aab10189d5b5a",
         "artikelen/digitaal-zorgpad-artrose-obesitas.html": "2219699cd43ac2361303f3e3dd101e721f283b2be454dad130557893b93a35a8",
         "artikelen/footprint-quick-scan-etz-fit-follow-up.html": "bc6607a7598a84aaeb57824f60771c48e5f394ed30953e640541a1543b6748a5",
         "artikelen/footprint-quick-scan-medewerkers.html": "fc41ae4ff6babb91406048ba88ff7b9283aee838a877e9f2c1917e2ddd9c4b68",
         "artikelen/heracleum-hulpfonds-subsidie-transmuraal-tilburg-cohort.html": "e9fd313e8b47a3555a82398a2f132e0f26177909d01fb088e03125d7b1f58945",
-        "artikelen/kuitspier-en-voetpijn.html": "06d3faef6f92dc9edb70566b821972c1ac4cf66fa0ace08bc45dd00a3f6f4a82",
+        "artikelen/kuitspier-en-voetpijn.html": "12d3988d4e64072b173caddc479ece50845d59032ff055538b1dbcd8202575d8",
         "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html": "69d842426f513f4d01043414beadbfe37985c68cfc98f98d77075d96f5d46690",
         "artikelen/mobility-clinic-tilburg-patienten.html": "d44aa71eb3c7739157ab6e56bf39bee754eafd9c4db924eff64b103dc0be0381",
-        "artikelen/mobility-clinic-tilburg-professionals.html": "90d8390b23323eb59915dac29eb66cd4ac0bd878564bff55a8c3e812d7457be5",
+        "artikelen/mobility-clinic-tilburg-professionals.html": "24fecc08d8034847e800da3083b14bc20e54312bc3857ca0f149629341088c16",
         "artikelen/patient-specifieke-instrumentatie-voet-enkel-professionals.html": "eccaae6ba923d60d2bfe9fe434381c2821fc6d782199dbc9117a82106d9b06ee",
         "artikelen/patientpanel-leefstijl-orthopedie.html": "d705a4edba3d2f80cf72f1ff0c5c34faa961baa809e7b3a1c40189c89f0b3c7b",
         "artikelen/probleemgeorienteerd-denken-orthopedie-boekbijdrage.html": "c04b24ad63d1a7744e83216aa64a5cf987c04cfd571eff11d6b139615bd553c1",
@@ -1829,17 +1877,17 @@
         "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html": "1079e166c22c5b7d14e80c2d43dc46506f08d64bcf5dafc823551691b9594c29",
         "artikelen/aaos-richtlijn-enkelartrose.html": "c1f2609c98adb81444cb110fb1355c9f71e7093b812e6c0a6bc7143a508dda75",
         "artikelen/aios-foot-education-munich.html": "a4b9cc20f0a9df59813fe76ee781bcd9e486bfb6cf1643504516c8e3f8a29087",
-        "artikelen/artrosezorg-transitie-patienten.html": "c8f5081d007a2fda4013f063f23485a0f11e2992381486ae3e45830c01022a52",
+        "artikelen/artrosezorg-transitie-patienten.html": "89c687d72be48854f0dba6eda229280103d1bc6596da819f584aab10189d5b5a",
         "artikelen/artrosezorg-transitie-professionals.html": "110db2cbd78a3511a672e2fe67831fe9856fb7b3751f1f8040eb8015686fd768",
         "artikelen/digitaal-zorgpad-artrose-obesitas.html": "2219699cd43ac2361303f3e3dd101e721f283b2be454dad130557893b93a35a8",
         "artikelen/footprint-quick-scan-etz-fit-follow-up.html": "bc6607a7598a84aaeb57824f60771c48e5f394ed30953e640541a1543b6748a5",
         "artikelen/footprint-quick-scan-medewerkers.html": "fc41ae4ff6babb91406048ba88ff7b9283aee838a877e9f2c1917e2ddd9c4b68",
         "artikelen/heracleum-hulpfonds-subsidie-transmuraal-tilburg-cohort.html": "e9fd313e8b47a3555a82398a2f132e0f26177909d01fb088e03125d7b1f58945",
         "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html": "1cb88b248b31295cb1f5d5915091770a6064c5d08bc2bb42842c1a31ff595985",
-        "artikelen/kuitspier-en-voetpijn.html": "06d3faef6f92dc9edb70566b821972c1ac4cf66fa0ace08bc45dd00a3f6f4a82",
+        "artikelen/kuitspier-en-voetpijn.html": "12d3988d4e64072b173caddc479ece50845d59032ff055538b1dbcd8202575d8",
         "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html": "69d842426f513f4d01043414beadbfe37985c68cfc98f98d77075d96f5d46690",
         "artikelen/mobility-clinic-tilburg-patienten.html": "d44aa71eb3c7739157ab6e56bf39bee754eafd9c4db924eff64b103dc0be0381",
-        "artikelen/mobility-clinic-tilburg-professionals.html": "90d8390b23323eb59915dac29eb66cd4ac0bd878564bff55a8c3e812d7457be5",
+        "artikelen/mobility-clinic-tilburg-professionals.html": "24fecc08d8034847e800da3083b14bc20e54312bc3857ca0f149629341088c16",
         "artikelen/na-verzwikte-enkel-instabiel-blijven.html": "e8542f355c366e81001d8e2599fa6fa11bccb583c6272e42a5bb2c49c4cfb7a4",
         "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html": "c43f97d8b0e424e009fa299038ff25c57d64fa61606e50527752d254a10621ff",
         "artikelen/patient-specifieke-instrumentatie-voet-enkel-professionals.html": "eccaae6ba923d60d2bfe9fe434381c2821fc6d782199dbc9117a82106d9b06ee",

@@ -45,6 +45,24 @@
       "rule": "Gebruik het bestaande compacte nieuwsbriefblok. Licht gebruikt de crème/groene band; donker gebruikt een donkere groen/papier-gradient met voldoende contrast voor kop, tekst en link. Wijzig de nieuwsbriefroute of tekst niet als onderdeel van kleurcorrecties."
     },
     {
+      "id": "article-newsletter-callout",
+      "name": "Onderwerpgerichte nieuwsbriefregel in artikelen",
+      "source": "artikelen/kuitspier-en-voetpijn.html",
+      "selector": ".article-newsletter-callout",
+      "markers": [
+        "article-newsletter-callout"
+      ],
+      "sources": [
+        "styles.css",
+        "artikelen/artrosezorg-transitie-patienten.html",
+        "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html",
+        "artikelen/kuitspier-en-voetpijn.html",
+        "artikelen/mobility-clinic-tilburg-professionals.html",
+        "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html"
+      ],
+      "rule": "Gebruik één compact informatieblok na een afgeronde inhoudelijke sectie, ongeveer halverwege het artikel. De onderwerpregel sluit aan op de pagina, de enige actie is een tekstlink naar nieuwsbrief.html en de tekst suggereert geen patiëntadvies, afspraakroute of automatische inschrijving. Houd het blok visueel rustiger dan een primaire CTA en controleer licht, donker en mobiele tekstafbreking."
+    },
+    {
       "id": "article-overview",
       "name": "Artikeloverzicht en afhankelijke filters",
       "source": "artikelen.html",
