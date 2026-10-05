@@ -83,7 +83,7 @@
       date: "2026-10-04",
       audience: ["zorgprofessionals"],
       topics: ["voet-en-enkel", "onderzoek"],
-      archive: false,
+      archive: true,
     },
     {
       id: "kuitspier-en-voetpijn",
