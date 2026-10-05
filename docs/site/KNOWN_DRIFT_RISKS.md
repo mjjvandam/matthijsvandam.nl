@@ -13,13 +13,14 @@ Gevolg:
 
 Status:
 
-- te valideren.
+- De repo en `robots.txt` verwijzen naar de www-sitemap; de www-release is op 12 september 2026 goedgekeurd en live gecontroleerd.
+- Een nieuwe live redirect- en canonicalcontrole blijft nodig na toekomstige hosting- of metadatawijzigingen.
 
 ## 2. Concept versus publiek
 
 Risico:
 
-- 32 `behandelingen/*.html`-pagina's en `concept-foot-pain-guide.html` bestaan lokaal, maar zijn niet publiek bedoeld; enkelverzwikking, enkelartrose en enkelprothese zijn de publieke uitzonderingen.
+- 27 concept-behandelpagina's en `concept-foot-pain-guide.html` bestaan lokaal, maar zijn niet publiek bedoeld. De actuele publieke uitzonderingen staan in `PUBLICATIE_REGISTER.json` en sitemap.
 - Een kleine wijziging in `.vercelignore`, robots of sitemap kan conceptcontent zichtbaar maken.
 
 Beheersing:
@@ -33,7 +34,7 @@ Beheersing:
 Risico:
 
 - `SITE_TODO.md` kan achterlopen op `PUBLICATIE_REGISTER.json`.
-- Tijdens audit waren alle 29 publieke pagina's geverifieerd, terwijl oudere todo-tekst nog reviewpunten voor gepubliceerde pagina's kan noemen.
+- Na expliciet eigenaarakkoord op 5 oktober 2026 zijn 55 publieke pagina's geregistreerd als `geverifieerd`. De vier lokale routecorrecties zijn nog niet als afzonderlijke release gepubliceerd. Oudere todo-tekst kan nog reviewpunten voor gepubliceerde pagina's noemen.
 
 Beheersing:
 

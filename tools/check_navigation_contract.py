@@ -190,9 +190,9 @@ def run_checks() -> list[tuple[str, str]]:
         rel = str(path.relative_to(ROOT))
         public_page = is_public(path, parser, public_paths)
 
-        # Local mail templates and the owner admin do not use the site navigation shell.
-        # Keep checking them if they ever become public by sitemap or robots.
-        if rel.startswith(("local-mail-preview/", "local-admin/", "docs/design-system/")) and not public_page:
+        # Local mail templates, the owner admin and local concept prototypes do not use
+        # the public navigation shell. Keep checking every path if it ever becomes public.
+        if rel.startswith(("local-mail-preview/", "local-admin/", "docs/design-system/", "concepten/")) and not public_page:
             continue
 
         if has_redirect_exception(rel, parser):

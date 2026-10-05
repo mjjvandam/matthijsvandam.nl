@@ -1,6 +1,6 @@
 # Current Site State
 
-Laatste auditbasis: huidige repo op 2026-09-23.
+Laatste auditbasis: huidige repo op 2026-10-05.
 
 ## Status
 
@@ -8,13 +8,13 @@ Laatste auditbasis: huidige repo op 2026-09-23.
 
 De gepubliceerde laag bestaat uit:
 
-- 48 unieke publieke pagina's in `sitemap.xml` (49 URL-regels; Freiberg staat dubbel, zie weekverslag).
-- 48 pagina's in `PUBLICATIE_REGISTER.json`: 41 `geverifieerd` en 7 `review_nodig`.
-- 21 gepubliceerde artikelen: 20 `geverifieerd`; `artikelen/kuitspier-en-voetpijn.html` staat op `review_nodig`.
+- 55 unieke publieke pagina's in `sitemap.xml`.
+- 55 pagina's in `PUBLICATIE_REGISTER.json`, alle `geverifieerd`. Matthijs keurde de lokale routecorrecties op vier publieke behandelpagina's op 5 oktober 2026 goed; die wijzigingen zijn nog niet als afzonderlijke release gepubliceerd.
+- 22 gepubliceerde artikelen.
 - 6 gepubliceerde projectpagina's.
 - 1 publieke behandel-/klachtenhub: `behandelingen.html`.
-- 10 publieke behandelpagina's; de eerste vijf zijn: `behandelingen/enkelverzwikking.html`, `behandelingen/enkelartrose.html`, `behandelingen/enkelprothese.html`, `behandelingen/hallux-rigidus.html` en `behandelingen/metatarsalgie.html`. Ook Achillespeesklachten, MTP-1-artrodese, hallux valgus, hamerteen/klauwteen en ziekte van Freiberg zijn publiek; hallux valgus en Freiberg houden hun bestaande `review_nodig`.
-- 28 lokale concept-behandelpagina's in `behandelingen/`, `noindex, nofollow` en uitgesloten van Vercel via `.vercelignore`.
+- 16 publieke behandelpagina's, waaronder enkelverzwikking, enkelartrose, enkelprothese, hallux rigidus, metatarsalgie, Achillespeesklachten, MTP-1-artrodese, hallux valgus, hamerteen/klauwteen, ziekte van Freiberg en chronische enkelinstabiliteit.
+- 27 lokale concept-behandelpagina's in `behandelingen/`, `noindex, nofollow` en uitgesloten van Vercel via `.vercelignore`.
 - 1 lokale conceptmodule: `concept-foot-pain-guide.html`, `noindex, nofollow` en uitgesloten van Vercel.
 
 ## Hoofdroutes
@@ -60,7 +60,7 @@ Gebruik bij relevante taken:
 
 ## Te valideren
 
-- Google-herverwerking van oudere apex-canonicals; de www-release is op 12 september goedgekeurd en live gecontroleerd. Zie de technische release en Search Console-controle van 23 september.
+- Google-herverwerking van oudere apex-canonicals; de www-release is op 12 september goedgekeurd en live gecontroleerd. Zie de technische release en Search Console-controle van 23 september. De actuele repo verwijst naar de www-sitemap; een nieuwe livecontrole blijft afzonderlijk.
 - Of `beeldbank/` publiek direct bereikbaar mag blijven.
 - Definitieve medische review van alle concept-behandelpagina's.
 - Definitieve medische review van de Voet- en enkelpijnwijzer voordat die publiek wordt.
