@@ -3,7 +3,7 @@
   "catalogue_sources": {
     "docs/design-system/catalogue.js": "4e4fc72ad96574b8538187f3b2cd88851856de6fb3aaacbdec60fdaa790b4720",
     "docs/design-system/catalogue.css": "71b21f74acf3d686e873590f6c367f57856afed6ee3d8dc89049a95532875df8",
-    "docs/site/DESIGN_SYSTEM.md": "4e4c951d93e3b49343aa114f710451143b658869f0d9d35aec9737896fff2a45"
+    "docs/site/DESIGN_SYSTEM.md": "1448e41c2ae4771036a93cf920058e4050bea86423b5edba71c0ae2408c0b8c3"
   },
   "components": [
     {
@@ -370,39 +370,39 @@
         "404.html": "6c9c90e8b177d768f0aea567da2c5022f2cebf47062edb21b786f52ae50abb9e",
         "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
         "artikelen.html": "26e6eb4f35eac5896aafaadd19b91dc3fdc14775fd1ee36dfc666946dbf996d7",
-        "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html": "1079e166c22c5b7d14e80c2d43dc46506f08d64bcf5dafc823551691b9594c29",
-        "artikelen/aaos-richtlijn-enkelartrose.html": "c1f2609c98adb81444cb110fb1355c9f71e7093b812e6c0a6bc7143a508dda75",
+        "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html": "4f207ca46af6227b7bc893c59cf393a7c935097deb32213edce67ff079cb1dc5",
+        "artikelen/aaos-richtlijn-enkelartrose.html": "1eba21f311b887170a15a9f23b552cd28ebd94d23b1f86b20947f5c9752a43b2",
         "artikelen/aios-foot-education-munich.html": "a4b9cc20f0a9df59813fe76ee781bcd9e486bfb6cf1643504516c8e3f8a29087",
-        "artikelen/artrosezorg-transitie-patienten.html": "89c687d72be48854f0dba6eda229280103d1bc6596da819f584aab10189d5b5a",
-        "artikelen/artrosezorg-transitie-professionals.html": "110db2cbd78a3511a672e2fe67831fe9856fb7b3751f1f8040eb8015686fd768",
-        "artikelen/digitaal-zorgpad-artrose-obesitas.html": "2219699cd43ac2361303f3e3dd101e721f283b2be454dad130557893b93a35a8",
+        "artikelen/artrosezorg-transitie-patienten.html": "7e24898ee97ca292d6bc3950093ffa67d561a9f35fc3a0df8e04ddadbab42d74",
+        "artikelen/artrosezorg-transitie-professionals.html": "c5106b0cbf8a41a6f6572fc04a03852a39a36a86478924a6755be0d6438f7ec8",
+        "artikelen/digitaal-zorgpad-artrose-obesitas.html": "06ff6451f24170818adf203a6a12b32c683c8b25448ac917d8893d130ceb548a",
         "artikelen/footprint-quick-scan-etz-fit-follow-up.html": "bc6607a7598a84aaeb57824f60771c48e5f394ed30953e640541a1543b6748a5",
         "artikelen/footprint-quick-scan-medewerkers.html": "fc41ae4ff6babb91406048ba88ff7b9283aee838a877e9f2c1917e2ddd9c4b68",
         "artikelen/heracleum-hulpfonds-subsidie-transmuraal-tilburg-cohort.html": "e9fd313e8b47a3555a82398a2f132e0f26177909d01fb088e03125d7b1f58945",
-        "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html": "1cb88b248b31295cb1f5d5915091770a6064c5d08bc2bb42842c1a31ff595985",
-        "artikelen/kraakbeenletsel-enkel-consensus-diagnostiek.html": "c4b7f3ddb7d8cba556b6e1b79655c0f19bee1a61b1600f66810eed11276698b3",
-        "artikelen/kuitspier-en-voetpijn.html": "12d3988d4e64072b173caddc479ece50845d59032ff055538b1dbcd8202575d8",
-        "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html": "69d842426f513f4d01043414beadbfe37985c68cfc98f98d77075d96f5d46690",
+        "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html": "bf7cfd20f6ef85fac69f315a4f861b0a35816843757c21b1ecf360221f5bcc2e",
+        "artikelen/kraakbeenletsel-enkel-consensus-diagnostiek.html": "ddc74764d5adc5fd1abdeeed4b3cff2cb68dc4627f808db9a851609a92f25571",
+        "artikelen/kuitspier-en-voetpijn.html": "f51e1ac261510c90eb05939a459f2330f09e8f9446115e71d7b3b0c1340cc5e6",
+        "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html": "b06ab5da95fc9d2adfd825060ace6c28e0886f139742f025e6a95e0622a99f8f",
         "artikelen/mobility-clinic-tilburg-patienten.html": "d44aa71eb3c7739157ab6e56bf39bee754eafd9c4db924eff64b103dc0be0381",
         "artikelen/mobility-clinic-tilburg-professionals.html": "24fecc08d8034847e800da3083b14bc20e54312bc3857ca0f149629341088c16",
-        "artikelen/na-verzwikte-enkel-instabiel-blijven.html": "e8542f355c366e81001d8e2599fa6fa11bccb583c6272e42a5bb2c49c4cfb7a4",
-        "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html": "c43f97d8b0e424e009fa299038ff25c57d64fa61606e50527752d254a10621ff",
-        "artikelen/patient-specifieke-instrumentatie-voet-enkel-professionals.html": "eccaae6ba923d60d2bfe9fe434381c2821fc6d782199dbc9117a82106d9b06ee",
+        "artikelen/na-verzwikte-enkel-instabiel-blijven.html": "8116fbce2ad1b91ecc9b67b1dfd7aae10a1489b42ae19c49493784f097ded845",
+        "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html": "d2e243433e94a69fcd60dfee7f4def6870a1713c077b33af6721a8e9f5e31aea",
+        "artikelen/patient-specifieke-instrumentatie-voet-enkel-professionals.html": "bc7a55aaa29bce7036b279ed34ee872a57af382ae6ab6a22f3254b01aff01037",
         "artikelen/patientpanel-leefstijl-orthopedie.html": "d705a4edba3d2f80cf72f1ff0c5c34faa961baa809e7b3a1c40189c89f0b3c7b",
-        "artikelen/probleemgeorienteerd-denken-orthopedie-boekbijdrage.html": "c04b24ad63d1a7744e83216aa64a5cf987c04cfd571eff11d6b139615bd553c1",
-        "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html": "403ffe62cd4b164cdc80ea43f021d82cd968918ce27ab31309bffac70fc116a5",
+        "artikelen/probleemgeorienteerd-denken-orthopedie-boekbijdrage.html": "853dd75a0cd26ec333195d15810255bbe2bb3745071949af8b5cbad118119eb0",
+        "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html": "70d2f9f36ed2a54b6503eddbfd54c883d16f18aeacb2cbfc56d1ea80b646bd03",
         "artikelen/vaillant-fonds-digitaal-zorgpad.html": "80aa744665304710c15dbcca5d40f4f362babf7fe9b0837077714ec386ac0a7a",
         "artikelen/we-walk-ar-campusroute-tilburg.html": "298bc599e286e3fd975625d63450ca289acf83f6dd21d4311e4d033c7bcef1c8",
         "behandelingen.html": "c378269a4942673e5e604f3a98752decde9c08dbaff4f570d3c8356d1693dc07",
         "behandelingen/achillespeesklachten.html": "d93ec7bfad39918a1054a807fe6df0e22587345d59b28c805d8fc0798ad9fe35",
         "behandelingen/anterieur-enkel-impingement.html": "6ffc6bc8a2d20e93ef988b778d5f598c7310d6688a0523f39b7ddefe4b95dd8c",
         "behandelingen/artrose-na-breuk.html": "72a1e33ea03a4b5f6e5e92102ba1a7a156637f85785d53b2a5ec6a37c4ecb16a",
-        "behandelingen/bewegen-bij-artrose.html": "d98404770c9e406d7fb73e6585b036dca837fc79d3aadd4c965e07710e6c6681",
+        "behandelingen/bewegen-bij-artrose.html": "80336ee08add13fc83f0dd81b6748a5ff6929ba8bf25a5141742f58a422a908c",
         "behandelingen/chronische-enkelinstabiliteit.html": "d1ce3a7b74b08d6fb84b0fd3ad105f5aecc29683d3d3b019af3138414608d6c8",
         "behandelingen/corpus-liberum-enkel.html": "9718afd26385b4d84d29a640f8d33dcd24c04c4878cbd982979e68302eef9701",
-        "behandelingen/enkelartrodese.html": "be05fdd05ece8befdf8c3920d8fd483f80b6a8621e2c2ccabdafdebe7f43ea57",
-        "behandelingen/enkelartrose.html": "a756b7840597bf678f0f53a4f58a48e106d597eea8cf09211d6a46a03a4dc3df",
-        "behandelingen/enkelprothese.html": "2d3d7a9b55d88a67d6a98ee687d84bf5f42900af10736cd06de94c3e6389cd06",
+        "behandelingen/enkelartrodese.html": "b4cce94a62def6b3bec0640575015a8d31a29d2073233868750c35030046564e",
+        "behandelingen/enkelartrose.html": "d379c58b8574fb14a3ebdf34eeed05d0e25e3b8353ba0600ec49f387f8c55428",
+        "behandelingen/enkelprothese.html": "16d51e3e6b7e3ae713f2220ac34d836fdf096d3c3c16b3c9e5325b4ee80e0c37",
         "behandelingen/enkelverzwikking.html": "db9d50b6df08150aedb36eb3ca089a15995f5c0511bc5bfb462b7f2e14512037",
         "behandelingen/ganglion-enkel.html": "8d49faee883c45d2a037a5d238598c36b3ece9ec776d1cbd5a3cc92ca4108fd8",
         "behandelingen/ganglion-middenvoet.html": "4987b3503805a0097acb63a5e59b2d347926cdab46cf92c0d4c43ea53e260609",
@@ -412,7 +412,7 @@
         "behandelingen/hamerteen-klauwteen.html": "bd3ba08b192b3f6510fdef58655e189b837819c6450ed8de69896934cb7e9db3",
         "behandelingen/hielpijn.html": "4da53ce2ac78687ccfea151f92edfea8543e10db1148c1456f55ccecd34838cc",
         "behandelingen/holvoet-cavovarus.html": "37ddd27c8cddc8ece85d05d43a6f266225566878ac735d865b6743eb4ff08f6d",
-        "behandelingen/knieartrose.html": "7004922e14a034c365740827f4a2e5f45bff8c5a3aed135ec768fae107a09d43",
+        "behandelingen/knieartrose.html": "f564a852b29f720131fff9ff381c61ec60908d0f959c61deda4a45119112889c",
         "behandelingen/knieprothese-obesitas.html": "1c5e7747b336870f77535f87e94ffd51b2d3029140a9d7cb018a95f1214c72dc",
         "behandelingen/kraakbeenletsel-enkel.html": "86461ce9c00d789f2141d6a44de1baaaba4a3698b7a438c783c95875327d4b4a",
         "behandelingen/lisfranc-middenvoetletsel.html": "cd0b9ad9ab7577a3d58766a9cb360d9fffeaeef2e7f6f25fd9229cf43a038a8f",
@@ -420,7 +420,7 @@
         "behandelingen/morton-neuroom.html": "b753dbb9903e75ee3c319a7f478f1f8000eba178210433d7afda8d5a8760a55a",
         "behandelingen/mtp-1-artrodese.html": "63d1f4ba696912ee25ed58ff69b2f7bf9a1808ade45f50f3960a6fc5a27a2b4d",
         "behandelingen/mtp-plantaire-plaatklachten.html": "0433b9c753fea4aee983973f1def90a0dcbda2ddabe1ed4cb423b208805d2cf2",
-        "behandelingen/obesitas-gewrichtsklachten.html": "e837330d9d3f28868e68436758ff785222d66aaeaaf5f29749132ca343375991",
+        "behandelingen/obesitas-gewrichtsklachten.html": "56ebc428ac0a034993aeec8bf03a12abf38e99e3ac95438ffe9e501bf8d2a84d",
         "behandelingen/os-trigonum.html": "24601cacfb78e4d50fdea4598253caea28f680346332937043a6577e73421db5",
         "behandelingen/peesplaatklachten-hielspoor.html": "083daede703a1b10ee3f2069226160f00ea7598192e0bdf27b440feabc20873b",
         "behandelingen/peroneus-saltans.html": "4fce39a3b3b2764d64c3317bb2157d9bf382911cec1588b9a7578f6b9089a9e0",
@@ -454,7 +454,7 @@
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
         "publicaties.html": "f56660c05f7c6de1faec5fb82e8c4dd38ff6e9810f3196e6a4ec316d0e833ca2",
         "script.js": "8f40f054393d37f2df0de334b7720b7b89f8dd8de0e37d0ebbab8fe8c2d00def",
-        "styles.css": "4ed6b06c7780894cedca20d93cf9ffb19595e644f197edacd4be12c6dbd4e649"
+        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
       }
     },
     {
@@ -502,7 +502,7 @@
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/vrxoa-immersive-experiences-artrose.html": "3e5459d0d47216d747923f35446fd5be7844189d22fb99494a855d8a84107ac1",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
-        "styles.css": "4ed6b06c7780894cedca20d93cf9ffb19595e644f197edacd4be12c6dbd4e649"
+        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
       }
     },
     {
@@ -527,7 +527,7 @@
       ],
       "fingerprints": {
         "index.html": "0991ac2a5d0c54465cf6d8fdbdb9ed32b814ae40be3ac4a2c71ed368345e70f3",
-        "styles.css": "4ed6b06c7780894cedca20d93cf9ffb19595e644f197edacd4be12c6dbd4e649"
+        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
       }
     },
     {
@@ -570,12 +570,12 @@
         }
       ],
       "fingerprints": {
-        "artikelen/artrosezorg-transitie-patienten.html": "89c687d72be48854f0dba6eda229280103d1bc6596da819f584aab10189d5b5a",
-        "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html": "1cb88b248b31295cb1f5d5915091770a6064c5d08bc2bb42842c1a31ff595985",
-        "artikelen/kuitspier-en-voetpijn.html": "12d3988d4e64072b173caddc479ece50845d59032ff055538b1dbcd8202575d8",
+        "artikelen/artrosezorg-transitie-patienten.html": "7e24898ee97ca292d6bc3950093ffa67d561a9f35fc3a0df8e04ddadbab42d74",
+        "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html": "bf7cfd20f6ef85fac69f315a4f861b0a35816843757c21b1ecf360221f5bcc2e",
+        "artikelen/kuitspier-en-voetpijn.html": "f51e1ac261510c90eb05939a459f2330f09e8f9446115e71d7b3b0c1340cc5e6",
         "artikelen/mobility-clinic-tilburg-professionals.html": "24fecc08d8034847e800da3083b14bc20e54312bc3857ca0f149629341088c16",
-        "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html": "c43f97d8b0e424e009fa299038ff25c57d64fa61606e50527752d254a10621ff",
-        "styles.css": "4ed6b06c7780894cedca20d93cf9ffb19595e644f197edacd4be12c6dbd4e649"
+        "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html": "d2e243433e94a69fcd60dfee7f4def6870a1713c077b33af6721a8e9f5e31aea",
+        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
       }
     },
     {
@@ -607,7 +607,7 @@
         "artikelen.html": "26e6eb4f35eac5896aafaadd19b91dc3fdc14775fd1ee36dfc666946dbf996d7",
         "content.js": "aa9cab39cbf25bfc51dd53ca68c2f4c7c8aab2b2139dbad186007647d8f2e0b9",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "styles.css": "4ed6b06c7780894cedca20d93cf9ffb19595e644f197edacd4be12c6dbd4e649"
+        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
       }
     },
     {
@@ -637,75 +637,7 @@
           "scope": "registered"
         },
         {
-          "path": "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html",
-          "scope": "registered"
-        },
-        {
-          "path": "artikelen/aaos-richtlijn-enkelartrose.html",
-          "scope": "registered"
-        },
-        {
-          "path": "artikelen/artrosezorg-transitie-patienten.html",
-          "scope": "registered"
-        },
-        {
-          "path": "artikelen/artrosezorg-transitie-professionals.html",
-          "scope": "registered"
-        },
-        {
-          "path": "artikelen/digitaal-zorgpad-artrose-obesitas.html",
-          "scope": "registered"
-        },
-        {
-          "path": "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html",
-          "scope": "registered"
-        },
-        {
-          "path": "artikelen/kraakbeenletsel-enkel-consensus-diagnostiek.html",
-          "scope": "registered"
-        },
-        {
-          "path": "artikelen/kuitspier-en-voetpijn.html",
-          "scope": "registered"
-        },
-        {
-          "path": "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html",
-          "scope": "registered"
-        },
-        {
-          "path": "artikelen/na-verzwikte-enkel-instabiel-blijven.html",
-          "scope": "concept"
-        },
-        {
-          "path": "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html",
-          "scope": "registered"
-        },
-        {
-          "path": "artikelen/patient-specifieke-instrumentatie-voet-enkel-professionals.html",
-          "scope": "registered"
-        },
-        {
-          "path": "artikelen/probleemgeorienteerd-denken-orthopedie-boekbijdrage.html",
-          "scope": "registered"
-        },
-        {
-          "path": "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html",
-          "scope": "registered"
-        },
-        {
           "path": "artikelen.html",
-          "scope": "registered"
-        },
-        {
-          "path": "behandelingen/enkelartrodese.html",
-          "scope": "concept"
-        },
-        {
-          "path": "behandelingen/enkelartrose.html",
-          "scope": "registered"
-        },
-        {
-          "path": "behandelingen/enkelprothese.html",
           "scope": "registered"
         },
         {
@@ -752,24 +684,7 @@
       "fingerprints": {
         "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
         "artikelen.html": "26e6eb4f35eac5896aafaadd19b91dc3fdc14775fd1ee36dfc666946dbf996d7",
-        "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html": "1079e166c22c5b7d14e80c2d43dc46506f08d64bcf5dafc823551691b9594c29",
-        "artikelen/aaos-richtlijn-enkelartrose.html": "c1f2609c98adb81444cb110fb1355c9f71e7093b812e6c0a6bc7143a508dda75",
-        "artikelen/artrosezorg-transitie-patienten.html": "89c687d72be48854f0dba6eda229280103d1bc6596da819f584aab10189d5b5a",
-        "artikelen/artrosezorg-transitie-professionals.html": "110db2cbd78a3511a672e2fe67831fe9856fb7b3751f1f8040eb8015686fd768",
-        "artikelen/digitaal-zorgpad-artrose-obesitas.html": "2219699cd43ac2361303f3e3dd101e721f283b2be454dad130557893b93a35a8",
-        "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html": "1cb88b248b31295cb1f5d5915091770a6064c5d08bc2bb42842c1a31ff595985",
-        "artikelen/kraakbeenletsel-enkel-consensus-diagnostiek.html": "c4b7f3ddb7d8cba556b6e1b79655c0f19bee1a61b1600f66810eed11276698b3",
-        "artikelen/kuitspier-en-voetpijn.html": "12d3988d4e64072b173caddc479ece50845d59032ff055538b1dbcd8202575d8",
-        "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html": "69d842426f513f4d01043414beadbfe37985c68cfc98f98d77075d96f5d46690",
-        "artikelen/na-verzwikte-enkel-instabiel-blijven.html": "e8542f355c366e81001d8e2599fa6fa11bccb583c6272e42a5bb2c49c4cfb7a4",
-        "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html": "c43f97d8b0e424e009fa299038ff25c57d64fa61606e50527752d254a10621ff",
-        "artikelen/patient-specifieke-instrumentatie-voet-enkel-professionals.html": "eccaae6ba923d60d2bfe9fe434381c2821fc6d782199dbc9117a82106d9b06ee",
-        "artikelen/probleemgeorienteerd-denken-orthopedie-boekbijdrage.html": "c04b24ad63d1a7744e83216aa64a5cf987c04cfd571eff11d6b139615bd553c1",
-        "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html": "403ffe62cd4b164cdc80ea43f021d82cd968918ce27ab31309bffac70fc116a5",
         "behandelingen.html": "c378269a4942673e5e604f3a98752decde9c08dbaff4f570d3c8356d1693dc07",
-        "behandelingen/enkelartrodese.html": "be05fdd05ece8befdf8c3920d8fd483f80b6a8621e2c2ccabdafdebe7f43ea57",
-        "behandelingen/enkelartrose.html": "a756b7840597bf678f0f53a4f58a48e106d597eea8cf09211d6a46a03a4dc3df",
-        "behandelingen/enkelprothese.html": "2d3d7a9b55d88a67d6a98ee687d84bf5f42900af10736cd06de94c3e6389cd06",
         "content.js": "aa9cab39cbf25bfc51dd53ca68c2f4c7c8aab2b2139dbad186007647d8f2e0b9",
         "index.html": "0991ac2a5d0c54465cf6d8fdbdb9ed32b814ae40be3ac4a2c71ed368345e70f3",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
@@ -781,7 +696,7 @@
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
         "script.js": "8f40f054393d37f2df0de334b7720b7b89f8dd8de0e37d0ebbab8fe8c2d00def",
-        "styles.css": "4ed6b06c7780894cedca20d93cf9ffb19595e644f197edacd4be12c6dbd4e649"
+        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
       }
     },
     {
@@ -809,7 +724,7 @@
       "fingerprints": {
         "content.js": "aa9cab39cbf25bfc51dd53ca68c2f4c7c8aab2b2139dbad186007647d8f2e0b9",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "styles.css": "4ed6b06c7780894cedca20d93cf9ffb19595e644f197edacd4be12c6dbd4e649"
+        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
       }
     },
     {
@@ -1095,33 +1010,33 @@
         }
       ],
       "fingerprints": {
-        "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html": "1079e166c22c5b7d14e80c2d43dc46506f08d64bcf5dafc823551691b9594c29",
-        "artikelen/aaos-richtlijn-enkelartrose.html": "c1f2609c98adb81444cb110fb1355c9f71e7093b812e6c0a6bc7143a508dda75",
+        "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html": "4f207ca46af6227b7bc893c59cf393a7c935097deb32213edce67ff079cb1dc5",
+        "artikelen/aaos-richtlijn-enkelartrose.html": "1eba21f311b887170a15a9f23b552cd28ebd94d23b1f86b20947f5c9752a43b2",
         "artikelen/aios-foot-education-munich.html": "a4b9cc20f0a9df59813fe76ee781bcd9e486bfb6cf1643504516c8e3f8a29087",
-        "artikelen/artrosezorg-transitie-patienten.html": "89c687d72be48854f0dba6eda229280103d1bc6596da819f584aab10189d5b5a",
-        "artikelen/digitaal-zorgpad-artrose-obesitas.html": "2219699cd43ac2361303f3e3dd101e721f283b2be454dad130557893b93a35a8",
+        "artikelen/artrosezorg-transitie-patienten.html": "7e24898ee97ca292d6bc3950093ffa67d561a9f35fc3a0df8e04ddadbab42d74",
+        "artikelen/digitaal-zorgpad-artrose-obesitas.html": "06ff6451f24170818adf203a6a12b32c683c8b25448ac917d8893d130ceb548a",
         "artikelen/footprint-quick-scan-etz-fit-follow-up.html": "bc6607a7598a84aaeb57824f60771c48e5f394ed30953e640541a1543b6748a5",
         "artikelen/footprint-quick-scan-medewerkers.html": "fc41ae4ff6babb91406048ba88ff7b9283aee838a877e9f2c1917e2ddd9c4b68",
         "artikelen/heracleum-hulpfonds-subsidie-transmuraal-tilburg-cohort.html": "e9fd313e8b47a3555a82398a2f132e0f26177909d01fb088e03125d7b1f58945",
-        "artikelen/kuitspier-en-voetpijn.html": "12d3988d4e64072b173caddc479ece50845d59032ff055538b1dbcd8202575d8",
-        "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html": "69d842426f513f4d01043414beadbfe37985c68cfc98f98d77075d96f5d46690",
+        "artikelen/kuitspier-en-voetpijn.html": "f51e1ac261510c90eb05939a459f2330f09e8f9446115e71d7b3b0c1340cc5e6",
+        "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html": "b06ab5da95fc9d2adfd825060ace6c28e0886f139742f025e6a95e0622a99f8f",
         "artikelen/mobility-clinic-tilburg-patienten.html": "d44aa71eb3c7739157ab6e56bf39bee754eafd9c4db924eff64b103dc0be0381",
         "artikelen/mobility-clinic-tilburg-professionals.html": "24fecc08d8034847e800da3083b14bc20e54312bc3857ca0f149629341088c16",
-        "artikelen/patient-specifieke-instrumentatie-voet-enkel-professionals.html": "eccaae6ba923d60d2bfe9fe434381c2821fc6d782199dbc9117a82106d9b06ee",
+        "artikelen/patient-specifieke-instrumentatie-voet-enkel-professionals.html": "bc7a55aaa29bce7036b279ed34ee872a57af382ae6ab6a22f3254b01aff01037",
         "artikelen/patientpanel-leefstijl-orthopedie.html": "d705a4edba3d2f80cf72f1ff0c5c34faa961baa809e7b3a1c40189c89f0b3c7b",
-        "artikelen/probleemgeorienteerd-denken-orthopedie-boekbijdrage.html": "c04b24ad63d1a7744e83216aa64a5cf987c04cfd571eff11d6b139615bd553c1",
-        "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html": "403ffe62cd4b164cdc80ea43f021d82cd968918ce27ab31309bffac70fc116a5",
+        "artikelen/probleemgeorienteerd-denken-orthopedie-boekbijdrage.html": "853dd75a0cd26ec333195d15810255bbe2bb3745071949af8b5cbad118119eb0",
+        "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html": "70d2f9f36ed2a54b6503eddbfd54c883d16f18aeacb2cbfc56d1ea80b646bd03",
         "artikelen/vaillant-fonds-digitaal-zorgpad.html": "80aa744665304710c15dbcca5d40f4f362babf7fe9b0837077714ec386ac0a7a",
         "artikelen/we-walk-ar-campusroute-tilburg.html": "298bc599e286e3fd975625d63450ca289acf83f6dd21d4311e4d033c7bcef1c8",
         "behandelingen/achillespeesklachten.html": "d93ec7bfad39918a1054a807fe6df0e22587345d59b28c805d8fc0798ad9fe35",
         "behandelingen/anterieur-enkel-impingement.html": "6ffc6bc8a2d20e93ef988b778d5f598c7310d6688a0523f39b7ddefe4b95dd8c",
         "behandelingen/artrose-na-breuk.html": "72a1e33ea03a4b5f6e5e92102ba1a7a156637f85785d53b2a5ec6a37c4ecb16a",
-        "behandelingen/bewegen-bij-artrose.html": "d98404770c9e406d7fb73e6585b036dca837fc79d3aadd4c965e07710e6c6681",
+        "behandelingen/bewegen-bij-artrose.html": "80336ee08add13fc83f0dd81b6748a5ff6929ba8bf25a5141742f58a422a908c",
         "behandelingen/chronische-enkelinstabiliteit.html": "d1ce3a7b74b08d6fb84b0fd3ad105f5aecc29683d3d3b019af3138414608d6c8",
         "behandelingen/corpus-liberum-enkel.html": "9718afd26385b4d84d29a640f8d33dcd24c04c4878cbd982979e68302eef9701",
-        "behandelingen/enkelartrodese.html": "be05fdd05ece8befdf8c3920d8fd483f80b6a8621e2c2ccabdafdebe7f43ea57",
-        "behandelingen/enkelartrose.html": "a756b7840597bf678f0f53a4f58a48e106d597eea8cf09211d6a46a03a4dc3df",
-        "behandelingen/enkelprothese.html": "2d3d7a9b55d88a67d6a98ee687d84bf5f42900af10736cd06de94c3e6389cd06",
+        "behandelingen/enkelartrodese.html": "b4cce94a62def6b3bec0640575015a8d31a29d2073233868750c35030046564e",
+        "behandelingen/enkelartrose.html": "d379c58b8574fb14a3ebdf34eeed05d0e25e3b8353ba0600ec49f387f8c55428",
+        "behandelingen/enkelprothese.html": "16d51e3e6b7e3ae713f2220ac34d836fdf096d3c3c16b3c9e5325b4ee80e0c37",
         "behandelingen/enkelverzwikking.html": "db9d50b6df08150aedb36eb3ca089a15995f5c0511bc5bfb462b7f2e14512037",
         "behandelingen/ganglion-enkel.html": "8d49faee883c45d2a037a5d238598c36b3ece9ec776d1cbd5a3cc92ca4108fd8",
         "behandelingen/ganglion-middenvoet.html": "4987b3503805a0097acb63a5e59b2d347926cdab46cf92c0d4c43ea53e260609",
@@ -1131,7 +1046,7 @@
         "behandelingen/hamerteen-klauwteen.html": "bd3ba08b192b3f6510fdef58655e189b837819c6450ed8de69896934cb7e9db3",
         "behandelingen/hielpijn.html": "4da53ce2ac78687ccfea151f92edfea8543e10db1148c1456f55ccecd34838cc",
         "behandelingen/holvoet-cavovarus.html": "37ddd27c8cddc8ece85d05d43a6f266225566878ac735d865b6743eb4ff08f6d",
-        "behandelingen/knieartrose.html": "7004922e14a034c365740827f4a2e5f45bff8c5a3aed135ec768fae107a09d43",
+        "behandelingen/knieartrose.html": "f564a852b29f720131fff9ff381c61ec60908d0f959c61deda4a45119112889c",
         "behandelingen/knieprothese-obesitas.html": "1c5e7747b336870f77535f87e94ffd51b2d3029140a9d7cb018a95f1214c72dc",
         "behandelingen/kraakbeenletsel-enkel.html": "86461ce9c00d789f2141d6a44de1baaaba4a3698b7a438c783c95875327d4b4a",
         "behandelingen/lisfranc-middenvoetletsel.html": "cd0b9ad9ab7577a3d58766a9cb360d9fffeaeef2e7f6f25fd9229cf43a038a8f",
@@ -1139,7 +1054,7 @@
         "behandelingen/morton-neuroom.html": "b753dbb9903e75ee3c319a7f478f1f8000eba178210433d7afda8d5a8760a55a",
         "behandelingen/mtp-1-artrodese.html": "63d1f4ba696912ee25ed58ff69b2f7bf9a1808ade45f50f3960a6fc5a27a2b4d",
         "behandelingen/mtp-plantaire-plaatklachten.html": "0433b9c753fea4aee983973f1def90a0dcbda2ddabe1ed4cb423b208805d2cf2",
-        "behandelingen/obesitas-gewrichtsklachten.html": "e837330d9d3f28868e68436758ff785222d66aaeaaf5f29749132ca343375991",
+        "behandelingen/obesitas-gewrichtsklachten.html": "56ebc428ac0a034993aeec8bf03a12abf38e99e3ac95438ffe9e501bf8d2a84d",
         "behandelingen/os-trigonum.html": "24601cacfb78e4d50fdea4598253caea28f680346332937043a6577e73421db5",
         "behandelingen/peesplaatklachten-hielspoor.html": "083daede703a1b10ee3f2069226160f00ea7598192e0bdf27b440feabc20873b",
         "behandelingen/peroneus-saltans.html": "4fce39a3b3b2764d64c3317bb2157d9bf382911cec1588b9a7578f6b9089a9e0",
@@ -1162,7 +1077,7 @@
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/vrxoa-immersive-experiences-artrose.html": "3e5459d0d47216d747923f35446fd5be7844189d22fb99494a855d8a84107ac1",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
-        "styles.css": "4ed6b06c7780894cedca20d93cf9ffb19595e644f197edacd4be12c6dbd4e649"
+        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
       }
     },
     {
@@ -1201,7 +1116,7 @@
         "index.html": "0991ac2a5d0c54465cf6d8fdbdb9ed32b814ae40be3ac4a2c71ed368345e70f3",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "nieuwsbrief.html": "ff45ff9b193d1631150ceaa056046d20aa90a7c92fa632bc85a80c5dc938a51e",
-        "styles.css": "4ed6b06c7780894cedca20d93cf9ffb19595e644f197edacd4be12c6dbd4e649"
+        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
       }
     },
     {
@@ -1233,7 +1148,7 @@
       "fingerprints": {
         "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
         "professionals.html": "8d087decf290b781fe73d5c13c6b604cb5ec1c56b2d3247787db3968bd537a82",
-        "styles.css": "4ed6b06c7780894cedca20d93cf9ffb19595e644f197edacd4be12c6dbd4e649"
+        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
       }
     },
     {
@@ -1436,13 +1351,13 @@
         }
       ],
       "fingerprints": {
-        "artikelen/aaos-richtlijn-enkelartrose.html": "c1f2609c98adb81444cb110fb1355c9f71e7093b812e6c0a6bc7143a508dda75",
+        "artikelen/aaos-richtlijn-enkelartrose.html": "1eba21f311b887170a15a9f23b552cd28ebd94d23b1f86b20947f5c9752a43b2",
         "behandelingen/achillespeesklachten.html": "d93ec7bfad39918a1054a807fe6df0e22587345d59b28c805d8fc0798ad9fe35",
         "behandelingen/anterieur-enkel-impingement.html": "6ffc6bc8a2d20e93ef988b778d5f598c7310d6688a0523f39b7ddefe4b95dd8c",
         "behandelingen/artrose-na-breuk.html": "72a1e33ea03a4b5f6e5e92102ba1a7a156637f85785d53b2a5ec6a37c4ecb16a",
         "behandelingen/chronische-enkelinstabiliteit.html": "d1ce3a7b74b08d6fb84b0fd3ad105f5aecc29683d3d3b019af3138414608d6c8",
         "behandelingen/corpus-liberum-enkel.html": "9718afd26385b4d84d29a640f8d33dcd24c04c4878cbd982979e68302eef9701",
-        "behandelingen/enkelartrose.html": "a756b7840597bf678f0f53a4f58a48e106d597eea8cf09211d6a46a03a4dc3df",
+        "behandelingen/enkelartrose.html": "d379c58b8574fb14a3ebdf34eeed05d0e25e3b8353ba0600ec49f387f8c55428",
         "behandelingen/enkelverzwikking.html": "db9d50b6df08150aedb36eb3ca089a15995f5c0511bc5bfb462b7f2e14512037",
         "behandelingen/ganglion-enkel.html": "8d49faee883c45d2a037a5d238598c36b3ece9ec776d1cbd5a3cc92ca4108fd8",
         "behandelingen/ganglion-middenvoet.html": "4987b3503805a0097acb63a5e59b2d347926cdab46cf92c0d4c43ea53e260609",
@@ -1476,7 +1391,7 @@
         "behandelingen/ziekte-van-freiberg.html": "9e5ab638e53da4f145229d49b6fec3edfc4a718734fd98431acc722c9f87a018",
         "data/faq-placements.json": "14f601714bf8ff022077361441e325720ab02ddf810c3f8b11c37c3f663e0e0e",
         "data/faqs.json": "c80a6b3aad460b2d99b36e2dcbc3e5fde686d9e984bb4f20d61e7c673b040d38",
-        "styles.css": "4ed6b06c7780894cedca20d93cf9ffb19595e644f197edacd4be12c6dbd4e649",
+        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a",
         "tools/generate_faqs.py": "0c896b7255f8eaa9e9488887ae5e59f7ff7d1193ec1e0a4de5fa719bdeb1ceaf"
       }
     },
@@ -1500,7 +1415,7 @@
       ],
       "fingerprints": {
         "behandelingen/hallux-valgus.html": "60d0e3e4f032e5cc3210d29e7cddf97dfe8b0e4519233456d48607b1d8d61a19",
-        "styles.css": "4ed6b06c7780894cedca20d93cf9ffb19595e644f197edacd4be12c6dbd4e649"
+        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
       }
     },
     {
@@ -1527,7 +1442,7 @@
       "fingerprints": {
         "behandelingen.html": "c378269a4942673e5e604f3a98752decde9c08dbaff4f570d3c8356d1693dc07",
         "script.js": "8f40f054393d37f2df0de334b7720b7b89f8dd8de0e37d0ebbab8fe8c2d00def",
-        "styles.css": "4ed6b06c7780894cedca20d93cf9ffb19595e644f197edacd4be12c6dbd4e649"
+        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
       }
     },
     {
@@ -1888,39 +1803,39 @@
       "fingerprints": {
         "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
         "artikelen.html": "26e6eb4f35eac5896aafaadd19b91dc3fdc14775fd1ee36dfc666946dbf996d7",
-        "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html": "1079e166c22c5b7d14e80c2d43dc46506f08d64bcf5dafc823551691b9594c29",
-        "artikelen/aaos-richtlijn-enkelartrose.html": "c1f2609c98adb81444cb110fb1355c9f71e7093b812e6c0a6bc7143a508dda75",
+        "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html": "4f207ca46af6227b7bc893c59cf393a7c935097deb32213edce67ff079cb1dc5",
+        "artikelen/aaos-richtlijn-enkelartrose.html": "1eba21f311b887170a15a9f23b552cd28ebd94d23b1f86b20947f5c9752a43b2",
         "artikelen/aios-foot-education-munich.html": "a4b9cc20f0a9df59813fe76ee781bcd9e486bfb6cf1643504516c8e3f8a29087",
-        "artikelen/artrosezorg-transitie-patienten.html": "89c687d72be48854f0dba6eda229280103d1bc6596da819f584aab10189d5b5a",
-        "artikelen/artrosezorg-transitie-professionals.html": "110db2cbd78a3511a672e2fe67831fe9856fb7b3751f1f8040eb8015686fd768",
-        "artikelen/digitaal-zorgpad-artrose-obesitas.html": "2219699cd43ac2361303f3e3dd101e721f283b2be454dad130557893b93a35a8",
+        "artikelen/artrosezorg-transitie-patienten.html": "7e24898ee97ca292d6bc3950093ffa67d561a9f35fc3a0df8e04ddadbab42d74",
+        "artikelen/artrosezorg-transitie-professionals.html": "c5106b0cbf8a41a6f6572fc04a03852a39a36a86478924a6755be0d6438f7ec8",
+        "artikelen/digitaal-zorgpad-artrose-obesitas.html": "06ff6451f24170818adf203a6a12b32c683c8b25448ac917d8893d130ceb548a",
         "artikelen/footprint-quick-scan-etz-fit-follow-up.html": "bc6607a7598a84aaeb57824f60771c48e5f394ed30953e640541a1543b6748a5",
         "artikelen/footprint-quick-scan-medewerkers.html": "fc41ae4ff6babb91406048ba88ff7b9283aee838a877e9f2c1917e2ddd9c4b68",
         "artikelen/heracleum-hulpfonds-subsidie-transmuraal-tilburg-cohort.html": "e9fd313e8b47a3555a82398a2f132e0f26177909d01fb088e03125d7b1f58945",
-        "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html": "1cb88b248b31295cb1f5d5915091770a6064c5d08bc2bb42842c1a31ff595985",
-        "artikelen/kraakbeenletsel-enkel-consensus-diagnostiek.html": "c4b7f3ddb7d8cba556b6e1b79655c0f19bee1a61b1600f66810eed11276698b3",
-        "artikelen/kuitspier-en-voetpijn.html": "12d3988d4e64072b173caddc479ece50845d59032ff055538b1dbcd8202575d8",
-        "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html": "69d842426f513f4d01043414beadbfe37985c68cfc98f98d77075d96f5d46690",
+        "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html": "bf7cfd20f6ef85fac69f315a4f861b0a35816843757c21b1ecf360221f5bcc2e",
+        "artikelen/kraakbeenletsel-enkel-consensus-diagnostiek.html": "ddc74764d5adc5fd1abdeeed4b3cff2cb68dc4627f808db9a851609a92f25571",
+        "artikelen/kuitspier-en-voetpijn.html": "f51e1ac261510c90eb05939a459f2330f09e8f9446115e71d7b3b0c1340cc5e6",
+        "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html": "b06ab5da95fc9d2adfd825060ace6c28e0886f139742f025e6a95e0622a99f8f",
         "artikelen/mobility-clinic-tilburg-patienten.html": "d44aa71eb3c7739157ab6e56bf39bee754eafd9c4db924eff64b103dc0be0381",
         "artikelen/mobility-clinic-tilburg-professionals.html": "24fecc08d8034847e800da3083b14bc20e54312bc3857ca0f149629341088c16",
-        "artikelen/na-verzwikte-enkel-instabiel-blijven.html": "e8542f355c366e81001d8e2599fa6fa11bccb583c6272e42a5bb2c49c4cfb7a4",
-        "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html": "c43f97d8b0e424e009fa299038ff25c57d64fa61606e50527752d254a10621ff",
-        "artikelen/patient-specifieke-instrumentatie-voet-enkel-professionals.html": "eccaae6ba923d60d2bfe9fe434381c2821fc6d782199dbc9117a82106d9b06ee",
+        "artikelen/na-verzwikte-enkel-instabiel-blijven.html": "8116fbce2ad1b91ecc9b67b1dfd7aae10a1489b42ae19c49493784f097ded845",
+        "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html": "d2e243433e94a69fcd60dfee7f4def6870a1713c077b33af6721a8e9f5e31aea",
+        "artikelen/patient-specifieke-instrumentatie-voet-enkel-professionals.html": "bc7a55aaa29bce7036b279ed34ee872a57af382ae6ab6a22f3254b01aff01037",
         "artikelen/patientpanel-leefstijl-orthopedie.html": "d705a4edba3d2f80cf72f1ff0c5c34faa961baa809e7b3a1c40189c89f0b3c7b",
-        "artikelen/probleemgeorienteerd-denken-orthopedie-boekbijdrage.html": "c04b24ad63d1a7744e83216aa64a5cf987c04cfd571eff11d6b139615bd553c1",
-        "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html": "403ffe62cd4b164cdc80ea43f021d82cd968918ce27ab31309bffac70fc116a5",
+        "artikelen/probleemgeorienteerd-denken-orthopedie-boekbijdrage.html": "853dd75a0cd26ec333195d15810255bbe2bb3745071949af8b5cbad118119eb0",
+        "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html": "70d2f9f36ed2a54b6503eddbfd54c883d16f18aeacb2cbfc56d1ea80b646bd03",
         "artikelen/vaillant-fonds-digitaal-zorgpad.html": "80aa744665304710c15dbcca5d40f4f362babf7fe9b0837077714ec386ac0a7a",
         "artikelen/we-walk-ar-campusroute-tilburg.html": "298bc599e286e3fd975625d63450ca289acf83f6dd21d4311e4d033c7bcef1c8",
         "behandelingen.html": "c378269a4942673e5e604f3a98752decde9c08dbaff4f570d3c8356d1693dc07",
         "behandelingen/achillespeesklachten.html": "d93ec7bfad39918a1054a807fe6df0e22587345d59b28c805d8fc0798ad9fe35",
         "behandelingen/anterieur-enkel-impingement.html": "6ffc6bc8a2d20e93ef988b778d5f598c7310d6688a0523f39b7ddefe4b95dd8c",
         "behandelingen/artrose-na-breuk.html": "72a1e33ea03a4b5f6e5e92102ba1a7a156637f85785d53b2a5ec6a37c4ecb16a",
-        "behandelingen/bewegen-bij-artrose.html": "d98404770c9e406d7fb73e6585b036dca837fc79d3aadd4c965e07710e6c6681",
+        "behandelingen/bewegen-bij-artrose.html": "80336ee08add13fc83f0dd81b6748a5ff6929ba8bf25a5141742f58a422a908c",
         "behandelingen/chronische-enkelinstabiliteit.html": "d1ce3a7b74b08d6fb84b0fd3ad105f5aecc29683d3d3b019af3138414608d6c8",
         "behandelingen/corpus-liberum-enkel.html": "9718afd26385b4d84d29a640f8d33dcd24c04c4878cbd982979e68302eef9701",
-        "behandelingen/enkelartrodese.html": "be05fdd05ece8befdf8c3920d8fd483f80b6a8621e2c2ccabdafdebe7f43ea57",
-        "behandelingen/enkelartrose.html": "a756b7840597bf678f0f53a4f58a48e106d597eea8cf09211d6a46a03a4dc3df",
-        "behandelingen/enkelprothese.html": "2d3d7a9b55d88a67d6a98ee687d84bf5f42900af10736cd06de94c3e6389cd06",
+        "behandelingen/enkelartrodese.html": "b4cce94a62def6b3bec0640575015a8d31a29d2073233868750c35030046564e",
+        "behandelingen/enkelartrose.html": "d379c58b8574fb14a3ebdf34eeed05d0e25e3b8353ba0600ec49f387f8c55428",
+        "behandelingen/enkelprothese.html": "16d51e3e6b7e3ae713f2220ac34d836fdf096d3c3c16b3c9e5325b4ee80e0c37",
         "behandelingen/enkelverzwikking.html": "db9d50b6df08150aedb36eb3ca089a15995f5c0511bc5bfb462b7f2e14512037",
         "behandelingen/ganglion-enkel.html": "8d49faee883c45d2a037a5d238598c36b3ece9ec776d1cbd5a3cc92ca4108fd8",
         "behandelingen/ganglion-middenvoet.html": "4987b3503805a0097acb63a5e59b2d347926cdab46cf92c0d4c43ea53e260609",
@@ -1930,7 +1845,7 @@
         "behandelingen/hamerteen-klauwteen.html": "bd3ba08b192b3f6510fdef58655e189b837819c6450ed8de69896934cb7e9db3",
         "behandelingen/hielpijn.html": "4da53ce2ac78687ccfea151f92edfea8543e10db1148c1456f55ccecd34838cc",
         "behandelingen/holvoet-cavovarus.html": "37ddd27c8cddc8ece85d05d43a6f266225566878ac735d865b6743eb4ff08f6d",
-        "behandelingen/knieartrose.html": "7004922e14a034c365740827f4a2e5f45bff8c5a3aed135ec768fae107a09d43",
+        "behandelingen/knieartrose.html": "f564a852b29f720131fff9ff381c61ec60908d0f959c61deda4a45119112889c",
         "behandelingen/knieprothese-obesitas.html": "1c5e7747b336870f77535f87e94ffd51b2d3029140a9d7cb018a95f1214c72dc",
         "behandelingen/kraakbeenletsel-enkel.html": "86461ce9c00d789f2141d6a44de1baaaba4a3698b7a438c783c95875327d4b4a",
         "behandelingen/lisfranc-middenvoetletsel.html": "cd0b9ad9ab7577a3d58766a9cb360d9fffeaeef2e7f6f25fd9229cf43a038a8f",
@@ -1938,7 +1853,7 @@
         "behandelingen/morton-neuroom.html": "b753dbb9903e75ee3c319a7f478f1f8000eba178210433d7afda8d5a8760a55a",
         "behandelingen/mtp-1-artrodese.html": "63d1f4ba696912ee25ed58ff69b2f7bf9a1808ade45f50f3960a6fc5a27a2b4d",
         "behandelingen/mtp-plantaire-plaatklachten.html": "0433b9c753fea4aee983973f1def90a0dcbda2ddabe1ed4cb423b208805d2cf2",
-        "behandelingen/obesitas-gewrichtsklachten.html": "e837330d9d3f28868e68436758ff785222d66aaeaaf5f29749132ca343375991",
+        "behandelingen/obesitas-gewrichtsklachten.html": "56ebc428ac0a034993aeec8bf03a12abf38e99e3ac95438ffe9e501bf8d2a84d",
         "behandelingen/os-trigonum.html": "24601cacfb78e4d50fdea4598253caea28f680346332937043a6577e73421db5",
         "behandelingen/peesplaatklachten-hielspoor.html": "083daede703a1b10ee3f2069226160f00ea7598192e0bdf27b440feabc20873b",
         "behandelingen/peroneus-saltans.html": "4fce39a3b3b2764d64c3317bb2157d9bf382911cec1588b9a7578f6b9089a9e0",
@@ -2037,25 +1952,127 @@
     },
     {
       "id": "related-reading",
-      "name": "Compacte leeskaarten met miniaturen",
+      "name": "Verder lezen — compacte leeskaarten",
       "source": "behandelingen/knieprothese-obesitas.html",
       "selector": ".related-reading",
       "markers": [
         "related-reading"
       ],
       "sources": [
-        "styles.css"
+        "styles.css",
+        "assets/reading-document.svg"
       ],
-      "rule": "Opt-in variant voor bestaande Verder lezen-links. Kleine bestaande afbeelding links, titel en één oriënterende toelichting, hele kaart klikbaar en zichtbare focus. Drie kaarten onder elkaar op desktop en mobiel, licht/donker via gedeelde kleurvariabelen. Alleen toegepast op Knieprothese bij obesitas; andere leesblokken behouden hun bestaande opmaak. Geen nieuwe linkbestemmingen of medische claims.",
+      "rule": "Standaard voor thematisch Verder lezen op aandoeningen-, behandel- en artikelpagina’s. Bestaand beeld links, titel en korte toelichting ernaast, hele kaart klikbaar met zichtbare focus en pijltje. Behoud bestaande bestemmingen, inhoudelijke toelichtingen en bronlabels. Voor externe bronnen zonder passend beeld: neutraal reading-document.svg; geen logo of verzonnen medische illustratie. Eén kolom op desktop en mobiel, kleinere miniaturen op mobiel, licht/donker via gedeelde variabelen. Projectnieuws, filterbare artikeloverzichten, thematische hubingangen, nieuwsbriefbevestiging en publicatie-/bronlijsten behouden hun eigen component. Conceptpagina’s behouden hun publicatiestatus.",
       "pages": [
         {
+          "path": "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html",
+          "scope": "registered"
+        },
+        {
+          "path": "artikelen/aaos-richtlijn-enkelartrose.html",
+          "scope": "registered"
+        },
+        {
+          "path": "artikelen/artrosezorg-transitie-patienten.html",
+          "scope": "registered"
+        },
+        {
+          "path": "artikelen/artrosezorg-transitie-professionals.html",
+          "scope": "registered"
+        },
+        {
+          "path": "artikelen/digitaal-zorgpad-artrose-obesitas.html",
+          "scope": "registered"
+        },
+        {
+          "path": "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html",
+          "scope": "registered"
+        },
+        {
+          "path": "artikelen/kraakbeenletsel-enkel-consensus-diagnostiek.html",
+          "scope": "registered"
+        },
+        {
+          "path": "artikelen/kuitspier-en-voetpijn.html",
+          "scope": "registered"
+        },
+        {
+          "path": "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html",
+          "scope": "registered"
+        },
+        {
+          "path": "artikelen/na-verzwikte-enkel-instabiel-blijven.html",
+          "scope": "concept"
+        },
+        {
+          "path": "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html",
+          "scope": "registered"
+        },
+        {
+          "path": "artikelen/patient-specifieke-instrumentatie-voet-enkel-professionals.html",
+          "scope": "registered"
+        },
+        {
+          "path": "artikelen/probleemgeorienteerd-denken-orthopedie-boekbijdrage.html",
+          "scope": "registered"
+        },
+        {
+          "path": "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html",
+          "scope": "registered"
+        },
+        {
+          "path": "behandelingen/bewegen-bij-artrose.html",
+          "scope": "registered"
+        },
+        {
+          "path": "behandelingen/enkelartrodese.html",
+          "scope": "concept"
+        },
+        {
+          "path": "behandelingen/enkelartrose.html",
+          "scope": "registered"
+        },
+        {
+          "path": "behandelingen/enkelprothese.html",
+          "scope": "registered"
+        },
+        {
+          "path": "behandelingen/knieartrose.html",
+          "scope": "registered"
+        },
+        {
           "path": "behandelingen/knieprothese-obesitas.html",
+          "scope": "registered"
+        },
+        {
+          "path": "behandelingen/obesitas-gewrichtsklachten.html",
           "scope": "registered"
         }
       ],
       "fingerprints": {
+        "artikelen/8-vragen-obesitasmedicijnen-reuma-artrose.html": "4f207ca46af6227b7bc893c59cf393a7c935097deb32213edce67ff079cb1dc5",
+        "artikelen/aaos-richtlijn-enkelartrose.html": "1eba21f311b887170a15a9f23b552cd28ebd94d23b1f86b20947f5c9752a43b2",
+        "artikelen/artrosezorg-transitie-patienten.html": "7e24898ee97ca292d6bc3950093ffa67d561a9f35fc3a0df8e04ddadbab42d74",
+        "artikelen/artrosezorg-transitie-professionals.html": "c5106b0cbf8a41a6f6572fc04a03852a39a36a86478924a6755be0d6438f7ec8",
+        "artikelen/digitaal-zorgpad-artrose-obesitas.html": "06ff6451f24170818adf203a6a12b32c683c8b25448ac917d8893d130ceb548a",
+        "artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html": "bf7cfd20f6ef85fac69f315a4f861b0a35816843757c21b1ecf360221f5bcc2e",
+        "artikelen/kraakbeenletsel-enkel-consensus-diagnostiek.html": "ddc74764d5adc5fd1abdeeed4b3cff2cb68dc4627f808db9a851609a92f25571",
+        "artikelen/kuitspier-en-voetpijn.html": "f51e1ac261510c90eb05939a459f2330f09e8f9446115e71d7b3b0c1340cc5e6",
+        "artikelen/leonie-meihuizen-onderzoeker-transmuraal-tilburg-cohort.html": "b06ab5da95fc9d2adfd825060ace6c28e0886f139742f025e6a95e0622a99f8f",
+        "artikelen/na-verzwikte-enkel-instabiel-blijven.html": "8116fbce2ad1b91ecc9b67b1dfd7aae10a1489b42ae19c49493784f097ded845",
+        "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html": "d2e243433e94a69fcd60dfee7f4def6870a1713c077b33af6721a8e9f5e31aea",
+        "artikelen/patient-specifieke-instrumentatie-voet-enkel-professionals.html": "bc7a55aaa29bce7036b279ed34ee872a57af382ae6ab6a22f3254b01aff01037",
+        "artikelen/probleemgeorienteerd-denken-orthopedie-boekbijdrage.html": "853dd75a0cd26ec333195d15810255bbe2bb3745071949af8b5cbad118119eb0",
+        "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html": "70d2f9f36ed2a54b6503eddbfd54c883d16f18aeacb2cbfc56d1ea80b646bd03",
+        "assets/reading-document.svg": "8c8895d264cfa0d5b80f1ff7a3426eff27a8a698ff7e69247f39f00440078575",
+        "behandelingen/bewegen-bij-artrose.html": "80336ee08add13fc83f0dd81b6748a5ff6929ba8bf25a5141742f58a422a908c",
+        "behandelingen/enkelartrodese.html": "b4cce94a62def6b3bec0640575015a8d31a29d2073233868750c35030046564e",
+        "behandelingen/enkelartrose.html": "d379c58b8574fb14a3ebdf34eeed05d0e25e3b8353ba0600ec49f387f8c55428",
+        "behandelingen/enkelprothese.html": "16d51e3e6b7e3ae713f2220ac34d836fdf096d3c3c16b3c9e5325b4ee80e0c37",
+        "behandelingen/knieartrose.html": "f564a852b29f720131fff9ff381c61ec60908d0f959c61deda4a45119112889c",
         "behandelingen/knieprothese-obesitas.html": "1c5e7747b336870f77535f87e94ffd51b2d3029140a9d7cb018a95f1214c72dc",
-        "styles.css": "4ed6b06c7780894cedca20d93cf9ffb19595e644f197edacd4be12c6dbd4e649"
+        "behandelingen/obesitas-gewrichtsklachten.html": "56ebc428ac0a034993aeec8bf03a12abf38e99e3ac95438ffe9e501bf8d2a84d",
+        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
       }
     }
   ]

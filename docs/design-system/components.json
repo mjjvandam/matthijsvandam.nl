@@ -272,16 +272,17 @@
     },
     {
       "id": "related-reading",
-      "name": "Compacte leeskaarten met miniaturen",
+      "name": "Verder lezen — compacte leeskaarten",
       "source": "behandelingen/knieprothese-obesitas.html",
       "selector": ".related-reading",
       "markers": [
         "related-reading"
       ],
       "sources": [
-        "styles.css"
+        "styles.css",
+        "assets/reading-document.svg"
       ],
-      "rule": "Opt-in variant voor bestaande Verder lezen-links. Kleine bestaande afbeelding links, titel en één oriënterende toelichting, hele kaart klikbaar en zichtbare focus. Drie kaarten onder elkaar op desktop en mobiel, licht/donker via gedeelde kleurvariabelen. Alleen toegepast op Knieprothese bij obesitas; andere leesblokken behouden hun bestaande opmaak. Geen nieuwe linkbestemmingen of medische claims."
+      "rule": "Standaard voor thematisch Verder lezen op aandoeningen-, behandel- en artikelpagina’s. Bestaand beeld links, titel en korte toelichting ernaast, hele kaart klikbaar met zichtbare focus en pijltje. Behoud bestaande bestemmingen, inhoudelijke toelichtingen en bronlabels. Voor externe bronnen zonder passend beeld: neutraal reading-document.svg; geen logo of verzonnen medische illustratie. Eén kolom op desktop en mobiel, kleinere miniaturen op mobiel, licht/donker via gedeelde variabelen. Projectnieuws, filterbare artikeloverzichten, thematische hubingangen, nieuwsbriefbevestiging en publicatie-/bronlijsten behouden hun eigen component. Conceptpagina’s behouden hun publicatiestatus."
     }
   ]
 }
