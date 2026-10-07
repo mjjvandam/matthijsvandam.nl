@@ -284,12 +284,12 @@
     },
     {
       "path": "behandelingen/knieprothese-obesitas.html",
-      "title": "Knieprothese bij obesitas | drs. Matthijs van Dam",
+      "title": "Knieprothese en obesitas | Matthijs van Dam",
       "spoor": "patientinformatie",
       "verification_status": "geverifieerd",
       "verified_by": "Matthijs van Dam",
-      "verified_on": "2026-10-03",
-      "review_notes": "De volledige patiëntgerichte pagina over een knieprothese bij obesitas is op 3 oktober 2026 door Matthijs gereviewd en inhoudelijk akkoord bevonden. De tekst is vanuit zijn perspectief geschreven en bespreekt in begrijpelijke taal de gezamenlijke afweging rond klachten, risico's, voorbereiding, gewichtsbehandeling en timing. Robots, sitemap, Vercel-uitzondering, interne links en klikbare kaarten zijn lokaal op publicatie voorbereid. Commit, push, deployment en liveverificatie zijn nog niet uitgevoerd. Op 7 oktober 2026 heeft Matthijs het ontwerpvoorstel voor drie compacte leeskaarten met bestaande miniaturen, korte toelichtingen en dezelfde linkbestemmingen goedgekeurd en expliciet opdracht gegeven dit live te zetten. De medische hoofdtekst en inhoudelijke reviewdatum blijven ongewijzigd."
+      "verified_on": "2026-10-07",
+      "review_notes": "De volledige patiëntgerichte pagina over een knieprothese bij obesitas is op 3 oktober 2026 door Matthijs gereviewd en inhoudelijk akkoord bevonden. De tekst is vanuit zijn perspectief geschreven en bespreekt in begrijpelijke taal de gezamenlijke afweging rond klachten, risico's, voorbereiding, gewichtsbehandeling en timing. Robots, sitemap, Vercel-uitzondering, interne links en klikbare kaarten zijn lokaal op publicatie voorbereid. Commit, push, deployment en liveverificatie zijn nog niet uitgevoerd. Op 7 oktober 2026 heeft Matthijs het ontwerpvoorstel voor drie compacte leeskaarten met bestaande miniaturen, korte toelichtingen en dezelfde linkbestemmingen goedgekeurd en expliciet opdracht gegeven dit live te zetten. De medische hoofdtekst en inhoudelijke reviewdatum blijven ongewijzigd. 7 oktober 2026: op verzoek van Matthijs lokaal inhoudelijk herschreven als algemene uitleg over knieprothese en voorafgaande obesitasbehandeling (leefstijl, medicatie, bariatrische chirurgie, risico’s en timing). Drie bestaande leeskaarten behouden; verdieping via gerichte verwijzingen. Naar aanleiding van verdere redactie door Matthijs is de nadruk verlegd naar kniezorg en obesitaszorg als samenhangende aanpak; volgorde is een onderdeel van de afweging. Eerdere goedkeuring geldt als historische review van de vorige tekst, niet van deze herziening. Nieuw medisch akkoord en publicatie staan open; geen push of deployment uitgevoerd. 7 oktober 2026: Matthijs geeft na de volledige redactie expliciet inhoudelijk akkoord en opdracht tot livegang: “ok zet live, review is dus akkord”. Akkoord geldt voor de definitieve pagina inclusief BMI-afweging en algemene richtlijnduiding na bariatrische chirurgie zonder vaste wachttijd. Publicatie en livecontrole volgen via gerichte pagina-release."
     },
     {
       "path": "behandelingen/obesitas-gewrichtsklachten.html",
