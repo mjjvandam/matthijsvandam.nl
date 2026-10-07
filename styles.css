@@ -4522,6 +4522,46 @@ body:has(.home-story) .site-header .theme-toggle {
   border-top: 1px solid var(--line);
 }
 
+/* Compacte leeskaarten: bestaande beelden en routes, opt-in per leesblok. */
+.related-reading-list {
+  display: grid;
+  gap: 12px;
+  margin-top: 24px;
+}
+.related-reading .related-reading-card {
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 18px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--paper);
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 400;
+}
+.related-reading-card img {
+  display: block;
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.related-reading-copy { display: grid; gap: 6px; min-width: 0; }
+.related-reading-copy strong { color: var(--green); font-size: 1.05rem; line-height: 1.35; }
+.related-reading-copy > span { color: var(--muted); font-size: .92rem; line-height: 1.5; }
+.related-reading-arrow { color: var(--green); font-size: 1.35rem; }
+.related-reading-card:hover { border-color: var(--green); }
+.related-reading-card:hover strong { text-decoration: underline; text-underline-offset: 3px; }
+.related-reading-card:focus-visible { outline: 3px solid var(--green); outline-offset: 4px; }
+@media (max-width: 600px) {
+  .related-reading .related-reading-card { grid-template-columns: 64px minmax(0, 1fr) auto; gap: 12px; padding: 12px; }
+  .related-reading-card img { width: 64px; height: 64px; }
+  .related-reading-copy strong { font-size: 1rem; }
+  .related-reading-copy > span { font-size: .88rem; }
+}
+
 .treatment-related-section {
   width: 100%;
   max-width: 1180px;

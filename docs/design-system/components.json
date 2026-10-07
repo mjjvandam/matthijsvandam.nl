@@ -269,6 +269,19 @@
         "concepten/voet-enkel-loopverhaal/renderer.mjs"
       ],
       "rule": "Pagina-eigen koelwit/diepblauw concept op expliciet verzoek. Scrollgestuurde illustratie, 42/58 op desktop; mobiel een klein sticky toneel. Statische leesversie zonder JavaScript, bij verminderde beweging of lage vensters. Geen gedeelde sitecomponent, geen publicatie of medische verificatie. Anatomische vergroting en windlassschema houden dezelfde oriëntatie en kleuren: eerst afleiden, dan verplaatsen, dan bewegen. Mobiel kortere labels; geen automatische animatielus."
+    },
+    {
+      "id": "related-reading",
+      "name": "Compacte leeskaarten met miniaturen",
+      "source": "behandelingen/knieprothese-obesitas.html",
+      "selector": ".related-reading",
+      "markers": [
+        "related-reading"
+      ],
+      "sources": [
+        "styles.css"
+      ],
+      "rule": "Opt-in variant voor bestaande Verder lezen-links. Kleine bestaande afbeelding links, titel en één oriënterende toelichting, hele kaart klikbaar en zichtbare focus. Drie kaarten onder elkaar op desktop en mobiel, licht/donker via gedeelde kleurvariabelen. Alleen toegepast op Knieprothese bij obesitas; andere leesblokken behouden hun bestaande opmaak. Geen nieuwe linkbestemmingen of medische claims."
     }
   ]
 }
