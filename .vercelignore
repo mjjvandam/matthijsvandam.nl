@@ -33,3 +33,5 @@ tools/
 codex-skills/
 *.md
 PUBLICATIE_REGISTER.json
+
+!behandelingen/kraakbeenletsel-enkel.html

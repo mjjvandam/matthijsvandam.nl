@@ -805,6 +805,15 @@
         "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
         "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
       }
+    },
+    {
+      "path": "behandelingen/kraakbeenletsel-enkel.html",
+      "title": "Kraakbeenletsel van de enkel: osteochondraal letsel",
+      "spoor": "patientinformatie",
+      "verification_status": "geverifieerd",
+      "verified_by": "Matthijs van Dam",
+      "verified_on": "2026-10-08",
+      "review_notes": "Tekst, FAQ en beelden iteratief beoordeeld en op 8 oktober 2026 vrijgegeven door Matthijs met “zet live”. Conceptlinks en lokale pijnwijzersectie verwijderd. Liveverificatie volgt."
     }
   ]
 }

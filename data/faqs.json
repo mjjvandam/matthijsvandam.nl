@@ -1883,7 +1883,7 @@
     "kraakbeenletsel-enkel-wat-is-kraakbeenletsel-van-de-enkel": {
       "id": "kraakbeenletsel-enkel-wat-is-kraakbeenletsel-van-de-enkel",
       "question": "Wat is kraakbeenletsel van de enkel?",
-      "answerHtml": "<p>\n  Kraakbeenletsel van de enkel gaat vaak over een lokale beschadiging van kraakbeen en\n  onderliggend bot, meestal in het sprongbeen. Dit wordt ook wel een osteochondraal letsel of\n  osteochondrale laesie genoemd.\n</p>",
+      "answerHtml": "<p>\n  Kraakbeen is de gladde bekleding van het gewricht. Bij kraakbeenletsel van de enkel is een plek in deze bekleding beschadigd, vaak samen met het bot eronder. Meestal zit het letsel in het sprongbeen.\n</p>",
       "audience": "patient",
       "topics": [
         "kraakbeenletsel-enkel"
@@ -1891,14 +1891,14 @@
       "primaryPage": "behandelingen/kraakbeenletsel-enkel.html",
       "anchor": "faq-kraakbeenletsel-enkel-wat-is-kraakbeenletsel-van-de-enkel",
       "sourceRefs": [],
-      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-10-08",
       "reusePolicy": "page-specific"
     },
     "kraakbeenletsel-enkel-kan-kraakbeenletsel-ontstaan-na-een-enkelverzwikking": {
       "id": "kraakbeenletsel-enkel-kan-kraakbeenletsel-ontstaan-na-een-enkelverzwikking",
-      "question": "Kan kraakbeenletsel ontstaan na een enkelverzwikking?",
-      "answerHtml": "<p>\n  Ja. Kraakbeen-botletsel kan ontstaan na een enkelverzwikking of ander trauma. Aanhoudende\n  diepe pijn, zwelling na belasting of haperen na een verzwikking kan reden zijn om verder te\n  kijken.\n</p>",
+      "question": "Kan kraakbeenletsel van de enkel ontstaan na een verzwikking?",
+      "answerHtml": "<p>\n  Ja, bij een verzwikking kunnen het kraakbeen en het bot eronder beschadigd raken. Blijven pijn en zwelling bestaan na een verzwikking, dan kan verder onderzoek zinvol zijn.\n</p>",
       "audience": "patient",
       "topics": [
         "kraakbeenletsel-enkel"
@@ -1906,14 +1906,14 @@
       "primaryPage": "behandelingen/kraakbeenletsel-enkel.html",
       "anchor": "faq-kraakbeenletsel-enkel-kan-kraakbeenletsel-ontstaan-na-een-enkelverzwikking",
       "sourceRefs": [],
-      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-10-08",
       "reusePolicy": "page-specific"
     },
     "kraakbeenletsel-enkel-welke-klachten-passen-erbij": {
       "id": "kraakbeenletsel-enkel-welke-klachten-passen-erbij",
-      "question": "Welke klachten passen erbij?",
-      "answerHtml": "<p>\n  Klachten kunnen bestaan uit diepe enkelpijn, zwelling na belasting, haperen, blokkeren,\n  onzekerheid, pijn bij sport of pijn die niet past bij het gewone herstel na een verzwikking.\n</p>",
+      "question": "Welke klachten kan kraakbeenletsel van de enkel geven?",
+      "answerHtml": "<p>\n  Kraakbeenletsel kan diepe pijn in de enkel en zwelling na bewegen geven. Soms hapert of blokkeert de enkel. Deze klachten kunnen ook andere oorzaken hebben.\n</p>",
       "audience": "patient",
       "topics": [
         "kraakbeenletsel-enkel"
@@ -1921,14 +1921,14 @@
       "primaryPage": "behandelingen/kraakbeenletsel-enkel.html",
       "anchor": "faq-kraakbeenletsel-enkel-welke-klachten-passen-erbij",
       "sourceRefs": [],
-      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-10-08",
       "reusePolicy": "page-specific"
     },
     "kraakbeenletsel-enkel-wat-is-het-verschil-met-enkelartrose": {
       "id": "kraakbeenletsel-enkel-wat-is-het-verschil-met-enkelartrose",
-      "question": "Wat is het verschil met enkelartrose?",
-      "answerHtml": "<p>\n  Kraakbeenletsel is vaak een lokale beschadiging van kraakbeen en bot. Enkelartrose gaat meer\n  over bredere gewrichtsverandering met stijfheid, gewrichtsspleetversmalling en soms\n  standverandering. Beide kunnen wel samen voorkomen.\n</p>",
+      "question": "Wat is het verschil tussen kraakbeenletsel van de enkel en enkelartrose?",
+      "answerHtml": "<p>\n  Bij kraakbeenletsel is meestal één plek in het kraakbeen en het bot eronder beschadigd. Bij enkelartrose zijn de veranderingen uitgebreider en kunnen ook andere delen van het gewricht betrokken zijn. Beide kunnen samen voorkomen.\n</p>",
       "audience": "patient",
       "topics": [
         "kraakbeenletsel-enkel"
@@ -1936,14 +1936,14 @@
       "primaryPage": "behandelingen/kraakbeenletsel-enkel.html",
       "anchor": "faq-kraakbeenletsel-enkel-wat-is-het-verschil-met-enkelartrose",
       "sourceRefs": [],
-      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-10-08",
       "reusePolicy": "page-specific"
     },
     "kraakbeenletsel-enkel-wat-kan-erop-lijken": {
       "id": "kraakbeenletsel-enkel-wat-kan-erop-lijken",
-      "question": "Wat kan erop lijken?",
-      "answerHtml": "<p>\n  Corpus liberum, enkelartrose, anterieur of posterieur impingement, chronische\n  enkelinstabiliteit, syndesmoseletsel, peesklachten, sinus tarsi-klachten, stressletsel,\n  jicht of infectie kunnen erop lijken of ermee samengaan.\n</p>",
+      "question": "Welke andere enkelklachten kunnen lijken op kraakbeenletsel?",
+      "answerHtml": "<p>\n  Een inklemming aan de voor- of achterzijde van de enkel kan vergelijkbare pijn geven. Onderzoek helpt om te beoordelen waar de klachten vandaan komen.\n</p>",
       "audience": "patient",
       "topics": [
         "kraakbeenletsel-enkel"
@@ -1951,15 +1951,15 @@
       "primaryPage": "behandelingen/kraakbeenletsel-enkel.html",
       "anchor": "faq-kraakbeenletsel-enkel-wat-kan-erop-lijken",
       "sourceRefs": [],
-      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-10-08",
       "reusePolicy": "page-specific",
       "duplicateReviewStatus": "reviewed-page-specific-2026-08-26"
     },
     "kraakbeenletsel-enkel-wanneer-is-mri-of-ct-zinvol": {
       "id": "kraakbeenletsel-enkel-wanneer-is-mri-of-ct-zinvol",
-      "question": "Wanneer is MRI of CT zinvol?",
-      "answerHtml": "<p>\n  MRI kan kraakbeen, botreactie, beenmergoedeem en weke delen beoordelen. CT kan botdetail,\n  cyste, fragment, grootte en operatieplanning verduidelijken. Beeldvorming moet altijd passen\n  bij verhaal en onderzoek.\n</p>",
+      "question": "Wanneer is een MRI of CT zinvol bij kraakbeenletsel van de enkel?",
+      "answerHtml": "<p>\n  Een MRI kan het kraakbeen en het bot eronder in beeld brengen. Een CT laat de vorm van het bot nauwkeuriger zien. Welke scan zinvol is, hangt af van de klachten en het lichamelijk onderzoek.\n</p>",
       "audience": "patient",
       "topics": [
         "kraakbeenletsel-enkel"
@@ -1967,14 +1967,14 @@
       "primaryPage": "behandelingen/kraakbeenletsel-enkel.html",
       "anchor": "faq-kraakbeenletsel-enkel-wanneer-is-mri-of-ct-zinvol",
       "sourceRefs": [],
-      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-10-08",
       "reusePolicy": "page-specific"
     },
     "kraakbeenletsel-enkel-kan-kraakbeenletsel-zonder-operatie-herstellen": {
       "id": "kraakbeenletsel-enkel-kan-kraakbeenletsel-zonder-operatie-herstellen",
-      "question": "Kan kraakbeenletsel zonder operatie herstellen?",
-      "answerHtml": "<p>\n  Dat hangt af van grootte, stabiliteit, klachten, leeftijd, botreactie, los fragment,\n  belasting en bijkomende problemen. Soms worden belasting aanpassen, tijdelijke bescherming\n  en fysiotherapie besproken.\n</p>",
+      "question": "Kan kraakbeenletsel van de enkel zonder operatie herstellen?",
+      "answerHtml": "<p>\n  Een operatie is niet altijd nodig. Door de belasting tijdelijk aan te passen en met begeleiding van een fysiotherapeut weer op te bouwen, kunnen de klachten verminderen. Dat betekent niet altijd dat het beschadigde kraakbeen volledig herstelt.\n</p>",
       "audience": "patient",
       "topics": [
         "kraakbeenletsel-enkel"
@@ -1982,14 +1982,14 @@
       "primaryPage": "behandelingen/kraakbeenletsel-enkel.html",
       "anchor": "faq-kraakbeenletsel-enkel-kan-kraakbeenletsel-zonder-operatie-herstellen",
       "sourceRefs": [],
-      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-10-08",
       "reusePolicy": "page-specific"
     },
     "kraakbeenletsel-enkel-wanneer-komt-een-operatie-in-beeld": {
       "id": "kraakbeenletsel-enkel-wanneer-komt-een-operatie-in-beeld",
-      "question": "Wanneer komt een operatie in beeld?",
-      "answerHtml": "<p>\n  Operatie wordt alleen geselecteerd besproken bij aanhoudende klachten, mechanische klachten,\n  los fragment, instabiel letsel of onvoldoende herstel. Mogelijkheden hangen af van het letsel\n  en kunnen arthroscopie, microfracture, fixatie, botvulling of kraakbeen-botprocedures omvatten.\n</p>",
+      "question": "Wanneer is een operatie bij kraakbeenletsel van de enkel een optie?",
+      "answerHtml": "<p>\n  Als pijn en beperkingen blijven bestaan ondanks behandeling, kan een orthopedisch chirurg beoordelen of een operatie zinvol is. Soms kan het letsel worden behandeld via een kijkoperatie. Welke behandeling past, hangt af van het letsel en de klachten.\n</p>",
       "audience": "patient",
       "topics": [
         "kraakbeenletsel-enkel"
@@ -1997,8 +1997,8 @@
       "primaryPage": "behandelingen/kraakbeenletsel-enkel.html",
       "anchor": "faq-kraakbeenletsel-enkel-wanneer-komt-een-operatie-in-beeld",
       "sourceRefs": [],
-      "medicalReviewStatus": "opgewaardeerd, medische review nodig",
-      "reviewedAt": null,
+      "medicalReviewStatus": "medisch akkoord",
+      "reviewedAt": "2026-10-08",
       "reusePolicy": "page-specific",
       "duplicateReviewStatus": "reviewed-page-specific-2026-08-26",
       "nearDuplicateReviewStatus": "reviewed-page-specific-2026-08-26"

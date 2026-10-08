@@ -207,7 +207,7 @@
         },
         {
           "path": "behandelingen/kraakbeenletsel-enkel.html",
-          "scope": "concept"
+          "scope": "registered"
         },
         {
           "path": "behandelingen/lisfranc-middenvoetletsel.html",
@@ -393,7 +393,7 @@
         "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html": "70d2f9f36ed2a54b6503eddbfd54c883d16f18aeacb2cbfc56d1ea80b646bd03",
         "artikelen/vaillant-fonds-digitaal-zorgpad.html": "80aa744665304710c15dbcca5d40f4f362babf7fe9b0837077714ec386ac0a7a",
         "artikelen/we-walk-ar-campusroute-tilburg.html": "298bc599e286e3fd975625d63450ca289acf83f6dd21d4311e4d033c7bcef1c8",
-        "behandelingen.html": "c378269a4942673e5e604f3a98752decde9c08dbaff4f570d3c8356d1693dc07",
+        "behandelingen.html": "1b7d1a5956363231528ca0a01ae87c51d6dfd0e7107655b9035b76cb0f962d00",
         "behandelingen/achillespeesklachten.html": "d93ec7bfad39918a1054a807fe6df0e22587345d59b28c805d8fc0798ad9fe35",
         "behandelingen/anterieur-enkel-impingement.html": "6ffc6bc8a2d20e93ef988b778d5f598c7310d6688a0523f39b7ddefe4b95dd8c",
         "behandelingen/artrose-na-breuk.html": "72a1e33ea03a4b5f6e5e92102ba1a7a156637f85785d53b2a5ec6a37c4ecb16a",
@@ -413,8 +413,8 @@
         "behandelingen/hielpijn.html": "4da53ce2ac78687ccfea151f92edfea8543e10db1148c1456f55ccecd34838cc",
         "behandelingen/holvoet-cavovarus.html": "37ddd27c8cddc8ece85d05d43a6f266225566878ac735d865b6743eb4ff08f6d",
         "behandelingen/knieartrose.html": "f564a852b29f720131fff9ff381c61ec60908d0f959c61deda4a45119112889c",
-        "behandelingen/knieprothese-obesitas.html": "1c5e7747b336870f77535f87e94ffd51b2d3029140a9d7cb018a95f1214c72dc",
-        "behandelingen/kraakbeenletsel-enkel.html": "86461ce9c00d789f2141d6a44de1baaaba4a3698b7a438c783c95875327d4b4a",
+        "behandelingen/knieprothese-obesitas.html": "85d291ec90106cc4781730763e94be0b9fb761aeb163dd19e6958ced6990c83d",
+        "behandelingen/kraakbeenletsel-enkel.html": "d81a5620f9a022b73e443979a5514b01426817ac7becf6cab43bb7db61632d7c",
         "behandelingen/lisfranc-middenvoetletsel.html": "cd0b9ad9ab7577a3d58766a9cb360d9fffeaeef2e7f6f25fd9229cf43a038a8f",
         "behandelingen/metatarsalgie.html": "8bed05dbcf4b7e1183cc1ff2a520a3947c2c414e6b633ea6114c9758b4fbad3e",
         "behandelingen/morton-neuroom.html": "b753dbb9903e75ee3c319a7f478f1f8000eba178210433d7afda8d5a8760a55a",
@@ -684,7 +684,7 @@
       "fingerprints": {
         "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
         "artikelen.html": "26e6eb4f35eac5896aafaadd19b91dc3fdc14775fd1ee36dfc666946dbf996d7",
-        "behandelingen.html": "c378269a4942673e5e604f3a98752decde9c08dbaff4f570d3c8356d1693dc07",
+        "behandelingen.html": "1b7d1a5956363231528ca0a01ae87c51d6dfd0e7107655b9035b76cb0f962d00",
         "content.js": "aa9cab39cbf25bfc51dd53ca68c2f4c7c8aab2b2139dbad186007647d8f2e0b9",
         "index.html": "0991ac2a5d0c54465cf6d8fdbdb9ed32b814ae40be3ac4a2c71ed368345e70f3",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
@@ -894,7 +894,7 @@
         },
         {
           "path": "behandelingen/kraakbeenletsel-enkel.html",
-          "scope": "concept"
+          "scope": "registered"
         },
         {
           "path": "behandelingen/lisfranc-middenvoetletsel.html",
@@ -1047,8 +1047,8 @@
         "behandelingen/hielpijn.html": "4da53ce2ac78687ccfea151f92edfea8543e10db1148c1456f55ccecd34838cc",
         "behandelingen/holvoet-cavovarus.html": "37ddd27c8cddc8ece85d05d43a6f266225566878ac735d865b6743eb4ff08f6d",
         "behandelingen/knieartrose.html": "f564a852b29f720131fff9ff381c61ec60908d0f959c61deda4a45119112889c",
-        "behandelingen/knieprothese-obesitas.html": "1c5e7747b336870f77535f87e94ffd51b2d3029140a9d7cb018a95f1214c72dc",
-        "behandelingen/kraakbeenletsel-enkel.html": "86461ce9c00d789f2141d6a44de1baaaba4a3698b7a438c783c95875327d4b4a",
+        "behandelingen/knieprothese-obesitas.html": "85d291ec90106cc4781730763e94be0b9fb761aeb163dd19e6958ced6990c83d",
+        "behandelingen/kraakbeenletsel-enkel.html": "d81a5620f9a022b73e443979a5514b01426817ac7becf6cab43bb7db61632d7c",
         "behandelingen/lisfranc-middenvoetletsel.html": "cd0b9ad9ab7577a3d58766a9cb360d9fffeaeef2e7f6f25fd9229cf43a038a8f",
         "behandelingen/metatarsalgie.html": "8bed05dbcf4b7e1183cc1ff2a520a3947c2c414e6b633ea6114c9758b4fbad3e",
         "behandelingen/morton-neuroom.html": "b753dbb9903e75ee3c319a7f478f1f8000eba178210433d7afda8d5a8760a55a",
@@ -1263,7 +1263,7 @@
         },
         {
           "path": "behandelingen/kraakbeenletsel-enkel.html",
-          "scope": "concept"
+          "scope": "registered"
         },
         {
           "path": "behandelingen/lisfranc-middenvoetletsel.html",
@@ -1367,7 +1367,7 @@
         "behandelingen/hamerteen-klauwteen.html": "bd3ba08b192b3f6510fdef58655e189b837819c6450ed8de69896934cb7e9db3",
         "behandelingen/hielpijn.html": "4da53ce2ac78687ccfea151f92edfea8543e10db1148c1456f55ccecd34838cc",
         "behandelingen/holvoet-cavovarus.html": "37ddd27c8cddc8ece85d05d43a6f266225566878ac735d865b6743eb4ff08f6d",
-        "behandelingen/kraakbeenletsel-enkel.html": "86461ce9c00d789f2141d6a44de1baaaba4a3698b7a438c783c95875327d4b4a",
+        "behandelingen/kraakbeenletsel-enkel.html": "d81a5620f9a022b73e443979a5514b01426817ac7becf6cab43bb7db61632d7c",
         "behandelingen/lisfranc-middenvoetletsel.html": "cd0b9ad9ab7577a3d58766a9cb360d9fffeaeef2e7f6f25fd9229cf43a038a8f",
         "behandelingen/metatarsalgie.html": "8bed05dbcf4b7e1183cc1ff2a520a3947c2c414e6b633ea6114c9758b4fbad3e",
         "behandelingen/morton-neuroom.html": "b753dbb9903e75ee3c319a7f478f1f8000eba178210433d7afda8d5a8760a55a",
@@ -1390,7 +1390,7 @@
         "behandelingen/voorvoetcorrectie.html": "75ee1324af112a1277fbda6ff70781c7200029ed9bc69a8d935a9077a4f30ea3",
         "behandelingen/ziekte-van-freiberg.html": "9e5ab638e53da4f145229d49b6fec3edfc4a718734fd98431acc722c9f87a018",
         "data/faq-placements.json": "14f601714bf8ff022077361441e325720ab02ddf810c3f8b11c37c3f663e0e0e",
-        "data/faqs.json": "c80a6b3aad460b2d99b36e2dcbc3e5fde686d9e984bb4f20d61e7c673b040d38",
+        "data/faqs.json": "5c9434ada9529cc8b3735ea097a9b2ad21b9baa1d9d2b583b6ef179aff77769d",
         "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a",
         "tools/generate_faqs.py": "0c896b7255f8eaa9e9488887ae5e59f7ff7d1193ec1e0a4de5fa719bdeb1ceaf"
       }
@@ -1440,7 +1440,7 @@
         }
       ],
       "fingerprints": {
-        "behandelingen.html": "c378269a4942673e5e604f3a98752decde9c08dbaff4f570d3c8356d1693dc07",
+        "behandelingen.html": "1b7d1a5956363231528ca0a01ae87c51d6dfd0e7107655b9035b76cb0f962d00",
         "script.js": "8f40f054393d37f2df0de334b7720b7b89f8dd8de0e37d0ebbab8fe8c2d00def",
         "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
       }
@@ -1641,7 +1641,7 @@
         },
         {
           "path": "behandelingen/kraakbeenletsel-enkel.html",
-          "scope": "concept"
+          "scope": "registered"
         },
         {
           "path": "behandelingen/lisfranc-middenvoetletsel.html",
@@ -1826,7 +1826,7 @@
         "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html": "70d2f9f36ed2a54b6503eddbfd54c883d16f18aeacb2cbfc56d1ea80b646bd03",
         "artikelen/vaillant-fonds-digitaal-zorgpad.html": "80aa744665304710c15dbcca5d40f4f362babf7fe9b0837077714ec386ac0a7a",
         "artikelen/we-walk-ar-campusroute-tilburg.html": "298bc599e286e3fd975625d63450ca289acf83f6dd21d4311e4d033c7bcef1c8",
-        "behandelingen.html": "c378269a4942673e5e604f3a98752decde9c08dbaff4f570d3c8356d1693dc07",
+        "behandelingen.html": "1b7d1a5956363231528ca0a01ae87c51d6dfd0e7107655b9035b76cb0f962d00",
         "behandelingen/achillespeesklachten.html": "d93ec7bfad39918a1054a807fe6df0e22587345d59b28c805d8fc0798ad9fe35",
         "behandelingen/anterieur-enkel-impingement.html": "6ffc6bc8a2d20e93ef988b778d5f598c7310d6688a0523f39b7ddefe4b95dd8c",
         "behandelingen/artrose-na-breuk.html": "72a1e33ea03a4b5f6e5e92102ba1a7a156637f85785d53b2a5ec6a37c4ecb16a",
@@ -1846,8 +1846,8 @@
         "behandelingen/hielpijn.html": "4da53ce2ac78687ccfea151f92edfea8543e10db1148c1456f55ccecd34838cc",
         "behandelingen/holvoet-cavovarus.html": "37ddd27c8cddc8ece85d05d43a6f266225566878ac735d865b6743eb4ff08f6d",
         "behandelingen/knieartrose.html": "f564a852b29f720131fff9ff381c61ec60908d0f959c61deda4a45119112889c",
-        "behandelingen/knieprothese-obesitas.html": "1c5e7747b336870f77535f87e94ffd51b2d3029140a9d7cb018a95f1214c72dc",
-        "behandelingen/kraakbeenletsel-enkel.html": "86461ce9c00d789f2141d6a44de1baaaba4a3698b7a438c783c95875327d4b4a",
+        "behandelingen/knieprothese-obesitas.html": "85d291ec90106cc4781730763e94be0b9fb761aeb163dd19e6958ced6990c83d",
+        "behandelingen/kraakbeenletsel-enkel.html": "d81a5620f9a022b73e443979a5514b01426817ac7becf6cab43bb7db61632d7c",
         "behandelingen/lisfranc-middenvoetletsel.html": "cd0b9ad9ab7577a3d58766a9cb360d9fffeaeef2e7f6f25fd9229cf43a038a8f",
         "behandelingen/metatarsalgie.html": "8bed05dbcf4b7e1183cc1ff2a520a3947c2c414e6b633ea6114c9758b4fbad3e",
         "behandelingen/morton-neuroom.html": "b753dbb9903e75ee3c319a7f478f1f8000eba178210433d7afda8d5a8760a55a",
@@ -2070,7 +2070,7 @@
         "behandelingen/enkelartrose.html": "d379c58b8574fb14a3ebdf34eeed05d0e25e3b8353ba0600ec49f387f8c55428",
         "behandelingen/enkelprothese.html": "16d51e3e6b7e3ae713f2220ac34d836fdf096d3c3c16b3c9e5325b4ee80e0c37",
         "behandelingen/knieartrose.html": "f564a852b29f720131fff9ff381c61ec60908d0f959c61deda4a45119112889c",
-        "behandelingen/knieprothese-obesitas.html": "1c5e7747b336870f77535f87e94ffd51b2d3029140a9d7cb018a95f1214c72dc",
+        "behandelingen/knieprothese-obesitas.html": "85d291ec90106cc4781730763e94be0b9fb761aeb163dd19e6958ced6990c83d",
         "behandelingen/obesitas-gewrichtsklachten.html": "56ebc428ac0a034993aeec8bf03a12abf38e99e3ac95438ffe9e501bf8d2a84d",
         "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
       }

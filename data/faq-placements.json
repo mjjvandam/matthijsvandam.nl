@@ -638,7 +638,7 @@
       "headingId": "faq-title",
       "heading": "Veelgestelde vragen",
       "schema": true,
-      "publicationScope": "concept",
+      "publicationScope": "public",
       "items": [
         {
           "id": "kraakbeenletsel-enkel-wat-is-kraakbeenletsel-van-de-enkel",
