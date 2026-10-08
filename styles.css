@@ -7385,3 +7385,8 @@ body:has(.home-story) .site-header .theme-toggle {
 #sib-form-container .sib-form-message-panel.sib-form-message-panel--active {
   display: block !important;
 }
+
+/* Leeslinks op de lichte expertise-kaarten volgen de tekstkleur, ook in donker thema. */
+.expertise-card .expertise-card-link {
+  color: var(--ink);
+}

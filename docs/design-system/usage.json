@@ -393,7 +393,7 @@
         "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html": "70d2f9f36ed2a54b6503eddbfd54c883d16f18aeacb2cbfc56d1ea80b646bd03",
         "artikelen/vaillant-fonds-digitaal-zorgpad.html": "80aa744665304710c15dbcca5d40f4f362babf7fe9b0837077714ec386ac0a7a",
         "artikelen/we-walk-ar-campusroute-tilburg.html": "298bc599e286e3fd975625d63450ca289acf83f6dd21d4311e4d033c7bcef1c8",
-        "behandelingen.html": "1b7d1a5956363231528ca0a01ae87c51d6dfd0e7107655b9035b76cb0f962d00",
+        "behandelingen.html": "9320b92b3487919e93c8031ef08087f3006395489d4cc78d0bd25f3f077bc55a",
         "behandelingen/achillespeesklachten.html": "d93ec7bfad39918a1054a807fe6df0e22587345d59b28c805d8fc0798ad9fe35",
         "behandelingen/anterieur-enkel-impingement.html": "6ffc6bc8a2d20e93ef988b778d5f598c7310d6688a0523f39b7ddefe4b95dd8c",
         "behandelingen/artrose-na-breuk.html": "72a1e33ea03a4b5f6e5e92102ba1a7a156637f85785d53b2a5ec6a37c4ecb16a",
@@ -414,7 +414,7 @@
         "behandelingen/holvoet-cavovarus.html": "37ddd27c8cddc8ece85d05d43a6f266225566878ac735d865b6743eb4ff08f6d",
         "behandelingen/knieartrose.html": "f564a852b29f720131fff9ff381c61ec60908d0f959c61deda4a45119112889c",
         "behandelingen/knieprothese-obesitas.html": "85d291ec90106cc4781730763e94be0b9fb761aeb163dd19e6958ced6990c83d",
-        "behandelingen/kraakbeenletsel-enkel.html": "d81a5620f9a022b73e443979a5514b01426817ac7becf6cab43bb7db61632d7c",
+        "behandelingen/kraakbeenletsel-enkel.html": "99c06348f10c16db6c5dabf7876e3ca3d34a2eefd87d63abffb5241f2c986f74",
         "behandelingen/lisfranc-middenvoetletsel.html": "cd0b9ad9ab7577a3d58766a9cb360d9fffeaeef2e7f6f25fd9229cf43a038a8f",
         "behandelingen/metatarsalgie.html": "8bed05dbcf4b7e1183cc1ff2a520a3947c2c414e6b633ea6114c9758b4fbad3e",
         "behandelingen/morton-neuroom.html": "b753dbb9903e75ee3c319a7f478f1f8000eba178210433d7afda8d5a8760a55a",
@@ -439,7 +439,7 @@
         "behandelingen/ziekte-van-freiberg.html": "9e5ab638e53da4f145229d49b6fec3edfc4a718734fd98431acc722c9f87a018",
         "concept-foot-pain-guide.html": "0e1745e0e24c358e89e24a1f9fb3a8fe4c0678a0341d32e66c6a183aa2772a7f",
         "disclaimer.html": "525af2637cfccd697905f0855b6688e3943fe1ef46134721824c702339461973",
-        "index.html": "0991ac2a5d0c54465cf6d8fdbdb9ed32b814ae40be3ac4a2c71ed368345e70f3",
+        "index.html": "d9efdd4a784e2a0086ff5fd4072d3410184abcadc3abe082382710051be1d042",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "nieuwsbrief.html": "ff45ff9b193d1631150ceaa056046d20aa90a7c92fa632bc85a80c5dc938a51e",
         "over-mij.html": "8eae57375819b840793e1b1c71ef3d6b7bfba45e7754a045bc9099586dbc4459",
@@ -454,7 +454,7 @@
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
         "publicaties.html": "f56660c05f7c6de1faec5fb82e8c4dd38ff6e9810f3196e6a4ec316d0e833ca2",
         "script.js": "8f40f054393d37f2df0de334b7720b7b89f8dd8de0e37d0ebbab8fe8c2d00def",
-        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
+        "styles.css": "d4c42924fc7925633db524e5c8bd205d78fb1372e5d05ea61df0ab57df6ff9d6"
       }
     },
     {
@@ -502,7 +502,7 @@
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/vrxoa-immersive-experiences-artrose.html": "3e5459d0d47216d747923f35446fd5be7844189d22fb99494a855d8a84107ac1",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
-        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
+        "styles.css": "d4c42924fc7925633db524e5c8bd205d78fb1372e5d05ea61df0ab57df6ff9d6"
       }
     },
     {
@@ -526,8 +526,8 @@
         }
       ],
       "fingerprints": {
-        "index.html": "0991ac2a5d0c54465cf6d8fdbdb9ed32b814ae40be3ac4a2c71ed368345e70f3",
-        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
+        "index.html": "d9efdd4a784e2a0086ff5fd4072d3410184abcadc3abe082382710051be1d042",
+        "styles.css": "d4c42924fc7925633db524e5c8bd205d78fb1372e5d05ea61df0ab57df6ff9d6"
       }
     },
     {
@@ -575,7 +575,7 @@
         "artikelen/kuitspier-en-voetpijn.html": "f51e1ac261510c90eb05939a459f2330f09e8f9446115e71d7b3b0c1340cc5e6",
         "artikelen/mobility-clinic-tilburg-professionals.html": "24fecc08d8034847e800da3083b14bc20e54312bc3857ca0f149629341088c16",
         "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html": "d2e243433e94a69fcd60dfee7f4def6870a1713c077b33af6721a8e9f5e31aea",
-        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
+        "styles.css": "d4c42924fc7925633db524e5c8bd205d78fb1372e5d05ea61df0ab57df6ff9d6"
       }
     },
     {
@@ -607,7 +607,7 @@
         "artikelen.html": "26e6eb4f35eac5896aafaadd19b91dc3fdc14775fd1ee36dfc666946dbf996d7",
         "content.js": "aa9cab39cbf25bfc51dd53ca68c2f4c7c8aab2b2139dbad186007647d8f2e0b9",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
+        "styles.css": "d4c42924fc7925633db524e5c8bd205d78fb1372e5d05ea61df0ab57df6ff9d6"
       }
     },
     {
@@ -684,9 +684,9 @@
       "fingerprints": {
         "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
         "artikelen.html": "26e6eb4f35eac5896aafaadd19b91dc3fdc14775fd1ee36dfc666946dbf996d7",
-        "behandelingen.html": "1b7d1a5956363231528ca0a01ae87c51d6dfd0e7107655b9035b76cb0f962d00",
+        "behandelingen.html": "9320b92b3487919e93c8031ef08087f3006395489d4cc78d0bd25f3f077bc55a",
         "content.js": "aa9cab39cbf25bfc51dd53ca68c2f4c7c8aab2b2139dbad186007647d8f2e0b9",
-        "index.html": "0991ac2a5d0c54465cf6d8fdbdb9ed32b814ae40be3ac4a2c71ed368345e70f3",
+        "index.html": "d9efdd4a784e2a0086ff5fd4072d3410184abcadc3abe082382710051be1d042",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "professionals.html": "8d087decf290b781fe73d5c13c6b604cb5ec1c56b2d3247787db3968bd537a82",
         "projecten.html": "94b21e7fd8818d3df2f2e9f88a0cc5fc688024168bf99b346fd9887e2413dbfa",
@@ -696,7 +696,7 @@
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
         "script.js": "8f40f054393d37f2df0de334b7720b7b89f8dd8de0e37d0ebbab8fe8c2d00def",
-        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
+        "styles.css": "d4c42924fc7925633db524e5c8bd205d78fb1372e5d05ea61df0ab57df6ff9d6"
       }
     },
     {
@@ -724,7 +724,7 @@
       "fingerprints": {
         "content.js": "aa9cab39cbf25bfc51dd53ca68c2f4c7c8aab2b2139dbad186007647d8f2e0b9",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
-        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
+        "styles.css": "d4c42924fc7925633db524e5c8bd205d78fb1372e5d05ea61df0ab57df6ff9d6"
       }
     },
     {
@@ -1048,7 +1048,7 @@
         "behandelingen/holvoet-cavovarus.html": "37ddd27c8cddc8ece85d05d43a6f266225566878ac735d865b6743eb4ff08f6d",
         "behandelingen/knieartrose.html": "f564a852b29f720131fff9ff381c61ec60908d0f959c61deda4a45119112889c",
         "behandelingen/knieprothese-obesitas.html": "85d291ec90106cc4781730763e94be0b9fb761aeb163dd19e6958ced6990c83d",
-        "behandelingen/kraakbeenletsel-enkel.html": "d81a5620f9a022b73e443979a5514b01426817ac7becf6cab43bb7db61632d7c",
+        "behandelingen/kraakbeenletsel-enkel.html": "99c06348f10c16db6c5dabf7876e3ca3d34a2eefd87d63abffb5241f2c986f74",
         "behandelingen/lisfranc-middenvoetletsel.html": "cd0b9ad9ab7577a3d58766a9cb360d9fffeaeef2e7f6f25fd9229cf43a038a8f",
         "behandelingen/metatarsalgie.html": "8bed05dbcf4b7e1183cc1ff2a520a3947c2c414e6b633ea6114c9758b4fbad3e",
         "behandelingen/morton-neuroom.html": "b753dbb9903e75ee3c319a7f478f1f8000eba178210433d7afda8d5a8760a55a",
@@ -1077,7 +1077,7 @@
         "projecten/transmuraal-tilburg-cohort.html": "bbf987057207e16835d759bd76c231880e15151838d621143918bfff42b0272e",
         "projecten/vrxoa-immersive-experiences-artrose.html": "3e5459d0d47216d747923f35446fd5be7844189d22fb99494a855d8a84107ac1",
         "projecten/we-walk.html": "24b9d2a5ab2a1fa9e7999894f4c133d8e3cfbc43575a8e8db59e99243b1dac19",
-        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
+        "styles.css": "d4c42924fc7925633db524e5c8bd205d78fb1372e5d05ea61df0ab57df6ff9d6"
       }
     },
     {
@@ -1113,10 +1113,10 @@
       ],
       "fingerprints": {
         "404.html": "6c9c90e8b177d768f0aea567da2c5022f2cebf47062edb21b786f52ae50abb9e",
-        "index.html": "0991ac2a5d0c54465cf6d8fdbdb9ed32b814ae40be3ac4a2c71ed368345e70f3",
+        "index.html": "d9efdd4a784e2a0086ff5fd4072d3410184abcadc3abe082382710051be1d042",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "nieuwsbrief.html": "ff45ff9b193d1631150ceaa056046d20aa90a7c92fa632bc85a80c5dc938a51e",
-        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
+        "styles.css": "d4c42924fc7925633db524e5c8bd205d78fb1372e5d05ea61df0ab57df6ff9d6"
       }
     },
     {
@@ -1148,7 +1148,7 @@
       "fingerprints": {
         "advies-consultancy.html": "4543b6dfa1218d2045de33ac69e400d776e7f49808c370d073ac5f48928508c7",
         "professionals.html": "8d087decf290b781fe73d5c13c6b604cb5ec1c56b2d3247787db3968bd537a82",
-        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
+        "styles.css": "d4c42924fc7925633db524e5c8bd205d78fb1372e5d05ea61df0ab57df6ff9d6"
       }
     },
     {
@@ -1367,7 +1367,7 @@
         "behandelingen/hamerteen-klauwteen.html": "bd3ba08b192b3f6510fdef58655e189b837819c6450ed8de69896934cb7e9db3",
         "behandelingen/hielpijn.html": "4da53ce2ac78687ccfea151f92edfea8543e10db1148c1456f55ccecd34838cc",
         "behandelingen/holvoet-cavovarus.html": "37ddd27c8cddc8ece85d05d43a6f266225566878ac735d865b6743eb4ff08f6d",
-        "behandelingen/kraakbeenletsel-enkel.html": "d81a5620f9a022b73e443979a5514b01426817ac7becf6cab43bb7db61632d7c",
+        "behandelingen/kraakbeenletsel-enkel.html": "99c06348f10c16db6c5dabf7876e3ca3d34a2eefd87d63abffb5241f2c986f74",
         "behandelingen/lisfranc-middenvoetletsel.html": "cd0b9ad9ab7577a3d58766a9cb360d9fffeaeef2e7f6f25fd9229cf43a038a8f",
         "behandelingen/metatarsalgie.html": "8bed05dbcf4b7e1183cc1ff2a520a3947c2c414e6b633ea6114c9758b4fbad3e",
         "behandelingen/morton-neuroom.html": "b753dbb9903e75ee3c319a7f478f1f8000eba178210433d7afda8d5a8760a55a",
@@ -1389,9 +1389,9 @@
         "behandelingen/vetkussen-hielklachten.html": "2ddca2e0d1ad448cdd841a676c2733452829fe9f8f9707c08a2d6bb9c2e8c899",
         "behandelingen/voorvoetcorrectie.html": "75ee1324af112a1277fbda6ff70781c7200029ed9bc69a8d935a9077a4f30ea3",
         "behandelingen/ziekte-van-freiberg.html": "9e5ab638e53da4f145229d49b6fec3edfc4a718734fd98431acc722c9f87a018",
-        "data/faq-placements.json": "14f601714bf8ff022077361441e325720ab02ddf810c3f8b11c37c3f663e0e0e",
+        "data/faq-placements.json": "6f435c09de00b890fed92f07a0c3cd5bb6ae4d689b4e67aa8ee41a3fa2d04e5d",
         "data/faqs.json": "5c9434ada9529cc8b3735ea097a9b2ad21b9baa1d9d2b583b6ef179aff77769d",
-        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a",
+        "styles.css": "d4c42924fc7925633db524e5c8bd205d78fb1372e5d05ea61df0ab57df6ff9d6",
         "tools/generate_faqs.py": "0c896b7255f8eaa9e9488887ae5e59f7ff7d1193ec1e0a4de5fa719bdeb1ceaf"
       }
     },
@@ -1415,7 +1415,7 @@
       ],
       "fingerprints": {
         "behandelingen/hallux-valgus.html": "60d0e3e4f032e5cc3210d29e7cddf97dfe8b0e4519233456d48607b1d8d61a19",
-        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
+        "styles.css": "d4c42924fc7925633db524e5c8bd205d78fb1372e5d05ea61df0ab57df6ff9d6"
       }
     },
     {
@@ -1440,9 +1440,9 @@
         }
       ],
       "fingerprints": {
-        "behandelingen.html": "1b7d1a5956363231528ca0a01ae87c51d6dfd0e7107655b9035b76cb0f962d00",
+        "behandelingen.html": "9320b92b3487919e93c8031ef08087f3006395489d4cc78d0bd25f3f077bc55a",
         "script.js": "8f40f054393d37f2df0de334b7720b7b89f8dd8de0e37d0ebbab8fe8c2d00def",
-        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
+        "styles.css": "d4c42924fc7925633db524e5c8bd205d78fb1372e5d05ea61df0ab57df6ff9d6"
       }
     },
     {
@@ -1826,7 +1826,7 @@
         "artikelen/revisie-artrodese-niet-vastgegroeid-patienten.html": "70d2f9f36ed2a54b6503eddbfd54c883d16f18aeacb2cbfc56d1ea80b646bd03",
         "artikelen/vaillant-fonds-digitaal-zorgpad.html": "80aa744665304710c15dbcca5d40f4f362babf7fe9b0837077714ec386ac0a7a",
         "artikelen/we-walk-ar-campusroute-tilburg.html": "298bc599e286e3fd975625d63450ca289acf83f6dd21d4311e4d033c7bcef1c8",
-        "behandelingen.html": "1b7d1a5956363231528ca0a01ae87c51d6dfd0e7107655b9035b76cb0f962d00",
+        "behandelingen.html": "9320b92b3487919e93c8031ef08087f3006395489d4cc78d0bd25f3f077bc55a",
         "behandelingen/achillespeesklachten.html": "d93ec7bfad39918a1054a807fe6df0e22587345d59b28c805d8fc0798ad9fe35",
         "behandelingen/anterieur-enkel-impingement.html": "6ffc6bc8a2d20e93ef988b778d5f598c7310d6688a0523f39b7ddefe4b95dd8c",
         "behandelingen/artrose-na-breuk.html": "72a1e33ea03a4b5f6e5e92102ba1a7a156637f85785d53b2a5ec6a37c4ecb16a",
@@ -1847,7 +1847,7 @@
         "behandelingen/holvoet-cavovarus.html": "37ddd27c8cddc8ece85d05d43a6f266225566878ac735d865b6743eb4ff08f6d",
         "behandelingen/knieartrose.html": "f564a852b29f720131fff9ff381c61ec60908d0f959c61deda4a45119112889c",
         "behandelingen/knieprothese-obesitas.html": "85d291ec90106cc4781730763e94be0b9fb761aeb163dd19e6958ced6990c83d",
-        "behandelingen/kraakbeenletsel-enkel.html": "d81a5620f9a022b73e443979a5514b01426817ac7becf6cab43bb7db61632d7c",
+        "behandelingen/kraakbeenletsel-enkel.html": "99c06348f10c16db6c5dabf7876e3ca3d34a2eefd87d63abffb5241f2c986f74",
         "behandelingen/lisfranc-middenvoetletsel.html": "cd0b9ad9ab7577a3d58766a9cb360d9fffeaeef2e7f6f25fd9229cf43a038a8f",
         "behandelingen/metatarsalgie.html": "8bed05dbcf4b7e1183cc1ff2a520a3947c2c414e6b633ea6114c9758b4fbad3e",
         "behandelingen/morton-neuroom.html": "b753dbb9903e75ee3c319a7f478f1f8000eba178210433d7afda8d5a8760a55a",
@@ -1874,7 +1874,7 @@
         "disclaimer.html": "525af2637cfccd697905f0855b6688e3943fe1ef46134721824c702339461973",
         "feedback.css": "0ab4ce10537c05937ae69ac29335bf4c139d049bb980731d144370e7b7595219",
         "feedback.js": "5aa29ca0437cf076157217c592e87a68966b93fa7fdcb3b35ffcf83633e2bfe0",
-        "index.html": "0991ac2a5d0c54465cf6d8fdbdb9ed32b814ae40be3ac4a2c71ed368345e70f3",
+        "index.html": "d9efdd4a784e2a0086ff5fd4072d3410184abcadc3abe082382710051be1d042",
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "nieuwsbrief.html": "ff45ff9b193d1631150ceaa056046d20aa90a7c92fa632bc85a80c5dc938a51e",
         "over-mij.html": "8eae57375819b840793e1b1c71ef3d6b7bfba45e7754a045bc9099586dbc4459",
@@ -1919,7 +1919,7 @@
         "artikelen.html": "26e6eb4f35eac5896aafaadd19b91dc3fdc14775fd1ee36dfc666946dbf996d7",
         "assets/artrose-story/story-a12ec34068b1.js": "a12ec34068b115bae440ab068da296ed37bdec0a4c32a6e08994d1733a7a6d19",
         "assets/artrose-story/story-d95ecf296c41.css": "d95ecf296c41c38190c62f544e7870938af55ebb3689726e9f8ecc555f83d678",
-        "index.html": "0991ac2a5d0c54465cf6d8fdbdb9ed32b814ae40be3ac4a2c71ed368345e70f3",
+        "index.html": "d9efdd4a784e2a0086ff5fd4072d3410184abcadc3abe082382710051be1d042",
         "tools/build_artrose_release.py": "b57d044c6892cd2e50dd14270338cd30c5331430c5014597c8fd5b4909d655c0"
       }
     },
@@ -2072,7 +2072,7 @@
         "behandelingen/knieartrose.html": "f564a852b29f720131fff9ff381c61ec60908d0f959c61deda4a45119112889c",
         "behandelingen/knieprothese-obesitas.html": "85d291ec90106cc4781730763e94be0b9fb761aeb163dd19e6958ced6990c83d",
         "behandelingen/obesitas-gewrichtsklachten.html": "56ebc428ac0a034993aeec8bf03a12abf38e99e3ac95438ffe9e501bf8d2a84d",
-        "styles.css": "f16a8ef307fa697fa7adbbc0f4cfaf009c2bce9c57fb3ef012dcc7ee33637a5a"
+        "styles.css": "d4c42924fc7925633db524e5c8bd205d78fb1372e5d05ea61df0ab57df6ff9d6"
       }
     }
   ]
