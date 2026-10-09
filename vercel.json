@@ -99,5 +99,21 @@
       "destination": "/projecten/we-walk.html",
       "permanent": true
     }
+  ],
+  "functions": {
+    "api/newsletter-reminder-consumer.js": {
+      "experimentalTriggers": [
+        {
+          "type": "queue/v2beta",
+          "topic": "mvd-doi-reminders"
+        }
+      ]
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/newsletter-reminder-cleanup",
+      "schedule": "17 3 * * *"
+    }
   ]
 }

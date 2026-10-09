@@ -35,3 +35,7 @@ codex-skills/
 PUBLICATIE_REGISTER.json
 
 !behandelingen/kraakbeenletsel-enkel.html
+
+# Lokale tests en pakketcache blijven buiten deployment.
+tests/
+.pnpm-store/

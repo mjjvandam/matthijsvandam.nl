@@ -414,7 +414,7 @@
         "behandelingen/holvoet-cavovarus.html": "37ddd27c8cddc8ece85d05d43a6f266225566878ac735d865b6743eb4ff08f6d",
         "behandelingen/knieartrose.html": "f564a852b29f720131fff9ff381c61ec60908d0f959c61deda4a45119112889c",
         "behandelingen/knieprothese-obesitas.html": "85d291ec90106cc4781730763e94be0b9fb761aeb163dd19e6958ced6990c83d",
-        "behandelingen/kraakbeenletsel-enkel.html": "c88deef6befb0d426065b49238be8a1848d1e780ace21ede15837a6590ea293a",
+        "behandelingen/kraakbeenletsel-enkel.html": "0a93b47749f418cfd479b147e8350d4967d7d1534b3f5712f05401278b2b32db",
         "behandelingen/lisfranc-middenvoetletsel.html": "cd0b9ad9ab7577a3d58766a9cb360d9fffeaeef2e7f6f25fd9229cf43a038a8f",
         "behandelingen/metatarsalgie.html": "8bed05dbcf4b7e1183cc1ff2a520a3947c2c414e6b633ea6114c9758b4fbad3e",
         "behandelingen/morton-neuroom.html": "b753dbb9903e75ee3c319a7f478f1f8000eba178210433d7afda8d5a8760a55a",
@@ -443,7 +443,7 @@
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "nieuwsbrief.html": "ff45ff9b193d1631150ceaa056046d20aa90a7c92fa632bc85a80c5dc938a51e",
         "over-mij.html": "8eae57375819b840793e1b1c71ef3d6b7bfba45e7754a045bc9099586dbc4459",
-        "privacy.html": "7bb17788719e6d5baaf10a3ed45f4d3be142f933d1616ba4a271ccc29b2c0233",
+        "privacy.html": "44dd61a1cd483ec599ebeed8136298ed1ca4cf17c04da273a0b77e153a313de4",
         "professionals.html": "8d087decf290b781fe73d5c13c6b604cb5ec1c56b2d3247787db3968bd537a82",
         "projecten.html": "94b21e7fd8818d3df2f2e9f88a0cc5fc688024168bf99b346fd9887e2413dbfa",
         "projecten/3d-planning-voet-enkel.html": "9b61b9c6c5f448e843ca246567023b3e8d59f40ba1ca98b0d961c4503000767f",
@@ -567,6 +567,10 @@
         {
           "path": "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html",
           "scope": "registered"
+        },
+        {
+          "path": "behandelingen/kraakbeenletsel-enkel.html",
+          "scope": "registered"
         }
       ],
       "fingerprints": {
@@ -575,6 +579,7 @@
         "artikelen/kuitspier-en-voetpijn.html": "f51e1ac261510c90eb05939a459f2330f09e8f9446115e71d7b3b0c1340cc5e6",
         "artikelen/mobility-clinic-tilburg-professionals.html": "24fecc08d8034847e800da3083b14bc20e54312bc3857ca0f149629341088c16",
         "artikelen/obesitasmedicatie-knieartrose-minder-pijn-minder-bewegen.html": "d2e243433e94a69fcd60dfee7f4def6870a1713c077b33af6721a8e9f5e31aea",
+        "behandelingen/kraakbeenletsel-enkel.html": "0a93b47749f418cfd479b147e8350d4967d7d1534b3f5712f05401278b2b32db",
         "styles.css": "d4c42924fc7925633db524e5c8bd205d78fb1372e5d05ea61df0ab57df6ff9d6"
       }
     },
@@ -1048,7 +1053,7 @@
         "behandelingen/holvoet-cavovarus.html": "37ddd27c8cddc8ece85d05d43a6f266225566878ac735d865b6743eb4ff08f6d",
         "behandelingen/knieartrose.html": "f564a852b29f720131fff9ff381c61ec60908d0f959c61deda4a45119112889c",
         "behandelingen/knieprothese-obesitas.html": "85d291ec90106cc4781730763e94be0b9fb761aeb163dd19e6958ced6990c83d",
-        "behandelingen/kraakbeenletsel-enkel.html": "c88deef6befb0d426065b49238be8a1848d1e780ace21ede15837a6590ea293a",
+        "behandelingen/kraakbeenletsel-enkel.html": "0a93b47749f418cfd479b147e8350d4967d7d1534b3f5712f05401278b2b32db",
         "behandelingen/lisfranc-middenvoetletsel.html": "cd0b9ad9ab7577a3d58766a9cb360d9fffeaeef2e7f6f25fd9229cf43a038a8f",
         "behandelingen/metatarsalgie.html": "8bed05dbcf4b7e1183cc1ff2a520a3947c2c414e6b633ea6114c9758b4fbad3e",
         "behandelingen/morton-neuroom.html": "b753dbb9903e75ee3c319a7f478f1f8000eba178210433d7afda8d5a8760a55a",
@@ -1367,7 +1372,7 @@
         "behandelingen/hamerteen-klauwteen.html": "bd3ba08b192b3f6510fdef58655e189b837819c6450ed8de69896934cb7e9db3",
         "behandelingen/hielpijn.html": "4da53ce2ac78687ccfea151f92edfea8543e10db1148c1456f55ccecd34838cc",
         "behandelingen/holvoet-cavovarus.html": "37ddd27c8cddc8ece85d05d43a6f266225566878ac735d865b6743eb4ff08f6d",
-        "behandelingen/kraakbeenletsel-enkel.html": "c88deef6befb0d426065b49238be8a1848d1e780ace21ede15837a6590ea293a",
+        "behandelingen/kraakbeenletsel-enkel.html": "0a93b47749f418cfd479b147e8350d4967d7d1534b3f5712f05401278b2b32db",
         "behandelingen/lisfranc-middenvoetletsel.html": "cd0b9ad9ab7577a3d58766a9cb360d9fffeaeef2e7f6f25fd9229cf43a038a8f",
         "behandelingen/metatarsalgie.html": "8bed05dbcf4b7e1183cc1ff2a520a3947c2c414e6b633ea6114c9758b4fbad3e",
         "behandelingen/morton-neuroom.html": "b753dbb9903e75ee3c319a7f478f1f8000eba178210433d7afda8d5a8760a55a",
@@ -1847,7 +1852,7 @@
         "behandelingen/holvoet-cavovarus.html": "37ddd27c8cddc8ece85d05d43a6f266225566878ac735d865b6743eb4ff08f6d",
         "behandelingen/knieartrose.html": "f564a852b29f720131fff9ff381c61ec60908d0f959c61deda4a45119112889c",
         "behandelingen/knieprothese-obesitas.html": "85d291ec90106cc4781730763e94be0b9fb761aeb163dd19e6958ced6990c83d",
-        "behandelingen/kraakbeenletsel-enkel.html": "c88deef6befb0d426065b49238be8a1848d1e780ace21ede15837a6590ea293a",
+        "behandelingen/kraakbeenletsel-enkel.html": "0a93b47749f418cfd479b147e8350d4967d7d1534b3f5712f05401278b2b32db",
         "behandelingen/lisfranc-middenvoetletsel.html": "cd0b9ad9ab7577a3d58766a9cb360d9fffeaeef2e7f6f25fd9229cf43a038a8f",
         "behandelingen/metatarsalgie.html": "8bed05dbcf4b7e1183cc1ff2a520a3947c2c414e6b633ea6114c9758b4fbad3e",
         "behandelingen/morton-neuroom.html": "b753dbb9903e75ee3c319a7f478f1f8000eba178210433d7afda8d5a8760a55a",
@@ -1878,7 +1883,7 @@
         "nieuwsbrief-bevestigd.html": "611064b7da52d693d8cd01967707889969b0ccfe10b3e576c09efc0ac3401dc1",
         "nieuwsbrief.html": "ff45ff9b193d1631150ceaa056046d20aa90a7c92fa632bc85a80c5dc938a51e",
         "over-mij.html": "8eae57375819b840793e1b1c71ef3d6b7bfba45e7754a045bc9099586dbc4459",
-        "privacy.html": "7bb17788719e6d5baaf10a3ed45f4d3be142f933d1616ba4a271ccc29b2c0233",
+        "privacy.html": "44dd61a1cd483ec599ebeed8136298ed1ca4cf17c04da273a0b77e153a313de4",
         "professionals.html": "8d087decf290b781fe73d5c13c6b604cb5ec1c56b2d3247787db3968bd537a82",
         "projecten.html": "94b21e7fd8818d3df2f2e9f88a0cc5fc688024168bf99b346fd9887e2413dbfa",
         "projecten/3d-planning-voet-enkel.html": "9b61b9c6c5f448e843ca246567023b3e8d59f40ba1ca98b0d961c4503000767f",
@@ -2045,6 +2050,10 @@
           "scope": "registered"
         },
         {
+          "path": "behandelingen/kraakbeenletsel-enkel.html",
+          "scope": "registered"
+        },
+        {
           "path": "behandelingen/obesitas-gewrichtsklachten.html",
           "scope": "registered"
         }
@@ -2071,6 +2080,7 @@
         "behandelingen/enkelprothese.html": "16d51e3e6b7e3ae713f2220ac34d836fdf096d3c3c16b3c9e5325b4ee80e0c37",
         "behandelingen/knieartrose.html": "f564a852b29f720131fff9ff381c61ec60908d0f959c61deda4a45119112889c",
         "behandelingen/knieprothese-obesitas.html": "85d291ec90106cc4781730763e94be0b9fb761aeb163dd19e6958ced6990c83d",
+        "behandelingen/kraakbeenletsel-enkel.html": "0a93b47749f418cfd479b147e8350d4967d7d1534b3f5712f05401278b2b32db",
         "behandelingen/obesitas-gewrichtsklachten.html": "56ebc428ac0a034993aeec8bf03a12abf38e99e3ac95438ffe9e501bf8d2a84d",
         "styles.css": "d4c42924fc7925633db524e5c8bd205d78fb1372e5d05ea61df0ab57df6ff9d6"
       }
