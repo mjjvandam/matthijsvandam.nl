@@ -23,3 +23,7 @@ __pycache__/
 # Lokale redactiegegevens en voorbereide uitvoer blijven op deze computer.
 /local-admin/state/
 /local-admin/exports/
+
+# Node-runtime en lokale pakketcache
+node_modules/
+.pnpm-store/

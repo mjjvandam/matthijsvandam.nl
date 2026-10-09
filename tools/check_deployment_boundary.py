@@ -20,7 +20,7 @@ def main():
              for p in html_files()}
     public |= {path for path, page in pages.items() if page.published}
     # These exceptions are real public support/redirect files, not editorial concepts.
-    support = {'404.html', 'expertise.html', 'beeldbank/index.html'}
+    support = {'404.html', 'expertise.html', 'beeldbank/index.html', 'nieuwsbrief-bevestigd.html'}
     private = {path for path, page in pages.items()
                if not page.published and path not in support}
     for folder in ('concepten', 'docs', 'tools', 'codex-skills', 'local-admin', 'local-mail-preview'):

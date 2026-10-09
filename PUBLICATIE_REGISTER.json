@@ -788,6 +788,12 @@
         "reviewed_commit": "143e5a0",
         "scope": "Technische release: menufix, conceptuitsluitingen en www-normalisatie; geen nieuwe medische inhoud.",
         "evidence": "Expliciet antwoord “ja” op de vraag om dit technische pakket te publiceren in Codex-taak 01a09749-ce67-75c1-a06b-d0988de25b3d."
+      },
+      "newsletter_reminder_release": {
+        "approved_by": "Matthijs van Dam",
+        "approved_on": "2026-10-09",
+        "scope": "Tijdelijke private Vercel-opslag en één bevestigingsherinnering na 48 uur; privacyuitleg beperkt tot deze verwerking. Geen medische tekstwijziging.",
+        "evidence": "Expliciet akkoord op aanvullende registratie/planning, gevolgd door ja op private opslag met tijdelijke e-mailadressen in Codex-chat 01a12263-58a1-7133-b213-fa1226f35828."
       }
     },
     {
