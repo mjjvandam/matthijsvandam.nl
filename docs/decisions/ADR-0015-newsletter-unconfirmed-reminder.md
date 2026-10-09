@@ -47,7 +47,7 @@ Na afhandeling wordt het e-mailadres verwijderd. Dagelijkse opruiming verwijdert
 achtergebleven aanvragen na zeven dagen en deduplicatiereceipts na dertig dagen.
 Geen bevestigingslinks, geheimen of persoonsgegevens opnemen in Git.
 
-## Conceptmail
+## Herinneringsmail
 
 Onderwerp: Bevestig je inschrijving voor mijn nieuwsbrief
 
@@ -67,21 +67,35 @@ Matthijs van Dam
 
 ## Verificatie en status
 
-Lokaal gebouwd onder `local-mail-preview/reminders/`, buiten deployment.
-Zeventien lokale tests geslaagd. Nog niet actief; geen herinneringsmail verzonden.
-Voor activering
-moeten ten minste de volgende situaties slagen: onbevestigd na 48 uur,
-bevestigd vóór de deadline, bevestiging tijdens de wachttijd, dubbele aanvraag,
-afgemeld contact en mislukte verzending zonder dubbele retry. Een eventuele
-nieuwe bevestigingslink vraagt een afzonderlijke ketentest. De huidige mail
-verwijst naar de oorspronkelijke bevestigingsmail en maakt geen nieuwe link.
+Actief sinds 9 oktober 2026. Productiecode: commit `bc49f60`, geïntegreerd in
+`8c0cac0`. Eerste live deployment: `dpl_3LV1LFmtgGdgGuvndNSc58woYKuq`.
+De native Brevo-webhook (ID 2241179) ontvangt uitsluitend transactionele `request`-
+gebeurtenissen en gebruikt bearer-authenticatie. Alleen template 9 wordt verwerkt.
 
-De Vercel-connector gaf 403 bij omgevingsinstellingen en Blob-aanmaak. Via het
-dashboard is een ongekoppelde oude Blob-resource zichtbaar, waarvan private
-toegang nog niet is geverifieerd. Niet zonder controle hergebruiken. Opslagrechten,
-geheimen, webhook en provider-ketentest blijven open. De browser vereist een
-actiegebonden bevestiging vóór het verlenen van nieuwe opslagrechten.
+Private opslag `mvd-doi-reminders` staat in Frankfurt. De huidige Blob-SDK gebruikt
+Vercel OIDC met `BLOB_STORE_ID`; er is geen langlevend Blob-read-write-token gemaakt.
+Brevo-, HMAC-, webhook- en cron-geheimen staan als sensitive productievariabelen.
+
+Bewijs van 9 oktober 2026:
+- 17 lokale tests slagen, inclusief 48 uur, deduplicatie/concurrency, afmelding,
+  blokkade, onbekende providerstatus en onzekere verzendpoging.
+- Twee eigen native formulieraanmeldingen: een onbevestigde proef kreeg via de
+  echte Queue en Brevo één herinnering; een bevestigde proef werd onderdrukt.
+  Alleen voor deze gecontroleerde proef is de verstreken tijd gesimuleerd.
+- Een derde nieuwe live formulieraanmelding kwam via de echte webhook (HTTP 204)
+  in private opslag. `dueAt - at` was exact 48 uur; wachtrijpublicatie slaagde.
+- Spam-uitleg staat in de actieve oorspronkelijke bevestigingsmail en is ook
+  in de ontvangen proefmail gecontroleerd.
+- Ongeauthenticeerde webhook geeft 401; tijdelijke testfunctie bestaat niet op
+  de publieke website (404); live privacytekst komt exact overeen met de release.
+- Sitekwaliteit, publicatieverificatie en deploymentgrens slagen in de geïsoleerde
+  release. De al publieke bevestigingspagina is als supportbestand herkend.
+
+Proefcontacten en proefregistraties zijn na de controle verwijderd. De echte
+48 uur is niet in deze chat afgewacht. Dat tijdsverloop wordt door de duurzame
+Queue uitgevoerd; de eigenlijke productiecode is niet versneld.
 
 Een bevestiging tussen de laatste Brevo-controle en SMTP-aanvraag kan niet
 atomair worden uitgesloten. Onzekerheid bij verzenden wordt niet opnieuw
 verzonden: maximaal één verzendpoging, ten koste van mogelijk gemiste herinnering.
+Geen nieuwe medische inhoud, indexeringswijziging of automatische inschrijving.

@@ -25,4 +25,4 @@ Aanvullend besluit: [ADR-0013](ADR-0013-brevo-native-practical-scope.md) — nat
 - `Accepted`: accepted by site owner / Matthijs and leading for future work.
 - `Superseded`: replaced by a later accepted ADR.
 
-Aanvullend besluit: [ADR-0015](ADR-0015-newsletter-unconfirmed-reminder.md) — één bevestigingsherinnering na 48 uur; Accepted op expliciet akkoord. Native bevestiging behouden; tijdelijke private Vercel-opslag en Queues.
+Aanvullend besluit: [ADR-0015](ADR-0015-newsletter-unconfirmed-reminder.md) — één bevestigingsherinnering na 48 uur; Accepted op expliciet akkoord. Native bevestiging behouden; tijdelijke private Vercel-opslag en Queues. Actief sinds 9 oktober 2026.

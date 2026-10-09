@@ -107,6 +107,19 @@
           "type": "queue/v2beta",
           "topic": "mvd-doi-reminders"
         }
+      ],
+      "regions": [
+        "fra1"
+      ]
+    },
+    "api/newsletter-reminder-webhook.js": {
+      "regions": [
+        "fra1"
+      ]
+    },
+    "api/newsletter-reminder-cleanup.js": {
+      "regions": [
+        "fra1"
       ]
     }
   },
