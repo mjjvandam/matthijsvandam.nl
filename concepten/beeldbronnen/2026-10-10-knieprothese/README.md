@@ -14,3 +14,8 @@ ADR-check: ADR-0005 en ADR-0006; bestaande beeldcorrectie op expliciete uitvoeri
 Validatie: sitekwaliteit, SEO, publicatieregister, deploymentgrenzen en watermarkcheck geslaagd. Browser: 360, 390, 430 en 1440 px, beeld geladen, geen horizontale overflow. Geen package.json, dus geen npm-checks. Alleen asset en bronregistratie gewijzigd; eerder goedgekeurde medische HTML en registerstatus intact.
 
 Vervolgcorrectie: Matthijs meldt oude afbeelding door cache en foutieve fibula. v2 corrigeert fibulakop onder tibiaplateau met slanke fibulaschacht en laterale collaterale band; oorspronkelijke foutieve hoge benige structuur verwijderd. Anatomiereferentie: https://www.orthoinfo.org/en/diseases--conditions/collateral-ligament-injuries/ (AAOS). Built-in image_gen, gerichte objectbewerking met behoud van prothesecomponenten. Nieuwe bestandsnaam om immutable browsercache te doorbreken; alle vijf HTML-afnemers en social previews bijgewerkt.
+
+
+## Tweede fibulacorrectie — v3
+10 oktober 2026: Matthijs meldt nog twee fibula’s en vraagt correctie vóór afronding van de livegang. Gerichte generatieve bewerking verwijdert de extra smalle botstructuur links in beeld, inclusief steunpin; één fibula rechts van de tibia behouden. Nieuwe gedeelde v3-URL op alle vijf afnemers, inclusief social previews, voorkomt oude browsercache. Medische tekst blijft gelijk; dit registreert uitvoerings- en publicatieopdracht voor de beeldcorrectie, geen afzonderlijk medisch beeldakkoord.
+Bron: concepten/beeldbronnen/2026-10-10-knieprothese/tile-knie-artrose-prothese-v3.png. Zichtbare bestaande copyrightmarkering behouden; JPEG en bronmetadata verwerkt via bestaande MVD-conventie.
