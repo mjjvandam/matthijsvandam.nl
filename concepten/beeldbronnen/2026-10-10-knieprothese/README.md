@@ -1,0 +1,14 @@
+# Correctie knieprothese — 10 oktober 2026
+
+Opdracht Matthijs: prothese verbeteren met internetreferentie en meteen live zetten op de juiste pagina’s.
+
+Vormreferentie (fabrikantbron): https://www.zimmerbiomet.com/en/products-and-solutions/specialties/knee/persona-knee-system.html
+Componentbeelden en brochure geraadpleegd op 10 oktober 2026. Referentiebeelden worden niet herpubliceerd. Generatieve bewerking van bestaand eigen sitebeeld, geen afbeelding van een specifiek aanbevolen implantaat.
+
+Built-in image_gen; prompt: behoud spreekkamerscène en anatomisch model, corrigeer alleen prothesecomponenten; dun bicondylair femurschild, metalen tibiaplateau met één centrale korte steel en delta-kiel, witte insert met twee concave glijvlakken. Geen merk, bronwatermerk achteraf via bestaande tool.
+
+Gedeeld asset: assets/tile-knie-artrose-prothese.jpg. Afnemers: behandelingen.html; behandelingen/knieprothese-obesitas.html (hero en social preview); behandelingen/knieartrose.html; behandelingen/bewegen-bij-artrose.html; artikelen/knieprothese-bariatrische-chirurgie-obesitas-knieartrose.html (leeskaarten).
+
+ADR-check: ADR-0005 en ADR-0006; bestaande beeldcorrectie op expliciete uitvoerings- en publicatieopdracht. Geen nieuwe ADR, componentregel of layoutwijziging. Medische hoofdtekst en eerdere inhoudelijke goedkeuring blijven ongewijzigd. Generatieve illustratie visueel vergeleken met componentreferentie; geen nieuwe medische verificatie geclaimd.
+
+Validatie: sitekwaliteit, SEO, publicatieregister, deploymentgrenzen en watermarkcheck geslaagd. Browser: 360, 390, 430 en 1440 px, beeld geladen, geen horizontale overflow. Geen package.json, dus geen npm-checks. Alleen asset en bronregistratie gewijzigd; eerder goedgekeurde medische HTML en registerstatus intact.
