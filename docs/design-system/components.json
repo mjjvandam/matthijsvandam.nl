@@ -283,6 +283,68 @@
         "assets/reading-document.svg"
       ],
       "rule": "Standaard voor thematisch Verder lezen op aandoeningen-, behandel- en artikelpagina’s. Bestaand beeld links, titel en korte toelichting ernaast, hele kaart klikbaar met zichtbare focus en pijltje. Behoud bestaande bestemmingen, inhoudelijke toelichtingen en bronlabels. Voor externe bronnen zonder passend beeld: neutraal reading-document.svg; geen logo of verzonnen medische illustratie. Eén kolom op desktop en mobiel, kleinere miniaturen op mobiel, licht/donker via gedeelde variabelen. Projectnieuws, filterbare artikeloverzichten, thematische hubingangen, nieuwsbriefbevestiging en publicatie-/bronlijsten behouden hun eigen component. Conceptpagina’s behouden hun publicatiestatus."
+    },
+    {
+      "id": "artrose-theme",
+      "name": "Artrose-themaroute",
+      "source": "artrose-gewicht-bewegen.html",
+      "selector": ".theme-hub",
+      "markers": [
+        "theme-hub"
+      ],
+      "sources": [
+        "styles.css",
+        "assets/artrose-thema.css",
+        "assets/artrose-newsletter.js"
+      ],
+      "rule": "Vier inhoudelijke delen, apart nieuwsbriefblok, rustige bestaande tokens en compacte leeskaarten. Themanavigatie blijft bij scrollen onder de siteheader zichtbaar (86 px; 80 px tot 520 px schermbreedte); één horizontaal schuifbare rij, 66 px hoog en 56 px op mobiel. Ankerafstand houdt rekening met beide balken. Het volledige nieuwsbriefblok volgt na de vier inhoudelijke delen. Intro, vaste themanavigatie en onderzoeksoproep houden de inschrijving bereikbaar. Nieuwsbriefpaneel staat binnen dezelfde sectiemarges als het BMI-paneel; tekst beslaat de volle paneelbreedte boven het formulier. Publieke variant volgens Accepted ADR-0016."
+    },
+    {
+      "id": "artrose-home-entry",
+      "name": "Artrose-ingang homepage",
+      "source": "index.html",
+      "selector": ".theme-home",
+      "markers": [
+        "theme-home"
+      ],
+      "sources": [
+        "styles.css",
+        "assets/artrose-thema.css"
+      ],
+      "rule": "Eén compacte ingang na doelgroepband vervangt losse cohortuitlichting en homepage-scrollverhaal. Volledige verhalen blijven elders bereikbaar."
+    },
+    {
+      "id": "artrose-context-entry",
+      "name": "Contextuele artrose-ingangen",
+      "source": "behandelingen/obesitas-gewrichtsklachten.html",
+      "selector": ".theme-entry",
+      "markers": [
+        "theme-entry"
+      ],
+      "sources": [
+        "styles.css",
+        "assets/artrose-thema.css"
+      ],
+      "rule": "Eén gedeelde ingang met thema- en nieuwsbriefroute; professionele context linkt naar afzonderlijk onderzoek. Geen medische indicatie of nieuwe inschrijflijst door afleiding."
+    },
+    {
+      "id": "bmi-tool",
+      "name": "Meer dan je BMI",
+      "source": "meer-dan-je-bmi.html",
+      "selector": ".bmi-card",
+      "markers": [
+        "bmi-card"
+      ],
+      "sources": [
+        "styles.css",
+        "assets/bmi/module.css",
+        "assets/bmi/logic.js",
+        "assets/bmi/terms.js",
+        "assets/bmi/module.js",
+        "assets/bmi/story.js",
+        "assets/bmi/flow.js"
+      ],
+      "rule": "Beoordeelde zelfstandige BMI-uitleg met lokale invoer; geen analytics, feedback of gegevensopslag. Gedeelde calculatorbron onder assets/bmi. Teruglink naar thema en disclaimer verplicht; mobiel en reduced motion behouden tekstuele resultaten. Geen diagnostische uitkomst of behandeladvies. ADR-0016 Accepted."
     }
   ]
 }

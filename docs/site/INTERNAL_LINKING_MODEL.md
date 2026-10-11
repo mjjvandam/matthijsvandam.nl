@@ -118,3 +118,7 @@ Gebruik consequent:
 
 - Of er een centrale linkmatrix nodig is voor alle behandelpagina's voor livegang.
 - Of oude anchorlinks op de homepage later moeten worden vervangen door volledige hubpagina-links.
+
+## Artrose, gewicht en bewegen — 11 oktober 2026
+
+De homepage en relevante uitleg-, artikel- en projectpagina’s krijgen de beoordeelde themaroute. Patiënten gaan naar algemene uitleg of het formulier; professionals kunnen direct naar #onderzoek. De themapagina verbindt bestaande inhoud zonder behandelaanbod te verbreden. De zelfstandige BMI-pagina linkt terug naar het thema. ADR-0016 Accepted.

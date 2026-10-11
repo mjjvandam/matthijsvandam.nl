@@ -1,0 +1,5 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex, nofollow"><title>Responsive controle artrosethema</title><style>body{margin:0;background:#ddd;font:14px system-ui}p{padding:8px;margin:0}iframe{display:block;border:0;background:white}</style></head><body><p id="qa-label">Lokaal controlekader</p><iframe id="qa-frame" title="Pagina op exacte controlebreedte" height="1000"></iframe><script>
+const params=new URLSearchParams(location.search);const width=Number(params.get('width')||390);const path=params.get('path')||'artrose-gewicht-bewegen.html';const theme=params.get('theme')||'light';
+const frame=document.querySelector('#qa-frame');frame.width=[360,390,430,1280].includes(width)?width:390;frame.src=(params.get('public')==='1'?'/':'/concepten/artrose-gewicht-bewegen/integratie/')+path;
+frame.addEventListener('load',()=>{frame.contentDocument.documentElement.dataset.theme=theme==='dark'?'dark':'light';document.querySelector('#qa-label').textContent=path+' · '+frame.width+' px · '+theme;});
+</script></body></html>

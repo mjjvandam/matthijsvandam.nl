@@ -200,6 +200,14 @@ def run_checks() -> list[tuple[str, str]]:
                 issues.append(("redirect_has_navigation", rel))
             continue
 
+        if rel == "meer-dan-je-bmi.html":
+            # Approved standalone tool (ADR-0016); explicit return and safety routes.
+            links = {relative_html_path(a.get("href", "")) for a in parser.anchors}
+            for required in ("artrose-gewicht-bewegen.html", "disclaimer.html"):
+                if required not in links:
+                    issues.append(("tool_missing_return_route", f"{rel}: {required}"))
+            continue
+
         if parser.data_headers != 1:
             issues.append(("navigation_header_count", f"{rel}: {parser.data_headers}"))
         if parser.data_navs != 1:

@@ -1,0 +1,139 @@
+body{background:var(--paper);color:var(--ink);margin:0}.bmi-page{max-width:1120px;margin:auto;padding:28px 24px 80px}.bmi-top{display:flex;justify-content:space-between;align-items:center;gap:16px}.bmi-kicker{text-transform:uppercase;letter-spacing:.14em;font-size:.75rem;color:var(--muted)}.bmi-page h1{font-size:clamp(3rem,8vw,6rem);line-height:1.02;letter-spacing:-.06em;max-width:800px;margin:50px 0 24px}.bmi-intro{font-size:1.25rem;max-width:660px;line-height:1.6}.bmi-layout{display:grid;grid-template-columns:1.15fr 1fr;gap:36px;margin-top:44px}.bmi-card{border:1px solid var(--line);border-radius:28px;background:var(--white);padding:28px;box-shadow:var(--shadow-soft)}.bmi-card h2{margin-top:0}.bmi-fields{display:grid;grid-template-columns:1fr 1fr;gap:16px}.bmi-card label{display:block;font-weight:600}.bmi-card input{box-sizing:border-box;width:100%;min-width:0;background:var(--paper);color:var(--ink);border:1px solid var(--line);border-radius:12px;padding:14px;margin:8px 0 18px;font:inherit;font-size:1.3rem}.bmi-page button,.bmi-page .bmi-link{font:inherit;color:var(--ink);background:var(--green-soft);border:1px solid var(--line);border-radius:100px;padding:12px 20px;cursor:pointer;display:inline-block}.bmi-page :focus-visible{outline:3px solid var(--green);outline-offset:4px}.bmi-page button:disabled{opacity:.55;cursor:default}.bmi-error{color:var(--ink);font-weight:600}.bmi-gauge{width:100%;display:block;overflow:visible}.bmi-gauge text{fill:var(--muted);font-size:12px}.bmi-needle{transform-origin:160px 150px;transition:transform 900ms cubic-bezier(.2,.8,.2,1)}.bmi-number{font-size:3.7rem;letter-spacing:-.05em;line-height:1.2;font-variant-numeric:tabular-nums;margin:0}.bmi-number small{font-size:1rem;letter-spacing:0}.bmi-caption{color:var(--muted);font-size:.85rem;line-height:1.6}.bmi-bandlist{display:flex;flex-wrap:wrap;gap:6px;font-size:.75rem;color:var(--muted)}.bmi-bandlist span{border:1px solid var(--line);padding:4px 8px;border-radius:8px}.bmi-bandlist .selected{background:var(--green-soft);color:var(--ink);font-weight:700}.bmi-waist{border-top:1px solid var(--line);margin-top:24px;padding-top:24px}.bmi-measure{display:flex;align-items:center;gap:18px}.bmi-measure svg{width:110px;flex:none;color:var(--green)}.bmi-story{margin-top:80px}.bmi-scene{display:grid;grid-template-columns:100px 1fr;gap:24px;padding:42px 0;border-top:1px solid var(--line)}.bmi-step{font-size:3rem;color:var(--green)}.bmi-scene h2{font-size:clamp(1.5rem,4vw,2.3rem);margin:0 0 16px}.bmi-scene p{max-width:700px;line-height:1.75}.bmi-scene.is-visible .bmi-step{transform:translateY(-5px);transition:transform .7s}.bmi-pills{display:flex;flex-wrap:wrap;gap:12px}.bmi-pills span{padding:14px;border:1px solid var(--line);border-radius:14px;background:var(--white)}.bmi-examples{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:20px}.bmi-example{border:1px solid var(--line);border-radius:16px;padding:20px;background:var(--white)}.bmi-tape{height:10px;background:var(--green);border-radius:8px;margin:18px 0}.bmi-page [hidden]{display:none!important}.bmi-note{padding:20px;border-left:3px solid var(--green);background:var(--green-soft);line-height:1.7}.bmi-page a{color:var(--green)}.bmi-compact{max-width:650px}.bmi-compact h1{font-size:3rem}.bmi-compact .bmi-layout{display:block}.bmi-compact .bmi-aside{display:none}@media(max-width:700px){.bmi-layout{grid-template-columns:1fr}.bmi-page{padding:20px 18px 60px}.bmi-card{padding:22px}.bmi-scene{grid-template-columns:45px 1fr;gap:12px}.bmi-step{font-size:2rem}.bmi-examples{grid-template-columns:1fr}.bmi-measure{align-items:flex-start}.bmi-measure svg{width:75px}.bmi-top{align-items:flex-start;flex-wrap:wrap}.bmi-fields{gap:10px}.bmi-number{font-size:3rem}}@media(prefers-reduced-motion:reduce){.bmi-page *{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+.bmi-scroll-world{display:grid;grid-template-columns:1.1fr 1fr;gap:60px;position:relative;margin-top:100px}.bmi-scroll-world .bmi-story{margin:0}.bmi-stage{position:sticky;top:24px;height:min(760px,90vh);align-self:start;display:flex;flex-direction:column;justify-content:center}.bmi-stage-label{font-size:.75rem;letter-spacing:.18em;color:var(--green);font-weight:700}.bmi-world{width:100%;max-height:65vh;overflow:visible}.bmi-world text{fill:var(--ink);font-size:16px}.bmi-world .world-value{font-size:72px;letter-spacing:-4px;font-weight:600}.bmi-world [data-world]{opacity:0;transform:translateY(20px) scale(.94);transform-origin:center;transition:opacity .7s,transform .9s}.bmi-stage[data-scene="0"] [data-world="0"],.bmi-stage[data-scene="1"] [data-world="1"],.bmi-stage[data-scene="2"] [data-world="2"],.bmi-stage[data-scene="3"] [data-world="3"]{opacity:1;transform:none}.world-pointer{transform-origin:300px 350px;transition:transform 1.2s}.world-orbit{transform-origin:300px 300px;transform:rotate(20deg);transition:transform 1.5s}.bmi-stage[data-scene="1"] .world-orbit{transform:rotate(100deg)}.bmi-stage[data-scene="2"] .world-orbit{transform:rotate(180deg)}.bmi-stage[data-scene="3"] .world-orbit{transform:rotate(260deg)}.bmi-stage-caption{font-size:1.1rem;line-height:1.6;min-height:100px}.bmi-progress{height:3px;background:var(--line)}.bmi-progress i{display:block;height:3px;background:var(--green);transition:width .6s}.bmi-scroll-world .bmi-scene{min-height:85vh;display:flex;flex-direction:column;justify-content:center;gap:18px;padding:70px 0}.bmi-personal{font-size:1.4rem;line-height:1.5!important;color:var(--green)}.bmi-scroll-world .bmi-scene h2{font-size:clamp(2rem,4vw,3.4rem);line-height:1.1;letter-spacing:-.04em}.bmi-scroll-world .bmi-step{font-size:.9rem;letter-spacing:.2em}@media(max-width:700px){.bmi-scroll-world{display:block;margin-top:60px}.bmi-stage{top:0;z-index:2;height:38vh;min-height:230px;background:var(--paper);padding:12px 0;border-bottom:1px solid var(--line)}.bmi-world{height:25vh;width:100%}.bmi-stage-caption{display:none}.bmi-stage-label{font-size:.65rem}.bmi-scroll-world .bmi-scene{min-height:70vh;padding:50px 0}.bmi-personal{font-size:1.2rem}}@media(prefers-reduced-motion:reduce){.bmi-stage{position:relative;height:auto}.bmi-world [data-world]{transition:none}.bmi-scroll-world .bmi-scene{min-height:0}.bmi-world{display:none}.bmi-stage-label,.bmi-progress{display:none}.bmi-stage-caption{display:block;min-height:0}}@media(max-height:550px){.bmi-stage{position:relative;height:auto}.bmi-stage-caption{display:block}.bmi-world{max-height:350px}}
+.bmi-journey .bmi-layout{display:block;max-width:620px;margin:36px auto}.bmi-journey h1{margin-top:35px}.bmi-journey .bmi-intro{font-size:1.15rem}.bmi-map{margin-top:60px}.bmi-map-buttons{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}.bmi-map button[aria-pressed="true"]{background:var(--green);color:var(--paper)}.bmi-journey .bmi-scroll-world{margin-top:30px;scroll-margin-top:24px;min-height:85vh}.bmi-journey .bmi-scene{min-height:75vh}.bmi-journey-controls{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}.bmi-enter{margin-top:16px}.bmi-journey-result>.bmi-caption{display:none}.bmi-journey-result>[data-toggle]{display:none}.bmi-journey [data-bmi-gauge] .bmi-gauge{display:none}.bmi-journey [data-bmi-gauge] .bmi-bandlist{display:none}.bmi-journey [data-bmi-gauge] .bmi-number{font-size:2.5rem}.bmi-journey .bmi-waist{margin-top:16px}.bmi-limit-details{margin:50px 0 20px}.bmi-limit-details summary{cursor:pointer}.bmi-journey footer{margin-top:60px}.bmi-journey .bmi-scene p:not(.bmi-personal){font-size:.95rem}.bmi-journey .bmi-stage-caption{display:none}@media(max-width:700px){.bmi-journey .bmi-scroll-world{min-height:0}.bmi-journey .bmi-scene{min-height:0}.bmi-map-buttons{display:grid;grid-template-columns:1fr 1fr}.bmi-map button{border-radius:16px;font-size:.85rem;padding:12px}.bmi-journey .bmi-stage{position:relative;height:230px}.bmi-journey .bmi-scene{padding-top:25px}}
+
+.bmi-journey .bmi-waist label{display:block;font-weight:600}.bmi-journey .bmi-waist input{display:block;box-sizing:border-box;width:100%;font:inherit;font-size:1.4rem;padding:14px;border:1px solid var(--line);border-radius:12px;background:var(--white);color:var(--ink);margin:10px 0 18px}.bmi-journey [data-ratio-result] .bmi-gauge{display:none}.bmi-journey [data-ratio-number]{font-size:2rem;margin-top:16px}.bmi-journey .bmi-waist{padding-bottom:20px}
+/* Eén visuele ontdekruimte; compacte variant blijft zelfstandig. */
+.bmi-canvas .bmi-page{max-width:1240px}.bmi-canvas:not(.bmi-exploring) .bmi-layout{margin:32px 0;max-width:560px}.bmi-canvas:not(.bmi-exploring) h1{font-size:clamp(4rem,9vw,7.5rem)}.bmi-canvas .bmi-card{box-shadow:none;background:transparent;padding:24px 0;border:0}.bmi-canvas .bmi-card h2{font-size:1rem}.bmi-canvas .bmi-card>p:last-child{font-size:.75rem}.bmi-exploring .bmi-page>h1,.bmi-exploring .bmi-page>.bmi-intro,.bmi-exploring .bmi-page>.bmi-caption,.bmi-exploring .bmi-layout{display:none}.bmi-canvas .bmi-map{margin-top:28px;padding:12px 0 20px}.bmi-canvas .bmi-scroll-world{min-height:0;height:auto;grid-template-columns:1.25fr 1fr;gap:50px;margin:0;align-items:center;background:var(--white);border:1px solid var(--line);border-radius:36px;padding:30px}.bmi-canvas .bmi-stage{position:relative;top:0;height:auto;min-height:0}.bmi-canvas .bmi-world{height:min(60vh,560px);max-height:none}.bmi-canvas .bmi-scene{min-height:0;padding:10px 0;border:0;gap:10px}.bmi-canvas .bmi-scene h2{font-size:clamp(2rem,3.6vw,3rem)}.bmi-canvas .bmi-scene .bmi-step{display:none}.bmi-canvas .bmi-personal{font-size:1.2rem}.bmi-canvas .bmi-deeper{margin:20px 0;color:var(--muted);font-size:.9rem}.bmi-deeper summary{cursor:pointer;color:var(--ink);padding:10px 0}.bmi-canvas .bmi-progress{display:none}.bmi-canvas .bmi-map button{font-size:.9rem}.bmi-canvas .bmi-waist h3{display:none}.bmi-canvas .bmi-measure{display:block}.bmi-canvas .bmi-measure svg{display:none}.bmi-canvas .bmi-measure p{font-size:.85rem}.bmi-canvas [data-ratio-result] .bmi-number,.bmi-canvas [data-ratio-text]{display:none}.bmi-canvas .bmi-journey-controls{margin-top:16px}.bmi-canvas .bmi-world{transition:transform 1s cubic-bezier(.2,.8,.2,1)}.bmi-canvas .bmi-stage[data-scene="1"] .bmi-world{transform:scale(1.06) rotate(-3deg)}.bmi-canvas .bmi-stage[data-scene="2"] .bmi-world{transform:scale(1.04)}.bmi-canvas .bmi-stage[data-scene="3"] .bmi-world{transform:scale(.94)}.bmi-canvas .bmi-limit-details,.bmi-canvas footer{font-size:.75rem;color:var(--muted)}@media(max-width:700px){.bmi-canvas .bmi-scroll-world{display:flex;flex-direction:column;padding:20px;border-radius:24px;gap:20px}.bmi-canvas .bmi-stage{width:100%;padding:0;border:0}.bmi-canvas .bmi-world{height:240px}.bmi-canvas .bmi-scene{width:100%}.bmi-canvas .bmi-map{margin-top:12px}.bmi-canvas .bmi-map-buttons{gap:8px}.bmi-canvas .bmi-personal{font-size:1.1rem}.bmi-canvas .bmi-scene h2{font-size:2rem}}@media(prefers-reduced-motion:reduce){.bmi-canvas .bmi-world{display:block;transform:none!important}.bmi-canvas .bmi-stage-label{display:block}}
+
+/* Doorlopende scrollversie: uitleg staat direct in de scène. */
+.bmi-flow .bmi-layout{display:block;max-width:560px;margin:32px 0}.bmi-flow .bmi-card{background:transparent;border:0;box-shadow:none;padding:20px 0}.bmi-flow [data-result]>[data-bmi-gauge],.bmi-flow [data-result]>.bmi-caption{display:none}.bmi-flow .bmi-scroll-world{margin-top:70px}.bmi-flow .bmi-waist input{display:block;box-sizing:border-box;width:100%;font:inherit;font-size:1.3rem;padding:14px;background:var(--white);color:var(--ink);border:1px solid var(--line);border-radius:12px;margin:10px 0 18px}.bmi-flow .bmi-waist label{display:block;font-weight:600}.bmi-flow [data-ratio-result] .bmi-gauge{display:none}.bmi-flow [data-ratio-number]{font-size:2rem;margin-top:15px}.bmi-flow .bmi-stage-caption{display:none}.bmi-flow .bmi-map{display:none}.bmi-flow footer{margin-top:40px}
+/* Compactere openingstitel op eigenaarverzoek. */
+.bmi-flow .bmi-page > h1{font-size:clamp(2.5rem,5.5vw,4.5rem);line-height:1.08;margin-top:36px;letter-spacing:-.045em}
+.bmi-question{margin:24px 0;padding:20px;border-left:3px solid var(--green);background:var(--green-soft);border-radius:0 16px 16px 0}.bmi-question p{font-size:1.15rem!important}.bmi-flow .bmi-examples{font-size:.9rem}.bmi-world [data-world-outside]{font-size:14px}.bmi-scale-key{font-size:.8rem;line-height:1.6;color:var(--muted)}
+@media(max-width:700px){.bmi-flow .bmi-stage{height:28vh;min-height:180px}.bmi-flow .bmi-world{height:22vh}.bmi-flow .bmi-scene{min-height:55vh}.bmi-flow .bmi-examples{grid-template-columns:1fr 1fr;gap:8px}.bmi-flow .bmi-example{padding:12px}}
+
+.bmi-flow [data-ratio-result]{display:none}.bmi-reading{line-height:1.9;margin:20px 0}.bmi-world [data-world]{visibility:hidden;transition:opacity .7s,transform .9s,visibility .7s}.bmi-stage[data-scene="0"] [data-world="0"],.bmi-stage[data-scene="1"] [data-world="1"],.bmi-stage[data-scene="2"] [data-world="2"],.bmi-stage[data-scene="3"] [data-world="3"]{visibility:visible}
+/* Taillekaart: gedeeld door uitgebreide en compacte conceptvariant. */
+.bmi-page .bmi-waist{background:var(--white);border:1px solid var(--line);border-radius:24px;padding:24px;margin-top:24px}.bmi-page .bmi-waist h3{font-size:1.2rem;line-height:1.3;margin:0 0 22px}.bmi-page .bmi-waist .bmi-measure{display:grid;grid-template-columns:110px 1fr;gap:22px;align-items:center;margin-bottom:24px}.bmi-page .bmi-waist .bmi-measure svg{width:110px;height:160px;background:var(--paper);border-radius:18px;padding:8px;box-sizing:border-box}.bmi-page .bmi-waist .bmi-measure p{font-size:.9rem;line-height:1.65;margin:0}.bmi-page .bmi-waist label{display:block;font-size:.85rem;font-weight:600}.bmi-page .bmi-waist input{display:block;box-sizing:border-box;width:100%;min-height:64px;border:1px solid var(--line);border-radius:14px;background:var(--paper);color:var(--ink);font:inherit;font-size:1.7rem;font-variant-numeric:tabular-nums;padding:14px 18px;margin:10px 0 18px}.bmi-page .bmi-waist input:focus-visible{outline:2px solid var(--green);outline-offset:3px}.bmi-page .bmi-waist button{width:100%;padding:15px 18px;font-size:1rem;border-radius:14px;background:var(--green);color:var(--paper)}.bmi-page .bmi-waist .bmi-error:empty{display:none}@media(max-width:430px){.bmi-page .bmi-waist{padding:20px}.bmi-page .bmi-waist .bmi-measure{grid-template-columns:85px 1fr;gap:16px}.bmi-page .bmi-waist .bmi-measure svg{width:85px;height:145px}}
+
+/* Eén tekstuele uitkomst naast de grafiek, zonder dubbele interpretatie. */
+.bmi-flow [data-ratio-result]:not([hidden]){display:block}.bmi-flow [data-ratio-number],.bmi-flow [data-ratio-text]{display:none}.bmi-world [data-world-category]{font-size:15px}.bmi-world [data-world-ratio-label]{font-size:14px}.bmi-world .bmi-endlabel{font-size:12px}
+
+/* Grafische redactie: rustige opening, duidelijke kaarten en kortere scèneovergangen.
+   Alleen de doorlopende conceptvariant; compacte calculator behoudt eigen compositie. */
+.bmi-flow .bmi-start{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center;padding:64px 0 72px}
+.bmi-flow .bmi-start h1{font-size:clamp(2.5rem,4.5vw,3.7rem);line-height:1.08;letter-spacing:-.045em;margin:0 0 24px}
+.bmi-flow .bmi-start .bmi-intro{font-size:1.15rem;line-height:1.65;max-width:38ch}
+.bmi-flow .bmi-start .bmi-layout{margin:0;max-width:none}
+.bmi-flow .bmi-start .bmi-card{background:var(--white);border:1px solid var(--line);border-radius:26px;padding:30px}
+.bmi-flow .bmi-start .bmi-card h2{font-size:1.25rem;line-height:1.4;margin:0 0 24px;letter-spacing:-.02em}
+.bmi-flow [data-calculate]{width:100%;border-radius:14px;background:var(--green);color:var(--paper);padding:16px}
+.bmi-flow .bmi-start .bmi-caption{font-size:.78rem}
+.bmi-flow .bmi-scroll-world{gap:48px;margin-top:20px}
+.bmi-flow .bmi-stage{height:min(660px,85vh)}
+.bmi-flow .bmi-scene{min-height:65vh;padding:60px 0;gap:14px}
+.bmi-flow .bmi-scene h2{font-size:clamp(1.8rem,3vw,2.6rem);line-height:1.15}
+.bmi-flow .bmi-personal{font-size:1.2rem;line-height:1.65!important}
+.bmi-flow .bmi-scene p{margin:12px 0;max-width:43ch}
+.bmi-flow .bmi-step{font-size:.75rem;color:var(--muted)}
+.bmi-flow main>details,.bmi-flow footer{font-size:.78rem;line-height:1.7;color:var(--muted)}
+.bmi-flow main>details{border-top:1px solid var(--line);padding-top:24px}
+.bmi-flow main>details summary{cursor:pointer}
+.bmi-flow footer{margin-top:20px}
+@media(max-width:700px){
+ .bmi-flow .bmi-start{grid-template-columns:1fr;gap:24px;padding:36px 0 44px}
+ .bmi-flow .bmi-start h1{font-size:2.5rem;margin-bottom:18px}
+ .bmi-flow .bmi-start .bmi-intro{font-size:1.05rem}
+ .bmi-flow .bmi-start .bmi-card{padding:22px;border-radius:22px}
+ .bmi-flow .bmi-stage{height:245px;min-height:0;padding:12px 0 8px}
+ .bmi-flow .bmi-world{height:205px;max-height:none}
+ .bmi-flow .bmi-stage-label{font-size:.62rem;margin-bottom:4px}
+ .bmi-flow .bmi-scale-key{display:none}
+ .bmi-flow .bmi-progress{margin-top:8px}
+ .bmi-flow .bmi-scene{min-height:42vh;padding:36px 0;scroll-margin-top:270px}
+ .bmi-flow .bmi-scene h2{font-size:1.85rem}
+ .bmi-flow .bmi-personal{font-size:1.08rem}
+ .bmi-flow .bmi-scroll-world{margin-top:10px}
+}
+@media(prefers-reduced-motion:reduce){.bmi-flow .bmi-stage{height:auto;min-height:0}.bmi-flow .bmi-scene{min-height:0}}
+@media(max-width:700px){
+ .bmi-flow .bmi-world text{font-size:25px}
+ .bmi-flow .bmi-world .world-value{font-size:86px}
+ .bmi-flow .bmi-world .world-scale-label{font-size:27px}
+ .bmi-flow .bmi-world .bmi-endlabel{display:none}
+ .bmi-flow .bmi-world [data-world-category],.bmi-flow .bmi-world [data-world-ratio-label],.bmi-flow .bmi-world [data-world-outside]{font-size:22px}
+ .bmi-flow .bmi-world [data-world="3"] text{font-size:20px}
+}
+
+/* Vergelijking: twee benoemde personen, dezelfde basismaten, andere buikomvang. */
+.bmi-world .bmi-example-title{font-size:24px;font-weight:600;letter-spacing:-.5px}
+.bmi-world .bmi-example-waist{font-size:20px;font-weight:600}
+.bmi-world .bmi-example-note{font-size:13px;fill:var(--muted)}
+@media(max-width:700px){.bmi-flow .bmi-world [data-world="1"] text{font-size:24px}.bmi-flow .bmi-world [data-world="1"] .bmi-example-title{font-size:27px}.bmi-flow .bmi-world [data-world="1"] .bmi-example-note{font-size:18px}}
+
+/* Inline begripsknop blijft tekst, ook binnen de meetkaart. */
+.bmi-page .term-explainer button{display:inline;width:auto;min-height:0;padding:0;border:0;border-bottom:1px dotted currentColor;border-radius:0;background:transparent;color:inherit;font:inherit;cursor:help}
+.bmi-page .term-explainer-popover{font-size:.92rem;letter-spacing:normal;text-align:left}
+
+/* Taille-instructie: grotere anatomische schets met ruimere compositie. */
+.bmi-page .bmi-waist .bmi-measure{grid-template-columns:140px 1fr;gap:24px}
+.bmi-page .bmi-waist .bmi-measure svg{width:140px;height:190px;padding:8px;border-radius:22px}
+@media(max-width:430px){.bmi-page .bmi-waist .bmi-measure{grid-template-columns:110px 1fr;gap:16px}.bmi-page .bmi-waist .bmi-measure svg{width:110px;height:165px;padding:4px}}
+
+/* Taille-uitkomst heeft een eigen verhaalscène, niet nogmaals in de meetkaart. */
+.bmi-flow [data-ratio-result]{display:none!important}
+
+/* Eigen taille-uitkomst: twee concrete maten op dezelfde schaal. */
+.bmi-world .waist-cm{font-size:54px;font-weight:600;letter-spacing:-2px}
+.bmi-world .waist-reference{font-size:34px;font-weight:500;letter-spacing:-1px}
+.bmi-world .waist-percent{font-size:26px;font-weight:600}
+.bmi-world .waist-footnote{font-size:14px;fill:var(--muted)}
+.bmi-waist-next{margin:24px 0;padding:20px 24px;border-left:3px solid var(--green);background:var(--green-soft);border-radius:0 18px 18px 0}
+.bmi-waist-next h3{font-size:1rem;margin:0 0 10px}
+.bmi-waist-next p{margin:0!important}
+@media(max-width:700px){.bmi-flow .bmi-world .waist-cm{font-size:54px}.bmi-flow .bmi-world .waist-reference{font-size:34px}.bmi-flow .bmi-world .waist-footnote{font-size:19px}.bmi-flow .bmi-world .waist-percent{font-size:28px}}
+
+/* Meten en uitkomst hebben ieder een eigen afbeelding. */
+.bmi-stage[data-scene="4"] [data-world="4"]{opacity:1;transform:none;visibility:visible}
+.bmi-world .waist-result-cm{font-size:72px;font-weight:600;letter-spacing:-3px}
+.bmi-world .waist-result-category{font-size:27px;font-weight:600}
+.bmi-world [data-world-waist-meaning]{font-size:18px}
+@media(max-width:700px){.bmi-flow .bmi-world .waist-result-cm{font-size:80px}.bmi-flow .bmi-world .waist-result-category{font-size:28px}.bmi-flow .bmi-world [data-world-waist-meaning]{font-size:23px}}
+/* Tekst uit een vorige scène mag niet door het nieuwe uitkomstbeeld heen schijnen. */
+.bmi-world [data-world]{transition:transform .6s}
+
+/* Waist outcome: same visual emphasis as the BMI result, within scene 04. */
+.bmi-flow [data-waist-value]{font-size:clamp(1.6rem,4vw,2.3rem);font-weight:700;line-height:1.3;color:var(--ink);font-variant-numeric:tabular-nums;margin:20px 0;padding:20px 0;border-block:1px solid var(--line)}
+
+/* Typografische hiërarchie: essentiële uitleg blijft op leesgrootte. */
+.bmi-flow .bmi-scene p,.bmi-flow .bmi-reading{font-size:1.125rem;line-height:1.65}
+.bmi-flow .bmi-reading h3{font-size:1.25rem;margin:28px 0 10px}
+.bmi-flow .bmi-waist .bmi-measure p{font-size:1rem;line-height:1.6}
+.bmi-flow .bmi-caption{font-size:.875rem;line-height:1.55}
+.bmi-flow .bmi-scene p.bmi-caption{font-size:.875rem}
+.bmi-flow .bmi-stage-label{font-size:.8rem;letter-spacing:.12em}
+.bmi-mobile-caption{display:none}
+@media(max-width:700px){
+ .bmi-flow .bmi-scene h2{font-size:1.65rem;line-height:1.2}
+ .bmi-flow .bmi-scene p,.bmi-flow .bmi-personal{font-size:1.0625rem}
+ .bmi-flow .bmi-stage{height:275px;box-sizing:border-box}
+ .bmi-flow .bmi-world{height:195px}
+ .bmi-flow .bmi-stage-label{font-size:.75rem}
+ .bmi-mobile-caption{display:block;margin:4px 0 0;font-size:.9375rem;line-height:1.3;text-align:center;font-weight:600;color:var(--ink)}
+ .bmi-flow .bmi-world [data-world="2"]>text,.bmi-flow .bmi-world [data-world-category],.bmi-flow .bmi-world [data-world-waist-category],.bmi-flow .bmi-world [data-world-waist-meaning],.bmi-flow .bmi-world [data-world-ratio-label],.bmi-flow .bmi-world [data-world="3"] text{display:none}
+ .bmi-flow .bmi-world [data-world="2"] [data-measuring-person]{transform:translate(-120px,-145px) scale(1.4)}
+ .bmi-flow .bmi-world [data-world="3"]{transform:scale(1.12);transform-origin:center}
+ .bmi-flow .bmi-world .world-value{font-size:100px}
+ .bmi-flow .bmi-world .waist-result-cm{font-size:100px}
+ .bmi-flow .bmi-world [data-world="1"]>text{display:none}
+ .bmi-flow .bmi-world [data-world="1"] .bmi-example-waist text{font-size:36px}
+ .bmi-flow .bmi-world [data-world="1"] .bmi-example-waist text:nth-child(odd){display:none}
+}
+.bmi-flow .bmi-scene [data-waist-value]{font-size:clamp(1.6rem,4vw,2.3rem);line-height:1.3}
+.bmi-flow .bmi-scene .bmi-waist .bmi-measure p{font-size:1rem;line-height:1.6}
+.bmi-flow .bmi-start .bmi-caption{font-size:.875rem}
+
+.bmi-stage[data-scene="5"] [data-world="5"]{visibility:visible;opacity:1;transform:none}
+.bmi-world .bmi-reading-visual-title{font-size:28px;font-weight:600}
+@media(max-width:700px){.bmi-flow .bmi-world [data-world="5"] text{display:none}}

@@ -39,12 +39,15 @@ function fingerprint(article, bytes) {
   const metadata = {id:article.id,title:article.title,summary:article.summary,url:article.url,date:article.date,audience:article.audience,topics:article.topics,project:article.project||null};
   return crypto.createHash('sha256').update(JSON.stringify(metadata)).update(bytes).digest('hex');
 }
-const matches = (a,s) => a.audience.some(x=>s.audiences.includes(x)) && (!(s.topics.length+s.projects.length) || a.topics.some(x=>s.topics.includes(x)) || s.projects.includes(a.project));
+const matches = (a,s) => a.audience.some(x=>s.audiences.includes(x)) &&
+  (!(s.topics.length+s.projects.length+(s.allTopics?.length||0)) ||
+   (s.allTopics?.length>0 && s.allTopics.every(x=>a.topics.includes(x))) ||
+   a.topics.some(x=>s.topics.includes(x)) || s.projects.includes(a.project));
 function select(config, content, pages, readFile) {
   const audiences=new Set(content.articles.flatMap(a=>a.audience)), topics=new Set(content.articles.flatMap(a=>a.topics)), projects=new Set(content.projects.map(p=>p.id));
   const ids=new Set();
   for (const s of config.streams) {
-    if (!/^[a-z0-9-]+$/.test(s.id) || ids.has(s.id) || !s.audiences.length || !s.audiences.every(x=>audiences.has(x)) || !s.topics.every(x=>topics.has(x)) || !s.projects.every(x=>projects.has(x))) fail('Ongeldige stroomconfiguratie.');
+    if (!/^[a-z0-9-]+$/.test(s.id) || ids.has(s.id) || !s.audiences.length || !s.audiences.every(x=>audiences.has(x)) || !s.topics.every(x=>topics.has(x)) || !s.projects.every(x=>projects.has(x)) || (s.allTopics!==undefined && (!Array.isArray(s.allTopics) || !s.allTopics.length || !s.allTopics.every(x=>topics.has(x))))) fail('Ongeldige stroomconfiguratie.');
     ids.add(s.id);
   }
   if (config.releases.length && (!config.startAt || !Number.isFinite(Date.parse(config.startAt)))) fail('Startgrens ontbreekt.');

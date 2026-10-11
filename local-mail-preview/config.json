@@ -55,6 +55,36 @@
       "projects": [
         "transmuraal-tilburg-cohort"
       ]
+    },
+    {
+      "id": "artrose-patienten",
+      "label": "Artrose, gewicht en bewegen · voor patiënten",
+      "audiences": [
+        "patienten"
+      ],
+      "topics": [],
+      "allTopics": [
+        "artrose",
+        "leefstijl"
+      ],
+      "projects": [
+        "transmuraal-tilburg-cohort"
+      ]
+    },
+    {
+      "id": "artrose-zorgprofessionals",
+      "label": "Artrose, gewicht en bewegen · voor zorgprofessionals",
+      "audiences": [
+        "zorgprofessionals"
+      ],
+      "topics": [],
+      "allTopics": [
+        "artrose",
+        "leefstijl"
+      ],
+      "projects": [
+        "transmuraal-tilburg-cohort"
+      ]
     }
   ],
   "releases": [],

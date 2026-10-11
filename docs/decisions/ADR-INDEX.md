@@ -17,6 +17,8 @@ Use this index to find the relevant architectural decision record before non-tri
 | ADR-0011 | Newsletter Storage And Bundling | Proposed | Niet gekozen: Matthijs wil geen extra diensten | Historische afweging; niet uitvoeren. Vervolg binnen Brevo, geen Neon |
 | ADR-0014 | Editorial Workspace | Accepted | Redactieomgeving, artikelbron, revisies, taken, agents/routines en versiegebonden goedkeuring | Werkpakket door Matthijs geaccepteerd op 2026-09-09; lokale pilot; publieke activering afzonderlijk |
 
+| [ADR-0016](ADR-0016-artrose-themaroute-en-nieuwsbrief.md) | Artrose-themaroute en onderwerpgerichte nieuwsbrief | Accepted | Themapagina, homepage, contextuele ingangen en twee expliciete nieuwsbriefkeuzes | Samenhangende eigenaarreview en publieke vrijgave door Matthijs op 11 oktober 2026; BMI afzonderlijk vrijgegeven |
+
 Status notes:
 
 Aanvullend besluit: [ADR-0013](ADR-0013-brevo-native-practical-scope.md) — native Brevo-route; Accepted op expliciet eigenaarbesluit. Vervangt [ADR-0012](ADR-0012-confirmation-existing-vercel.md) (Superseded). Geen eigen bevestigingsopslag; publieke vrijgave blijft open.

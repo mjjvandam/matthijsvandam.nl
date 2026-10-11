@@ -1895,7 +1895,7 @@
   renderHomepageArticles(archiveArticles.filter((article) => article.archive !== false && !article.hideFromHome));
   renderArticleFilters(archiveArticles);
   renderList("[data-content='projects-list']", projects, projectCard);
-  renderList("[data-content='home-projects']", projects.filter((project) => project.featured && project.id !== "transmuraal-tilburg-cohort").slice(0, 3), projectCard);
+  renderList("[data-content='home-projects']", projects.filter((project) => project.featured).slice(0, 3), projectCard);
   renderList("[data-content='professional-projects']", projects.filter((project) => project.featured).slice(0, 3), projectCard);
   renderList(
     "[data-content='professional-articles']",

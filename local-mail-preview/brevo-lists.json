@@ -5,7 +5,9 @@
     "patienten-voet-enkel": 5,
     "algemeen": 6,
     "tilburg-cohort": 7,
-    "tilburg-cohort-patienten": 8
+    "tilburg-cohort-patienten": 8,
+    "artrose-patienten": 13,
+    "artrose-zorgprofessionals": 14
   },
   "enabled": false,
   "templateId": 3,

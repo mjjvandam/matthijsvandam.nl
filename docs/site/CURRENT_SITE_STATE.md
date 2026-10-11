@@ -74,3 +74,7 @@ De goedgekeurde feedbackkaart is publiek op de bestaande pagina's. Zij verschijn
 De bestaande vormgeving is beschreven in `docs/site/DESIGN_SYSTEM.md`. De lokale voorbeeldpagina `docs/design-system/index.html` toont echte siteonderdelen; `components.json` en de gegenereerde `usage.json` leggen regels en afnemers vast. `tools/design_system.py` bouwt en controleert deze koppeling. De gewone sitekwaliteitscheck bewaakt de synchronisatie. Dit voegt geen livepagina of nieuwe medische/publicatiegoedkeuring toe.
 
 24 september 2026: expliciet vrijgegeven artrose-scrollverhaal geïntegreerd op artikelen.html, buiten de filters; homepagevoorproef vóór de vakgroep. Publicatievoorbereiding via afzonderlijke releasebranch op de actuele origin/main. Geen nieuwe URL of wijziging aan sitemap, robots of canonical.
+
+## Vrijgegeven artroseroute — 11 oktober 2026
+
+Matthijs heeft de themapagina, homepagevervanging en alle bijbehorende ingangen beoordeeld en voor publicatie vrijgegeven. De huidige BMI-tool is afzonderlijk inhoudelijk beoordeeld en vrijgegeven. Release vanaf origin/main b255554, met uitsluiting van andere lokale wijzigingen. Nieuwe routes: artrose-gewicht-bewegen.html en meer-dan-je-bmi.html. Publicatie- en livebewijs: docs/site/reviews/publicatie-artrose-gewicht-bewegen-2026-10-11.md.

@@ -1,0 +1,57 @@
+{
+  "status": "owner-approved-provider-configured-testing",
+  "topic": "artrose-gewicht-bewegen",
+  "label": "Artrose, gewicht en bewegen",
+  "provider": "Brevo native double opt-in",
+  "audiences": {
+    "patienten": {
+      "new_list_name": "Artrose, gewicht en bewegen · patiënten",
+      "list_id": 13
+    },
+    "zorgprofessionals": {
+      "new_list_name": "Artrose, gewicht en bewegen · zorgprofessionals",
+      "list_id": 14
+    }
+  },
+  "provider_form_action": "https://4f8d0bed.sibforms.com/serve/MUIFABb3Du-ocjOoXF66-CwdgSYgZQO3RV8GJRNy_rWtZdfBB_JxVlryLkRaarXxkd4N6sVAKoubNG5fgMD83sAasZh9c23BzF59INxQ6N1JqjCakmO5tTmZ6LbgXm0Lr4KYE3gChv6djaekNMMnVGMefdZFYkbpIwDqwInbzeVZeNWwOOCjPP9zHTfSkyfI9Qun-0GUftsDjS0Zwg==",
+  "selection": {
+    "audience_required": true,
+    "any_of": [
+      {
+        "all_topics": [
+          "artrose",
+          "leefstijl"
+        ]
+      },
+      {
+        "project": "transmuraal-tilburg-cohort"
+      }
+    ],
+    "distribution_approval_required": true
+  },
+  "existing_lists": {
+    "4": "Voet/enkel zorgprofessionals: behouden",
+    "5": "Voet/enkel patiënten: behouden",
+    "6": "Algemeen: behouden",
+    "7": "Cohort zorgprofessionals: niet verbreden of automatisch migreren",
+    "8": "Cohort patiënten: niet verbreden of automatisch migreren"
+  },
+  "consent": "Ik wil de nieuwsbrief over artrose, gewicht en bewegen ontvangen. Maximaal twaalf keer per jaar. Ik kan mij altijd uitschrijven.",
+  "post_submit_message": "Je ontvangt een e-mail om je inschrijving te bevestigen. Geen e-mail ontvangen? Kijk ook in je map met ongewenste e-mail (spam).",
+  "research_calls": {
+    "purpose": "Naast artikelen kan de nieuwsbrief oproepen bevatten voor patiënten die willen bijdragen aan onderzoek.",
+    "call_content": "Per oproep uitleg over het onderzoek en de afzonderlijke aanmeldroute; de ontvanger beslist per onderzoek of die wil meedoen.",
+    "participation_boundary": "Een nieuwsbriefinschrijving is geen onderzoeksaanmelding of toestemming voor deelname. Geen automatische deelnemerslijst, geschiktheidsbeoordeling of verzameling van gezondheidsgegevens via het nieuwsbriefkeuzeformulier.",
+    "release": "Een concrete onderzoeksoproep en aanmeldroute worden afzonderlijk inhoudelijk vrijgegeven vóór opname in een nieuwsbrief. Geen automatische werving of verzending."
+  },
+  "delivery": "Eén gecombineerde editie per bevestigd adres; overlap ontdubbelen; maximaal 12 nieuwsbrieven per voortschrijdend jaar over alle voorkeuren samen.",
+  "release_gates": [
+    "Native formulier en nieuwe lijst-IDs daadwerkelijk configureren na vrijgave; geen willekeurige IDs invullen.",
+    "Nieuwe voorkeur ook beschikbaar maken in Brevo profielwijziging en herkenbaar vermelden in bevestigingsmail.",
+    "Ontvangerselectie, bevestigingsstatus, ontdubbeling, uitschrijven en frequentie aantoonbaar testen.",
+    "Geen bestaande cohort-/algemeen-/voet-enkelvoorkeur veranderen.",
+    "Brevo-drafts en verzending blijven afzonderlijk vrij te geven."
+  ],
+  "provider_form_id": "6acbf3d00accffc5587b93e8",
+  "provider_field": "lists_27[]"
+}

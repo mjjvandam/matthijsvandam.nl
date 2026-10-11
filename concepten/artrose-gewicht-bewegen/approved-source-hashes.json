@@ -1,0 +1,14 @@
+{
+  "owner": "Matthijs van Dam",
+  "approved_on": "2026-10-11",
+  "source_sha256": {
+    "index.html": "d4f73e153a5e0ee7f7746ec128493d2bc216ac1233417c99658fc71b81ff58d9",
+    "module.css": "61f4b3b9c4e6e93c9bc7c1fe49d85ddc90b490e781367705e9a7ab92b63d4acf",
+    "logic.js": "3fbd08ec81622785460f41d61cafbf604a054f23f95d0b86b0252788aaea035a",
+    "terms.js": "ce0f02cd3d827750209032454e023eb3c090073ed46aca87dd07b61eda525831",
+    "module.js": "635a37494ae3e6eebeaea795ef36a674dfeb03131baad06806c1caadce7c4f6d",
+    "story.js": "a28caf90e1ccd60027da62189814163c4923c558e2fa550e41eea1a3734c1aa0",
+    "flow.js": "35a66e3abea37599806e33b160eea7093cf97074f9f974336f2c1455fafdb78c",
+    "hub.html": "fc8a8254b5a68181ba343af3187e180d38990b7ab14063f1889186b2ee362234"
+  }
+}

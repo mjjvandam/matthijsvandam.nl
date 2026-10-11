@@ -217,3 +217,7 @@ vóór de limiet van drie projecten. Het blijft in het projectoverzicht en bij p
 ADR-check 0001/0002/0004/0006: concrete eigenaaropdracht voor een extra projectuitlichting
 binnen bestaande onderzoeks- en regionale context. De hoofdroutes, hero en positionering
 blijven intact; geen nieuw paginatype, hoofdnarratief of ADR. Publieke vrijgave blijft open.
+
+## Artrose-hub en zelfstandige BMI-uitleg — ADR-0016
+
+De themapagina is een CollectionPage binnen de bestaande knie/artrose/leefstijlpijler; geen nieuwe hoofdnavigatie, zorgaanbod of patiëntportaal. Meer dan je BMI is een afzonderlijk goedgekeurde interactieve uitlegpagina, met teruglink en disclaimer in plaats van de volledige siteshell. Geen invoeropslag, analytics of koppeling van medische invoer aan nieuwsbriefinschrijving. Beide routes zijn op 11 oktober 2026 door Matthijs inhoudelijk vrijgegeven.
