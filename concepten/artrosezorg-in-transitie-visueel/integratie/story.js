@@ -2,9 +2,13 @@
 (() => {
   'use strict';
   const body = document.querySelector('[data-story-root]') || document.body;
+  const configElement = body.querySelector('#journey-data');
+  // The homepage uses a compact, static preview; only the full article carries
+  // the animation data and its SVG stage.
+  if (!configElement) return;
   const toggle = document.querySelector('#motion-toggle');
   const chapters=[...document.querySelectorAll('.journey-moment')];
-  const config=JSON.parse(document.querySelector('#journey-data').textContent);
+  const config=JSON.parse(configElement.textContent);
   const camera=document.querySelector('#world-camera');
   const traveller=document.querySelector('#traveller');
   const facing=document.querySelector('#traveller-facing');
