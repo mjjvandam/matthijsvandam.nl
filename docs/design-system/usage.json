@@ -3,7 +3,7 @@
   "catalogue_sources": {
     "docs/design-system/catalogue.js": "4e4fc72ad96574b8538187f3b2cd88851856de6fb3aaacbdec60fdaa790b4720",
     "docs/design-system/catalogue.css": "71b21f74acf3d686e873590f6c367f57856afed6ee3d8dc89049a95532875df8",
-    "docs/site/DESIGN_SYSTEM.md": "eec99de49442abcbab3f0e9f654b1b06d730f4c1ba7c48959e8c30994cca1e75"
+    "docs/site/DESIGN_SYSTEM.md": "7fcecbf3515c02ee231daa131e86abefd076c07a2b7d2fd07a4c36cd66c28ec1"
   },
   "components": [
     {
@@ -2324,7 +2324,7 @@
         "assets/bmi/story.js",
         "assets/bmi/flow.js"
       ],
-      "rule": "Beoordeelde zelfstandige BMI-uitleg met lokale invoer; geen analytics, feedback of gegevensopslag. Gedeelde calculatorbron onder assets/bmi. Teruglink naar thema en disclaimer verplicht; mobiel en reduced motion behouden tekstuele resultaten. Geen diagnostische uitkomst of behandeladvies. ADR-0016 Accepted.",
+      "rule": "Beoordeelde zelfstandige BMI-uitleg met lokale invoer; geen analytics, feedback of gegevensopslag. Gedeelde calculatorbron onder assets/bmi. Compacte bovenbalk met homepage-link en expliciete teruglink naar het thema; onderaan dezelfde-tab-terugknop en homepage-link, ook vóór berekenen zichtbaar. Navigatie gebruikt bestaande tokens, zichtbare focus en minimaal 44 px hoge klikdoelen; mobiel stapelen en afbreken zonder overloop. Disclaimer verplicht; mobiel en reduced motion behouden tekstuele resultaten. Geen diagnostische uitkomst of behandeladvies. ADR-0016 Accepted.",
       "pages": [
         {
           "path": "meer-dan-je-bmi.html",
@@ -2334,11 +2334,11 @@
       "fingerprints": {
         "assets/bmi/flow.js": "35a66e3abea37599806e33b160eea7093cf97074f9f974336f2c1455fafdb78c",
         "assets/bmi/logic.js": "3fbd08ec81622785460f41d61cafbf604a054f23f95d0b86b0252788aaea035a",
-        "assets/bmi/module.css": "61f4b3b9c4e6e93c9bc7c1fe49d85ddc90b490e781367705e9a7ab92b63d4acf",
+        "assets/bmi/module.css": "435012720e70a1b91e86ee0a612052b3f505460b7c3c588fb3cd3ce1282a3d54",
         "assets/bmi/module.js": "635a37494ae3e6eebeaea795ef36a674dfeb03131baad06806c1caadce7c4f6d",
         "assets/bmi/story.js": "a28caf90e1ccd60027da62189814163c4923c558e2fa550e41eea1a3734c1aa0",
         "assets/bmi/terms.js": "ce0f02cd3d827750209032454e023eb3c090073ed46aca87dd07b61eda525831",
-        "meer-dan-je-bmi.html": "8f54fe5887eeff707311264288e04f85a1be8931526c828a7bc40beea46a156e",
+        "meer-dan-je-bmi.html": "1e0894af0a3727f4f6a3e19b9cc0376d1afbbf0f29c1b2b1da44ff0608df66ed",
         "styles.css": "d4c42924fc7925633db524e5c8bd205d78fb1372e5d05ea61df0ab57df6ff9d6"
       }
     }

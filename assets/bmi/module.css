@@ -137,3 +137,14 @@ body{background:var(--paper);color:var(--ink);margin:0}.bmi-page{max-width:1120p
 .bmi-stage[data-scene="5"] [data-world="5"]{visibility:visible;opacity:1;transform:none}
 .bmi-world .bmi-reading-visual-title{font-size:28px;font-weight:600}
 @media(max-width:700px){.bmi-flow .bmi-world [data-world="5"] text{display:none}}
+
+/* Compacte websiteroute, uitsluitend voor de zelfstandige BMI-tool (ADR-0016). */
+.bmi-page .bmi-top{flex-wrap:wrap;padding-bottom:20px;border-bottom:1px solid var(--line)}
+.bmi-site-nav{display:flex;flex-direction:column;align-items:flex-start;gap:4px;min-width:0;flex:1 1 320px}
+.bmi-page .bmi-site-name{display:inline-flex;align-items:center;min-height:44px;font-family:Georgia,serif;font-size:1.4rem;text-decoration:none;color:var(--ink)}
+.bmi-home-label{font-family:var(--font-body, sans-serif);font-size:.85rem;margin-left:8px;color:var(--muted)}
+.bmi-page .bmi-return{display:flex;align-items:center;min-height:44px;line-height:1.5;text-underline-offset:4px}
+.bmi-bottom-nav{display:flex;flex-wrap:wrap;align-items:center;gap:12px 24px;margin:32px 0;padding:24px 0;border-block:1px solid var(--line)}
+.bmi-page a.bmi-link{box-sizing:border-box;max-width:100%;min-height:44px;line-height:1.5;text-decoration:none}
+.bmi-page .bmi-home-link{display:inline-flex;align-items:center;min-height:44px;text-underline-offset:4px}
+@media(max-width:700px){.bmi-page .bmi-top{gap:12px}.bmi-page .bmi-top button{font-size:.85rem}.bmi-bottom-nav{align-items:flex-start;flex-direction:column}}

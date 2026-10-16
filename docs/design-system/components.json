@@ -344,7 +344,7 @@
         "assets/bmi/story.js",
         "assets/bmi/flow.js"
       ],
-      "rule": "Beoordeelde zelfstandige BMI-uitleg met lokale invoer; geen analytics, feedback of gegevensopslag. Gedeelde calculatorbron onder assets/bmi. Teruglink naar thema en disclaimer verplicht; mobiel en reduced motion behouden tekstuele resultaten. Geen diagnostische uitkomst of behandeladvies. ADR-0016 Accepted."
+      "rule": "Beoordeelde zelfstandige BMI-uitleg met lokale invoer; geen analytics, feedback of gegevensopslag. Gedeelde calculatorbron onder assets/bmi. Compacte bovenbalk met homepage-link en expliciete teruglink naar het thema; onderaan dezelfde-tab-terugknop en homepage-link, ook vóór berekenen zichtbaar. Navigatie gebruikt bestaande tokens, zichtbare focus en minimaal 44 px hoge klikdoelen; mobiel stapelen en afbreken zonder overloop. Disclaimer verplicht; mobiel en reduced motion behouden tekstuele resultaten. Geen diagnostische uitkomst of behandeladvies. ADR-0016 Accepted."
     }
   ]
 }
